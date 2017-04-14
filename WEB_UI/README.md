@@ -20,9 +20,9 @@ If you want to quickly test it, you can follow the steps below:
 
 <h2>Steps:</h2>
 <ol>
-  <li>Install http-server module: npm install http-server-g</li>
-  <li>run the http server: http-server <path-to-files><br>
-     ex.: http-server . </li>
+  <li>Install http-server module: <code>npm install http-server -g</code></li>
+  <li>run the http server: <code>http-server <path-to-files></code><br>
+     <code>ex.: http-server . </code></li>
 </ol>
 
 This should start a node js web server on port 8081. Simply open a browser and go to
