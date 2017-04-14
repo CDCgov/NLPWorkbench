@@ -16,7 +16,7 @@ public abstract class NLPPipelineTasks {
         return "This is a test for  framework";
     }
 
-    @CrossOrigin(origins = "http://localhost:63342")
+    //@CrossOrigin(origins = "http://localhost:8081")
     @RequestMapping(value = "/sentences", method = RequestMethod.POST)
     @ResponseBody
     public ResponseEntity<String[]> splitSentences(@RequestBody String content) {
