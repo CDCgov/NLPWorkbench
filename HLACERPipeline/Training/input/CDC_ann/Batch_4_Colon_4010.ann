@@ -1,0 +1,129 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        863, 
+        877
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        699, 
+        722
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1059, 
+        1079
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        772, 
+        799
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        469, 
+        498
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        924, 
+        959
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1001, 
+        1027
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        832, 
+        840
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        841, 
+        862
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        811, 
+        816
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1039, 
+        1044
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        801, 
+        810
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1029, 
+        1038
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Methodist Medical Center (Oak Ridge)^44D0311996^CLIA|eMARCPlus|TN Cancer Registry|20170916000025||ORU^R01^ORU_R01|201709160000250001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-OT-005254^PathSys^44D0311996^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170901000000|||||||20170905000000|&Colon, Biopsy|1972733616^^^^^^MD^^CMS^D^^^NPI||||||20170906000000|||F||||||C18.2^Malignant neoplasm of ascending colon^I10|1497721872&&&K.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n\", ascending colon mass biopsy\": Received in formalin are 3 pieces of gray-white tissue ranging from 0.2 to 0.3 cm in greatest dimension. The specimen is submitted completely in cassette 1A. (JDA)\n\n\nPath report.relevant Hx\n\nHistory - Iron deficiency anemia, weight loss\n\n\nPath report.final diagnosis\n\nAscending colon mass biopsy:   Invasive poorly differentiated adenocarcinoma with surface ulceration.       See Comment.\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nAscending colon mass biopsy\n\n\nPath report.comments\n\nComments - The specimen will be submitted for microsatellite instability (MSI) testing with a separate report to follow. The case has been reviewed by Dr.  who concurs with the diagnosis.\n\n\n"
+}

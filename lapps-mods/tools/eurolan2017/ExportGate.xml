@@ -1,0 +1,19 @@
+<tool id='export.gate_1.0.0' name='Export GATE/XML' version='1.0.0'>
+  <description>export GATE/XML from a Data object</description>
+  <command>lsd $__tool_directory__/export.lsd $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='xml'/>
+  </outputs>
+  <help><![CDATA[
+  
+**What it does**
+
+
+Gate Developer is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+]]>
+</help>
+</tool>

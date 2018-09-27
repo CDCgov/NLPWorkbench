@@ -1,0 +1,25 @@
+<tool id="dev.stopwords.word" name="Stopwords" version="1.0.0">
+ <command>lsd $__tool_directory__/stopwords.lsd $__tool_directory__ $output</command>
+ <outputs>
+  <data format="txt" label="Stopwords" name="output"/>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**
+
+Creates a data set containing the most frequenly occuring English words (stopwords).
+
+.. class:: infomark
+
+The list of stopwords was obtained from https://www.ranks.nl/stopwords
+
+**TIPS**
+
+**License**
+
+Apache 2.0
+
+]]>
+ </help>
+</tool>

@@ -1,0 +1,65 @@
+<ttk>
+<text>
+
+	Pain at vaccination site. Started 11/8/15. Shot was given 9/30/15. Off and on ache, pain since that date
+	
+
+</text>
+<metadata>
+  <dct value="20180307"/>
+</metadata>
+<source_tags>
+  <xml begin="1" end="110" />
+  <TEXT begin="3" end="107" />
+  <EVENT begin="109" end="109" begin_1="46" class="OCCURRENCE" end_1="50" />
+</source_tags>
+<tarsqi_tags>
+  <docelement begin="3" end="107" id="d1" origin="DOCSTRUCTURE" type="paragraph" />
+  <s begin="3" end="28" id="s1" origin="PREPROCESSOR" />
+  <lex begin="3" end="7" id="l1" lemma="pain" origin="PREPROCESSOR" pos="NN" text="Pain" />
+  <ng begin="3" end="7" id="c1" origin="PREPROCESSOR" />
+  <lex begin="8" end="10" id="l2" lemma="at" origin="PREPROCESSOR" pos="IN" text="at" />
+  <ng begin="11" end="27" id="c2" origin="PREPROCESSOR" />
+  <lex begin="11" end="22" id="l3" lemma="vaccination" origin="PREPROCESSOR" pos="NN" text="vaccination" />
+  <lex begin="23" end="27" id="l4" lemma="site" origin="PREPROCESSOR" pos="NN" text="site" />
+  <lex begin="27" end="28" id="l5" lemma="." origin="PREPROCESSOR" pos="." text="." />
+  <s begin="29" end="45" id="s2" origin="PREPROCESSOR" />
+  <lex begin="29" end="36" id="l6" lemma="start" origin="PREPROCESSOR" pos="VBD" text="Started" />
+  <vg begin="29" end="36" id="c3" origin="PREPROCESSOR" />
+  <EVENT begin="29" end="36" aspect="NONE" class="OCCURRENCE" eid="e1" eiid="ei1" epos="VERB" form="Started" origin="EVITA" pos="VBD" tense="PAST" />
+  <lex begin="37" end="44" id="l7" lemma="@card@" origin="PREPROCESSOR" pos="CD" text="11/8/15" />
+  <TIMEX3 begin="37" end="44" origin="GUTIME" tid="t1" type="DATE" value="20151108" />
+  <ng begin="37" end="44" origin="GUTIME" />
+  <lex begin="44" end="45" id="l8" lemma="." origin="PREPROCESSOR" pos="." text="." />
+  <s begin="46" end="69" id="s3" origin="PREPROCESSOR" />
+  <lex begin="46" end="50" id="l9" lemma="shot" origin="PREPROCESSOR" pos="NN" text="Shot" />
+  <ng begin="46" end="50" id="c4" origin="PREPROCESSOR" />
+  <vg begin="51" end="60" id="c5" origin="PREPROCESSOR" />
+  <lex begin="51" end="54" id="l10" lemma="be" origin="PREPROCESSOR" pos="VBD" text="was" />
+  <lex begin="55" end="60" id="l11" lemma="give" origin="PREPROCESSOR" pos="VBN" text="given" />
+  <EVENT begin="55" end="60" aspect="NONE" class="OCCURRENCE" eid="e2" eiid="ei2" epos="VERB" form="given" origin="EVITA" pos="VBN" tense="PAST" />
+  <lex begin="61" end="68" id="l12" lemma="@card@" origin="PREPROCESSOR" pos="CD" text="9/30/15" />
+  <TIMEX3 begin="61" end="68" origin="GUTIME" tid="t2" type="DATE" value="20150930" />
+  <ng begin="61" end="68" origin="GUTIME" />
+  <lex begin="68" end="69" id="l13" lemma="." origin="PREPROCESSOR" pos="." text="." />
+  <s begin="70" end="107" id="s4" origin="PREPROCESSOR" />
+  <lex begin="70" end="73" id="l14" lemma="off" origin="PREPROCESSOR" pos="IN" text="Off" />
+  <lex begin="74" end="77" id="l15" lemma="and" origin="PREPROCESSOR" pos="CC" text="and" />
+  <lex begin="78" end="80" id="l16" lemma="on" origin="PREPROCESSOR" pos="IN" text="on" />
+  <lex begin="81" end="85" id="l17" lemma="ache" origin="PREPROCESSOR" pos="NN" text="ache" />
+  <ng begin="81" end="85" id="c6" origin="PREPROCESSOR" />
+  <lex begin="85" end="86" id="l18" lemma="," origin="PREPROCESSOR" pos="," text="," />
+  <lex begin="87" end="91" id="l19" lemma="pain" origin="PREPROCESSOR" pos="NN" text="pain" />
+  <ng begin="87" end="91" id="c7" origin="PREPROCESSOR" />
+  <lex begin="92" end="97" id="l20" lemma="since" origin="PREPROCESSOR" pos="IN" text="since" />
+  <ng begin="98" end="107" id="c8" origin="PREPROCESSOR" />
+  <lex begin="98" end="102" id="l21" lemma="that" origin="PREPROCESSOR" pos="DT" text="that" />
+  <lex begin="103" end="107" id="l22" lemma="date" origin="PREPROCESSOR" pos="NN" text="date" />
+  <TLINK lid="l1" origin="BLINKER-TimexLinking" relType="AFTER" relatedToTime="t2" timeID="t1" />
+  <TLINK eventInstanceID="ei1" lid="l2" origin="BLINKER-Type-1a" relType="IS_INCLUDED" relatedToTime="t1" />
+  <TLINK eventInstanceID="ei1" lid="l3" origin="BLINKER-Rule-3-19" relType="BEFORE" relatedToEventInstance="ei2" />
+  <TLINK eventInstanceID="ei2" lid="l4" origin="BLINKER-Type-1a" relType="IS_INCLUDED" relatedToTime="t2" />
+  <TLINK eventInstanceID="ei1" lid="l5" origin="CLASSIFIER-0.7385" relType="IS_INCLUDED" relatedToTime="t1" />
+  <TLINK eventInstanceID="ei2" lid="l6" origin="CLASSIFIER-0.7226" relType="IS_INCLUDED" relatedToTime="t2" />
+</tarsqi_tags>
+</ttk>

@@ -1,0 +1,169 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1256, 
+        1269
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1186, 
+        1200
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1270, 
+        1277
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1007, 
+        1030
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1446, 
+        1466
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1077, 
+        1104
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1281, 
+        1316
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        528, 
+        557
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1358, 
+        1384
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1160, 
+        1185
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1109, 
+        1114
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1219, 
+        1224
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1117, 
+        1124
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1389, 
+        1396
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1106, 
+        1107
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1216, 
+        1217
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1386, 
+        1387
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1422, 
+        1423
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^18D1004797^CLIA|eMARCPlus|KY Cancer Registry|20170922031609||ORU^R01^ORU_R01|201709220316090001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-TJ-005126^PathSys^18D1004797^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170908000000|||||||20170908000000|&Colon, Biopsy, Polyp, Colorectal|1407850134^ ^^^^^^^CMS^D^^^NPI||||||20170912000000|||F||||||C18.7^Malignant neoplasm of sigmoid colon^I10~D12.5^Benign neoplasm of sigmoid colon^I10|& & &R.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled with the patient's name \"\" are 2 specimens. 1. First labeled \"sigmoid mass biopsy 50 to 55 cm\" and consists of 4 tan fragments of tissue measuring up to 0.2 cm entirely submitted as 1. 2. Second specimen labeled \"25 cm colon polyp\" and consists of multiple reddish- pink polypoid fragments of tissue the largest measures up to 0.4 cm. The largest is bisected. The specimen is entirely submitted in a single cassette.\n\n\nPath report.relevant Hx\n\nHistory - Sigmoid colon polyp, colon mass.\n\n\nPath report.final diagnosis\n\n1. Colon, \"sigmoid mass biopsy 50-55 cm\", biopsy:     Moderately differentiated adenocarcinoma (see comment). 2. Colon, \"polyp at 25 cm\", biopsy:     Tubulovillous adenoma.\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Sigmoid mass biopsy 50 to 55 cm. 2. 25 cm colon polyp.\n\n\nPath report.comments\n\nComments - Results were discussed with Pam Warf in Dr. ' office by Dr. at 12:15 p.m. on 09/12/2017. Colon cancer testing algorithm will be performed on the concurrent colon resection case (17-TJ-5141).\n\n\n"
+}

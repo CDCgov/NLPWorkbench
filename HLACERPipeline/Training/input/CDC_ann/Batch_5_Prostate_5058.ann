@@ -1,0 +1,455 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2389, 
+        2403
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2709, 
+        2723
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2886, 
+        2895
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3317, 
+        3326
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3342, 
+        3365
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3777, 
+        3797
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2311, 
+        2338
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2158, 
+        2163
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2187, 
+        2192
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2215, 
+        2220
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2244, 
+        2248
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2272, 
+        2276
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        588, 
+        617
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2112, 
+        2138
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3043, 
+        3066
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3125, 
+        3148
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2870, 
+        2885
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3301, 
+        3316
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2410, 
+        2417
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2730, 
+        2737
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2430, 
+        2431
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2750, 
+        2751
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2169, 
+        2177
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2197, 
+        2205
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2226, 
+        2234
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2254, 
+        2262
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2281, 
+        2289
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2379, 
+        2388
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2548, 
+        2557
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2699, 
+        2708
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2860, 
+        2869
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3025, 
+        3041
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3107, 
+        3123
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3197, 
+        3206
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3291, 
+        3300
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2164, 
+        2168
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2193, 
+        2196
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2221, 
+        2225
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2249, 
+        2253
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2277, 
+        2280
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2299, 
+        2308
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2361, 
+        2371
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2682, 
+        2691
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3007, 
+        3017
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3090, 
+        3099
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3171, 
+        3179
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3263, 
+        3272
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2340, 
+        2342
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2661, 
+        2663
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2986, 
+        2988
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3069, 
+        3071
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3150, 
+        3152
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3242, 
+        3244
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160505195300|98898CCCE97AC4B6CF7641F56D5E350881532568|ORU^R01|9999999999999|D|2.5|\nPID|1||H9999999^^^^CMR^HOSPITAL 10&9999&MOH~^^^^RMR^HOSPITAL 10&9999&MOH~H9999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&MH&ON^^^^JHN||XXXXXX^XXXXXX^XXXXXX||99999999|M|||XX9-999 XXXXXXXXX XXXXX^^XXXXXXXX^XX^X9X 9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||S16-7446|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604071030|||^XXXXXXXX^XXXX||||201604071312||^XXXXXXXX^XXXX||||N||201605051953||8000|F|||||||99999^XXXXXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nA. PROSTATE BIOPSY - RIGHT BASE: \nThe specimen is received in formalin and labeled with the patient's name and prostate right base. It contains 4 cores of tissue, measuring 0.8-1.2 cm in maximum dimension. It is submitted in toto in block A1.\n\nB. PROSTATE BIOPSY - RIGHT MID: \nThe specimen is received in formalin and labeled with the patient's name and prostate right mid. It contains 3 fragmented cores of tissue, measuring 0.5-1.5 cm in maximum dimension. It is submitted in toto in block B1.\n\nC. PROSTATE BIOPSY - RIGHT APEX: \nThe specimen is received in formalin and labeled with the patient's name and prostate right apex. It contains 2 cores of tissue, measuring 1.0 and 1.8 cm in maximum dimension. It is submitted in toto in block C1.\n\nD. PROSTATE BIOPSY - LEFT BASE: \nThe specimen is received in formalin and labeled with the patient's name and prostate left base. It contains 2 cores of tissue, measuring 0.7 cm and 1.0 cm in maximum dimension. It is submitted in toto in block D1.\n\nE. PROSTATE BIOPSY - LEFT MID: \nThe specimen is received in formalin and labeled with the patient's name and prostate left mid. It contains 2 cores of tissue, measuring 0.8 cm and 0.9 cm in maximum dimension. It is submitted in toto in block E1.\n\nF. PROSTATE BIOPSY - LEFT APEX: \nThe specimen is received in formalin and labeled with the patient's name and prostate left apex. It contains 2 cores of tissue, measuring 0.5 cm and 0.7 cm in maximum dimension. It is submitted in toto in block F1.\n\n\n\n\nPath report.site of origin\n\nProstate Biopsy - Right Base\nProstate Biopsy - Right Mid\nProstate Biopsy - Right Apex\nProstate Biopsy - Left Base\nProstate Biopsy - Left Mid\nProstate Biopsy - Left Apex\n\n\nPath report.final diagnosis\n\nA. PROSTATE BIOPSY - RIGHT BASE: \n   - PROSTATIC ADENOCARCINOMA, NOS, GLEASON GRADE 3+3 = 6/10, PRESENT IN 2/4 FRAGMENTED CORES, INVOLVING APPROXIMATELY LESS THAN 5% OF THE TOTAL SURFACE AREA\n   - HIGH-GRADE PROSTATIC INTRAEPITHELIAL NEOPLASIA (HGPIN)\n   - NEGATIVE FOR PERINEURAL INVASION AND EXTRA PROSTATIC EXTENSION\n\nB. PROSTATE BIOPSY - RIGHT MID: \n   - PROSTATIC ADENOCARCINOMA, NOS, GLEASON GRADE 3+4 = 7/10, PRESENT IN 1/3 FRAGMENTED CORES, INVOLVING APPROXIMATELY 20 % OF THE TOTAL SURFACE AREA\n   - HIGH GRADE PROSTATIC INTRAEPITHELIAL NEOPLASIA (HGPIN)\n   - POSITIVE FOR PERINEURAL INVASION\n   - NEGATIVE FOR EXTRAPROSTATIC EXTENSION\n\nC. PROSTATE BIOPSY - RIGHT APEX: \n   - PROSTATIC TISSUE; NEGATIVE FOR MALIGNANCY\n \nD. PROSTATE BIOPSY - LEFT BASE: \n   - PROSTATIC TISSUE; NEGATIVE FOR MALIGNANCY\n\nE. PROSTATE BIOPSY - LEFT MID: \n   -HIGH GRADE PROSTATIC INTRAEPITHELIAL NEOPLASIA (HGPIN)\n\nF. PROSTATE BIOPSY - LEFT APEX: \n   - HIGH GRADE PROSTATIC INTRAEPITHELIAL NEOPLASIA (HGPIN)\n   \n\n\n\nPath report.relevant Hx\n\nStandard Biopsy (12 cores) Yes\nPSA: 1.99\nClinical T Stage: T2b (r site nodule)\n5-Alpha Inhibitor: Yes\nOther Relevant Clinical Information: R. base suspicious for cancer, please do extra samples of right base. \nPrevious Biopsy: Not provided. \nPrior Prostate XRT: Not provided. \nProstate Measurements:\n   SAG: 4.6 cm\n   AP: 3.5 cm\n   TRANS: 4.8 cm\n   Prostate Volume: 39.7 cc\n   PSA Density: Not provided. \n \n\n\n\nPath report.comments\n\nDiagnosis of adenocarcinoma in blocks A1, and B1 is confirmed by tumor cells showing racemase positivity with no obvious basal cell lining by p63\n\n\n\n"
+}

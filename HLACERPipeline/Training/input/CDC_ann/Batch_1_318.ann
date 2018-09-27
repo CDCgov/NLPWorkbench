@@ -1,0 +1,143 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1016, 
+        1022
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1023, 
+        1032
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1362, 
+        1378
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1342, 
+        1350
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        990, 
+        1005
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1285, 
+        1289
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        732, 
+        747
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1265, 
+        1283
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1007, 
+        1015
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1034, 
+        1059
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1060, 
+        1067
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1290, 
+        1296
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1298, 
+        1307
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1330, 
+        1338
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&| Cancer Reporting|BioReference Laboratories, Inc^31D0652945^CLIA|||20170508114355||ORU^R01|201705081143550318|P|2.3.1\n\nPID|1||173881798206276^^^^MR^BioReference Laboratories, Inc&31D0652945&CLIA~999999999^^^^SS^BioReference Laboratories, Inc&31D0652945&CLIA||Test^Test^Test||18991230|F|||475 Market Str^^Elmwood Park^NJ^07407||||||||999999999\n\nORC|RE||||||||||||||||||||Bioreference^^999999999^^^CLIA|475 Market Str^^Elmwood Park^NJ^07407|^^^^^800^29-5227|475 Market Str^^Elmwood Park^NJ^07407\n\nOBR|1||173881798|22^Surgical Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\n\n\n\n\n\n\n\n\nGross Pathology\n\nSpecimen is received in formalin, labeled as \"L Breast Nodule @ 2 o'clock\" with the patient's name and consists of 6 pieces of soft pink tissue measuring from 0.6 X 0.5 X 0.2 to 2.0 X 0.2 X 0.2 cm. All submitted (2 Blocks, 3 pieces each).\n\n\nFinal Diagnosis\n\nInvasive ductal carcinoma. Moderately-differentiated/Grade 2 (Nottingham cumulative score 7/9, tubules - 2/3, nuclear grade - 3/3, mitoses - 2/3).  Lymphovascular invasion not identified.  Immunohistochemical staining for ER, PR and Her-2/neu will follow.\n\n\nNature of Specimen\n\nLeft Breast, 2 o'clock, Nodule, core Biopsy (Sample 1)\n\n\nComments\n\nComment\n\n\nClinical History\n\nClinicalInformation\n\n\n"
+}

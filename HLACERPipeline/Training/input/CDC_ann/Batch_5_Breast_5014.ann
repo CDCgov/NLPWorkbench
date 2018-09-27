@@ -1,0 +1,159 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1321, 
+        1327
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1328, 
+        1337
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1071, 
+        1094
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2303, 
+        2311
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1212, 
+        1239
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1241, 
+        1245
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1538, 
+        1542
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        580, 
+        609
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1552, 
+        1587
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1468, 
+        1494
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1312, 
+        1320
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1290, 
+        1311
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1246, 
+        1252
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1543, 
+        1549
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1274, 
+        1289
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1535, 
+        1536
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3^9999^MOH|PIMS|CCO|201605031102|73B75D2762D5D3EE59B31DEFA6A574F3EA564874|ORU^R01|WRH20160503110243088|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 3&9999&MOH~999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&&ON^^^^JHN||XXXXXX^XXXXXXX||99999999|F|||9999 XXXXX XXXXXX XXXX XX^^XXXXXXX^XX^X9X9X9^999||9999999999^^ON|||||6124140291^^ON||||||||||||N|\nOBR|1||WS16-55073|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604281130|||15879^XXXXX^X.||nurse^^^^^^^L||201604281136||||||||201605031102||AP^WRH|F||^^201604281130|||||99999^XXXXXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nPatient Identification Verified\nA) Specimen: left breast\nThe specimen is designated as left breast and consists of two\ncylindrical portions of yellow-tan soft tissue, both 1.5 cm in length,\nboth with an average diameter of 0.2 cm. Also received is a scanty\nfragment.\nCassette Summary - All tissue is embedded in one cassette.\nIschemic Time: Less than 1 hour.\nFixation Time: 29.5 hours.\nBio-markers may be affected where ischemic time exceeds one hour.\nSM/ab\n\n\nPath report.relevant Hx\n\nCLINICAL Impression as provided - Query fibroadenoma, query PASH; US\n guided core biopsy; palpable lump x6 weeks.\n\n\nPath report.final diagnosis\n\nLeft breast, needle core biopsy: Compatible with poorly differentiated\ninvasive ductal carcinoma with a prominent inflammatory cell infiltrate\n(see description and comments).\nCONSULTATION: Internal IHL Pathology Team Review.\n\n\nPath report.site of origin\n\nTime specimen placed in formalin: 1130\nA) left breast\n\n\nPath report.microscopic observation\n\nPatient Identification Verified\nThe sections consist of two cores of breast tissue extensively\ninfiltrated by highly atypical epithelioid cells arranged in a\ntrabecular and irregular sheet like pattern. The tumour cells are\nassociated with an extensive predominantly lymphoplasmacytic\ninflammatory cell infiltrate. The neoplastic cells are polygonal and\nhave moderate amounts of amphophilic cytoplasm with round to oval ves\nicular to hyperchromatic nuclei many of which display nucleoli.\nMitotic activity is identified within the neoplastic cell proliferation\nwith the presence of atypical division figures. Benign breast tissue\nincluding breast ducts are identified towards one end of both core\nbiopsy specimens.\nCOMMENTS\nSeveral immunostains are performed. The lesional cells strongly express\npancytokeratin AE1/3 and E-cadherin and have a high proliferative\nactivity index (growth fraction) on Ki67 (Mib-1) labeling. There is lack\nof a myoepithelial cell layer on staining for heavy chain myosin and p63.\nThe morphologic and immunophenotypic findings are compatible with a\ndiagnosis of poorly differentiated invasive ductal carcinoma with a\nprominent stromal inflammatory cell infiltrate. Estrogen and\nprogesterone receptors including Her2/neu status will be evaluated by\nimmunohistochemistry and reported at a later date. The case has been\npeer reviewed by another member of the department who concurs with the\nabove interpretation and diagnostic opinion.\nPAA/mn\n\nDictation Number: 599304\n\n\n"
+}

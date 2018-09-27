@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Workbench Overview</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li class="active">Steps to Develop a Clinical NLP Solution</li>
+            </ol>
+            <h1>Steps to Develop a Clinical NLP Solution</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+
+            <p>There are a number of approaches to developing an NLP solution. Each has strengths and weaknesses.</p>
+
+            <h2>Develop a Rule-based Solution</h2>
+            <p>Brief, summary level description needed here.</p>
+
+
+            <h2>Develop a Machine Learning Solution</h2>
+            <p>The machine learning approach consists of four major stages.</p>
+
+            <ol>
+                <li>Preparing a gold standard of annotations of text for the semantic entities that need to be computed
+                    in the production system
+                </li>
+                <li>Developing a NLP processing pipeline that computes, for each word in the gold standard texts, a set
+                    of features (aka attributes)
+                </li>
+                <li>Passing the list of words and their features in a BIO file to the machine learner which then trains
+                    a Language Model. The Language Model is a statistical representation of the words in the semantic
+                    classes and their surrounding context.
+                </li>
+                <li>Testing the LM against the gold standard to learn where it makes mistakes and then repeating
+                    iteratively corrections to the modelling process until the results reach an acceptable level. That
+                    level will be determined by the use case for the production system.
+                </li>
+            </ol>
+
+            <p><a href="machine-learning-solution.html">Learn More</a></p>
+
+            <h2>Develop a Hybrid Solution</h2>
+            <p>Brief, summary level description needed here.</p>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div w3-include-html="includes/workbench-support.html"></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+<!-- //footer -->
+<!--//main content start-->
+
+<!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<tool id="weblicht.stanford.splitter_1.0.0" name="Weblicht Stanford Parser v1.0.0" version="1.0.0">
+ <description>
+  Stanford Parser (Weblicht)
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_vassar.lsd weblicht.stanford.parser_1.0.0 $input $output
+ </command>
+ <inputs>
+  <param format="tcf" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="tcf" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+Stanford Parser
+
+**License**
+
+Stanford CoreNLP is licensed under the `GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.
+
+]]>
+ </help>
+</tool>

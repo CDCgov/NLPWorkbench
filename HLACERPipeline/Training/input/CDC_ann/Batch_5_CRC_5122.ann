@@ -1,0 +1,117 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1493, 
+        1500
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1450, 
+        1464
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1501, 
+        1508
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1551, 
+        1574
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1380, 
+        1407
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        570, 
+        599
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1301, 
+        1327
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1428, 
+        1433
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1420, 
+        1427
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1469, 
+        1475
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1409, 
+        1411
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1465, 
+        1467
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 12^9999^MOH|PIMS|CCO|20160507045551|F4BA82F30307815B81EE4078811B0FCCF2116E04|ORU^R01|9999999999999|P|2.5||||||||||\nPID|1||V999999999^^^^CMR^HOSPITAL 12&9999&MOH~^^^^RMR^&MOH~V999999999^^^^MRN^HOSPITAL 12&9999&MOH~9999999999&EM&ON^^^^JHN||XXXXXXXXXX^XXXXXXXX^XXX||99999999|F|||99 XXXXXXX XXXXXX^^XXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S-8990-16|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160505|||67177^XXXXX^XXXX XXXXXX XXXXXX^^^^||||||||||||20160506|||F|||||||99999^XXXXXXX^XXX XXXXXXXXXX^^^^XX XXXXX||\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in 2 parts.\nA. The specimen, received in formalin, labeled with the patient's identification, Vantage\ntag and \"A. biopsy mass distal sigmoid\", consists of 8 fragments of soft tan tissue (1-3\nmm).\nEntirely submitted: A1-A2 (4 pieces each).\nB. The specimen, received in formalin, labeled with the patient's identification, Vantage\ntag and \"B. polyp rectum\", consists of one slightly torn possible polyp (0.5 x 0.3 x 0.2 cm)\nand 7 fragments of soft tan tissue (0.1-2.0 cm; largest fragment: 2.0 x 0.6 x 0.1 cm).\nEntirely submitted:\nB1  one possible polyp, bisected\nB2  6 possible tissue fragments\nB3  largest possible tissue fragment, bisected longitudinally\nCROS May 5, 2016\n\n\nPath report.site of origin\n\nBIOPSY BX MASS DISTAL SIGMOID\nPOLYP POLYP RECTUM\n\n\nPath report.final diagnosis\n\nA.  DISTAL SIGMOID COLON MASS, BIOPSY\n(  ADENOCARCINOMA\nB.  RECTAL POLYP, BIOPSY\n(  TUBULAR ADENOMA WITH AT LEAST HIGH GRADE DYSPLASIA\n5/ew\n\n\nPath report.relevant Hx\n\nABDOMINAL PAIN, HEMATOCHEZIA, DIARRHEA\n\n\n"
+}

@@ -1,0 +1,10 @@
+<tool id='opennlp.splitter' name='OpenNLP Splitter' version='2.0.0'>
+  <description>OpenNLP Splitter</description>
+  <command interpreter='lsd'>../lapps_common/invoke_brandeis.lsd opennlp.splitter_2.0.1 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+</tool>

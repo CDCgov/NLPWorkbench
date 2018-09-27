@@ -1,0 +1,101 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1105, 
+        1119
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1120, 
+        1129
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1132, 
+        1155
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1038, 
+        1065
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        723, 
+        752
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1194, 
+        1229
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        998, 
+        1024
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1067, 
+        1072
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1026, 
+        1031
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1074, 
+        1079
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160602095116|3E18C547BF5DED0B84DE9E9D925F997EA5ACD161|ORU^R01|99999999999999999999|P|2.5|\nPID|1||OM99999999^^^^CMR^HOSPITAL 9&9999&MOH~OM99999999^^^^^HOSPITAL 9&9999&MOH~OM99999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&YR&ON^^^^JHN||XXXXXXXX^XXXXXX||99999999|M||AR|999-9999 XXXXX XXXXXXX^^XXXXXXXXXX^XX^X9X 9X9^999||9999999999^YR^OHIN|||||9731979259^YR^OHIN||||||||||||N|\nOBR|1||MHS1606409|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160527155000|||66619^XXXXXXX^XXXXXX XXXXXX^^^^XX||||20160527161550|CECUM,COL|999999^XXXXXXX^XXXXXX XXXXXX^^^^XX||||N|20082009|20160602095117|||F|||||||99999^XXXXXXX XXXXXXXX^XXXXXXX^^^^, XX, XXXXX|\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in a container labelled with the patient's name, who has the initials \"MJ\" and the specimen site \"cecum\".\nNumber of pieces: Nine\nDimensions: 0.1-0.3 cm\nOther:  Nil\n1A, 1B-in toto\nDKC   2016-05-30   TOH General Campus\n\n\nPath report.site of origin\n\nCECUM,COL\n\n\nPath report.final diagnosis\n\nColon, cecum, colonoscopy: High-grade neuroendocrine carcinoma\n\n\nPath report.relevant Hx\n\nCECUM. LOOKS LIKE A\nSMALL NEOPLASM\n\n\nPath report.microscopic observation\n\nSections show several fragments of colonic mucosa. There is a malignant neoplasm that is characterized by nests and anastomosing sheets of neoplastic cells with neuroendocrine features, without formation of true glands. Prominent mitotic activity and apoptotic activity is noted. The tumor is located in the lamina propria and the muscularis mucosa, and possibly beyond, however it is difficult to determine whether the submucosa has been sampled. There is no lymph-vascular invasion identified.\nThe features are suggestive of a high-grade neuroendocrine carcinoma.\nImmunostains support this interpretation, with strong diffuse positivity for chromogranin A and synaptophysin. There is negativity for CK20, CK7 and CD57. Ki67 demonstrates more than 80% nuclear staining in the tumor.\nAs part of the quality assurance program at the Department of Pathology of the Montfort HOSPITAL, select slides were shared with Dr. X, who concurs with the above interpretation.\n\n\n"
+}

@@ -1,0 +1,30 @@
+<tool id="deiis.scorer.ngram" name="NGram Scorer" version="1.0.0">
+    <description>assigns a score to an n-gram.</description>
+    <command>lsd $__tool_directory__/ngram-scorer.lsd $type $input $output</command>
+    <inputs>
+        <param name="input" type="data" format="lif"/>
+        <param name="type" type="select">
+        	<option value="UNIGRAM">Unigrams</option>
+        	<option value="BIGRAM">Bigrams</option>
+        	<option value="TRIGRAM">Trigrams</option>
+        </param>
+    </inputs>
+    <outputs>
+        <data name="output" format="lif" label="Scores"/>
+    </outputs>
+    <help><![CDATA[
+Assigns a score to a candidate sentence based on the number of NGrams the candidate has with the question.
+
+Required Annotations
+--------------------
+
+One of:
+
+* http://deiis.lti.cs.cmu.edu/Unigram
+* http://deiis.lti.cs.cmu.edu/Bigram
+* http://deiis.lti.cs.cmu.edu/Trigram
+
+
+]]>
+    </help>
+</tool>

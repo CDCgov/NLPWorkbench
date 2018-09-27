@@ -1,0 +1,13 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File input = new File(args[0])
+String type = args[1]
+
+DataContainer data = Serializer.parse(input.text, DataContainer)
+Container container = data.payload
+List<View> views = container.findViewsThatContain(type)
+//views.each { container.addView(it) }
+if (views && views.size() > 0) {
+    container.veiws = views
+}
+output.text = data.asJson()

@@ -1,0 +1,47 @@
+<tool id="opennlp.parser" name="OpenNLP Constituency Parser" version="2.0.3">
+ 
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd opennlp.parser_2.0.3 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+ <![CDATA[
+
+**What it does**
+
+Performs a constituency parse of a text in a LIF container using 
+the `OpenNLP <https://opennlp.apache.org>`_ parser 
+(see the `OpenNLP -- Parser Tutorial <https://www.tutorialspoint.com/opennlp/opennlp_parsing_the_sentences.htm>`_ for more information). 
+
+
+**Required annotations**
+
+* `Sentence <http://vocab.lappsgrid.org/Sentence.html>`_ (LIF)
+
+**Generated Annotations**
+
+A LIF document containing:  
+  
+1. `PhraseStructure <http://vocab.lappsgrid.org/PhraseStructure.html>`_ annotations
+#. `Constituent <http://vocab.lappsgrid.org/Constituent.html>`_ annotations)
+
+.. class:: infomark
+
+The parse tree can be visualized with the Brat visualizer tool.
+
+  
+  
+  
+**License**
+
+Apache OpenNLP is licensed under `the Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>`_
+]]>
+ </help>
+</tool>

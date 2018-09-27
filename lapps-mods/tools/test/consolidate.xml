@@ -1,0 +1,11 @@
+<tool id="test.consolidate" name="Consolidate Views" version="1.0.0">
+  <description>Combines all annotations into a single view.</description>
+  <command interpreter="lsd">consolidate.lsd $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="lif"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="lif" label="Combined Views"/>
+  </outputs>
+  <help>A test component</help>
+</tool>

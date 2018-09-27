@@ -1,0 +1,193 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1215, 
+        1221
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1187, 
+        1196
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1016, 
+        1039
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2242, 
+        2262
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1071, 
+        1098
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1108, 
+        1113
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2146, 
+        2151
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        566, 
+        595
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2022, 
+        2057
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2099, 
+        2125
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1170, 
+        1178
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1224, 
+        1258
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1100, 
+        1106
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1179, 
+        1186
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2152, 
+        2158
+      ]
+    }
+  ], 
+  "Relative Distance (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1128, 
+        1132
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2138, 
+        2144
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1114, 
+        1126
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2127, 
+        2136
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1432, 
+        1464
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1018102^CLIA|eMARCPlus|TN Cancer Registry|20170917000043||ORU^R01^ORU_R01|201709170000430001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-CO-001726^PathSys^44D1018102^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170906000000|||||||20170906000000|&Breast, Stereotactic biopsy|1376690263^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C50.811^Malignant neoplasm of overlapping sites of right female breast^I10~Z17.1^Estrogen receptor negative status [ER-]^I10|1629211198&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \", right breast\" and consists of multiple yellow fibrofatty core biopsies measuring 0.5 cm and 0.7 cm in length and averaging 0.5 cm in diameter. The specimen is inked with safranin and submitted entirely in cassette 1A, M/1. Also in the specimen container is a 3.0 x 0.7 x 0.5 cm aggregate of yellow tissue fragments. The specimen is filtered and entirely submitted in cassette 1B, M/1.\n\n\nPath report.relevant Hx\n\nHistory - Right breast mass\n\n\nPath report.final diagnosis\n\nBreast, right at 6-o'clock, 2 cm from the nipple, Mammotome biopsy:   Invasive mammary carcinoma, no special type (ductal), high combined     histologic grade, high proliferative rate, measuring at least 5 mm in greatest     extent.   Calcifications associated with invasive carcinoma.   No definite in situ component identified.\n\n\nPath report.supplemental reports\n\nHormone Receptor report: Invasive tumor cell nuclei (from block 1B) are negative for both estrogen and progesterone receptor. Controlled immunohistochemical stain for HER-2 is performed and shows the invasive tumor cells are negative. Fluorescence in-situ hybridization analysis for possible HER-2 amplification is pending and will be reported separately. ## End of auxiliary report ## Fish Report: FISH - NEGATIVE for HER2 oncogene amplification by FISH analysis  NEGATIVE for chromosome 17 polysomy by FISH analysis       ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n6-o'clock, 2 cmfn, right breast macrolobulated hypoechoic mass with int vascularity measuring 1.1 x 1.2 x 0.9 cm\n\n\nPath report.comments\n\nComments - Preliminary findings were communicated to Dr. 's nurse at 3:00 p.m. on 9/7/2017. Ancillary hormone receptor studies are pending and will be reported separately as an addendum. FISH Comments - The HER2 FISH assay (Abbott Molecular/Vysis, Inc.) did not reveal amplification of the HER2 oncogene. A ratio of HER-2 gene signals to the centromeric control probe of chromosome 17 (CEP 17) signals was 1.02 and a Her2 copy number of 2.08, (ratio less than 2.0 and Her2 copy number <4), indicating absence of amplification. There was no evidence of polysomy/polyploidy or genetic heterogeneity. Clinical correlation is recommended.    A ratio less than 2.0 and Her2 copy number less than 4 indicates absence of amplification.  A ratio less than 2.0 and Her2 copy number greater or equal to 4 and less than 6 indicates an equivocal value and per ASCO/CAP guidelines, requires reflex to another (IHC for Her2) test.  A ratio greater than or equal to 2.0 or average Her2 copy number greater or equal to 6 indicates gene amplification.    Regions of invasive tumor were defined by a pathologist. The tumor was fixed in formalin (recommended 6-72hrs). Tumor fixed outside the recommended fixation time should be interpreted with caution. Controls were performed and provided the anticipated results. This case has been reviewed by at least 2 observers.\n\n\n"
+}

@@ -1,0 +1,821 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2850, 
+        2864
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3134, 
+        3148
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2330, 
+        2353
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2355, 
+        2371
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3865, 
+        3885
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2388, 
+        2415
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2417, 
+        2427
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        546, 
+        575
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        577, 
+        594
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3369, 
+        3395
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3397, 
+        3415
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2454, 
+        2479
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2508, 
+        2533
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2562, 
+        2587
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2648, 
+        2673
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2702, 
+        2727
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2756, 
+        2781
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2810, 
+        2835
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3040, 
+        3065
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3094, 
+        3119
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3340, 
+        3365
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2430, 
+        2436
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2484, 
+        2490
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2538, 
+        2544
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2592, 
+        2598
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2678, 
+        2684
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2732, 
+        2738
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2786, 
+        2792
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3016, 
+        3022
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3070, 
+        3076
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3316, 
+        3322
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2866, 
+        2881
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3150, 
+        3165
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Ben,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2882, 
+        2883
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2892, 
+        2897
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Ben,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3166, 
+        3167
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3176, 
+        3181
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2437, 
+        2452
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2491, 
+        2506
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2545, 
+        2560
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2599, 
+        2614
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2685, 
+        2700
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2739, 
+        2754
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2793, 
+        2808
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2840, 
+        2849
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3023, 
+        3038
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3077, 
+        3092
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3124, 
+        3133
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3323, 
+        3338
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3439, 
+        3450
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3473, 
+        3483
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3506, 
+        3517
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3540, 
+        3550
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3573, 
+        3582
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3605, 
+        3615
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3638, 
+        3657
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3680, 
+        3698
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3721, 
+        3740
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3763, 
+        3781
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3804, 
+        3821
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3844, 
+        3862
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        596, 
+        598
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        732, 
+        734
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        853, 
+        855
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        980, 
+        982
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1105, 
+        1107
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1226, 
+        1228
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1352, 
+        1354
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1478, 
+        1480
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1599, 
+        1601
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1725, 
+        1727
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1851, 
+        1853
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1987, 
+        1989
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2427, 
+        2429
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2481, 
+        2483
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2535, 
+        2537
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2589, 
+        2591
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2675, 
+        2677
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2729, 
+        2731
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2783, 
+        2785
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2837, 
+        2839
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3013, 
+        3015
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3067, 
+        3069
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3121, 
+        3123
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3313, 
+        3315
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3417, 
+        3424
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3451, 
+        3458
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3484, 
+        3491
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3518, 
+        3525
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3551, 
+        3558
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3583, 
+        3590
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3616, 
+        3623
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3658, 
+        3665
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3699, 
+        3706
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3741, 
+        3748
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3782, 
+        3789
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3822, 
+        3829
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3895, 
+        3897
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4260, 
+        4262
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\nPath report.gross observation\n\nGross description: A. Received in: formalin Pieces: 1 & frags Measurement: 13 mm & 1 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette B. Received in: formalin Pieces: 1 Measurement: 13 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette C. Received in: formalin Pieces: 2 Measurement: 12 to 19 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette D. Received in: formalin Pieces: 2 Measurement: 6 to 9 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette E. Received in: formalin Pieces: 1 Measurement: 23 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette F. Received in: formalin Pieces: 4 Measurement: 4 to 10 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette G. Received in: formalin Pieces: 3 Measurement: 3 to 18 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette H. Received in: formalin Pieces: 1 Measurement: 14 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette I. Received in: formalin Pieces: 2 Measurement: 8 to 14 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette J. Received in: formalin Pieces: 2 Measurement: 7 to 10 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette K. Received in: formalin Pieces: 1 & frags Measurement: 11 mm & 1 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette L. Received in: formalin Pieces: 1 & frags Measurement: 14 mm & 1 mm Description: pale tissue Inked: Not inked Submitted in 1 casssette\n\n\nPayment procedure\n\nCPT                            \n 88305x12,88344x2\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C61 R97.20\n\n\nPath report.relevant Hx\n\nClinical history: Elevated PSA\n\n\nPath report.final diagnosis\n\nDiagnosis:A. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. B. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. C. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. D. BENIGN PROSTATE TISSUE WITH FOCAL CHRONIC INFLAMMATION. NO EVIDENCE OF MALIGNANCY. E. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. F. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. G. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. H. PROSTATIC ADENOCARCINOMA. GLEASON'S SCORE 6 (GRADES 3 + 3) NOTED IN 1 OUT OF 1 SUBMITTED PROSTATE CORE SEGMENTS. APPROXIMATELY 3% OF SUBMITTED TISSUE INVOLVED. SEE COMMENT. I. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. J. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY. K. PROSTATIC ADENOCARCINOMA. GLEASON'S SCORE 6 (GRADES 3 + 3) NOTED IN 1 OUT OF 1 SUBMITTED PROSTATE CORE SEGMENTS. APPROXIMATELY 8% OF SUBMITTED TISSUE INVOLVED. SEE COMMENT. (GRADE GROUP 1) L. BENIGN PROSTATE TISSUE. NO EVIDENCE OF MALIGNANCY.\n\n\nPath report.site of origin\n\nMaterial submitted: PART A: Prostate CNB, Right, Apex PART B: Prostate CNB, Right, Mid PART C: Prostate CNB, Right, Base PART D: Prostate CNB, Left, Apex PART E: Prostate CNB, Left, Mid PART F: Prostate CNB, Left, Base PART G: Prostate CNB, Right, Lateral Apex PART H: Prostate CNB, Right, Lateral Mid PART I: Prostate CNB, Right, Lateral Base PART J: Prostate CNB, Left, Lateral Apex PART K: Prostate CNB, Left, Lateral Mid PART L: Prostate CNB, Left, Lateral Base\n\n\nPath report.comments\n\nComment:H. Negative staining with both high molecular weight cytokeratin and p63 in suspicious glands favors the diagnosis of adenocarcioma of the prostate In addition, the diagnosis of prostatic adenocarcinoma is supported by the positive staining for racemase (P404S), which is preferentially expressed in prostate cancer. All controls show appropriate immunoreactivity. K. Negative staining with both high molecular weight cytokeratin and p63 in suspicious glands favors the diagnosis of adenocarcioma of the prostate In addition, the diagnosis of prostatic adenocarcinoma is supported by the positive staining for racemase (P404S), which is preferentially expressed in prostate cancer. All controls show appropriate immunoreactivity. Grade groups range from 1 (most favorable) to 5 (least favorable). Pierorazio et al. BJU Int 111: 753-60, 2013. Epstein et al.EUR UROL 69: 428-35, 2016.\n\n\n"
+}

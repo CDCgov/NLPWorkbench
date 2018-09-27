@@ -1,0 +1,94 @@
+boolean filterStopwords = args[0] as boolean
+File directory = new File(args[1])
+File output = new File(args[2])
+
+Map<String,Counter> words = new HashMap<String,Counter>()
+List<String> errors = []
+
+Set<String> stopwords = [] as HashSet<String>
+if (filterStopwords) {
+    File stopwordsFile = new File(directory, 'stopwords.txt')
+    if (!stopwordsFile.exists()) {
+        errors << "Unable to find stopwords.txt"
+    }
+    else {
+        stopwordsFile.eachLine { stopwords << it }
+    }
+}
+
+for (int i = 3; i < args.size(); ++i) {
+    String path = args[i]
+    File file = new File(path)
+    DataContainer data
+    try {
+        data = Serializer.parse(file.text, DataContainer)
+        if (Uri.LIF == data.discriminator) {
+            Container container = data.payload
+            List<View> views = container.findViewsThatContain(Uri.TOKEN)
+            if (views.size() > 0) {
+                View view = views[-1]
+                view.annotations.findAll { it.atType == Uri.TOKEN }.each { a ->
+                    String word = a.features?.word?.toLowerCase()
+                    if (word && isWord(word) && !stopwords.contains(word)) {
+                        Counter counter = words[word]
+                        if (!counter) {
+                            counter = new Counter()
+                            words[word] = counter
+                        }
+                        ++counter
+                    }
+                }
+            }
+        }
+    }
+    catch (Throwable t) {
+        println t.message
+        errors << t.message
+    }
+}
+
+/* Sort by count, then word */
+def sorter = { a,b ->
+    if (a.value.n < b.value.n) {
+        return 1
+    }
+    else if (b.value.n < a.value.n) {
+        return -1
+    }
+    else {
+        return a.key <=> b.key
+    }
+}
+
+output.withWriter { out ->
+    //words.sort { a,b -> b.value.n <=> a.value.n }.each {
+    words.sort(sorter).each {
+        out.println "${it.key}\t${it.value.n}"
+    }
+
+    if (errors.size() > 0) {
+        out.println "\nERRORS"
+        errors.each { out.println it }
+    }
+}
+return
+
+// We consider a "word" to be any string that contains at least one letter.
+boolean isWord(String s) {
+    for (int i =0; i < s.length(); ++i) {
+        if (Character.isLetter(s.charAt(i))) {
+            return true
+        }
+    }
+    return false
+}
+
+class Counter {
+    int n = 0
+
+    Counter next() {
+        ++n
+        return this
+    }
+
+}

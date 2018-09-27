@@ -1,0 +1,91 @@
+<tool id="twitter-datasource" name="Get Twitter data based on a query" version="1.0.0">
+    <requirements>
+        <requirement type="package" version="1.0.0">lapps</requirement>
+    </requirements>
+    <stdio>
+        <exit_code range="1:" />
+    </stdio>
+    <command><![CDATA[
+        lsd $__tool_directory__/twitter-datasource.lsd $type $count $query $output
+    ]]></command>
+    <inputs>
+    	<param name="type" type="select" label="Type">
+    		<option value="mixed">Mixed</option>
+    		<option value="recent">Recent</option>
+    		<option value="popular">Popular</option>
+    	</param>
+    	<param name="count" type="integer" label="Count" value="15" min="0" max="1000"/>
+    	<param name="query" type="text" size="65" label="Query"/>
+    </inputs>
+    <outputs>
+    	<data format="lif" name="output"/>
+    </outputs>
+    <tests>
+    	<test>
+    		<param name="type" value="mixed"/>
+    		<param name="count" value="10"/>
+    		<param name="query" value="politics"/>
+    		<output name="output">
+    			<assert_contents>
+    				<has_text test="http://vocab.lappsgrid.org/ns/media/jsonld#lif"/>
+    				<not_has_text test="http://vocab.lappsgrid.org/ns/error"/>
+    			</assert_contents>
+    		</output>
+    	</test>
+    </tests>
+    <help><![CDATA[
+    
+**What it does**
+
+Retrieves tweets from Twitter based on specific queries.
+    
+.. class:: infomark
+    
+Refer to the `Twitter API help page <https://dev.twitter.com/rest/public/search>` for
+a full description of the the Twitter query syntax.
+
+Some of the available operators are:
+
++--------------+---------------------------------------------------------------------+
+| Query        | Finds tweet...                                                      |
++==============+=====================================================================+
+| watching now | containing both "watching" and "now". This is the default operator. |
++--------------+---------------------------------------------------------------------+
+| "happy hour" | containing the exact phrase "happy hour".                           |
++--------------+---------------------------------------------------------------------+
+| love OR hate | containing either "love" or "hate" (or both).                       |
++--------------+---------------------------------------------------------------------+
+| beer -root   | containing "beer" but not "root".                                   |
++--------------+---------------------------------------------------------------------+
+| #haiku       | containing the hashtag "haiku".                                     |
++--------------+---------------------------------------------------------------------+
+| from:interior| sent from Twitter account "interior".                               |
++--------------+---------------------------------------------------------------------+
+| to:NASA      | a Tweet authored in reply to Twitter account "NASA".                |
++--------------+---------------------------------------------------------------------+
+| @NASA        | mentioning Twitter account "NASA".                                  |
++--------------+---------------------------------------------------------------------+
+| flight :(    | containing "flight" and with a negative attitude.                   |
++--------------+---------------------------------------------------------------------+
+| traffic ?    | containing "traffic" and asking a question.                         |
++--------------+---------------------------------------------------------------------+
+
+**License**
+
+Data provided by the Twitter DataSource are covered by the `Twitter Developer Agreement <https://dev.twitter.com/overview/terms/agreement>`_
+and the `Twitter Display Requirments <https://about.twitter.com/en-gb/company/display-requirements>`_
+
+    ]]></help>    
+    <citations>
+    	<citation type="bibtex">
+    	@misc{twitter-datasource,
+    	author = {Language Application Grid},
+    	year = {2017},
+    	title = {Twitter DataSource},
+    	publisher = {The Language Application Grid},
+    	journal = {GitHub Repository},
+    	url = {https://github.com/lappsgrid-services/org.lappsgrid.datasource.twitter}
+    	}
+    	</citation>
+    </citations>
+</tool>

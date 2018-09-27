@@ -1,0 +1,21 @@
+<tool id="lapps.tools.sanitize" name="Sanitize LIF" version="1.0.0">
+    <description>cleanup output from older tools</description>
+    <command>lsd $__tool_directory__/sanitize.lsd $input $output</command>
+    <inputs>
+    	<param name="input" type="data" format="lif" label="Input"/>
+    </inputs>
+    <outputs>
+        <data name="output" format="lif" label="Sanitized output"/>
+    </outputs>
+    <help><![CDATA[
+
+**What it does**
+
+
+Earlier version of the LAPPS Serialization API had a bug that produced ``null`` values for some fields.  Typically this would not be a problem, except for another bug that resulted in ``AmbiguousMethodCall`` exceptions in the ``org.lappsgrid.serialization.lif.Annotation`` constructor when it encountered these ``null`` values.
+
+The ``Sanitize LIF`` tool will remove these ``null`` values from the input LIF document so tools compiled with the older API libraries will be able to load them without throwing an exception.
+
+]]>
+    </help>
+</tool>

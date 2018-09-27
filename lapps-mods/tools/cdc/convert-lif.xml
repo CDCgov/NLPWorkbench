@@ -1,0 +1,16 @@
+<tool id='lif-xcas-converter' name='LIF to XCAS' version='1.0.0'>
+    <command>lsd $__tool_directory__/convert.lsd lif $input $output</command>
+    <inputs>
+        <param name='input' type='data' format='lif' />
+    </inputs>
+    <outputs>
+        <data name='output' format='uima' />
+    </outputs>
+    <help><![CDATA[
+**What it does**
+
+Converts LIF to UIMA XCAS.
+
+]]>
+    </help>
+</tool>

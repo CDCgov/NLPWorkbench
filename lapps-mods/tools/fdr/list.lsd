@@ -1,0 +1,16 @@
+include 'Config'
+
+File output = new File(args[0])
+
+//def url = "${server.url}/${masc.id}"
+def url = server.url
+
+// Call the service to get a list of document ID values.
+def service = new DataSourceClient(url, server.username, server.password)
+list = service.list()
+
+// Write the ID values to the output file.
+output.withWriter { out ->
+    list.each { out.println it }
+}
+

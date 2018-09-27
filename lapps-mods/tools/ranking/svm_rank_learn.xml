@@ -1,0 +1,52 @@
+<tool id="svm_rank.learn" name="SVM Rank Learn" version="1.0.0">
+    <description>Train a model to use with the SVM Rank Classify tool.</description>
+    <command>svm_rank_learn -c $c $input $output</command>
+    <inputs>
+        <param name="input" type="data" format="txt" label="Training data"/>
+        <param name="c" type="float" value="0.01" label="Trade off [-c]"/>
+        <param name="p" label="L-norm [-p]" type="select">
+            <option value="1" selected="true">L1-norm</option>
+            <option value="2">squared slacks</option>
+        </param>
+        <param name="o" type="select" label="Rescaling method [-o]">
+            <option value="1" selected="true">slack</option>
+            <option value="2">margin</option>
+        </param>
+        <section name="kernel" title="Kernel Options" expanded="false">
+            <param name="t" type="select" label="Kernel function [-t]">
+                <option value="0" selected="true">linear</option>
+                <option value="1">polynomial (s a*b+c)^d</option>
+                <option value="2">radial basis function exp(-gamma ||a-b||^2)</option>
+                <option value="3">sigmoid tanh(s a*b + c)</option>
+            </param>
+            <param name="d" type="integer" value="2" label="d parameter in polynomial [-d]"/>
+            <param name="g" type="float" value="1" label="gamma in rbf [-g]"/>
+            <param name="s" type="float" value="1" label="s in sigmoid/poly [-s]"/>
+            <param name="r" type="float" value="1" label="c in sigmoid/poly [-r]"/>
+        </section>
+    </inputs>
+    <outputs>
+        <data name="output" format="txt" label="Model"/>
+    </outputs>
+    <citations>
+        <citation type="bibtex">@ARTICLE{ref1,
+            author = {T. Joachims},
+            title = {Learning to Align Sequences: A Maximum Margin Aproach.},
+            journal = {Technical Report},
+            year = {2003},
+            volume = {8},
+            pages = {1519-1555}
+            }
+        </citation>
+        <citation type="bibtex">@ARTICLE{ref1\2,
+            author = {I. Tsochantaridis, T. Joachims, T. Hofmann, and Y. Altun},
+            title = {Large Margin Methods for Structured and Interdependent Output Variables},
+            journal = {Journal of Machine Learning Research (JMLR)},
+            year = {2005},
+            volume = {6},
+            pages = {1453-1484}
+            }
+        </citation>
+    </citations>
+    <help>A test component</help>
+</tool>

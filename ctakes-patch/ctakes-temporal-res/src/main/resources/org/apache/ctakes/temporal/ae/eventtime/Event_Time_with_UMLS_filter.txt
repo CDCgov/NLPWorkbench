@@ -1,0 +1,36 @@
+a)No closure on gold::Closure on System::Recall Mode						
+P	R	F1	#gold	#system	#correct	
+0.358	0.628	0.456	549	964	345	OVERALL
+0	0	0	14	7	0	BEFORE
+0.5	0.045	0.083	22	2	1	BEGINS-ON
+0.661	0.746	0.701	437	493	326	CONTAINS
+0	0	0	7	2	0	ENDS-ON
+0.039	0.261	0.068	69	460	18	OVERLAP
+						
+b) No closure on System::Closure on Gold::Precision Mode						
+P	R	F1	#gold	#system	#correct	
+0.594	0.256	0.357	1702	732	435	OVERALL
+0	0	0	51	7	0	BEFORE
+0.5	0.02	0.038	50	2	1	BEGINS-ON
+0.716	0.506	0.593	698	493	353	CONTAINS
+1	0	0	43	0	0	ENDS-ON
+0.352	0.094	0.149	860	230	81	OVERLAP
+						
+c) Final Score:						
+P	R	F				
+0.594	0.628	0.610527005	OVERALL			
+0	0	#DIV/0!	BEFORE			
+0.5	0.045	0.082568807	BEGINS-ON			
+0.716	0.746	0.730692202	CONTAINS			
+1	0	0	ENDS-ON			
+0.352	0.261	0.299745514	OVERLAP			
+						
+d) Closure on train::No closure onTest::PlainMode						
+P	R	F1	#gold	#system#correct		
+0.462	0.616	0.528	549	732	338	OVERALL
+0	0	0	14	7	0	BEFORE
+0.5	0.045	0.083	22	2	1	BEGINS-ON
+0.661	0.746	0.701	437	493	326	CONTAINS
+1	0	0	7	0	0	ENDS-ON
+0.048	0.159	0.074	69	230	11	OVERLAP
+						

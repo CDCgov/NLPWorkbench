@@ -1,0 +1,143 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        621, 
+        630
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        785, 
+        799
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2375, 
+        2391
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2020, 
+        2028
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        523, 
+        538
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        871, 
+        886
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        699, 
+        724
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        605, 
+        620
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        801, 
+        808
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        595, 
+        604
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        728, 
+        743
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        775, 
+        784
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        540, 
+        542
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        656, 
+        658
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        725, 
+        727
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160502235516|8E5E3F25058D009336038E9DC2218C0B6D3D0671|ORU^R01|999999999999|P|2.5||||||\nPID|1||N999999999^^^^CMR^HOSPITAL 9&9999&MOH~N999999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&RL&ON^^^^JHN||XXX XXXX^XXXXXX^^^^^||99999999|M|||99 XXXXXXXX XXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||S16-10797|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160427|||65206^XXXXXXX^XXXXX^^^^||||||||||||20160502|||F|||||||99999^XXXXXX^XXXX^^^^|||||||\n\n\n\n\n\n\n\nFINAL DIAGNOSIS\n\nA. RIGHT PROSTATE, NEEDLE CORE BIOPSY:\n   - HIGH GRADE PROSTATIC INTRAEPITHELIAL NEOPLASIA (HPIN) SEEN IN ONE CORE.\nB. LEFT PROSTATE, NEEDLE CORE BIOPSY:\n   - NO EVIDENCE OF MALIGNANCY\nC. PROSTATE TISSUE, TRANSURETHRAL RESECTION:\n   - PROSTATIC ADENOCARCINOMA, GLEASON SCORE 7/10 (3+4), INVOLVING 2% OF TOTAL\n   BIOPSY.\n(CODE 1)\n\n\nGROSS PATHOLOGY\n\nA.  The specimen is received in formalin, labeled with the patient's name and as \"biopsy right lobe prostate\". The specimen consists of three\n   tan-white, core biopsies measuring 1.1 cm to 1.7 cm long and 0.1 cm in\n   diameter and a fragment of friable tan-white, core biopsy measuring 0.2 cm i\n   maximum dimension. The cores are entirely submitted as follows:\n   A1:    two cores\n   A2:    one core and one fragment, entirely submitted\nB.  The specimen is received in formalin, labeled with the patient's name and as \"biopsy left lobe prostate\". The specimen consists of three\n   tan-white, core biopsies measuring 1.0 cm to 2.1 cm long and 0.1 cm in diameter\n   and a fragment of tan-white, core measuring 0.2 cm in length, entirely\n   submitted in two cassettes; B1 two cores and B2 one core and one fragment,\n   entirely submitted.\nC.  The specimen is received in formalin, labeled with the patient's name and as \"prostate chips\". The specimen consists of multiple fragments of\n   tan-pink, firm tissue measuring in aggregate 5.9 x 5.5 x 1.5 cm, weighing\n   18 grams, entirely submitted in nine cassettes, C1-C9.        /SM\n\n\nCOMMENTS\n\nSpecimen: A\nExcision time: 1437\nTime placed in Formalin: 1437\nSpecimen: B\nExcision time: 1440\nTime placed in Formalin: 1440\nSpecimen: C\nExcision time: 1515\nTime placed in Formalin: 1516\n\n\nTISSUE SUBMITTED\n\nPROSTATE CORE BIOPSY (BIOPSY RIGHT LOBE PROSTATE )\nPROSTATE CORE BIOPSY (BIOPSY LEFT LOBE PROSTATE)\nPROSTATE CURETTINGS (PROSTATE CHIPS)\n\n\nCLINICAL HISTORY\n\nBPH\n\n\n"
+}

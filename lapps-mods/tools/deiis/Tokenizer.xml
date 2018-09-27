@@ -1,0 +1,27 @@
+<tool id="deiis.example.Tokenizer" name="White space tokenizer" version="1.0.0">
+    <description></description>
+    <command>lsd $__tool_directory__/invoke.lsd Tokenizer $input $output</command>
+    <inputs>
+        <param name="input" type="data" format="lif"/>
+    </inputs>
+    <outputs>
+        <data name="output" format="lif" label="Tokens"/>
+    </outputs>
+    <help><![CDATA[
+**What it does**
+
+
+A basic tokenizer that splits tokens on whitespace boundaries.
+
+**Input**
+
+Any text in a `LIF Container <http://wiki.lappsgrid.org/org.lappsgrid.serialization/groovydoc/org/lappsgrid/serialization/lif/Container.html>`_.
+
+**Output**
+
+Annotations for
+* http://vocab.lappsgrid.org/Token
+
+]]>
+    </help>
+</tool>

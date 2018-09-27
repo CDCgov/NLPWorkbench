@@ -1,0 +1,433 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2849, 
+        2863
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3251, 
+        3265
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2711, 
+        2734
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2736, 
+        2752
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2763, 
+        2790
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2792, 
+        2802
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        546, 
+        575
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        577, 
+        594
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2154, 
+        2189
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2191, 
+        2203
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3814, 
+        3840
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3842, 
+        3860
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3700, 
+        3706
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2936, 
+        2945
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3293, 
+        3302
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3707, 
+        3723
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2815, 
+        2825
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3131, 
+        3140
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3215, 
+        3225
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3500, 
+        3509
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3584, 
+        3592
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3667, 
+        3676
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3870, 
+        3880
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3889, 
+        3898
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3907, 
+        3917
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3926, 
+        3935
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3944, 
+        3952
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3961, 
+        3970
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        598, 
+        599
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        854, 
+        855
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1105, 
+        1107
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1110, 
+        1111
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1349, 
+        1351
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1354, 
+        1355
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1593, 
+        1595
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1598, 
+        1599
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1837, 
+        1839
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1842, 
+        1843
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2081, 
+        2083
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2802, 
+        2803
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3118, 
+        3119
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3202, 
+        3203
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3487, 
+        3488
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3571, 
+        3572
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3654, 
+        3655
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3862, 
+        3869
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3881, 
+        3888
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3899, 
+        3906
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3918, 
+        3925
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3936, 
+        3943
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3953, 
+        3960
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\nPath report.gross observation\n\nGross description: \n A) Received in formalin labeled with the patient's name Mark Gately and \"RB\" are two pieces of white-tan tissue. The larger measures 1.5 cm in greatest dimension and the smaller measures 1.3 cm in greatest dimension. Specimen is entirely submitted as A. \n B) Received in formalin labeled with the patient's name Mark Gately and \"RM\" are two pieces of white-tan tissue. The larger measures 1.3 cm in greatest dimension and the smaller measures 1.0 cm in greatest dimension. Specimen is entirely submitted as B. \n C) Received in formalin labeled with the patient's name and \"RA\" are two pieces of white-tan tissue. The larger measures 1.4 cm in greatest dimension and the smaller measures 0.9 cm in greatest dimension. Specimen is entirely submitted as C. \n D) Received in formalin labeled with the patient's name and \"LB\" are two pieces of white-tan tissue. The larger measures 1.3 cm in greatest dimension and the smaller measures 1.1 cm in greatest dimension. Specimen is entirely submitted as D. \n E) Received in formalin labeled with the patient's name and \"LM\" are two pieces of white-tan tissue. The larger measures 1.5 cm in greatest dimension and the smaller measures 1.1 cm in greatest dimension. Specimen is entirely submitted as E. \n F) Received in formalin labeled with the patient's name and \"LA\" are two pieces of white-tan tissue. The larger measures 1.5 cm in greatest dimension and the smaller measures 1.3 cm in greatest dimension. Specimen is entirely submitted as F. UTG/LOC\n\n\nPayment procedure\n\nCPT                            .T83506\n\n\nPath report.microscopic observation\n\nMicroscopic: Purpose of Immunohistochemistry: Further evaluate scattered atypical glands. \n Description of Immunohistochemistry: Immunostains are performed with adequate controls. The 34 betaE12/p63 cocktail demonstrates patchy basal layer staining in the glands of interest. P504S is negative. The focus is interpreted to be benign. \n Immunostain Summary: F1: 34betaE12/p63 cocktail, p504s\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C61\n\n\nPath report.relevant Hx\n\nClinical history: R97.20\n\n\nPath report.final diagnosis\n\nDiagnosis:A) PROSTATE, RIGHT BASE, NEEDLE CORE BIOPSY:   ADENOCARCINOMA, COMPRISED OF A FOCUS OF PERINEURAL INVASION     GLEASON PATTERN/SCORE: 3 + 3 = 6     EXTENT: 0.1-CM FOCUS IN ONE OF TWO CORES, 4% OF TOTAL BIOPSY     PROSTATE GRADE GROUP: 1     PERINEURAL INVASION: PRESENT     ANGIOLYMPHATIC INVASION: NOT IDENTIFIED \n B) PROSTATE, RIGHT MID, NEEDLE CORE BIOPSY:   ATYPICAL SMALL ACINAR PROLIFERATION \n C) PROSTATE, RIGHT APEX, NEEDLE CORE BIOPSIES:   ADENOCARCINOMA     GLEASON PATTERN/SCORE: 3 + 3 = 6     EXTENT: 0.6 CM FOCUS IN ONE OF THREE CORES, 29% OF TOTAL BIOPSY     PROSTATE GRADE GROUP: 1     PERINEURAL INVASION: NONE IDENTIFIED     ANGIOLYMPHATIC INVASION: NONE IDENTIFIED \n D) PROSTATE, LEFT BASE, NEEDLE CORE BIOPSY:   ATYPICAL SMALL ACINAR PROLIFERATION \n E) PROSTATE, LEFT MID, NEEDLE CORE BIOPSY:   ATYPICAL SMALL ACINAR PROLIFERATION \n F) PROSTATE, LEFT APEX, NEEDLE CORE BIOPSY:   BENIGN PROSTATIC TISSUE \n PSK/07/28/2017 **********************************************************************\n\n\nPath report.site of origin\n\nMaterial submitted: PART A: RIGHT BASE PART B: RIGHT MID PART C: RIGHT APEX PART D: LEFT BASE PART E: LEFT MID PART F: LEFT APEX\n\n\n"
+}

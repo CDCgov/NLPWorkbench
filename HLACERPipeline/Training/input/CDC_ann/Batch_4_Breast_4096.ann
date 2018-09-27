@@ -1,0 +1,163 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2752, 
+        2758
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2724, 
+        2733
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2759, 
+        2768
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3102, 
+        3111
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6415, 
+        6438
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2647, 
+        2674
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2586, 
+        2590
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2676, 
+        2680
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        618, 
+        647
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6338, 
+        6373
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2558, 
+        2584
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4", 
+      "__extent": [
+        3089, 
+        3111
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2783, 
+        2813
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2591, 
+        2597
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2681, 
+        2687
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Steven", 
+      "__extent": [
+        2716, 
+        2723
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3147, 
+        3164
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170919125827||ORU^R01^ORU_R01|201709191258270001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-008803^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170831000000|||||||20170831000000|&Breast, Exc. of Lesion, requiring micro. margins, PQRS Breast Cancer Resection|1497752489^^^^^^M.D.^^CMS^D^^^NPI||||||20170905000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10~Z17.0^Estrogen receptor positive status [ER+]^I10|1942526447&&&S&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \"\" and \"left breast lumpectomy, long lateral/short superior\" is a portion of lobulated fatty breast tissue displaying a surfacing brown wrinkled skin ellipse containing orienting sutures (per container, short is superior and long is lateral) and has an overall measurement of 5.2 cm from medial to lateral, 5.0 cm superior to inferior, and 3.0 cm anterior to deep. The skin ellipse is found along the superior aspect and measures 5.2 x 1.5 cm. On the skin surface is an eccentrically located 0.2 cm in greatest dimension possible puncture mark (that approaches medially by approximately 1.9 cm). The margins are inked as follows: Superior blue, inferior green, medial red, lateral yellow, anterior orange, and deep is inked black. Serially sectioning lateral to medial reveals a 3.5 x 3.0 x 2.4 cm pink-tan firm mass with finger-like projections. Adjacent to the mass (approaching superiorly is a hemorrhagic biopsy cavity, 0.8 cm in greatest dimension). Embedded in the biopsy cavity is a cylindrical metallic biopsy clip. The lesion extends up to the nearest deep margin, approximately 4.0 mm from the nearest surfacing skin approaching superior, 5.0 mm from the nearest medial margin, 10.0 mm from the nearest inferior margin, and 16.0 mm from the nearest lateral margin. Summary of sections: 1A-1C, trisected section of lesion containing respective closest margins and surfacing skin, junction between 1A and 1B is inked red, junction between 1B and 1C is inked yellow (1C contains lesion with nearest superior and surfacing skin margin, 1B contains nearest anterior and deep margins, and 1C contains nearest inferior margin), 1/1 each; 1D, nearest medial margin, 4/1; 1E, lateral margin, 2/1; 1F, section of possible scar on surfacing skin with underlying lesion and biopsy cavity, 1/1; 1G, additional section of lesion and respective anterior and deep margins, 1/1. (KSA)\n\n\nPath report.site of origin\n\nLeft breast lumpectomy, long lateral/short superior (perm)\n\n\nPath report.final diagnosis\n\nLeft breast, lumpectomy:   Infiltrating mammary carcinoma, no special type (ductal carcinoma), 3.5 cm,     high combined histologic grade with high proliferation rate.   Carcinoma is present within 0.1 mm of the deep resection margin (3 mm from     medial margin, 4 mm from superior/anterior margins).   No definitive lymphovascular invasion identified.   No in situ component identified.   The overlying skin is negative for carcinoma.   Biopsy site changes identified. CANCER CHECKLIST: INVASIVE CARCINOMA OF THE BREAST: Complete Excision (Less Than Total Mastectomy, Including Specimens Designated Biopsy, Lumpectomy, Quadrantectomy, and Partial Mastectomy With or Without Axillary Contents) and Mastectomy (Total, Modified Radical, Radical With or Without Axillary Contents)Radical, Radical With or Without Axillary Contents) 2.006.001.1000043  Clinical History: Palpable mass  Radiologic Finding: Mass or architectural distortion  Procedure: Excision with image-guided localization  Lymph Node Sampling: No lymph nodes present  Specimen Laterality: Left  Primary Tumor Site: Invasive Carcinoma: Not specified  Histologic Type: Invasive mammary carcinoma of no special type (ductal, not otherwise specified)  Glandular (Acinar) / Tubular Differentiation: Score 3 (< 10% of tumor area forming glandular / tubular structures)  Nuclear Pleomorphism: Score 2 (Cells larger than normal with open vesicular nuclei, visible nucleoli, and moderate variability in both size and shape)  Mitotic Rate: Score 3 (>=8 mitoses per mm2)  Number of Mitoses per 10 High-Power Fields: 18mitotic figures  Diameter of Microscope Field (mm): 0.55mm  Overall Grade: Grade 3 (scores of 8 or 9)  Ductal Carcinoma In Situ (DCIS): No DCIS is present  Lobular Carcinoma In Situ (LCIS): Not identified  Greatest Dimension (mm): 35mm  Additional Dimension (mm): 30mm, 24mm  Tumor Focality: Single focus of invasive carcinoma  Skin Invasion: Invasive carcinoma does not invade into the dermis or epidermis  Skin Satellite Foci: Satellite foci not identified  Nipple DCIS: Not applicable  Skeletal Muscle: No skeletal muscle is present  Lymph-Vascular Invasion: Not identified  Dermal Lymph-Vascular Invasion: Not identified  Microcalcifications: Not identified  Treatment Effect: Response to Presurgical (Neoadjuvant) Therapy: No known presurgical therapy  Invasive Carcinoma: Margins uninvolved by invasive carcinoma  Anterior: 4mm  Posterior: less than 0.1mm  Superior: 4mm  Inferior: 10mm  Medial: 3mm  Lateral: greater than 10mm  Distance from Closest Margin: Distance is < 1 mm  Closest Uninvolved Margin: Posterior  Ductal Carcinoma In Situ (DCIS): DCIS not present in specimen  Regional Lymph Nodes: No nodes submitted or found  Primary Tumor (Invasive Carcinoma) (pT): pT2: Tumor > 20 mm but <= 50 mm in greatest dimension  Category (pN): pNX: Regional lymph nodes cannot be assessed (e.g., previously removed, or not removed for pathologic study)  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s) BREAST: Biomarker Reporting Template 1.001.001.1000043 TEST(S) PERFORMED (on prior biopsy 17-21-7551).  Test(s) Performed: Estrogen Receptor (ER) Status, Progesterone Receptor (PgR) Status, HER2 by Immunohistochemistry (IHC), HER2 (ERBB2) by In Situ Hybridization (ISH)  ER Results: Positive  Percentage of Cells with Nuclear Positivity#: Specify %  Specify %: 98%  Average Intensity of Staining: Strong  PgR Results: Positive  Percentage of Cells with Nuclear Positivity#: Specify %  Specify %: 10%  Average Intensity of Staining: Moderate  HER2 IHC Results: Equivocal (Score 2+)  HER2 (ERBB2) ISH Results: Negative (not amplified)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - Left breast cancer\n\n\n"
+}

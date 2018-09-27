@@ -1,0 +1,91 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1465, 
+        1488
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1010, 
+        1030
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        829, 
+        856
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        643, 
+        678
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        733, 
+        759
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1142, 
+        1159
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1160, 
+        1170
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        761, 
+        777
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        858, 
+        874
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0306984^CLIA|eMARCPlus|TN Cancer Registry|20170918000105||ORU^R01^ORU_R01|201709180001050001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-RN-000240^PathSys^44D0306984^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170906000000|||||||20170906000000|&Body Cav Fluid Cyto, Liquid based preparation tech|1700810371^^^^^^MD^^CMS^D^^^NPI||||||20170908000000|||F||||||R18.8^Other ascites^I10~C50.919^Malignant neoplasm of unspecified site of unspecified female breast^I10~C78.7^Secondary malignant neoplasm of liver and intrahepatic bile duct^I10|1245210632&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.microscopic examination\n\nThinPrep and cell block preparations are examined.\n\n\nPath report.site of origin\n\nPeritoneal Fluid   110 ms yellow cloudy fluid received in CytoLyt\n\n\nPath report.final diagnosis\n\nPeritoneal fluid, paracentesis:   Rare atypical cells in a background of scattered degenerating mesothelial cells     and macrophages.   See comment.\n\n\nPath report.comments\n\nComments - The provided clinical history of breast cancer with liver metastasis is noted. Rare atypical cells not diagnostic of malignancy are present in the examined liquid based and cell block preparations. A controlled GATA3 immunohistochemical stain is negative. If fluid reaccumulates and paracentesis is repeated, repeated cytologic examination and greater volume submitted increases the sensitivity of detecting malignancy.\n\n\nPath report.relevant Hx\n\nHistory - Breast cancer with mets to liver, ascites\n\n\n"
+}

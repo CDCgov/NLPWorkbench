@@ -1,0 +1,165 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2205, 
+        2219
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2220, 
+        2229
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2274, 
+        2288
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1935, 
+        1958
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2400, 
+        2420
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2123, 
+        2150
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2158, 
+        2162
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2388, 
+        2392
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        534, 
+        563
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        839, 
+        874
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2351, 
+        2377
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2247, 
+        2268
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2152, 
+        2156
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2393, 
+        2397
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2192, 
+        2204
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2231, 
+        2246
+      ]
+    }
+  ], 
+  "Primary Origin of Neoplasm (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2292, 
+        2304
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160502141013|C05BDE1D4D0D85F7B2CCF5DBD80547DBCCF37778|ORU^R01|Q245116994|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 9&MOH~~99999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&TJ&ON^^^^JHN||XXXX^XXX^XXX||99999999|F|||9999 9XX XXX XXXX XXX 999^^XXXX XXXXX^XX^X9X9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||S-16-003297|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160427|||78567^XXXXXXX^XXXXXX||||||99999^XXXXXXX^XXXXXX||||N||20160502|||F|||||||99999^XXXX^XXXXXXXXXXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen container is labelled with the patient's demographics and \"biopsy left lung\". The specimen consists of five fragments of tan soft tissue ranging in size from 0.2 cm up to 0.3 cm in greatest dimension. The specimen is submitted in toto in one cassette.nE\nE\\TC\n\n\nPath report.microscopic observation\n\n1: Lung Biopsy AJCC7nE\\Specimen Type: Fiberoptic bronchoscopic biopsy nE\\Laterality: Left nE\\Tumor Site: Not specified nE\\Histologic Type: Adenocarcinoma, not otherwise characterized nE\\Histologic Grade: G3: Poorly differentiated nE\\Visceral Pleura Invasion (document if identified): Not applicable nE\\Venous (Large Vessel) Invasion (V) (document if identified): Absent nE\\Lymphatic (Small Vessel) Invasion (L): Absent nE\\Additional Pathologic Findings (check all that apply): None identified nE\\Ancillary Studies:  nE\\   Immunohistochemical studies are performed, the results are as follows:: The tumor cells are positive for CK 8/18, TTF-1 and Napsin A. The tumor cells are negative for chromogranin, synaptophysin, and CD56. Ki-67 immunolabeling is increased in the neoplastic cells. nE\\Comments: Synaptophysin and CD56 stains are positive in neuroendocrine cells residing in benign bronchial epithelium or benign appearing neuroendocrine cells entrapped within the malignant process. However, no unequivocal evidence of small cell carcinoma is present.\n\n\nPath report.relevant Hx\n\nBiopsy: YesnE\\Ischemic Time: 2 minnE\\Time in Fixative/Formalin: 27-Apr-2016 15:30nE\\Total Fixation Time: 25.5 hoursnE\\Clinical History: query small cell lung ca\n\n\nPath report.final diagnosis\n\nLung, left, bronchoscopic biopsies:nE\\- Positive for non-small cell carcinoma, consistent with poorly differentiated nE\\  adenocarcinoma of lung primary.nE\\- See synoptic report and comment above.\n\n\nPath report.site of origin\n\n1 Biopsy left lung\n\n\nPath report.comments\n\nWe acknowledge the previous diagnosis of non-small cell carcinoma consistent with invasive adenocarcinoma of lung primary (bronchoscopic biopsies from Left Lower Lobe; S-16-000841) and contralateral small cell carcinoma (wedge from Right Upper lobe; S-16-0002835). The current bronchoscopic biopsies from the left lung show a poorly differentiated non-small cell carcinoma with the morphology and immunophenotype consistent with lung primary.nE\nE\\EGFR and ALK studies were ordered. I will issue an addendum when the results become available.\n\n\n"
+}

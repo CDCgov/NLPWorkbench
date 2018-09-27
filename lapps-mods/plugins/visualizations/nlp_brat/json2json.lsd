@@ -1,0 +1,140 @@
+#!/usr/bin/env lsd
+
+String lappsjson = new File(args[0]).text
+
+if (!lappsjson.trim().startsWith("{")) {
+    println lappsjson
+    return
+}
+
+
+bratdsl = """{
+
+    def targetText = ""
+    def targetRelations = []
+    def targetEquivs = []
+    def targetEntities = []
+
+    if (! %.has(&:toString(), "discriminator")) {
+      text &:toString()
+      return
+    }
+
+    def discriminator = &:discriminator
+    if (discriminator == null) return
+
+
+    def isText = %.has( &:discriminator,  "http://vocab.lappsgrid.org/ns/media/text")
+    if (isText) {
+        text &:payload
+        return
+    }
+
+    def isLifTex = %.has( &:discriminator,  "http://vocab.lappsgrid.org/ns/media/jsonld")
+    if (!isLifTex) return
+
+    def lastView = &:payload.views[-1]
+    if (lastView == null) return
+
+
+    def isCoref = %.has(lastView.metadata.contains,  "Coreference")
+    def isDepParser = %.has(lastView.metadata.contains,  "DependencyStructure")
+    def isParser = %.has(lastView.metadata.contains,  "Constituent")
+    def isNer = %.has(lastView.metadata.contains,  "NamedEntity")
+    def isTagger = %.has(lastView.metadata.contains,  "Token#pos")
+    def isRelation = %.has(lastView.metadata.contains,  "Relation")
+    def isEvent = %.has(lastView.metadata.contains.toString().toLowerCase(),  "event") 
+
+    def lastViewAnns = lastView.annotations
+    if (lastViewAnns == null) return
+
+    if (isText) targetText = &:payload
+    if (isLifTex) targetText = &:payload.text."@value"
+
+    def foundAnyHigherLevelAnn = false
+
+    if (isParser) {
+        targetText +=  "\\n~~~~\\n" + lastViewAnns.select{ %.has(&."@type", "PhraseStructure") }.features.penntree[0]
+    }
+
+    if (isDepParser) {
+        def dependencies = lastViewAnns.select{%.has(&."@type", "DependencyStructure")}.features.dependencies.flatten()
+        targetRelations = lastViewAnns.select{ &.id in dependencies}.foreach {
+            [&.id, %.toUpper(&.label), [["Governor", &.features.governor], ["Dependent", &.features.dependent]]]
+        }
+        foundAnyHigherLevelAnn = true
+    }
+
+    if (isCoref) {
+        def corefFeatures = lastViewAnns.select{ %.has(&."@type", "Coreference") }.features
+        targetEquivs += corefFeatures.flatten().foreach { ["*", "Coreference", &.mentions[0], &.mentions[1]] }
+
+        targetEntities += lastViewAnns.select{%.has(&."@type", "Markable") && (&.id in corefFeatures.mentions.flatten())}.unique{&.start+" "+&.end}.foreach{
+                              [&.id, "MENTION", [[&.start.toInteger(), &.end.toInteger()]]]
+        }
+        foundAnyHigherLevelAnn = true
+    }
+
+    if (isNer) {
+           targetEntities += lastViewAnns.select{ %.has(&."@type", "NamedEntity")}
+           .unique{ &.start + " " + &.end }.foreach {
+                            [&.id, %.toUpper(&.features.category), [[&.start.toInteger(), &.end.toInteger()]]]
+           }
+        foundAnyHigherLevelAnn = true
+    }
+
+    if (isEvent) {
+           targetEntities += lastViewAnns.select{ %.has(&."@type".toString().toLowerCase(), "event") }
+           .unique{ &.start + " " + &.end }.foreach {
+                    def label = it.features.containsKey('type') ? it.features.type : it.features.class
+                            [&.id, label, [[&.start.toInteger(), &.end.toInteger()]]]
+           }
+        foundAnyHigherLevelAnn = true
+    }
+
+
+    if (isRelation) {
+        targetRelations = lastViewAnns.select{%.has(&."@type", "Relation")}.foreach {
+            def arguments = &.features.findAll{it.key != "pred"}.collect{[it.key, it.value]}
+            return [&.id, %.toUpper(&.label), arguments]
+        }
+        foundAnyHigherLevelAnn = true
+    }
+
+    if (!foundAnyHigherLevelAnn) {
+    //if (isTagger) {
+        targetEntities += lastViewAnns.select{&.features != null && &.features.pos != null}.unique{ &.start + " " + &.end }.foreach {
+            [&.id, %.toUpper(&.features.pos), [[&.start.toInteger(), &.end.toInteger()]]]
+        }
+    }
+
+    text  targetText
+
+    relations targetRelations
+
+    equivs (targetEquivs)
+
+    entities (targetEntities)
+}
+"""
+
+def builder = new groovy.json.JsonBuilder()
+
+def root = builder {
+    "discriminator"  "http://vocab.lappsgrid.org/ns/media/jsonld"
+    "payload"  {
+        "metadata"  {
+            "op"  "json2jsondsl"
+            "template"  bratdsl
+        }
+        "@context"  "http://vocab.lappsgrid.org/context-1.0.0.jsonld"
+        "sources"  ([lappsjson])
+    }
+}
+
+String username = ""
+String password = ""
+
+String url = "http://eldrad.cs-i.brandeis.edu:8282/json2json/0.3.3/services/Json2JsonWS?wsdl"
+ServiceClient client = new ServiceClient(url, username, password)
+println client.execute(builder.toString())

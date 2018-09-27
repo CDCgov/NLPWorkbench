@@ -1,0 +1,107 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1329, 
+        1343
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1397, 
+        1415
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1314, 
+        1328
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1344, 
+        1353
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1381, 
+        1395
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2050, 
+        2073
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1095, 
+        1122
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        606, 
+        635
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2261, 
+        2296
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1015, 
+        1041
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1359, 
+        1380
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 12^9999^MOH|PIMS|CCO|20160503125506|77E9DB552FBA6F9ED934B00284F7A125A2AF34B3|ORU^R01|99999999999999999999|P|2.5|\nPID|1||F9999999^^^^CMR^HOSPITAL 3&9999&MOH~f99999999^^^^RMR^HOSPITAL 3&9999&MOH~999999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&NR&ON^^^^JHN||XXXXXX^XXXXX^XXXXX||99999999|F|||9999 XXXXXXXXX XXXXXX^^XXXXXXX XXXXX^XX^X9X9X9^999|||||||||||||||||||N|\nOBR|1|11SF-6028|SP-16-7092|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604111143|||79415^XXXXXXXXXXXX^XX. XXXXX||||||||||Y||20160503|||F|||||||99999^XXXXXXX^XX. XXXXX^XXXXXXXXX^^^XXX^99999|\n\n\n\n\n\n\n\nPath report.gross description\n\n\\H\\Gross Description\\N\\:\n (a) Received from HOSPITAL System- General Site in ON, are 67 stained slides and 2 blocks (1D,1O) labelled\n 11SF-6028 along with a copy of pathology report. Procedure date 04/10/11).\n (b) Received from HOSPITAL System- General Site in ON are 22 stained slides labelled 11-SF4755 along\n with a copy of the pathology report. Procedure date 08/08/2011.\n\n\nPath report.site of origin\n\n\\H\\Specimen\\N\\:\n(a) CONSULTATION\n(b) CONSULTATION\n\n\nPath report.final diagnosis\n\n\\H\\PATHOLOGY DIAGNOSIS\\N\\:\n Appendectomy, August 8, 2011; Greater Niagara General HOSPITAL (11SF:4755)\n Right hemicolectomy, October 4, 2011; Greater Niagara General HOSPITAL (11SF:6028)\n\t- Adenocarcinoma ex goblet cell carcinoid with poorly differentiated adenocarcinoma, signet ring tumour cells, lymphovascular invasion and regional lymph node metastasis (1/9 regional lymph nodes).\n\\H\\Comment:\n\\N\\Thank you very much for the consultation.\nThe case has been reviewed by the HOSPITAL 12, Pathology \\T\\ Laboratory Medicine Gastrointestinal Pathology Service (Drs. R. Kirsch, A. Pollett, J. Conner and R. Riddell).\n\\H\\\n\\N\\We agree with the original opinion, review shows an adenocarcinoma ex goblet cell carcinoid (in the appendectomy specimen with residual and metastatic adenocarcinoma in the right hemicolectomy specimen). Areas of poorly differentiated carcinoma, including signet ring tumour differentiation are noted.\n\n\nPath report.relevant Hx\n\n\\H\\Clinical History\\N\\:\n Appendectomy, August 8, 2011; Greater Niagara General HOSPITAL (11SF:4755)\n Right hemicolectomy, October 4, 2011; Greater Niagara General HOSPITAL (11SF:6028)\n\n\nPath report.microscopic observation\n\n\\H\\Microscopic Description\\N\\:\n Incorporated in diagnosis and comment.\n\n\n"
+}

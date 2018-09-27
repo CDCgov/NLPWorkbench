@@ -1,0 +1,121 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1193, 
+        1209
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1155, 
+        1169
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1258, 
+        1281
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1081, 
+        1108
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        488, 
+        517
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1548, 
+        1583
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1027, 
+        1053
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1138, 
+        1146
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1171, 
+        1192
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1111, 
+        1116
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1147, 
+        1154
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1118, 
+        1123
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 1^9999^MOH|PIMS|CCO|20160510134632|38CE6ED8ACDB4C887D219DFDD297C66675DE5485|ORU^R01|Q1913498855T3593256619|P|2.5|\nPID|1||^^^^CMR^Hospital 1&9999&MOH~^^^^RMR^Hospital 1&9999&MOH~999999999^^^^MRN^HOSPITAL 1&9999&MOH||XXXXXXXXX^XXXXX^XXXXXXXXX||99999999|F||||||||||||||||||||||N|\nOBR|1|OC-16-000475|S-16-0020352|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160509|||76696^XXXXXX^XXXXX^X||||||||||Y||20160510|||F|||||||99999^XXXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n\nThe following material is received in consultation from HOSPITAL at the request of Dr. X:\nOriginating case number OC-16-000475 (procedure date 22/04/16)\nH\\T\\E stained slides x 10, labelled as S16:5086 D 1; OC-16-000475 1D-2, 1D-4, 1D-6, 1D-8, 1D-10, 1D-12, 1D-14, 1D-16, 1D-18\nSpecial stain/immunomarker slides x 9, labelled as C/0475-16 1D PAS/H, CD31, D2-40, Ki-67, TTF-1, CK8/18, CK7, CDX-2, CK20\nAlso received: correspondence, pathology reports, operative note, CT report. /dr 2016/05/09 15:19:49 EDT\n\n\nPath report.site of origin\n\n\nConsult # OC-16-000475\n\n\nPath report.final diagnosis\n\n\nColon (cecum), biopsies:\n- invasive colonic adenocarcinoma, poorly differentiated signet ring cell type.  DKD/dr\n\nReferred in materials returned\n\n\nPath report.relevant Hx\n\n\nFrom original pathology report: Chronic anemia. Random biopsy of distal junction and prepyloric area. Grade I HH - Bx of GE junction. Right colon lesion suspicious x cancer. Difficult bx to take due to colon redundancy.\n\nReason for consultation: Expert opinion.\n\n\nPath report.microscopic observation\n\n\nThese colonic biopsies show focal involvement by adenocarcinoma with signet ring cell differentiation. Focally, there is a small amount of extracellular mucin production and a serrated architecture to the malignant glands. Intracellular mucin production is confirmed with the PAS stain. Immunohistochemistry : Tumour cells positive for CK8/18 and CDX2; CK20 focally positive. CK7 and TTF-1 negative.\n\nComment\n\nThese features are those of poorly differentiated signet ring cell adenocarcinoma of the colon.\n\nThis case has been reviewed at Departmental Gastrointestinal Pathology Rounds (with Drs. McLean, Parfitt, Walsh, Chakrabarti). The opinion rendered in this report represents the consensus opinion from these rounds.\n\n\n"
+}

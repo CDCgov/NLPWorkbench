@@ -1,0 +1,103 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1049, 
+        1062
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1063, 
+        1072
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        906, 
+        929
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1280, 
+        1300
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        972, 
+        999
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1035, 
+        1040
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        521, 
+        550
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1125, 
+        1160
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1221, 
+        1247
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1041, 
+        1045
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|ParkRidge Medical Center^44D0309307^CLIA|eMARCPlus|TN Cancer Registry|20170917000049||ORU^R01^ORU_R01|201709170000490001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-SF-001100^PathSys^44D0309307^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170901000000|||||||20170905000000|&Bronc Wash/LavagLiquid based preparation technique|1053305888^^^G^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C34.91^Malignant neoplasm of unspecified part of right bronchus or lung^I10|1083680706&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\" identified by the requisition and the container label. The specimen is labeled \"Bronchial washing right lung\" on the requisition and the container. The specimen is received fresh and consists of approximately 40 cc of cloudy, red fluid. The specimen is submitted for a cell block. ThinPrep is prepared and is submitted for PAP stain.\n\n\nPath report.relevant Hx\n\nHistory - ? pneumonia, febrile illness\n\n\nPath report.final diagnosis\n\nBronchoscopic bronchial washings, right lung:   Squamous cell CARCINOMA.   Numerous polymorphonuclear leukocytes present.\n\n\nPath report.microscopic examination\n\nMicroscopic examination supports the diagnosis as above.\n\n\nPath report.site of origin\n\nBronchial washing right lung\n\n\nPath report.comments\n\nComments - Reviewed by: LMP\n\n\n"
+}

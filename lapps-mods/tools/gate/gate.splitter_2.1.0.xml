@@ -1,0 +1,17 @@
+<tool id="gate.splitter_2.1.0" name="GATE SentenceSplitter v2.1.0" version="2.1.0">
+	<description>
+		GATE Sentence Splitter
+	</description>
+	<command interpreter="lsd">
+		invoke.lsd gate.splitter_2.1.0 $input $output
+	</command>
+	<inputs>
+		<param name="input" type="data" format="gate" label="input"/>
+	</inputs>
+	<outputs>
+		<data name="output" format="gate" label="Sentences (GATE)"/>
+	</outputs>
+	<help>
+		GATE Sentence Splitter
+	</help>
+</tool>

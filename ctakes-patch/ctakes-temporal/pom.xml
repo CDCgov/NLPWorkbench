@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gov.cdc.lappsgrid.uima.ctakes</groupId>
+	<artifactId>ctakes-temporal</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Apache cTAKES Temporal Information Extraction</name>
+	<parent>
+		<groupId>org.apache.ctakes</groupId>
+		<artifactId>ctakes</artifactId>
+		<version>4.0.0</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-temporal-res</artifactId>
+		</dependency>	    
+		<dependency>
+			<groupId>org.jdom</groupId>
+			<artifactId>jdom2</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>com.lexicalscope.jewelcli</groupId>
+            <artifactId>jewelcli</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-type-system</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-context-tokenizer</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-pos-tagger</artifactId>
+		</dependency>
+		<!--  If chunker is a dependency then everything in chunker should be removed.  core, type-system, pos-tagger ...
+				This makes maintenance much easier wrt upgraded versions and removed/unused modules (e.g. old lookup).-->
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-chunker</artifactId>
+		</dependency>
+		<!--
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-dictionary-lookup-fast</artifactId>
+		</dependency>
+
+			<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-lvg</artifactId>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>gov.cdc.lappsgrid.uima.ctakes</groupId>
+			<artifactId>ctakes-lvg-file</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gov.cdc.lappsgrid.uima.ctakes</groupId>
+			<artifactId>ctakes-dictionary-lookup-fast</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-dependency-parser</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-relation-extractor</artifactId>
+		</dependency>
+    <dependency>
+      <groupId>org.apache.ctakes</groupId>
+      <artifactId>ctakes-constituency-parser</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.cleartk</groupId>
+      <artifactId>cleartk-util</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.cleartk</groupId>
+      <artifactId>cleartk-ml</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.cleartk</groupId>
+      <artifactId>cleartk-eval</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.cleartk</groupId>
+      <artifactId>cleartk-timeml</artifactId>
+    </dependency>
+		<dependency>
+			<groupId>org.cleartk</groupId>
+			<artifactId>cleartk-ml-svmlight</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.cleartk</groupId>
+			<artifactId>cleartk-ml-libsvm</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.cleartk</groupId>
+			<artifactId>cleartk-ml-tksvmlight</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.cleartk</groupId>
+			<artifactId>cleartk-type-system</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.cleartk</groupId>
+			<artifactId>cleartk-ml-crfsuite</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>info.bethard</groupId>
+			<artifactId>timenorm</artifactId>
+			<version>0.9.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.java-diff-utils</groupId>
+			<artifactId>diffutils</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.cleartk</groupId>
+			<artifactId>cleartk-ml-mallet</artifactId>
+			<!-->version>2.0.1-SNAPSHOT</version-->
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>2.11.7</version>
+		</dependency>
+		<!--dependency>
+			<groupId>org.apache.ctakes</groupId>
+			<artifactId>ctakes-sentdetect-cleartk</artifactId>
+			<version>4.0.1-SNAPSHOT</version>
+		</dependency-->
+	</dependencies>
+	<!-- The below is all necessary to unpack the UMLS resources since they 
+		can't be used from the classpath -->
+	<build>
+		<plugins>
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>org.apache.maven.plugins</groupId>
+										<artifactId>maven-dependency-plugin</artifactId>
+										<versionRange>[2.0,)</versionRange>
+										<goals>
+											<goal>unpack</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<execute />
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<distributionManagement>
+		<repository>
+			<id>cdc-releases</id>
+			<url>http://149.165.157.51:8100/repository/cdc-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>cdc-snapshots</id>
+			<url>http://149.165.157.51:8100/repository/cdc-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>

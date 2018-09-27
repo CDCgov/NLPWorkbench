@@ -1,0 +1,135 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        974, 
+        988
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        878, 
+        901
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1285, 
+        1305
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        915, 
+        942
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        600, 
+        629
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1211, 
+        1237
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        947, 
+        952
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1263, 
+        1268
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1277, 
+        1282
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        954, 
+        961
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1255, 
+        1262
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1269, 
+        1276
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        944, 
+        945
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1007, 
+        1039
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160507084900|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 2&9999&MOH~9999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&&ON^^^^JHN||XXXXXX^XXXX^XXXXXXX||99999999|M|||999 XXXXXXXXXX XXX^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-21712|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604060944|||72456^X'XXXXX^XXXXXXXXX||||201604060958|&Intestine-LgBx: Sigmoid colon sigmoid colon|99999^X'XXXXX^XXXXXXXXX||||||201604071136||SPG|C|||||||99999^XXXXXXXXXXXX^XXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen labeled with the patient's name and as \"sigmoid colon\" consists of multiple pieces of tan tissue measuring from 0.2 to 0.3 cm in greatest dimension, received in 10% buffered formalin.Specimen submitted in toto in blocks 1A and 1B.\n\n\n\nPath report.relevant Hx\n\ncolon ca\n\n\n\nPath report.final diagnosis\n\n1. Colon (sigmoid), biopsy:\n- adenocarcinoma see comment \n \n\n\n\nPath report.supplemental reports\n\nImmunohistochemical testing shows positive labeling of tumor cells with CK20. There is no staining with CK7. CDX2 is pending and will be reported as another addendum.\n\n\n\nPath report.site of origin\n\nIntestine-LgBx: Sigmoid colon sigmoid colon\n\n\nPath report.comments\n\n1. The biopsy shows superficial fragments of a tumor with an ulcerated surface. The tumor features irregular nests and sheets of cells with small gland like lumina. There are some nests of tumor set in a desmoplastic stroma. The nuclei are pleomorphic and show prominent nucleoli. There are scattered mitoses. The findings here are consistent with adenocarcinoma. Immunohistochemical staining will be requested to further characterize the tumor and the results will be reported as an addendum. \n\nMolecular Number:   M16.5291\nPrimary Tumor:   Colorectal\n   Adenocarcinoma\nNGS Panel Results:   Actionable variant(s) detected\nVariant1:   KRAS\n   c.35G>T (p.Gly12Val)\n   Percent variant: 20 %\n\n\nDNA was extracted from the paraffin-embedded colon, sigmoid, biopsy, part 1, block B, and analyzed using the TruSight Tumor Panel (Illumina) on the MiSeq next-generation sequencing platform (Illumina). Reported variants were verified, as required, by Sanger sequencing and/or another clinically validated method. The lower limit of sensitivity for the TruSight assay is 5-10% mutant allele frequency.\n\nCLASS 1 Variants: Variants actionable in the disease site in which they have been identified.\n\nKRAS (NM_033360.3) c.35G>T (p.Gly12Val) \n\nThe KRAS p.Gly12Val variant is recurrent in colon adenocarcinomas (COSMIC, TCGA). Activating variants, particularly in codons 12 and 13, in KRAS are associated with poorer outcome in response to anti-EGFR therapies in colon cancer (PMIDs: 24024839, 23429431, www.mycancergenome.org).\n\nSix genes on the TruSight Tumor Panel (Illumina) are tested, but only positive results are reported. The six genes tested are: BRAF [NM_004333.4]; EGFR [NM_005228.3]; KIT [NM_000222.2]; KRAS [NM_033360.3]; NRAS [NM_002524.3]; PDGFRA [NM_006206.4]. This panel provides coverage of exon coding regions where variation has been cataloged in the COSMIC database in oncogenes. The manufacturer's data sheet is available upon request. Regions not critical to the indication may not be covered at >500X and therefore not analyzed. Please contact the laboratory if information on these regions is required. If critical variants are not analyzed they will be listed as failed calls. \n\nNext-Generation Sequencing allows for parallel sequencing of multiple genomic regions. The Illumina TruSight Tumor Panel includes strand specific sequencing of the genes listed above, and is based on amplicon sequencing, where a library of PCR amplicons is sequenced repeatedly. Post-sequencing bioinformatics analysis includes alignment of each amplicon to the reference human genome (version GRCh37/hg19), determination of coverage depth for each amplicon, and identification of sequence variations. Bioinformatic analysis is performed using NextGene v2.3.4.5 (SoftGenetics) and Variant Studio 2.2 (Illumina). Average acceptable coverage is >1000x with minimum coverage for all amplicons of >500x.  Current technology may not detect all variants present in the genes listed above. Insertions/Deletions greater than 25bp may not be detected by this assay. Mutant allele frequencies are based on the total number of reads at variant sites and are not a reflection of absolute tumour cellularity. This test is unable to distinguish between a somatic and a germline mutation. Any interpretation provided is written with the assumption that the variants detected are somatic mutations. \n\nAnalytical validity and sensitivity of this test was determined and verified by the Molecular Diagnostics Laboratory at the HOSPITAL. It has not been cleared or approved by the US FDA.  FDA does not require this test to go through premarket FDA review. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments (CLIA) as qualified to perform high complexity clinical laboratory testing.\n\nhttp://www.illumina.com/documents/products/technotes/technote_somatic_variant_caller.pdf\nhttp://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_trusight_tumor.pdf\n\n\n\n\n\n"
+}

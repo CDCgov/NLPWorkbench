@@ -1,0 +1,111 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        776, 
+        790
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        673, 
+        696
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        959, 
+        967
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1302, 
+        1322
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        728, 
+        755
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        459, 
+        488
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1260, 
+        1286
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        792, 
+        799
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        808, 
+        809
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4", 
+      "__extent": [
+        757, 
+        765
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        843, 
+        875
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Greenview Regional Hospital^18D0031295^CLIA|eMARCPlus|KY Cancer Registry|20170918000103||ORU^R01^ORU_R01|201709180001030001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-GS-003703^PathSys^18D0031295^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170903000000|||||||20170905000000|&Prostate, Needle Biopsy|1245271436^^^^^^MD^^CMS^D^^^NPI||||||20170908000000|||F||||||C61^Malignant neoplasm of prostate^I10|1881682813&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nSpecimen labeled with the patient's name \"\" and \"prostate biopsy\" consists of scanty gray-tan fragments slightly cylindrical in aggregate about 3 mm submitted in a single cassette.\n\n\nPath report.relevant Hx\n\nHistory - Elevated PSA 918.\n\n\nPath report.final diagnosis\n\nProstate biopsy:   Adenocarcinoma, Gleason 4 + 5 = 9 with extraprostatic extension.\n\n\nPath report.supplemental reports\n\nPreliminary Report: Prostate biopsy:   Submitted for consultation, final pending. Comment: There appears to be extracapsular tissue with carcinoma, probably 4+4 or 5, score 8 or 9 with some perineural invasion consistent with adenocarcinoma. The material; however, given small pieces is sent for urologic path review and a final diagnosis is pending. ## End of auxiliary report ##\n\n\nPath report.site of origin\n\nprostate bx\n\n\nPath report.comments\n\nComments - There appears to be extracapsular extension with adenocarcinoma, probably 4+ 5, score 9 with some perineural extension.. The tumor is PSA positive, focal and weak, but P501 positive supporting prostate origin.  Dr reviewed the material and concurs with the findings. Controls are appropriate. IHC technical services provided by Associated Pathologists d/b/a PathGroup, 658 Grassmere Park, Suite 101, Nashville, TN 37211, , MD, Director\n\n\n"
+}

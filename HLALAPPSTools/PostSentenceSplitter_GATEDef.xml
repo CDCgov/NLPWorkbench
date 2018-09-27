@@ -1,0 +1,15 @@
+<tool id="post_sent_gate" name="PostSentenceSplitter_GATE" version="0.1.0">
+  <description>Extended function on GATE Sentence Splitter</description>
+  <command interpreter="python">PostSentenceSplitter_GATE.py $input $output</command>
+  <inputs>
+    <param format="lif" name="input" type="data" label="Input file"/>
+  </inputs>
+  <outputs>
+    <data format="lif" name="output" />
+  </outputs>
+
+  <help>
+    Further split the sentences by newline symbols.
+  </help>
+
+</tool>

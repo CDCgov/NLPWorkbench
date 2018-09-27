@@ -1,0 +1,155 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2078, 
+        2092
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3933, 
+        3956
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3337, 
+        3357
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1902, 
+        1929
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        559, 
+        588
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1839, 
+        1865
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1976, 
+        1982
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2094, 
+        2107
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2108, 
+        2113
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1891, 
+        1899
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2068, 
+        2077
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1867, 
+        1868
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1888, 
+        1889
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1931, 
+        1932
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2028, 
+        2029
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2203, 
+        2220
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170916000025||ORU^R01^ORU_R01|201709160000250001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-UR-004465^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170905000000|||||||20170905000000|&Soft Tissue, other than tumor,mass,lipoma,debride, Prostate, Radical Resection, PQRS Radical Prostatectomy|1497721526^^^^^^MD^^CMS^D^^^NPI||||||20170906000000|||F||||||C61^Malignant neoplasm of prostate^I10|1770637266&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThis is a 2 part case is gray cassettes. 1. Received in formalin labeled \"\" and \"periprostatic fat\" is an irregular fragment of yellow lobulated fatty tissue, 3.8 x 3.2 x 0.8 cm. Upon palpating no lymph nodes or firm areas are grossly identified. Representative sections are submitted in cassette 1A, M/1. 2. Received in formalin labeled \"\" and \"prostate\" is an 86 g prostate measuring 6.3 x 5.5 x 4.5 cm. Please note there are no attached vas deferens or seminal vesicles. Found along the presumed base is a bulging nodular aspect, 2.5 x 1.5 x 1.0 cm. The external surface displays focal areas of cautery. The presumed right side of the prostate is inked green and the presumed left side is inked blue. Serially sectioning from apex to base reveals a lobulated pink-tan cut surface. A definite lesion is not grossly evident. Representative sections are submitted as follows and as per diagram: 2A and 2B, right apical margin, 3/1 in each; 2C and 2D, left apical margin, 2C, 3/1; 2D, 2/1; 2E- 2R, right prostate submitted from apex to base, 1/1 each; 2S-2AG, left prostate submitted from apex to base, 1/1 each; 2AH-2AI, nodule entirely submitted, AH 5/1, AI 4/1: 2AJ and 2AK, right base, 3/1 each; 2AL and 2AM, left base, 2AL 4/1, 2AM 3/1. (JOK)\n\n\nPath report.site of origin\n\n1. Periprostatic fat 2. Prostate\n\n\nPath report.final diagnosis\n\n1. Soft tissue, periprostatic, excision:     Benign fibroadipose tissue.     Negative for tumor. 2. Prostate, radical prostatectomy:     Prostatic adenocarcinoma, Gleason score 3+3=6 (GradeGroup 1).     The tumor is organ confined.     The margins are negative for tumor. CANCER CHECKLIST: PROSTATE GLAND: Radical Prostatectomy 3.000.001.1000043 SPECIMEN  Procedure: Radical prostatectomy Prostate Size  Prostate Weight (g): 86grams  Prostate Size in Centimeters (cm): 6.3 x 5.5 x 4.5cm TUMOR  Histologic Type: Acinar adenocarcinoma Histologic Grade  Gleason Pattern: Gleason pattern  Primary Gleason Pattern: Pattern 3  Secondary Gleason Pattern: Pattern 3  Total Gleason Score: 6  Grade Group: Grade group 1 Tumor Extent  Tumor Quantitation  Estimated percentage of prostate involved by tumor: 10%  Extraprostatic Extension (EPE): Not identified  Urinary Bladder Neck Invasion: Not identified  Seminal Vesicle Invasion: No seminal vesicle present Accessory Findings  Lymphovascular Invasion: Not Identified MARGINS  Margins: Uninvolved by invasive carcinoma LYMPH NODES  Regional Lymph Nodes: No lymph nodes submitted or found PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT)#: pT2: Organ confined  Regional Lymph Nodes (pN): pNX: Regional lymph nodes cannot be assessed  Distant Metastasis (pM)#: Not applicable - pM cannot be determined from the     submitted specimen(s)\n\n\nPath report.comments\n\nComments - Dominant nodule: Gleason 3+3=6 localized on right side posterolaterally in the apex/mid of the prostate. Margins: Negative for tumor. Tumor: The tumor is organ confined. Overall, the tumor involves approximately 10% of the prostatic volume. Lymphatic/vascular invasion is not identified. A nodule of benign prostatic hyperplasia is identified at the bladder neck. The overlying urothelium is acutely inflamed/ulcerated with marked reactive changes. Gleason scores can be grouped and range from Grade Group 1 (most favorable) to Grade Group 5 (least favorable).\n\n\nPath report.relevant Hx\n\nHistory - Prostate cancer\n\n\n"
+}

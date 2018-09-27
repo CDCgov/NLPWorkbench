@@ -1,0 +1,81 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1066, 
+        1080
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1083, 
+        1106
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        997, 
+        1024
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        537, 
+        566
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        940, 
+        966
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        976, 
+        981
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        968, 
+        975
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1026, 
+        1033
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605040932|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360635|P|2.5|\nPID|1||J999999999^^^^CMR^HOSPITAL 8&9999&MOH~J999999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&JK&ON^^^^JHN||XXXXX^XXXXXXXX^XXXXX^^^||99999999|F|||999 XXXX XXXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:SJ6448|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160503|||67824^XXXXXXX^XXXXXXXXXX^XXXXXX^^^||||||||||||20160504|||F|||||||99999^XXXXX^XXXXXXXX^XXXXXXXXX^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n16:SJ6448 JONES,JENNIFER GRACE 44/F\n \nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container. \n \nThe specimen is received in formalin, labelled with the patient's bradma and\ndesignated sigmoid mass BX.\n \nThe specimen consists of multiple tan tissue fragments, 1.0 x 0.5 x 0.2 cm, All\nsubmitted In one block.\n\n\nPath report.site of origin\n\nSigmoid colon, Mass biopsy\n\n\nPath report.final diagnosis\n\nSIGMOID MASS BIOPSIES:\n \n- Fragments of adenocarcinoma\n\n\nPath report.relevant Hx\n\n*** URGENT ***\nSurgery planned for Wednesday/Thursday\n\n\n"
+}

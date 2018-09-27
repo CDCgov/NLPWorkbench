@@ -1,0 +1,91 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3944, 
+        3958
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4406, 
+        4422
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3275, 
+        3283
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3990, 
+        3998
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3868, 
+        3883
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3885, 
+        3889
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3349, 
+        3364
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3904, 
+        3908
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3890, 
+        3900
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160504235545|8E5E3F25058D009336038E9DC2218C0B6D3D0671|ORU^R01|99999999999|P|2.5||||||\nPID|1||N999999999^^^^CMR^HOSPITAL 9&9999&MOH~N999999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&CP&ON^^^^JHN||XXXXXX^XXXXX^ XXXXX^^^^||99999999|M|||9 XXXXX XXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||S15-29493|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20151124|||85297^XXXXXXXXXXXXX^XXXXXXXX^^^^||||||||||||20160503|||C|||||||99999^XXXXXX^XXXX^^^^|||||||\n\n\n\n\n\n\n\nADDENDUMS\n\nMOLECULAR ONCOLOGY RESULTS\nMutation of EGFR was not detected.\nINTERPRETATION\nThe absence of a detectable EGFR mutation (exons 18, 19, 20, and 21) has been\nassociated with less favourable response to tyrosine kinase inhibitor (TKI) therapy\n[1,2]. These molecular test results should be correlated with other findings.\nSUMMARY OF TECHNICAL DETAILS\nAssay: DNA was extracted from formalin-fixed paraffin-embedded tumour tissue and\nscreened for 29 different EGFR gene mutations using a real-time PCR assay\n(EntroGen EGFR Mutation Analysis Kit) [3].\nEGFR Mutation Panel:\nExon 18: G719S (c.2155G>A), G719C (c.2155G>T), G719A (c.2156G>C)\nExon 19: 19 different deletions and complex mutations (all in-frame)\nExon 20: S768I (c.2303G>T), T790M (c.2369C>T), A767_V769dup (c.2299_2307dup),\np.His773dup (c.2317_2319dup), p.Asp770_Asn771insGly (c.2310_2311insGGT)\nExon 21: L858R (c.2573T>G), L861Q (c.2582T>A)\nReference sequence: NM_005228.3\nLimitations: This test is limited to the 29 EGFR mutations listed above, and will\nnot detect other EGFR mutations. This assay cannot detect mutations\noccurring at frequencies less than the demonstrated limit of\ndetection (LOD), which is estimated to be less than 5%.\nThis assay detects 19 different deletions and complex mutations of exon 19, but does\nnot distinguish between them. This assay detects 3 different missense mutations\ninvolving codon 719 (G719S, G719C, G719A), but does not distinguish between them.\nThe assay detects the c.2317_2319dup and c.2310_2311insGGT mutations of exon 20, but\ndoes not distinguish between them.\nREFERENCES\n[1] Nat Rev Cancer 2007;7:169-181 (PMID 17318210)\n[2] Oncogene 2009;28:S24-S31 (PMID 19680293)\n[3] Oncol Rep 2013;30:1045-1052 (PMID 23817662)\nDr. Brenda Murphy, PhD, FCCMG (Molecular)\nAccession #: 15:MO5807\nHOSPITAL Regional HOSPITAL\n1200 Main St. W. - Room 3N20\nHOSPITAL, ON\nL8S 4J9\n905-521-5085\nTHIS IS A CORRECTED REPORT\nLEFT UPPER LUNG LOBE\n   -  EGFR MUTATION NEGATIVE, ALK RE-ARRANGEMENT, REFER TO SYNOPTIC REPORT\nTest performed on Spec #: S15-29493\nAdequacy of Sample for Testing: Adequate\nEstimated % Tumor Cellularity: 20\nRefer to Molecular Oncology Report: 15: MO5807\nEGFR Mutational Analysis: No mutation detected, wild-type EGFR allele\nEGFR Exons Assessed: 18  19 20 21\nEGFR Mutational Analysis Testing Method(s):\nReal-time PCR\n   EntroGen EGFR Mutation Analysis Kit Exons 18-21\nALK Rearrangement: No rearrangement detected\nALK Rearrangement Testing Method(s):\nImmunohistochemistry (IHC)\nIHC Method: 5A4 antibody using Leica Bond Refine detection system\nDr. J. C. Cutz (PATHOLOGIST)\nHOSPITAL Regional Laboratory Medicine Program  Specimen No: RR3133\nSt. Joseph's HOSPITAL - Service of Anatomical Pathology\n50 Charlton Avenue E. HOSPITAL, ON L8N 4A6\n\n\nCOMMENTS\n\nSpecimen: A\nExcision time: 0857\nTime placed in Formalin: 0857\n\n\nGROSS PATHOLOGY\n\nThe specimen is received in formalin and labelled with the patient's name and as \"lung needle biopsy\" on the tissue and as per the electronic sticker and\nrequisition it specifies \"please do EGFR and ALK\". The specimen consists of six\nfriable tan-white core biopsies measuring 0.5 to 1.0 cm in length by less than\n0.1 cm in diameter. Submitted in total in cassettes A1-A3, two cores each.\n                                        /SM\n\n\nTISSUE SUBMITTED\n\nLUNG CORE BIOPSY (LUL MASS NYD, PLEASE DO EGFR)\n\n\nFINAL DIAGNOSIS\n\nLEFT UPPER LOBE OF LUNG MASS, CT GUIDED CORE BIOPSY:\n   -  ADENOCARCINOMA IN THE LUNG, SEE COMMENT.\n     COMMENT:\n     The tumor is invasive and shows acinar and lepidic growth pattern,\n     morphologically compatible with lung adenocarcinoma.\n     Special studies for EGFR/ALK will be performed and reported in an\n     addendum.\n     This case was reviewed at the pathology consensus rounds on November 26th,\n     20015 and the above diagnosis represents consensus opinion.\n                                   (CODE 1)\n\n\nCLINICAL HISTORY\n\nLUL MASS NYD\n\n\n"
+}

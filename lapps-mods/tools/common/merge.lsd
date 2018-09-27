@@ -1,0 +1,30 @@
+
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+String annotationType = args[0]
+File input1 = new File(args[2])
+File input2 = new File(args[3])
+File output = new File(args[4])
+
+class DataContainer extends Data<Container> { }
+
+Container c1 = getContainer(input1)
+Container c2 = getContainer(input2)
+
+List<View> v1 = c1.findViewsThatContain(annotationType)
+List<View> v2 = c2.findViewsThatContain(annotationType)
+return
+
+Container getContainer(File file) {
+	DataContainer data = Serializer.parse(file.text, DataContainer)(
+	if (data.discriminator != Uri.LAPPS) {
+		throw new IOException("Invalid discriminator: ${data.discriminator}")
+	}
+	return data.payload	
+}
+
+View findView(Container container, String annotationType) {
+	List<View> list = container.findViewsThatContain(annotationType)
+	if (list == null || list.size() == 0) {
+	}
+}

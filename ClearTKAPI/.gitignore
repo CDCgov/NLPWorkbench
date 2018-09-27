@@ -1,0 +1,14 @@
+.idea/
+*.iws
+*.ipr
+*.iml
+
+.project
+.settings
+.classpath
+
+target/
+
+src/main/docker/*.war
+src/main/java/**/Version.java
+VERSION

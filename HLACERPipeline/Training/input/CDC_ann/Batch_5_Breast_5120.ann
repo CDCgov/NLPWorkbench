@@ -1,0 +1,103 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3871, 
+        3877
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3878, 
+        3887
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3948, 
+        3964
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3258, 
+        3266
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3778, 
+        3793
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3795, 
+        3800
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3332, 
+        3347
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3862, 
+        3870
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3801, 
+        3807
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3814, 
+        3823
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160504235603|8E5E3F25058D009336038E9DC2218C0B6D3D0671|ORU^R01|9999999999999|P|2.5||||||\nPID|1||N999999999^^^^CMR^HOSPITAL 9&9999&MOH~N999999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&&ON^^^^JHN||XXXXXXXX^XXXXX^^^^^||99999999|F|||99 XXXXXXXXXXX XX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||S16-11022|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160429|||68760^XXXXXX^XXXXX^^^^||||||||||||20160504|||C|||||||99999^XXXXXX^XXXX^^^^|||||||\n\n\n\n\n\n\n\nADDENDUMS\n\nESTROGEN AND PROGESTERONE RECEPTOR PROTEIN IMMUNOHISTOCHEMISTRY\nDIAGNOSIS:\nINVASIVE CARCINOMA:\n- POSITIVE FOR ESTROGEN RECEPTORS\n- NEGATIVE FOR PROGESTERONE RECEPTORS\nRESULT:\n(Block A1)\n30% of cell nuclei are positive for estrogen receptors\n0% of cell nuclei are positive for progesterone receptors\nAntibody used:\nEstrogen receptor (Rabbit monoclonal, Clone SP1, Ventana)\nProgesterone receptor (Rabbit Monoclonal, Clone 1E2, Ventana)\nPositive and negative external laboratory controls, and internal\ncontrol normal breast tissue stained appropriately.\n\nThreshold for interpretation of Estrogen and Progesterone\nreceptors as per CCO guidelines:\nPOSITIVE: 10% or more of tumor cell nuclei stain positively with any intensity\nLOW POSITIVE: 1-9% of tumor cell nuclei stain positively with any intensity\nNEGATIVE: <1% of tumor cell nuclei stain positively with any intensity\nReference:\nDiaz LK, Sneige N: Estrogen receptor analysis for breast cancer: current\nissues and keys to increasing testing accuracy. Adv Anat Pathol\n2005;12:10-19\nIMMUNOHISTOCHEMICAL STUDIES FOR HER2 ONCOPROTEIN:\nRESULTS:\n   BREAST RIGHT,CORE BIOPSY :\n        INVASIVE MAMMARY CARCINOMA.\n        EQUIVOCAL FOR HER2 ONCOPROTEIN OVEREXPRESSION.\n        SENT FOR ADDITIONAL STUDIES TO HOSPITAL HEALTH CENTRE.\n        ADDENDUM TO FOLLOW.\nNote: Cold ischemia and fixation times meet the requirements specified in the\nlatest version of the ASCO/CAP guidelines: Yes\nStaining intensity: 2+\nBlock#: A\nScoring Criterion and Scoring System:\nIHC 0 (Negative): No staining observed; or membrane staining that is incomplete\nand is faint/barely perceptible and within <=10% of the invasive tumor cells.\nIHC 1+ (Negative): Incomplete membrane staining that is faint/barely\nperceptible and within >10% of the invasive tumor cells.\nIHC 2+ (Equivocal): Circumferential membrane staining that is incomplete and/or\nweak/moderate and within >10% of the invasive tumor cells; or complete and\ncircumferential membrane staining that is intense and within <=10% of the\ninvasive tumor cells.\nIHC 3+ (Positive): Circumferential membrane staining that is complete, intense\nand within >10% of tumor cells.\nINDETERMINATE: Another specimen should be requested for testing to determine\nHER2 status if possible.\nMethodology:\nFixation Type: 10% neutral buffered formalin\nRecommended Length of Fixation: 6 - 72 hours\nRecommended Cold Ischemia time: < 1 hour\nAntibody used: c-erb-2/HER-2/neu (Clone 4B5 Rabbit monoclonal antibody, Ventana\nMedical Systems)\nControl Slides Examined: In-house known Her2 positive control tissue was\nevaluated along with the test tissue and shows appropriate staining.\nReferences:\nWolfe et al. ASCO/CAP HER2 Testing Guideline Update. J Clin Oncol\n2013:31:3997-4013\n\n\nCOMMENTS\n\nSpecimen: A\nExcision time: 1010\nTime placed in Formalin: 1012\n\n\nGROSS PATHOLOGY\n\nThe specimen is received in formalin and labelled with the patient's name\nand as \"right breast 3 o'clock mass, Birads 5, lesion\". The specimen consists of\nfour fragments of fibrofatty needle core biopsy ranging from 1.0 to 1.5 cm in length\nand averaging 0.2 cm in diameter. Entirely submitted in cassettes A1 and A2.\n                                        /KAD\n\n\nTISSUE SUBMITTED\n\nBREAST BIOPSY (RT BREAST 3 O'CLOCK MASS, BI)\n\n\nFINAL DIAGNOSIS\n\nRIGHT BREAST MASS, 3 O'CLOCK, ULTRASOUND GUIDED CORE BIOPSY:\n   -  INVASIVE DUCTAL CARCINOMA INVOLVING 4 CORES.\n                              (CODE 1)\n\n\nCLINICAL HISTORY\n\nRT BREAST PALP MASS\n\n\n"
+}

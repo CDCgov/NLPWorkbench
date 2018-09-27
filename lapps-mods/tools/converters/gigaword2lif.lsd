@@ -1,0 +1,40 @@
+
+import static org.lappsgrid.discriminator.Discriminators.Uri
+import groovy.xml.*
+
+File file = new File(args[0])
+File output = new File(args[1])
+
+Data data = Serializer.parse(file.text, Data)
+
+//TODO Check that the discriminator is LDC/XML
+// Parse the payload into an XML document object (NodeList)
+def doc = new XmlParser().parseText(data.payload)
+
+Container container = new Container()
+container.metadata.HEADLINE = doc.HEADLINE[0].value()
+container.metadata.DATELINE = doc.DATELINE[0].value()
+
+buffer = new StringBuilder()
+id = -1
+view = container.newView()
+view.addContains(Uri.PARAGRAPH, "gigaword2lif.lsd", "paragraph")
+doc.TEXT.P.each { p ->
+	Annotation a = view.newAnnotation()
+	a.id = "p${++id}"
+	a.start = buffer.length()
+	buffer.append(p.value()[0])
+	a.end = buffer.length()
+	buffer.append("\n")
+	a.atType = "http://vocab.lappsgrid.org/Paragraph"
+	a.label = "Paragraph"
+}
+
+container.text = buffer.toString()
+container.language = "en"
+data = new Data(Uri.LAPPS, container)
+output.text = data.asPrettyJson()
+
+
+
+

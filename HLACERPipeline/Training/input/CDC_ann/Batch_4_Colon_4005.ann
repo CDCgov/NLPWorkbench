@@ -1,0 +1,213 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2405, 
+        2418
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2345, 
+        2359
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2419, 
+        2426
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1747, 
+        1770
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2727, 
+        2735
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7973, 
+        7993
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1806, 
+        1833
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        793, 
+        822
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7670, 
+        7705
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7747, 
+        7773
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2432, 
+        2436
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2311, 
+        2316
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2325, 
+        2332
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1835, 
+        1837
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2002, 
+        2004
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2201, 
+        2203
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2308, 
+        2310
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7775, 
+        7776
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        7829, 
+        7830
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7853, 
+        7854
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        7884, 
+        7885
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2531, 
+        2563
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2565, 
+        2580
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170915000109||ORU^R01^ORU_R01|201709150001090001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-GI-016759^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170830000000|||||||20170901000000|&Esophagus, Biopsy, Stomach - Biopsy, Duodenum, Biopsy, Polyp, Colorectal|1376519074^^^C^^^MD^^CMS^D^^^NPI||||||20170905000000|||F||||||C18.7^Malignant neoplasm of sigmoid colon^I10~K26.9^Duodenal ulcer, unspecified as acute or chronic, without hemorrhage or perforation^I10~B96.81^Helicobacter pylori [H. pylori] as the cause of diseases classified elsewhere^I10~K29.50^Unspecified chronic gastritis without bleeding^I10~K20.8^Other esophagitis^I10|&&&O.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received in zinc formalin are 2 fragments of the specimen measuring 0.2 cm and 0.3 cm. The specimen is submitted in 1 block, 2/1. 2. Received in zinc formalin is specimen \"B\" with 3 fragments ranging in size from 0..2 to 0.4 cm. The specimen is totally submitted in 1 block, 3/1. 3. Received in zinc formalin is specimen \"C\" labeled \"biopsy, duodenal bulb\" and consists of 2 fragments measuring 0.2 and 0.3 cm. The specimen is submitted in 1 block, 2/1. 4. Received in zinc formalin is a specimen called \"polypectomy in the distal sigmoid colon\" are 2 fragments measuring 1.0 and 1.4 cm. One fragment is sectioned into 4 and submitted in one block. The 2nd fragment is sectioned and submitted into 3 blocks. Block code: D1, 4/1; D2, 3/1. D3; 1/1; D4, 3/1. Technical services provided by Gastrointestinal Assoc and Pathology Laboratory, 629 Delozier Way, Powell, TN 37849, Trevor J. Ingeneri, M.D., Laboratory Director\n\n\nPath report.relevant Hx\n\nHistory - Occult blood in stool\n\n\nPath report.final diagnosis\n\n1. Gastroesophageal junction and Z-line, biopsy:     Squamocolumnar mucosa with reactive changes and chronic inflammation.     No intestinal metaplasia is identified. 2. Stomach, antrum, biopsy:     Antral mucosa with Helicobacter-associated chronic active gastritis.     Helicobacter pylori organisms are present on routine histology and Alcian yellow       stain. 3. Duodenum, bulb, biopsy:     Duodenal mucosa with focal erosions and reactive changes.     See comments. 4. Colon, distal sigmoid, biopsy:    Adenocarcinoma, intestinal type, arising in a background of tubulovillous adenoma with high-grade dysplasia.     High-grade dysplasia is present at the inked surface.     See comment.\n\n\nPath report.supplemental reports\n\nAddendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present in both the tumor and adjacent non-neoplastic tissue components). These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome. Cancers with this profile are microsatellite stable (MSS). If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result on the screening test, then consideration could be made for a genetic consult with additional testing. [References available on request]. ## End of auxiliary report ## Molecular Diagnostic Rpt: Microsatellite Instability (MSI) Analysis by PCR/Reviewer: SEE COMMENT Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: Not Detected Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: This specimen showed no evidence of microsatellite instability in the 5 microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27) examined. This result is consistent with a competent mismatch repair function. Cancers with this profile are microsatellite stable (MSS).<BR/><BR/>Microsatellite Instability Analysis has multifaceted clinical utility: as a predictive biomarker for immune checkpoint inhibitor therapy response; as a prognostic and predictive biomarker for colorectal carcinoma; and as a genetic risk biomarker for the presence of a hereditary cancer syndrome such as Lynch Syndrome.<BR/><BR/>As an immune checkpoint inhibitor therapy biomarker, recent literature (Le, et al., <i>N Engl J Med</i> 372:2509-2520; Topolian, et al., <i>Nature Reviews Cancer</i> 16:275-287) indicates that, in general, patients that are Microsatellite Stable (MSS) have a poorer response to immune checkpoint inhibitor therapy.<BR/><BR/>MSS tumors have poorer prognosis than MSI-H tumors, and better response to 5-fluorouracil (5-FU) adjuvant chemotherapy. <BR/><BR/>As a genetic risk biomarker, the result of MSS is inconsistent with Lynch syndrome. However, if the clinical suspicion remains high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result, consideration should be given to a genetic consult to direct additional testing. <BR/><BR/>Interpretation of this result of MSS in the context of other clinical and laboratory findings is strongly recommended. Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: See Below Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: 17-GI-016759 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 4A Microsatellite Instability (MSI) Analysis by PCR/Tumor Percentage: 21-50% BRAF Mutation Analysis/BRAF Mutation: See Comment BRAF Mutation Analysis/BRAF Mutation Interpretation: The genomic DNA isolated from this specimen did not meet the minimum quality requirements. Low quality DNA may lead to false positive and/or false negative results. Low quality DNA may be the result of necrosis, fixation issues, or other specimen collection or processing issues. If clinically appropriate, recommend recollection and resubmission or identification of an alternate specimen. BRAF Mutation Analysis/Specimen Source: See Comment BRAF Mutation Analysis/Original Accession Number: 17-GI-016759 BRAF Mutation Analysis/Original Block: 4A KRAS Mutation Analysis/KRAS Mutation: See Comment KRAS Mutation Analysis/KRAS Mutation Interpretation: The genomic DNA isolated from this specimen did not meet the minimum quality requirements. Low quality DNA may lead to false positive and/or false negative results. Low quality DNA may be the result of necrosis, fixation issues, or other specimen collection or processing issues. If clinically appropriate, recommend recollection and resubmission or identification of an alternate specimen. KRAS Mutation Analysis/Specimen Source: See Comment KRAS Mutation Analysis/Original Accession Number: 17-GI-016759 KRAS Mutation Analysis/Original Block: 4A NRAS Mutation Analysis/NRAS Mutation: See Comment NRAS Mutation Analysis/NRAS Mutation Interpretation: The genomic DNA isolated from this specimen did not meet the minimum quality requirements. Low quality DNA may lead to false positive and/or false negative results. Low quality DNA may be the result of necrosis, fixation issues, or other specimen collection or processing issues. If clinically appropriate, recommend recollection and resubmission or identification of an alternate specimen. NRAS Mutation Analysis/Specimen Source: See Comment NRAS Mutation Analysis/Original Accession Number: 17-GI-016759 NRAS Mutation Analysis/Original Block: 4A ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Biopsy in the Z-line and gastroesophageal junction 2. Biopsy in the antrum 3. Biopsy in the duodenal bulb 4. Polypectomy in the distal sigmoid colon Number of slides: [8] Number of blocks: [4]\n\n\nPath report.comments\n\nComments - 3. There is focal duodenal erosion. The etiology includes medication-induced injury (e.g., NSAIDS) or peptic type injury. 4. There is extensive high grade dysplasia. The depth of invasion is difficult to determine due to the superficial nature of the sample and fragmentation. Mismatch repair proteins and colon biomarkers will be performed and reported in an addendum. The findings were called to Carly in the office of Dr. on 9/1/2017 at 2:25 CT. Molec Comments - The tissue specimen was reviewed by a pathologist and representative areas of tumor and normal tissue selected. These areas were microdissected from the surrounding tissue, and genomic DNA extracted using standard methods (QIAGEN QIASymphony). The tumor and normal DNA were separately PCR amplified for five microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27; Promega Corp.), and size fractionated via capillary electrophoresis (Life Technologies 3500xl). The tumor and normal profiles were compared to determine the presence of altered microsatellite profiles. The analytic sensitivity of the assay is approximately 10-20% and is dependent on the size and clonality of any instability. The presence of instability in less than 10-20% of the DNA examined will not be detected. This assay uses reagents that may be marked as Research Use Only or Analyte Specific Reagent. This test was developed and its performance characteristics determined by PathGroup. Portions of this test use reagents designated by the manufacturer as for research use, not for clinical use. It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. <BR/><BR/>Klump B,et al. <i>Int J Colorectal Dis</i> Vol 19:23-42, 2004; Grady WM.<i>Cancer Metastasis Rev</i> Vol 23:11-27, 2004; Umar, et al., <i>J Natl Cancer Inst</i> Vol 96:261-268, 2004; Popat S, Hubner R, Houlston RS. <i>Prognosis J Clin Oncol</i> Vol 23(3):609-618, 2005; Ribic CM, et al.,<i> N Engl J Med.</i> Vol 349(3):247-257, 2003; D. J. Sargent, et al.,<i>J Clin Oncol</i> Vol 26 (May 20 suppl; abstr 4008), 2008; P L Barratt, et al., <i>Lancet</i> Vol 360: 1381-91, 2002; Bertagnolli MM, et al., <i>J Clin Oncol</i> Vol 27(11):1814-1812, 2009; Marcus VA, et al., <i>Am J Surg Pathol</i> Vol23:1248-55, 1999; Lindor NM, et al., <i>J Clin Oncol</i> Vol20: 1043-1048, 2002;Boland CR, et al., <i>Cancer Res</i.Vol 58(22):5248-57, 1998; Palomaki GE, et al., <i>Genetics in Medicine</i> Vol 11(1):42-65, 2009 .\n\n\n"
+}

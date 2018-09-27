@@ -1,0 +1,135 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1183, 
+        1197
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1244, 
+        1267
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        888, 
+        915
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1073, 
+        1098
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        856, 
+        861
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        935, 
+        940
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        529, 
+        558
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        822, 
+        848
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        850, 
+        854
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        917, 
+        921
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1157, 
+        1172
+      ]
+    }
+  ], 
+  "Primary Origin of Neoplasm (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1173, 
+        1182
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        862, 
+        873
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        941, 
+        952
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605021910|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360208|P|2.5|\nPID|1||J999999999^^^^CMR^HOSPITAL 8&9999&MOH~J999999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&JA&ON^^^^JHN||XXXXXXX^XXXXXX^XXXXXXX^^^||99999999|M|||999 XXXXX XXXXXX XX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:SJ5813|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160421|||33186^XXXXX^XXXXX^XXXXXX^^^||||||||||||20160502|||C|||||||99999^XXXX^XXXX-XXXXXX^^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container.\n \nThe specimen consists of four threadlike tan tissue cores (0.7 cm long each) and three\nfragments (0.1 cm each), all submitted in one block.\n\n\nPath report.site of origin\n\nLung, Right middle lobe mass biopsy\n\n\nPath report.final diagnosis\n\nLung core biopsy, right middle lobe: \n - Poorly differentiated carcinoma NOS, pulmonary non-small cell type or metastatic;\n  immunohistochemistry pending\n\n\nPath Report.addendum spec\n\nImmunohistochemistry is positive for TTF-1 and Napsin A, consistent with pulmonary\nadenocarcinoma. EGFR/ALK results to follow in an addendum.\n\n\nPath report.relevant Hx\n\nHuge right middle lobe mass, failed bronchoscopic biopsy\n\n\n"
+}

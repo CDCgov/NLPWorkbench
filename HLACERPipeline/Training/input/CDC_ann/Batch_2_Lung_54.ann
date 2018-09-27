@@ -1,0 +1,213 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3984, 
+        3998
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3660, 
+        3674
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3999, 
+        4008
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4042, 
+        4056
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3456, 
+        3479
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3481, 
+        3497
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3729, 
+        3737
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7429, 
+        7449
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7451, 
+        7459
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3543, 
+        3570
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3572, 
+        3582
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3582, 
+        3587
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7405, 
+        7410
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        789, 
+        818
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        820, 
+        837
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1207, 
+        1242
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1244, 
+        1256
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7357, 
+        7383
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7385, 
+        7403
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3634, 
+        3659
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3588, 
+        3597
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4026, 
+        4041
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7411, 
+        7421
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\n\n\nAmended report: This is an amended report due to a clerical error. There is no change in the diagnosis. THIS IS AN AMENDED REPORT DUE TO A CLERICAL ERROR. THERE IS NO CHANGE IN THE DIAGNOSIS. THIS AMENDMENT IS DONE TO FIX CLERICAL ERRORS.\n\n\nPath report.gross observation\n\nGross description: The specimen is received in one formalin filled container labeled with the patient's name, sublabeled \"right lung mass\" and consists of are multiple tiny cylindrical portions of tissue which aggregate to 0.5 x 0.3 x 0.1 CM. The specimen is wrapped and entirely submitted in one cassette. 11/19/2015 DC /TIB\n\n\nPayment procedure\n\nCPT                            .88305\n\n\nPath report.microscopic observation\n\nMicroscopic: Immunohistochemistry SPI Interpretation Deparaffinized sections of formalin fixed tissue (along with appropriate positive and negative controls) are incubated with the following antibody(s). Using the automated Ventana stainer, tissu is incubated with the designated antibody which is then localized by a non-biotin, dual polymer detection system. The controls are reviewed for appropriate reactivity and found to be adequate. Results on the target cel population are indicated below: Some of the immunohistochemistry stains reported below were developed and their performance characteristics determined by LabCorp, Inc. They have not been cleared or approved by the U.S. Food and Drug Administration, although such approval is not required for analyte-specific reagents of this type. ANTIBODIES (CLONE) TO: RESULTS: CDX-2 (88) - negative CK 7 (OV-TL12/30) - positive CK 20 (SP33) - negative Napsin A (IP64) - rare weak positive Thyroid Transcription Factor-1 TTF-1 (8G7G3/1)- negative Villin (CWWB1) - positive PAX8 - negative ER - negative WT1 - negative DIAGNOSIS: The malignant cells are uniformly positive for CK 7 and villin with rare cells positive for focal Napsin. These cells are negative for CK 20, CDX2 and TTF1. Positive expression of Napsin A is suggestive of adenocarcinoma of lung origin. Negative expression of CK20 and CDX2 argue against metastatic GI/colon primary. Negative expression of PAX8 and WT1 argue against genitourinary primary and negative ER argues against breast primary. LUNG, NEEDLE CORE BIOPSIES: INFILTRATING ADENOCARCINOMA WITH ENTERIC PHENOTYPE, IMMUNOHISTOCHEMICALLY FAVOR LUNG PRIMARY. PLEASE SEE COMMENT. 11/26/2015 KC Results-Comments Uniform positive expression of CK7 with Villin and rare cells weakly positive for Napsin A is supportive of the above impression. Cells are negative for TTF1 and enteric type lung carcinomas usually are negative. These slides were reviewed by Dr. who concurs with the above interpretation. ER, PAX8 and WT1 immunostains were reviewed and interpreted by Dr.. ***Electronically Signed Out***\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C34.31\n\n\nPath report.relevant Hx\n\nClinical history: RIGHT LOWER LOBE MASS 1). RIGHT LUNG MASS\n\n\nPath report.final diagnosis\n\nDiagnosis:RIGHT LUNG MASS, NEEDLE CORE BIOPSIES: INFILTRATING MODERATELY DIFFERENTIATED ADENOCARCINOMA. PLEASE SEE COMMENT. 11/20/2015 KC ICD10 CODE: C34.31 COMMENT: Per CT scan report of right lung, there is a subpleural mass in the right lower lobe posteriorly measuring approximately 9.0 x 6.6 x 2.9 cm associated with consolidation. Histologically, core biopsies show scar tissue associated with infiltratin non-small cell carcinoma, morphologically consistent with adenocarcinoma. Immunostains are being performed to furthe confirm this impression and evaluate for the primary site of origin. Results will be reported as an addendum. This case was reviewed in the intradepartmental consultation with concurrence prior to verification. ***Electronically Signed Out*** Addendum SPI Addendum Diagnosis The block will be sent for EGFR and ALK testing. Results will be reported as an addendum. Addendum Comment {Not Entered} ***Electronically Signed Out*** Addendum SPI Addendum Diagnosis FISH Report ALK Analysis RESULT: No Evidence of ALK Gene Rearrangement Detected by FISH nuc ish(ALKx2)[50] INTERPRETATION: FISH analysis was performed on paraffin embedded tissue using an ALK Break Apart DNA probe (FDA approved kit, Abbott Molecular Inc) for the detection of rearrangements involving the AL gene. Fifty interphase nuclei were examined and no evidence of ALK gene specific abnormalities associated wit non-small cell lung cancer (NSCLC) was detected. Genetic changes other than those assayed here cannot be ruled out on the basis of this testing. Correlation with clinical and pathological findings is suggested for a complete interpretation of the results. See Molecular report for further information. Addendum Comment Please see Integrated Oncology Report for complete details. ***Electronically Signed Out*** Addendum SPI Addendum Diagnosis EGFR Gene Mutation Analysis INTERPRETATION: Negative for EGFR Mutation. Comments: No mutations were detected within the analyzed region of the EGF gene in the sample provided for analysis. Less than 5% of non-small cell lung carcinoma patients without identifiable mutations are reported to be responsive to EGFR tyrosine kinase inhibitor therapies. Results should be interpreted in conjunction with clinical and other laboratory findings for the most accurate interpretation. A subgroup of non-small cell lung cancer (NSCLC) patients has shown clinical responsiveness to the epidermal growth factor receptor (EGFR) inhibitors gefitinib (IRESSA) and erlotinib (Tarceva), including never smokers, individuals of Asian ethnicity, and those with adenocarcinoma histology. In the majority of patients with highly responsive tumors, the tumor contains a somatic mutation within the EGFR tyrosine kinase domain. The presence of a somatic EGFR mutation is significantly associated with response to gefitinib and erlotinib, and is strongly predictive of prolonged survival in NSCLC patients. See report for further information. Addendum Comment Please see Integrated Oncology Report for complete details. ***Electronically Signed Out*** Addendum SPI Addendum Diagnosis TEST: FISH Report TargetGene Analysis RESULT: Negative for ROS1 gene rearrangement TEST: PD-L1 Immunohistochemistry Analysis PD-L1 - KEYTRUDA (R) Tumor Proportion 0% Interpretation: No Expression Addendum Comment Please see Integrated Oncology Reports, for complete details. AGT17-001342 APD17-001064 Testing and Interpretation done at Integrated Oncology, Phoenix, AZ. Testing requested by Dr. ***Electronically Signed Out*** BILLING FEE CODE(S): 1: 88305, 88342, 88342, 88342, 88342, 88342, 88342 Technical component performed at Labcorp, 550 17th Ave., Suite 300, Seattle, WA, 98122 TIB/02/21/2017 **********************************************************************\n\n\nPath report.site of origin\n\nMaterial submitted: RIGHT LOWER LOBE MASS\n\n\nPath report.comments\n\nComment:PLEASE SEE CASE IN COPATH PLUS FOR ORIGINAL CASE DETAILS. SPECIME N COLLECTED ON 11/19/2015 AND ORIGINALLY REPORTED ON 11/20/2015.\n\n\n"
+}

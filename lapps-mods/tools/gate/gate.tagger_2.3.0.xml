@@ -1,0 +1,80 @@
+<tool id='anc_gate.tagger_2.3.0' name='GATE POSTagger v2.3.0' version='1.0.1'>
+  <description>GATE POS Tagger</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.tagger_2.3.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+A modiﬁed version of the Brill tagger, which produces a part-of-speech tag as an annotation on each Token. 
+
+
+**Required Annotations**
+
+* Tokens in GATE XML format (will automatically convert from LIF)
+* Sentences in GATE XML format (will automatically convert from LIF)
+
+**Generated Annotations**
+
+* Token annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_ with part of speech from the Penn tagset given on the "category" feature.
+
+.. class:: infomark
+
+If converted to `LIF <http://wiki.lappsgrid.org/org.lappsgrid.serialization/groovydoc/org/lappsgrid/serialization/lif/Container.html>`_, the output will include 
+`Token <http://vocab.lappsgrid.org/Token.html>`_ annotations with an added "pos" feature indicating the token's part of speech.
+
+.. class:: warningmark
+
+The output of all GATE tools is in the `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_. This output can be input directly into other GATE tools. To input GATE XML format to  tools requiring LIF, 
+use *Convert formats->GateToLif* 
+
+
+
+**License**
+
+This tool is adapted from the `General Architecture for Text Engineering (GATE) platform <http:gate.ac.uk>`_, which is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+]]>
+</help>
+<citations>
+    	<citation type="bibtex">
+    	BibTeX | EndNote | ACM Ref
+@inproceedings{Brill:1992:SRP:974499.974526,
+ author = {Brill, Eric},
+ title = {A Simple Rule-based Part of Speech Tagger},
+ booktitle = {Proceedings of the Third Conference on Applied Natural Language Processing},
+ series = {ANLC '92},
+ year = {1992},
+ location = {Trento, Italy},
+ pages = {152--155},
+ numpages = {4},
+ url = {https://doi.org/10.3115/974499.974526},
+ doi = {10.3115/974499.974526},
+ acmid = {974526},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+}
+		</citation>
+    	<citation type="bibtex">
+    	@inproceedings{Hepple:2000:ICA:1075218.1075254,
+ author = {Hepple, Mark},
+ title = {Independence and Commitment: Assumptions for Rapid Training and Execution of Rule-based POS Taggers},
+ booktitle = {Proceedings of the 38th Annual Meeting on Association for Computational Linguistics},
+ series = {ACL '00},
+ year = {2000},
+ location = {Hong Kong},
+ pages = {278--277},
+ numpages = {0},
+ url = {https://doi.org/10.3115/1075218.1075254},
+ doi = {10.3115/1075218.1075254},
+ acmid = {1075254},
+ publisher = {Association for Computational Linguistics},
+ address = {Stroudsburg, PA, USA},
+} 
+		</citation>
+</citations>
+</tool>

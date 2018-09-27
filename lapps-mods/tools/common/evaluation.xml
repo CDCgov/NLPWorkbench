@@ -1,0 +1,17 @@
+<tool id='evaluation.simple' name='Evaluation' version='2.0.0'>
+  <description>Annotation Evaluation</description>
+  <command interpreter='lsd'>evaluation.lsd $annotation $input1 $input2 $output</command>
+  <inputs>
+    <param name='input1' type='data' format='lif' label='gold' />
+    <param name='input2' type='data' format='lif' label='test'/>
+    <param name='annotation' type='text' value='http://vocab.lappsgrid.org/Token'/>
+  </inputs>
+  <outputs>
+    <data name='output' format='json' label='Evaluation'/>
+  </outputs>
+  <help>Compares the annotation in two input documents.
+  
+  This evaluation component is for example purposes only.  The only evaluation performed
+  is to count the number of annotations in each input stream.
+  </help>
+</tool>

@@ -1,0 +1,12 @@
+<tool id="svm_rank.classify" name="SVM Rank Classify" version="1.0.0">
+    <description>SVM classify</description>
+    <command>svm_rank_classify $example $model $output</command>
+    <inputs>
+        <param name="example" type="data" format="txt" label="Test data"/>
+        <param name="model" type="data" format="txt" label="Model"/>
+    </inputs>
+    <outputs>
+        <data name="output" format="txt" label="Predictions"/>
+    </outputs>
+    <help>SVM Classification</help>
+</tool>

@@ -1,0 +1,145 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        995, 
+        1009
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1010, 
+        1019
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1040, 
+        1054
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1501, 
+        1524
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        932, 
+        959
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        972, 
+        977
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        504, 
+        533
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        808, 
+        834
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        875, 
+        901
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        984, 
+        988
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1021, 
+        1036
+      ]
+    }
+  ], 
+  "Primary Origin of Neoplasm (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1058, 
+        1069
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        848, 
+        851
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        904, 
+        907
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        978, 
+        983
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605041135|76952CCF1B18CE806172EBBAE995DF34B0E45073|ORU^R01|PIMS-OUT.1.183578|P|2.5|\nPID|1||9999999999^^^^CMR^HOSPITAL 8&9999&MOH~9999999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&PR&ON^^^^JHN||XXXX^XX^XXXX^^^||99999999|F|||9999 XXXXXXX XXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:S6290|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160429|||79004^XXXXX^XXXXXXX^^^^||||||||||||20160504|||F|||||||^XXXX^XXXXXXX^^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n\nThe specimen is received in 10% buffered formalin. The container is labeled\n'Deng, Yi, unit #1332466, RLL endobronchial lesion'. The specimen consists\nof 4 fragments of tan/gray tissue ranging from 0.1 to 0.2 cm in greatest\ndimension, submitted in toto in cassette A1.\n\n\n\nPath report.site of origin\n\nA: Biopsy , RLL endobronchial lesion\n\n\nPath report.site of origin\n\n\nRLL endobronchial lesion.\n\n\nPath report.final diagnosis\n\nA. BIOPSY, RIGHT LOWER LUNG\n \n  - NON-SMALL CELL CARCINOMA, CONSISTENT WITH AN ADENOCARCINOMA OF LUNG ORIGIN\n \n \nComment: tumor cells are positive for TTF1 and NapsinA, while they are negative\nfor p63. The immunoprofile is consistent with an adenocarcinoma of pulmonary\norigin. Grading is challenging because of the small sample size, but the\nadenocarcinoma appears poorly to moderately differentiated.\n \nNote: the specimen has been sent for EGFR / ALK molecular testing. Please see\nseparate molecular report.\n \n \nVALERIE DUBE, MD, FRCPC\n\n\nPath report.relevant Hx\n\n\nRLL mass, query NSCLC, query adeno CA-EGFR/ALK, please urgent.\n\n\n"
+}

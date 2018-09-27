@@ -1,0 +1,37 @@
+<tool id="opennlp.namedentityrecognizer" name="OpenNLP Named Entity Recognizer" version="2.0.3">
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd opennlp.namedentityrecognizer_2.0.3 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+**What it does**  
+  
+Generates named entity annotations using 
+the `OpenNLP <https://opennlp.apache.org>`_ named entity recognizer 
+(see the `OpenNLP -- Named Entity Recognition Tutorial <https://www.tutorialspoint.com/opennlp/opennlp_named_entity_recognition.htm>`_
+for more information). 
+
+**Required annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token.html>`_  (LIF)
+ 
+
+**Generated Annotations**
+
+A LIF document with a new view containing `NamedEntity <http://vocab.lappsgrid.org/NamedEntity.html>`_ annotations, 
+with Person, Location, or Organization as the value of the *category* feature.
+
+
+**License**
+
+Apache OpenNLP is licensed under `the Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>`_]]>
+ </help>
+</tool>

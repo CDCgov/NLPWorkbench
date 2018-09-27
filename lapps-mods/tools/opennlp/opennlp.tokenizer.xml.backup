@@ -1,0 +1,10 @@
+<tool id='opennlp.tokenizer' name='OpenNLP Tokenizer' version='2.0.0'>
+  <description>OpenNLP Tokenizer</description>
+  <command interpreter='lsd'>../lapps_common/invoke_brandeis.lsd opennlp.tokenizer_2.0.1 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif,json' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+</tool>

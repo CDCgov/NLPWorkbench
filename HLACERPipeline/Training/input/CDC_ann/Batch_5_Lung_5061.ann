@@ -1,0 +1,131 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        613, 
+        618
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        627, 
+        641
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        642, 
+        651
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        659, 
+        673
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1143, 
+        1157
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        539, 
+        562
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        575, 
+        602
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        769, 
+        804
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        608, 
+        612
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        748, 
+        752
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        720, 
+        746
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        619, 
+        623
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        759, 
+        763
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        753, 
+        758
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 11^9999^MOH|PIMS|CCO|20160502210041|A7D9DECB51CFB10B852EA0E30792CADFE921CD30|ORU^R01|999999999999|P|2.5||||||\nPID|1||H999999999^^^^CMR^HOSPITAL 11&9999&MOH~H999999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&TG&^^^^JHN||XXXXXXXX^XXXXXX^^^^||99999999|M|||99 XXXXXXXXXXX XX^XXX 999^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||Y1707-16|11529-5^Surgical Pathology Study Report^LN^C^Pathology^L|||20160427|||68659^XXXXX^XXXXXXXXXX XX^^^^||||||||||||20160429|||C|||||||99999^X. XXXXXX^X.X.^^^^|||||||\n\n\n\n\n\n\n\nPath report.relevant Hx\n\nLUL MASS\n\n\nPath Report.final diagnosis\n\nFNA LEFT UPPER LUNG:\n- Non-small cell carcinoma, favor adenocarcinoma (see microscopic description and\n comment).\n\n\nPath Report.site of origin\n\nLEFT UPPER LUNG BX\n\n\nPath Report.microscopic observation\n\nThe aspirate and cell block show groups of epithelioid malignant cells. Occasional\nintracytoplasmic vacuoles are seen within the aspirate. By immunohistochemistry\nlesional cells show the following staining pattern:\nPositive: CK7\nEquivocal: CK5\nNegative: p63, S100 and TTF1\nThe combined morphologic and immunohistochemical features favor adenocarcinoma.\n\n\n"
+}

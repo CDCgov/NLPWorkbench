@@ -1,0 +1,51 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3095, 
+        3118
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        915, 
+        924
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3184, 
+        3204
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        676, 
+        703
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        593, 
+        619
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160602100054|F10198A64BD3D027E7A7237B6B014347C6670AD6|ORU^R01|9999999999|P|2.5||||||||||\nPID|1||SH99999999^^^^CMR^HOSPITAL&&MOH~SH99999999^^^^RMR^HOSPITAL&&MOH~SH99999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&MC&ON^^^^JHN||XXXXXX^XXXXXXX^XXXXXX||99999999|F|||999 XXXXX XXXXXX^^XXXXX XXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1|16:SS6898|16:SM775^SRH-PTH|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160517|||60547^XXXXXX-XXXXXX XXXXXX^XXXXXX^^^^||||||||||N||20160601|||F|||||||999999^XXXXXXX^XXXXXXX^X^^^XX XXXX||\n\n\n\n\n\n\n\nPath report.site of origin\n\nFormalin fixed paraffin embedded tissue for Genomics\n\n\nPath report.final diagnosis\n\nEGFR & BRAF focused variants, DNA, qualitative, paraffin-embedded right pleural\ntissue, block C1 (16:SS6898 dated 17/05/16):\nNegative. Variants were not detected in the EGFR and BRAF coding regions\nevaluated.\n\nComments:\nThis is a qualitative assay with a sensitivity of approximately 5%. This means\nthat approximately 5% of the total DNA in the sample must contain an EGFR\nvariant to be detected as positive.\nFor concerns or questions regarding this testing, please contact the signing\npathologist at 705-675-4779.\n\nMethod Summary:\nTotal genomic DNA was extracted from the sample and the regions defined in the\ntable below amplified using polymerase chain reaction (PCR) (AmpliSeq ultraplex\nPCR design, Life Technologies). Universal sequencing primers, including a\npatient-specific index tag sequence (Ion Torrent, Life Technologies), were\nattached to both ends of the amplified fragments and sequencing performed using\nan Ion Torrent Personal Genome Machine (PGM, Life Technologies). Variant\nevaluation was performed using a combination of an automated variant analysis\nprogram (variantCaller, Life Technologies) and manual inspection.\nAnalysis reference sequence: GRCh37 (hg19)\nGene\nTranscript\nExon\nGenome DNA Region\nCoding Region\nProtein Codons\n\n\n\n\nEGFR\nNM_005228.3\n 18\ng.55,241,614 - 55,241,736\nc.2062 - 2184\np.688 - 728\n\n 19\ng.55,242,415 - 55,242,513\nc.2185 - 2283\np.729 - 761\n\n 20\ng.55,248,986 - 55,249,171\nc.2284 - 2469\np.762 - 823\n\n 21\ng.55,259,412 - 55,259,567\nc.2470 - 2625\np.824 - 875\nBRAF\nNM_004333.4\n11\ng.140,481,391 - 140,481,493\nc.1315 - 1417\np.439 - 473\n\n15\ng.140,453,075 - 140,453,193\nc.1742 - 1860\np.581 - 620\n\nReferences:\n1. Lindeman, NI et al. Molecular Testing Guideline for Selection of Lung Cancer\nPatients for EGFR and ALK Tyrosine Kinase Inhibitors: Guideline from the College\nof American Pathologists, International Association for the Study of Lung\nCancer, and Association for Molecular Pathology. Arch Pathol Lab Med\n2013;137:828-860.\n2. Sharma, SV et al. Epidermal growth factor receptor mutations in lung cancer.\nNature Reviews Cancer 2007;7:169-181.\n3. Cardarella, S et al. Clinical, pathological and biological features\nassociated with BRAF mutations in non-small cell lung cancer. Clin Cancer Res\n2013;19:4532-4540.\n4. Paik, P et al. Clinical Characteristics of Patients With Lung Adenocarcinomas\nHarboring BRAF Mutations. J Clin Oncol 2011;29:2046-2061.\n\n\nPath report.relevant Hx\n\nMetastatic poorly differentiated adenocarcinoma, primary lung\n\n\nPath report.comments\n\nCollecting Site:: HOSPITAL; Referring Site:: HOSPITAL; Path Cons Ref#: 16:SS6898;\n\n\n"
+}

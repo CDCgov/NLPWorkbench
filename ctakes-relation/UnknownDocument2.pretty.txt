@@ -1,0 +1,53 @@
+SENTENCE:  Vaccine  given to left   arm    per client on 11/2/15.
+             NNP     VBN  IN  JJ     NN    IN    NN   IN         
+           |======|               |======|     |====|    |=====| 
+             Drug                 Anatomy      Event      Timex  
+           C0042210               C0446516                       
+                             |===========|                       
+                                Anatomy                          
+                               C0230347                          
+TLINKS:    11/2/15 CONTAINS client
+
+SENTENCE:  She began having itching  on 11/3  to left   arm    and  chest  .
+           PRP  VBD   VBG      NN    IN       IN  JJ     NN    CC     NN    
+               |===|        |======|    |===|         |======|     |======| 
+               Event        Finding     Timex         Anatomy      Anatomy  
+                            C0033774                  C0446516     C0817096 
+                                                 |===========|              
+                                                    Anatomy                 
+                                                   C0230347                 
+TLINKS:    11/3 CONTAINS itching
+
+SENTENCE:  Developed   rash   on 11/8 to (L )   arm   , (L )
+              VBD       NN    IN      TO  JJ     NN      NN 
+                     |======|                 |======|      
+                     Finding                  Anatomy       
+                     C0015230                 C0446516      
+
+SENTENCE:   breast  and  chest  , 2-3  spots   to center of back .
+              NN    CC     NN           NNS    IN   NN   IN  NN   
+           |======|     |======|      |======|    |====|    |===| 
+           Anatomy      Anatomy       Finding     Event     Event 
+           C0006141     C0817096      C0848332                    
+
+SENTENCE:  Most  spots   on  breast .
+           RBS    NNS    IN    NN    
+                |======|    |======| 
+                Finding     Anatomy  
+                C0848332    C0006141 
+
+SENTENCE:  Itching /burning   worse    today  .
+              NN       NN      JJR       NN    
+           |======| |======| |======| |======| 
+           Finding  Finding  Finding    Drug   
+           C0033774 C0085624 C1457868 C0310367 
+                                      |======| 
+                                       Timex   
+TLINKS:    today CONTAINS worse
+
+SENTENCE:  No blisters.
+           DT   NNS    
+              |======| 
+              Finding  
+              C0005758 
+

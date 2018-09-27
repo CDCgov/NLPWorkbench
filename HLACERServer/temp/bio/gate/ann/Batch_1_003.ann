@@ -1,0 +1,155 @@
+{
+    "Macroscopic/Gross Description Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                938, 
+                953
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1282, 
+                1297
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }
+    ], 
+    "Cancer Histology Subtype (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1157, 
+                1168
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                1501, 
+                1507
+            ], 
+            "__annotator__": "GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                1508, 
+                1512
+            ], 
+            "__annotator__": "GATE_MODEL"
+        }
+    ], 
+    "Nature of Specimen Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1202, 
+                1220
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1546, 
+                1564
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }
+    ], 
+    "Relative Location (Ov)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1228, 
+                1234
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1572, 
+                1578
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }
+    ], 
+    "__text": "MSH|^~\\&| Cancer Reporting|BioReference Laboratories, Inc^31D0652945^CLIA|||20170508114344||ORU^R01|201705081143440003|P|2.3.1\n\nPID|1||3759171908836^^^^MR^BioReference Laboratories, Inc&31D0652945&CLIA~999999999^^^^SS^BioReference Laboratories, Inc&31D0652945&CLIA||Test^Test^Test||18991230|F|||475 Market Str^^Elmwood Park^NJ^07407||||||||999999999\n\nORC|RE||||||||||||||||||||Bioreference^^999999999^^^CLIA|475 Market Str^^Elmwood Park^NJ^07407|^^^^^800^29-5227|475 Market Str^^Elmwood Park^NJ^07407\n\nOBR|1||375917190|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\n\n\nOBR|2||375917190|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\n\n\n\n\n\n\nGross Pathology\n\nSpecimen is received in formalin, labeled as \"Rectum Polyp\" with the patient's name and consists of 1 piece of soft pink tissue measuring 0.2 x 0.2 x 0.1 cm. All submitted (1 Block).\n\n\nFinal Diagnosis\n\nMantle cell lymphoma (MCL). (See comment).\n\n\nNature of Specimen\n\nColon-Rectum Polyp Cold Biopsy (R/O adenoma) (Sample 1)\n\n\n\n\nGross Pathology\n\nSpecimen is received in formalin, labeled as \"Rectum Polyp\" with the patient's name and consists of 1 piece of soft pink tissue measuring 0.3 x 0.2 x 0.1 cm. All submitted (1 Block).\n\n\nFinal Diagnosis\n\nMantle cell lymphoma (MCL). (See comment).\n\n\nNature of Specimen\n\nColon-Rectum Polyp Cold Biopsy (R/O adenoma) (Sample 2)\n\n\n\n\n", 
+    "Organ/Body Structure (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1222, 
+                1227
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1566, 
+                1571
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }
+    ], 
+    "Final Diagnosis Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1140, 
+                1155
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1484, 
+                1499
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }
+    ], 
+    "Specimen Identifier (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1268, 
+                1276
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1612, 
+                1620
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }
+    ], 
+    "Cancer Histology Type (Ov)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1169, 
+                1177
+            ], 
+            "__annotator__": "Gemma, GATE_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE NEGATIVE", 
+            "__extent": [
+                1501, 
+                1521
+            ], 
+            "__annotator__": "Gemma"
+        }
+    ]
+}

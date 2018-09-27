@@ -1,0 +1,22 @@
+<tool id='gate.dct_1.0.0' name='DCT Parser v1.0.0' version='1.0.0'>
+  <description>document creation time parser</description>
+  <command>lsd $__tool_directory__/time.lsd DCTParser $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+  
+**What it does**
+
+
+Tries to determine the Document Creation Time (DCT) as this will be required to resolve relative times such as "tomorrow" or "last week".
+
+Gate Developer is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

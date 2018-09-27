@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        962, 
+        968
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        970, 
+        979
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1231, 
+        1254
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        882, 
+        909
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        849, 
+        854
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        912, 
+        917
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        512, 
+        541
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        819, 
+        845
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        953, 
+        961
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        855, 
+        861
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        918, 
+        924
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        868, 
+        878
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        926, 
+        936
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        847, 
+        849
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3l^9999^MOH|||201605041005|67D5993CCBA5F9C38C9E8DE99AD32AA7AA010A00|ORU^R01|2300771.1|P|2.5||\nPID|1||OT9999999^^^^CMR^HOSPITAL 3&9999&MOH~OT9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&CG&ON^^^^JHN||XXXXXXXXX^XXXXXXXXX||99999999|F|||999-9999 XXXXXX XXXXX^^XXXXXXXX^XX^X9X 9X9|||||||||||||||||||N||\nOBR|1||16-SP7310|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160428|||51745^XXXXX^XXXXXXX^^^XX.||||||||||||20160504|||F|||||||99999^XXXXXXX^XXXXXX^(XXXX)^^XX.||\n\n\n\n\n\n\n\nPath report.gross description\n\n\nSpecimen container 'A' is confirmed for patient \nidentification and is labelled 'right breast 12 o'clock'. \nCold Ischemic time: <60 minutes. \nFixation time: 72 to 96 hours. \nCores: 3. \nDiameter: 0.15 cm. \nLength: 1.0 to 1.5 cm. \nBlock A1 to A3 one core in each. \n \nMC/jg \n\n\n\nPath report.site of origin\n\nA:Right breast, NOS, 12 O'CLOCK\n\n\n\nPath report.final diagnosis\n\n\nRight breast, 12 o'clock, core biopsy: - Invasive ductal \ncarcinoma; preliminary histological grade 2 out of 3 \n \n \nComment: \nInvasive malignant cells are positive for E-cadherin and \nnegative for SMMS (a myoepithelial marker). \n \nThis case has been reviewed as part of the departmental \nquality assurance program. \n\n\n\nPath report.relevant Hx\n\nRt BR 12 ocl \n\n\n\n"
+}

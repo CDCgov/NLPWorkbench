@@ -1,0 +1,139 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1060, 
+        1074
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        865, 
+        888
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2612, 
+        2632
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        960, 
+        987
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2566, 
+        2570
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        528, 
+        557
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2538, 
+        2564
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1076, 
+        1083
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1088, 
+        1089
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1050, 
+        1059
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        999, 
+        1026
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2571, 
+        2593
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1221, 
+        1253
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1255, 
+        1270
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170919125835||ORU^R01^ORU_R01|201709191258350001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-55-004829^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170825102000|||||||20170825000000|&Prostate, Needle Biopsy|1720009335^^^^^^MD^^CMS^D^^^NPI||||||20170828000000|||F||||||C61^Malignant neoplasm of prostate^I10~R97.20^Elevated prostate specific antigen [PSA]^I10|1285672592&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\" identified by requisition and container label. The specimen is labeled \"left posterior lateral apex\" on both the requisition and the container. Received in formalin are 3 needle biopsy cores of pale tan tissue, 13, 13, and 10 mm in length. Each is processed as received in cassette 1A.\n\n\nPath report.relevant Hx\n\nHistory - Elevated prostate specific antigen [PSA] (R97.2), PSA 6.6\n\n\nPath report.final diagnosis\n\nProstate, left posterior lateral apex (MRI guided biopsy):   Prostatic adenocarcinoma, Gleason 4+3=7 (60% pattern 4, grade group 3)   20mm of tumor occuypying 80% of the tissue, 3 of 3 cores involved   Perineural invasion present\n\n\nPath report.supplemental reports\n\nAddendum Report: Immunohistochemistry with appropriate controls was performed on block 1A for PTEN and ERG (TMPRSS2:ERG transformation product) in a section containing invasive carcinoma. The results are as follows: ResultsPrognostic Group PTEN intact/No ERG overexpressionFavorable Note: Combined PTEN loss and ERG overexpression has been associated with an increased risk of early biochemical relapse following prostatectomy and higher stage disease. ERG overexpression has been associated with an increased risk of progression on active surveillance References: 1. Reid, AHM, et. al., Molecular characterization of ERG, ETV1 and PTEN gene loci identifies patients at low and high risk of death from prostate cancer. Br. J. Cancer. (2010) 102, 678-684. 2. Burg KD, et. al., ERG Protein Expression in Diagnostic Specimens Is Associated with Increased Risk of Progression During Active Surveillance for Prostate Cancer. European Urology (2014) 66(1), 851-860 3. Shah RB. Clinical applications of novel ERG immunohistochemistry in prostate cancer diagnosis and management. Adv. Anat. Pathol. (2013) 20(2):117-24 4. Nagle RB, et. al., ERG overexpression and PTEN status predict capsular penetration in prostate carcinoma. Prostate.(2013) 73(11):1233-40 ## End of auxiliary report ##\n\n\nPath report.site of origin\n\nLeft posterior lateral apex prostate biopsy\n\n\nPath report.comments\n\nComments - Immunohistochemistry for CK34bE12, p63 and p504S performed on block 1A with appropriate controls reveals p63/CK+ basal cell to be absent and p504S negative in carcinoma. Studies performed due to the pseudohyperplastic tumor morphology.\n\n\n"
+}

@@ -1,0 +1,52 @@
+<tool id="masc.get" name=" Get document" version="2.0.0">
+ <!--<description>
+ 
+ </description>-->
+ <command>
+  $__tool_directory__/get.lsd $key $type $output
+ </command>
+ <inputs>
+  <param label="Key" name="key" type="text" value="MASC3-0203">
+  </param>
+  <param name="type" type="select">
+  <option value="anc:masc.text_2.1.0">
+   Text
+  </option>
+  <option value="anc:masc.json_2.1.0">
+   Gold Annotations
+  </option>
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" label="MASC Document" name="output">
+  </data>
+ </outputs>
+ <!--
+  <tests>
+    <test>
+      <param name="input" value="/Users/suderman/Projects/Galaxy/text.json"/>
+      <output name="output" file="/Users/suderman/Projects/Galaxy/tokens.json"/>
+    </test>
+  </tests>
+  -->
+ <help>
+  <![CDATA[
+
+**What it does**  
+    
+Retrieves a single document from the `Manually Annotated Sub-Corpus <http://www.anc.org/data/masc/>`_ (MASC 3.0.0). 
+  
+.. class:: infomark
+
+**TIPS**
+
+* Use the *Get Data->MASC: List all document IDs* tool to obtain a list of valid document ID values.
+* Use *Convert Formats->Wrap data as LIF object* to input MASC documents to tools requiring LIF.
+  
+**License**
+
+MASC data is free to use for any purpose, including commercial uses, under
+the Creative Commons `CC-BY <https://creativecommons.org/licenses/by/2.0/>`_ license.
+]]>
+ </help>
+</tool>

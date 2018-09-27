@@ -1,0 +1,39 @@
+<tool id="oaqa_evaluation" name="OAQA Evaluation" version="2.1.0">
+  <description>Run the OAQA evaluation service at CMU</description>
+  <command interpreter="lsd">oaqa_evaluation.lsd -gold=${gold} -test=${test} -annotation=$ga -testannotation=$ta -gf=$gf -tf=$tf -output=${output}</command>
+  <inputs>
+  	<param name="gold" type="data" format="lif" label="Gold Data"/>
+  	<param name="test" type="data" format="lif" label="Test Data"/>
+  	<param name="ga" size="50" type="text" value="http://vocab.lappsgrid.org/" label="Gold Annotation Type"/>
+    <param name="ta" size="50" type="text" value="http://vocab.lappsgrid.org/" label="Test Annotation Type"/>
+  	<param name="gf" type="text" size="15" label="Gold Feature"/>
+  	<param name="tf" type="text" size="15" label="Test Feature"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="html" label="Evaluation"/>
+  </outputs>
+  <help>
+**What it does**
+  
+Performs evaluation comparing user-specified annotations in test data to gold standard annotations.
+
+.. class:: warningmark
+
+The evaluation is performed on the annotations in the last view in each document.
+
+**Required annotations**
+
+* Annotations of the type specified in the tool configuration panel, with the specified feature type.
+
+**Generated Annotations**
+
+* None
+
+.. class:: infomark
+
+Tne evaluator generates an HTML document providing precision, recall, and f-score, together with an item-by-item comparison of the two documents. 
+The HTML document is displayed in the main window (click on the "eye" icon) and/or can be downloaded by 
+clicking on the file (download) icon in the tool's history window.
+
+  </help>
+</tool>

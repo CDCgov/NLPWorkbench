@@ -1,0 +1,14 @@
+<tool id='discovery.scoring.summary' name='View Scoring Output' version='1.0.0'>
+    <description>generates tsv data from ranked passages</description>
+    <command interpreter="lsd">summarize.lsd $input $output</command>
+    <inputs>
+        <param name='input' type='data' format='lif,json' label='Scored data' />
+    </inputs>
+    <outputs>
+        <data name='output' format='tabular'/>
+    </outputs>
+    <help><![CDATA[
+Generates a tab separated file listing the scored passages.
+]]>
+    </help>
+</tool>

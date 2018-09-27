@@ -1,0 +1,43 @@
+<tool id="dictionary.ner" name="Lingpipe NER (inline dictionary)" version="1.0.0">
+ <command>lsd $__tool_directory__/dictionary_ner.lsd $dictionary 1.1.1-SNAPSHOT $input $output</command>
+ <inputs>
+  <param format="txt" label="Dictionary" name="dictionary" type="data">
+  </param>
+  <param format="lif" label="Input" name="input" type="data">
+  </param>
+  <param label="Version" name="version" type="select">
+   <option value="1.1.1-SNAPSHOT" selected="True">1.1.1 (beta)</option>
+   <option value="1.1.0">1.1.0</option>
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+**What it does**
+
+Generates named entity annotations using
+the `LingPipe <http://alias-i.com/lingpipe-3.9.3/>`_ dictionary-based named entity recognizer. In addition to the text and annotations as input, the tool takes
+a dictionary providing entity types, in the format "string | type", where "string" is the character string to be matched (may include blanks and special characters) and "type" is the label to assign.
+
+**Required annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token.html>`_  with part of speech (LIF)
+* `Sentence <http://vocab.lappsgrid.org/Sentence.html>`_ (LIF)
+
+
+**Generated Annotations**
+
+A LIF document with a new view containing `NamedEntity <http://vocab.lappsgrid.org/NamedEntity.html>`_ annotations,
+with the entity type (e.g., Person, Location) as the value of the *category* feature.
+
+
+**License**
+
+Lingpipe is released under the `GNU Affero General Public License version 3.0 <https://www.gnu.org/licenses/agpl-3.0.en.html>`_
+
+]]>
+ </help>
+</tool>

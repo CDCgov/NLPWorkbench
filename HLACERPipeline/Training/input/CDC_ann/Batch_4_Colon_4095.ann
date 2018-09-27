@@ -1,0 +1,183 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1670, 
+        1683
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1684, 
+        1693
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1695, 
+        1709
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2164, 
+        2178
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1529, 
+        1552
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4272, 
+        4292
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1605, 
+        1632
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        505, 
+        534
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4151, 
+        4186
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4228, 
+        4254
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2153, 
+        2163
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1711, 
+        1736
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2500, 
+        2501
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1642, 
+        1647
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1662, 
+        1669
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4264, 
+        4269
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1634, 
+        1641
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4256, 
+        4263
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2251, 
+        2268
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Tennova Healthcare - Cleveland Laboratory^44D0309307^CLIA|eMARCPlus|TN Cancer Registry|20170922031609||ORU^R01^ORU_R01|201709220316090001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-SB-003416^PathSys^44D0309307^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170907000000|||||||20170908000000|&Colon, Segmental Resection, other than for tumor|1932396405^ ^ ^^^^MD^^CMS^D^^^NPI||||||20170912000000|||F||||||C18.7^Malignant neoplasm of sigmoid colon^I10|54321&& &M.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \" - sigmoid colon\" is a 16.5 x 6.0 x 4.0 cm pink-tan and yellow segment of sigmoid colon with attached mesentery. Also in the container is a smaller fragment of colonic tissue, 3.7 x 6.0 x 2.4 cm with attached mesentery. The surgical margins are stapled. The mesentery displays adhesions to the surface of the colon. Approximately 2.8 cm from 1 margin, the colonic wall becomes nodular, brown and slightly constricted. The mucosa underlying this area is slightly flattened and nodular with a pink-red appearance. The area measures 2.0 x approximately 2.4 cm. Sectioning the colon reveals scattered diverticula. The smaller fragment is opened, revealing tan-green soft stool contents and unremarkable mucosal folds. 1A-1B, surgical margins from larger fragment; 1C-1J, sections from nodular area in colon; 1K, diverticula; 1L-1N, random sections of colon; 1O, sections of smaller fragment; 1P-1U - additional lymph nodes. Representative sections in 21 cassettes.\n\n\nPath report.relevant Hx\n\nHistory - Perforated diverticulum of large colon\n\n\nPath report.final diagnosis\n\nSigmoid colon, resection:   Colonic Adenosquamous carcinoma (adenocarcinoma, moderately differentiated     with focus of metaplastic squamous cell carcinoma); 2.4 cm greatest     dimension.   Neoplasm breaks through muscularis propria and invades the proximal mesentery.   All surgical margins appear negative for neoplasm; closest margin - circumferential     margin (1 mm).   Lymph-vascular invasion identified.   No perineural invasion identified.   No tumor deposits identified.   12 of 51 lymph nodes positive for metastatic adenocarcinoma.   Pathologic stage: pT3; pN2b.   Additional findings:     Diverticuli. CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Sigmoidectomy TUMOR  Tumor Site: Sigmoid colon  Histologic Type: Adenosquamous carcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 2.4cm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor invades through the muscularis propria into pericolorectal tissue  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Present  Lymphovascular Invasion Type: Small vessel lymphovascular invasion, Extramural, Intramural  Perineural Invasion: Not identified  Treatment Effect: No known presurgical therapy MARGINS  Margins Examined: Proximal, Distal, Radial or Mesenteric  Distance of Invasive Carcinoma from Closest Margin: Specify in Millimeters (mm)  Specify in Millimeters (mm): 1mm  Specify Closest Margin: Radial or Mesenteric  Margins: For Resection Specimens Only  Proximal Margin: Uninvolved by invasive carcinoma  Distal Margin: Uninvolved by invasive carcinoma  Radial or Mesenteric Margin: Uninvolved by invasive carcinoma  Distance of Tumor from Margin#: Specify in Millimeters (mm)  Specify in Millimeters (mm): 1mm LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 12  Number of Lymph Nodes Examined: Specify number  Specify number: 51 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (pT): pT3: Tumor invades through the muscularis propria into pericolorectal tissues  Regional Lymph Nodes (pN): pN2b: Seven or more regional lymph nodes are positive  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s) ADDITIONAL FINDINGS  Additional Pathologic Findings: Diverticulosis\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nSigmoid colon\n\n\nPath report.comments\n\nComments - Prospective QA review done by Dr. J R Slemmer.\n\n\n"
+}

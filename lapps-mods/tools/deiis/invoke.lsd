@@ -1,0 +1,7 @@
+String name = args[0]
+File input = new File(args[1])
+File output = new File(args[2])
+
+String url = "http://grid.anc.org:9080/DEIISPipeline/services/$name"
+ServiceClient service = new ServiceClient(url, 'tester', 'tester')
+output.text = service.execute(input.text)

@@ -1,0 +1,22 @@
+<tool id="stanfordnlp.splitter" name="Stanford Splitter" version="2.0.4">
+ <description>
+  Stanford Splitter (Brandeis)
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd stanfordnlp.splitter_2.0.4 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+**License**
+
+Stanford CoreNLP is licensed under `the GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.]]>
+ </help>
+</tool>

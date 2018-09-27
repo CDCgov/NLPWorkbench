@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Safety Surveillance Demo</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li><a href="demo.html">Demos</a></li>
+                <li class="active">CSafety Surveillance Demo</li>
+            </ol>
+            <h1>Safety Surveillance Demo</h1>
+        </div>
+
+        <div class="col-md-8">
+
+            <p>The FDA Adverse Event Reporting Systems (FAERS) and Vaccine Adverse Event Reporting System (VAERS) are
+                spontaneous reporting systems in which pharmaceutical manufacturers, medical practitioners, patients,
+                and their representatives submit data regarding the safety of drugs, vaccines, and biologics. The
+                reported information supports important surveillance tasks such as the examination of safety concerns
+                related to marketed products, the evaluation of manufacturer compliance to reporting regulations, and
+                multiple research activities both within and outside the FDA.</p>
+
+            <p>The demos assemble NLP services that accepts and processes unstructured textual information, returns
+                standardized clinical semantic entities in text, normalizes and encodes to medical terminologies and
+                identify temporal relationships between clinical events and temporal entities.</p>
+
+            <ul>
+                <li>If you are new to NLP before viewing the demos, consider first familiarizing yourself with NLP
+                    Basics.
+                </li>
+
+                <li>Safety surveillance is available with twelve pipeline solutions. Among them, three pipelines are
+                    available in this demo page. Learn about the use case it addresses, how the service is built and how
+                    to use any of the available solutions ( safety surveillance service ).
+                </li>
+            </ul>
+
+            <h3 class="text-center">Three safety surveillance pipeline demos</h3>
+            <p class="text-center"><img class="img-responsive" src="images/clew-workbench.png" alt=""></p>
+
+            <p>The integrated tools are shown in the top boxes, where they have been categorized according to the functionality they offer. Three example pipelines are also shown that demonstrate some of the possible combinations of tools that can be made in the CLEW prototype to process input text and produce annotated output.</p>
+
+            <p>Figure 1 shows the tools that are currently incorporated into the safety surveillance demo, the capabilities of those tools, and a number of sample multi-tool pipeline configurations. The tools cover several different functionalities, and we have made efforts to separate multi-purpose tools into their constituent parts, so that pipelines can be constructed by combining components from more than one tool. Depending on the specific clinical need, not all of the listed tasks will be required, as demonstrated in the example pipelines.</p>
+
+            <p>The development of the services in CLEW is inspired by the environmental scan findings but we take the next step here and, in some of the cases, utilize certain functionalities only from each tool. For example:</p>
+
+            <ul>
+                <li>We have split the original ETHER into 2 pieces: one for the clinical Semantic Entity Recognition (cSER) and one for the Temporal Information Extraction (TIE).</li>
+
+                <li>Same with cTAKES, where we are using the core in a way cTAKES engine and its temporal module.</li>
+            </ul>
+
+            <p>This strategy allows for the combination of components and the creation of pipelines on the fly.</p>
+
+
+            <h2>Demo Pipeline Descriptions</h2>
+
+            <h3>1. ETHER Pipeline</h3>
+            <p>ETHER has been developed recently by the FDA to extract both clinical and temporal information from the VAERS report. When running this pipeline, the output uses a data structure that was created to represent extracted information for the workbench and includes extracted clinical features and temporal expressions, as well as temporal associations that link them together. The features and temporal expressions are recorded as spans of text with an associated type, and the temporal associations consist of feature and expression ID numbers and a formal date, when possible.</p>
+
+            <h3>2. cTakes Pipeline</h3>
+
+            <p>The Clinical Text Analysis Knowledge Extraction System (cTAKES) 1 tool produces an output that identifies clinical entities and temporal expressions. cTAKES is an Apache Software Foundation project that supports multiple NLP tasks, such as the recognition of clinical named entities and temporal association with a number of contextual attributes. cTAKES follows the UIMA framework and saves the information in a Common Analysis Structure (CAS). The key output information can be viewed in table format.</p>
+
+            <h3>3. NCBO + ETHER Temporal Pipeline</h3>
+
+            <p>The workbench also allows for the combination of components from multiple sources. NCBO is a BioPortal Annotator from the National Center for Biomedical Ontologies, which the workbench accesses through its web API. This means the full text of the report will be sent off to the Annotator web service, and spans of text matching terms from a given ontology will be returned. Since this demo is for an adverse event report, we select the Medical Dictionary for Regulatory Activities (MEDRA), and we do not set a constraint on the UMLS semantic types. For the temporal component, we continue to use the ETHER system to find temporal expressions and create associations between the identified clinical entities and the temporal expressions.</p>
+
+            <h3>Run the Demo</h3>
+
+            <div class="boxed-headline margin-top-0">Running the demos for Safety Surveillance are under construction at this time.</div>
+
+
+
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default panel-slate-stripe">
+                <div class="panel-body">
+                    <a href="demo.html">All Demos ></a>
+                </div>
+            </div>
+            <div w3-include-html="includes/new-nlp.html"></div>
+
+            <div class="panel panel-default panel-glossary">
+                <div class="panel-body">
+                    <h4 class="h4">In The Glossary</h4>
+                    <h5 class="h5">TERMS ON THIS PAGE</h5>
+                    <a href="glossary.html">
+                        <ul>
+                            <li>HL7 Input</li>
+                            <li>LIF format</li>
+                            <li>CLEW/LAPPS workflow</li>
+                            <li>BIO file</li>
+                            <li>Tokenizer</li>
+                            <li>Sentence splitter</li>
+                            <li>POS tagger</li>
+                            <li>Chunker</li>
+                            <li>HLA feature extractor</li>
+                            <li>CRF test</li>
+                            <li>Trained model</li>
+                            <li>Chunker</li>
+                            <li>Annotated content file</li>
+                            <li>Semantic tag name</li>
+                            <li>Entity text, start</li>
+                            <li>End position of entity text</li>
+                            <li>MetaMap</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+
+<!-- //footer -->
+<!--//main content start-->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+<script src="js/demo.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

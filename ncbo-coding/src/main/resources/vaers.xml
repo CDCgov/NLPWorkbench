@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <typeSystemDescription>
+      <types>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.VaersFeature</name>
+          <description>This is the parent type of VAERS annotation. Most of the features (or 'attributes') are defined inside this type. 
+
+Some ETHER features (or the data shown in the ETHER clinical/temporal annotation tables) have already been stored in this data structure. For example, the 'Feature Text' in the EHTER table can be obtained using "annotation.getCoveredText()" to show the actual text being annotation.</description>
+          <supertypeName>uima.tcas.Annotation</supertypeName>
+        <features>
+            <featureDescription>
+              <name>ID</name>
+              <description>The ID of a VAERS feature for both clinical and temporal types in a String form. 
+
+Behind the scene, the ID is an integer of SQL DB ID; but it shows 'fDD' for 'feature ID' and similarly 'tDD' for 'time ID'.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>atype</name>
+              <description>This field store the abbreviated feature type name, such as "MHx" for "Medical History", or "CoD" for "Cause of Death".</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>text</name>
+              <description>This is the original feature text or term(s) found from the original clinical notes (e.g., vaers/pathology report)</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>comment</name>
+              <description/>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          <featureDescription>
+              <name>begin</name>
+              <description>the beginning position of identified feature text in the original text.</description>
+              <rangeTypeName>uima.cas.Integer</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>end</name>
+              <description>the ending position of identified feature text in the original text.</description>
+              <rangeTypeName>uima.cas.Integer</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>link</name>
+              <description>It contains a Link to another temporal expression, usually the TID.
+However, latest decision is to associate links with an independent TLINK tag or similar tag, not here.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          </features>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.CategoryCauseOfDeath</name>
+          <description>CauseOfDeath is both a category by itself and a feature</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.ClinicalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.CategoryFamilyHistory</name>
+          <description>CategoryFamilyHistory is both a category by itself and a feature</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.ClinicalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.CategoryMedicalHistory</name>
+          <description>CategoryMedicalHistory is both a category by itself and a feature</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.ClinicalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.CategoryDiagnosticFeatures</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.ClinicalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.CategoryMedicalProduct</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.ClinicalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.PrimaryDiagnosis</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.CategoryDiagnosticFeatures</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.RuleOutDiagnosis</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.CategoryDiagnosticFeatures</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.SecondLevelDiagnosis</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.CategoryDiagnosticFeatures</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Symptom</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.CategoryDiagnosticFeatures</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Drug</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.CategoryMedicalProduct</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Vaccine</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.CategoryMedicalProduct</supertypeName>
+        </typeDescription>
+      <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Date</name>
+          <description>Absolute date, such as 10/12/2016 or Apr. 2013</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Relative</name>
+          <description>Relative date, such as "Three days after" 02APR13.</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Duration</name>
+          <description>Duration of a time period, such as "For three days" after 02APR13</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Weekday</name>
+          <description>Day of week, such as Patient reported feeling sick on "Monday".</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Frequency</name>
+          <description>Frequency of some events, such as Patient received drug "every three days".</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Age</name>
+          <description>Age of some person, such as The patient was "three days old".</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Time</name>
+          <description>The actual time of the day, such as The patient received injection at "12:05 pm".</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.ClinicalFeature</name>
+          <description>The parent type of the VAERS clinical features.</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.VaersFeature</supertypeName>
+          <features>
+            <featureDescription>
+              <name>TimeID</name>
+              <description>The ID of a temporal feature. This is reserved for the specification of clinical-temporal feature association relationship.
+
+However, the latest decision is to NOT associate TimeID here, but to a TLink or similar structure.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>Relation</name>
+              <description>This field is reserved for the specification of clinical-temporal feature association relationship. This field may include values including BEFORE, AFTER and OVERLAP.
+
+However, the latest decision is to not associate any 'relation' here, but to a TLink or similar structure.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          <featureDescription>
+              <name>atype</name>
+              <description>This may contain a feature type specification to indicate which particular feature this span of text has been annotated. The word 'type' is avoided since it is a reserved word in UIMA.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          <featureDescription>
+              <name>preferred_term</name>
+              <description>The preferred term from coding service for the extracted text span.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          </features>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</name>
+          <description>The parent type of the VAERS temporal features.</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.VaersFeature</supertypeName>
+          <features>
+            <featureDescription>
+              <name>Date</name>
+              <description>The actual date in a standard form as in “yyyy-mm-dd”.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          <featureDescription>
+              <name>text</name>
+              <description>The raw feature text or term(s) identified/extracted in the original clinical note.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          <featureDescription>
+              <name>atype</name>
+              <description>It specifies the type of the temporal feature, such as 'Data'.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          </features>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Anchor</name>
+          <description>A temporal placeholder for the selected event.</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+      <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.CategoryStatus</name>
+          <description>CategoryStatus itself is both a category and a specific feature.</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.ClinicalFeature</supertypeName>
+        </typeDescription>
+      <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.TemporalRelation</name>
+          <description>A link that represents and connects one clinical feature and possibly zero or multiple temporal features.
+Additionally, this link represents time-time relation as well. And thus, the name has been changed to the current one: TemporalRelation to indicate both feature-time and time-time relations</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.RelationFeature</supertypeName>
+          <features>
+            <featureDescription>
+              <name>CoreID</name>
+              <description>Clinical Feature ID, as Core information ID.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>RefID</name>
+              <description>Multiple (i.e., zero to more-than-one) temporal features can be associated with a clinical feature ID, as a reference. And thus, the name has been changed into RefID to indicate that it is a reference of the link (i.e., relation).</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>atype</name>
+              <description>The values may include 'BEFORE', 'AFTER', and 'OVERLAP', etc., and may be expanded in the future.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          <featureDescription>
+              <name>CoreText</name>
+              <description>clinical text of the CID, e.g., "vaccination chickenpox" of a particular CID.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>RefText</name>
+              <description>the text of the TID, e.g., "3/20/2012"</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          </features>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.TimeTimeRelation</name>
+          <description>This FeatureFeatureRelation potenitally connects multiple clinical features.</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.RelationFeature</supertypeName>
+          <features>
+            <featureDescription>
+              <name>TID1</name>
+              <description>The first temporal featue ID that is related.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>TID2</name>
+              <description>The second temporal featue ID that is related.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>Relation</name>
+              <description>The values may include 'before', 'after', and 'overlap', etc., and may be expanded in the future.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          </features>
+        </typeDescription>
+      <typeDescription>
+          <name>gov.hhs.aspe.srs.annotation.vaers.VaersFeature</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.VaersFeature</supertypeName>
+        <features>
+            <featureDescription>
+              <name>FeatureText</name>
+              <description>FeatureText is intended to show the raw text that has got identified/extracted. However, this FeatureText could be obtained based on the 'begin' and 'end' indexes. It seems to be unnessary, but exists for users' convenience.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          <featureDescription>
+              <name>StandardFeatureText</name>
+              <description>This fields intends to hold the system-recommended standardized feature text from a queried system, because sometimes that queried system may have different terms. For example, MetaMap returns its own standardized feature terms for the identified raw text.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>Comment</name>
+              <description>It holds a user's comment in free text. However, there is not underlying database yet, only the most recent user comment for a specific annotation will be stored.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          </features>
+        </typeDescription>
+      <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.VaersSummarization</name>
+          <description>The summarization of a VAERS report.</description>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.VaersFeature</supertypeName>
+          <features>
+            <featureDescription>
+              <name>Summary</name>
+              <description>The textual representation of the report summary.</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+            <featureDescription>
+              <name>Narrative</name>
+              <description>the narrative as input to summarize</description>
+              <rangeTypeName>uima.cas.String</rangeTypeName>
+            </featureDescription>
+          </features>
+        </typeDescription>
+        <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.InputNarrative</name>
+          <description>the clinical narrative as input to the NLP application</description>
+          <supertypeName>uima.cas.String</supertypeName>
+        </typeDescription>
+      <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.RelationFeature</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.VaersFeature</supertypeName>
+        </typeDescription>
+      <typeDescription>
+          <name>gov.hhs.fda.srs.annotation.vaers.Other</name>
+          <description/>
+          <supertypeName>gov.hhs.fda.srs.annotation.vaers.TemporalFeature</supertypeName>
+        </typeDescription>
+      </types>
+    </typeSystemDescription>

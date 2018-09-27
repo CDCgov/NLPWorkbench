@@ -1,0 +1,109 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        987, 
+        1001
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        872, 
+        895
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1258, 
+        1278
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        917, 
+        944
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        965, 
+        970
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1239, 
+        1244
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        581, 
+        610
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1192, 
+        1218
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        971, 
+        981
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1245, 
+        1255
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1010, 
+        1042
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160504105200|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 2&9999&MOH~99999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&DC&ON^^^^JHN||XXXX^XXX^XXX XXXX||99999999|F|||99 XXXXXX XXXXXX X^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||C16-7197|33716-2^Study Report: Cytology.non-gyn^LN^C^Cytology^L|||201604060000|||33540^XXXXXX^XXXXXXX||||201604061004|&Bronchial Washing: Right upper lobe|99999^XXXXXX^XXXXXXX||||||201604091313||LCYN|C|||||||99999^XXXX^XXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n10 mL of fresh, watery, red, mucoid fluid received. 10 mL of specimen processed. 1 alcohol fixed, Papanicolaou stained ThinPrep slide produced. Cell block 1A produced from residual PreservCyt/CytoLyt followed by fixation with 10% neutral buffered formalin.\n\n\n\nPath report.relevant Hx\n\nRight lung tumor\n\n\n\nPath report.final diagnosis\n\nBronchial Washing: Right upper lobe:\n\n \n\nAdenocarcinoma. \n \n\n\n\n\nPath report.supplemental reports\n\nTumor cell are positive to CK7 and TTF-1, negative to CK20. This immunostaining pattern supports the diagnosis of adenocarcinoma of lung origin.\n\n\n\nPath report.site of origin\n\nBronchial Washing: Right upper lobe\n\n\nPath report.comments\n\nMolecular Number:         M16.5028\nTest Method(s) Used:        RFLP\nEGFR Result:            Exon 19\nMutation Detected:         Inconclusive results by EGFR-RT52 testing. \n\nDNA was extracted from the paraffin-embedded cell block, bronchial washing: right upper lobe, and analyzed using the EGFR-RT52 kit from EntroGen. This kit is based on a real-time PCR qualitative genotyping assay that uses fluorescently labeled probes for detection of 30 recurrent mutations in exons 18, 19, 20 and 21 of the EGFR gene, including exon 20 resistance mutations (T790M, S768I, and insertions). Fragment analysis testing was also done for exon 19 deletions and the exon 21 L858R point mutation. The EGFR exon 19 deletion assay is based on assessing size differences of fluorescently labeled PCR products. The presence/absence of an exon 21 L858R point mutation is assessed by performing PCR followed by Sau96I restriction enzyme digestion.\n\nThe lower limit of mutation detection using this assay is 2.5-5%. Minimum tumor cellularity for analysis is 5%. \n\nThis analysis is based on current knowledge of the most common EGFR mutations and their presence in adenocarcinoma of the lung. Somatic mutations in the EGFR tyrosine kinase domain are present in 10-40% of non-small cell lung cancers. The presence of these mutations will predict clinical response or resistance to EGFR inhibitors such as gefitinib (Iressa) and erlotinib (Tarceva). Deletions in exon 19 and the L858R substitution observed in exon 21 constitute 85-90% of actionable EGFR mutations. Rarely, T790M occurs in untreated patients and may be present as an underlying germline mutation; this test will not discriminate germline T790M mutations from testing of tumor alone. This test will not identify rare mutations, such as E709K and D770_N771ins and is not appropriate for squamous cell carcinomas of the lung. Only adenocarcinomas of the lung or lung cancers with an adenocarcinoma component should be sent for testing. \n\nThe performance characteristics of this test were determined and verified by the Molecular Diagnostics Laboratory at the HOSPITAL. It has not been cleared or approved by the US FDA. FDA does not require this test to go through premarket FDA review. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments (CLIA) as qualified to perform high complexity clinical laboratory testing.\n\nPan Q, et al. JMD 2005; 7(3): 396-403 \nTsao MS, et al. NEJM 2005; 353(2): 133-144 \nRiely GJ, et al. Clin Cancer Res 2006; 12: 7232-7241\nJohn T, et al. Oncogene 2009; 28: S14-S23\nhttp://www.entrogen.com/web2/egfr-mutation-analysis-kit\nhttp://www.mycancergenome.org/content/disease/lung-cancer/\nLindeman NI, Cagle PT, Beasley MB, et al. Arch Pathol Lab Med. 137:828-860\n\n\n\n\n"
+}

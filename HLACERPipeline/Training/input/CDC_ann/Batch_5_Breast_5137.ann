@@ -1,0 +1,109 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        892, 
+        901
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1814, 
+        1837
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        976, 
+        984
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        795, 
+        822
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        778, 
+        782
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        841, 
+        845
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        766, 
+        776
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        846, 
+        865
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        512, 
+        541
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        738, 
+        764
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        870, 
+        891
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO|201606021647|2AA4D9E70FB64FE2A527C1CCFCD9DD4DFAB1138F|ORU^R01|PIMS-OUT.1.128669|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 3&9999&MOH~9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&VX&ON^^^^JHN||XXXXX^XXX^^^^||99999999|F|||9999 XXXX XXXXXX XXXX^^XXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:S8499|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160519|||28156^XXXXXX^XXXX^X. X.^^^||||||||||||20160602|||F|||||||99999^XXXXX^XXXXXX^XXXXXXXX^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\nSpecimen labelled (Louza, Kim - Unit# 1307980) \"left axilla lymph node\"\nconsists of multiple pieces of tan tissue, 0.1 to 0.5 cm in maximum dimension. \nSubmitted in toto in one cassette.\nLM/mw\n\n\nPath report.site of origin\n\nLYMPH NODE, LEFT AXILLA LN\n\n\nPath report.final diagnosis\n\nNEEDLE BIOPSY OF LEFT AXILLARY LYMPH NODE:\n-  POORLY DIFFERENTIATED CARCINOMA WITH MYXOID STROMA IN BACKGROUND, SEE COMMENT.\n   --  ER-/PR-/Her2Neu-.\n \nCOMMENT:\n   By H E, this is a very fragmented biopsy comprised mostly of tumour cells set\nin an alcian blue+ myxoid background. Tumour cells are CD138(+), EMA(+) in rare\ncells only, CK7(+) in rare cells only, GATA3(+) in a proportion of cells, AE1(+) in\nrare cells, pankeratin(+) in rare cells, vimentin(+), CK5(-), S100(+) cytoplasmic\nonly, HMB45(-), CD30(-), CD34(-), CK19(-), p63(-), TTF1(-), CDX2(-), ER(-), PR(-),\nHer2Neu(-).\n \n   The findings are in keeping with a very poorly differentiated breast carcinoma,\ngiven the GATA3 positivity, that possibly represents a metaplastic carcinoma. \nBenign breast tissue is apparent in the sections cut for immunostains, but not in\nthose used for H E. This biopsy may therefore represents a tumour in residual\nbreast tissue, as suspected clinically. Clinical correlation is required.\n   \n \n\n\n\nPath report.relevant Hx\n\nLEFT AXILLA LN / STAT AND RECEPTORS / LEFT BREAST 1.7 CM NODULE AXILLARY FOLD /\n? RECURRENCE\n\n\n"
+}

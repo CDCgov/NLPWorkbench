@@ -1,0 +1,7 @@
+
+File input = new File(args[0])
+File output = new File(args[1])
+
+String url = "http://grid.anc.org:9080/DBpediaSpotlightServices/1.0.0/services/DBpediaSpotlightAnnotator"
+WebService client = new ServiceClient(url, null, null)
+output.text = client.execute(input.text)

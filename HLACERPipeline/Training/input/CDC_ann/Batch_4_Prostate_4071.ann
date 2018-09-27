@@ -1,0 +1,197 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2491, 
+        2505
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4037, 
+        4060
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2445, 
+        2472
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2391, 
+        2395
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2418, 
+        2423
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2396, 
+        2414
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2424, 
+        2442
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        587, 
+        616
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3960, 
+        3995
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2348, 
+        2374
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2507, 
+        2514
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2521, 
+        2522
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2379, 
+        2387
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2477, 
+        2485
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2376, 
+        2377
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2388, 
+        2389
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2415, 
+        2416
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2474, 
+        2475
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2773, 
+        2774
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2866, 
+        2867
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2963, 
+        2980
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1018102^CLIA|eMARCPlus|TN Cancer Registry|20170919125838||ORU^R01^ORU_R01|201709191258380001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-CH-002891^PathSys^44D1018102^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170823000000|||||||20170823000000|&Prostate, Radical Resection, Lymph Nodes, Regional Resection, Lymph Nodes, Regional Resection|1982660437^^^^^^MD^^CMS^D^^^NPI||||||20170824000000|||F||||||C61^Malignant neoplasm of prostate^I10~R59.0^Localized enlarged lymph nodes^I10|1609968957&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received in formalin labeled \"prostate\" is a 41 g radical prostatectomy with attached right and left seminal vesicle and vas deferens. The right and left vas deferens each measure approximately 2.8 x 0.5 cm. The right seminal vesicle is 2.5 x 1.0 x 0.4 cm, the left is 3.0 x 1.5 x 0.4 cm. Sectioning of each reveals a lobulated cystic cut surface filled with light brown fluid. The prostate measures 4.3 cm left to right, 3.7 cm anterior to posterior, and 2.8 cm apex to base. The right side of the prostate is inked green and the left side is inked blue. Serially sectioning apex to base reveals a lobulated tan-pink glistening cut surface, the urethra is distorted and pushed to the left side. Representative sections are submitted as follows as per diagram: 1A, right vas deferens margin and right seminal vesicle, 2/1; 1B, left vas deferens margin and left seminal vesicle, 2/1; 1C and 1D, right apical margin, 3/1 in each; 1E and 1F, left apical margin, 1E, 3/1; 1F, 2/1; 1G-1Q, right prostate submitted from apex to base, 1/1 in each; 1R-1Z, left prostate submitted from apex to base, 1/1 in each; 1AA-1AB, right base, 4/1 in each; 1AC, left base, 4/1. 2. Received in formalin labeled \"left pelvic lymph node\" is a 2.5 x 1.1 x 0.6 cm tan and fatty lymph node. The lymph node is bisected and totally submitted in cassette 2A, 2/1. 3. Received in formalin labeled \"right pelvic lymph nodes\" are multiple fragments of fatty tissue aggregating 4.0 x 3.5 x 1.0 cm. Serially sectioning reveals 3 pink-tan lymph nodes ranging in size from 1.3 cm up to 3.7 cm. The lymph nodes are submitted as follows: 3A, 1 lymph node, 1/1; 3B, 1 lymph node bisected, 2/1; 3C and 3D, largest lymph node serially sectioned, 2/1 in each. (KSA)\n\n\nPath report.site of origin\n\n1. Prostate 2. Left pelvic lymph nodes 3. Right pelvic lymph nodes\n\n\nPath report.final diagnosis\n\n1. Prostate:     Adenocarcinoma, Gleason's 3+3=6 involving both lobes of the prostate.     Tumor involves the left apical margin with all remaining margins free of tumor.     Bilateral seminal vesicles negative for tumor.     Tumor confined to prostatic parenchyma without extraprostatic extension. 2. Lymph nodes, left pelvic, resection:     One fat replaced lymph node, negative for tumor. 3. Lymph nodes, right pelvic:     Multiple (3) fat replaced lymph nodes, all negative for tumor. CANCER CHECKLIST: SPECIMEN  Procedure: Radical prostatectomy Prostate Size  Prostate Weight (g): 41grams  Prostate Size in Centimeters (cm): 4.3cm TUMOR  Histologic Type: Acinar adenocarcinoma Histologic Grade  Primary Gleason Pattern: Pattern 3  Secondary Gleason Pattern: Pattern 3  Total Gleason Score: 6 Tumor Extent  Tumor Quantitation: Estimated percentage of prostate involved by tumor: 35%  Extraprostatic Extension (EPE): Not identified  Urinary Bladder Neck Invasion: Not identified  Seminal Vesicle Invasion: Not identified Accessory Findings  Treatment Effect: No known presurgical therapy MARGINS  Margins: Involved by invasive carcinoma  Margin Limitations: Limited (< 3 mm)  Focality: Unifocal  Location of Positive Margin: Left apical LYMPH NODES  Number of Lymph Nodes Involved: None identified  Number of Lymph Nodes Examined: 4 PATHOLOGIC STAGE CLASSIFICATION  TNM Descriptors: Not applicable  Primary Tumor: pT2  Regional Lymph Nodes: pN0  Distant Metastasis: Not applicable\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - Prostate cancer\n\n\n"
+}

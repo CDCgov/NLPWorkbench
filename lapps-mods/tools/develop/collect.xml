@@ -1,0 +1,35 @@
+<tool id="dev.collect" name="Example 1" version="1.0.0">
+ <command>lsd $__tool_directory__/collect.lsd $key $output
+        #for $f in $files
+            ${f}
+        #end for
+ </command>
+ <inputs>
+  <param label="Key" name="key" type="text" value="MASC3-0203"/>
+     <param label="Data" name="files" type="data" multiple="true" min="1"/>
+ </inputs>
+ <outputs>
+  <data format="txt" label="Collected" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**  
+    
+Retrieves a single document from the `Manually Annotated Sub-Corpus <http://www.anc.org/data/masc/>`_ (MASC 3.0.0). 
+  
+.. class:: infomark
+
+**TIPS**
+
+* Use the *Get Data->MASC: List all document IDs* tool to obtain a list of valid document ID values.
+* Use *Convert Formats->Wrap data as LIF object* to input MASC documents to tools requiring LIF.
+  
+**License**
+
+MASC data is free to use for any purpose, including commercial uses, under
+the Creative Commons `CC-BY <https://creativecommons.org/licenses/by/2.0/>`_ license.
+]]>
+ </help>
+</tool>

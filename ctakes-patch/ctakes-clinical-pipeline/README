@@ -1,0 +1,67 @@
+Contents
+- Introduction
+- Running the ctakes-clinical-pipeline 
+	- AggregateCdaProcessor.xml  for CDA documents conforming to the provided DTD.
+	- AggregatePlaintextProcessor.xml  for plaintext documents.
+
+
+ 
+############
+Introduction
+############
+
+This project is the top-level, main project for processing a clinical document
+through the entire pipeline, including sentence detection, part of speech tagging, 
+chunking, named entity recognition, context detection, and negation detection.
+
+
+############################################################################
+Running the ctakes-clinical-pipeline
+############################################################################
+
+The pipeline can process two types of documents
+ - plaintext files
+ - Clinical Document Architecture (CDA) XML files that conform to the DTD provided 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+AggregateCdaProcessor.xml  for CDA documents conforming to the provided DTD.
+
+The file cTAKESdesc/analysis_engine/AggregateCdaProcessor.xml is the aggregate
+analysis engine to use to run the entire pipeline, including the 
+CdaCasInitialzer analysis engine, which reads CDA documents that conform
+to the DTD provided, and create Segment annotations based on the sections
+within the CDA document.
+
+Open this file using the Component Descriptor Editor as described in the tutorial.
+Click on the tab labeled "Aggregate" to observe that the Component Engine Flow (pipeline) 
+defined by this descriptor includes CdaCasInitialzer as the first component.
+Observe that part of speech tagging (POSTagger) comes before chunking (Chunker), etc.
+ 
+Click on the tab labeled "Parameter Settings" to view the parameters set in this
+descriptor.  The ChunkCreatorClass is set to org.apache.ctakes.chunker.ae.PhraseTypeChunkCreator
+so that each phrase type gets its own type of annotation, rather than having all
+chunks be of type Chunk.  
+
+The parameters are:
+- ChunkerCreatorClass - the full class name of an implementation of the 
+                        interface org.apache.ctakes.chunker.ae.ChunkerCreator
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+AggregatePlaintextProcessor.xml  for plaintext documents.
+
+The file cTAKESdesc/analysis_engine/AggregatePlaintextProcessor.xml is the aggregate
+analysis engine to use to run the entire pipeline, including the 
+SimpleSegmentAnnotator analysis engine, which creates a Segment annotation that
+wraps the entire plaintext document.  Other annotators in the pipeline require
+at least 1 Segment annotation.
+
+Click on the tab labeled "Parameter Settings" to view the parameters set in this
+descriptor.  The ChunkCreatorClass is set to org.apache.ctakes.chunker.ae.PhraseTypeChunkCreator
+so that each phrase type gets its own type of annotation, rather than having all
+chunks be of type Chunk.  
+
+The parameters are:
+- SegmentID - the identifier or name to assign to the Segment annotation 
+- ChunkerCreatorClass - the full class name of an implementation of the 
+                        interface org.apache.ctakes.chunker.ae.ChunkerCreator

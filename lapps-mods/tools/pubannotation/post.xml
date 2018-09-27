@@ -1,0 +1,36 @@
+<tool id="pubannotation.post" name="POST an annotated document to the PubAnnotation server" version="1.0.0">
+ 
+ <command>curl -s -d @$input -H 'Content-type: application/json' -u '$email:$password' http://pubannotation.org/projects/LappsTest/docs/sourcedb/$repo/sourceid/$id/annotations.json &gt; $output</command>
+ <inputs>
+  <param format="json" label="PubAnnotation JSON" name="input" type="data"/>
+  <param type="select" label="Repository" name="repo">
+      <option value="PubMed" selected="true">PubMed</option>
+      <option value="PMC">PubMed Central</option>
+  </param>
+  <param type="text" label="ID" name="id"/>
+  <param type="text" label="Project" name="project" value="LappsTest"/>
+  <param type="text" label="User Email" name="email"/>
+  <param type="text" label="password" name="password"/>
+ </inputs>
+ <outputs>
+  <data format="json" label="Document that was posted" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[ 
+  
+**What it does** 
+
+This tool accepts a PubAnnotation JSON document and uploads (HTTP POST) it to the LappsTest project on the PubAnnotation server.
+A copy of the uploaded file (as returned by the Pubannotation server) is also written to disk for Galaxy to use.
+
+.. class:: infomark
+
+**NOTE:** This is a development version and the project, user email, and password are hardcoded into the input form.
+
+
+
+Use the *Convert Formats->LIFtoPubAnnotation* tool to convert a LIF document to the `PubAnnotation JSON format <http://www.pubannotation.org/docs/annotation-format/>`_ before uploading.
+]]>
+ </help>
+</tool>

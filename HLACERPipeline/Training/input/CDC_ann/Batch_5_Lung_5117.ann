@@ -1,0 +1,169 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1400, 
+        1414
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1415, 
+        1424
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1435, 
+        1458
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1214, 
+        1241
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1292, 
+        1307
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1308, 
+        1318
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        755, 
+        759
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1322, 
+        1326
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        638, 
+        667
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        786, 
+        821
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        727, 
+        753
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1368, 
+        1377
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        760, 
+        764
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        765, 
+        774
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1327, 
+        1331
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1332, 
+        1341
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1355, 
+        1367
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1384, 
+        1399
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160504105900|98898CCCE97AC4B6CF7641F56D5E350881532568|ORU^R01|9999999999999|D|2.5|\nPID|1||H9999999^^^^CMR^HOSPITAL 10&9999&MOH~^^^^RMR^HOSPITAL 10&9999&MOH~H9999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&KE&ON^^^^JHN||XXXXXXXXX^XXXXXX^XXXXXXXXX||99999999|F|||999-999 XXXXXXXXX XX^^XXXXXXXXX^XX^X9X 9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||C16-2371|33716-2^Study Report:  Cytology, non-gyn^LN^C^Cytology^L|||201605021150|||70363^XXXXXXXX^XXXXXXX||||201605021538||99999^XXXXXXXX^XXXXXXX||||N||201605041059||8010|F|||||||99999^XXXX^XXXXXX||&Sellner VanMiltenburg&Margaret|\n\n\n\n\n\n\n\nPath report.gross description\n\nOne (1) brush received in CytoLyt\nNumber of Slides: 1 \n\n\n\nPath report.site of origin\n\nLeft Lung Bronchial Brushing\n\n\nPath report.microscopic observation\n\nA. LEFT LUNG BRONCHIAL BRUSHING: The specimen contains malignant cells with pleomorphic nuclei, nuclear clearing, coarse chromatin and nucleoli. The malignant cells have a moderate amount of delicate cytoplasm. These cells present as single and crowded groups and sheets. There are ciliated respiratory cells, benign squamous cells, pulmonary macrophages some mixed inflammatory cells.\n \n\n\n\nPath report.final diagnosis\n\nSpecimen Adequacy: Satisfactory for evaluation.\n\nFinal Cytologic Diagnosis:\nA. LEFT LUNG BRONCHIAL BRUSHING: \n \nPOSITIVE FOR MALIGNANT CELLS CONSISTENT WITH NON-SMALL CELL CARCINOMA.\n \n\n \n\n\n\n\nPath report.relevant Hx\n\nSee also C16-2372 #1 Lt lung bronchial washing\n\n\n\n"
+}

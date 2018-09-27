@@ -1,0 +1,52 @@
+
+String server = 'http://pubannotation.org'
+String project = null
+int index = 0
+if (args.size() == 6) {
+    project = args[index++]
+}
+String id = args[index++]
+String repo = args[index++]
+String type = args[index++]
+String outputFormat = args[index++]
+File output = new File(args[index++])
+
+String path
+if (project) {
+    path = "$server/projects/${project}/docs/sourcedb/${repo}/sourceid/${id}/annotations.json"
+}
+else if (type == 'json') {
+    path = "${server}/docs/sourcedb/${repo}/sourceid/${id}/annotations.${type}"
+}
+else {
+    path = "${server}/docs/sourcedb/${repo}/sourceid/${id}.${type}"
+}
+
+String content
+Data data
+try {
+    println "Fetching $path"
+    content = new URL(path).text
+    if (type == 'json') {
+        data = new Data(Uri.JSON, content)
+    }
+    else {
+        Container container = new Container()
+        container.metadata.sourceid = id
+        container.metadata.sourcedb = repo
+        container.text = content
+
+        data = new Data(Uri.LIF, container)
+    }
+
+}
+catch (Throwable e) {
+    data = new Data(Uri.ERROR, e.message)
+}
+if (outputFormat == 'lif') {
+    output.text = data.asPrettyJson()
+}
+else {
+    //output.text = data.payload
+    output.text = content
+}

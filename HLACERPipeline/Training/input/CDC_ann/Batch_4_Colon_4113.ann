@@ -1,0 +1,373 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3363, 
+        3370
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3890, 
+        3900
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3996, 
+        4003
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3318, 
+        3332
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3371, 
+        3378
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3865, 
+        3879
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4004, 
+        4011
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3129, 
+        3152
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4753, 
+        4761
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3204, 
+        3231
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3236, 
+        3241
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3261, 
+        3266
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3763, 
+        3767
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8027, 
+        8032
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8054, 
+        8058
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8080, 
+        8085
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        793, 
+        822
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5597, 
+        5632
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7996, 
+        8022
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4", 
+      "__extent": [
+        3510, 
+        3533
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3622, 
+        3645
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4462, 
+        4485
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3302, 
+        3317
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3839, 
+        3864
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4107, 
+        4108
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3242, 
+        3247
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3768, 
+        3773
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3786, 
+        3791
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3883, 
+        3888
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8033, 
+        8038
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8071, 
+        8076
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8086, 
+        8091
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3778, 
+        3785
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8063, 
+        8070
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3233, 
+        3234
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3760, 
+        3761
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4320, 
+        4321
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8024, 
+        8025
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8051, 
+        8052
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8077, 
+        8078
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4489, 
+        4521
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4523, 
+        4538
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^18D0327028^CLIA|eMARCPlus|KY Cancer Registry|20170924070912||ORU^R01^ORU_R01|201709240709120001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-TC-004659^PathSys^18D0327028^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170913000000|||||||20170913000000|&Colon, Segmental Resection, other than for tumor, Colon, Segmental Resection, other than for tumor, Ovary, w/wo Tube, Neoplastic|1396708566^^^T^^^MD^^CMS^D^^^NPI||||||20170914000000|||F||||||C18.2^Malignant neoplasm of ascending colon^I10~C18.6^Malignant neoplasm of descending colon^I10~C18.7^Malignant neoplasm of sigmoid colon^I10~D27.0^Benign neoplasm of right ovary^I10~N73.6^Female pelvic peritoneal adhesions (postinfective)^I10|1366543423&&&E.&Jr.&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nA total 3 specimens are received. 1. Received labeled \"right colon and omentum.\" This consists of 2 parts, 1st there is the right hemicolectomy specimen, previously opened which consists of a short segment of terminal ileum, max 2 cm, cecum, ascending colon, and vermiform appendix. The right colon measures 19 cm from the base of the cecum to the distal colonic margin. Proximal ileal and distal colonic surgical margins in 1A. Grossly benign and viable. The vermiform appendix is unremarkable, 5 cm in length, routine sections in 1B. Arising at the base of the cecum is a exophytic villiform neoplasm up to 5 cm medial to lateral and 4.5 cm proximal to distal. A central cross section is remarkable for intact wall, submitted in 1C. Multiple additional full thickness sections in 1D-F from both the center and the periphery of this tumor. The radial margin is negative for neoplasm by a minimum of 3 cm, grossly benign in 1G. The omentum is serially sectioned and shows no focal defect, random section in 1F. The omentum itself is 29 x 14 cm. This specimen right colon and omentum are submitted in Carnoy's fixation for subsequent pericolonic lymph node dissection. 2. Received labeled \"left and sigmoid colon\" and consists of a segmental resection of large bowel, partially previously opened. The segmental resection measures 41 cm in length. Proximal and distal colonic surgical margins, grossly benign. Submitted in 2A. Arising at 5 cm from the distal margin is a exophytic multilobated 2 cm in diameter polypoid neoplasm, full thickness sectioned in 2B-D. The specimen is then fixed in Carnoy's solution for further dissection of the pericolonic lymph nodes. 3. Received labeled \"right ovary\" and consists of a excision of right ovarian mass which is cystic, 45 g. The capsule is intact and this measures 5 cm in diameter and the fallopian tube 5 cm in length is stretched over the capsule with tubo-ovarian adhesions. There are yellow nodular areas in the immediate subcapsular zone. Upon opening, there is a free flowing clear fluid. The solid areas in the immediate subcapsular zone are sampled with the wall of the cyst in 3A and 3B with additional sections of yellowish nodularity on the internal aspect of the cyst lining, these mostly in 3B. Additional with tubo-ovarian adhesions in 3C-D.\n\n\nPath report.relevant Hx\n\nHistory - Synchronous sigmoid and cecal lesions\n\n\nPath report.final diagnosis\n\n1. Right colon and omentum; right hemicolectomy and omentectomy:     Intraepithelial adenocarcinoma, focal, arising in dysplastic villous adenoma.     Negative for invasive malignancy.     Proximal ileal and distal colonic surgical margins benign and viable.     Radial margin negative for malignancy by minimum 3 cm.     Vermiform appendix with no specific pathologic change.     Omentum negative for malignancy.     Pericolonic lymph node dissection after Carnoy's fixation: In process.     Initial TNM classification: pTis. 2. Left colon and sigmoid colon; segmental resection (41 cm):     Infiltrating moderately differentiated adenocarcinoma of colon, cribriform type       with minority mucinous features, polypoid configuration arising in dysplastic       villous adenoma with extension into submucosa only.     Negative for invasion of muscularis propria.     Grade 2.     Radial margin negative for malignancy by minimum 1.8 cm.     Negative for lymphatic invasion.     Pericolonic lymph node dissection after Carnoy's fixation: In process.     Initial TNM classification: pT1. 3. Right ovary and fallopian tube with cystic mass; right salpingo-oophorectomy:     Serous cystadenofibroma with tubo-ovarian adhesions.     Negative for malignancy.\n\n\nPath report.supplemental reports\n\nAddendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).   - Testing performed on both source #1 and source #2 (both intact)    - See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue from source #1 and source#2) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present in both the tumor and adjacent non-neoplastic tissue components). These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome. Cancers with this profile are microsatellite stable (MSS). If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result on the screening test, then consideration could be made for a genetic consult with additional testing.   ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nSpecimen 1, the right hemicolectomy specimen with omentum shows a large 5 cm villous adenoma with variable degrees of dysplasia. Moderate and severe dysplasia predominate, however there are few minority foci of malignant transformation within the neoplastic epithelium. These include a microcribriform pattern, with significant increase in stratification of nuclei, many of which show loss of nuclear polarity, nuclear enlargement and increased mitotic figures including abnormal mitotic figures. However, these are confined to the epithelial architecture and there is no extension into intramucosal lamina propria and certainly no invasion into the submucosa. This therefore represents initial TNM classification pTis. Pericolonic lymph node dissection is in process after Carnoy's fixation. The vermiform appendix is unremarkable and negative for malignancy. Proximal ileal and distal colonic surgical margins are well adequately benign and the radial margin is negative for malignancy by 3 cm. Omentum shows no evidence of involvement by malignancy. The left and sigmoid colon, single segmental resection, shows a polypoid adenocarcinoma at 5 cm from the distal margin. Proximal and distal colonic surgical margins are benign and viable. The radial margin is negative for malignancy by 1.8 cm. This polypoid adenocarcinoma is mostly low grade cribriform pattern clearly arising in a dysplastic villous adenoma. There is, however, superficial infiltration into the lamina propria, this finding best demonstrated in 2B where there is clearly mucinous differentiation comprising about 30% of the entirety of this colonic adenocarcinoma. Negative for lymphovascular invasion. There is a blunted \"Crohn's like\" lymphocytic and fibrotic reaction at the base of the tumor. Negative for invasion of muscularis propria. Pericolonic lymph node dissection after Carnoy's fixation is in process and a supplemental report will follow. Of note, the tattoo material is identified in the submucosa. The sections of right ovary and fallopian tube show a serous cystadenofibroma with no significant complexity, no borderline features and no evidence of malignancy. The molecular characteristics of these synchronous adenocarcinomas of colon by MMR panel are in process on block 1D and block 2B to evaluate for microsatellite instability and supplemental reports will follow.\n\n\nPath report.site of origin\n\n1. Right colon and omentum 2. Left and sigmoid colon 3. Right ovary\n\n\n"
+}

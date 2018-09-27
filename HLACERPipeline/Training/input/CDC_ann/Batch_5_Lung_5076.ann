@@ -1,0 +1,121 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1222, 
+        1236
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1237, 
+        1246
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1254, 
+        1268
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3980, 
+        4003
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1429, 
+        1449
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1078, 
+        1105
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1168, 
+        1173
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        575, 
+        610
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4021, 
+        4047
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1200, 
+        1221
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1162, 
+        1166
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1174, 
+        1184
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160504100800|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||M99999999^^^^CMR^HOSPITAL 4&9999&MOH~M99999999^^^^RMR^HOSPITAL 4&9999&MOH~M99999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&KW&ON^^^^JHN||XXXXXXX^XXXXXXX^X||99999999|F||||||||||||||||||||||N|\nOBR|1||S16-25601|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604140000|||74779^XXXXXXX^XXXXXX||||201604211339|&Consult blocks S16-4012|99999^XXXXXXX^XXXXXX||||Y||201605041008||PRV|F|||||||99999^XXXXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.microscopic observation\n\n\nThis review is part of the EGFR mutation testing protocol.\nBlock Tested: A1\nOriginal Diagnosis: carcinoma, poorly differentiated, consistent with lung primary\nDiagnosis Confirmed: Yes\nTTF1 Immunohistochemistry: Positive\nArea(s) marked for macro-dissection and DNA isolation: 1\nTumor area(s) for DNA isolation: 10x1 mm\nTumor/Normal Cells in Marked Area(s): 20 %\nEstimated Necrosis in Marked Area(s): 0 %\n--------------------------------------------------------\n\n\n\n\n\nPath report.final diagnosis\n\n\nREVIEW OF MATERIAL FROM HOSPITAL HOSPITAL (16S:4012)\n\nLung (right upper lobe), biopsy:\n   - Poorly differentiated non-small cell carcinoma, favor adenocarcinoma (see Synoptic Report)\n     - NEGATIVE for EGFR (exons 18-21) mutations (see Molecular Diagnostics report)\n     - NEGATIVE for ALK by immunohistochemistry \n\n\n\n\n\nPath report.comments\n\nALK immunohistochemistry is performed at HOSPITAL using the 5A4 antibody with a protocol optimized for detection of ALK gene rearrangement in lung cancer.\n\n\nMolecular Number:         M16.5398\nTest Method(s) Used:        EGFR-RT52\nEGFR Result:            Negative\n\nDNA was extracted from the paraffin-embedded RUL lung mass, S16-4012 A1, and analyzed using the EGFR-RT52 kit from EntroGen. This kit is based on a real-time PCR qualitative genotyping assay that uses fluorescently labeled probes for detection of 30 recurrent mutations in exons 18, 19, 20 and 21 of the EGFR gene, including exon 20 resistance mutations (T790M, S768I, and insertions). Details of the mutations tested are available upon request. \n\nThe lower limit of mutation detection using this assay is 2.5-5%. Minimum tumor cellularity for analysis is 5%. \n\nThis analysis is based on current knowledge of the most common EGFR mutations and their presence in adenocarcinoma of the lung. Somatic mutations in the EGFR tyrosine kinase domain are present in 10-40% of non-small cell lung cancers. The presence of these mutations will predict clinical response or resistance to EGFR inhibitors such as gefitinib (Iressa) and erlotinib (Tarceva). Rarely, T790M occurs in untreated patients and may be present as an underlying germline mutation; this test will not discriminate germline T790M mutations from testing of tumor alone. This test will not identify rare mutations, such as E709K and D770_N771ins and is not appropriate for squamous cell carcinomas of the lung. Only adenocarcinomas of the lung or lung cancers with an adenocarcinoma component should be sent for testing. \n\nThe performance characteristics of this test were determined and verified by the Molecular Diagnostics Laboratory at the HOSPITAL. It has not been cleared or approved by the US FDA. FDA does not require this test to go through premarket FDA review. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments (CLIA) as qualified to perform high complexity clinical laboratory testing.\n\nPan Q, et al. JMD 2005; 7(3): 396-403 \nTsao MS, et al. NEJM 2005; 353(2): 133-144 \nRiely GJ, et al. Clin Cancer Res 2006; 12: 7232-7241\nJohn T, et al. Oncogene 2009; 28: S14-S23\nhttp://www.entrogen.com/web2/egfr-mutation-analysis-kit\nhttp://www.mycancergenome.org/content/disease/lung-cancer/\nLindeman NI, Cagle PT, Beasley MB, et al. Arch Pathol Lab Med. 137:828-860 \n\n\n\n\nPath report.relevant Hx\n\nEGFR \\T\\ ALK\n\n\n\nPath report.site of origin\n\nConsult blocks S16-4012\nConsult slides - stained S16-4012 A1\n\n\n"
+}

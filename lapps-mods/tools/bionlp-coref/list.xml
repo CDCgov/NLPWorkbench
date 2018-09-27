@@ -1,0 +1,18 @@
+<tool id="bionlp.coref.list" name="List CoRef document keys" version="1.0.0">
+ <command>lsd $__tool_directory__/list.lsd $output
+ </command>
+ <outputs>
+  <data format="txt" name="output" label="Coref Document List">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+Obtains a list of ID values for all documents in the BioNLP coreference corpus.
+
+**Description** 
+Includes annotations for anaphors bound by protein or event references, produced semi-automatically. 338 anaphora structures are annotated for 218 anaphor expressions, which are bound by 320 antecedents.
+
+]]>
+ </help>
+</tool>

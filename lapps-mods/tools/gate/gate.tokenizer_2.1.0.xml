@@ -1,0 +1,17 @@
+<tool id="gate.tokenizer_2.1.0" name="GATE Tokenizer v2.1.0" version="2.1.0">
+	<description>
+		ANNIE Tokeniser from GATE.
+	</description>
+	<command interpreter="lsd">
+		invoke.lsd gate.tokenizer_2.1.0 $input $output
+	</command>
+	<inputs>
+		<param name="input" type="data" format="txt,gate,xml" label="input"/>
+	</inputs>
+	<outputs>
+		<data name="output" format="gate" label="Tokenized (GATE)"/>
+	</outputs>
+	<help>
+		ANNIE Tokenizer from GATE.
+	</help>
+</tool>

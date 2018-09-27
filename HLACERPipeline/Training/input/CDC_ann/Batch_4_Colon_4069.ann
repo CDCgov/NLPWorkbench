@@ -1,0 +1,273 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1379, 
+        1395
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1310, 
+        1324
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1396, 
+        1403
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1043, 
+        1066
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7614, 
+        7634
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1132, 
+        1159
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        650, 
+        679
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7441, 
+        7476
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7518, 
+        7544
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1409, 
+        1457
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1280, 
+        1288
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1289, 
+        1298
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1164, 
+        1169
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1239, 
+        1244
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1299, 
+        1309
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1346, 
+        1351
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7559, 
+        7564
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1171, 
+        1180
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1246, 
+        1261
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1353, 
+        1360
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7549, 
+        7558
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7574, 
+        7589
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7598, 
+        7605
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1161, 
+        1162
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1236, 
+        1237
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1343, 
+        1344
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7546, 
+        7547
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7571, 
+        7572
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7595, 
+        7596
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1478, 
+        1510
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170919125849||ORU^R01^ORU_R01|201709191258490001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-GI-015279^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170809000000|||||||20170810000000|&Polyp, Colorectal, Colon, Biopsy, Polyp, Colorectal|1801030523^^^^^^MD^^CMS^D^^^NPI||||||20170814000000|||F||||||Z12.11^Encounter for screening for malignant neoplasm of colon^I10~C18.5^Malignant neoplasm of splenic flexure^I10~D12.5^Benign neoplasm of sigmoid colon^I10~K63.5^Polyp of colon^I10|1679534671& & &&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received in formalin labeled \"\" and \"ascending colon polyp\" is 1 tan tissue fragment that is 5 mm. 1/1. 2. Received in formalin labeled \"\" and \"splenic flexure mass\" are 3 tan tissue fragments which range in size from 3 to 6 mm. 3/2. 3. Received in formalin labeled \"\" and \"sigmoid polyp\" are 2 tan tissue fragments which range in size from 4 to 5 mm. 2/3.\n\n\nPath report.relevant Hx\n\nHistory - Screening, polyps splenic flexure mass, hemorrhoids\n\n\nPath report.final diagnosis\n\n1. Colon, ascending, polypectomy:     Hyperplastic polyp.     See comment. 2. Colon, splenic flexure mass, biopsy:     Invasive low grade colorectal adenocarcinoma.     See comment. 3. Colon, sigmoid, polypectomy:     Sessile serrated adenoma.     Negative for cytologic, dysplasia and malignancy.     See comment.\n\n\nPath report.supplemental reports\n\nLynch Cancel Report: Additional Lynch Syndrome testing, such as Microsatellite Instability (MSI) will not be performed unless requested. Medicare contractors require utilizing Amsterdam or revised Bethesda criteria and IHC as a first step in screening for Lynch Syndrome in patients with newly diagnosed colorectal cancer (CRC). NCCN guidelines recommends all patients with newly diagnosed CRC to be offered Lynch Syndrome testing, including MSI and/or MMR-IHC. MSI and/or MMR-IHC are also useful in providing prognostic and therapeutic response information, such as 5-FU therapy, in CRC. A recent study in the New England Journal of Medicine indicated MSI to be associated with response to certain immune checkpoint inhibitors. NCCN guidelines also recommend genomic profiling in certain colorectal tumors for prognostic and/or therapeutic decision making. Mutations in certain genes such as KRAS and NRAS predict for lack of response to monoclonal anti-EGFR targeted therapies. Two recent studies have associated aspirin use to be associated with improved survival in patients with colorectal tumors harboring mutations in the PIK3CA gene. BRAF mutations are associated with an aggressive clinical course and many promising clinical trials are enrolling patients based on the mutational status of this gene. Genomic aberrations in other genes including TP53, KRAS, CMET, PTEN, CTNNB1, and APC have also been associated with an aggressive clinical course. References will be furnished upon request. The revised Bethesda criteria include colon cancer diagnosed under the age of 50, presence of synchronous or metachronous CRC or other Lynch Syndrome associated tumor regardless of age, morphologic findings consistent with MSI-H histology in an individual who is less than 60, colon cancer diagnosed with one or more first degree relatives with a Lynch Syndrome related tumor, with one of the cancers diagnosed under the age of 50, or colon cancer in 2 or more first degree relatives with a lynch related tumor, regardless of age. Morphologic findings associated with MSI-H status include tumor infiltrating lymphocytes, signet ring cell features, mucinous histology, medullary growth pattern, neutrophilic infiltrate, poor differentiation, and/or syncytial growth pattern. It is important to note that revised Bethesda criteria can miss a significant percentage of patients who have an inherited predisposition to CRC. Genomic profiling for prognostic and therapeutic information is underway. If there is clinical or morphologic suspicion of Lynch Syndrome, please contact PathGroup customer service at 855-854-6473 to request additional Lynch Syndrome testing. ## End of auxiliary report ## Addendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment. ## End of auxiliary report ## Ancillary Report: Immunoperoxidase staining was performed and evaluated with appropriate controls. Tumor cells are positive for CDX2. CDX2 expression has important prognostic value in colorectal adenocarcinoma. Loss of CDX2 expression is associated with an aggressive clinical course including infiltrative growth, and advanced T, N, M and overall stage. [N Engl J Med. 2016 Jan 21;374(3):211-22.][ Clin Colorectal Cancer. 2016 Sep 17.][ World J Gastroenterol. 2015 Feb 7;21(5):1457-67.]  ## End of auxiliary report ## Smart Genomics NGS: SGNGS Impression - <p>Review of the accompanying pathology report indicated a history of colorectal cancer. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. A <strong>TP53 K132N </strong><strong>mutation was detected</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table.</p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context. </p>  ## End of auxiliary report ## Fish Report: FISH - - Negative for MET gene amplification. Positive for polysomy of chromosome 7.  - Negative for HER2 gene amplification.   ## End of auxiliary report ## Smart Genomics Summary: SGTS Impression - <p>Review of the accompanying pathology report indicated a history of colorectal cancer. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. A <strong>TP53 K132N </strong><strong>mutation was detected</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table.</p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context. </p>  ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Ascending colon polyp 2. Splenic flexure mass 3. Sigmoid polyp\n\n\nPath report.comments\n\nComments - 2. Steve in Dr. 's office was notified of the diagnosis at 11:21 a.m. CST on 8/14/17. SmartGenomics colon profile is pending, results to be reported separately. Quality assurance review by Dr. with concurrence. 1,3. Endoscopic correlation is recommended; the histologic pattern in each specimen suggests the specimen designations may have been transposed. FISH Comments - Fluorescence in situ hybridization (FISH) revealed no evidence of MET (7q31.2) gene amplification. The MET/CEP7 ratio was 1.07. However, 1-2 additional copies of MET and CEP7 (centromere 7) were detected in 26% of cells analyzed, indicating polysomy of chromosome 7. Gain of MET and/or chromosome 7 is an independent prognostic factor associated with a poor prognosis in many neoplasms, including colorectal cancer.   Monitoring for this anomaly may be useful in assessing the patient`s remission/relapse status.   FISH revealed no evidence of HER2 (17q12) gene amplification. However, it should be noted that the FISH probes utilized in this analysis cannot entirely exclude the presence of other chromosomal abnormalities. Correlation with classic cytogenetics, clinical, flow cytometric, and morphological data is recommended, if available.   FISH analysis was performed in interphase cells using the MET (7q31.2)/CEP7 (centromere 7) and CEP17 (centromere 17)/HER2 (17q12) dual color DNA amplification probes (Abbott Molecular, Inc., Des Plaines, IL).   References:  Nat Med. 2012 Feb 12;18(3):382-4; Oncol Rep. 2012 Oct;28(4):1187-92; J Clin Oncol. 2009 Apr 1;27(10):1667-74. J Thorac Oncol. 2010 Mar;5(3):305-13. J Clin Oncol. 2012, 30(35):4352-9; Am Soc Clin Oncol Educ Book. 2014;34:e353-65. Cancers (Basel). 2015 May 26;7(2):930-49. Tumour Biol. 2015 Dec;36(12):9813-21.\n\n\n"
+}

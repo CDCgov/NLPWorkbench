@@ -1,0 +1,111 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1006, 
+        1020
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1075, 
+        1098
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        917, 
+        944
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        910, 
+        914
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        963, 
+        967
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        526, 
+        555
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1222, 
+        1257
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        866, 
+        892
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        971, 
+        979
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        980, 
+        1005
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        947, 
+        949
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 1^9999^MOH|PIMS|CCO|20160503122450|38CE6ED8ACDB4C887D219DFDD297C66675DE5485|ORU^R01|Q1907400724T3579108496|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 1&9999&MOH~99999999^^^^MRN^HOSPITAL 1&9999&MOH~9999999999&&ON^^^^JHN||XXXXXX^XXXXX^XXXXXXXXX||99999999|F|||999-999 XXXXXXXXXX XX X^^XXXXXX^XXX^X9X9X9^999||||||||||||||||Retired|||N|\nOBR|1||S-16-0018637|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160428|||84676^XXXXXX^XXXX||||||||||N||20160503|||F|||||||99999^XXXXXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n\nThe specimen and patient identifiers are reviewed and are verified.\nSpecimen: tan core(s) and fragment(s)\n   Number: 2 core(s) / 3 fragment(s)\n   Size: core(s) 1.0 and 0.7 cm / fragment(s) 0.3 to 0.1 cm\nSection code (entirely submitted): (A1).\nGross examination by Linda Galbraith, MLT/mh 2016/04/28 15:31\n\n\nPath report.site of origin\n\n\nA Lung biopsy, left\n\n\nPath report.final diagnosis\n\n\nA: Lung biopsy, left:\n- invasive moderately-differentiated adenocarcinoma.\n\nCase reviewed with Huda Alghefari, M.D., Resident\n\n\nPath report.relevant Hx\n\n\nThe following information was submitted electronically by the ordering physician:\nleft lower lobe nodule ? lung cancer\n\n\nPath report.microscopic observation\n\n\nSections of the core biopsies reveal an invasive adenocarcinoma, growing as small to medium sized irrgular acini in a desmoplastic stroma. Thre are some intraluminal tufts and solid nests. The moderately pleomorphic, large neoplastic cells have increased nuclear-to-cytoplasmic ratios,and hyperchromatic nuclei with occasional nuclear pseudoinclusion. Mitotic figures are seen. The morphol,ogy is consistent with pulmonary primary origin.\n\n\n"
+}

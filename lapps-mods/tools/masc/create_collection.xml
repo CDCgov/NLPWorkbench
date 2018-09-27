@@ -1,0 +1,51 @@
+<tool id="masc.create.collection" name="Create a data collection" version="1.0.0">
+ <command interpreter="lsd">
+  create_collection.lsd $type $start $end
+ </command>
+ <!--
+<description>
+ Create a data collection for select documents
+</description>
+-->
+<inputs>
+ <!--
+    <param name="input" type="data" format="txt" label="Index List" help="List of MASC document ID values." />
+  -->
+  <param name="type" type="select">
+   <option value="anc:masc.text_2.2.0">
+    Text
+   </option>
+   <option value="anc:masc.json_2.2.0">
+    Gold Annotations
+   </option>
+  </param>
+  <param min="0" name="start" type="integer" value="0">
+  </param>
+  <param max="392" name="end" type="integer" value="392">
+  </param>
+ </inputs>
+ <outputs>
+  <collection format="lif" label="Output List" name="list_output" type="list">
+   <discover_datasets directory="outputs" pattern="__designation_and_ext__" visible="false">
+   </discover_datasets>
+  </collection>
+ </outputs>
+ <tests>
+ </tests>
+ <help>
+  <![CDATA[
+**What it Does**
+
+Creates a Data Collection with the selected range of documents from the `Manually Annotated Sub-Corpus <http://www.anc.org/data/masc/>`_.  
+
+.. class:: infomark
+
+**TIP**: Use  *Get Data->MASC:List all document ids* to see the list of possible document IDs.
+
+**License**
+
+MASC data is free to use for any purpose, including commercial uses, under
+the Creative Commons `CC-BY <https://creativecommons.org/licenses/by/2.0/>`_ license.
+]]>
+ </help>
+</tool>

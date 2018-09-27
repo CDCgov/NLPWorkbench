@@ -1,0 +1,72 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+import groovy.json.JsonOutput
+
+String annotation=args[0]
+String input1=args[1]
+String input2=args[2]
+output=args[3]
+
+failed = false
+
+View view1 = getView(input1, annotation)
+if (failed) return
+
+View view2 = getView(input2, annotation)
+if (failed) return
+
+int count1 = count(view1, annotation)
+int count2 = count(view2, annotation)
+
+Map result = [:]
+result.count1 = count1
+result.count2 = count2
+if (count1 == count2) {
+	result.status = "passed"
+}
+else {
+	result.status = "failed"
+}
+
+new File(output).text = Serializer.toPrettyJson(result)
+return
+
+void error(Data data) {
+	new File(output).text = data.asJson()
+	failed = true
+}
+
+void error(String message) {
+	new File(output).text = DataFactory.error(message)
+	failed = true
+}
+
+View getView(String input, String annotation) {
+	String json = new File(input).text
+	Data data = Serializer.parse(json, Data)
+	if (data.discriminator == Uri.ERROR) {
+		error(data)
+		return
+	}
+	Container container = new Container(data.payload)
+	List<View> views = container.findViewsThatContain(annotation)
+	if (views.size() == 0) {
+		error("Input does not contain the required annotation type.")
+		return
+	}
+	if (views.size() > 1) {
+		error("Input contains more than one view with the required annotation type.")
+		return
+	}
+	return views[0]
+}
+
+int count(View view, String annotation) {
+	int result = 0
+	view.annotations.each { a ->
+		if (a.label?.endsWith(annotation) || a.type?.endsWith(annotation)) {
+			++result
+		}
+	}
+	return result
+}
+

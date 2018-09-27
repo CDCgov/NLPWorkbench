@@ -1,0 +1,161 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1765, 
+        1769
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1770, 
+        1779
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1485, 
+        1508
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1661, 
+        1688
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1690, 
+        1694
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1812, 
+        1816
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1866, 
+        1870
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        876, 
+        905
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1091, 
+        1126
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1782, 
+        1808
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1836, 
+        1862
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1695, 
+        1701
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1817, 
+        1823
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1871, 
+        1877
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1824, 
+        1833
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1878, 
+        1887
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        569, 
+        578
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160504074959|C05BDE1D4D0D85F7B2CCF5DBD80547DBCCF37778|ORU^R01|Q245384200|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 9&9999&MOH~~999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&BT&ON^^^^JHN||XXXXXXXX^XXXXXXX^XXXX||99999999|F|||9999  XXXXXXXXXXXXX XXXX^^XXXXXXXXXXX^XX^X9X9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||SP-16-001782|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160420|||58466^XXXXXXXX^XXXX||||||99999^XXXX^XXXXXXX||||N||20160504|||C|||||||99999^XXXX^XXXXXXXX|\n\n\n\n\n\n\n\nPath report.addendum spec\n\nADDENDUM:  4 May 2016 nE\nE\\The hormone receptor studies and Her-2/neu overexpression study on this case is now available and a copy attached. nE\nE\\This tumor has been determined to be positive for estrogen and progesterone receptor protein expression but negative for Her-2/neu protein overexpression.nE\\\n\n\nPath report.gross description\n\nLabelled left breast. The container holds three cores each with lengths of approximately 1 to 1.5 cm.  One of these cores is submitted in block #1 and the other two are in block #2.\n\n\nPath report.microscopic observation\n\nThese cores consist entirely of infiltrating duct carcinoma. Based on this sampling this tumor is no better than moderately differentiated and may well be poorly differentiated. nE\nE\\This case is being referred for evaluation of hormone receptor expression and Her-2/neu overexpression. An addendum report will be issued when these studies are available.\n\n\nPath report.relevant Hx\n\nBiopsy: YesnE\\Ischemic Time:NAnE\\Time in Fixative/Formalin: 1130nE\\Total Fixation Time:> 72 hrsnE\\Clinical History: ultrasound-guided breast biopsy.\n\n\nPath report.final diagnosis\n\nLEFT BREAST, ULTRASOUND-GUIDED CORE BIOPSY FROM 4 O'CLOCKnE\\- INFILTRATING DUCT CARCINOMA\n\n\nPath report.site of origin\n\nA Left breast 4 o'clock\n\n\nPath report.site of origin\n\nA Left breast 4 o'clock\n\n\n"
+}

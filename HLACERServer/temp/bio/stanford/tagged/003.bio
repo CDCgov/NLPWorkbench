@@ -1,0 +1,171 @@
+Gross	5	NNP	start	start	start	start	start	start	Pathology	9	NNP	Specimen	8	NNP	B-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+Pathology	9	NNP	Gross	5	NNP	start	start	start	Specimen	8	NNP	is	2	VBZ	I-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+
+Specimen	8	NNP	Pathology	9	NNP	Gross	5	NNP	is	2	VBZ	received	8	VBN	O
+is	2	VBZ	Specimen	8	NNP	Pathology	9	NNP	received	8	VBN	in	2	IN	O
+received	8	VBN	is	2	VBZ	Specimen	8	NNP	in	2	IN	formalin	8	NN	O
+in	2	IN	received	8	VBN	is	2	VBZ	formalin	8	NN	,	1	,	O
+formalin	8	NN	in	2	IN	received	8	VBN	,	1	,	labeled	7	VBN	O
+,	1	,	formalin	8	NN	in	2	IN	labeled	7	VBN	as	2	IN	O
+labeled	7	VBN	,	1	,	formalin	8	NN	as	2	IN	"	1	UN	O
+as	2	IN	labeled	7	VBN	,	1	,	"	1	UN	Rectum	6	NNP	O
+"	1	UN	as	2	IN	labeled	7	VBN	Rectum	6	NNP	Polyp	5	NNP	O
+Rectum	6	NNP	"	1	UN	as	2	IN	Polyp	5	NNP	"	1	UN	O
+Polyp	5	NNP	Rectum	6	NNP	"	1	UN	"	1	UN	with	4	IN	O
+"	1	UN	Polyp	5	NNP	Rectum	6	NNP	with	4	IN	the	3	DT	O
+with	4	IN	"	1	UN	Polyp	5	NNP	the	3	DT	patient	7	NN	O
+the	3	DT	with	4	IN	"	1	UN	patient	7	NN	s	1	UN	O
+patient	7	NN	the	3	DT	with	4	IN	s	1	UN	'	1	UN	O
+s	1	UN	patient	7	NN	the	3	DT	'	1	UN	name	4	NN	O
+'	1	UN	s	1	UN	patient	7	NN	name	4	NN	and	3	CC	O
+name	4	NN	'	1	UN	s	1	UN	and	3	CC	consists	8	VBZ	O
+and	3	CC	name	4	NN	'	1	UN	consists	8	VBZ	of	2	IN	O
+consists	8	VBZ	and	3	CC	name	4	NN	of	2	IN	1	1	CD	O
+of	2	IN	consists	8	VBZ	and	3	CC	1	1	CD	piece	5	NN	O
+1	1	CD	of	2	IN	consists	8	VBZ	piece	5	NN	of	2	IN	O
+piece	5	NN	1	1	CD	of	2	IN	of	2	IN	soft	4	JJ	O
+of	2	IN	piece	5	NN	1	1	CD	soft	4	JJ	pink	4	JJ	O
+soft	4	JJ	of	2	IN	piece	5	NN	pink	4	JJ	tissue	6	NN	O
+pink	4	JJ	soft	4	JJ	of	2	IN	tissue	6	NN	measuring	9	VBG	O
+tissue	6	NN	pink	4	JJ	soft	4	JJ	measuring	9	VBG	0.2	3	CD	O
+measuring	9	VBG	tissue	6	NN	pink	4	JJ	0.2	3	CD	x	1	CC	O
+0.2	3	CD	measuring	9	VBG	tissue	6	NN	x	1	CC	0.2	3	CD	O
+x	1	CC	0.2	3	CD	measuring	9	VBG	0.2	3	CD	x	1	CC	O
+0.2	3	CD	x	1	CC	0.2	3	CD	x	1	CC	0.1	3	CD	O
+x	1	CC	0.2	3	CD	x	1	CC	0.1	3	CD	cm	2	NN	O
+0.1	3	CD	x	1	CC	0.2	3	CD	cm	2	NN	.	1	.	O
+cm	2	NN	0.1	3	CD	x	1	CC	.	1	.	All	3	DT	O
+.	1	.	cm	2	NN	0.1	3	CD	All	3	DT	submitted	9	VBN	O
+
+All	3	DT	.	1	.	cm	2	NN	submitted	9	VBN	(	1	UN	O
+submitted	9	VBN	All	3	DT	.	1	.	(	1	UN	1	1	CD	O
+(	1	UN	submitted	9	VBN	All	3	DT	1	1	CD	Block	5	NN	O
+1	1	CD	(	1	UN	submitted	9	VBN	Block	5	NN	)	1	UN	O
+Block	5	NN	1	1	CD	(	1	UN	)	1	UN	.	1	.	O
+)	1	UN	Block	5	NN	1	1	CD	.	1	.	Final	5	JJ	O
+.	1	.	)	1	UN	Block	5	NN	Final	5	JJ	Diagnosis	9	NN	O
+
+Final	5	JJ	.	1	.	)	1	UN	Diagnosis	9	NN	Mantle	6	NNP	B-FINALDIAGNOSISHEADING
+Diagnosis	9	NN	Final	5	JJ	.	1	.	Mantle	6	NNP	cell	4	NN	I-FINALDIAGNOSISHEADING
+
+Mantle	6	NNP	Diagnosis	9	NN	Final	5	JJ	cell	4	NN	lymphoma	8	NN	B-CANCERHISTOLOGYTYPE
+cell	4	NN	Mantle	6	NNP	Diagnosis	9	NN	lymphoma	8	NN	(	1	UN	I-CANCERHISTOLOGYTYPE
+lymphoma	8	NN	cell	4	NN	Mantle	6	NNP	(	1	UN	MCL	3	NN	I-CANCERHISTOLOGYTYPE
+(	1	UN	lymphoma	8	NN	cell	4	NN	MCL	3	NN	)	1	UN	O
+MCL	3	NN	(	1	UN	lymphoma	8	NN	)	1	UN	.	1	.	O
+)	1	UN	MCL	3	NN	(	1	UN	.	1	.	(	1	UN	O
+.	1	.	)	1	UN	MCL	3	NN	(	1	UN	See	3	VB	O
+
+(	1	UN	.	1	.	)	1	UN	See	3	VB	comment	7	NN	O
+See	3	VB	(	1	UN	.	1	.	comment	7	NN	)	1	UN	O
+comment	7	NN	See	3	VB	(	1	UN	)	1	UN	.	1	.	O
+)	1	UN	comment	7	NN	See	3	VB	.	1	.	Nature	6	NNP	O
+.	1	.	)	1	UN	comment	7	NN	Nature	6	NNP	of	2	IN	O
+
+Nature	6	NNP	.	1	.	)	1	UN	of	2	IN	Specimen	8	NNP	B-NATUREOFSPECIMENHEADING
+of	2	IN	Nature	6	NNP	.	1	.	Specimen	8	NNP	Colon	5	UN	I-NATUREOFSPECIMENHEADING
+Specimen	8	NNP	of	2	IN	Nature	6	NNP	Colon	5	UN	-	1	UN	I-NATUREOFSPECIMENHEADING
+
+Colon	5	UN	Specimen	8	NNP	of	2	IN	-	1	UN	Rectum	6	UN	B-ORGAN/BODYSTRUCTURE
+-	1	UN	Colon	5	UN	Specimen	8	NNP	Rectum	6	UN	Polyp	5	NNP	O
+Rectum	6	UN	-	1	UN	Colon	5	UN	Polyp	5	NNP	Cold	4	NNP	B-PRIMARYORIGINOFNEOPLASM
+Polyp	5	NNP	Rectum	6	UN	-	1	UN	Cold	4	NNP	Biopsy	6	NNP	O
+Cold	4	NNP	Polyp	5	NNP	Rectum	6	UN	Biopsy	6	NNP	(	1	UN	O
+Biopsy	6	NNP	Cold	4	NNP	Polyp	5	NNP	(	1	UN	R	1	UN	O
+(	1	UN	Biopsy	6	NNP	Cold	4	NNP	R	1	UN	/	1	UN	O
+R	1	UN	(	1	UN	Biopsy	6	NNP	/	1	UN	O	1	UN	O
+/	1	UN	R	1	UN	(	1	UN	O	1	UN	adenoma	7	NN	O
+O	1	UN	/	1	UN	R	1	UN	adenoma	7	NN	)	1	UN	O
+adenoma	7	NN	O	1	UN	/	1	UN	)	1	UN	(	1	UN	O
+)	1	UN	adenoma	7	NN	O	1	UN	(	1	UN	Sample	6	NN	O
+(	1	UN	)	1	UN	adenoma	7	NN	Sample	6	NN	1	1	CD	O
+Sample	6	NN	(	1	UN	)	1	UN	1	1	CD	)	1	UN	B-SPECIMENIDENTIFIER
+1	1	CD	Sample	6	NN	(	1	UN	)	1	UN	Gross	5	NNP	I-SPECIMENIDENTIFIER
+)	1	UN	1	1	CD	Sample	6	NN	Gross	5	NNP	Pathology	9	NNP	O
+
+Gross	5	NNP	)	1	UN	1	1	CD	Pathology	9	NNP	Specimen	8	NNP	B-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+Pathology	9	NNP	Gross	5	NNP	)	1	UN	Specimen	8	NNP	is	2	VBZ	I-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+
+Specimen	8	NNP	Pathology	9	NNP	Gross	5	NNP	is	2	VBZ	received	8	VBN	O
+is	2	VBZ	Specimen	8	NNP	Pathology	9	NNP	received	8	VBN	in	2	IN	O
+received	8	VBN	is	2	VBZ	Specimen	8	NNP	in	2	IN	formalin	8	NN	O
+in	2	IN	received	8	VBN	is	2	VBZ	formalin	8	NN	,	1	,	O
+formalin	8	NN	in	2	IN	received	8	VBN	,	1	,	labeled	7	VBN	O
+,	1	,	formalin	8	NN	in	2	IN	labeled	7	VBN	as	2	IN	O
+labeled	7	VBN	,	1	,	formalin	8	NN	as	2	IN	"	1	UN	O
+as	2	IN	labeled	7	VBN	,	1	,	"	1	UN	Rectum	6	NNP	O
+"	1	UN	as	2	IN	labeled	7	VBN	Rectum	6	NNP	Polyp	5	NNP	O
+Rectum	6	NNP	"	1	UN	as	2	IN	Polyp	5	NNP	"	1	UN	O
+Polyp	5	NNP	Rectum	6	NNP	"	1	UN	"	1	UN	with	4	IN	O
+"	1	UN	Polyp	5	NNP	Rectum	6	NNP	with	4	IN	the	3	DT	O
+with	4	IN	"	1	UN	Polyp	5	NNP	the	3	DT	patient	7	NN	O
+the	3	DT	with	4	IN	"	1	UN	patient	7	NN	s	1	UN	O
+patient	7	NN	the	3	DT	with	4	IN	s	1	UN	'	1	UN	O
+s	1	UN	patient	7	NN	the	3	DT	'	1	UN	name	4	NN	O
+'	1	UN	s	1	UN	patient	7	NN	name	4	NN	and	3	CC	O
+name	4	NN	'	1	UN	s	1	UN	and	3	CC	consists	8	VBZ	O
+and	3	CC	name	4	NN	'	1	UN	consists	8	VBZ	of	2	IN	O
+consists	8	VBZ	and	3	CC	name	4	NN	of	2	IN	1	1	CD	O
+of	2	IN	consists	8	VBZ	and	3	CC	1	1	CD	piece	5	NN	O
+1	1	CD	of	2	IN	consists	8	VBZ	piece	5	NN	of	2	IN	O
+piece	5	NN	1	1	CD	of	2	IN	of	2	IN	soft	4	JJ	O
+of	2	IN	piece	5	NN	1	1	CD	soft	4	JJ	pink	4	JJ	O
+soft	4	JJ	of	2	IN	piece	5	NN	pink	4	JJ	tissue	6	NN	O
+pink	4	JJ	soft	4	JJ	of	2	IN	tissue	6	NN	measuring	9	VBG	O
+tissue	6	NN	pink	4	JJ	soft	4	JJ	measuring	9	VBG	0.3	3	CD	O
+measuring	9	VBG	tissue	6	NN	pink	4	JJ	0.3	3	CD	x	1	CC	O
+0.3	3	CD	measuring	9	VBG	tissue	6	NN	x	1	CC	0.2	3	CD	O
+x	1	CC	0.3	3	CD	measuring	9	VBG	0.2	3	CD	x	1	CC	O
+0.2	3	CD	x	1	CC	0.3	3	CD	x	1	CC	0.1	3	CD	O
+x	1	CC	0.2	3	CD	x	1	CC	0.1	3	CD	cm	2	NN	O
+0.1	3	CD	x	1	CC	0.2	3	CD	cm	2	NN	.	1	.	O
+cm	2	NN	0.1	3	CD	x	1	CC	.	1	.	All	3	DT	O
+.	1	.	cm	2	NN	0.1	3	CD	All	3	DT	submitted	9	VBN	O
+
+All	3	DT	.	1	.	cm	2	NN	submitted	9	VBN	(	1	UN	O
+submitted	9	VBN	All	3	DT	.	1	.	(	1	UN	1	1	CD	O
+(	1	UN	submitted	9	VBN	All	3	DT	1	1	CD	Block	5	NN	O
+1	1	CD	(	1	UN	submitted	9	VBN	Block	5	NN	)	1	UN	O
+Block	5	NN	1	1	CD	(	1	UN	)	1	UN	.	1	.	O
+)	1	UN	Block	5	NN	1	1	CD	.	1	.	Final	5	JJ	O
+.	1	.	)	1	UN	Block	5	NN	Final	5	JJ	Diagnosis	9	NN	O
+
+Final	5	JJ	.	1	.	)	1	UN	Diagnosis	9	NN	Mantle	6	NNP	B-FINALDIAGNOSISHEADING
+Diagnosis	9	NN	Final	5	JJ	.	1	.	Mantle	6	NNP	cell	4	NN	I-FINALDIAGNOSISHEADING
+
+Mantle	6	NNP	Diagnosis	9	NN	Final	5	JJ	cell	4	NN	lymphoma	8	NN	B-CANCERHISTOLOGYTYPE
+cell	4	NN	Mantle	6	NNP	Diagnosis	9	NN	lymphoma	8	NN	(	1	UN	I-CANCERHISTOLOGYTYPE
+lymphoma	8	NN	cell	4	NN	Mantle	6	NNP	(	1	UN	MCL	3	NN	I-CANCERHISTOLOGYTYPE
+(	1	UN	lymphoma	8	NN	cell	4	NN	MCL	3	NN	)	1	UN	O
+MCL	3	NN	(	1	UN	lymphoma	8	NN	)	1	UN	.	1	.	O
+)	1	UN	MCL	3	NN	(	1	UN	.	1	.	(	1	UN	O
+.	1	.	)	1	UN	MCL	3	NN	(	1	UN	See	3	VB	O
+
+(	1	UN	.	1	.	)	1	UN	See	3	VB	comment	7	NN	O
+See	3	VB	(	1	UN	.	1	.	comment	7	NN	)	1	UN	O
+comment	7	NN	See	3	VB	(	1	UN	)	1	UN	.	1	.	O
+)	1	UN	comment	7	NN	See	3	VB	.	1	.	Nature	6	NNP	O
+.	1	.	)	1	UN	comment	7	NN	Nature	6	NNP	of	2	IN	O
+
+Nature	6	NNP	.	1	.	)	1	UN	of	2	IN	Specimen	8	NNP	B-NATUREOFSPECIMENHEADING
+of	2	IN	Nature	6	NNP	.	1	.	Specimen	8	NNP	Colon	5	UN	I-NATUREOFSPECIMENHEADING
+Specimen	8	NNP	of	2	IN	Nature	6	NNP	Colon	5	UN	-	1	UN	I-NATUREOFSPECIMENHEADING
+
+Colon	5	UN	Specimen	8	NNP	of	2	IN	-	1	UN	Rectum	6	UN	B-ORGAN/BODYSTRUCTURE
+-	1	UN	Colon	5	UN	Specimen	8	NNP	Rectum	6	UN	Polyp	5	NNP	O
+Rectum	6	UN	-	1	UN	Colon	5	UN	Polyp	5	NNP	Cold	4	NNP	B-PRIMARYORIGINOFNEOPLASM
+Polyp	5	NNP	Rectum	6	UN	-	1	UN	Cold	4	NNP	Biopsy	6	NNP	O
+Cold	4	NNP	Polyp	5	NNP	Rectum	6	UN	Biopsy	6	NNP	(	1	UN	O
+Biopsy	6	NNP	Cold	4	NNP	Polyp	5	NNP	(	1	UN	R	1	UN	O
+(	1	UN	Biopsy	6	NNP	Cold	4	NNP	R	1	UN	/	1	UN	O
+R	1	UN	(	1	UN	Biopsy	6	NNP	/	1	UN	O	1	UN	O
+/	1	UN	R	1	UN	(	1	UN	O	1	UN	adenoma	7	NN	O
+O	1	UN	/	1	UN	R	1	UN	adenoma	7	NN	)	1	UN	O
+adenoma	7	NN	O	1	UN	/	1	UN	)	1	UN	(	1	UN	O
+)	1	UN	adenoma	7	NN	O	1	UN	(	1	UN	Sample	6	NN	O
+(	1	UN	)	1	UN	adenoma	7	NN	Sample	6	NN	2	1	CD	O
+Sample	6	NN	(	1	UN	)	1	UN	2	1	CD	)	1	UN	B-SPECIMENIDENTIFIER
+2	1	CD	Sample	6	NN	(	1	UN	)	1	UN	end	end	end	I-SPECIMENIDENTIFIER
+)	1	UN	2	1	CD	Sample	6	NN	end	end	end	end	end	end	O
+
+

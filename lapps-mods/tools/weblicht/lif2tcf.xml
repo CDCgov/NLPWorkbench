@@ -1,0 +1,26 @@
+<tool id="weblicht.lif.converter" name="LIF to TCF" version="1.0.0">
+ <description>
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_vassar.lsd weblicht.lif.converter_1.0.0 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="tcf" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+Converts LIF documents to TCF
+
+**License**
+
+The Weblicht LIF to TCF converter is released under `the GNU General Public License v3 <https://www.gnu.org/licenses/gpl.html>`_.
+
+]]>
+ </help>
+</tool>

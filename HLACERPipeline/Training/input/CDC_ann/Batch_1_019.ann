@@ -1,0 +1,90 @@
+{
+  "Anatomical Direction (Ov)": [], 
+  "Bone System Location (At)": [], 
+  "Cancer Histology Subtype (At)": [], 
+  "Cancer Histology Type (Ov)": [], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2694, 
+        2710
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2674, 
+        2682
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        724, 
+        739
+      ]
+    }
+  ], 
+  "Flow Cytometry Heading (At)": [], 
+  "Internal X-reference (At)": [], 
+  "Laterality (Ov)": [], 
+  "Lymphatic System Location (At)": [], 
+  "Macroscopic/Gross Description Heading (At)": [], 
+  "Microscopic Heading (At)": [], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2635, 
+        2653
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [], 
+  "Neoplasm Behaviour (Ov)": [], 
+  "Neoplasm Descriptive Grade (At)": [], 
+  "Neoplasm Grade Value (At)": [], 
+  "Neoplasm Grade-Score Name (At)": [], 
+  "Neoplasm Morphology (At)": [], 
+  "Neoplasm Score Value (At)": [], 
+  "Neural System Location (At)": [], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2655, 
+        2660
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [], 
+  "Primary Origin of Neoplasm (At)": [], 
+  "Relative Distance (Ov)": [], 
+  "Relative Location (Ov)": [], 
+  "Skin System Location (At)": [], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20170926_22ABC_CDC_H1,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2662, 
+        2670
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [], 
+  "Supplementary Report Heading (At)": [], 
+  "Synoptic Report Heading (At)": [], 
+  "Vascular System Location (At)": [], 
+  "__text": "MSH|^~\\&| Cancer Reporting|BioReference Laboratories, Inc^31D0652945^CLIA|||20170508114344||ORU^R01|201705081143440019|P|2.3.1\n\nPID|1||29952831787684^^^^MR^BioReference Laboratories, Inc&31D0652945&CLIA~999999999^^^^SS^BioReference Laboratories, Inc&31D0652945&CLIA||Test^Test^Test||18991230|F|||475 Market Str^^Elmwood Park^NJ^07407||||||||999999999\n\nORC|RE||||||||||||||||||||Bioreference^^999999999^^^CLIA|475 Market Str^^Elmwood Park^NJ^07407|^^^^^800^29-5227|475 Market Str^^Elmwood Park^NJ^07407\n\nOBR|1||299528317|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\n\n\n\n\n\n\n\nFinal Diagnosis\n\nColon and Rectum: Polypectomy (Excisional biopsy) Tumor site ____ Cecum ____ Right (ascending) colon ____ Hepatic flexure ____ Transverse colon ____ Splenic flexture ____ Left (descending) colon ____ Sigmoid colon ____ Rectum ____ other (specify): ____ Not specified Specimen Integrity ____ Intact ____ Fragmented Polyp size Greatest dimension: _____ cm Additional dimensions: ____ X ____ ____ Cannot be determined Polyp Configuration ____ Pedunculated with stalk       Stalk length: _____ cm ____ Sessile Size of Invasive Carcinoma Greatest dimension: ____ cm ____ Cannot be determined Histologic Type ____ Adenocarcinoma ____ other (specify): __________ ____ Carcinoma type cannot be determined Histologic Grade ____ Not applicable ____ Cannot be determined ____ Low- Grade (well- differentiated to Moderately differentiated) ____ High-grade (poorly differentiated to undifferentiated) Microscopic Tumor Extension ____ cannot be determined Invasion (deepest): ____ Lamina propria ____ Muscularis mucosae ____ Submucosa ____ Muscularis propria Margins Deep margin (Stalk Margin) ____ Cannot be assessed ____Uninvolved by invasive carcinoma       Distance of invasive carcinoma from margin: ____ mm ____ Involved by invasive carcinoma Mucosal/ lateral Margin ____ Not applicable ____ cannot be assessed ____ Uninvolved by invasive carcinoma ____ Involved by adenoma Lymph-vascular Invasion ____ Not identified ____ Present ____ Indeterminate Pathologic Staging (pTNM) Primary Tumor (pT) ____pTX:  Cannot be assessed ____PT0:  No evidence of primary tumor ____pTis: Carcinoma in situ, intraepithelial (no invasion) ____PTis: Carcinoma in situ, invasion of lamina propia ____pT1:  Tumor invades submucosa ____pT2:  Tumor invades muscularis propia Regional Lymph Nodes (pN) ____pNX:  Cannot be assessed ____pN0:  No regional lymph node metastasis Distant Metastasis (pM) ____Not applicable ____\n\n\nNature of Specimen\n\nColon (Sample 5)\n\n\nComments\n\nComment\n\n\nClinical History\n\nClinicalInformation\n\n\n"
+}

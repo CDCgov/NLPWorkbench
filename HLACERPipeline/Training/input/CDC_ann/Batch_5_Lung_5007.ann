@@ -1,0 +1,109 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1102, 
+        1116
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1090, 
+        1100
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1117, 
+        1126
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1129, 
+        1152
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        904, 
+        924
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1048, 
+        1075
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        525, 
+        560
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1189, 
+        1215
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1253, 
+        1279
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1227, 
+        1236
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1077, 
+        1089
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 1^9999^MOH|PIMS|CCO|20160502132302|38CE6ED8ACDB4C887D219DFDD297C66675DE5485|ORU^R01|Q1906460728T3576869809|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 1&9999&MOH~99999999^^^^MRN^HOSPITAL 1&9999&MOH~9999999999&CR&ON^^^^JHN||XXXXXXX^XXXXXXX^XXXXXX||99999999|F|||999X  XXXXXXX XX^XXX 9999^XXXXXXX^XXX^X9X9X9^999|||||||||||||||||||N|\nOBR|1||NG-16-0003050|33716-2^Study Report: Cytology.non-gyn^LN^C^Cytology^L|||20160331|||99415^XXXXXXXXX^XXXX||||||||||N||20160407|||F|||||||99999^XXXXXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.microscopic observation\n\nNumerous epithelial cells with malignant criteria are present in clusters and single cells. Neoplastic cells show multiple nucleoli and scant to abundant cytoplasm. Neoplastic cells show strong positivity with CK7 and focal TTF-1 positivity. They are negative for CK5/6, CK 20 and p63.\n\nCytology Cell Block\nModerate 50 - 100 abnormal cells\n\n\nPath Report.comments\n\nFeatures of poorly differentiated non-small cell carcinoma. Immuno stains are in favour of primary lung adenocarcinoma.\n\n\nPath report.final diagnosis\n\nPositive for Malignancy, Non-Small Cell Carcinoma\n\n\nPath report.relevant Hx\n\nlung mass, suspected lung cancer\n\n\nPath report.site of origin\n\nEUS FNAB, Lung Mass/Lesion, right\n\n\nPath report.site of origin\n\nSatisfactory for evaluation\n\n\n"
+}

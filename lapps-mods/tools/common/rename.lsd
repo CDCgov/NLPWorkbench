@@ -1,0 +1,32 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+String oldName = args[0]
+String newName = args[1]
+File input = new File(args[2])
+File output = new File(args[3])
+
+class DC extends Data<Container> {
+	DC() { }
+	DC(Container container) {
+		this.discriminator = Uri.LAPPS
+		this.payload = container
+	}
+}
+
+oldName = oldName.replaceAll("__pd__", "#")
+newName = newName.replaceAll("__pd__", "#")
+
+DC data = Serializer.parse(input.text, DC)
+Container container = data.payload
+View view = container.views[-1]
+List<Annotation> annotations = view.annotations.findAll { it.atType == oldName }
+//println "Found ${annotations.size()} annotations that matched ${oldName}"
+
+if (annotations.size() > 0) {
+	view.metadata.contains[newName] = view.metadata.contains[oldName]
+	//view.metadata.contains[oldName] = null
+	view.metadata.contains.remove(oldName)
+	annotations.each { it.atType = newName }
+}
+
+output.text = data.asPrettyJson()

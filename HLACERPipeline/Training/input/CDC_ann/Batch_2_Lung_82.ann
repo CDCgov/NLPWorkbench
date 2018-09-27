@@ -1,0 +1,491 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5279, 
+        5293
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5387, 
+        5401
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5501, 
+        5514
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6348, 
+        6361
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5253, 
+        5262
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5361, 
+        5370
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5515, 
+        5524
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6362, 
+        6371
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7632, 
+        7652
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7654, 
+        7662
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4787, 
+        4814
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4816, 
+        4826
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5411, 
+        5416
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4", 
+      "__extent": [
+        6284, 
+        6289
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        546, 
+        575
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        577, 
+        594
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7265, 
+        7291
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7293, 
+        7311
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4874, 
+        4899
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4948, 
+        4973
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5022, 
+        5047
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5091, 
+        5116
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5165, 
+        5190
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5747, 
+        5772
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6108, 
+        6133
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5465, 
+        5500
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5263, 
+        5278
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5371, 
+        5386
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5417, 
+        5427
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6318, 
+        6328
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        596, 
+        598
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        866, 
+        868
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1043, 
+        1045
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1228, 
+        1230
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1429, 
+        1431
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1660, 
+        1662
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1929, 
+        1931
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2086, 
+        2088
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4826, 
+        4828
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4901, 
+        4903
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4975, 
+        4977
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5049, 
+        5051
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5118, 
+        5120
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5192, 
+        5194
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5300, 
+        5302
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5408, 
+        5410
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5700, 
+        5702
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5774, 
+        5776
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7313, 
+        7320
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7357, 
+        7364
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7387, 
+        7394
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7417, 
+        7424
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7442, 
+        7449
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7472, 
+        7479
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7497, 
+        7504
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7522, 
+        7529
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7545, 
+        7552
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7575, 
+        7582
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\nPath report.gross observation\n\nGross description: A. The specimen is received fresh, labeled \"Detellung cancer, subcarinal lymph nodes\" are 3 anthracotic ovoid fragments of soft tissue measuring 1.1 x 0.7 x 0.4 cm in aggregate. The tissue is entirely smooth for frozen section specimen and A1 FS for further processing. B. The specimen is received in formalin, labeled \"Detelsubcarinal lymph node\" are 3 anthracotic irregular fragments of tissue measuring 1 x 0.4 x 0.3 cm in aggregate. Total B1. C. The specimen is received in formalin, labeled \"Detelinterhilar lymph node for permanent\" is one anthracotic irregular fragment of soft tissue measuring 1.1 x 0.7 x 0.3 cm. Total C1. D. The specimen is received in formalin, labeled \" Detelhilar lymph node for permanent\" are multiple anthracotic irregular fragments of soft tissue measuring 1.8 x 0.8 x 0.3 cm in aggregate. Total D1. E. The specimen is received fresh, labeled \"Detelinterhilar lymph node\" is a 0.8 x 0.6 x 0.3 cm anthracotic ovoid fragment of tissue. Specimen is entirely submitted for frozen section and submitted in E1 FS for further processing. F. The specimen is received fresh, labeled \"Detelhilar lymph node\" are multiple anthracotic irregular fragments of soft tissue measuring 1.7 x 1.1 x 0.3 cm in aggregate. The tissue is entirely submitted for frozen section and submitted in F1 FS for further processing. G. The specimen is received in formalin, labeled \"Detelhilar lymph node\" is one anthracotic ovoid fragment of tissue measuring 1.1 x 0.5 x 0.3 cm. Total G1. H. The specimen is received fresh, labeled \"Detelright upper lobe\" is a 14.2 x 10.2 x 4.4 cm, 213 g lobectomy specimen. The pleural surface is smooth, glistening and displays a focal puckered area measuring 2.7 x 1.5 cm on the lateral costal surface. The hilum of the specimen reveals a bronchial margin measuring 0.9 cm in length by 2.0 cm in diameter. There is a 7.5 cm linear staple margin inferior to the bronchial margin and a 7.2 cm linear staple margin superior to the bronchial margin. The pleural surface is inked black, the staple margin is inked blue and the specimen is serially sectioned from superior to inferior to reveal pink to red-purple, spongy parenchyma and a 5.4 x 5.2 x 3.7 cm tan-pink partially necrotic, poorly defined lesion involving the mid to inferior pole of the specimen. The lesion approaches the bronchial margin, is 0.4 cm from the closest staple margin and approaches the puckered area on the pleural surface. Representative sections of the bronchial margin is submitted for frozen section and submitted in H1 FS for further processing., Section code: H2-vascular margins, H3-perpendicular section adjacent to bronchial margin, H4-staple margin closest to lesion, A5-inked pleural surface with adjacent lesion, H6-representative section of lesion and adjacent normal parenchyma. I The specimen is received in formalin, labeled \"Detelsubcarinal lymph node\" are 3 anthracotic irregular fragments of soft tissue measuring 2.1 x 0.8 x 0.4 cm in aggregate. Total I1. J. The specimen is received fresh, labeled \"detailcompletion pneumonectomy mainstem bronchus right\" is a right middle lobe (9.2 x 7.4 x 4.2 cm), right lower lobe (11.2 x 8.3 x 6.2 cm) with mainstem bronchus (2.2 cm in length by 2.3 cm in diameter) which weighs 229 g. The pleural surface is smooth, glistening and displays a perihilar Y-shaped staple line measuring 13.2 x 7.2 cm the specimen is serially sectioned from superior to inferior to reveal purple pink to dark red spongy parenchyma. No obvious satellite lesions or residual tumor are grossly identified. The bronchial margin is submitted for frozen section and submitted in J1 FS for further processing. Section code: J2-vascular margins, J3 through J4-representative sections from middle lobe, J5 through J6-representative sections from inferior lobe J7-representative sections of bronchial adjacent to mainstem bronchus. (; 5/19/2017)\n\n\nPayment procedure\n\nCPT                            .88305 88331 88305 88305 88305 88305 88305 88305 88309 88331 88305 88331 88331 88309 88331 88360 88271 88274\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C77.1 C34.11 C34.01\n\n\nPath report.final diagnosis\n\nDiagnosis:A. Subcarinal lymph nodes: - Lymph node tissue, no evidence of malignancy. B. Subcarinal lymph node: - Lymph node tissue, no evidence of malignancy. C. Interhilar lymph node: - Lymph node tissue, no evidence of malignancy. D. Hilar lymph node: - Lymph node tissue, no evidence of malignancy. E. Interhilar lymph node: - Lymph node tissue, no evidence of malignancy. F. Hilar lymph node: - Lymph node tissue with involvement by carcinoma consistent with non-small cell type. G. Hilar lymph node: - Lymph node tissue with involvement by carcinoma consistent with non-small cell type. H. Right upper lobe: - Pulmonary lobectomy specimen with moderately to poorly differentiated adenosquamous carcinoma (5.4 cm in greatest diameter). - Tumor involves the bronchial margin. - The vascular margin appears free of tumor. - Tumor abuts the overlying visceral pleura. - See comment. I. Subcarinal lymph node: - Lymph node tissue, no evidence of malignancy. J. Completion pneumonectomy and right mainstem bronchus: - Completion pneumonectomy specimen including main stem bronchus, right middle lobe and right lower lobe. - The bronchial margin is free of tumor. - Tumor focally involves the adventitia of a large blood vessel at the vascular margin. - Right middle lobe and right lower lobe, no evidence of malignancy.   SPECIMEN Specimen:   Lobe(s) of lung   Upper lobe   Middle lobe   Lower lobe   Mainstem bronchus Procedure:   Pneumonectomy Specimen Laterality:   Right TUMOR Primary Tumor Site:   Upper lobe Histologic Type:   Adenosquamous carcinoma Tumor Size:   Greatest dimension (cm): 5.4 Tumor Focality:   Unifocal  Tumor Extent  Visceral Pleura Invasion:   Not identified  Tumor Extension:   Not applicable:  Accessory Tumor Findings  Lymph-Vascular Invasion:   Not identified MARGINS Bronchial Margin:   Uninvolved by invasive carcinoma and carcinoma in situ Vascular Margin:   Involved by invasive carcinoma Parenchymal Margin:   Not applicable: LYMPH NODES Number of Lymph Nodes Examined:    Specify number: 8 Lymph Node Involvement:  Number of Lymph Nodes Involved:     Specify number: 2 STAGE (PTNM) Primary Tumor (pT):   pT2b: Tumor greater than 5 cm, but 7 cm or less in greatest dimension Regional Lymph Nodes (pN):   pN1: Metastasis in ipsilateral peribronchial and / or ipsilateral hilar lymph nodes, and intrapulmonary nodes including involvement by direct extension --------------------------------------------------------\n\n\nPath report.site of origin\n\nMaterial submitted: Part: A Lung cancer, subcarinal lymph nodes Part: B Subcarinal lymph node Part: C Interhilar lymph node Part: D Hilar lymph node Part: E Interhilar lymph node Part: F Hilar Lymph node Part: G Hilar Lymph node Part: H Rt. upper lobe Part: I Subcarinal Lymph node Part: J Completion pneumoectomy, Rt. mainstem bronchus\n\n\nPath report.comments\n\nComment:The tumor shows small nests of malignant cells, some of which show squamous features consistent with the immunohistochemical staining results reported in the previous right lung biopsy (M17-18934), whereas other nests show cytoplasmic mucin vacuoles. The findings support an interpretation of adenosquamous carcinoma. Molecular studies for EGFR and ALK will be performed upon sections of the tumor and will be the topic of addendum reports. PD-L1 studies will be performed upon involved lymph node tissue and will be the topic of a separate addendum. PQRS Code: G9422\n\n\n"
+}

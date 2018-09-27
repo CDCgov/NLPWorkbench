@@ -1,0 +1,31 @@
+<tool id='anc_gate.coref_2.2.0' name='GATE Coreferencer v2.2.0' version='1.0.0'>
+  <description>GATE Coreferencer</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.coref_2.2.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+
+GATE Coreferencer
+
+Required Annotations
+--------------------
+* http://vocab.lappsgrid.org/Person
+
+Generated Annotations
+---------------------
+* http://vocab.lappsgrid.org/NamedEntity#matches
+
+**License**
+
+Gate Developer is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

@@ -1,0 +1,5 @@
+createService = { String service, String token ->
+    DataSourceClient client = new DataSourceClient("http://grid.ldc.upenn.edu:8080/doc_service/services/${service}")
+    client.setToken(token)
+    return client
+}

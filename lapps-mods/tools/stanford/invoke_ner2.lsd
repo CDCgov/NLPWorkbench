@@ -1,0 +1,20 @@
+#!/usr/bin/env lsd
+
+String service = "http://grid.anc.org:9080/StanfordServices/2.1.0-SNAPSHOT/services/SelectableNamedEntityRecognizer"
+
+String model = args[0]
+String input = args[1]
+String output = args[2]
+//String username = args[3] ?: server.username ?: "tester"
+//String password = args[4] ?: server.password ?: "tester"
+
+//String url = "http://grid.anc.org:8080/service_manager/invoker/anc:${service}"
+//String url = server.url //"http://docker:8080/service_manager/invoker/docker:${service}"
+//ServiceClient client = new ServiceClient(url, username, password)
+ServiceClient client = new ServiceClient(service, null, null)
+
+String json = new File(input).text
+Data data = Serializer.parse(json, Data)
+data.setParameter('classifier', model)
+new File(output).text = client.execute(data.asJson())
+

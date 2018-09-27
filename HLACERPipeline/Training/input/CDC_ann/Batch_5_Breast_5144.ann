@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4377, 
+        4383
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4384, 
+        4393
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4441, 
+        4455
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5119, 
+        5135
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3302, 
+        3310
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4304, 
+        4319
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4333, 
+        4337
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4410, 
+        4414
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3438, 
+        3453
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4368, 
+        4376
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4325, 
+        4331
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4339, 
+        4348
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4321, 
+        4323
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4394, 
+        4396
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160601235556|8E5E3F25058D009336038E9DC2218C0B6D3D0671|ORU^R01|9999999999999|P|2.5||||||\nPID|1||N999999999^^^^CMR^HOSPITAL 9&9999&MOH~N999999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&MN&ON^^^^JHN||XXXXXX^XXXXXXXX^ XXXXX^^^^||99999999|F|||99 XXXXXXXXX XXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||S16-13488|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160526|||56746^XXXXXXX^XXXX^^^^||||||||||||20160601|||C|||||||99999^XXXXX^XXXXXXXX XXXXXXXXX^^^^|||||||\n\n\n\n\n\n\n\nADDENDUMS\n\nESTROGEN AND PROGESTERONE RECEPTOR PROTEIN IMMUNOHISTOCHEMISTRY\nDIAGNOSIS:\nINVASIVE CARCINOMA:\n- POSITIVE FOR ESTROGEN RECEPTORS\n- POSITIVE FOR PROGESTERONE RECEPTORS\nRESULT:\n(Block B1)\n>98% of cell nuclei are positive for estrogen receptors, strong to moderate\n   intensity\n>90% of cell nuclei are positive for progesterone receptors, strong to moderate\n   intensity\nAntibody used:\nEstrogen receptor (Rabbit monoclonal, Clone SP1, Ventana)\nProgesterone receptor (Rabbit Monoclonal, Clone 1E2, Ventana)\nPositive and negative external laboratory controls stained appropriately.\nInternal positive control (benign breast tissue) is not present in this biopsy.\nThreshold for interpretation of Estrogen and Progesterone\nreceptors as per CCO guidelines:\nPOSITIVE: 10% or more of tumor cell nuclei stain positively with any intensity\nLOW POSITIVE: 1-9% of tumor cell nuclei stain positively with any intensity\nNEGATIVE: <1% of tumor cell nuclei stain positively with any intensity\nReference:\nDiaz LK, Sneige N: Estrogen receptor analysis for breast cancer: current\nissues and keys to increasing testing accuracy. Adv Anat Pathol\n2005;12:10-19\nIMMUNOHISTOCHEMICAL STUDIES FOR HER2 ONCOPROTEIN:\nRESULTS:\n   LYMPH NODE, LEFT AXILLA, CORE BIOPSY:\n        METASTATIC CARCINOMA.\n        NEGATIVE FOR HER2 ONCOPROTEIN OVEREXPRESSION.\nNote: Cold ischemia and fixation times meet the requirements specified in the\nlatest version of the ASCO/CAP guidelines: Yes\nStaining intensity: 0-1+\nBlock#: B1\nScoring Criterion and Scoring System:\nIHC 0 (Negative): No staining observed; or membrane staining that is incomplete\nand is faint/barely perceptible and within <=10% of the invasive tumor cells.\nIHC 1+ (Negative): Incomplete membrane staining that is faint/barely\nperceptible and within >10% of the invasive tumor cells.\nIHC 2+ (Equivocal): Circumferential membrane staining that is incomplete and/or\nweak/moderate and within >10% of the invasive tumor cells; or complete and\ncircumferential membrane staining that is intense and within <=10% of the\ninvasive tumor cells.\nIHC 3+ (Positive): Circumferential membrane staining that is complete, intense\nand within >10% of tumor cells.\nINDETERMINATE: Another specimen should be requested for testing to determine\nHER2 status if possible.\nMethodology:\nFixation Type: 10% neutral buffered formalin\nRecommended Length of Fixation: 6 - 72 hours\nRecommended Cold Ischemia time: < 1 hour\nAntibody used: c-erb-2/HER-2/neu (Clone 4B5 Rabbit monoclonal antibody, Ventana\nMedical Systems)\nControl Slides Examined: In-house known Her2 positive control tissue was\nevaluated along with the test tissue and shows appropriate staining.\nReferences:\nWolfe et al. ASCO/CAP HER2 Testing Guideline Update. J Clin Oncol\n2013:31:3997-4013\n\n\nCOMMENTS\n\nSpecimen: A\nExcision time: 1105\nTime placed in Formalin: 1105\nSpecimen: B\nExcision time: 1140\nTime placed in Formalin: 1140\n\n\nGROSS PATHOLOGY\n\nA:  The specimen is received in formalin, labeled with the patient's name and as \"LEFT BREAST MASS 1 O'CLOCK\". The specimen consists of\n   three yellow to tan-white fibrofatty to fibrofleshy core needle biopsy specimen\n   1.2 cm, 1.5 cm and 1.4 cm in length and each measuring up to 0.2 cm in\n   diameter. The entire specimen is submitted as follows: A1 two cores and A2\n   one core.\nB:  The specimen is received in formalin, labeled with the patient's name and as \"LEFT AXILLA\". The specimen consists of two fragments\n   of yellow-white core needle biopsy specimen measuring 1.7 cm and 1 cm in length\n   and each measuring up to 0.2 cm in diameter. The entire specimen is submitted\n   in cassette B1.\n                                        /KS\n\n\nTISSUE SUBMITTED\n\nBREAST BIOPSY (LEFT BREAST MASS 1 O'CLOCK )\nLYMPH NODE CORE BIOPSY (LEFT AXILLA)\n\n\nFINAL DIAGNOSIS\n\nA.  BREAST (LEFT, 1 O'CLOCK) CORE BIOPSY:\n   - INVASIVE DUCTAL CARCINOMA\nB.  LYMPH NODE (LEFT AXILLA) CORE BIOPSY:\n   - ADENOCARCINOMA\n   - LYMPH NODE TISSUE IS NOT IDENTIFIED (PLEASE SEE COMMENT)\nComment: Carcinoma in part B is better preserved but looks similar to that in part\nA, which shows some crush-type artefact. Lymph node structures are not seen in B and\nit can therefore not be determined if this represent nodal metastasis versus soft\ntissue involvement/metastasis versus other primary site.\nImmunostains were performed on part B due to better preserved tumour. Immunostain\nfor e-cadherin is positive, consistent with ductal type.\nImmunostains for ER PR and HER2 are reported separately in addendum report.\nInternal pathology consultation has been obtained, as documented internally.\n\n\nCLINICAL HISTORY\n\nRIGHT MASTECTOMY NOW LEFT BREAST MASS, ENLARGED LEFT AXILLARY NODE\n\n\n"
+}

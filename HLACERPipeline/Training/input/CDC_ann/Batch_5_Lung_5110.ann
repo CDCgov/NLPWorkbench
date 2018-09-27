@@ -1,0 +1,127 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1098, 
+        1112
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1224, 
+        1247
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1130, 
+        1138
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1018, 
+        1045
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        985, 
+        990
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1053, 
+        1058
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        526, 
+        555
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        951, 
+        977
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1089, 
+        1097
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        979, 
+        983
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1047, 
+        1051
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        991, 
+        1001
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1059, 
+        1069
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605041723|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360896|P|2.5|\nPID|1||J999999999^^^^CMR^HOSPITAL 8&9999&MOH~J999999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&YL&ON^^^^JHN||XXXXXX^XXXX^XXXXXX^^^||99999999|M|||999 XXXXXXXXXXX XXXX^^XXXXX XXXX^XX^X9X 9XX^999|||||||||||||||||||N|\nOBR|1||16:SJ6391|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160502|||88609^XXXXXXX^XXXXXXXXX^^^^||||||||||||20160504|||F|||||||99999^XXXXXX^XXXXXXX^^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n16:SJ6391 HARVEY,JOHN WILCOX 77/M\n \nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container. \n \nThe specimen is received in formalin, labelled with the patient's bradma and\ndesignated right lower lobe lung lesion BX.\n \nThe specimen consists of 11 core fragments of light tan tissue, 0.1-0.6 cm. All\nsubmitted in a single cassette.\n\n\nPath report.site of origin\n\nLung, Right lower lobe lesion biopsy\n\n\nPath report.final diagnosis\n\nLung, Right Lower Lobe, Core Biopsy:\n   - INVASIVE ADENOCARCINOMA, NON-MUCINOUS.\n \nComment:\nThe adenocarcinoma is POSITIVE for TTF-1 and napsin. EGFR/ALK testing was ordered.\n\n\nPath report.relevant Hx\n\nRight lower lobe lung lesion - ? carcinoma\n\n\n"
+}

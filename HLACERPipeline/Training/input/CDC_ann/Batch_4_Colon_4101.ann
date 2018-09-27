@@ -1,0 +1,195 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2415, 
+        2429
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2742, 
+        2752
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2258, 
+        2281
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4965, 
+        4973
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10956, 
+        10976
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2319, 
+        2346
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10922, 
+        10927
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        588, 
+        617
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10817, 
+        10852
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10894, 
+        10920
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2729, 
+        2752
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2379, 
+        2387
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2389, 
+        2414
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3008, 
+        3010
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2348, 
+        2353
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10928, 
+        10933
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2940, 
+        2955
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4769, 
+        4801
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4803, 
+        4818
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2761, 
+        2778
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170923034408||ORU^R01^ORU_R01|201709230344080001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-009071^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170908000000|||||||20170908000000|&Colon, Segmental Resection for Tumor, PQRS Colorectal Resection|1437156270^^^^^^MD^^CMS^D^^^NPI||||||20170913000000|||F||||||C18.8^Malignant neoplasm of overlapping sites of colon^I10~D12.6^Benign neoplasm of colon, unspecified^I10|1629211198& & &M.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \", right colon with terminal ileum\" is a right colon which is received stapled at both ends. The specimen includes 4 cm of terminal ileum and 9.5 cm of colon. An appendix is not present. The serosa is red- pink and smooth. There is a moderate amount of attached yellow fat. Opening reveals a slightly depressed and slightly exophytic mass at the periphery of the cecum and involving the ileocecal valve and ascending colon. The mass is 3.5 x 2.0 cm. Approximately of the mass has raised, rolled borders and a central depression while the other half of the mass has a pink bosselated exophytic appearance. The mass is 4 cm from the proximal margin, 5 cm from the distal margin and 8.6 cm from the mesenteric margin. The fat and soft tissue below the mass are inked blue. Sectioning through the mass reveals a firm white cut surface with a depth of 1.0 cm. The mass grossly focally involves the colonic wall and may invade through it. The remaining colonic mucosa is pink with prominent folds. There is a single pink sessile polyp present which is 0.2 x 0.2 cm. The polyp is 0.6 cm from the mass. The underlying fat is examined for lymph nodes. Summary of sections: 1A, representative en face proximal and distal margins, 2/1; 1B, en face mesenteric margin, 1/1; 1C, mass to include the ileocecal valve, 1/1; 1D-F, representative sections of the mass, 1/1 each; 1G, entire polyp, 1/1; 1H, multiple intact lymph nodes, M/1; 1I, 2 bisected lymph nodes, 1 of the lymph nodes is inked blue, 4/1; 1J, multiple intact lymph nodes, M/1; 1K, 1 bisected lymph node, 2/1; 1L, 1 serially sectioned lymph node, 4/1. (KKN)\n\n\nPath report.relevant Hx\n\nHistory - Mass at ileocecal valve\n\n\nPath report.final diagnosis\n\nColon, right, hemicolectomy:   Invasive, moderately differentiated adenocarcinoma, measuring 3.5 cm in greatest     extent, invasive into, but not through muscularis propria (pT2), all surgical     margins negative for adenomatous change, high-grade dysplasia, or     malignancy.   Separate tubular adenoma; without evidence of high-grade dysplasia or invasion.   Ten lymph nodes, negative for malignancy (0/10). CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Right hemicolectomy TUMOR  Tumor Site: Ileocecal valve  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 3.5cm  Additional Dimension in Centimeters (cm): 2.0cm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor invades muscularis propria  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified MARGINS  Margins Examined: Proximal, Distal, Radial or Mesenteric  Distance of Invasive Carcinoma from Closest Margin: Specify in Centimeters (cm)  Specify in Centimeters (cm): 4.0cm  Specify Closest Margin: Proximal  Distance of Tumor from Distal Margin#: Specify in Centimeters (cm)  Specify in Centimeters (cm): 5.0cm  Margins: For Resection Specimens Only  Proximal Margin: Uninvolved by invasive carcinoma  Distance of Tumor from Margin: Specify in Centimeters (cm)  Specify in Centimeters (cm): 4.0cm  Distal Margin: Uninvolved by invasive carcinoma  Distance of Tumor from Margin: Specify in Centimeters (cm)  Specify in Centimeters (cm): 5.0cm  Radial or Mesenteric Margin: Uninvolved by invasive carcinoma  Distance of Tumor from Margin#: Specify in Centimeters (cm)  Specify in Centimeters (cm): 8.6cm LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 10 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (pT): pT2: Tumor invades the muscularis propria  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s) ADDITIONAL FINDINGS  Additional Pathologic Findings: Adenoma(s)\n\n\nPath report.supplemental reports\n\nAddendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present in both the tumor and adjacent non-neoplastic tissue components). These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome. Cancers with this profile are microsatellite stable (MSS). If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result on the screening test, then consideration could be made for a genetic consult with additional testing. ## End of auxiliary report ## Molecular Diagnostic Rpt: BRAF Mutation Analysis/Reviewer: SEE COMMENT BRAF Mutation Analysis/BRAF Mutation: NOT DETECTED BRAF Mutation Analysis/BRAF Mutation Interpretation: This specimen showed no evidence of a mutation in the <i>BRAF</i> gene. If clinically appropriate, consideration may be given to broader genomic profiling. <BR/><BR/> This assay sequenced the following areas of the gene: exons 10 and 14, consisting of codons 464 to 472 and 581 to 601 (specifically including codon V600). BRAF Mutation Analysis/Reference Sequence: BRAF NM-004333: NM_004333 BRAF Mutation Analysis/Genome Reference: GRCh 37 (hg19) BRAF Mutation Analysis/Specimen Source: See Below BRAF Mutation Analysis/Original Accession Number: 17-21-009071 BRAF Mutation Analysis/Original Block: 1D BRAF Mutation Analysis/Tumor Percentage: 21-50% KRAS Mutation Analysis/Reviewer: SEE COMMENT KRAS Mutation Analysis/KRAS Mutation: DETECTED KRAS Mutation Analysis/KRAS Mutation Identification: G12R KRAS Mutation Analysis/KRAS Mutation Interpretation: A G12R mutation was detected in the <i>KRAS</i> gene in this specimen. This is a known activating mutation of the KRAS protein. Mutations in the <i>KRAS</i> gene have been reported to correlate with a lack of response to anti-<i>EGFR</i> monoclonal antibody therapy in patients with colorectal cancer. <BR/><BR/> This assay sequenced the following areas of the gene: portions of exons 2, 3 and 4 consisting of codons 1-37, 40-83 and 97-150 (specifically including codons G12, G13, Q61, K117, A146). Unless specifically indicated, no mutations were detected in these regions. KRAS Mutation Analysis/Reference Sequence: KRAS NM-004985: NM_004985 KRAS Mutation Analysis/KRAS Nucleotide Change: c.34G>C KRAS Mutation Analysis/KRAS Protein Change: p.G12R KRAS Mutation Analysis/Genomic Change: chr12:25398285C>G KRAS Mutation Analysis/Genome Reference: GRCh 37 (hg19) KRAS Mutation Analysis/Specimen Source: See Below KRAS Mutation Analysis/Original Accession Number: 17-21-009071 KRAS Mutation Analysis/Original Block: 1D KRAS Mutation Analysis/Tumor Percentage: 21-50% NRAS Mutation Analysis/Reviewer: SEE COMMENT NRAS Mutation Analysis/NRAS Mutation: NOT DETECTED NRAS Mutation Analysis/NRAS Mutation Interpretation: This specimen showed no evidence of a mutation in the <i>NRAS</i> gene. If clinically appropriate, consideration may be given to broader genomic profiling. <BR/><BR/> This assay sequenced the following areas of the gene: exons 2, 3 and 4 consisting of codons 10-35, 55-76, 109-131 and 138-150 (specifically including codons G12, G13, Q61, K117, A146). NRAS Mutation Analysis/Reference Sequence: NRAS NM-002524: NM_002524 NRAS Mutation Analysis/Genome Reference: GRCh 37 (hg19) NRAS Mutation Analysis/Specimen Source: See Below NRAS Mutation Analysis/Original Accession Number: 17-21-009071 NRAS Mutation Analysis/Original Block: 1D NRAS Mutation Analysis/Tumor Percentage: 21-50% Microsatellite Instability (MSI) Analysis by PCR/Reviewer: SEE COMMENT Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: Not Detected Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: This specimen showed no evidence of microsatellite instability in the 5 microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27) examined. This result is consistent with a competent mismatch repair function. Cancers with this profile are microsatellite stable (MSS).<BR/><BR/>Microsatellite Instability Analysis has multifaceted clinical utility: as a predictive biomarker for immune checkpoint inhibitor therapy response; as a prognostic and predictive biomarker for colorectal carcinoma; and as a genetic risk biomarker for the presence of a hereditary cancer syndrome such as Lynch Syndrome.<BR/><BR/>As an immune checkpoint inhibitor therapy biomarker, recent literature (Le, et al., <i>N Engl J Med</i> 372:2509-2520; Topolian, et al., <i>Nature Reviews Cancer</i> 16:275-287) indicates that, in general, patients that are Microsatellite Stable (MSS) have a poorer response to immune checkpoint inhibitor therapy.<BR/><BR/>MSS tumors have poorer prognosis than MSI-H tumors, and better response to 5-fluorouracil (5-FU) adjuvant chemotherapy. <BR/><BR/>As a genetic risk biomarker, the result of MSS is inconsistent with Lynch syndrome. However, if the clinical suspicion remains high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result, consideration should be given to a genetic consult to direct additional testing. <BR/><BR/>Interpretation of this result of MSS in the context of other clinical and laboratory findings is strongly recommended. Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: See Below Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: 17-21-009071 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 1D Microsatellite Instability (MSI) Analysis by PCR/Tumor Percentage: 21-50% ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nRight colon with terminal ileum\n\n\nPath report.comments\n\nComments - The SmartGenomics basic colon profile is pending, and will be reported separately as an addendum. Molec Comments - The tissue specimen was reviewed by a pathologist, areas of tumor were microdissected from surrounding tissue, and genomic DNA isolated using standard methods. The isolated DNA was subjected to PCR using primers specific for the gene of interest. The PCR products were prepared and sequenced using Illumina NextSeq v2 chemistry. Sequence data was analyzed using standard software (MiSeq Reporter v 2.5.1 and GATK v2.3-9 ). This assay requires a minimum coverage of 200X, and has an analytic sensitivity of approximately 5%. The analytic sensitivity is dependent on the specific mutation and sequence context. All sequences are relative to the GRCh37 (hg19) genome. This assay sequenced the following areas of the gene: This assay is highly sensitive and accurate, but rare false positive and false negative results may occur. Correlation with other clinical and laboratory findings is required. This assay may use reagents that are marked as ASR or RUO by the manufacturer. This test was developed and its performance characteristics determined by PathGroup. It has not been cleared or approved by the U.S. Food and Drug Administration. The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing.  This assay sequenced the following areas of the gene: exons 10 and 14, consisting of codons 464 to 472 and 581 to 601 (specifically including codon V600).  <BR/><BR/>Cohen, Yoram, et al.<i>Journal of the National Cancer Institute</i> 95.8 (2003): 625-627. Solit, David B., et al.<i>Nature</i> 439.7074 (2006): 358-362. Ogino, Shuji, et al.<i>Gut</i> 58.1 (2009): 90-96. Tol, Jolien, Iris D. Nagtegaal, and Cornelis JA Punt.<i>New England Journal of Medicine</i> 361.1 (2009): 98-99.  Molec Comments - The tissue specimen was reviewed by a pathologist, areas of tumor were microdissected from surrounding tissue, and genomic DNA isolated using standard methods. The isolated DNA was subjected to PCR using primers specific for the gene of interest. The PCR products were prepared and sequenced using Illumina NextSeq v2 chemistry. Sequence data was analyzed using standard software (MiSeq Reporter v 2.5.1 and GATK v2.3-9 ). This assay requires a minimum coverage of 200X, and has an analytic sensitivity of approximately 5%. The analytic sensitivity is dependent on the specific mutation and sequence context. All sequences are relative to the GRCh37 (hg19) genome. This assay sequenced the following areas of the gene: This assay is highly sensitive and accurate, but rare false positive and false negative results may occur. Correlation with other clinical and laboratory findings is required. This assay may use reagents that are marked as ASR or RUO by the manufacturer. This test was developed and its performance characteristics determined by PathGroup. It has not been cleared or approved by the U.S. Food and Drug Administration. The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. This assay sequenced the following areas of the gene: portions of exons 2, 3 and 4 consisting of codons 1-37, 40-83 and 97-150 (specifically including codons G12, G13, Q61, K117, A146). <BR/><BR/>Ding, Li, et al. <i>Nature</i> 455.7216 (2008): 1069-1075. Riely, Gregory J., et al. <i>Clinical Cancer Research</i> 14.18 (2008): 5731-5734. Lievre, Astrid, et al.<i>Cancer research</i> 66.8 (2006): 3992-3995. Singer, Gad, et al.<i>Journal of the National Cancer Institute</i> 95.6 (2003): 484-486. Di Fiore, F., et al. <i>British journal of cancer</i> 96.8 (2007): 1166-1169. Molec Comments - The tissue specimen was reviewed by a pathologist and representative areas of tumor and normal tissue selected. These areas were microdissected from the surrounding tissue, and genomic DNA extracted using standard methods (QIAGEN QIASymphony). The tumor and normal DNA were separately PCR amplified for five microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27; Promega Corp.), and size fractionated via capillary electrophoresis (Life Technologies 3500xl). The tumor and normal profiles were compared to determine the presence of altered microsatellite profiles. The analytic sensitivity of the assay is approximately 10-20% and is dependent on the size and clonality of any instability. The presence of instability in less than 10-20% of the DNA examined will not be detected. This assay uses reagents that may be marked as Research Use Only or Analyte Specific Reagent. This test was developed and its performance characteristics determined by PathGroup. Portions of this test use reagents designated by the manufacturer as for research use, not for clinical use. It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. <BR/><BR/>Klump B,et al. <i>Int J Colorectal Dis</i> Vol 19:23-42, 2004; Grady WM.<i>Cancer Metastasis Rev</i> Vol 23:11-27, 2004; Umar, et al., <i>J Natl Cancer Inst</i> Vol 96:261-268, 2004; Popat S, Hubner R, Houlston RS. <i>Prognosis J Clin Oncol</i> Vol 23(3):609-618, 2005; Ribic CM, et al.,<i> N Engl J Med.</i> Vol 349(3):247-257, 2003; D. J. Sargent, et al.,<i>J Clin Oncol</i> Vol 26 (May 20 suppl; abstr 4008), 2008; P L Barratt, et al., <i>Lancet</i> Vol 360: 1381-91, 2002; Bertagnolli MM, et al., <i>J Clin Oncol</i> Vol 27(11):1814-1812, 2009; Marcus VA, et al., <i>Am J Surg Pathol</i> Vol23:1248-55, 1999; Lindor NM, et al., <i>J Clin Oncol</i> Vol20: 1043-1048, 2002;Boland CR, et al., <i>Cancer Res</i.Vol 58(22):5248-57, 1998; Palomaki GE, et al., <i>Genetics in Medicine</i> Vol 11(1):42-65, 2009 . Molec Comments - The tissue specimen was reviewed by a pathologist, areas of tumor were microdissected from surrounding tissue, and genomic DNA isolated using standard methods. The isolated DNA was subjected to PCR using primers specific for the gene of interest. The PCR products were prepared and sequenced using Illumina NextSeq v2 chemistry. Sequence data was analyzed using standard software (MiSeq Reporter v 2.5.1 and GATK v2.3-9 ). This assay requires a minimum coverage of 200X, and has an analytic sensitivity of approximately 5%. The analytic sensitivity is dependent on the specific mutation and sequence context. All sequences are relative to the GRCh37 (hg19) genome. This assay sequenced the following areas of the gene: This assay is highly sensitive and accurate, but rare false positive and false negative results may occur. Correlation with other clinical and laboratory findings is required. This assay may use reagents that are marked as ASR or RUO by the manufacturer. This test was developed and its performance characteristics determined by PathGroup. It has not been cleared or approved by the U.S. Food and Drug Administration. The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. This assay sequenced the following areas of the gene: exons 2, 3 and 4 consisting of codons 10-35, 55-76, 109-131 and 138-150 (specifically including codons G12, G13, Q61, K117, A146). <BR/><BR/>Colombino, , et al. <i>Journal of Clinical Oncology</i> 30.20 (2012): 2522-2529. 2. Goel, Vikas K., et al. <i>Journal of Investigative Dermatology</i> 126.1 (2006): 154-160. Ding, Li, et al. <i>Nature</i> 455.7216 (2008): 1069-1075. Knobbe, Christiane B., Julia Reifenberger, and Guido Reifenberger. <i>Acta neuropathologica</i> 108.6 (2004): 467-470.\n\n\n"
+}

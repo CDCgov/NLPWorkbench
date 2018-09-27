@@ -1,0 +1,28 @@
+<tool id='discovery.composite.scoring' name='Passage Scoring' version='1.0.0'>
+    <description>composite score algorithms</description>
+    <command interpreter="lsd">scoring.lsd $algorithm $brevity $offset $term $match $input $output</command>
+    <inputs>
+        <param name='input' type='data' format='lif,json' label='input' />
+        <param name="algorithm" type="select" multiple="true" display="checkboxes" label="Scoring Algorithms">
+            <option value="brevity" selected="true">Brevity</option>
+            <option value="offset">Offset</option>
+            <option value="term">Term Recall</option>
+            <option value="match">Match Recall</option>
+        </param>
+        <param name="brevity" type="float" value="0.25" min="0" max="1.0" label="Brevity Weight"/>
+        <param name="offset" type="float" value="0.25" min="0" max="1.0" label="Offset Weight"/>
+        <param name="term" type="float" value="0.25" min="0" max="1.0" label="Term Weight"/>
+        <param name="match" type="float" value="0.25" min="0" max="1.0" label="Match Weight"/>
+
+    </inputs>
+    <outputs>
+        <data name='output' format='lif'/>
+    </outputs>
+    <help><![CDATA[
+Calculates the score for each window based on the algorithms selected. If more than one
+algorithm is selected use the *weight* field for each algorithm to bias some algorithms
+over the others.  It is up to the user to ensure that the weights for all of the 
+selected algorithms add up to one.
+]]>
+    </help>
+</tool>

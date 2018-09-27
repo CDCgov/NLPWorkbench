@@ -1,0 +1,127 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1097, 
+        1110
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1111, 
+        1120
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1151, 
+        1174
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1006, 
+        1033
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        987, 
+        992
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1035, 
+        1040
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        532, 
+        561
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        946, 
+        972
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1075, 
+        1096
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        974, 
+        978
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1055, 
+        1059
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        993, 
+        1003
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1041, 
+        1051
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605041618|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360863|P|2.5|\nPID|1||J999999999^^^^CMR^HOSPITAL 8&9999&MOH~J999999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&DT&ON^^^^JHN||XXXXXXXXXX^XXXXXX^XXXXXX^^^||99999999|M|||99 XXXXX XXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:SJ6478|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160503|||83981^XXXXXXXX^XXXXX^^^^||||||||||||20160504|||F|||||||99999^XXXXX^XXXXXXXX^XXXXXXXXX^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n16:SJ6478 GUILBEAULT,ERNEST PIERRE 66/M\n \nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container. \n \nThe specimen is received in formalin, labelled with the patient's bradma and\ndesignated right upper lobe lung.\n \nThe specimen consists of 2 fragments of red tan tissue, each 0.1 cm. All submitted in\na single cassette.\n\n\nPath report.site of origin\n\nLung, Biopsy right upper lobe\n\n\nPath report.final diagnosis\n\nRight upper lobe of lung, biopsies:\n \n- Poorly differentiated squamous cell carcinoma\n- Reviewed with Dr. JC Cutz\n\n\nPath report.relevant Hx\n\nNot available on requisition.\n\n\n"
+}

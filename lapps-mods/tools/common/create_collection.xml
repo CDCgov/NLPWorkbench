@@ -1,0 +1,27 @@
+<tool id="test.collection" name="Test Collection Output" version="0.1.0">
+  <!-- go through and a header to each item in a collection - should use implicit
+       mapping the non-collectiony add header tool to do this in a real analysis.
+  -->
+  <command interpreter="lsd">create_collection.lsd $input $start $end</command>
+
+  <!--
+    #for $key in $list_output.keys()#
+    cat "$header" > "$list_output[$key]";
+    cat "$input_collect[$key]" >> "$list_output[$key]";
+    #end for#
+    echo 'ensure not empty';
+  </command>
+  -->
+  <inputs>
+    <param name="input" type="data" format="txt" label="Index List" help="List of MASC document ID values." />
+      <param name="start" type="integer" value="0" min="0"/>
+      <param name="end" type="integer" value="392" max="392"/>
+  </inputs>
+  <outputs>
+    <collection name="list_output" type="list" label="Output List" format="lif">
+        <discover_datasets pattern="__designation_and_ext__" directory="outputs" visible="false"/>
+    </collection>
+  </outputs>
+  <tests>
+  </tests>
+</tool>

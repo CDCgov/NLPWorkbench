@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1528, 
+        1541
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1542, 
+        1551
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1556, 
+        1579
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1451, 
+        1478
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        910, 
+        914
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1495, 
+        1499
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        585, 
+        614
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        938, 
+        973
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        870, 
+        896
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        926, 
+        930
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1511, 
+        1515
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        915, 
+        925
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1500, 
+        1510
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1480, 
+        1482
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160503112500|98898CCCE97AC4B6CF7641F56D5E350881532568|ORU^R01|9999999999999|D|2.5|\nPID|1||H9999999^^^^CMR^HOSPITAL 10&9999&MOH~^^^^RMR^HOSPITAL 10&9999&MOH~H9999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&TG&ON^^^^JHN||XXXXX^XXXX||99999999|M|||99-999 XXXXXXXX XXXX^^XXXXXXXXX^XX^X9X 9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||S16-9335|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604291430|||^XXXXXXXXXX^XXXXXXXXX||||201604291430||^XXXXXXXXXX^XXXXXXXXX||||N||201605031125||8000|F|||||||99999^XXXX^XXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nA. CORE BIOPSY LEFT UPPER LOBE LUNG MASS: \nThe specimen is received in formalin and labeled with the patient's name and biopsy chest left. It contains 4 cores of pale tan tissue, 0.5-0.7 cm in maximum dimension. It is submitted in toto in A1 and A2.\n\n\n\n\nPath report.site of origin\n\nCore Biopsy Left Upper Lobe Lung Mass\n\n\nPath report.microscopic observation\n\n\nA. CORE BIOPSY LEFT UPPER LOBE LUNG MASS: Sections show fragmented cores of fibrous tissue diffusely infiltrated by groups of malignant squamous cells with mitosis, focal necrosis and some keratinization. Background of desmoplasia and some lymphoplasmacytic infiltrates. No lymphovascular invasion. This is consistent with moderately differentiated squamous cell carcinoma. Selected slides have been circulated to Dr Franklin Ling and he concurs with my interpretation.\n \n\n\n\nPath report.final diagnosis\n\nA. CORE BIOPSY LEFT UPPER LOBE LUNG MASS: \n   - SQUAMOUS CELL CARCINOMA \n\n\n\nPath report.relevant Hx\n\n? Primary Lung Ca\n\n\n\n"
+}

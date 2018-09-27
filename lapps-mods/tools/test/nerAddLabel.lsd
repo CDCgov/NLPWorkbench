@@ -1,0 +1,22 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File input = new File(args[0])
+File output = new File(args[1])
+
+String json = input.text
+Data data = Serializer.parse(json, Data)
+if (data.discriminator == Uri.ERROR) {
+    output.text = json
+    return
+}
+
+Container container = new Container(data.payload)
+View view = container.views[-1]
+view.annotations.each { Annotation a ->
+    if (a.atType == Uri.NE) {
+        a.label = Uri.NE
+        a.features.category = a.features.category.toLowerCase()
+    }
+}
+
+output.text = new DataContainer(container).asPrettyJson()

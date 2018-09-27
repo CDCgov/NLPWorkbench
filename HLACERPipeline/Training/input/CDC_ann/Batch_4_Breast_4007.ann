@@ -1,0 +1,301 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Steven", 
+      "__extent": [
+        3650, 
+        3661
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3662, 
+        3669
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3670, 
+        3679
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8393, 
+        8416
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3335, 
+        3362
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3315, 
+        3320
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3605, 
+        3610
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3275, 
+        3288
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3295, 
+        3308
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3367, 
+        3380
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3402, 
+        3412
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3529, 
+        3542
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3564, 
+        3574
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        821, 
+        850
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8001, 
+        8036
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3244, 
+        3270
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3576, 
+        3583
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3427, 
+        3437
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3584, 
+        3594
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3641, 
+        3649
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3698, 
+        3699
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5554, 
+        5555
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3681, 
+        3697
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3321, 
+        3327
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3611, 
+        3617
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3414, 
+        3426
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3272, 
+        3274
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3292, 
+        3294
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3312, 
+        3314
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3364, 
+        3366
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3526, 
+        3528
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3602, 
+        3604
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4965, 
+        4982
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170915000106||ORU^R01^ORU_R01|201709150001060001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-012094^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170901000000|||||||20170901000000|&Sentinel Lymph Node, Sentinel Lymph Node, Breast, Mastectomy - partial/simple|1588658181^^^^^^MD^^CMS^D^^^NPI||||||20170905000000|||F||||||C50.411^Malignant neoplasm of upper-outer quadrant of right female breast^I10~C77.3^Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes^I10~D05.11^Intraductal carcinoma in situ of right breast^I10~D05.01^Lobular carcinoma in situ of right breast^I10~Z17.0^Estrogen receptor positive status [ER+]^I10|1285672592&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\" identified by requisition and specimen container labels. 1. Received in formalin in a container labeled with the patient's name and sentinel node #1 5205 count\" is a 1 x 1 x 0.7 cm yellow-tan, partly fat replaced candidate node, a portion of which has been previously injected with light blue-green dye. The specimen contains adherent bits of fatty tissue. The specimen is bisected and both halves are submitted in cassette 1A. 2. Received in formalin in a container labeled with the patient's name and \"sentinel node #2 count 805\" is a 1 x 0.5 x 0.2 cm portion of fatty tissue containing a 0.2 x 0.2 x 0.2 cm tan candidate node. The candidate node is submitted whole along with the remaining specimen in cassette 2A. 3. Received fresh for intraoperative consultation without frozen section in a container labeled with the patient's name and \"right breast mass, black stitch anterior, white stitch medial\" is a 42 g portion of breast tissue. Attached sutures denote \"black stitch anterior, white stitch medial.\" The specimen is 6.5 cm superior to inferior, 5.5 cm medial to lateral, is up to 2.3 cm anterior to posterior. The margins are inked as follows: Anterior-yellow, posterior-black, medial-red, lateral-orange, superior-blue, and inferior-green. The specimen is sequentially sectioned progressing superior to inferior. On section, there is a 1.5 x 1 x 0.8 cm tan, poorly circumscribed firm mass which is 0.3 cm to the nearest anterior and lateral margins of resection. Within the parenchyma of the mass is a small radiographic bead. The mass is 0.2 cm to the deep margin. Approximately 1 cm superior to this lesion is a 0.4 x 0.3 x 0.3 cm area of palpable nodularity which is 0.2 cm to the nearest deep margin of resection. Adjacent to the nodularity is a 0.3 cm in diameter intact fluid- filled cyst. Cassette summary:   3A, perpendicular sections of superior margin.   3B-3E, sections comprising the entire lesion progressing sequentially superior to inferior to include the anterolateral and deep margins of resection.   3F, section of breast tissue between the lesion and the focus of nodularity.   3G-3H, sections comprising the palpable area of nodularity to include the anterior, deep and lateral margins of resection.   3I, perpendicular sections comprising the medial margin.   3J, perpendicular sections comprising the inferior margin of resection. (DSP)\n\n\nPath report.site of origin\n\n1. Sentinel node #1 2. Sentinel node #2 3. Right breast mass\n\n\nPath report.final diagnosis\n\n1. Sentinel node #1 (biopsy):     One lymph node, positive for metastasis (1/1).     Metastatic deposit measures 6 mm.     Focal extranodal extension identified. 2. Sentinel node #2 (biopsy):     One lymph node, free of metastasis (0/1). 3. Right breast mass (lumpectomy):     Invasive pleomorphic lobular carcinoma, Nottingham grade 2.     Tumor measures approximately 2.8 cm in maximum dimensions.     There is an extensive component of ductal carcinoma in-situ cribriform, papillary       and micropapillary types, nuclear grade 2.     DCIS measures approximately 3.5 cm in aggregate dimensions.     No lymphovascular invasion identified.     Invasive carcinoma extends to the lateral margins of resection microscopically in 2       foci.     DCIS extends to within less than 1 mm of the lateral and posterior margins of       resection, margins of re section negative for DCIS.     LCIS is present.     Remaining specimen demonstrates florid proliferative fibrocystic changes with     multiple radial scars, florid ductal epithelial hyperplasia of the usual type, columnar     cell hyperplasia and atypical columnar cell hyperplasia, carcinoid adenosis.     Microcalcifications seen in invasive carcinoma, non-neoplastic tissue, and DCIS.     Stage pT1c (sn)pN1a  Prognostic markers from biopsy, 17-55-4512  Estrogen Receptor (SP1): 2-3+ nuclear staining, 90% of nuclei Progesterone Receptor (1E2): 1-2+ nuclear staining, 40% of nuclei Ki-67 (30-9): <10% of nuclei (Low labeling index) p53 (BP5311): 1+ nuclear staining, <5% of nuclei (negative) ERBB2/Her2 (4B5): 1+ (negative for overexpression) CANCER CHECKLIST: INVASIVE CARCINOMA OF THE BREAST 3.000.001.1000043 SPECIMEN  Procedure: Excision (less than total mastectomy)  Specimen Laterality: Right TUMOR  Tumor Site: Invasive Carcinoma: Not specified  Histologic Type: Invasive lobular carcinoma  Glandular (Acinar) / Tubular Differentiation: Score 3 (< 10% of tumor area forming glandular / tubular structures)  Nuclear Pleomorphism: Score 2 (Cells larger than normal with open vesicular nuclei, visible nucleoli, and moderate variability in both size and shape)  Mitotic Rate: Score 1 (<=3 mitoses per mm2)  Overall Grade: Grade 2 (scores of 6 or 7)  Tumor Size: Greatest dimension of largest invasive focus > 1 mm (specify exact measurement in Millimeters (mm)):  Additional Dimension in Millimeters (mm): 28mm  Tumor Focality: Single focus of invasive carcinoma  Ductal Carcinoma In Situ (DCIS): DCIS is present in specimen, Positive for EIC  Size (Extent) of DCIS: Estimated size (extent) of DCIS (greatest dimension using gross and microscopic evaluation) in Millimeters (mm) is at least  Estimated size (extent) of DCIS (greatest dimension using gross and microscopic evaluation) in Millimeters (mm) is at least: 35mm  Architectural Patterns: Cribriform, Micropapillary  Nuclear Grade (see Table 2 in CAP Protocol): Grade II (intermediate)  Necrosis: Present, focal (small foci or single cell necrosis)  Lobular Carcinoma In Situ (LCIS): Present Tumor Extent  Skin: Skin is not present  Nipple DCIS: Not applicable  Skeletal Muscle: No skeletal muscle is present Accessory Findings  Lymphovascular Invasion: Not identified  Dermal Lymphovascular Invasion: No skin present  Microcalcifications: Present in DCIS, Present in invasive carcinoma, Present in non-neoplastic tissue  Treatment Effect: No known presurgical therapy MARGINS  Invasive Carcinoma Margins: Positive for invasive carcinoma  Specify Margin(s): Lateral  Extent of Lateral Margin Involvement: Multifocal  DCIS Margins: Uninvolved by DCIS (DCIS present in specimen)  Distance of DCIS to Posterior Margin in Millimeters (mm): <1mm  Distance of DCIS to Lateral Margin in Millimeters (mm): <1mm  Distance of DCIS from Closest Margin in Millimeters (mm): Distance is < 1 Millimeter (mm)  Closest Margin: Posterior, Lateral LYMPH NODES  Number of Lymph Nodes with Macrometastases (> 2 mm): Specify number  Specify number: 1  Size of Largest Metastatic Deposit in Millimeters (mm): Specify (mm)  Specify (mm): 6mm  Extranodal Extension: Present  Number of Lymph Nodes Examined: Specify number  Specify number: 1  Number of Sentinel Nodes Examined: Specify number  Specify number: 1 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (Invasive Carcinoma) (pT): pT2: Tumor > 20 mm but <= 50 mm in greatest dimension Regional Lymph Nodes (pN)  Modifier: (sn): Only sentinel node(s) evaluated. If 6 or more nodes (sentinel or nonsentinel) are removed, this modifier should not be used.  Category (pN): pN1a: Metastases in 1-3 axillary lymph nodes, at least one metastasis larger than 2.0 mm##\n\n\nPath report.microscopic examination\n\nImmunohistochemistry is performed on blocks 3B, C, and D to evaluate the extent of the CK positive individual lobular carcinoma cells and highlight the involvement of the margin. Immunohistochemistry on block 3E with appropriate controls for E-cadherin and CK34 reveals the invasive in-situ lobular neoplasm to be E-cadherin negative and CK34 positive.\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of upper-outer quadrant of right female breast (C50.411)\n\n\n"
+}

@@ -1,0 +1,115 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1715, 
+        1722
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1723, 
+        1730
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1820, 
+        1834
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1852, 
+        1875
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1040, 
+        1067
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        484, 
+        513
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        926, 
+        952
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1811, 
+        1819
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1018, 
+        1019
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1069, 
+        1070
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1253, 
+        1255
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1385, 
+        1387
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 11^9311^MOH|PIMS|CCO|20160509105004|A85A9D8A1D8B480AFF287A54FEE0F15AC36DC6DE|ORU^R01|99999999999999999999|P|2.5|||||\nPID|1||^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&&ON^^^^JHN||XXXX^XXXXXXX^||99999999|M|||9999 XXXXX XX X XXX 999^^XXXXXXX^XX^X9X9X9^999|||||||||||||||||||N|\nOBR|1||BY00966401|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160504|||52541^XXXX^XXXX^XXXXX^^XX.||||||||||||20160509|||F|||||||99999^XXXXXXXXX^XXX^XXXXXX^^XX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1) SCO 4 fragments of tan tissue measuring from 0.1 to 0.2cm EIT.nE\\2) SCO 4 fragments of tan tissue measuring from 0.1 to 0.5cm EIT.nE\\3) SCO 3 fragments of tan tissue measuring from 0.1 to 0.2cm EIT.nE\\4) SCO 1 fragment of tan tissue 0.2cm EIT.nE\\5) SCO 1 fragment of tan tissue 1.1cm EIT, bisected.nE\\6) SCO multiple fragments of tan tissue measuring 0.1 to 1.0cmnE\\EIT 6A-6D, largest bisected in 6D.nE\nE\\\n\n\nPath report.site of origin\n\n1) DuodenumnE\\2) StomachnE\\3) BodynE\\4) GE junctionnE\\5) 25cmnE\\6) Colon at 45cmnE\\\n\n\nPath report.final diagnosis\n\n1) BIOPSIES OF DUODENUM:nE\\- NEGATIVE FOR CELIAC DISEASE.nE\\- VILLOUS HEIGHT IS PRESERVED; NO ACTIVE INFLAMMATION ORnE\\PARASITES ARE SEEN.nE\nE\\2) BIOPSY OF STOMACH:nE\\- CHRONIC ACTIVE H. PYLORI GASTRITIS.nE\\- NEGATIVE FOR INTESTINAL METAPLASIA OR DYSPLASTIC CHANGE.nE\nE\\3) BIOPSY OF BODY STOMACH:nE\\- CHRONIC ACTIVE H. PYLORI GASTRITIS.nE\\- NEGATIVE FOR INTESTINAL METAPLASIA OR DYSPLASTIC CHANGE.nE\nE\\4) BIOPSY NODULE GASTROESOPHAGEAL JUNCTION:nE\\- FRAGMENTS OF GASTRIC CARDIC MUCOSA SHOWING H.PYLORInE\\POSITIVE GASTRITIS WITH FOVEOLAR HYPERPLASIA.nE\\- NEGATIVE FOR BARRETT'S EPITHELIUM, DYSPLASIA OR MALIGNANCY.nE\nE\\5) POLYP COLON AT 25CM:nE\\- TUBULAR ADENOMA.nE\\- NEGATIVE FOR HIGH GRADE DYSPLASIA.nE\nE\\6) BIOPSY COLONIC MASS AT 45CM:nE\\- INVASIVE ADENOCARCINOMA, LOW GRADE.nE\\\n\n\nPath report.relevant Hx\n\nIron deficiency anemianE\\\n4) NodulenE\\5) PolypnE\\6) MassnE\\\n\n\n"
+}

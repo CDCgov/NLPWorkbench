@@ -1,0 +1,48 @@
+import groovy.json.*
+
+File input = new File(args[0])
+File output = new File(args[1])
+String id = args[2]
+
+DataContainer data = Serializer.parse(input.text, DataContainer)
+Container container = data.payload
+Map document = [:]
+document.text = container.text
+document.denotations = []
+container.views.each { view ->
+    view.annotations.each { a ->
+        Map record = [:]
+        record.id = a.id
+        record.span = [ begin:a.start, end:a.end ]
+        if (a.atType == 'Tagger') {
+            record.obj = a.features.type
+        }
+        else if (a.atType == Uri.POS) {
+            record.obj = a.features.pos
+        }
+        else if (a.atType == Uri.TOKEN) {
+            if (a.features.pos) {
+                record.obj = a.features.pos
+            }
+            else {
+                record.obj = 'Token'
+            }
+        }
+        else {
+            record.obj = a.atType
+        }
+        document.denotations.add(record)
+    }
+}
+def metadata = container.metadata
+['target', 'sourceid', 'sourcedb', 'divid', 'section', 'source_url', 'project'].each { name ->
+    if (metadata[name]) {
+        document[name] = metadata[name]
+    }
+}
+
+output.text = new JsonBuilder(document).toPrettyString()
+
+
+
+

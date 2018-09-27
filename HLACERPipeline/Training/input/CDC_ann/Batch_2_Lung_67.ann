@@ -1,0 +1,149 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1423, 
+        1437
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1403, 
+        1417
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        997, 
+        1020
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1237, 
+        1253
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1660, 
+        1680
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1682, 
+        1690
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1337, 
+        1364
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1366, 
+        1376
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1379, 
+        1383
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1645, 
+        1649
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        546, 
+        575
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        577, 
+        594
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1588, 
+        1614
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1616, 
+        1634
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        598, 
+        600
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1376, 
+        1378
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\nPath report.gross observation\n\nGross description: \n A. Labeled: left pleural biopsy \n Tissue fragment(s): multiple \n Size: aggregate, 1.8 x 1.8 x 0.2 cm \n Description: tan to brown fragments \n Entirely submitted in 1 cassette(s). \n \n \n \n /XDB\n\n\nPayment procedure\n\nCPT                            .883051, W20061, 883631\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C34.92\n\n\nPath report.relevant Hx\n\nPre-operative diagnosis: Malignant pleural effusion and lung mass with positive pleural fluid cytology\nPost-operative diagnosis: Malignant pleural effusion and lung mass with positive pleural fluid cytology \n \n \n .\nClinical history: Malignant pleural effusion and lung mass with positive pleural fluid cytology .\n\n\nPath report.final diagnosis\n\nDiagnosis:A. LEFT PLEURAL; BIOPSY: - ADENOCARCINOMA WITH ACINAR PATTERN. \n Note: Ample tissue is available for ancillary studies. \n \n XDB/05/17/2017 **********************************************************************\n\n\nPath report.site of origin\n\nMaterial submitted: Pleural, left, biopsy\n\n\nPath report.comments\n\nComment:CASE: PATIENT: Final Diagnosis performed by. Electronically signed 4/25/2017 11:59:37AM \n \n The electronic signature indicates that the named Attending Pathologist has evaluated the specimen \n Technical component performed at LabCorp, 1447 York Court, Burlington, NC 27215 Lab: 800-762-4344 Dir: William F. Hancock, MD \n Professional component performed at LabCorp, Alamance Regional Medical Center, 1240 Huffman Mill Rd, Burlington, NC 27215 Lab: 336-538-7833 Dir: Tara C. Rubinas, MD \n \n \n Lung: Biomarker Reporting Template Cancer Case Summary LUNG: Biomarker Reporting Template SPECIMEN ADEQUACY Adequacy of Sample for Testing:  Adequate RESULTS Other Markers Tested Note: This section may repeat for each test. Specify Marker:   PD-L1 22C3 immunohistochemistry, pembrolizumab (KEYTRUDA) Specify Results:  Result: High expression >= 50% Tumor proportion score: 50-60% METHODS Testing Method for Other Markers Specify Other Testing Method: PD-L1 clone 22C3 pharmDx immunohistochemistry, testing performed on block A1 Comment(s): Testing performed by ARUP Laboratories, Salt Lake City, UT, and reported separately, ARUP accession: 17-123-401615. \n \n \n \n \n \n Addendum #1 performed by Mary Olney, MD. Electronically signed 5/11/2017 12:20:12PM \n \n Technical component performed at LabCorp, 1447 York Court, Burlington, NC 27215 Lab: 800-762-4344 Dir: William F. Hancock, MD \n Professional component performed at LabCorp, Alamance Regional Medical Center, 1240 Huffman Mill Rd, Burlington, NC 27215 Lab: 336-538-7833 Dir: Tara C. Rubinas, MD \n \n \n Lung: Biomarker Reporting Template Cancer Case Summary Specimens InvolvedA: Pleural, left, biopsy \n LUNG: Biomarker Reporting Template SPECIMEN ADEQUACY Adequacy of Sample for Testing:  Adequate Estimated % Tumor Cellularity (area used for testing): 80% RESULTS EGFR EGFR Mutational Analysis:   No mutation detected (wild-type EGFR allele) EGFR Exons Assessed:   18 19 20 21 ALK ALK Rearrangement: No rearrangement detected# METHODS EGFR EGFR Mutational Analysis Testing Method(s)#: Other (specify method and applicable exons) SNaPShot multiplex PCR ALK ALK Rearrangement Testing Method(s): In situ hybridization (fluorescence [FISH] or chromogenic [CISH]) FISH \n \n \n \n \n Addendum #2 performed by Dana Baker, MD. Electronically signed 5/17/2017 11:28:12AM \n \n \n Technical component performed at LabCorp, 1447 York Court, Burlington, NC 27215 Lab: 800-762-4344 Dir: William F. Hancock, MD \n Professional component performed at LabCorp, Alamance Regional Medical Center, 1240 Huffman Mill Rd, Burlington, NC 27215 Lab: 336-538-7833 Dir: Tara C. Rubinas, MD .\n\n\n"
+}

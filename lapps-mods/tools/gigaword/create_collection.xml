@@ -1,0 +1,67 @@
+<tool id="gigaword.collection" name="Create a data collection of select documents" version="1.0.0">
+ <command interpreter="lsd">
+  create_collection.lsd $token $start $end $service
+ </command>
+ <inputs>
+  <param format="oauth" label="OAuth Token" name="token" type="data">
+  </param>
+  <param min="0" name="start" type="integer" value="0">
+  </param>
+  <param max="392" name="end" type="integer" value="392">
+  </param>
+  <param label="Language" name="service" type="select">
+  <option value="GWENDataSource">
+   English
+  </option>
+  <option value="GWZHDataSource">
+   Chinese
+  </option>
+  <option value="GWESDataSource">
+   Spanish
+  </option>
+  <option value="GWARDataSource">
+   Arabic
+  </option>
+  </param>
+ </inputs>
+ <outputs>
+  <collection format="ldc" label="Output List" name="list_output" type="list">
+   <discover_datasets directory="outputs" pattern="__designation_and_ext__" visible="false">
+   </discover_datasets>
+  </collection>
+ </outputs>
+ <tests>
+ </tests>
+ <help>
+  <![CDATA[
+**What it does**
+  
+Retrieves a collection of specified documents from the `English Gigaword corpus <https://catalog.ldc.upenn.edu/ldc2003t05>`_ 
+housed at the `Linguistic Data Consortium <https://ldc.upenn.edu/>`_. 
+
+.. class:: infomark
+
+**TIP**: To see a list of documents IDs in Gigaword, use *Get Data->Gigaword List*
+
+.. class:: warningmark
+
+ 
+To obtain Gigaword documents you **must**:
+
+1. Be an LDC licensee
+2. Obtain an OAuth Token by visting `this link <https://grid.anc.org:9443/ldc-authorize/>`_
+and logging in with your LDC id and password. 
+Then paste
+the OAuth token into the above field and click `execute`.  This will add an item to your
+history that supplies the OAuth token to LDC datasource services that 
+require it.
+
+
+**License**
+
+Gigaword corpus is distributed under `LDC Membership Agreement <www.ldc.upenn.edu/members/agreements>`_ or `User Agreement for Non-Members <catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf>`_
+
+]]>
+    
+ </help>
+</tool>

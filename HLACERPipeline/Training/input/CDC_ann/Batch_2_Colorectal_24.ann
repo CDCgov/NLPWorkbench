@@ -1,0 +1,79 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        831, 
+        845
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        922, 
+        951
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        953, 
+        970
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        191, 
+        226
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        228, 
+        240
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        812, 
+        822
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        823, 
+        830
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        783, 
+        811
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\n\n\n\n\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C18.9\n\n\nPath report.microscopic observation\n\nMicroscopic: Collections of neoplastic epithelial cells are found within fibroadipose tissue. The neoplastic cells are arrayed in glandular structures and some appear to be surrounded by mucinous material. No lymphoid tissue is identified. \n Immunocytochemistry is done to characterize the malignant cells. Sections, along with appropriate controls are incubated with the following antibodies: CK20: All the neoplastic cells are positive. CK7: A minority of malignant cells are positive. CDX2: All the neoplastic cells are positive. TTF1: Negative. \n The findings are consistent with metastatic colonic adenocarcinoma.\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nPath report.gross observation\n\nGross description: Received one formalin-filled container, labeled with the patient's name and labeled \"RT groin BX nodule\", are three 0.1 cm in diameter, cylindrical-shaped portions of tissue which range in length from 0.9 cm to 1.3 cm. Entirely submitted in one cassette. (DC:cmc88 706049) /FRR\n\n\nPayment procedure\n\nCPT                            .883051, W20061, W20532\n\n\n"
+}

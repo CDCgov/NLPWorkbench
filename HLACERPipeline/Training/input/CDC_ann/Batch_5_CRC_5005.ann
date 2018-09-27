@@ -1,0 +1,71 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1282, 
+        1296
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1144, 
+        1171
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        581, 
+        610
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1040, 
+        1066
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1273, 
+        1281
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1173, 
+        1175
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1245, 
+        1246
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160503133200|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 2&9999&MOH~9999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&&ON^^^^JHN||XXXXX^XXXXXX^XXXXX||99999999|F|||9999-99 XXXXXXX XX. XXXX^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-27566|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604281440|||88545^XXX^XXXXXX||||201604291045|&Intestine-SmBx:  Duodenum r/o celiac|99999^XXX^XXXXXX||||||201605031332||SPW|F|||||||99999^XXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen labeled with the patient's name and as \"duodenum rule/out celiac\" consists of 1 fragment of tan tissue measuring 0.3 x 0.2 x 0.2 cm, received in 10% buffered formalin.\n1A submitted in toto\n   \n2. The specimen labeled with the patient's name and as \"cecum lesion rule out CA\" consists of 5 fragments of tan tissue measuring from 0.2-0.3 x 0.2 x 0.2 cm, received in 10% buffered formalin.\n2A submitted in toto\n\n\n\n\nPath report.site of origin\n\nIntestine-SmBx: Duodenum r/o celiac\nIntestine-LgBx: Caecum Leasion r/o ca\n\n\nPath report.final diagnosis\n\n1. Duodenum biopsy:\n- duodenal mucosa with no significant abnormality\n \n2. Lesion,caecum biopsy: \n- invasive adenocarcinoma \n\n\n\n"
+}

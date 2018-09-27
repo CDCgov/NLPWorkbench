@@ -1,0 +1,27 @@
+<tool id="weblicht.stanford.tagger_1.0.0" name="Weblicht Stanford Tagger v1.0.0" version="1.0.0">
+ <description>
+  Weblicht Stanford Tagger (Vassar)
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_vassar.lsd weblicht.stanford.tagger_1.0.0 $input $output
+ </command>
+ <inputs>
+  <param format="tcf" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="tcf" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+Stanford Part of Speech Tagger
+------------------------------
+
+**License**
+
+Stanford CoreNLP is licensed under the `GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.
+
+]]>
+ </help>
+</tool>

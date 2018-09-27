@@ -1,0 +1,99 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1089, 
+        1103
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2018, 
+        2041
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1011, 
+        1038
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        998, 
+        1003
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1040, 
+        1045
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        520, 
+        549
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        957, 
+        983
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1067, 
+        1088
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        985, 
+        989
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1046, 
+        1050
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605032207|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360570|P|2.5|\nPID|1||J999999999^^^^CMR^HOSPITAL 8&9999&MOH~J999999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&HB&ON^^^^JHN||XXXXXXXX^XXXX^XXXXX^^^||99999999|M|||99 XXXXXXXXXX XX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:SJ5490|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160415|||88609^XXXXXXX^XXXXXXXXX^^^^||||||||||||20160503|||C|||||||99999^XXXXXX^XXXXXX^^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n16:SJ5490 CARVALHO,JOAO ROQUE 80/M\n \nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container. \n \nThe specimen is received in formalin, labelled with the patient's bradma and\ndesignated R. lung mass BX.\n \nThe specimen consists of multiple core and core fragments of friable white tissue,\n0.4 x 0.4 x 0.2 cm. All submitted in a single cassette.\n\n\nPath report.site of origin\n\nLung, Biopsy right mass\n\n\nPath report.final diagnosis\n\nRight lung mass, biopsy:\n- POORLY DIFFERENTIATED ADENOCARCINOMA (see comment)\n \nCOMMENT: Sections show a poorly differentiated adenocarcinoma with glandular growth\npattern. Tumor cells are negative for TTF-1 and only focally and weakly are positive\nfor napsin A. ALK and EGFR have been ordered and will be reported as an addendum. Due\nto absence of TTF-1 staining, the possibility of a metastasis from other origins\ncannot be excluded. Clinical correlation is required. This case has been reviewed by\nDr. A. Naqvi who agrees with the diagnosis.\n\n\nPath Report.addendum spec\n\nBIOMARKER SUMMARY\n \nAdequacy of Sample for Testing: Adequate\nEstimated % Tumor Cellularity: 40\n \nEGFR Mutation: No mutation detected, wild-type EGFR allele\nMethod: Real-time PCR, EntroGen EGFR Mutation Analysis Kit Exons 18, 19, 20, 21\nRefer to Molecular Oncology Report 16:MO1994\n \nALK Rearrangement: No rearrangement detected\nMethod: Immunohistochemistry (IHC) Leica Bond Refine detection, 5A4 clone\n\n\nPath report.relevant Hx\n\nLarge right lung mass, ? carcinoma\n\n\n"
+}

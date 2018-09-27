@@ -1,0 +1,25 @@
+<tool id="pubannotation.convert.json" name="PubAnnotation JSON to LIF" version="1.0.0">
+
+ <command>lsd $__tool_directory__/convert-json.lsd $input $output</command>
+ <inputs>
+  <param type="data" format="json" label="Pubannotation JSON Document" name="input"/>
+ </inputs>
+ <outputs>
+  <data format="lif" label="LIF Document" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**
+
+Converts Pubannotation JSON to LIF
+
+.. class:: infomark
+
+**NOTE:** This tool is currently intended for development and testing only.
+
+
+]]>
+ </help>
+</tool>

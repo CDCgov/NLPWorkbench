@@ -1,0 +1,63 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2388, 
+        2402
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2274, 
+        2297
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2486, 
+        2506
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2340, 
+        2367
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1784, 
+        1819
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2437, 
+        2463
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160502131607|3E18C547BF5DED0B84DE9E9D925F997EA5ACD161|ORU^R01|99999999999999999999|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 9&9999&MOH~99999999^^^^^HOSPITAL 9&9999&MOH~99999999^^^^MRN^HOSPITAL 9&9999~9999999999&JB&ON^^^^JHN||XXXXX^XXXXX XXXX||99999999|F||E|99 XXXXXX XXXX^^XXXXXXXXXXX^XX^X9X9X9^999||9999999999^JB^OHIN|||U||3335892356^JB^OHIN||||||||||||N|\nOBR|1||CY1605022|33716-2^Study Report: Cytology.non-gyn^LN^C^Cytology^L|||20160418080000|||77486^XXXXXXXXXX^XXXXXXX XXXXX^^^^XX||||20160418101108|FNAB of Lung (RUL)|999999^XXXXXXXXXX^XXXXXXX XXXXX^^^^XX||||N|20082009|20160502131607|||C|||||||99999^XX, XX, XXX, XXXXX^XXXXX^^^^(XXXXXXX XXXXXXXX)|\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nSpecimen information\nSpecimen type: cytopathology block\nEstimated tumor cellularity (%): 90\nEstimated cell number per section: 1200\nResult and Interpretation\nPOSITIVE for multiple EGFR mutations\nMutations were detected in EGFR (NM_005228.3)\ncorresponding to EGFR exon 20 insertion and T790M.\nNote that both mutations occur at high allele frequency and clinical interpretation should take into account whether the patient has previously received an EGFR TKI.\nTechnical details\nAfter review by a pathologist, DNA is extracted from formalin-fixed, paraffin-embedded tumor tissue. The EGFR test methodology is a real-time PCR assay using the Qiagen EGFR RGQ kit. Mutations in exons 18, 19, 20, 21 of EGFR are included in the testing (exon 19 deletions, L858R, T790M, L861Q, G719X, S768I and exon 20 insertions) and the limit of detection is estimated to be 1-5%.\nThe laboratory follows strict quality assurance guidelines, but the chance of a false result due to laboratory errors incurred during any phase of testing cannot be completely excluded.\n\n\nPath report.microscopic observation\n\nMalignant cells with pleomorphic hyperchromatic nuclei, inconspicuous nucleoli, and delicate cytoplasm are present. The previous history of ovarian and breast carcinomas is noted.\nImmunostain results:\nPositive stains - TTF-1, napsin, p53, and ER (weak positive)\nNegative stains - CK20, CDX2, surfactant A, ALK, PAX8, WT-1, GATA, BRST2, and mammaglobin\nThe cytologic appearance and immunoprofile are most consistent with a primary lung adenocarcinoma.\n\n\nPath report.relevant Hx\n\nLeft upper lobe mass\nFellow: O. Habash\n\n\nPath report.final diagnosis\n\nFNAB of Lung (RUL)\nAdenocarcinoma\nImmunostain for ALK is NEGATIVE\n\n\nPath report.site of origin\n\nFNAB of Lung (RUL)\n\n\nPath report.comments\n\nThe cell block has adequate neoplastic cells for ancillary studies.\nCell block (Formalin fixed): Approximate number of tumour cells in H\\T\\E cell block section(s):\n1200+ tumor cells.\nApproximate % Tumour cellularity (Tumour cells/Total nucleated cells) in H\\T\\E cell block section(s):\n90%.\nThe immunostain for ALK is done with 5A4 antibody and a protocol optimized for the detection of ALK gene mutation in lung carcinomas. However, some mutations may not be detectable by immunohistochemistry.\nMolecular testing for EGFR mutation has been ordered, and will be reported separately in an addendum by the Molecular Pathology Laboratory when the results are available.\n\n\n"
+}

@@ -1,0 +1,283 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2148, 
+        2154
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2132, 
+        2146
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1953, 
+        1976
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5143, 
+        5163
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2036, 
+        2063
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2074, 
+        2078
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5053, 
+        5057
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2514, 
+        2524
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2655, 
+        2665
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5078, 
+        5096
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5100, 
+        5118
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5122, 
+        5140
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        550, 
+        579
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4945, 
+        4980
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5022, 
+        5048
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2112, 
+        2131
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2068, 
+        2072
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2079, 
+        2089
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2824, 
+        2834
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5058, 
+        5068
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2065, 
+        2067
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2462, 
+        2463
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2532, 
+        2533
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2603, 
+        2604
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5050, 
+        5051
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5075, 
+        5076
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5097, 
+        5098
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5119, 
+        5120
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4531, 
+        4563
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4565, 
+        4580
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2700, 
+        2717
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170917000044||ORU^R01^ORU_R01|201709170000440001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-012231^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170906000000|||||||20170906000000|&Lung, Wedge Biopsy, Lymph Node, Biopsy, Lymph Node, Biopsy, Lymph Node, Biopsy|1285796573^^^S^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C34.12^Malignant neoplasm of upper lobe, left bronchus or lung^I10|&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient's name is \"\" identified by requisition and specimen container labels. 1. Received fresh for frozen section in a container labeled with the patient's name and \"left upper lobe wedge\" is a 3 g, 3 x 1.5 x 1 cm wedge of lung. Along 1 edge is a 4.4 cm long row of staples. The specimen is inked black. Upon sectioning there is a circumscribed 1 x 0.9 x 0.7 cm circumscribed tan mass which is 0.9 cm to the staple line. The mass extends to the inked pleura. The adjacent lung parenchyma is spongy and pink-tan. Representative sections are submitted. Cassette summary:   1FSA, section of mass examined by frozen section.   1A and 1B, cross sections comprising the remaining mass.   1C, en face section of stapled margin of resection.  2. Received in formalin in a container labeled with the patient's name and \"left lung lymph node 5\" is a 0.9 x 0.4 x 0.4 cm anthracotic node. The node is bisected and is submitted in its entirety in cassette 2A. 3. Received in formalin in a container labeled with the patient's name and \"level 7 lymph node\" are two, 0.3 x 0.2 x 0.2 and 0.3 x 0.3 x 0.3 cm pink-tan and black candidate nodes. Both are submitted as received in cassette 3A. 4. Received in formalin in a container labeled with the patient's name and \"level 8 lymph node\" is a 0.4 x 0.3 x 0.2 cm tan and red candidate node submitted as received in cassette 4A. (DGI)\n\n\nPath report.relevant Hx\n\nHistory - Solitary pulmonary nodule (R91.1) - left lung\n\n\nPath report.final diagnosis\n\n1. Lung, left upper lobe, wedge resection:     Well-differentiated adenocarcinoma, acinar predominant.     Tumor measures 1.1 cm in greatest extent.     Tumor extends to but does not invade visceral pleura.     Tumor Spread Through Air Spaces (STAS) present.     No lymphovascular invasion identified.     Parenchymal margins negative for tumor (invasive carcinoma 0.9 cm from staple       line). 2. Level 5 lymph node, biopsy:     No tumor seen, 1 lymph node (0/1). 3. Level 7 lymph node, biopsy:     No tumor seen, 2 lymph nodes (0/2). 4. Level 8 lymph node, biopsy:     No tumor seen, 1 lymph node (0/1). Pathologic stage: pT1b N0. CANCER CHECKLIST: LUNG 3.000.001.1000043 SPECIMEN  Procedure: Wedge resection  Specimen Laterality: Left TUMOR  Tumor Site: Upper lobe  Histologic Type: Invasive adenocarcinoma, acinar predominant  Other Subtypes Present (specify subtype(s), may also include percentages):   Papillary  Histologic Grade: G1: Well differentiated  Spread Through Air Spaces (STAS): Present  Tumor Size: For histologic types other than invasive nonmucinous adenocarcinoma   with a lepidic component, Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 1.1 cm  Tumor Focality: Single tumor Tumor Extent  Visceral Pleura Invasion: Not identified  Direct Invasion of Adjacent Structures: No adjacent structures present Accessory Findings  Treatment Effect: No known presurgical therapy  Lymphovascular Invasion: Not identified MARGINS  Margins: All margins are uninvolved by carcinoma  Margins Examined: Parenchymal  Distance of Invasive Carcinoma from Closest Margin in Centimeters (cm): Specify   in Centimeters (cm)  Specify in Centimeters (cm): 0.9 cm  Specify Closest Margin: Parenchymal  Distance of Carcinoma in Situ from Closest Margin: Not applicable (no carcinoma   in situ in specimen)  Number of Lymph Nodes Involved: None identified,  Number of Lymph Nodes Examined: Specify number  Specify number: 4  Nodal Stations Examined: 7: Subcarinal, 5: Subaortic/ aortopulmonary (AP) / AP   window, 8L: Para-esophageal PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (pT): pT1b: Tumor > 1 cm but <= 2 cm in greatest dimension  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastases (pM): Not applicable - pM cannot be determined from the   submitted specimen(s) ADDITIONAL FINDINGS  Additional Pathologic Findings: None identified\n\n\nPath report.supplemental reports\n\nAddendum Report: Material was forwarded to Integrated Oncology for PD-L1, Keytruda. The results are as follows:  PD-L1 (KEYTRUDA) Tumor Proportion Score: 2% Interpretation: Low Expression Programmed Death Ligand 1 (PD-L1), Clone 22C3 pharmDx kit for KEYTRUDA  A full report is on the file in the pathology department, and is available on request.  ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Left upper lobe wedge 2. Level 5 lymph node 3. Level 7 lymph node 4. Level 8 lymph node\n\n\nPath report.comments\n\nComments - Dr. Hessler has reviewed the case and concurs with the diagnosis. Pulmonary adenocarcinoma prognostic markers including PD-L1, EGFR, BRAF, ALK and ROS1 studies will be performed and reported separately.\n\n\n"
+}

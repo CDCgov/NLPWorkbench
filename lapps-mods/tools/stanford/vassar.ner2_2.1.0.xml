@@ -1,0 +1,45 @@
+<tool id="stanford.ner2_2.1.0" name="Stanford Selectable Named Entity Recognizer" version="1.0.0">
+ 
+ <command interpreter="lsd">
+  invoke_ner2.lsd $model $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data"/>
+  <param label="Model" name="model" type="select">
+   <option value="english.all.3class.distsim.crf.ser.gz">All 3</option>
+   <option value="english.conll.4class.distsim.crf.ser.gz">CONLL 4</option>
+   <option value="english.muc.7class.distsim.crf.ser.gz">MUC 7</option>
+   <option value="english.nowiki.3class.distsim.crf.ser.gz">Nowiki 3</option>
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**  
+  
+Generates named entity annotations (Person, Organization, Location) using 
+the `Stanford Named Entity Recognizer <https://nlp.stanford.edu/software/CRF-NER.shtml>`_, 
+using one of four models selected by the user. 
+See `https://nlp.stanford.edu/software/CRF-NER.shtml <https://nlp.stanford.edu/software/CRF-NER.shtml>`_ for more information.
+
+**Required annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token.html>`_  (LIF)
+* `Sentence <http://vocab.lappsgrid.org/Sentence.html>`_ (LIF) 
+
+**Generated Annotations**
+
+A LIF document with a new view containing `NamedEntity <http://vocab.lappsgrid.org/NamedEntity.html>`_ annotations, with the type of entity (e.g., Person, Location) as the value of the *category* feature.
+
+**License**
+
+Stanford CoreNLP is licensed under `the GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.
+
+]]>
+
+ </help>
+</tool>

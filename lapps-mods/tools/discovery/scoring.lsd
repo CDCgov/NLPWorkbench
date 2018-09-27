@@ -1,0 +1,287 @@
+import java.util.regex.*
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+def algorithms = args[0].tokenize(',')
+
+Map weights = [:]
+weights.brevity = args[1] as double
+weights.offset  = args[2] as double
+weights.term = args[3] as double
+weights.match = args[4] as double
+File input = new File(args[5])
+File output = new File(args[6])
+
+Map factories = [
+    brevity: { new BrevityScorer() },
+    offset: { new OffsetScorer() },
+    term: { new TermRecallScorer() },
+    match: { new MatchRecallScorer() },
+]
+
+CompositeScorer scorer = new CompositeScorer()
+algorithms.each { alg ->
+    //println "Creating scorer for $alg"
+    scorer.add(factories[alg](), weights[alg])
+}
+
+Data data = Serializer.parse(input.text, Data)
+Container container = new Container(data.payload)
+List<View> views = container.findViewsThatContain('Window')
+
+View view = views[-1]
+List<Annotation> annotations = view.annotations
+View scores = container.newView()
+scores.addContains('Scores', 'scorer.lsd', 'Scores')
+
+Window document = new Window(0, container.text.length(), container.text, view.metadata.keyterms ?: [])
+
+int id = 0
+Best best = new Best()
+
+annotations.each { Annotation a ->
+    List terms = a.features.matches.collect { it.term }
+    Window window = new Window((int)a.start, (int)a.end, a.features.text, terms)
+    Annotation scoreA = scores.newAnnotation("score-${++id}", "Score", a.start, a.end)
+    double score = scorer.scoreWindow(window, document)
+    scoreA.features.score = score
+    scoreA.features.window = a.id
+    if (score > best.score) {
+    	best.score = score
+    	best.start = a.start
+    	best.end = a.end
+    	best.window = a.id
+	}
+}
+
+//container.views[-1].metadata.scores = scores
+View bestView = container.newView()
+bestView.addContains('SelectedOutput', 'scoring.lsd', 'SelectedOutput')
+Annotation bestA = bestView.newAnnotation('best-0', 'SelectedOutput', best.start, best.end)
+bestA.features.window = best.window
+bestA.features.score = best.score
+
+output.text = new Data(Uri.LIF, container).asPrettyJson()
+//println "Wrote ${output.path}"
+return
+
+class Best {
+	double score = -1
+	long start = 0
+	long end = 0
+	String window = 'not scored'
+}
+	
+interface WindowScorerI {
+    public double scoreWindow(Window window, Window document);
+}
+
+class BrevityScorer implements WindowScorerI {
+    @Override
+    double scoreWindow(Window window, Window document) {
+        int windowSize = window.length()
+        return 1 - ((double) windowSize / (double) document.length());
+    }
+}
+
+class MatchRecallScorer implements WindowScorerI {
+    @Override
+    double scoreWindow(Window window, Window document) {
+        return (double) window.totalMatches() / (double) document.totalMatches()
+    }
+}
+
+class OffsetScorer implements WindowScorerI {
+    @Override
+    double scoreWindow(Window window, Window document) {
+        return ( (double) document.length() - (double) window.start ) /
+                (double) document.length()
+    }
+}
+
+class TermRecallScorer implements WindowScorerI {
+    @Override
+    double scoreWindow(Window window, Window document) {
+        return (double) window.totalContains() / (double) document.totalContains()
+    }
+}
+
+class CompositeScorer implements WindowScorerI {
+
+    private List<WindowScorerI> scorers;
+    def nameSpace = ['termrecall' : TermRecallScorer.class,
+                     'matchrecall' : MatchRecallScorer.class,
+                     'brevity' : BrevityScorer.class,
+                     'offset' : OffsetScorer.class]
+
+    CompositeScorer() {
+        scorers = []
+    }
+
+    @Override
+    String toString() {
+        return scorers.toString()
+    }
+    
+	/**
+
+     * initiates an instance with specific configuration for each scorers
+     * @param configuration - needs to be formatted
+     *  "scorer1Name : weight, scorer2Name : weight, ..."
+     *  name should be one of ['termrecall', 'matchrecall', 'brevity', 'offset'] all lower cases
+     *  sum of weight should be 1
+     *  (does not have to be using all 4 scorers)
+     */
+    CompositeScorer(String configuration) {
+        this()
+        configuration.split("\\s*,\\s*").each {
+            scorerString ->
+                // TODO: 2016-08-17 18:51:40EDT add error handling for unacceptable names
+                def name = scorerString.split("\\s*:\\s*")[0]
+                def weightString = scorerString.split("\\s*:\\s*")[1]
+                WindowScorerI scorer = nameSpace[name].newInstance()
+                Double weight = Double.parseDouble(weightString)
+                this.add(scorer, weight)
+        }
+
+    }
+
+    /**
+
+     * this is default, uniform distribution lambda
+     * to customize these lambdas, user should provide a parameter
+     */
+    public void useDefaultScorers() {
+        removeAll();
+        add( new TermRecallScorer(), 0.25d );
+        add( new MatchRecallScorer(), 0.25d );
+        add( new BrevityScorer(), 0.25d );
+        add( new OffsetScorer(), 0.25d );
+    }
+
+    public void removeAll() {
+        scorers.clear();
+    }
+
+    public void add(WindowScorerI scorer, Double lambda ) {
+        scorers.add(new WeightedScorer(scorer , lambda));
+    }
+
+    @Override
+    public double scoreWindow(Window window, Window document) {
+        double result = 0.0d;
+        for ( WindowScorerI scorer : scorers ) {
+            double score = scorer.scoreWindow(window, document);
+            if ( score > 1.0d || score < 0.0d )
+                System.out.println( scorer.getClass().getSimpleName() + " OUT OF BOUNDS: " + score );
+            result += score;
+        }
+        return result;
+    }
+    private class WeightedScorer implements WindowScorerI {
+        Double lambda;
+        WindowScorerI scorer;
+        public WeightedScorer(WindowScorerI scorer , Double lambda ) {
+            this.scorer = scorer;
+            this.lambda = lambda;
+        }
+
+        @Override
+        public double scoreWindow(Window window, Window document) {
+            return lambda * scorer.scoreWindow(window, document);
+        }
+
+        @Override
+        String toString() {
+            return this.scorer.class.getName() + " : " + this.lambda
+        }
+    }
+}
+
+class Window {
+
+    int start // inclusive
+    int end // exclusive
+    int keytermMatchLimit
+    def keytermMatches
+    def keytermContains
+    String text
+
+    def init() {
+        this.keytermMatchLimit = Double.POSITIVE_INFINITY
+        this.keytermMatches = [:]
+        this.keytermContains = [:]
+    }
+
+    Window(start, end, text) {
+        init()
+        this.start = start
+        this.end = end
+        this.text = text
+    }
+
+    Window(int start, int end, String text, int keytermMatchLimit) {
+        this(start, end, text)
+        this.keytermMatchLimit = keytermMatchLimit
+    }
+
+    Window(int start, int end, String text, List<String> keyterms) {
+        this(start, end, text)
+        this.matches(keyterms)
+        this.contains(keyterms)
+    }
+
+    Window(int start, int end, String text, List<String> keyterms, int keytermMatchLimit) {
+        this(start, end, text, keytermMatchLimit)
+        this.matches(keyterms)
+        this.contains(keyterms)
+    }
+
+    def length() {
+        end - start + 1
+    }
+
+    def matches(String keyterm) {
+        if (!keytermMatches.keySet().contains(keyterm)) {
+            def matchesFound = 0
+            //Matcher m = Pattern.compile(keyterm).matcher(text);
+            def m = Pattern.compile(keyterm).matcher(text);
+            while (m.find() && matchesFound < keytermMatchLimit) {
+                matchesFound++
+            }
+            keytermMatches[keyterm] = matchesFound
+        }
+        return keytermMatches[keyterm]
+    }
+
+    def matches(List<String> keyterms) {
+        def totalMatches = 0
+        keyterms.each {
+            keyterm -> totalMatches += matches(keyterm)
+        }
+        return totalMatches
+    }
+
+    def totalMatches() {
+        return keytermMatches.values().sum()
+    }
+
+    def totalContains() {
+        return keytermContains.values().sum()
+    }
+
+    def contains(String keyterm) {
+        if (!keytermContains.keySet().contains(keyterm)) {
+            keytermContains[keyterm] = text.contains(keyterm) ? 1 : 0
+       }
+        return keytermContains[keyterm]
+    }
+
+    def contains(List<String> keyterms) {
+        def totalContains = 0
+        keyterms.each {
+            keyterm -> totalContains += contains(keyterm)
+        }
+        return totalContains
+    }
+
+}

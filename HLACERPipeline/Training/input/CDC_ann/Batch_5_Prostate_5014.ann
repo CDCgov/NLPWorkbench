@@ -1,0 +1,169 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2092, 
+        2103
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1190, 
+        1204
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1514, 
+        1523
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1552, 
+        1566
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1832, 
+        1846
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2049, 
+        2063
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2104, 
+        2113
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1404, 
+        1431
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1744, 
+        1769
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        556, 
+        585
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        843, 
+        869
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        890, 
+        909
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2030, 
+        2038
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1180, 
+        1189
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1433, 
+        1448
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1542, 
+        1551
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1822, 
+        1831
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2039, 
+        2048
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2121, 
+        2129
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 11^9999^MOH|PIMS|CCO|201605022311|154F70583D500CD6001C9EECECCFB49A62EA85FD|ORU^R01|999999999999999|P|2.5|\nPID|1||M99999999^^^^CMR^HOSPITAL 11&9999&MOH~~M99999999^^^^MRN^HOSPITAL HOSPITAL&9999&MOH~9999999999&EX&ON^^^^JHN|9999^M99999999|XXXXXX^XXXX^XXXXXXX||99999999|M|||9 XXXXXX XXX^^XXXXXXXXXXX^XX^X9X 9X9^999||999-999-9999|||||||||||||||||N|\nOBR|1||16:S3550|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160404|||52485^XXXXXXXXXX^XXXXXXXX||||||||||||20160428|||C|||||||99999^XXXXXXXXXX XXXXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is labelled \"prostate tissues\" and consists of multiple tan-gray,\nrubbery and cauterized tissue fragments that weigh 1.4 grams and measures 3.5 cm\nx 2.0 cm x 0.5 cm in aggregate.\nThe specimen is entirely submitted in Blocks A1 and A2.\nLF/sk\n\n\nPath report.site of origin\n\nProstate tissues\n\n\nPath report.comment\n\nIt is difficult to definitely classify the infiltrating high-grade carcinoma\nbased on histology alone, as it consists predominantly of large tumour nests,\nsome with central comedo necrosis. Given the clinical history and some of the\nhistological features, a high-grade prostatic adenocarcinoma is suspected.\nHowever, immunohistochemistry is pending for definitive classification (to rule\nout high-grade urothelial carcinoma), and to better assess the possibility of\nlymph-vascular invasion.\n\n\nPath report.final diagnosis\n\nPROSTATE TISSUE, TRANSURETHRAL RESECTION:\n - PROMINENT INVOLVEMENT BY HIGH-GRADE CARCINOMA\n  (SUSPICIOUS FOR PROSTATIC ADENOCARCINOMA, GLEASON PATTERN 5).\n - PERINEURAL INVASION PRESENT.\n - SUSPICIOUS FOR LYMPH-VASCULAR INVASION\nDEFINITIVE CHARACTERIZATION BY IMMUNOHISTOCHEMISTRY TO BE REPORTED IN ADDENDUM.\n\n\nPath report.addendum spec\n\nThe immunohistochemical profile is consistent with prostatic adenocarcinoma\n(strongly PSA positive; negative for high-molecular weight cytokeratin (HMW\nCK), for cytokeratin 7 and cytokeratin 20). Focal lymph-vascular invasion is\nconfirmed. In addition to the invasive prostatic adenocarcinoma, a few foci\nconsistent with intraductal carcinoma of the prostate (IDC-P) are identified by\nimmunohistochemistry for HMW CK. As noted in the Diagnosis section of the\nreport, the tumour shows a predominant Gleason grade 5 pattern in this TURP\nspecimen.\n\n\n"
+}

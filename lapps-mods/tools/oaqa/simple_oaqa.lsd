@@ -1,0 +1,113 @@
+ import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File gold = new File(args[0])
+File test = new File(args[1])
+String type = args[2]
+String format = args[3]
+File output = new File(args[4])
+String version = args[5]
+
+String url = "http://localhost:8080/EvaluationServices/services/AnnotationEvaluator"
+if (version != '0') {
+    url = "http://http://localhost:8080/EvaluationServices/$version/services/AnnotationEvaluator"
+}
+
+if (type == "ne") {
+    annotation = "http://vocab.lappsgrid.org/NamedEntity"
+    testAnnotation = "http://vocab.lappsgrid.org/NamedEntity"
+    testFeature = goldFeature = "category"
+}
+else if (type == "pos") {
+    annotation = "http://vocab.lappsgrid.org/Token#pos"
+    testAnnotation = "http://vocab.lappsgrid.org/Token#pos"
+    testFeature = goldFeature = "pos"
+}
+else {
+    annotation = "http://vocab.lappsgrid.org/Token"
+    testAnnotation = "http://vocab.lappsgrid.org/Token"
+    testFeature = goldFeature = "word"
+}
+
+
+//class DataContainer extends Data<Container> {}
+
+Data goldData = Serializer.parse(gold.text, Data)
+
+Container goldContainer = null
+if (goldData.payload instanceof String) {
+    //println "Payload is a string."
+    goldContainer = Serializer.parse(goldData.payload.toString(), Container)
+}
+else {
+    //println "Gold container payload is a ${goldData.payload}"
+    goldContainer = new Container(goldData.payload)
+}
+//Container goldContainer = new Container(goldData.payload)
+View goldView = goldContainer.views[-1]
+String goldProducer = goldView.metadata.contains[annotation]?.producer
+
+//View goldView = findView(goldContainer.payload, goldAnnotationType, goldAnnotationProducer)
+
+Data testData = Serializer.parse(test.text, Data)
+Container testContainer = new Container(testData.payload)
+View testView = testContainer.views[-1]
+String testProducer = testView.metadata.contains[annotation]?.producer
+//View testView = findView(testContainer.payload, testAnnotationType, testAnnotationProducer)
+
+
+//println "Assembling container"
+Container container = new Container()
+container.text = goldContainer.text
+container.language = goldContainer.language
+
+goldView.id = 'gold'
+testView.id = 'test'
+container.addView(goldView)
+container.addView(testView)
+
+// Setup the evaluation-configuration
+def config = [:]
+config.goldAnnotationType = annotation
+config.goldAnnotationProducer = goldProducer
+config.goldAnnotationFeature = goldFeature
+
+config.testAnnotationType = testAnnotation
+config.testAnnotationProducer = testProducer
+config.testAnnotationFeature = testFeature
+
+config.outputFormat = format
+
+container.metadata['evaluation-configuration'] = config
+def eval = new ServiceClient(url, null, null)
+
+DataContainer data = new DataContainer()
+data.discriminator = Uri.LAPPS
+data.payload = container
+
+println "Running evaluation"
+String html = eval.execute(data.asJson())
+
+output.text = html
+return
+
+View findView(Container container, String type) {
+	List<View> views = container.findViewsThatContain(type)
+	if (views == 0 || views.size() == 0) {
+		throw new IOException("No views contain ${type} annotations.")
+	}
+	if (views.size() > 1) {
+		throw new IOException("More than one view contains ${type} annotations.")
+	}
+	return views[0]
+}
+
+View findView(Container container, String type, String producer) {
+	List<View> views = container.findViewsThatContainBy(type, producer)
+	if (views == 0 || views.size() == 0) {
+		throw new IOException("No views contain ${type} produced by ${producer}")
+	}
+	if (views.size() > 1) {
+		throw new IOException("More than one view contains ${type} annotations produced by ${producer}")
+	}
+	return views[0]
+}

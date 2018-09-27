@@ -1,0 +1,119 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1153, 
+        1161
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1162, 
+        1171
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        915, 
+        938
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1062, 
+        1089
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1091, 
+        1095
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1206, 
+        1210
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        602, 
+        631
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1175, 
+        1201
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1144, 
+        1152
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1096, 
+        1102
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1211, 
+        1217
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1203, 
+        1205
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH||CCO-OCR|20160503040038|AD626D2FD38E47915C72568020563E35A60858B1|ORU^R01|99999999999999999999|P|2.5|||\nPID|1||9999999^^^^CMR^HOSPITAL 3&9999&MOH~^^^^^&&~9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&NB&ON^^^^JHN|9999^9999999|XXXXX^XXXXXX^XXXXXXX^^XX.^||99999999|F|XXXXXXXXXX^XXXXXX^^^^||9-99 XXXXX XXXXXX^^XXXXXXXX^XX^X9X 9X9^999||9999999999|||||||||||||||||N||\nOBR|1||S16-8711|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604290000|||59594^XXXXX^XXXXX^^^^||||201604291519||^^^^^^||||||201605021605|||F|||||||99999^XXXXXXXX^XXXXXX^X.^^^||\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in a container labelled with the patient?s name and the designation Left breast. It consists of a pink coloured cassette containing 2 needle core biopsies submitted as follows:\nBlock A1 ? 2 needle core biopsies measuring 1.5 cm and 0.5 cm in length.\n/es.\n\n\nPath report.relevant Hx\n\nCORE BX. LEFT BREAST MASS. PALPABLE (ONE OF MULTIPLE SIMILAR) ? MUCINOUS CA. ? PAPILLOMA VS. PAPILLARY LESION. 3 X 14G.\n\n\nPath report.final diagnosis\n\nLEFT BREAST, ULTRASOUND GUIDED CORE NEEDLE BIOPSY\n\t: INVASIVE MUCINOUS CARCINOMA.\n\n\nPath report.site of origin\n\nA: Left breast\n\n\n"
+}

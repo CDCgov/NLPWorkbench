@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:vaers="http:///gov/hhs/fda/srs/annotation/vaers.ecore" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0">
+  <cas:NULL xmi:id="0"/>
+  <tcas:DocumentAnnotation begin="0" end="105" language="en" sofa="6" xmi:id="1"/>
+  <vaers:Symptom begin="0" end="24" sofa="6" text="pain vaccination site" xmi:id="2"/>
+  <vaers:Symptom begin="78" end="88" sofa="6" text="ache, pain" xmi:id="3"/>
+  <cas:Sofa mimeType="text" sofaID="_InitialView" sofaNum="1" sofaString="Pain at vaccination site. Started 11/8/15. Shot was given 9/30/15. Off and on ache, pain since that date." xmi:id="4"/>
+  <View members="0 1 2 3 4" sofa="6"/>
+</xmi:XMI>

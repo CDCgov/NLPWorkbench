@@ -1,0 +1,9 @@
+String id = args[0]
+input = new File(args[1])
+output = new File(args[2])
+
+String url = "http://vassar.lappsgrid.org/invoker/anc:$id"
+def service = new ServiceClient(url, "tester", "tester")
+output.text = service.execute(input.text)
+
+ 

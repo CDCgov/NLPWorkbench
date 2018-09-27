@@ -1,0 +1,8 @@
+// Proteins Datasource
+port=8082
+server = [
+	//url: "http://149.165.157.216:$port/GenericDatasource/1.2.0/services/GenericDatasource",
+	url: "http://149.165.157.51:$port/GenericDatasource/1.2.1/services/GenericDatasource",
+	username:'tester',
+	password:'tester'
+]

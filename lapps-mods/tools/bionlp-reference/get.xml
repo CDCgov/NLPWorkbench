@@ -1,0 +1,25 @@
+<tool id="bionlp.reference.get" name="Get a Reference Corpus document" version="2.0.0">
+ <command>lsd $__tool_directory__/get.lsd $key $type $output
+ </command>
+ <inputs>
+  <param label="Key" name="key" type="text" value="PMC-1134658-16-Methods.lif">
+  </param>
+  <param name="type" type="select">
+  	<option value="lif">Annotated</option>
+  	<option value="txt">Text only</option>
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" label="BioNLP Reference Document" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[  
+
+**Description**
+
+Includes Token, Token+pos, enju dependency parses annotated as Relation (with categories modOf, arg1Of, arg2Of, and arg3Of) in one view; and event annotations, named entity annotations for Proteins, Relations between events and proteins (themeOf, causeOf, locationOf, equivalentTo), and Modification (Negation, Speculation), for 14 full paper articles about NFκB proteins in another.
+
+]]>
+ </help>
+</tool>

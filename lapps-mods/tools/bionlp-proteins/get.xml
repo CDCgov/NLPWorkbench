@@ -1,0 +1,26 @@
+<tool id="bionlp.proteins.get" name="Get a Protein document" version="2.0.0">
+ <command>
+  $__tool_directory__/get.lsd $key $type $output
+ </command>
+ <inputs>
+  <param label="Key" name="key" type="text" value="PMC-3589482-6-Experimental_Procedures.lif">
+  </param>
+  <param name="type" type="select">
+  	<option value="lif">Annotated</option>
+  	<option value="txt">Text only</option>
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" label="BioNLP Protein Document" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[  
+
+**Description**
+
+Includes Token, Token+pos, enju dependency parses annotated as Relation (with categories modOf, arg1Of, arg2Of, and arg3Of) in one view; Proteins in another.
+
+]]>
+ </help>
+</tool>

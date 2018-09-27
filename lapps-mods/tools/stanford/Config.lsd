@@ -1,0 +1,8 @@
+server = [
+	url:'http://manager:8080/service_manager/invoker',
+	username:'operator',
+	password:'operator'
+]
+masc = [
+	id:'vassar:masc.text_2.0.0'
+]

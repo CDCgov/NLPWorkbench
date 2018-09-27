@@ -1,0 +1,47 @@
+// colors
+
+$black: #000;
+$white: #fff;
+$blue: #1e6fc0;
+
+$slate-dark: #29434e;
+$slate-medium: #7e9ba5;
+$slate-light: #b6c6d2;
+
+$amber-dark: #f7a940;
+$amber-medium: #fdd365;
+$amber-light: #fdeab9;
+
+$gray-darkest : #333333;
+$gray-darker : #555555;
+$gray-dark : #bdbdbd;
+$gray-medium : #e0e0e0;
+$gray : #f0f0f0;
+$gray-light : #f5f5f5;
+
+
+// mixins
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 767px) { @content; }
+  }
+
+  @else if $class == sm {
+    @media (min-width: 768px) { @content; }
+  }
+
+  @else if $class == md {
+    @media (min-width: 992px) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (min-width: 1200px) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
+
+
+

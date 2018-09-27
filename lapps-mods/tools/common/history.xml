@@ -1,0 +1,14 @@
+<tool id="history_context" name="history_context" version="1.0.0">
+  <command>
+    #set $history_id=$__app__.security.encode_id($output_dataset.creating_job.history.id)
+    #set $history_name=$output_dataset.creating_job.history.name
+    echo $history_id > $output_dataset;
+    echo $history_name >> $output_dataset;
+  </command>
+  <inputs>
+    <param name="ignored" type="integer" value="0" />
+  </inputs>
+  <outputs>
+    <data format="txt" name="output_dataset" />
+  </outputs>
+</tool>

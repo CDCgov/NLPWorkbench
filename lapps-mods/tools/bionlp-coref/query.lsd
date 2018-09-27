@@ -1,0 +1,25 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+include 'Config'
+
+String pattern = args[0]
+File output = new File(args[1])
+
+String url = "${server.url}"
+def client = new ServiceClient(url, server.username, server.password)
+Data q = new Data()
+q.discriminator = Uri.QUERY
+q.payload = pattern
+String json = client.execute(q.asJson())
+Data data = Serializer.parse(json, Data)
+
+if (data.payload instanceof Collection) {
+	output.withWriter { writer ->
+		data.payload.each { writer.println it }
+	}
+}
+else {
+	output.text = data.payload.toString()
+}
+
+return

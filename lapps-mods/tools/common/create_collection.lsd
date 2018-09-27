@@ -1,0 +1,21 @@
+File input = new File(args[0])
+int start = args[1] as int
+int end = args[2] as int
+
+dir = new File("outputs")
+
+if (!dir.exists()) {
+    if (!dir.mkdirs()) {
+        throw new IOException("Unable to create directory ${dir.path}")
+    }
+}
+
+DataSourceClient datasource = new DataSourceClient("http://manager:8080/service_manager/invoker/vassar:masc.text_2.0.0", "operator", "operator")
+
+String[] lines = input.readLines()
+lines[start..end].each { line ->
+    String id = line.trim()
+    File file = new File(dir, "${id}.txt")
+    file.text = datasource.get(id)
+}
+

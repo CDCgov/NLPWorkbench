@@ -1,0 +1,117 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1437, 
+        1447
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1544, 
+        1567
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1255, 
+        1282
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1207, 
+        1212
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1232, 
+        1236
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        787, 
+        816
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1467, 
+        1502
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1176, 
+        1202
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1424, 
+        1447
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1204, 
+        1206
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1229, 
+        1231
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1284, 
+        1288
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0658987^CLIA|eMARCPlus|TN Cancer Registry|20170919125831||ORU^R01^ORU_R01|201709191258310001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-51-003257^PathSys^44D0658987^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170814000000|||||||20170814000000|&Skin, Plastic Repair, Skin, Plastic Repair|1285834754^^^^^^MD^^CMS^D^^^NPI||||||20170815000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10~D05.12^Intraductal carcinoma in situ of left breast^I10~L90.5^Scar conditions and fibrosis of skin^I10~N60.11^Diffuse cystic mastopathy of right breast^I10~N60.12^Diffuse cystic mastopathy of left breast^I10~Z17.0^Estrogen receptor positive status [ER+]^I10|1326149907&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received designated \"right mastectomy scar\" in fixative is a single portion of firm tan scar tissue with epidermis that is well-healed and 21 mm in greatest dimension. Entirely submitted. 2. Received designated \"left mastectomy scar\" in fixative is a portion of epidermis with a well-healed scar that is 25 mm in greatest dimension. Entirely submitted.\n\n\nPath report.site of origin\n\n1. Right mastectomy scar 2. Left mastectomy scar\n\n\nPath report.final diagnosis\n\n1-2. Mastectomy scar, right and left, revision:     Dermal scar with chronic inflammation and focal foreign body giant cell       response, negative for malignancy (see 17-51-845).\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - History of breast cancer\n\n\n"
+}

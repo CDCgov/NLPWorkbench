@@ -1,0 +1,28 @@
+<tool id="morph.adorner" name="Weblicht MorphAdorner" version="1.0.0">
+ <description></description>
+ <command interpreter="lsd">
+  ../common/invoke_vassar.lsd weblicht.morph.adorner_1.0.0 $input $output
+ </command>
+ <inputs>
+  <param format="tcf" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="tcf" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+MorphAdorner
+------------------
+
+MorphAdorner provides methods for adorning text with standard spellings, parts of speech and lemmata.
+
+**License**
+
+MorphAdorner is released under a `NCSA Style License <http://morphadorner.northwestern.edu/morphadorner/licenses/>`_.
+
+]]>
+ </help>
+</tool>

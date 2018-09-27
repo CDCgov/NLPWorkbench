@@ -1,0 +1,11 @@
+<tool id="test.neraddlabel" name="Add Named Entity labels" version="1.0.0">
+  <description>Fixes NER output from the Brandeis Stanford module</description>
+  <command interpreter="lsd">nerAddLabel.lsd $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="lif"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="lif"/>
+  </outputs>
+  <help>Adds missing Named Entity labels.</help>
+</tool>

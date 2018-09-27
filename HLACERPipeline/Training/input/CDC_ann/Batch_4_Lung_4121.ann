@@ -1,0 +1,109 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        955, 
+        968
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        969, 
+        978
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1339, 
+        1362
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        997, 
+        1017
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        869, 
+        896
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        663, 
+        668
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        898, 
+        903
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        522, 
+        557
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        605, 
+        631
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        669, 
+        674
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        904, 
+        909
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0920291^CLIA|eMARCPlus|TN Cancer Registry|20170919125907||ORU^R01^ORU_R01|201709191259070001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-KN-000428^PathSys^44D0920291^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170818000000|||||||20170821000000|&FNA Interpretation and Report,|1801894142^^^^^^MD^^CMS^D^^^NPI||||||20170821000000|||F||||||C34.91^Malignant neoplasm of unspecified part of right bronchus or lung^I10|1710939939&&&L.&&&&&CMS\n\n\n\n\n\n\n\nPath report.microscopic examination\n\n5 Direct Smear and Cell Block are examined.\n\n\nPath report.site of origin\n\nFine Needle Aspiration, EBUS, Right Hilar Mass Prepared are 5 slides in 95% alcohol for rapid on site adequacy evaluation by a cytotechnologist. Also collected are 20 cc's of cloudy, red saline solution obtained from needle rinsings.\n\n\nPath report.final diagnosis\n\nRight hilar mass, endobronchial ultrasound-guided FNA:   Squamous cell carcinoma.   See comment.\n\n\nPath report.comments\n\nComments - If clinically indicated, tumor genomic studies (EGFR by next-generation sequencing, ALK/ROS1 by FISH, and PDL-1 IHC) can be performed. Due to the somewhat limited number of tumor cells in the cell block, the entire panel may not be able to be completed. Results discussed with Dr. on 8/21/2017 at 11:15 AM.\n\n\nPath report.relevant Hx\n\nHistory - Pt with right hilar mass.\n\n\n"
+}

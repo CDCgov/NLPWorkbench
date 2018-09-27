@@ -1,0 +1,15 @@
+<tool id="kyoto.opennlp.tagger" name="OpenNLP Tagger" version="1.0.0">
+  <description>OpenNLP POS Tagger running on the Kyoto Language Grid</description>
+  <command interpreter='lsd'>invoke_kyoto_ma.lsd OpenNLPPOSTagger $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="lif,txt"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="lif" label="Kyoto OpenNLP Tagger">
+        <actions>
+            <action type="metadata" name="pos" default="True"/>
+        </actions>
+    </data>
+  </outputs>
+  <help>TODO: Add some help text.</help>
+</tool>

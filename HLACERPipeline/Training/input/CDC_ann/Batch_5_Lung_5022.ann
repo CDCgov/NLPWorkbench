@@ -1,0 +1,127 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        965, 
+        979
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        824, 
+        847
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1197, 
+        1217
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        907, 
+        934
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        946, 
+        950
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1180, 
+        1184
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        541, 
+        570
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1144, 
+        1170
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        940, 
+        944
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1172, 
+        1176
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1185, 
+        1189
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        937, 
+        939
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        997, 
+        1029
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160502130000|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||SA99999999^^^^CMR^HOSPITAL 2&9999&MOH~SA99999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&FX&ON^^^^JHN||XXXXXX^XXXXXX^XXXX||99999999|F||||||||||||||||||||||N|\nOBR|1||S16-24213|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604151055|||93264^XXXXXXXXX^XXXXXXX||||201604151147|&Lung:Bx left lung mass|99999^XXXXXXXXX^XXXXXXX||||||201604291441||S|C|||||||99999^XXXXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen labeled with the patient's name and as \"biopsy left lung mass x3\", consists of 3 core like pieces of pale pink tissue measuring from 0.4 to 1.0 cm in length x <0.1 cm in diameter, received in 10% buffered formalin.\n1A submitted in toto\n\n\n\nPath report.relevant Hx\n\nNo previous cancer. Biopsy left lung mass x3,(20 x 16)\n\n\n\nPath report.final diagnosis\n\n\n1. Lung (left), biopsy:\n  - Adenocarcinoma (see Comment)\n\n\n\nPath report.supplemental reports\n\nBy immunohistochemistry, the tumor cells stain positive for TTF-1 and CK7 in keeping with pulmonary origin.\n\n\n\n\n\nPath report.site of origin\n\nLung:Bx left lung mass\n\n\nPath report.comments\n\nSections show an adenocarcinoma with an acinar growth pattern within a fibrotic stroma. \n\nImmunohistochemical stains to further characterize the tumor are pending. The results will be reported in an addendum. \n\n\n\n"
+}

@@ -1,0 +1,125 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1302, 
+        1311
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1315, 
+        1338
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1410, 
+        1430
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1205, 
+        1232
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1157, 
+        1161
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1174, 
+        1178
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1242, 
+        1246
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        605, 
+        634
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1121, 
+        1147
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1285, 
+        1293
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1149, 
+        1155
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1234, 
+        1240
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1294, 
+        1301
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160504104200|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 2&9999&MOH~9999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&&ON^^^^JHN||XXXXXXXXX^XXXXXXX^XXXXXXX||99999999|F|||999 XXXXX'X XXXX^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-28214|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605021417|||93658^XXXXXXX^XXXXXX||||201605030910|&Breast: Left Core Biopsy Left ultrasound core bx, 14G|99999^XXXXXXX^XXXXXX||||||201605041041||SPG|F|||||||99999^XXXXXXXX^XXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Specimen received with documentation as follows:\n\nTime tissue excised: Not provided\nTime tissue received in lab: Not provided\nTime tissue placed in formalin: Not provided\nDate tissue sent for processing: May 3, 2016\n\nThe specimen labeled with the patient's name and as \"Breast: Left ultrasound core biopsy 14G\", contains 4 core like pieces of yellow-tan tissue measuring from 0.9 to 1.7 cm in length by 0.1 cm in diameter received in 10% buffered formalin.\n1A submitted in toto.\n\n\n\nPath report.site of origin\n\nBreast: Left Core Biopsy Left ultrasound core bx, 14G\n\n\nPath report.final diagnosis\n\nBreast, left, 14G ultrasound-guided core biopsy:\n- Invasive mammary carcinoma\n\n\n\nPath report.relevant Hx\n\nSuspicious left breast mass. left 10 o'cl. Core biopsy performed. \n\n\n\nPath report.comments\n\nSections show four fragmented cores of tissue infiltrated by carcinoma showing rare tubule formation, moderate nuclear pleomorphism and rare mitoses (Nottingham grade II/III in this limited sample). The tumour demonstrates a prominent single cell and linear file growth pattern; however, definitive histological classification is deferred to the excision specimen. A minor atypical intraductal component is present.\n\nHormone receptor and HER2 status will be reported in an addendum. \n\n\n\n"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<datatypes>
+  <registration converters_path="lib/galaxy/datatypes/converters" display_path="display_applications">
+    <datatype extension="velvet" type="galaxy.datatypes.assembly:Velvet" display_in_upload="true"/>
+    <datatype extension="txt" type="galaxy.datatypes.data:Text" display_in_upload="true"/>
+    <datatype extension="tabular" type="galaxy.datatypes.tabular:Tabular" display_in_upload="true"/>
+    <datatype extension="fasta" type="galaxy.datatypes.sequence:Fasta" display_in_upload="true" />
+    <datatype extension="fastq" type="galaxy.datatypes.sequence:Fastq" display_in_upload="true" />
+    <datatype extension="fastqsanger" type="galaxy.datatypes.sequence:FastqSanger" display_in_upload="true" />
+    <datatype extension="fastqsolexa" type="galaxy.datatypes.sequence:FastqSolexa" display_in_upload="true" />
+    <datatype extension="fastqcssanger" type="galaxy.datatypes.sequence:FastqCSSanger" display_in_upload="true" />
+    <datatype extension="fastqillumina" type="galaxy.datatypes.sequence:FastqIllumina" display_in_upload="true" />
+    <datatype extension="sam" type="galaxy.datatypes.tabular:Sam" display_in_upload="true" />
+    <datatype extension="bam" type="galaxy.datatypes.binary:Bam" mimetype="application/octet-stream" display_in_upload="true" description="A binary file compressed in the BGZF format with a '.bam' file extension." description_url="https://wiki.galaxyproject.org/Learn/Datatypes#BAM" />
+    <datatype extension="bcf" type="galaxy.datatypes.binary:Bcf" mimetype="application/octet-stream" display_in_upload="true" description="A binary file compressed in the BGZF format with a '.bcf' file extension." description_url="https://wiki.galaxyproject.org/Learn/Datatypes#BCF" />
+    <datatype extension="biom1" type="galaxy.datatypes.text:Biom1" display_in_upload="True" subclass="True" mimetype="application/json"/>
+  </registration>
+</datatypes>

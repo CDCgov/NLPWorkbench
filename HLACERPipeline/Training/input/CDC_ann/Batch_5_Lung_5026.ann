@@ -1,0 +1,121 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        934, 
+        947
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        948, 
+        957
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        977, 
+        1000
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1083, 
+        1103
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        865, 
+        892
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        903, 
+        908
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        565, 
+        594
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        818, 
+        844
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        846, 
+        850
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        897, 
+        901
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        909, 
+        919
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        894, 
+        896
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160502163900|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 2&9999&MOH~9999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&&ON^^^^JHN||XXXXXX^XXXXX^XXXXX||99999999|M|||999-999 XXXXXX XX X^^XXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-26631|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604261016|||66471^XXXXXX^XXXXXX||||201604261431|&Lung: RUL LESION|99999^XXXXXX^XXXXXX||||||201605021639||SPG|F|||||||99999^XXXX^XXXX-XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen labeled with the patient's name and as \"Lung-right upper lobe lesion\" consists of one core like piece of grayish white tissue, measuring 1.2 x 0.1 cm received in 10% buffered formalin.\n1A submitted in toto\n\n\n\nPath report.site of origin\n\nLung: RUL LESION\n\n\nPath report.final diagnosis\n\n1. Lung (right upper lobe), biopsy:\n  - Squamous cell carcinoma. (See Comment) \n\n\n\nPath report.relevant Hx\n\nRIGHT UPPER LOBE LESION BIOPSY R/O CANCER. PT. IS UNDERGOING CHEMO/ RADIATION\n\n\n\nPath report.comments\n\nH\\T\\E stained sections of the biopsy show solid nests of epithelioid malignant cells within a fibrotic and desmoplastic stroma. The cells are polygonal with eosinophilic solid to vacuolated cytoplasm with enlarged, hyperchromatic and pleomorphic nuclei that are oval to spindle in shape. Occasional intracellular bridges are noted. By immunohistochemistry the cells stain positive for CK5, p63 and stain negative for p16. Overall the findings are that of a squamous cell carcinoma.\n\nThe patient is noted to have a recent metastatic squamous cell carcinoma to the parotid gland (S16-8933). The present lung biopsy shows the malignant cell to have a different cytomorphology and immunohistochemistry staining pattern to the parotid tumor.\n\n\n\n"
+}

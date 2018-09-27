@@ -1,0 +1,107 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1290, 
+        1304
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1312, 
+        1335
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1173, 
+        1200
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        559, 
+        588
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1084, 
+        1110
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1268, 
+        1289
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1165, 
+        1170
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1206, 
+        1214
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1251, 
+        1256
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1202, 
+        1204
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1247, 
+        1249
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 12^9999^MOH|PIMS|CCO|20160507045551|F4BA82F30307815B81EE4078811B0FCCF2116E04|ORU^R01|9999999999999|P|2.5||||||||||\nPID|1||V999999999^^^^CMR^HOSPITAL 12&9999&MOH~^^^^RMR^&MOH~V999999999^^^^MRN^HOSPITAL 12&9999&MOH~9999999999&NM&ON^^^^JHN||XXXXXXX^XXXXX^XXXXX||99999999|F|||99 XXXXX XXXXX^^XXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S-8963-16|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160505|||56796^XXXXXX^XXXXXX XXXXX^X^^^||||||||||||20160506|||F|||||||99999^XXXXXXX^XXX XXXXXXXXXX^^^^XX XXXXX||\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in 2 parts.\nA. The specimen, received in formalin, labeled with the patient's identification, Vantage\ntag and \"A. duodenal biopsies\", consists of 2 fragments of soft tan tissue (4 and 5 mm) and\na wisp of similar tissue.\nEntirely submitted: A1\nB. The specimen, received in formalin, labeled with the patient's identification, Vantage\ntag and \"B. neoplastic lesion BX ? Cecum\", consists of 3 fragments of soft tan tissue (4-5\nmm).\nEntirely submitted: B1\nfd May 5, 2016\n\n\nPath report.site of origin\n\nBIOPSY DUODENAL BXS\nBIOPSY NEOPLASTIC LESION BXS - ? CECUM\n\n\nPath report.final diagnosis\n\nA.  DUODENUM, BIOPSY\n(  WITHIN NORMAL LIMITS\nB.  CECUM, BIOPSY\n(  POORLY DIFFERENTIATED ADENOCARCINOMA\n5/ew\n\n\nPath report.relevant Hx\n\nANEMIA\n\n\n"
+}

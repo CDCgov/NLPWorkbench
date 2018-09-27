@@ -1,0 +1,143 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1929, 
+        1938
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1788, 
+        1811
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1835, 
+        1862
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1872, 
+        1876
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2014, 
+        2018
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1345, 
+        1374
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1986, 
+        2012
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2044, 
+        2063
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2644, 
+        2663
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1907, 
+        1928
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1864, 
+        1870
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2019, 
+        2025
+      ]
+    }
+  ], 
+  "Primary Origin of Neoplasm (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2462, 
+        2476
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1877, 
+        1881
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2026, 
+        2035
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL HOSPITAL^3587^MOH|PIMS|CCO|201605042311|154F70583D500CD6001C9EECECCFB49A62EA85FD|ORU^R01|999999999999999|P|2.5|\nPID|1||M99999999^^^^CMR^HOSPITAL 11&9999&MOH~~M99999999^^^^MRN^HOSPITAL HOSPITAL&9999&MOH~9999999999&NT&ON^^^^JHN|9999^M99999999|XXXXXXXXXX^XXXXXXX^||99999999|F|||9999 XXXXX XXXXXXXXX XX XXXX^^XXXXXXX^XX^X9X 9X9^999||999-999-9999|||||||||||||||||N|\nOBR|1||16:S4133|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160418|||84729^XXXX^XXXXX||||||||||||20160425|||C|||||||99999^XX^XXXXX|\n\n\n\n\n\n\n\nPath report.addendum spec\n\nSCANNED POST SEPT 2015:\nIn the EMR the scanned image of the consultation report is found under the\nREPORTS tab > PATHOLOGY or ,<All>, listed under the date when the image was\nscanned. The appearance of a camera icon indicates that this report is a scanned\nimage of a textual report.\nSCANNED PRE SEPT 2015:\nThe consultation report for this case has been received from our reference\ncentre. The report has been scanned into the Electronic Medical Record and can\nbe found according to the date of surgery in the EMR:\nSELECT VISIT tab; Under TIME PERIOD list select \"ALL\"; in the Reports list\nsection select \"REVIEW VISITS\" tab; at the bottom of the screen keep selecting\nNEXT until the header PATH OUTSIDE CONSULT for the appropriate date is found in\nthe list of documents.\n\n\nPath report.gross description\n\nThe specimen is labelled \"left breast 2 o'clock cores\" and consists of three tan\ncore tissues measuring from 1.6 cm to 1.8 cm in length x 0.1 cm in maximum\nexternal diameter, along with three fragments of similar tissue measuring from\n0.1 cm to 0.2 cm in maximum dimension.\nThe specimen is entirely submitted as follows:\nBlock A1 and A2 - one core in each block,\nBlock A3 - one core and three fragments.\nAL/sk\n\n\nPath report.relevant Hx\n\n? Cancer, ? abscess\n\n\nPath report.final diagnosis\n\nBREAST, LEFT 2:00, NEEDLE CORE BIOPSIES:\n- POORLY DIFFERENTIATED CARCINOMA WITH EXTENSIVE NECROSIS, PLEASE SEE COMMENTS\n\n\nPath report.site of origin\n\nLeft breast 2 o'clock cores\n\n\nPath report.comment\n\nSections show extensive necrotic tissue with only focal clusters of atypical\ncells identified. The tumor cells have enlarged, pleomorphic nuclei with\nprominent nucleoli. Immunohistochemical stains show that tumor cells are\npositive for CK7 and E-cadherin, and are negative for ER and TTF1. The findings\nare consistent with a poorly differentiated invasive carcinoma. This could be\nconsistent with breast primary. However, other primary sites need to be ruled\nout. Clinical correlation is suggested. A representative block of the tumor has\nbeen sent for ER/PR and Her2 studies.\n\n\nPath report.comment\n\nCOLD ISCHEMIC TIME: 0 MIN\nTOTAL FIXATION TIME: 36 HRS 51 MIN\n\n\n"
+}

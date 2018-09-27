@@ -1,0 +1,83 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2172, 
+        2195
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1518, 
+        1538
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1223, 
+        1250
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        489, 
+        518
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1184, 
+        1210
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1451, 
+        1499
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1212, 
+        1220
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1212, 
+        1220
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170917000048||ORU^R01^ORU_R01|201709170000480001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-012122^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170902000000|||||||20170903000000|&Appendix,  other than incidental|1437143419^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C18.1^Malignant neoplasm of appendix^I10|1750607313&&&M.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient's name is \"\" identified by requisition and specimen container label. Received in formalin in a container labeled with the patient's name and \"appendix\" is an appendix 6.5 cm in length and up to 2 cm in diameter. There is an attached 4.5 x 1.5 x 1.5 cm mesoappendix. The serosa is smooth and tan. The appendiceal margin contains a row of staples and is inked black. The remaining appendix is inked blue. On section the lumen contains opaque mucinous material. The 0.1 to 0.2 cm thick wall appears intact and there is no evidence of perforation. A fecalith is not present. Sections comprising the entire appendix are submitted in cassettes 1A-1L. (RH)\n\n\nPath report.site of origin\n\nAppendix\n\n\nPath report.final diagnosis\n\nAppendix, appendectomy:   Low-grade appendiceal mucinous neoplasm (LAMN), present at inked resection    margin.   Focal dissecting mucin, limited to appendiceal wall.   No evidence of perforation.   No high-grade dysplasia or malignancy identified.   See comment.\n\n\nPath report.comments\n\nComments - Dissecting mucin is associated with pseudomyxoma peritonei (PMP). The risk of developing PMP in the future is low, however, when there is no evidence of perforation, the appendix is not adherent to other structures, and mucin is limited to the appendiceal wall. In patients with LAMNs confined to the appendix, it has been reported that involvement of the proximal margin does not predict recurrence of disease, even without further surgery. Reference: Arnason T, Kamionek M, Yang M, et al. Significance of proximal margin involvement in low-grade appendiceal mucinous neoplasms. Arch Pathol Lab Med. 2015;139:518-521.\n\n\nPath report.relevant Hx\n\nHistory - Appendiceal mucocele\n\n\n"
+}

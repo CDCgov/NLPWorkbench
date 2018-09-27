@@ -1,0 +1,275 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3182, 
+        3188
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3672, 
+        3678
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3023, 
+        3032
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3189, 
+        3198
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3265, 
+        3274
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5967, 
+        5990
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2905, 
+        2932
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2767, 
+        2771
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2805, 
+        2809
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2949, 
+        2953
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3078, 
+        3082
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2772, 
+        2800
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2937, 
+        2947
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3040, 
+        3059
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        531, 
+        560
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5890, 
+        5925
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2736, 
+        2762
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2997, 
+        3032
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3012, 
+        3022
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3153, 
+        3161
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3162, 
+        3171
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3179, 
+        3180
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4084, 
+        4085
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2810, 
+        2816
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3070, 
+        3076
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2764, 
+        2766
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2802, 
+        2804
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Steven", 
+      "__extent": [
+        2934, 
+        2936
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3067, 
+        3069
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3454, 
+        3471
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^18D1004797^CLIA|eMARCPlus|KY Cancer Registry|20170919000156||ORU^R01^ORU_R01|201709190001560001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-TJ-005079^PathSys^18D1004797^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170906000000|||||||20170907000000|&Sentinel Lymph Node, Breast, Mastectomy - partial/simple|1407850134^^^^^^^^CMS^D^^^NPI||||||20170909000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10|&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Specimen #1 is received in formalin labeled with the patient's name \"\" and \"left axillary sentinel lymph node\" is a single portion of tan-yellow fatty tissue measuring 2.5 x 2.2 x 0.7 cm. The tissue is palpated revealing a single lymph node candidate measuring 1.2 x 0.5 x 0.5 cm. The specimen is serially sectioned perpendicular the long axis and entirely submitted in cassette 1A. 2. A single specimen is received fresh and subsequently placed in formalin labeled with the patient's name \"\" and \"left breast tissue\". The specimen total formalin fixation time is 27 hours 30 minutes. The specimen is oriented per the surgeon with a long suture indicating the lateral aspect of the specimen, a short suture indicating the medial aspect of the specimen, a blue suture indicates the inferior aspect of the specimen and a needle protruding from the surface of the specimen indicates the anterior aspect of the specimen. As noted, a needle localization wire is in place. The specimen is received in a large specimen container and is not placed in a compression device. The specimen measures 7.5 cm from medial to lateral, 7.5 cm from anterior to posterior, and up to 4.0 cm from superior to inferior. The specimen is inked as follows: Blue=superior, green=inferior, orange=anterior, and black=posterior. The specimen is serially sectioned from medial to lateral revealing tan-yellow fatty breast tissue with a pale white, firm area measuring 0.5 x 0.5 x 0.4 cm is identified near the medial aspect of the specimen. This area is located 1.4 cm from the superior margin, 1.5 cm from the inferior margin, 2.9 cm from the posterior margin and 2.1 cm from the anterior margin. This lesion is also situated at least 2.5 cm from the medial margin and greater than 3.0 cm from the lateral margin. Additional discrete lesion is not identified. A complete cross section, including relation to superior and inferior margin is submitted in cassettes A and B. The remaining portion of the described lesion submitted in cassettes C and D. Lateral and medial flanking tissue submitted in cassettes E and F, respectively. Representative breast tissue submitted in cassettes G and H. (mlm)\n\n\nPath report.site of origin\n\n1. Left axillary sentinel lymph node. 2. Left breast tissue (fresh, long lateral needle anterior, short medial blue inferior near nipple).\n\n\nPath report.final diagnosis\n\n1. Lymph node, left axillary, sentinel, excisional biopsy:     No evidence of metastatic carcinoma in one sentinel lymph node (0/1). 2. Breast, left, excisional biopsy (partial mastectomy) with needle localization:     Invasive low grade (grade 1) ductal carcinoma.     AJCC pathologic stage: pT1a pN0(sn).     All margins free of carcinoma.     Invasive carcinoma is 1.4 cm from the superior margin, which is the closest       margin.     Focal atypical ductal hyperplasia; margins free of atypical ductal hyperplasia. CANCER CHECKLIST: INVASIVE CARCINOMA OF THE BREAST 3.000.001.1000043 SPECIMEN  Procedure: Excision (less than total mastectomy)  Specimen Laterality: Left TUMOR  Histologic Type: Invasive carcinoma of no special type (ductal, not otherwise specified)  Glandular (Acinar) / Tubular Differentiation: Score 3 (< 10% of tumor area forming glandular / tubular structures)  Nuclear Pleomorphism: Score 1 (Nuclei small with little increase in size in comparison with normal breast epithelial cells, regular outlines, uniform nuclear chromatin, little variation in size)  Mitotic Rate: Score 1 (<=3 mitoses per mm2)  Overall Grade: Grade 1 (scores of 3, 4 or 5)  Tumor Size: Greatest dimension of largest invasive focus > 1 mm (specify exact measurement in Millimeters (mm)):  Greatest dimension of largest invasive focus > 1 mm (specify exact measurement in Millimeters (mm)):: 5mm  Tumor Focality: Single focus of invasive carcinoma  Ductal Carcinoma In Situ (DCIS): No DCIS in specimen Tumor Extent  Skin: Skin is not present  Skeletal Muscle: No skeletal muscle is present Accessory Findings  Lymphovascular Invasion: Not identified  Dermal Lymphovascular Invasion: No skin present  Treatment Effect: No known presurgical therapy MARGINS  Invasive Carcinoma Margins: Uninvolved by invasive carcinoma  Distance from Closest Margin in Millimeters (mm): Specify distance  Specify distance: 14mm  Closest Margin: Superior  DCIS Margins: No DCIS in specimen LYMPH NODES  Number of Lymph Nodes with Macrometastases (> 2 mm): Specify number  Specify number: 0  Number of Lymph Nodes with Micrometastases (> 0.2 mm to 2 mm and / or > 200 cells): Specify number  Specify number: 0  Number of Lymph Nodes with Isolated Tumor Cells (<= 0.2 mm and <= 200 cells)#: Not applicable  Number of Lymph Nodes Examined: Specify number  Specify number: 1  Number of Sentinel Nodes Examined: Specify number  Specify number: 1 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (Invasive Carcinoma) (pT): pT1a: Tumor > 1 mm but <= 5 mm in greatest dimension### Regional Lymph Nodes (pN)  Modifier: (sn): Only sentinel node(s) evaluated. If 6 or more nodes (sentinel or nonsentinel) are removed, this modifier should not be used.  Category (pN): pN0: No regional lymph node metastasis identified or ITCs only#  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - Left breast cancer, center portion.\n\n\n"
+}

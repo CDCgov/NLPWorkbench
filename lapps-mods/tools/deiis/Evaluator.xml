@@ -1,0 +1,31 @@
+<tool id="deiis.evaluator" name="Evaluator" version="1.0.0">
+    <description>Calculates precision, recall, and F1 score.</description>
+    <command>lsd $__tool_directory__/evaluate.lsd $n.value $input $output</command>
+    <inputs>
+        <param name="input" type="data" format="lif"/>
+        <conditional name="n">
+			<param name="Algorithm" type="select" label="Algorithm to calculate N" display="checkboxes">
+				<option value="c" selected="True">Calculated</option>
+				<option value="f">Fixed</option>
+			</param>
+			<when value="f">
+		        <param name="value" type="integer" min="1" value="3" label="Select a value for N"/>
+			</when>
+			<when value="c">
+				<param name="value" type="hidden" value="-1"/>
+			</when>
+        </conditional>
+        
+    </inputs>
+    <outputs>
+        <data name="output" format="lif" label="Evaluated"/>
+    </outputs>
+    <help><![CDATA[
+    
+**What it does**
+
+Calculates the precision, recall and the F1 score for the ranked candidate answers.  The top *N* answers are considered correct, where *N* can be specified as a parameter to the service (Fixed) or calculated dynamically (Calculated) based on the number of correct candidate answers.
+
+]]>
+    </help>
+</tool>

@@ -1,0 +1,335 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2644, 
+        2650
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2844, 
+        2850
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2893, 
+        2903
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3169, 
+        3179
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3355, 
+        3361
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4313, 
+        4319
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2651, 
+        2660
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2851, 
+        2860
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3180, 
+        3189
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3362, 
+        3371
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3667, 
+        3675
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2462, 
+        2485
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8473, 
+        8493
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2518, 
+        2545
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2550, 
+        2554
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4197, 
+        4201
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8437, 
+        8441
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        738, 
+        767
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8332, 
+        8367
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8409, 
+        8435
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2635, 
+        2643
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2861, 
+        2868
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3160, 
+        3168
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4", 
+      "__extent": [
+        3290, 
+        3298
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3372, 
+        3379
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3656, 
+        3666
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2688, 
+        2689
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3197, 
+        3198
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4709, 
+        4710
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Steven", 
+      "__extent": [
+        2691, 
+        2701
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2555, 
+        2561
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8442, 
+        8448
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2869, 
+        2876
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4235, 
+        4255
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2547, 
+        2549
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8128, 
+        8160
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4022, 
+        4039
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Tennova Healthcare - Cleveland Laboratory^44D0309307^CLIA|eMARCPlus|TN Cancer Registry|20170916000025||ORU^R01^ORU_R01|201709160000250001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-SB-003314^PathSys^44D0309307^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170830000000|||||||20170830000000|&Breast, Mastectomy - with regional lymph nodes, PQRS Breast IHC HER2, PQRS Breast Cancer Resection|1801800313^^^^^^MD^^CMS^D^^^NPI||||||20170906000000|||F||||||C50.412^Malignant neoplasm of upper-outer quadrant of left female breast^I10~C77.3^Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes^I10~C79.89^Secondary malignant neoplasm of other specified sites^I10|54321&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nSubmitted in formalin and labeled \", left breast and axillary contents\" is a 26.0 x 13.0 x 3.0 cm yellow-red left breast mastectomy specimen. Anteriorly is a skin ellipse, 17.3 x 10.0 cm. In the lower portion of the mid skin ellipse is an areola approximately 3 cm in diameter surrounding a nipple 1.3 cm diameter. A flesh colored papule is present in the 12-o'clock area immediately above the areola approximately 0.6 cm in greatest dimension. In the upper lateral quadrant is a palpable firm nodule approximately 4 cm greatest dimension. The overlying skin is soft supple and without ulcerations. The posterior margin is inked in black, the superior margin is inked in blue, and the inferior margin is inked in green. The specimen is serially transverse sectioned revealing a firm irregular white mass measuring 4.0 x 3.5 x 2.7 cm. The mass closely approximates the posterior inked margin. Upon sectioning of the mass, the mass is white-pink and firm. No areas of necrosis are identified grossly. A second smaller firm irregular white mass is noted in the medial upper quadrant, 2.0 x 1.5 x 1.8 cm in greatest dimension. The mass is separated from the posterior margin by approximately 1 cm. A distance of approximately 6 cm separates the 2 masses. The axillary fragment is removed and evaluated for lymph nodes. Multiple lymph nodes are identified, the largest node approximately 2.4 cm in greatest dimension. 1A, nipples; 1B-1F, sections from main, larger mass; 1G-1I, sections from smaller mass; 1J, skin overlying larger mass and papule on skin; 1K-1L, 2 lymph nodes, both bisected; 1M-1P, lymph nodes; 1Q-1T, additional sections of mass. Representative sections, 20 cassettes. (sb21)\n\n\nPath report.relevant Hx\n\nHistory - Left breast cancer\n\n\nPath report.final diagnosis\n\n1. Left breast mass, modified radical mastectomy: (2 masses present)   Larger mass:     Invasive ductal carcinoma (NOS) with necrosis; grade 3 (Nottingham method);       40 mm greatest dimension.     All surgical margins negative for invasive neoplasm; closest margin - posterior       (4mm).     Ductal carcinoma in situ present, non-extensive, cribriform pattern, intermediate        nuclear grade; no necrosis.     All surgical margins negative for DCIS.    Lymph-vascular and perineural invasion present.    No nipple or skin involvement by neoplasm.   Smaller mass: (separated from larger mass by 60 mm)     Invasive cribriform carcinoma; grade 1 (Nottingham method); 20 mm       greatest dimension.     All surgical margins negative for invasive neoplasm; closest margin - posterior       (10 mm).     Ductal carcinoma in situ present; non-extensive, cribriform pattern, intermediate       nuclear grade; no necrosis.     All surgical margins negative for DCIS.     No lymph-vascular or perineural invasion identified.     No nipple or skin involvement by neoplasm.   One of 14 lymph nodes positive for metastatic neoplasm (micrometastasis and     capsular lymphatic space invasion).   Other findings:     Florid usual epithelial hyperplasia, microcysts, stromal fibrosis and chronic       inflammation.     Skin with neurofibroma.     Intratumoral, extratumoral, and blood vessel wall calcifactions. AJCC Stage (based on the larger mass): pT2. pN0 (i+)   See comment. CANCER CHECKLIST: INVASIVE CARCINOMA OF THE BREAST 3.000.001.1000043  Procedure: Total mastectomy (including nipple-sparing and skin-sparing mastectomy)  Specimen Laterality: Left  Tumor Site: Invasive Carcinoma: Upper outer quadrant  Histologic Type: Invasive carcinoma of no special type (ductal, not otherwise specified)  Glandular (Acinar) / Tubular Differentiation: Score 2 (10 to 75% of tumor area forming glandular / tubular structures)  Nuclear Pleomorphism: Score 3 (Vesicular nuclei, often with prominent nucleoli, exhibiting marked variation in size and shape, occasionally with very large and bizarre forms)  Mitotic Rate: Score 3 (>=8 mitoses per mm2)  Overall Grade: Grade 3 (scores of 8 or 9)  Tumor Size: Greatest dimension of largest invasive focus > 1 mm (specify exact measurement in Millimeters (mm)):  Greatest dimension of largest invasive focus > 1 mm (specify exact measurement in Millimeters (mm)):: 40mm  Tumor Focality: Multiple foci of invasive carcinoma  Ductal Carcinoma In Situ (DCIS): DCIS is present in specimen, Negative for extensive intraductal component (EIC)  Architectural Patterns: Cribriform  Nuclear Grade (see Table 2 in CAP Protocol): Grade II (intermediate)  Necrosis: Not identified  Lobular Carcinoma In Situ (LCIS): No LCIS in specimen  Skin Invasion: Invasive carcinoma does not invade into the dermis or epidermis  Nipple DCIS: DCIS does not involve the nipple epidermis  Skeletal Muscle: No skeletal muscle is present  Lymphovascular Invasion: Present  Dermal Lymphovascular Invasion: Not identified  Microcalcifications: Present in invasive carcinoma  Treatment Effect: No known presurgical therapy  Invasive Carcinoma Margins: Uninvolved by invasive carcinoma  Distance from Posterior Margin in Millimeters (mm): 4mm  DCIS Margins: Uninvolved by DCIS (DCIS present in specimen)  Distance of DCIS to Posterior Margin in Millimeters (mm): 10mm  Number of Lymph Nodes with Macrometastases (> 2 mm): Specify number  Specify number: 0  Number of Lymph Nodes with Isolated Tumor Cells (<= 0.2 mm and <= 200 cells)#: Specify number  Specify number: 1  Number of Lymph Nodes Examined: Specify number  Specify number: 14  Primary Tumor (Invasive Carcinoma) (pT): pT2: Tumor > 20 mm but <= 50 mm in greatest dimension  Category (pN): pN0 (i+): ITCs only (malignant cell clusters no larger than 0.2 mm) in regional lymph node(s) BREAST: Biomarker Reporting Template 1.001.001.1000043 TEST(S) PERFORMED  Test(s) Performed: Estrogen Receptor (ER) Status, Progesterone Receptor (PgR) Status, HER2 by Immunohistochemistry (IHC), +Ki-67, p53. Estrogen Receptor: Positive.  Percentage of Cells with Nuclear Positivity#: 91-100%  Average Intensity of Staining: Strong  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Food and Drug Administration (FDA) cleared (specify test / vendor): Ventana  Primary Antibody: SP1  PgR Results: Positive  Percentage of Cells with Nuclear Positivity#: 91-100%  Average Intensity of Staining: Strong  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Food and Drug Administration (FDA) cleared (specify test / vendor): Ventana  Primary Antibody: 1E2  HER2 IHC Results: Equivocal (Score 2+); Sent for flow cytometry analysis; results     to follow.  Percentage of Cells with Uniform Intense Complete Membrane Staining: <3%  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Primary Antibody: 4B5  Test Type : Ventana Ki-67:  Percentage of Positive Nuclei: 60-70%  Primary Antibody: 30-9  Test type: Ventana. p53 Resutls: Positive.  Percentage of Positive Nuclei: 60%; strong nuclear staining.  Primary antibody: Bp53-11  Test type: Ventana. METHODS  Cold Ischemia and Fixation Times: Meet requirements specified in latest version of the ASCO / CAP Guidelines  Cold Ischemia Time (min): 1-2min  Time of Fixation (hours): 35hours  Testing Performed on Block Number(s) (specify): 1B  Fixative: Formalin  Image Analysis: Not performed\n\n\nPath report.supplemental reports\n\nFish Report: FISH - NEGATIVE for HER2 oncogene amplification by FISH analysis  NEGATIVE for chromosome 17 polysomy by FISH analysis       ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nLeft breast and axillary contents\n\n\nPath report.comments\n\nComments - There are 2 primary tumors present in the mastectomy specimen. The grade of the main mass is based on a score of 8 of 9 (glandular/acinar/tubular differentiation - 2; nuclear pleomorphism - 3; mitotic rate - 3). The grade of the smaller mass is based on a score of 4 of 9 (glandular/acinar/tubular differentiation - 1; nuclear pleomorphism - 2; mitotic rate - 1). FISH Comments - The HER2 FISH assay (Abbott Molecular/Vysis, Inc.) did not reveal amplification of the HER2 oncogene. A ratio of HER-2 gene signals to the centromeric control probe of chromosome 17 (CEP 17) signals was 1.04 and a Her2 copy number of 2.08, (ratio less than 2.0 and Her2 copy number <4), indicating absence of amplification. There was no evidence of polysomy/polyploidy or genetic heterogeneity. Clinical correlation is recommended.    A ratio less than 2.0 and Her2 copy number less than 4 indicates absence of amplification.  A ratio less than 2.0 and Her2 copy number greater or equal to 4 and less than 6 indicates an equivocal value and per ASCO/CAP guidelines, requires reflex to another (IHC for Her2) test.  A ratio greater than or equal to 2.0 or average Her2 copy number greater or equal to 6 indicates gene amplification.    Regions of invasive tumor were defined by a pathologist. The tumor was fixed in formalin (recommended 6-72hrs). Tumor fixed outside the recommended fixation time should be interpreted with caution. Controls were performed and provided the anticipated results. This case has been reviewed by at least 2 observers.\n\n\n"
+}

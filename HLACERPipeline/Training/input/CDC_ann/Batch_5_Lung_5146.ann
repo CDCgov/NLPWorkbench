@@ -1,0 +1,111 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1432, 
+        1446
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1307, 
+        1330
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1503, 
+        1523
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1354, 
+        1381
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1389, 
+        1394
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1489, 
+        1491
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        533, 
+        562
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        895, 
+        930
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1450, 
+        1476
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1492, 
+        1496
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1417, 
+        1431
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160602031524|3D88CBD6ACF6BA476C0B2601C26C781ADD3E8002|ORU^R01|999999999999|P|2.5||||||\nPID|1||F9999999^^^^CMR^NHS Greater Niagara&9999&MOH~F9999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&DF&ON^^^^JHN||XXXXXXXX^XXXXX^ XXXXX^^^^||99999999|F|||9999 XXXXXX XXXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||16S:11190|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160530|||92580^XXXXX^XXXX^^^^||||||||||||20160601|||F|||||||99999^XXXXX^XXXXX^^^^|||||||\n\n\n\n\n\n\n\nPath report.gross description\n\nContainer labeled matches patient requisition. Specimen received in formalin\nlabeled only with the patient identifying information contains 2 fragments of\ntan-gray cylindrical mucosal tissue ranging from 0.2-1.1 cm in length by less\nthan 0.1 cm in average diameter. Specimen is submitted in toto in 2\ncassettes labeled A. and B.\n\n\nPath report.microscopic observation\n\nSections show mostly fibrous tissue with lymphocytic inflammation. There is\none nest of markedly pleomorphic cells with large nuclei and abundant\neosinophilic cytoplasm at the edge of the biopsy. Several small clusters of\nsimilar cells are identified in the lymphoid aggregates. These cells are\npositive for TTF1 and negative for p63, highly suspicious for adenocarcinoma.\n\n\nPath report.relevant Hx\n\nR/O CA \\T\\ FIBROSIS\n\n\nPath report.final diagnosis\n\nLung (right), core biopsy: Highly suspicious for adenocarcinoma.\n\n\nPath report.site of origin\n\nLung part (RT LUNG BX)\n\n\nPath report.comments\n\nCT GUIDED RT LUNG BX\n\n\n"
+}

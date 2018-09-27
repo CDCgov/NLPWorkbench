@@ -1,0 +1,12 @@
+<section id='brandeis.tools' name='Brandeis Tools'>
+  <tool file='brandeis/opennlp.tokenizer.xml' />
+  <tool file='brandeis/opennlp.postagger.xml' />
+  <tool file='brandeis/opennlp.namedentityrecognizer.xml' />
+  <tool file='brandeis/opennlp.splitter.xml' />
+  <tool file='brandeis/opennlp.parser.xml' />
+  <tool file='brandeis/stanfordnlp.tokenizer.xml' />
+  <tool file='brandeis/stanfordnlp.postagger.xml' />
+  <tool file='brandeis/stanfordnlp.namedentityrecognizer.xml' />
+  <tool file='brandeis/stanfordnlp.splitter.xml' />
+  <tool file='brandeis/stanfordnlp.parser.xml' />
+</section>

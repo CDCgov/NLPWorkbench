@@ -1,0 +1,40 @@
+<tool id="vassar.lingpipe.splitter" name="Lingpipe Sentence Splitter" version="1.0.0">
+ <command>lsd $__tool_directory__/invoke.lsd splitter $version $input $output</command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+   <param label="Version" name="version" type="select">
+   <option value="1.1.1-SNAPSHOT" selected="True">1.1.1 (beta)</option>
+   <option value="1.1.0">1.1.0</option>
+   <option value="1.1.0">1.0.0</option>
+  </param>
+</inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+  
+**What it does**  
+  
+Adds annotations for sentence boundaries using the `LingPipe <http://alias-i.com/lingpipe-3.9.3/>`_ sentence splitter .
+
+**Required annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token.html>`_
+
+**Generated annotations**
+
+* A new view containing `Sentence <http://vocab.lappsgrid.org/Sentence.html>`_  annotations. (LIF) 
+
+
+
+**License**
+
+Lingpipe is released under the `GNU Affero General Public License version 3.0 <https://www.gnu.org/licenses/agpl-3.0.en.html>`_
+
+]]>
+ </help>
+</tool>

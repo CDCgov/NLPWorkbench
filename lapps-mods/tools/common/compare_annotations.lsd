@@ -1,0 +1,74 @@
+
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File input1 = new File(args[0])
+File input2 = new File(args[1])
+File output = new File(args[2])
+
+class DataContainer extends Data<Container> {}
+
+DataContainer data1 = Serializer.parse(input1.text, DataContainer)
+DataContainer data2 = Serializer.parse(input2.text, DataContainer)
+
+if (!isLIF(data1) ) {
+	throw new Exception("Input #1 does not contain a LIF document.")
+}
+if (!isLIF(data2)) {
+	throw new Exception("Input #2 does not contain a LIF document.")
+}
+
+Set<String> set1 = count(data1.payload)
+Set<String> set2 = count(data2.payload)
+Set<String> union = set1 + set2
+
+StringWriter writer = new StringWriter()
+union.sort().each { String name ->
+	String in1 = set1.contains(name) ? "Yes" : "No"
+	String in2 = set2.contains(name) ? "Yes" : "No"
+	writer.println "${name}\t${in1}\t${in2}"
+}
+	
+output.text = writer.toString()
+return
+
+boolean isLIF(Data data) {
+	String type = data.discriminator
+	if (type == Uri.LAPPS) return true
+	if (type == Uri.JSON_LD) return true
+	return false
+}
+Set<String> count(Container container) {
+	Set<String> result = [] as HashSet
+	container.views.each { view ->
+		view.annotations.each { a ->
+			result.add(a.label)
+		}
+	}
+	return result
+}
+
+/**
+
+Map<String,Counter> count(Container container) {
+	Map<String,Counter> counts = new HashMap<String,Counter>()
+	container.views.each { View view ->
+		view.annotations.each { Annotation a ->
+			Counter =
+		}
+	}
+	return counts
+}
+
+class Counter {
+	String name
+	int count
+	
+	Counter(String name) {
+		this.name = name
+		this.count = 0
+	}
+	
+	void increment() { ++count }
+}	
+**/	
+

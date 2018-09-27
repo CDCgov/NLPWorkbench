@@ -1,0 +1,106 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+final String WINDOW = "Window"
+
+if (args.size() < 4) {
+	println "Invalid parameters"
+	return 1
+}
+
+String annotationType = "http://vocab.lappsgrid.org/${args[0]}"
+String terms = args[1]
+File input = new File(args[2])
+File output = new File(args[3])
+
+def replacements = [["__gt__", ">"],
+    ["__lt__", "<"],
+    ["__sq__", "'"],
+    ["__dq__", '"'],
+    ["__ob__", "["],
+    ["__cb__", "]"],
+    ["__oc__", "{"],
+    ["__cc__", "}"],
+    ["__at__", "@"],
+    ["__cn__", "\n"],
+    ["__cr__", "\r"],
+    ["__tc__", "\t"],
+    ["__pd__", "#"]
+]
+
+replacements.each { pair ->
+    terms = terms.replaceAll(pair[0], pair[1])
+}
+
+Data data = Serializer.parse(input.text, Data)
+Container container = new Container(data.payload)
+List<View> views = container.findViewsThatContain(annotationType)
+if (views == null || views.size() == 0) {
+	Container result = new Container()
+	result.text = container.text
+	result.metadata = container.metadata
+	View view = result.newView()
+	view.addContains(annotationType, 'passage_extractor.lsd', annotationType)
+	output.text = new Data(Uri.LIF, result).asJson()
+	println "Wrote ${output.path}"
+	return
+}
+
+String text = container.text
+def keywords = terms.tokenize('\n')
+
+println "KEYWORDS"
+keywords.each { println it }
+
+int offset = 0
+int id = 0
+
+//Container resultContainer = new Container()
+View resultView = container.newView()
+resultView.addContains(WINDOW, 'passage_extractor.lsd', WINDOW)
+resultView.metadata.keyterms = keywords
+
+// Get the last view that contains the annotation type and iterate over each annotation
+// and find each span that contains the keyword.
+View view = views[-1]
+view.annotations.each { Annotation a ->
+	if (a.atType == annotationType) {
+		String covered = text.substring((int)a.start, (int)a.end)
+		List<String> matches = []
+		keywords.each { String keyword ->
+			int end = -1
+			int start = covered.indexOf(keyword)
+			while (start > end) {
+				//resultView.newAnnotation("key${++id}", annotationType, offset, offset+keyword.length())
+				end = start + keyword.length()
+				matches.add(new Passage(term:keyword, start:start, end:end))
+				start = covered.indexOf(keyword, end)
+			}
+		}
+		if (matches.size() > 0) {
+			Annotation window = resultView.newAnnotation("window-${++id}", WINDOW, a.start, a.end)
+			window.features.matches = matches
+			window.features.text = covered
+			window.features.id = a.id
+		}
+	}
+}
+output.text = new Data(Uri.LIF, container).asPrettyJson()
+
+boolean contains(String line, List<String> keyterms) {
+	for (String keyterm : keyterms) {
+		if (line.contains(keyterm)) {
+			return true
+		}
+	}
+	return false
+}
+
+private String error(String message) {
+	return new Data(Uri.ERROR, message).asPrettyJson()
+}
+
+class Passage {
+    String term
+    int start
+    int end
+}

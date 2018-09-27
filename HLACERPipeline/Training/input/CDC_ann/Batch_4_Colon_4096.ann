@@ -1,0 +1,201 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2548, 
+        2564
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2502, 
+        2516
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2565, 
+        2572
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2696, 
+        2705
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4145, 
+        4168
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2396, 
+        2423
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3035, 
+        3040
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        621, 
+        650
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4068, 
+        4103
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2350, 
+        2376
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2672, 
+        2705
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2483, 
+        2491
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2685, 
+        2695
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2492, 
+        2501
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3112, 
+        3113
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2388, 
+        2393
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2425, 
+        2430
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3053, 
+        3058
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2378, 
+        2387
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3042, 
+        3051
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2856, 
+        2873
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0306984^CLIA|eMARCPlus|TN Cancer Registry|20170922031609||ORU^R01^ORU_R01|201709220316090001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-SR-002760^PathSys^44D0306984^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170905000000|||||||20170905000000|&Colon, Segmental Resection for Tumor, PQRS Colorectal Resection|1043299464^ ^ ^^^^MD^^CMS^D^^^NPI||||||20170912000000|||F||||||C18.2^Malignant neoplasm of ascending colon^I10~D12.2^Benign neoplasm of ascending colon^I10~K38.8^Other specified diseases of appendix^I10|1245210632&&&W.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \", ascending colon\" is a 4.0 cm in length x 1.5 cm in diameter portion of terminal ileum with an attached 13.0 cm in length x 2.7 cm in diameter portion of ascending colon. The serosal surface is tan-pink and smooth with a moderate amount of pericolic fat. A 10.5 cm in length x 0.2 cm appendix is identified. The specimen is opened to reveal tan-pink, glistening mucosa with normal colonic folds. A 0.6 x 0.5 x 0.3 cm tan, glistening, polypoid lesion is identified. It is located 4.5 cm from the distal margin, 8.8 cm from the proximal margin, and 8.5 cm from the radial margin. A 2nd ill-defined tan-pink, slightly raised, puckered lesion is identified measuring 0.5 x 0.3 x 0.1 cm. The 2nd lesion is located 3.6 cm from the distal margin, 10.0 cm from the proximal margin, and 8.1 cm from the radial margin. The serosa is inked in black. A 3rd pink-red area of ulceration measuring 0.4 x 0.3 cm is identified 2.6 cm from the distal margin, and 11.3 cm from the proximal margin. The ileocecal valve displays a 0.5 x 0.5 x 0.1 cm firm, ill-defined slightly raised lesion. A lymph node dissection reveals multiple possible lymph nodes ranging from 0.3 to 1.1 cm in greatest dimension. Representative sections are submitted as follows: 1A, proximal margin, 1/1; 1B, distal margin, 2/1; 1C, radial margin, 1/1; 1D, appendix, 4/1; 1E, 1st described polyp, bisected, 2/1; 1F-1G, 2nd described lesion, bisected, 1/1 each; 1H, 3rd described ulceration, bisected, 2/1; 1I-1J, lesion on ileocecal valve, 1/1 each; 1K, possible intact nodes, 4/1; 1L-1Q, each contain 1 possible node, bisected, 2/1 each; 1R, possible bisected nodes, 2/1; 1S, possible intact nodes, 6/1. (JOK)\n\n\nPath report.site of origin\n\nAscending colon\n\n\nPath report.final diagnosis\n\nColon, right, partial colectomy:   Residual superficially invasive low-grade adenocarcinoma (0.5 cm).   Additional polyps (sessile serrated adenoma with low grade dysplasia; tubular     adenoma without high grade dysplasia).   Twelve lymph nodes, negative for metastatic carcinoma.   Proximal and distal surgical margins negative for adenomatous change and     malignancy.   Appendix with fibrous obliteration. AJCC stage: pT1 pN0 CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Right hemicolectomy TUMOR  Tumor Site: Right (ascending) colon  Histologic Type: Adenocarcinoma  Histologic Grade: G1: Well differentiated  Tumor Size: Greatest dimension in Centimeters 0.5cm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor invades submucosa  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified  Treatment Effect: No known presurgical therapy MARGINS  Proximal Margin: Uninvolved by invasive carcinoma  Distal Margin: Uninvolved by invasive carcinoma  Radial or Mesenteric Margin: Uninvolved by invasive carcinoma LYMPH NODES  Number of Lymph Nodes Involved:  0  Number of Lymph Nodes Examined: 12 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT): pT1: Tumor invades the submucosa (through the muscularis mucosa but not into the muscularis propria)  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - Colon carcinoma\n\n\n"
+}

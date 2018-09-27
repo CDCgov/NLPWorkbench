@@ -1,0 +1,87 @@
+Gross 5 NNP start start start start start start Pathology 9 NNP Specimen 8 NNP B-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+Pathology 9 NNP Gross 5 NNP start start start Specimen 8 NNP is 2 VBZ I-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+
+Specimen 8 NNP Pathology 9 NNP Gross 5 NNP is 2 VBZ received 8 VBN O
+is 2 VBZ Specimen 8 NNP Pathology 9 NNP received 8 VBN in 2 IN O
+received 8 VBN is 2 VBZ Specimen 8 NNP in 2 IN formalin 8 NN O
+in 2 IN received 8 VBN is 2 VBZ formalin 8 NN , 1 , O
+formalin 8 NN in 2 IN received 8 VBN , 1 , labeled 7 VBN O
+, 1 , formalin 8 NN in 2 IN labeled 7 VBN as 2 IN O
+labeled 7 VBN , 1 , formalin 8 NN as 2 IN " 1 UN O
+as 2 IN labeled 7 VBN , 1 , " 1 UN Rectum 6 NNP O
+" 1 UN as 2 IN labeled 7 VBN Rectum 6 NNP " 1 UN O
+Rectum 6 NNP " 1 UN as 2 IN " 1 UN with 4 IN O
+" 1 UN Rectum 6 NNP " 1 UN with 4 IN the 3 DT O
+with 4 IN " 1 UN Rectum 6 NNP the 3 DT patient 7 NN O
+the 3 DT with 4 IN " 1 UN patient 7 NN s 1 UN O
+patient 7 NN the 3 DT with 4 IN s 1 UN ' 1 UN O
+s 1 UN patient 7 NN the 3 DT ' 1 UN name 4 NN O
+' 1 UN s 1 UN patient 7 NN name 4 NN and 3 CC O
+name 4 NN ' 1 UN s 1 UN and 3 CC consists 8 VBZ O
+and 3 CC name 4 NN ' 1 UN consists 8 VBZ of 2 IN O
+consists 8 VBZ and 3 CC name 4 NN of 2 IN 5 1 CD O
+of 2 IN consists 8 VBZ and 3 CC 5 1 CD pieces 6 NNS O
+5 1 CD of 2 IN consists 8 VBZ pieces 6 NNS of 2 IN O
+pieces 6 NNS 5 1 CD of 2 IN of 2 IN soft 4 JJ O
+of 2 IN pieces 6 NNS 5 1 CD soft 4 JJ pink 4 JJ O
+soft 4 JJ of 2 IN pieces 6 NNS pink 4 JJ tissue 6 NN O
+pink 4 JJ soft 4 JJ of 2 IN tissue 6 NN measuring 9 VBG O
+tissue 6 NN pink 4 JJ soft 4 JJ measuring 9 VBG from 4 IN O
+measuring 9 VBG tissue 6 NN pink 4 JJ from 4 IN 0.1 3 CD O
+from 4 IN measuring 9 VBG tissue 6 NN 0.1 3 CD X 1 NN O
+0.1 3 CD from 4 IN measuring 9 VBG X 1 NN 0.1 3 CD O
+X 1 NN 0.1 3 CD from 4 IN 0.1 3 CD X 1 NN O
+0.1 3 CD X 1 NN 0.1 3 CD X 1 NN 0.1 3 CD O
+X 1 NN 0.1 3 CD X 1 NN 0.1 3 CD up 2 IN O
+0.1 3 CD X 1 NN 0.1 3 CD up 2 IN to 2 TO O
+up 2 IN 0.1 3 CD X 1 NN to 2 TO 0.4 3 CD O
+to 2 TO up 2 IN 0.1 3 CD 0.4 3 CD X 1 NN O
+0.4 3 CD to 2 TO up 2 IN X 1 NN 0.2 3 CD O
+X 1 NN 0.4 3 CD to 2 TO 0.2 3 CD X 1 NN O
+0.2 3 CD X 1 NN 0.4 3 CD X 1 NN 0.1 3 CD O
+X 1 NN 0.2 3 CD X 1 NN 0.1 3 CD cm 2 NN O
+0.1 3 CD X 1 NN 0.2 3 CD cm 2 NN . 1 . O
+cm 2 NN 0.1 3 CD X 1 NN . 1 . All 3 DT O
+. 1 . cm 2 NN 0.1 3 CD All 3 DT submitted 9 VBN O
+
+All 3 DT . 1 . cm 2 NN submitted 9 VBN ( 1 UN O
+submitted 9 VBN All 3 DT . 1 . ( 1 UN 1 1 CD O
+( 1 UN submitted 9 VBN All 3 DT 1 1 CD Block 5 NN O
+1 1 CD ( 1 UN submitted 9 VBN Block 5 NN ) 1 UN O
+Block 5 NN 1 1 CD ( 1 UN ) 1 UN . 1 . O
+) 1 UN Block 5 NN 1 1 CD . 1 . Final 5 JJ O
+. 1 . ) 1 UN Block 5 NN Final 5 JJ Diagnosis 9 NN O
+
+Final 5 JJ . 1 . ) 1 UN Diagnosis 9 NN Well 4 UH B-FINALDIAGNOSISHEADING
+Diagnosis 9 NN Final 5 JJ . 1 . Well 4 UH differentiated 14 VBN I-FINALDIAGNOSISHEADING
+
+Well 4 UH Diagnosis 9 NN Final 5 JJ differentiated 14 VBN adenocarcinoma 14 NN B-NEOPLASMDESCRIPTIVEGRADE
+differentiated 14 VBN Well 4 UH Diagnosis 9 NN adenocarcinoma 14 NN associated 10 VBN I-NEOPLASMDESCRIPTIVEGRADE
+adenocarcinoma 14 NN differentiated 14 VBN Well 4 UH associated 10 VBN with 4 IN B-CANCERHISTOLOGYTYPE
+associated 10 VBN adenocarcinoma 14 NN differentiated 14 VBN with 4 IN tubular 7 JJ O
+with 4 IN associated 10 VBN adenocarcinoma 14 NN tubular 7 JJ adenoma 7 NN O
+tubular 7 JJ with 4 IN associated 10 VBN adenoma 7 NN . 1 . B-CANCERHISTOLOGYSUBTYPE
+adenoma 7 NN tubular 7 JJ with 4 IN . 1 . Nature 6 NNP I-CANCERHISTOLOGYSUBTYPE
+. 1 . adenoma 7 NN tubular 7 JJ Nature 6 NNP of 2 IN O
+
+Nature 6 NNP . 1 . adenoma 7 NN of 2 IN Specimen 8 NNP B-NATUREOFSPECIMENHEADING
+of 2 IN Nature 6 NNP . 1 . Specimen 8 NNP Colon 5 UN I-NATUREOFSPECIMENHEADING
+Specimen 8 NNP of 2 IN Nature 6 NNP Colon 5 UN - 1 UN I-NATUREOFSPECIMENHEADING
+
+Colon 5 UN Specimen 8 NNP of 2 IN - 1 UN Rectum 6 UN B-ORGAN/BODYSTRUCTURE
+- 1 UN Colon 5 UN Specimen 8 NNP Rectum 6 UN Biopsy 6 NNP O
+Rectum 6 UN - 1 UN Colon 5 UN Biopsy 6 NNP ( 1 UN B-RELATIVELOCATION
+Biopsy 6 NNP Rectum 6 UN - 1 UN ( 1 UN Sample 6 NNP O
+( 1 UN Biopsy 6 NNP Rectum 6 UN Sample 6 NNP 1 1 LS O
+Sample 6 NNP ( 1 UN Biopsy 6 NNP 1 1 LS ) 1 UN B-SPECIMENIDENTIFIER
+1 1 LS Sample 6 NNP ( 1 UN ) 1 UN Comments 8 NNS I-SPECIMENIDENTIFIER
+) 1 UN 1 1 LS Sample 6 NNP Comments 8 NNS Comment 7 NN O
+
+Comments 8 NNS ) 1 UN 1 1 LS Comment 7 NN Clinical 8 JJ B-COMMENTSHEADING
+
+Comment 7 NN Comments 8 NNS ) 1 UN Clinical 8 JJ History 7 NN O
+Clinical 8 JJ Comment 7 NN Comments 8 NNS History 7 NN ClinicalInformation 19 NN B-CLINICALHISTORYHEADING
+History 7 NN Clinical 8 JJ Comment 7 NN ClinicalInformation 19 NN end end end I-CLINICALHISTORYHEADING
+
+ClinicalInformation 19 NN History 7 NN Clinical 8 JJ end end end end end end O
+

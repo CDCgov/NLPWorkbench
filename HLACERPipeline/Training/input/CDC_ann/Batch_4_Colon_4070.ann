@@ -1,0 +1,155 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1036, 
+        1050
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        900, 
+        923
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4011, 
+        4019
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8035, 
+        8055
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        969, 
+        996
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        480, 
+        509
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7906, 
+        7941
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7983, 
+        8009
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1027, 
+        1035
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1052, 
+        1055
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1063, 
+        1096
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        998, 
+        1003
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8022, 
+        8027
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1005, 
+        1015
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8011, 
+        8021
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1122, 
+        1154
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170919125849||ORU^R01^ORU_R01|201709191258490001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-GI-015483^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170812000000|||||||20170814000000|&Colon, Biopsy|1962497867^ ^ ^ ^^^MD^^CMS^D^^^NPI||||||20170816000000|||F||||||C18.4^Malignant neoplasm of transverse colon^I10|1942526447&&&S&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nPlease note that this is a previous problem specimen, the requisition states the site as \"transverse colon biopsy\" versus the specimen container as \"hepatic flexure biopsy.\" After a call to the doctor's office, the correct site is \"transverse colon biopsy.\" Received in formalin labeled \"\" and \"hepatic flexure biopsy\" are 4 tan tissue fragments which range in size from 3 to 6 mm. 4/1.\n\n\nPath report.relevant Hx\n\nHistory - Diarrhea, transverse colon mass\n\n\nPath report.final diagnosis\n\nColon, transverse, biopsy:   Invasive adenocarcinoma, low-grade (well to moderately differentiated) in this     material.\n\n\nPath report.supplemental reports\n\nLynch Cancel Report: Additional Lynch Syndrome testing, such as Microsatellite Instability (MSI) will not be performed unless requested. Medicare contractors require utilizing Amsterdam or revised Bethesda criteria and IHC as a first step in screening for Lynch Syndrome in patients with newly diagnosed colorectal cancer (CRC). NCCN guidelines recommends all patients with newly diagnosed CRC to be offered Lynch Syndrome testing, including MSI and/or MMR-IHC. MSI and/or MMR-IHC are also useful in providing prognostic and therapeutic response information, such as 5-FU therapy, in CRC. A recent study in the New England Journal of Medicine indicated MSI to be associated with response to certain immune checkpoint inhibitors. NCCN guidelines also recommend genomic profiling in certain colorectal tumors for prognostic and/or therapeutic decision making. Mutations in certain genes such as KRAS and NRAS predict for lack of response to monoclonal anti-EGFR targeted therapies. Two recent studies have associated aspirin use to be associated with improved survival in patients with colorectal tumors harboring mutations in the PIK3CA gene. BRAF mutations are associated with an aggressive clinical course and many promising clinical trials are enrolling patients based on the mutational status of this gene. Genomic aberrations in other genes including TP53, KRAS, CMET, PTEN, CTNNB1, and APC have also been associated with an aggressive clinical course. References will be furnished upon request. The revised Bethesda criteria include colon cancer diagnosed under the age of 50, presence of synchronous or metachronous CRC or other Lynch Syndrome associated tumor regardless of age, morphologic findings consistent with MSI-H histology in an individual who is less than 60, colon cancer diagnosed with one or more first degree relatives with a Lynch Syndrome related tumor, with one of the cancers diagnosed under the age of 50, or colon cancer in 2 or more first degree relatives with a lynch related tumor, regardless of age. Morphologic findings associated with MSI-H status include tumor infiltrating lymphocytes, signet ring cell features, mucinous histology, medullary growth pattern, neutrophilic infiltrate, poor differentiation, and/or syncytial growth pattern. It is important to note that revised Bethesda criteria can miss a significant percentage of patients who have an inherited predisposition to CRC. Genomic profiling for prognostic and therapeutic information is underway. If there is clinical or morphologic suspicion of Lynch Syndrome, please contact PathGroup customer service at 855-854-6473 to request additional Lynch Syndrome testing. ## End of auxiliary report ## Addendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present in both the tumor and adjacent non-neoplastic tissue components). These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome. Cancers with this profile are microsatellite stable (MSS). If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result on the screening test, then consideration could be made for a genetic consult with additional testing. [References available on request]. ## End of auxiliary report ## Ancillary Report: Immunoperoxidase staining was performed and evaluated with appropriate controls. Tumor cells are positive for CDX2. CDX2 expression has important prognostic value in colorectal adenocarcinoma. Loss of CDX2 expression is associated with an aggressive clinical course including infiltrative growth, and advanced T, N, M and overall stage. [N Engl J Med. 2016 Jan 21;374(3):211-22.][ Clin Colorectal Cancer. 2016 Sep 17.][ World J Gastroenterol. 2015 Feb 7;21(5):1457-67.]  ## End of auxiliary report ## Fish Report: FISH - - Positive for MET gene amplification.  - Negative for HER2 gene amplification. Positive for polysomy of chromosome 17.   ## End of auxiliary report ## Smart Genomics NGS: SGNGS Impression - <p>Review of the accompanying pathology report indicated a history of colorectal cancer. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. A <strong>TP53 R282fs </strong><strong>mutation was detected</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table.</p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context. </p>  ## End of auxiliary report ## Smart Genomics Summary: SGTS Impression - <p>Review of the accompanying pathology report indicated a history of colorectal cancer. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. A <strong>TP53 R282fs </strong><strong>mutation was detected</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table.</p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context. </p>  ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nTransverse colon mass\n\n\nPath report.comments\n\nComments - The diagnosis was communicated to Shea in Dr. 's office at 8:40 am on 08/16/2017. Ancillary studies, including molecular testing, will be reported separately. FISH Comments - Fluorescence in situ hybridization (FISH) analysis detected a MET (7q31.2) gene amplification. While the MET/CEP7 ratio was 1.18, 32% of cells had 6 or more copies of MET and the average copy number of MET was 6.91. Amplification of MET is associated with poor prognosis in a variety of neoplasms. Amplification of MET also plays a role in acquired resistance to EGFR inhibitors of patients with EGFR-mutant tumors. Limited studies suggest that MET-amplified tumors may respond to crizotinib, an inhibitor of MET and ALK.   FISH revealed no evidence of HER2 (17q12) gene amplification. The HER2/CEP17 ratio was 1.29. However, 1-5 additional copies of HER2 and CEP17 (centromere 17) were detected in 66% of cells analyzed, indicating polysomy of chromosome 17. The clinical significance of this finding is unknown.    Monitoring for these anomalies may be useful in assessing the patient`s remission/relapse status.   It should be noted that the FISH probes utilized in this analysis cannot entirely exclude the presence of other chromosomal abnormalities. Correlation with classic cytogenetics, clinical, flow cytometric, and morphological data is recommended, if available.   FISH analysis was performed in interphase cells using the MET (7q31.2)/CEP7 (centromere 7) and CEP17 (centromere 17)/HER2 (17q12) dual color DNA amplification probes (Abbott Molecular, Inc., Des Plaines, IL).   References:  Nat Med. 2012 Feb 12;18(3):382-4; Oncol Rep. 2012 Oct;28(4):1187-92; J Clin Oncol. 2009 Apr 1;27(10):1667-74. J Thorac Oncol. 2010 Mar;5(3):305-13. J Clin Oncol. 2012, 30(35):4352-9; Am Soc Clin Oncol Educ Book. 2014;34:e353-65. Cancers (Basel). 2015 May 26;7(2):930-49. Tumour Biol. 2015 Dec;36(12):9813-21.\n\n\n"
+}

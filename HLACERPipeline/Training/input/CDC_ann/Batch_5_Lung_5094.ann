@@ -1,0 +1,133 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1210, 
+        1224
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1225, 
+        1234
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1242, 
+        1256
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        937, 
+        960
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1060, 
+        1087
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        580, 
+        609
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1562, 
+        1597
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1480, 
+        1506
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1184, 
+        1196
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1236, 
+        1241
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1089, 
+        1090
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1155, 
+        1156
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1508, 
+        1509
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1534, 
+        1535
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3^9999^MOH|PIMS|CCO|201605040829|73B75D2762D5D3EE59B31DEFA6A574F3EA564874|ORU^R01|WRH20160504082948298|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 3&9999&MOH~999999^^^^MRN^WRH-O HOSPITAL&9999&MOH~9999999999&&ON^^^^JHN||XXXXXXXXX^XXXXX^XXXX||99999999|M|||999-999 XXXXXXXXX XXX^^XXXXXXX^XX^X9X9X9^999||9999999999^^ON|||||8637418594^^ON||||||||||||N|\nOBR|1||WC16-50431|33716-2^Study Report: Cytology.non-gyn^LN^C^Cytology^L|||201604201754|||68596^XXXX^XXXX||nurse^^^^^^^L||201604201755||||||||201605040829||CW^WRH|C||^^201604201754|||||99999^XXXX^XXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nPatient identification verified\nA) Specimen: Bronchial Washings RUL\nThe specimen consists of 20 ml pale amber fluid and is prepared into one\ncell block and one ThinPrep slide for evaluation.\nB) Specimen: Bronchial Brushing RUL\nSpecimen is received in Cytolyt Fixative and prepared into one Thinprep\nslide for evaluation.\nlc\n\n\nPath report.relevant Hx\n\nCLINICAL Impression as provided - RUL mass: Please correlate with\nsurgical pathology WS16-54678\n\n\nPath report.final diagnosis\n\nA) Bronchial Washings RUL:\n- Few atypical cells\n- See microscopic\nB) Bronchial Brushing RUL:\n- Positive for malignancy\n- Non small cell carcinoma, favor adenocarcinoma type\n- See microscopic\nPlease correlate with surgical pathology WS16-54678\nReason for corrected report: A second review for the case upon Dr. Dhar\nrequest upon additional clinical information\nCONSULTATION: Not Indicated.\n\n\nPath report.site of origin\n\nA) Bronchial Washings RUL\nB) Bronchial Brushing RUL\n\n\nPath report.microscopic observation\n\nPatient identification verified\nA) Bronchial Washings RUL: Slides contain bronchial cells, macrophages\nand numerous inflammatory cells. Few atypical cells with high N:C ratio\nand hyperchromatic nuclei are seen. 2 slides (CL)\nB) Bronchial Brushing RUL: Slide contains a high cellularity of reactive\nbronchial cells. Clusters of malignant cells with high nuclear\ncytoplasmic ratio, finely granular chromatin, multiple nucleoli and\ndelicate cytoplasm are also seen. The cytological findings are positive\nfor non small cell carcinoma, favor adenocarcinoma type. 1 slide (KB)\n\nDictation Number: CR\n\n\n"
+}

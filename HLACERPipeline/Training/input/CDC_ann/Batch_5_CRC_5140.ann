@@ -1,0 +1,121 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1335, 
+        1349
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1473, 
+        1496
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1266, 
+        1293
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1306, 
+        1311
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        713, 
+        742
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1562, 
+        1597
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1199, 
+        1225
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1326, 
+        1334
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1351, 
+        1386
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1299, 
+        1304
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1227, 
+        1229
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1244, 
+        1246
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160510115608|3E18C547BF5DED0B84DE9E9D925F997EA5ACD161|ORU^R01|99999999999999999999|P|2.5|\nPID|1||OM99999999^^^^CMR^HOSPITAL 9&9999&MOH~OM99999999^^^^^HOSPITAL 9&9999&MOH~OM99999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&NR&ON^^^^JHN||XXXXXXXX^XXXXXX^XXXXXX||99999999|M||FR|99-99 XXX XXXXX^^XXXXXX^XX^X9X 9X9^999||9999999999^NR^OHIN|||||1665505150^NR^OHIN||||||||||||N|\nOBR|1||MHS1605543|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160508105100|||66619^XXXXXXX^XXXXXX XXXXXX^^^^XX||||20160508131737|R Colon, Col.&Anal Verge, Col.|999999^XXXXXXX^XXXXXX XXXXXX^^^^XX||||N|20082009|20160510115609|||F|||||||99999^XXXXXXXX^XXXXX^^^^XX, XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen is received in a container labelled with the patient's name, who has the initials \" LG\" and the specimen site \"R. colon\".\nNumber of pieces: Seven\nDimensions: 0.1-0.3 cm\nOther:  Nil\n1A-1B -in toto\n2. The specimen is received in a container labelled with the patient's name, who has the initials \" LG\" and the specimen site \"anal verge\".\nNumber of pieces: One\nDimensions: 0.2 cm\nOther:  Nil\n2A-in toto\nMD   2016-05-09   TOH General Campus\n\n\nPath report.site of origin\n\n1. R Colon, Col.\n2. Anal Verge, Col.\n\n\nPath report.final diagnosis\n\n#1. Colon, right, colonoscopy: Invasive adenocarcinoma, moderately to poorly differentiated\n#2. Anal verge, colonoscopy: Inflammatory cloacogenic polyp, negative for dysplasia\n\n\nPath report.relevant Hx\n\nRush reason ? Cancer\n1 Look like neoplasm\n2 R/O anorectal ca.\n\n\nPath report.microscopic observation\n\nSections examined\nAs part of the quality assurance program at the Montfort HOSPITAL Department of Pathology, select slides from specimen #1 were shared with Dr. X , who concurs with the above interpretation.\n\n\n"
+}

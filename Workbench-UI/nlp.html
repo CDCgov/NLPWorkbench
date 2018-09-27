@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>What is NLP?</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+
+</head>
+<body>
+    <!-- main content start-->
+    <!--start-home-->
+    <div id="home" class="header" w3-include-html="includes/header.html"></div>
+    <!--//end-banner-->
+    <!-- app-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">NLP Basics</a></li>
+                    <li class="active">1. What is NLP?</li>
+                </ol>
+                <h1>NLP Basics</h1>
+                <h2 class="h2 boxed-headline">1. What is NLP?</h2>
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <p>In this section, learn basic NLP terminology, common NLP approaches, the importance of context and language models in NLP as well as a brief history of NLP.</p>
+                    <ul class="list-table-contents margin-left-10">
+                        <li><a href="#overview">Overview of Natural Language Processing (NLP)</a></li>
+                        <li><a href="#history">Brief History of NLP</a></li>
+                        <li><a href="#approach">NLP Approaches for Processing Unstructured Data</a></li>
+                        <li><a href="#language">Language Engineering</a></li>
+                        <li><a href="#context">Context and NLP</a></li>
+                    </ul>
+
+                </div>
+                <h2 id="overview">Overview of Natural Language Processing (NLP)</h2>
+                <p>NLP is the field of computational methods for processing the linguistic characteristics of textual documents. This
+                    processing takes unstructured text documents and puts them into a structured, standardized format that perseveres
+                    the meaning of the original document. NLP aims to build automatic methods to identify target semantic objects in a
+                    text. In this manner NLP is a service used by other analytical tasks to extract target content from prose
+                    documents.</p>
+
+                <h3>Clinical NLP</h3>
+                <p>Clinical NLP is the application of general NLP methods to clinical documents. Some processing methods need
+                    significant changes compared to common English texts due to specialized language, grammatical structures and
+                    neologisms created by clinical authors. Clinical NLP covers all clinical documents such as pathology, radiology
+                    reports, discharge summaries and ward notes to mention just a few.</p>                    <p>
+                    <img class="img-responsive" src="images/u1141.png" />
+                </p>
+
+                <h2 id="history">Brief History of NLP</h2>
+                <p>NLP has been a task addressed by researchers since the earliest invention of computing.</p>
+
+                <p>NLP is a part of the computer science field, Artificial Intelligence (AI). It is the area of AI concerned with tasks
+                    associated with language. NLP is a multidisciplinary field including statistics, computer science, and linguistics.
+                    As NLP research has grown over the years, NLP has become its own discipline with its own specialized approaches and
+                    methodologies.</p>
+
+                <p><strong>Computational Linguistics:</strong> Early on NLP was a discipline of its own standing known as computational linguistics. The
+                    first 30 years of Computational Linguistics was strongly focused on converting the knowledge of linguistics and
+                    particularly grammar into a form a computer can understand known as an algorithm.</p>
+
+                <p><strong>Machine Learning and Statistical NLP:</strong> From the 1990s onwards the role of linguistics has taken a backseat to the
+                    methods of computer scientists particularly the use of machine learning algorithms. These methods have been
+                    encompassed by the label, Statistical NLP, which is now the foundation of much of the research in the field and a
+                    backdrop for the Clinical Language Engineering Workbench (CLEW).</p>
+
+                <p><strong>The Influence of Google and Search Engines:</strong> The rise of Google led to another line of language computational
+                    development to create the field of Information Retrieval which discards the heritage of linguistics altogether and
+                    focuses on the statistical distributions of words alone within texts without considering their lexico-grammatical
+                    characteristics. This method, known as bag-of-words, treats each word as independent ignoring the linguistic
+                    characteristics of the text under analysis. Subsequently, the Information Retrieval field has developed, riding on
+                    the practical benefits brought about by the Google search engine, to emerge as the field better known as Text
+                    Mining.</p>
+
+                <p><strong>A word is understood by the company it keeps:</strong> A more recent modification in philosophy if not method has adopted the
+                    simple maxim “a word is understood by the company it keeps” and computes with the surrounding context of words as
+                    well as the word itself. This is a small sign of turning back to the foundations of NLP and computational
+                    linguistics but its future pathway is still unclear.</p>
+
+                <h2 id="approach">NLP Approaches for Processing Unstructured Data</h2>
+                <p>There are various methods and approaches for processing unstructured documents. Common approaches are described
+                    below.</p>
+                <ul>
+                    <li><a href="#textmining">Text Mining and Rule Based NLP</a></li>
+                    <li><a href="#linguistics">Computational Linguistics</a></li>
+                    <li><a href="#machinelearning">Machine Learning</a></li>
+                    <li><a href="#statisticalnlp">Statistical NLP</a></li>
+                </ul>
+
+                <h3 id="textmining">Text Mining and Rule Based NLP</h3>
+                <p>Text Mining is the strategy of using rules to find target content in the text. The rules can be expressed in a
+                    variety of ways but the most common form is Regular Expressions (Regex). This is the method of defining a template
+                    pattern to search for in the text.</p>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-success">+ Pro</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Rapid identification of defined strings.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-danger">- Con</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Does not find things with the same semantics but expressed in a different orthographical form. For example, a search for “cat”  will not find “feline”. This is its most serious limitation.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-danger">- Con</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Propensity to over generalize as an experimenter seeks to find more examples of their target information. Text mining solutions can generalize the search expressions and begin to capture orthographically similar content, so “catnap” appears in their data search as an unwanted false positive.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Text mining treats text as what is commonly called a <em class="text-alert">bag of words</em> with no concessions to word order and sentence structure. This is a serious limitation for many domains, including the clinical domain, where word order and sentence structure provide information needed to provide correct context and meaning.</p>
+
+                <p>A domain where text mining is successful is internet search. This method is closely aligned with information
+                    retrieval. Information retrieval is the great strength of Google. Google uses text mining to find documents
+                    containing target text strings. Google also compresses text by eliminating various grammatical features such as
+                    removing the ends of words and ignoring what are called “filler” words, for example, “the” and “which”.</p>
+
+                <h3 id="linguistics">Computational Linguistics</h3>
+                <p>Computational Linguistics (CL) is the study of computational methods for identifying grammatical and semantic parts
+                    of sentences. It is as old as computing itself and was originally driven by linguists. Today it is a specialist
+                    discipline of computer science.</p>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-success">+ Pro</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Considers great detail of a sentence, word order, word proximity, word groupings, word on the left, word on the
+                                right, etc. and is engaged in how to parse sentences and understand their meaning.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-danger">- Con</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>It requires significant linguistic knowledge and is difficult to implement, although this has been made easier in the
+                                modern era with a lot of open source software now available.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default panel-content">
+                    <div class="panel-body">
+                        <h3 class="h3">Text Mining versus Computational Linguistics</h3>
+                        <ul>
+                            <li><strong>Text Mining:</strong> Uses methods that are fast at processing across millions of documents to give a relatively coarse representation of their macroscopic lexical characteristics.</li>
+                            <li><strong>Computational Linguistics:</strong> Uses methods that are lengthier to process and are targeted at representing the fine-grained semantics of documents. It takes longer to develop usable applications as well as to process documents that use computational linguistics methods. However, computational linguistics methods provide more detail and capture the rich semantics and subtleties of the text.</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <h3 id="machinelearning">Machine Learning</h3>
+                <p>Machine Learning (ML) is a discipline of computer science that has merged with statistics. It represents a form of
+                    Algorithmic Statistics. It’s earliest origins are in the 1970s with algorithms to build decision trees and divide
+                    data sets into statistically similar classes. Machine Learning has morphed into a discipline with various methods
+                    for classifying heterogeneous data sets. It has found new application areas such as computational linguistics.</p>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-success">+ Pro</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Is able to model the varying contexts in which a word or phrase changes its meaning and
+                                therefore resolve when the same text means one thing or another.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-success">+ Pro</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Is able to identify the use of new words for the same meaning that have never been
+                                presented in the training set.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-danger">- Con</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Costly to prepare training data and build the language model.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3 col-md-2 text-right text-danger">- Con</div>
+                        <div class="col-xs-9 col-md-10">
+                            <p>Needs a program of revision for changes over time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h4>Machine Learning Steps</h4>
+                <p>The steps in machine learning are, first, the machine learner builds a language model by using multiple known classes
+                    and their attributes from a manually annotated set of documents. The language model includes a distribution of the
+                    attribute values for each class. Next, text is input to the machine learner and assigned to a class based on a
+                    profile of attribute values in the language model (learn more about the language model below).</p>
+                <div class="panel panel-default panel-content">
+                    <div class="panel-body">
+                        <h3>Language Model</h3>
+                        <p>The Language Model, also know as the Classifier, is built by the Machine Learner.</p>
+
+                        <p>An NLP pipeline builds up a series of attribute values for each word in the text, such as its part -of-speech, its grammatical role, its neighboring words. The Machine Learner compiles the profile of these attribute values for all words in the same class. The Language Model then represents the distribution of these attributes over all words and their classes (aka labels).</p>
+
+                        <p>When you submit a new file to the Language Classifier you must first compute all its feature values using the NLP pipeline. Each word is submitted to the Language Model and is classified, that is, assigned a semantic label.</p>
+
+                        <p>If the submitted file has been manually annotated as with the training files then comparison can be made between the labels assigned by the Language Model and the original manually assigned labels. Differences indicate either an error in the original annotation ( human error) or if the Language Model fails to identify an annotation then it doesn’t have enough training information to correctly identify that context for assigning the appropriate label to that word. One must then return to the annotations and correct them or return to the NLP pipeline and enhance the pipeline so it can recognize the appropriate context it previously missed (this requires imagination and ingenuity to understand what new features must be inserted into the NLP pipeline to enhance the Language Model’s learning  ability).</p>
+
+                    </div>
+                </div>
+
+
+
+                <h3 id="statisticalnlp">Statistical NLP</h3>
+                <p>Statistical NLP (SNLP) was created in the 1990s when Machine Learning was introduced into Computational
+                    Linguistics.</p>
+
+                <p>Initially identifying grammatical and semantic constituents was considered a task of identifying different sentential
+                    elements as a classification problem with the attributes of each word defined by the surrounding words and their
+                    orthographical characteristics.</p>
+
+                <p>Over time significant effort has been put into collecting more content about words and their context. This means
+                    other resources such as ontologies have become available to add to the attribute, aka features set, of words to
+                    build more elaborate machine learning models.</p>
+
+                Can recognize members of the designed classes it has not seen in its training because it recognizes the context of the class member. For example, a search for the concept, lung cancer, will return hepatocellular carcinoma.
+
+                Initially, a training set must be compiled manually to train the Machine Learner. This involves manually annotating a sufficient number of documents with target classes and attributes so that the Machine Learner can reliably classify unseen, unclassified data.
+
+                <h2 id="context">Context and NLP</h2>
+                <p>There are certain problems in identifying semantic concepts that require strong recognition of the <em>context</em> to
+                    correctly assign an appropriate semantic tag to a token or set of tokens.</p>
+
+                <div class="panel panel-default panel-content">
+                    <div class="panel-body">
+                        <h3>Context is required to correctly assign a semantic tag</h3>
+
+                        <p>Example: Separating pairs of organs from single organs.</p>
+                        <ul>
+                            <li>Pairs of organs such as eyes, lungs, legs, breasts<br>
+                                - Described with the concept of laterality</li>
+
+                            <li>Single organs with a well defined, symmetric structure such as the thyroid gland, prostate gland<br>
+                                - Described with concept of sidedness</li>
+
+                            <li>Both pairs of organs and single organs are additionally described with the words left and right</li>
+
+                            <li>Untangling use of the words left and right in a document into the concepts laterality and sidedness is achieved by representing the CONTEXT of the use of these words in the document.</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Feature Set</h3>
+                <p>Context is partly the tokens surrounding a focus token. These are referred to as the neighboring tokens. However,
+                    there is additional knowledge that also represents its context. This additional context includes, part of speech,
+                    grammatical relationships, groups of tokens in coherent phrases, section of the document where the phrases are used
+                    and clinical knowledge about the phrases. These items of additional knowledge are known as data elements or
+                    attributes and when extended to include the same data elements from neighboring tokens represents the feature set of
+                    the language model.This additional knowledge adds to the context richness. An NLP solution identifies and builds
+                    this context.</p>
+
+                <p>A consideration in an NLP solution is when to stop adding neighbors into the feature set of the focus token. Many
+                    experiments have investigated the optimal length of the window to the left and right of the focus token for
+                    statistical language modelling. The results for English are to use between 3-7 tokens on the left and 1-3 tokens on
+                    the right.</p>
+
+                <h3>The Role of Context in Rule-based versus Statistical NLP</h3>
+                <p>An important difference between Rule-based NLP and Statistical NLP is their treatment of context.</p>
+
+                <p>Context is treated more richly in Statistical NLP. The tradeoff is that the richer the context, the more analysis
+                    required. This means (1) more elaborate and complicated models, (2) more computing time to build and run, (3) more
+                    complex interactions and (4) more iterations on the NLP solution when trying to improve its accuracy.</p>
+
+                <p>While rule-based NLP solutions can be developed more quickly they can also over generalize more easily. Statistical
+                    NLP is more tedious to build but over generalizes less and can identify content that is not represented in its
+                    training materials. A drawback, however, is it can fail to recognize content correctly even though it is in its
+                    training set. This failure is principally due to a lack of statistical density of the target context.</p>
+
+                <h4>Hybrid Approach</h4>
+                <p>In a hybrid approach Rule-based systems can provide an initial evaluation of tokens which can then be used as a
+                    feature to be a part of the Statistical NLP modelling. This approach has been shown to be effective in improving
+                    Statistical NLP models.</p>
+
+                <h2 id="language">Language Engineering</h2>
+                <p>Language Engineering is a recent term that refers to using Statistical NLP to solve a practical, real world problem.
+                    It recognizes there is a difference between the research world of Statistical NLP and applying current research
+                    results to an applied effort by a group of people seeking efficiencies in their workplace.</p>
+
+                <p>Often Statistical NLP is only a part of a Language Engineering task. Such efforts must also consider the accuracy of
+                    the operational system as well as its impact in the workplace. A combination of different NLP strategies are
+                    typically used to resolve a client’s needs.</p>
+                <nav class="text-center" aria-label="">
+                    <ul class="pagination">
+                        <li class="page-item active disabled">
+                            <span class="page-link">1</span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="nlppipeline.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="buildingnlp.html">3</a></li>
+                        <li class="page-item"><a class="page-link" href="clewnlp.html">4</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="nlppipeline.html">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default panel-glossary">
+                    <div class="panel-body">
+                        <h4 class="h4">In The Glossary</h4>
+                        <h5 class="h5">TERMS ON THIS PAGE</h5>
+                        <a href="glossary.html">
+                            <ul>
+                                <li>Algorithmic Statistics</li>
+                                <li>Artificial Intelligence</li>
+                                <li>Bag of Words</li>
+                                <li>Class</li>
+                                <li>Clinical NLP</li>
+                                <li>Computational Linguistics</li>
+                                <li>Computational Methods</li>
+                                <li>Computer Algorithm</li>
+                                <li>Context and NLP</li>
+                                <li>Feature</li>
+                                <li>Feature Set</li>
+                                <li>ICD-0-3</li>
+                                <li>Language Classifier</li>
+                                <li>Language Model</li>
+                                <li>Linguistic Characteristics</li>
+                                <li>Machine Learning</li>
+                                <li>Ontologies</li>
+                                <li>Orthographical Characteristics</li>
+                                <li>Regular Expression (RegEx)</li>
+                                <li>Rule-based NLP</li>
+                                <li>Statistical NLP</li>
+                                <li>Text Mining</li>
+                                <li>Token</li>
+                                <li>Semantic Tag</li>
+                                <li>Sentential</li>
+                                <li>Structured Data</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+                <div class="panel panel-default panel-slate-stripe">
+                    <div class="panel-body">
+                        <h4 class="h4">Uses of Structured Clinical Data</h4>
+                        <p>Conversion of free form or prose text into structured clinical data enable aggregation of like content across many different source descriptions of the same events or findings.</p>
+                        <p>This data can then provide most systematic representation of these events and findings and thereby improve automatic reuse of the data in other systems.</p>
+                    </div>
+                </div>
+                <div class="panel panel-default panel-slate-stripe">
+                    <div class="panel-body">
+                        <h4 class="h4">Example of How Structured Clinical Data is Used</h4>
+                        <ul>
+                            <li>Clinical decision support systems</li>
+                            <li>Epidemiology</li>
+                            <li>Identification of cohorts for clinical trials</li>
+                            <li>Auditing clinical performance learning from similar cases</li>
+                            <li>Pathology validated radiology</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-default panel-slate-stripe">
+                    <div class="panel-body">
+                        <h4 class="h4">Machine Learning Example</h4>
+                        <p>Machine learning methods are commonly used to build NLP models. ClearTK (<a href="https://cleartk.github.io/cleartk/">https://cleartk.github.io/cleartk/</a>) is one of the most popular machine learning applications based on the UIMA framework. It provides a common interface and wrappers for popular machine learning libraries (such as LibSVM, CRF and Mallet) and NLP tools (OpenNLP, Stanford CoreNLP, etc.). As such, ClearTK has been utilized in CLEW to train NLP models and perform various of classification tasks, such as clinical semantic entity recognition.</p>
+                    </div>
+                </div>
+                <div w3-include-html="includes/resources.html"></div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--//bottom-->
+    <!-- footer -->
+    <div class="footer" w3-include-html="includes/footer.html"></div>
+
+    <!-- //footer -->
+    <!--//main content start-->
+
+    <!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+    <!-- //for bootstrap working -->
+    <!-- js -->
+    <script src="js/include.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- //for bootstrap working -->
+
+
+</body>
+</html>

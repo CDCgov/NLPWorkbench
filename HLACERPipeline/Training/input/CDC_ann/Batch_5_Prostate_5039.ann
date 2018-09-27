@@ -1,0 +1,131 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5197, 
+        5211
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5344, 
+        5358
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5492, 
+        5508
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2561, 
+        2570
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3718, 
+        3727
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4169, 
+        4177
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5136, 
+        5151
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4320, 
+        4335
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5213, 
+        5220
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5360, 
+        5367
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5227, 
+        5237
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5374, 
+        5384
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5153, 
+        5155
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5301, 
+        5303
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160504235545|8E5E3F25058D009336038E9DC2218C0B6D3D0671|ORU^R01|99999999999|P|2.5||||||\nPID|1||N999999999^^^^CMR^HOSPITAL 9&9999&MOH~N999999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&WA&ON^^^^JHN||XXXXXXX^XXXXXXX^ XXXXXXX^^^^||99999999|M|||99 XXXXX XXXXX^^XXXXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||S16-3759|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160210|||65206^XXXXXXX^XXXXX^^^^||||||||||||20160503|||C|||||||99999^XXXXXX^XXXX^^^^|||||||\n\n\n\n\n\n\n\nADDENDUMS\n\nA.  BIOPSY, PROSTATE (RIGHT):\n   -  INVASIVE PROSTATIC ADENOCARCINOMA; GLEASON SCORE 9/10 (PRIMARY 4,\n     SECONDARY 5) ; 3/3 CORES INVOLVED; >90% TISSUE INVOLVEMENT; FOCAL\n     PERINEURAL INVASION.\nB.  BIOPSY, PROSTATE (LEFT):\n   -  INVASIVE PROSTATIC ADENOCARCINOMA; GLEASON SCORE 9/10 (PRIMARY 4,\n     SECONDARY 5) ; 3/3 CORES INVOLVED; >90% TISSUE INVOLVEMENT; FOCAL\n     PERINEURAL INVASION.\n     COMMENT\n     This high grade adenocarcinoma extensively involves the cores and is\n     associated with a desmoplastic stromal reaction.\nCARCINOMA SUMMARY:\n--------------------------\nTumour type: adenocarcinoma, conventional type\nGleason score (primary, secondary)   -  9 (4,5)\ntertiary pattern            -  N/A\n% pattern 4, 5             -  100%\n# sites involved            -  2/2\npositive cores             -  6/6\noverall % tissue involved        -  >90%\nperineural invasion - present     - \nperiprostatic fat invasion - no identified\nSRIGLEY, JOHN MD, FRCPC.      Specimen: 16: CR260\nCredit Valley HOSPITAL Laboratory\n2200 Eglinton Ave. Ont. L5M 2N1 905-813-2696\nPROSTATE BIOPSIES:\nA.  RIGHT:\n   ADENOCARCINOMA\n   -  GLEASON SCORE 4+4, 8/10\n   -  IN 3/3 CORES\n   -  70% SURFACE INVOLVEMENT\n   -  PERINEURAL INVASION PRESENT\nB.  LEFT:\n   ADENOCARCINOMA\n   -  GLEASON SCORE 4+4, 8/10\n   -  IN 3/3 CORES\n   -  80% SURFACE INVOLVEMENT\n   -  PERINEURAL INVASION PRESENT\nSpecimen\n   Procedure:        Prostatic biopsies\nTumour\n   Histologic Type:     Adenocarcinoma (acinar not otherwise specified)\n   Gleason Grade:      Gleason Grade\n   Primary Pattern:     Grade 4\n   Secondary Pattern:    Grade 5\n   Total Gleason Score:   9\n   % Gleason Pattern 4 and/or 5: 100%\n   Cribriform Pattern:   Present\nGrade Group:         Grade Group 5 (Gleason scores 9-10)\nExtent\n   Number of Cores Positive:   8\n   Total Number of Cores:    8\n   Proportion of Prostatic Tissue Involved by Tumour:   75%\n   Sites Involved:        Bilateral\n   Periprostatic Fat Invasion:  Not identified\n   Seminal Vesicle Invasion:   Not identified\n     Comments:        There is no invasion of seminal vesicle but in\n                  one core tumour approximately what appears to be\n                  ejaculatory duct.\nAccessory Findings\n   Lymph-Vascular Invasion:   Not identified\n   Perineural Invasion:     Present\n   Intraductal Carcinoma:    Not identified\nLinda Sugar, MD, FRCPC.      Accession #: S16-10040\nHOSPITAL Health Science Centre\n2075 Bayview Ave. HOSPITAL Ont. M4N 3M5 416-480-6100\nAMENDED REPORT - TYPOGRAPHICAL ERROR IN SYNOPTIC REPORT\nSpecimen\n   Procedure:        Prostatic biopsies\nTumour\n   Histologic Type:     Adenocarcinoma (acinar, not otherwise specified)\n   Gleason Grade:      Gleason Grade\n     Primary Pattern:  Grade 4\n     Secondary Pattern: Grade 4\n     Total Gleason Score:   8\n     % Gleason Pattern 4 and / or 5:  100%\n     Cribriform Pattern: Present\n   Grade Group:       Grade Group 4 (Gleason score 8)\nExtent\n   Number of Cores Positive:   8\n   Total Number of Cores:    8\n   Proportion of Prostatic Tissue Involved by Tumour:   75%\n   Sites Involved:        Bilateral\n   Periprostatic Fat Invasion:  Not identified\n   Seminal Vesicle Invasion:   Not identified\n     Comments:        There is no invasion of seminal vesicle but in\n                  one core tumor approximates what appears to be\n                  ejaculatory duct.\n  \n   Accessory Findings\n     Lymph-Vascular Invasion: Not identified\n     Perineural Invasion:   Present\n     Intraductal Carcinoma:  Not identified\nLinda Sugar, MD, FRCPC.    Accession #: S16-10040\nHOSPITAL Health Science Centre\n2075 Bayview Ave. HOSPITAL Ont. M4N 3M5 416-480-6100\n\n\nCOMMENTS\n\n**** RUSH ****\nSpecimen: A\nExcision time: 0843\nTime placed in Formalin: 0843\nSpecimen: B\nExcision time: 0845\nTime placed in Formalin: 0845\n\n\nGROSS PATHOLOGY\n\nA.  The specimen is received in formalin, labeled with the patient's name\n   and as \"right prostate\". The specimen consists of three intact segments of\n   tan-white core biopsy tissue the longest of which measures 2.4 cm in length and\n   0.1 cm in greatest diameter, entirely submitted as follows:\n   A1:    two cores\n   A2:    one core\nB.  The specimen is received in formalin, labeled with the patient's name\n   and as \"left prostate\". The specimen consists of three intact segments of\n   tan-white core biopsy tissue the longest of which measures 2.3 cm in length and\n   0.1 cm in greatest diameter, entirely submitted as follows:\n   B1:    two cores\n   B2:    one core                          /JT\n\n\nTISSUE SUBMITTED\n\nPROSTATE CORE BIOPSY (RIGHT PROSTATE)\nPROSTATE CORE BIOPSY (LEFT PROSTATE)\n\n\nFINAL DIAGNOSIS\n\nA. RIGHT PROSTATE, NEEDLE CORE BIOPSY:\n   - ADENOCARCINOMA, GLEASON SCORE 8/10 (4+4), PRESENT IN 3 OF 3 CORES AND\n   INVOLVING 70% OF TOTAL BIOPSY.\nB. LEFT PROSTATE, NEEDLE CORE BIOPSY:\n   - ADENOCARCINOMA, GLEASON SCORE 8/10 (4+4), PRESENT IN 3 OF 3 CORES AND\n   INVOLVING 80% OF TOTAL BIOPSY.\n   - PERINEURAL INVASION PRESENT\n(CODE 1)\n\n\nCLINICAL HISTORY\n\nQUERY PROSTATE CA\n\n\n"
+}

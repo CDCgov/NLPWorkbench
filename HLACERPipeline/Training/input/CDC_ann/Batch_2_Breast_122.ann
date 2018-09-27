@@ -1,0 +1,95 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        737, 
+        760
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        762, 
+        778
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        850, 
+        877
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        879, 
+        889
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2543, 
+        2547
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2495, 
+        2521
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2523, 
+        2541
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1055, 
+        1063
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1168, 
+        1176
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2548, 
+        2554
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\nPayment procedure\n\nCPT                            .883682\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C50.912\n\n\nPath report.relevant Hx\n\nClinical history: CC:BYOUNG RYU 3154750620 \n MICROCALCIFICATIONS, RULE OUT MALIGNANCY\n\n\nPath report.final diagnosis\n\nDiagnosis:Methodology: A FDA approved PathVysion HER-2 DNA Probe Kit was used for the assessment of HER2 gene amplification status. The FISH analysis was performed on areas of invasive tumor cells that were defined by a pathologist from an H&E stained slide. Twenty interphase nuclei from invasive tumor cells were analyzed by a technologist. For each nucleus, the number of HER-2 signals and the number of centromere 17 (CEP-17) signals were recorded. Enumeration results are reported as a ratio of total HER-2 signals to CEP-17 signals. The average number of HER-2 signals per nucleus was also recorded. Specimens with amplification show a HER-2/neu and CEP-17 signal ratio of greater than or equal to 2.0; normal specimens show a ratio of less than 2.0. A ratio of 1.8-2.2 should be interpreted with caution. (See the ASCO/CAP 2013 guidelines detailed below for additional information of Her-2 amplification or equivocal status based on the average Her-2 signal copy number per nucleus). ASCO/CAP 2013 Scoring Criteria Guidelines: Her-2 Positive (Amplified) - Her-2/CEP-17 ratio > 2.0 or Her-2/CEP 17 < 2.0 but average HER-2 copy number > 6.0 signals/cell in population > 10% of tumor cells. Her-2 Negative (Not Amplified) - Her-2/CEP-17 ratio < 2.0 and average HER-2 copy number < 4.0 signals per cell. Her-2 Equivocal - Her-2/CEP-17 ratio < 2.0 and average HER-2 copy number > 4.0 and < 6.0 signals per cell. \n RESULT, HER-2/NEU ANALYSIS BY FISH: RATIO = 1.1    HER-2/NEU IS NOT AMPLIFIED. \n AVERAGE HER2 COPY NUMBER = 1.2 CIF/08/07/2017 **********************************************************************\n\n\nPath report.site of origin\n\nMaterial submitted: LEFT BREAST HER-2/NEU FISH\n\n\n"
+}

@@ -1,0 +1,119 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1507, 
+        1521
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5908, 
+        5931
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3433, 
+        3462
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5831, 
+        5866
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5787, 
+        5813
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1547, 
+        1572
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1544, 
+        1545
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1481, 
+        1486
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5823, 
+        5828
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1473, 
+        1480
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5815, 
+        5822
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "", 
+      "__extent": [
+        1226, 
+        1243
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170918000102||ORU^R01^ORU_R01|201709180001020001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-009043^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170907000000|||||||20170907000000|&Colon, Segmental Resection for Tumor|1407864069^^^N^^^MD^^CMS^D^^^NPI||||||20170908000000|||F||||||C18.7^Malignant neoplasm of sigmoid colon^I10~C20^Malignant neoplasm of rectum^I10~C67.9^Malignant neoplasm of bladder, unspecified^I10~C77.5^Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes^I10|1083715031& &&&&&&&CMS\nOBX|1|TX|22637-3^Path report.final diagnosis^LN||Colon, sigmoid and portion of bladder; segmental resection including en bloc partial resection of bladder:     Adenocarcinoma of colon, invasive, with:         Histologic grade:  Moderately differentiated.         Depth of invasion:   Pericolic soft tissue into outer urinary bladder muscularis             propria.         Margins: Negative.         Lymphovascular invasion: Present.     Lymph nodes: Metastatic carcinoma involves 5 of 12 lymph nodes.  One nodule of         discontinuous pericolic involvement.  CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms  3.000.001.1000043 SPECIMEN   Procedure:  Other (specify)   Other (specify):  Sigmoid with en bloc partial bladder resection TUMOR   Tumor Site:  Sigmoid colon   Histologic Type:  Adenocarcinoma   Histologic Grade:  G2: Moderately differentiated   Tumor Size:  Greatest dimension in Centimeters (cm)   Greatest dimension in Centimeters (cm):  6.2cm   Additional Dimension in Centimeters (cm):  4.2cm, 1.5cm   Tumor Deposits:  Present   Number of Deposits:  Specify number   Specify number:  1 Tumor Extent   Tumor Extension:  Tumor directly invades adjacent structures (specify)   Tumor directly invades adjacent structures (specify):  urinary bladder Accessory Findings   Lymphovascular Invasion:  Present   Lymphovascular Invasion Type:  Small vessel lymphovascular invasion   Perineural Invasion:  Not identified   Tumor Budding:  Number of tumor buds in one  hotspot  field (specify total number in area = 0.785 mm2)   Tumor Budding Score:  Low score (0-4)   Type of Polyp in Which Invasive Carcinoma Arose:  Tubulovillous adenoma   Treatment Effect:  No known presurgical therapy MARGINS    Margins:  All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#   Margins Examined:  Proximal, Distal, Radial or Mesenteric, Other (specify)   Other (specify):  Bladder wall   Distance of Invasive Carcinoma from Closest Margin:  Specify in Millimeters (mm)   Specify in Millimeters (mm):  9mm   Specify Closest Margin:  Other (specify)   Other (specify):  Bladder wall LYMPH NODES   Number of Lymph Nodes Involved:  Specify number   Specify number:  5   Number of Lymph Nodes Examined:  Specify number   Specify number:  12 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)    Primary Tumor (pT):  pT4b: Tumor directly invades or adheres to adjacent organs or structures   Regional Lymph Nodes (pN):  pN2a: Four to six regional lymph nodes are positive   Distant Metastasis (pM):  Not applicable - pM cannot be determined from the submitted specimen(s)||||||F|||201709081610|44D1053014^Associated Pathologists, LLC d/b/a PathGroup^CLIA\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \"\" and \"sigmoid colon\" is a 13.2 cm in length segment of colon containing bilateral stapled margins and having a varying circumference ranging from 6.1 cm along 1 margin up to 10.1 cm along the opposing margin. Found in the mid aspect of the segment is an exophytic pink-tan polypoid lesion, 6.3 x 4.2 cm. The lesion is partially circumferential and the colon is strictured at this point. Upon sectioning, the lesion extends up to 1.5 cm in thickness and is approximately 5.0 cm from the nearest resected margin. There is also gross extent into the adjacent serosa that displays a portion of adherent cauterized fatty tissue and possible mucosal tissue (this area measures 3.0 x 3.0 x 2.2 cm. The lesion is found to be 3.2 cm from the smaller circumference margin and 5.6 cm from the margin of the largest circumference. The remainder of the colon displays pink-tan mucosa with the folds adjacent to the smaller circumference margin displaying normal folds and the mucosal folds along the side of the larger circumference appearing flattened in appearance. The wall averages 0.2 cm in thickness. The surrounding serosa and subserosal tissue are otherwise grossly unremarkable in exception to the previously described portion adherent to the lesion. Sectioning of the surrounding fatty tissue reveals multiple pink-tan lymph nodes ranging from 0.2 cm up to 0.9 cm in greatest dimension. Please note there is scant surrounding fatty tissue. The lymph nodes were searched for a second time. Summary of sections: 1A, margin from wider circumference, 1/1; 1B, margin from smaller circumference, 1/1; 1C and 1D, full-thickness bisected section of lesion with extent to adherent portion of possible mucosa, junction of the 2 sections inked orange (1C contains colon half, 1D contains serosal half), 1/1 each; 1E-1G, trisected section of mass at deepest invasion with nearest blue inked resected radial margin (junction between 1E and 1F is inked green, junction between 1F and 1G is inked orange), 1/1 each; 1H-1J, sections of lesion with adjacent mucosa, 1/1 each; 1K, fibrous area adjacent to radial resected margin, 2/1; 1L, 5 lymph nodes, 5/1; 1M, 5 lymph nodes, 5/1; 1N, 1 lymph node bisected, 2/1; 1O, 1 lymph node bisected, 2/1; 1P, sections of fatty tissue with adjacent vessels, 4/1. (DET)\n\n\nPath report.site of origin\n\nSigmoid colon\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - Colon mass\n\n\n"
+}

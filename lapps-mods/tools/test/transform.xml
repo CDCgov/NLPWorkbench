@@ -1,0 +1,29 @@
+<tool id="json.transformer" name="JSON XSLT Transformations" version="1.0.0">
+  <description>Use XSLT to transform JSON documents.</description>
+  <command interpreter="lsd">transform.lsd $input "$template" $output</command>
+  <inputs>
+    <param name="template" type="text" area="true" size="5x25">
+        <sanitizer sanitize="True">
+            <valid initial="string.printable">
+                <remove value="&quot;"/>
+                <remove value="%s"/>
+            </valid>
+            <mapping>
+                <add source="&quot;" target="%s&quot;"/>
+                <add source="%s" target="%s%s"/>
+            </mapping>
+
+        </sanitizer>
+    </param>
+    <param name="input" type="data" format="json"/>
+  </inputs>
+  <outputs>
+    <data name="output" type="data" format="txt" label="Output"/>
+  </outputs>
+  <help>Transforms JSON documents using XSLT stylesheets written using the LAPPS
+      syntax for XSLT.
+
+
+
+  </help>
+</tool>

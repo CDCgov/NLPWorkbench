@@ -1,0 +1,43 @@
+<tool id="gigaword.key.provider" name="Get an OAuth token to access LDC data" version="1.0.0">
+ <description>
+(for LDC members)
+ </description>
+ <command interpreter="lsd">
+  keyprovider.lsd $token $output
+ </command>
+ <inputs>
+  <param label="OAuth Token" name="token" type="text">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="oauth" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**
+
+Retrieves an authorization token from the `Linguistic Data Consortium <https://ldc.upenn.edu/>`_ to verify access privileges to LDC data.  
+
+
+.. class:: warningmark
+
+To obtain Gigaword documents you **must**:
+
+1. Be an LDC licensee
+2. Obtain an OAuth Token 
+
+
+You can obtain an OAuth token by visting `THIS LINK <https://grid.anc.org:9443/ldc-authorize/>`_
+and logging in with your LDC id and password. 
+Then paste the OAuth token into the above field and click `execute`.  This will add an item to your
+history that supplies the OAuth token to LDC datasource services that 
+require it.
+
+
+
+]]>
+
+ </help>
+</tool>

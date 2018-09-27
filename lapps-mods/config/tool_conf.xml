@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<toolbox>
+    <section id="getext" name="Get Data">
+		<tool file="data_source/upload.xml"/>
+
+		<label text="Manually Annotated SubCorpus" id="masc_label"/>
+		<tool file="masc/get.xml"/>
+		<tool file="masc/list.xml"/>
+        <tool file="masc/query.xml"/>
+        <tool file="masc/create_collection.xml"/>
+        <tool file="masc/query_collection.xml"/>
+
+		<label text="PubAnnotation" id="pubannotation_label"/>
+		<tool file="pubannotation/get.xml"/>
+		<tool file="pubannotation/collection.xml"/>
+		
+		<label text="BioNLP" id="bionlp_label"/>
+		<tool file="bionlp-coref/get.xml"/>
+		<tool file="bionlp-coref/list.xml"/>
+        <tool file="bionlp-coref/query.xml"/>
+        <tool file="bionlp-coref/query_collection.xml"/>
+
+		<tool file="bionlp-proteins/get.xml"/>
+		<tool file="bionlp-proteins/list.xml"/>
+        <tool file="bionlp-proteins/query.xml"/>
+        <tool file="bionlp-proteins/query_collection.xml"/>
+
+		<tool file="bionlp-reference/get.xml"/>
+		<tool file="bionlp-reference/list.xml"/>
+        <tool file="bionlp-reference/query.xml"/>
+        <tool file="bionlp-reference/query_collection.xml"/>
+
+		<label text="FDR" id="fdr_label"/>
+		<tool file="fdr/list.xml"/>
+		<tool file="fdr/get.xml"/>
+		<tool file="fdr/create_collection.xml"/>
+
+		<label text="Gigaword" id="gigaword_label"/>
+        <tool file="gigaword/list.xml"/>
+        <tool file="gigaword/get.xml"/>
+        <tool file="gigaword/create_collection.xml"/>
+        <tool file="gigaword/query.xml"/>
+        <tool file="gigaword/keyprovider.xml"/>
+
+		<label text="MISC" id="misc_label"/>
+        <tool file="twitter/twitter-datasource.xml"/>
+
+	</section>
+	
+	<section id="export" name="Export Data">
+		<tool file="eurolan2017/ExportLif.xml"/>
+		<tool file="eurolan2017/ExportGate.xml"/>
+		<tool file="pubannotation/post.xml"/>
+        <tool file="pubannotation/extract.xml"/>
+    </section>
+    
+    <section id="convert" name="Convert Formats">
+		<tool file="common/wrap_text.xml"/>
+		<tool file="converters/tcf2lif.xml"/>
+    	<tool file="weblicht/lif2tcf.xml"/>
+		<tool file="converters/convert.gate2json_2.1.0.xml"/>
+		<tool file="converters/convert.json2gate_2.1.0.xml"/>
+		<tool file="converters/gigaword2lif.xml"/>
+		<tool file="pubannotation/convert.xml"/>
+        <tool file="pubannotation/convert-json.xml"/>
+        <tool file="cdc/convert-lif.xml"/>
+        <tool file="cdc/convert-xcas.xml"/>
+		<tool file="args/translate.xml"/>
+	</section>
+
+    <section id="cdc.fda" name="CDC/FDA">
+        <tool file="cdc/vaers.xml"/>
+        <tool file="cdc/ctakes.xml"/>
+        <tool file="cdc/convert-lif.xml"/>
+        <tool file="cdc/convert-xcas.xml"/>
+    </section>
+
+
+    <section id="getbiotools" name="Biomed tools">
+
+		<!--
+		<tool file="eurolan2017/DCTParser.xml"/>
+
+		-->
+		<tool file="eurolan2017/BioTokenizer.xml"/>
+		<tool file="eurolan2017/GeneTagger.xml"/>
+		<!-- <tool file="eurolan2017/MalignancyTagger.xml"/>
+		<tool file="eurolan2017/VariationTagger.xml"/>
+		<tool file="eurolan2017/BadRex.xml"/> -->
+		<tool file="eurolan2017/AbnerTagger.xml"/>		
+		<tool file="eurolan2017/TimeML.xml"/>
+		<!--
+		<tool file="eurolan2017/HeidelTime.xml"/>	
+		-->
+				
+
+	</section>
+    
+	<!--
+	<section id="example-pipelines" name="Example Applications">
+		<tool file="eurolan2017/BioASQ.xml"/>
+	</section>
+	-->
+	
+
+	<section id="tokenizers" name="Tokenizers">
+		<tool file="stanford/vassar.tokenizer_2.1.0.xml"/>
+		<!--		
+		<tool file='stanford/brandeis.tokenizer.xml' />
+		-->
+		<tool file="gate/gate.tokenizer_2.3.0.xml"/>
+		<tool file='opennlp/opennlp.tokenizer.xml' />
+		<tool file="lingpipe/vassar.tokenizer_1.0.0.xml"/>
+		<!-- <tool file='dkpro/dkpro.stanford.tokenizer.xml'/>
+		<tool file='dkpro/dkpro.opennlp.tokenizer.xml'/> -->
+		<tool file="deiis/Tokenizer.xml"/>
+	</section>
+	<section id="splitters" name="Sentence Splitters">
+		<tool file="stanford/vassar.splitter_2.1.0.xml"/>
+		<!--	
+		<tool file='stanford/brandeis.splitter.xml' />
+		-->
+		<tool file="gate/gate.splitter_2.3.0.xml"/>
+		<tool file='opennlp/opennlp.splitter.xml' />
+		<tool file="lingpipe/vassar.splitter_1.0.0.xml"/>
+		<!-- <tool file='dkpro/dkpro.stanford.splitter.xml'/>
+		<tool file='dkpro/dkpro.opennlp.splitter.xml'/> -->
+	</section>
+	<section id="taggers" name="Taggers">
+		<tool file="stanford/vassar.tagger_2.1.0.xml"/>
+		<tool file='stanford/brandeis.postagger.xml' />
+		<tool file="gate/gate.tagger_2.3.0.xml"/>
+		<tool file='opennlp/opennlp.postagger.xml' />
+		<tool file="lingpipe/vassar.tagger_1.0.0.xml"/>
+        <tool file="gost/semtagger.xml"/>
+		<!--<tool file='dkpro/dkpro.stanford.postagger.xml'/>
+		<tool file='dkpro/dkpro.opennlp.postagger.xml'/>-->
+	</section>
+	<section id="ner" name="Named Entity Recognizers">
+		<tool file="stanford/vassar.ner_2.1.0.xml"/>
+		<tool file="stanford/vassar.ner2_2.1.0.xml"/>
+		<!--
+		<tool file='stanford/brandeis.namedentityrecognizer.xml' />
+		-->
+		<tool file="gate/gate.ner_2.3.0.xml"/>
+		<tool file='opennlp/opennlp.namedentityrecognizer.xml' />
+		<tool file="lingpipe/cmu.dictionaryNER_1.0.0.xml"/>
+		<tool file="lingpipe/vassar.ner_1.0.0.xml"/>
+		<!-- tool file='dkpro/dkpro.stanford.namedentityrecognizer.xml'/>
+		<tool file='dkpro/dkpro.opennlp.namedentityrecognizer.xml'/>
+        <tool file="dbpedia/spotlight.xml"/>
+        <tool file="common/nerfix.xml"/>-->
+	</section>
+	<section id="parsers" name="Parsers">
+		<tool file='stanford/brandeis.parser.xml' />
+		<tool file='stanford/brandeis.dependencyparser.xml' />
+		<tool file='opennlp/opennlp.parser.xml' />
+		<!-- <tool file='dkpro/dkpro.stanford.parser.xml'/>
+		<tool file='dkpro/dkpro.opennlp.parser.xml'/>-->
+	</section>
+	<section id="chunkers" name="NP and VP Chunkers">
+		<tool file="gate/gate.npchunker_2.3.0.xml"/>
+		<tool file="gate/gate.vpchunker_2.3.0.xml"/>
+	</section>
+
+    <section id="coref" name="Coreference">
+		<tool file='stanford/brandeis.coref.xml' />
+		<!--
+		<tool file='dkpro/dkpro.stanford.coref.xml'/> -->
+	</section>
+	
+    <section id="rel-ext" name="Relation Extractors">
+		<tool file='reverb/brandeis.reverb.xml' />
+	</section>
+	
+	<section id="stanford" name="Stanford NLP Tools">
+		<tool file="stanford/vassar.tokenizer_2.1.0.xml"/>
+		<tool file="stanford/vassar.splitter_2.1.0.xml"/>
+		<tool file="stanford/vassar.tagger_2.1.0.xml"/>
+		<tool file="stanford/vassar.ner_2.1.0.xml"/>
+		<tool file="stanford/vassar.ner2_2.1.0.xml"/>
+		<!-- <tool file='stanford/brandeis.tokenizer.xml' />
+		<tool file='stanford/brandeis.splitter.xml' />-->
+		<tool file='stanford/brandeis.postagger.xml' />
+		<tool file='stanford/brandeis.namedentityrecognizer.xml' />
+		<tool file='stanford/brandeis.parser.xml' />
+		<tool file='stanford/brandeis.dependencyparser.xml' />
+		<tool file='stanford/brandeis.coref.xml' />
+		<!--
+		<tool file='dkpro/dkpro.stanford.coref.xml'/>
+		<tool file='dkpro/dkpro.stanford.namedentityrecognizer.xml'/>
+		<tool file='dkpro/dkpro.stanford.parser.xml'/>
+		<tool file='dkpro/dkpro.stanford.postagger.xml'/>
+		<tool file='dkpro/dkpro.stanford.splitter.xml'/>
+		<tool file='dkpro/dkpro.stanford.tokenizer.xml'/>
+		-->
+	</section>
+	<section id="gate" name="GATE Tools">
+		<tool file="gate/gate.tokenizer_2.3.0.xml"/>
+		<tool file="gate/gate.splitter_2.3.0.xml"/>
+		<tool file="gate/gate.tagger_2.3.0.xml"/>
+		<tool file="gate/gate.ner_2.3.0.xml"/>
+		<tool file="gate/gate.npchunker_2.3.0.xml"/>
+		<tool file="gate/gate.vpchunker_2.3.0.xml"/>
+		<tool file="gate/gate.gazetteer_2.3.0.xml"/>
+		<tool file="converters/convert.gate2json_2.1.0.xml"/>
+		<tool file="converters/convert.json2gate_2.1.0.xml"/>
+	</section>
+	<section id='opennlp.tools' name='Apache OpenNLP Tools'>
+	  <tool file='opennlp/opennlp.tokenizer.xml' />
+	  <tool file='opennlp/opennlp.splitter.xml' />
+	  <tool file='opennlp/opennlp.postagger.xml' />
+	  <tool file='opennlp/opennlp.namedentityrecognizer.xml' />
+	  <tool file='opennlp/opennlp.parser.xml' />
+	  <!--
+		<tool file='dkpro/dkpro.opennlp.namedentityrecognizer.xml'/>
+		<tool file='dkpro/dkpro.opennlp.parser.xml'/>
+		<tool file='dkpro/dkpro.opennlp.postagger.xml'/>
+		<tool file='dkpro/dkpro.opennlp.splitter.xml'/>
+		<tool file='dkpro/dkpro.opennlp.tokenizer.xml'/>
+		-->
+	</section>
+    <section id="lingpipe.tools" name="Lingpipe Tools">
+		<tool file="lingpipe/vassar.tokenizer_1.0.0.xml"/>
+		<tool file="lingpipe/vassar.splitter_1.0.0.xml"/>
+		<tool file="lingpipe/vassar.tagger_1.0.0.xml"/>
+		<tool file="lingpipe/vassar.ner_1.0.0.xml"/>
+		<tool file="lingpipe/cmu.dictionaryNER_1.0.0.xml"/>
+    </section>
+    <section id="dkpro" name="DKPro Core Tools">
+		<tool file='dkpro/dkpro.opennlp.namedentityrecognizer.xml'/>
+		<tool file='dkpro/dkpro.opennlp.parser.xml'/>
+		<tool file='dkpro/dkpro.opennlp.postagger.xml'/>
+		<tool file='dkpro/dkpro.opennlp.splitter.xml'/>
+		<tool file='dkpro/dkpro.opennlp.tokenizer.xml'/>
+		<tool file='dkpro/dkpro.stanford.coref.xml'/>
+		<tool file='dkpro/dkpro.stanford.namedentityrecognizer.xml'/>
+		<tool file='dkpro/dkpro.stanford.parser.xml'/>
+		<tool file='dkpro/dkpro.stanford.postagger.xml'/>
+		<tool file='dkpro/dkpro.stanford.splitter.xml'/>
+		<tool file='dkpro/dkpro.stanford.tokenizer.xml'/>
+    </section>
+    <section id="weblicht.stanford" name="Weblicht Tools">
+    	<tool file="weblicht/stanford.tokenizer_1.0.0.xml"/>
+    	<tool file="weblicht/stanford.tagger_1.0.0.xml"/>
+    	<tool file="weblicht/stanford.ner_1.0.0.xml"/>
+    	<tool file="weblicht/stanford.parser_1.0.0.xml"/>
+		<tool file="weblicht/morph.adorner.xml"/>
+    	<tool file="weblicht/lif2tcf.xml"/>
+		<tool file="converters/tcf2lif.xml"/>
+		<tool file="common/wrap_text.xml"/>
+    </section>
+
+    <section id="maching.learning" name="Machine Learning">
+        <tool file="learning/classifier.xml"/>
+        <tool file="learning/weka_classifier_smo.xml" />
+        <tool file="learning/weka_classifier_naivebayes.xml" />
+        <tool file="learning/weka_classifier_logistic.xml" />
+        <tool file="learning/weka_classifier_j48.xml" />
+    </section>
+
+    <section id="deiis" name="Text Statistics">
+     	<tool file="deiis/NGramAnnotator.xml"/>
+    	<tool file="common/word_count.xml"/>
+    </section>
+   
+	<!--
+    <section id="dbpedia" name="DBpedia Spotlight">
+        <tool file="dbpedia/spotlight.xml"/>
+    </section>
+    <section id="qa" name="Question Answering Tools">
+    	<tool file="deiis/PrepareData.xml"/>
+    	<tool file="deiis/NGramAnnotator.xml"/>
+    	<tool file="deiis/NGramScorer.xml"/>
+    	<tool file="deiis/Ranker.xml"/>
+    	<tool file="deiis/Evaluator.xml"/>
+    	<tool file="deiis/DataExtractor.xml"/>
+    	<tool file="deiis/RankingExtractor.xml"/>
+    </section>
+    
+	<section id="discovery" name="Discovery 2020">
+		<tool file="discovery/multi_annotator.xml"/>
+		<tool file="discovery/multi_annotator2.xml"/>
+		<tool file="discovery/ner_span_annotator.xml"/>
+		<tool file="discovery/ner_span_annotator2.xml"/>
+		<tool file="discovery/passage_extractor.xml"/>
+		<tool file="discovery/scoring.xml"/>
+		<tool file="discovery/summarize.xml"/>
+	</section>
+	<section id="arg.tech" name="Argument Structure">
+		<tool file="args/translate.xml"/>
+	</section>
+	<section id="kyoto.grid" name="Kyoto Node">
+		<tool file='kyoto/opennlp_postagger.xml'/>
+	</section>
+	-->
+	<section id="lapps.evaluation" name="Evaluation">
+
+		<tool file="oaqa/oaqa_evaluation.xml"/>
+		<tool file="oaqa/simple_oaqa.xml"/>
+		<tool file="ranking/svm_rank_learn.xml"/>
+        <tool file="ranking/svm_rank_classify.xml"/>
+		<!--
+		<tool file="common/evaluation.xml"/>
+		<tool file="common/compare_annotations.xml"/>
+		-->
+	</section>
+
+	<section id="misc" name="Miscellaneous">
+		<tool file="common/pretty_print.xml"/>
+        <tool file="common/select.xml"/>
+		<tool file="common/filter.xml"/>
+		<tool file="common/simple_filter.xml"/>
+		<tool file="common/filter.xml"/>
+        <tool file="common/nerfix.xml"/>
+		<tool file="common/rename.xml"/>
+		<tool file="common/rename_features.xml"/>
+		<tool file="common/wrap_text.xml"/>
+		<tool file="common/masseuse.xml"/>
+		<tool file="common/sanitize.xml"/>
+		<tool file="common/wrap.xml"/>
+        <tool file="common/history.xml"/>
+	</section>
+	<section id="develop" name="Development">
+		<tool file="develop/collect.xml"/>
+		<tool file="develop/WordFrequency.xml"/>
+		<tool file="develop/stopwords.xml"/>
+		<tool file="develop/FilterStopwords.xml"/>
+	</section>
+
+  <section id="plots" name="Graph/Display Data">
+		<tool file="common/pretty_print.xml"/>
+    <tool file="plotting/bar_chart.xml" />
+    <tool file="plotting/boxplot.xml" />
+  </section>
+</toolbox>

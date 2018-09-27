@@ -1,0 +1,157 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        954, 
+        968
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        969, 
+        978
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        784, 
+        807
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3201, 
+        3221
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        866, 
+        893
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        895, 
+        899
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3165, 
+        3169
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        476, 
+        505
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3060, 
+        3095
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3137, 
+        3163
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        932, 
+        953
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        907, 
+        911
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3177, 
+        3181
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        900, 
+        906
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3170, 
+        3176
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1070, 
+        1102
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Methodist Medical Center (Oak Ridge)^44D0311996^CLIA|eMARCPlus|TN Cancer Registry|20170919125907||ORU^R01^ORU_R01|201709191259070001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-OT-004782^PathSys^44D0311996^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170809000000|||||||20170809000000|&Core Biopsy Mass|1417124371^^^M^^^MD^^CMS^D^^^NPI||||||20170810000000|||F||||||C34.02^Malignant neoplasm of left main bronchus^I10|1497721872&&&K.&&&&&CMS\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is labeled \"\" and \"left apical lung mass core biopsy.\" Received fresh in CT are multiple gray-white needle biopsies ranging from 0.1 to 1.2 cm in length. A touch prep slide is prepared, the specimen is filtered, and is submitted completely in cassette 1A. (AKG)\n\n\nPath report.relevant Hx\n\nHistory - Bilateral lung masses, no previous diagnosis\n\n\nPath report.final diagnosis\n\nLeft apical lung mass core biopsy:   Poorly differentiated non-small cell carcinoma with mixed squamous and glandular       differentiation and focal necrosis. See Comment.\n\n\nPath report.supplemental reports\n\nFish Report: FISH - - Negative for ALK gene rearrangement. Positive for ALK gene amplification.  - Negative for ROS1 gene rearrangement. Positive for ROS1 gene amplification.   ## End of auxiliary report ## Molecular Diagnostic Rpt: EGFR Mutation Analysis/Reviewer: SEE COMMENT EGFR Mutation Analysis/EGFR Mutation: NOT DETECTED EGFR Mutation Analysis/EGFR Mutation Interpretation: This specimen showed no evidence of a mutation in the <i>EGFR</i> gene. If clinically appropriate, consideration may be given to broader genomic profiling. <BR/><BR/> This assay sequenced the following areas of the gene: portions of exons 18-21, consisting of codons 699-726, 729-840, 848-869 (specifically including codons E709, G719, S768, T790, L833, L858, L861 and deletions and insertions in exons 19 and 20). EGFR Mutation Analysis/Reference Sequence: EGFR NM-005228: NM_005228 EGFR Mutation Analysis/Genome Reference: GRCh 37 (hg19) EGFR Mutation Analysis/Specimen Source: See Below EGFR Mutation Analysis/Original Accession Number: 17-OT-004782 EGFR Mutation Analysis/Original Block: 1A EGFR Mutation Analysis/Tumor Percentage: 21-50% BRAF Mutation Analysis/Reviewer: SEE COMMENT BRAF Mutation Analysis/BRAF Mutation: NOT DETECTED BRAF Mutation Analysis/BRAF Mutation Interpretation: This specimen showed no evidence of a mutation in the <i>BRAF</i> gene. If clinically appropriate, consideration may be given to broader genomic profiling. <BR/><BR/> This assay sequenced the following areas of the gene: exons 10 and 14, consisting of codons 464 to 472 and 581 to 601 (specifically including codon V600). BRAF Mutation Analysis/Reference Sequence: BRAF NM-004333: NM_004333 BRAF Mutation Analysis/Genome Reference: GRCh 37 (hg19) BRAF Mutation Analysis/Specimen Source: See Below BRAF Mutation Analysis/Original Accession Number: 17-OT-004782 BRAF Mutation Analysis/Original Block: 1A BRAF Mutation Analysis/Tumor Percentage: 21-50% ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nLeft apical lung mass core biopsy\n\n\nPath report.comments\n\nComments - Sections of the left apical lung mass core biopsy demonstrate fragments of fibrous tissue with extensive involvement by a poorly differentiated non-small cell carcinoma. There is moderate nuclear pleomorphism present. There is a moderate amount of eosinophilic cytoplasm with no cytoplasmic differentiation identified. Focal necrosis is seen. Immunohistochemical stains with appropriate controls are performed. The tumor cells are positive for cytokeratin 5/6 and monoclonal carcinoembryonic antigen (mCEA). In addition, there is nuclear staining for p63 and focal staining for thyroid transcription factor (TTF-1). The morphologic findings demonstrate a poorly differentiated non-small cell carcinoma with the immunohistochemical staining pattern consistent with mixed squamous and glandular differentiation. The specimen will be submitted for EGFR, ALK, ROS1, and PD-L1 testing with separate reports to follow. The case has been reviewed by Dr.  who concurs with the diagnosis. FISH Comments - Fluorescence in situ hybridization (FISH) analysis detected no evidence of an ALK (2p23) gene rearrangement. However, 6-9 additional copies of ALK were observed in 14% of the cells, consistent with amplification of the 2p23 chromosome region. Amplification of ALK has been suggested in some studies to be associated with a better clinical outcome in patients treated with ALK tyrosine kinase inhibitors such as crizotinib.   FISH analysis detected no evidence of a ROS1 (6q22.1) gene rearrangement. However, 4-6 additional copies of ROS1 were observed in 25% of the cells, consistent with amplification of ROS1. Amplification of ROS1 may be responsive to tyrosine kinase inhibitors including crizotinib.   Monitoring for these abnormalities may be useful in assessing the patient`s remission/relapse status.   It should be noted that the FISH probes utilized in this analysis cannot entirely exclude the presence of other chromosomal abnormalities. Correlation with other clinical and morphological data is recommended, if available.   FISH analysis was performed on interphase cells using the ALK (2p23; FDA-approved) and the ROS1 (6q22.1) dual color, break apart rearrangement probes (Abbott Molecular, Inc., Des Plaines, IL).   References:  Nat Med. 2012 Feb 12;18(3):382-4; Oncol Rep. 2012 Oct;28(4):1187-92; J Clin Oncol. 2009 Apr 1;27(10):1667-74. J Thorac Oncol. 2010 Mar;5(3):305-13. J Clin Oncol. 2012, 30(35):4352-9; Am Soc Clin Oncol Educ Book. 2014;34:e353-65. J Mol Diagn. 2013 Apr 4. pii: S1525-1578(13)00041-X. J Natl Cancer Inst 2005, 97:643-655. Mol Cancer Ther. 2008 Apr;7(4):944-51. Cancer Genet Cytogenet. 2010 Dec;203(2):222-9. Mol Cancer Ther.2007 Apr;6(4):1223-9. J Mol Diagn. 2008 March; 10(2): 160-168. Stewart DJ. Targeted therapy in non-small cell lung cancer. in \"Targeted Cancer Therapy\" (Kurzrock R and Markmen M, eds.) pg 135. Humana press, 2008. Nat Med. 2012 Feb 12;18(3):382-4; Oncol Rep. 2012 Oct;28(4):1187-92; J Clin Oncol. 2009 Apr 1;27(10):1667-74. J Thorac Oncol. 2010 Mar;5(3):305-13.; Expert Opin Ther Pat. 2014 Apr;24(4):417-42. Jin Y et al. Virchows Arch. 2015 Jan;466(1):45-52. doi: 10.1007/s00428-014-1679-2. Epub 2014 Nov 6. (J Neurooncol. 2014 Jun;118(2):425-6.)  Molec Comments - The tissue specimen was reviewed by a pathologist, areas of tumor were microdissected from surrounding tissue, and genomic DNA isolated using standard methods. The isolated DNA was subjected to PCR using primers specific for the gene of interest. The PCR products were prepared and sequenced using Illumina NextSeq v2 chemistry. Sequence data was analyzed using standard software (MiSeq Reporter v 2.5.1 and GATK v2.3-9 ). This assay requires a minimum coverage of 200X, and has an analytic sensitivity of approximately 5%. The analytic sensitivity is dependent on the specific mutation and sequence context. All sequences are relative to the GRCh37 (hg19) genome. This assay sequenced the following areas of the gene: This assay is highly sensitive and accurate, but rare false positive and false negative results may occur. Correlation with other clinical and laboratory findings is required. This assay may use reagents that are marked as ASR or RUO by the manufacturer. This test was developed and its performance characteristics determined by PathGroup. It has not been cleared or approved by the U.S. Food and Drug Administration. The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing.  This assay sequenced the following areas of the gene: exons 10 and 14, consisting of codons 464 to 472 and 581 to 601 (specifically including codon V600).  <BR/><BR/>Cohen, Yoram, et al.<i>Journal of the National Cancer Institute</i> 95.8 (2003): 625-627. Solit, B., et al.<i>Nature</i> 439.7074 (2006): 358-362. Ogino, Shuji, et al.<i>Gut</i> 58.1 (2009): 90-96. Tol, Jolien, Iris D. Nagtegaal, and Cornelis JA Punt.<i>New England Journal of Medicine</i> 361.1 (2009): 98-99.  Molec Comments - The tissue specimen was reviewed by a pathologist, areas of tumor were microdissected from surrounding tissue, and genomic DNA isolated using standard methods. The isolated DNA was subjected to PCR using primers specific for the gene of interest. The PCR products were prepared and sequenced using Illumina NextSeq v2 chemistry. Sequence data was analyzed using standard software (MiSeq Reporter v 2.5.1 and GATK v2.3-9 ). This assay requires a minimum coverage of 200X, and has an analytic sensitivity of approximately 5%. The analytic sensitivity is dependent on the specific mutation and sequence context. All sequences are relative to the GRCh37 (hg19) genome. This assay sequenced the following areas of the gene: This assay is highly sensitive and accurate, but rare false positive and false negative results may occur. Correlation with other clinical and laboratory findings is required. This assay may use reagents that are marked as ASR or RUO by the manufacturer. This test was developed and its performance characteristics determined by PathGroup. It has not been cleared or approved by the U.S. Food and Drug Administration. The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. This assay sequenced the following areas of the gene: portions of exons 18-21, consisting of codons 699-726, 729-840, 848-869 (specifically including codons E709, G719, S768, T790, L833, L858, L861 and deletions and insertions in exons 19 and 20). <BR/><BR/>Paez, J. Guillermo, et al.<i>Science</i> 304.5676 (2004): 1497-1500. Barber, Thomas D., et al.<i> New England Journal of Medicine</i> 351.27 (2004): 2883-2883. Linardou, Helena, et al.<i> Nature Reviews Clinical oncology</i> 6.6 (2009): 352-366. Gazdar, AFea.<i> Oncogene 28</i> (2009): S24-S31.\n\n\n"
+}

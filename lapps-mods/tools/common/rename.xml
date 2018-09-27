@@ -1,0 +1,14 @@
+<tool id='lapps.tools.rename' name='Rename Annotations' version='1.0.0'>
+  <description>Renames annotations</description>
+  <command interpreter='lsd'>rename.lsd $old $new $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='Input' />
+    <param name="old" type="text" size="50" value="http://vocab.lappsgrid.org/" label="Old Name"/>
+    <param name="new" type="text" size="50" value="http://vocab.lappsgrid.org/" label="New Name"/>
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+  <help>Renames the annotations in the last view in the document.
+  </help>
+</tool>

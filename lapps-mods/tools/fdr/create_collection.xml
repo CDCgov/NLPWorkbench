@@ -1,0 +1,37 @@
+<tool id="fdr.create.collection" name="Create a data collection of select documents" version="1.0.0">
+ <command>
+  lsd $__tool_directory__/create_collection.lsd $start $end
+ </command>
+
+ <inputs>
+  <param min="0" name="start" type="integer" value="0">
+  </param>
+  <param max="106" name="end" type="integer" value="106">
+  </param>
+ </inputs>
+ <outputs>
+  <collection format="lif" label="FDR Collection" name="list_output" type="list">
+   <discover_datasets directory="outputs" pattern="__designation_and_ext__" visible="false">
+   </discover_datasets>
+  </collection>
+ </outputs>
+ <tests>
+ </tests>
+ <help>
+  <![CDATA[
+  
+**What it does**
+  
+Creates a Data Collection including a selected range of documents from the FDR corpus. 
+
+.. class:: infomark
+
+**TIP**: Use *get Data->FDR: List all document IDs* to see a list of valid IDs.
+
+**License**
+
+All documents in the FDR corpus are in `the public domain <https://copyright.gov/pr/pdomain.html>`_
+
+]]>
+ </help>
+</tool>

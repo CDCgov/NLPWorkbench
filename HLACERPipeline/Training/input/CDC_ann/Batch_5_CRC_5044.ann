@@ -1,0 +1,169 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1120, 
+        1127
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1022, 
+        1036
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1128, 
+        1135
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1291, 
+        1305
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1593, 
+        1602
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2129, 
+        2152
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        966, 
+        993
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        542, 
+        571
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        917, 
+        943
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1013, 
+        1021
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1166, 
+        1191
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1571, 
+        1592
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        958, 
+        963
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1006, 
+        1011
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        947, 
+        957
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        995, 
+        1005
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        945, 
+        947
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1937, 
+        1939
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL^9307^MOH|PIMS|CCO|20160502220700|3CEB181D9337518C7C2E21AA8699C8FB6BE1FFFF|ORU^R01|9999999|D|2.5|\nPID|1||9999999999^^^^CMR^HOSPITAL&9999&MOH~9999999999^^^^MRN^HOSPITAL&9999&MOH~9999999999&EJ&ON^^^^JHN||XXXXXXXX^XXXXXX^X||99999999|M|||||(999)999-9999|||||||||||||||||N|\nOBR|1||S16-35669|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604250000|||023802^XXXXX^X.||||201604281810|PAT&TR831COL&Transverse Colon|999999^XXXXX^X.||||||201605022207||S|F|||9917601^DHATT^D.R.||||99999^XXXXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nTransverse Colon:\nThe specimen container labeled \"Transverse colon polyp x 3\" has in it a polyp measuring 0.7 cm x 0.6 cm x 0.4 cm. There are 5 pieces of tissue also present which measure from 0.5 cm to 0.3 cm in greatest dimensions. The larger piece sectioned.\nEntirely submitted:\nCassette A1 - 2 pieces (bisected)\nCassette A2 - 5 piece(s)\n\n\n\nPath report.site of origin\n\nA.Transverse Colon\n\n\nPath report.final diagnosis\n\nTransverse Colon:\nINVASIVE ADENOCARCINOMA IN A COLORECTAL ADENOMATOUS POLYP:\n- SEE BELOW\n\nSpecimen Type: pedunculated polyp; tubular adenoma\n\nHistologic Grade: Low-grade (moderately differentiated)\n\nLympho-vascular Invasion: Not identified\n\nHigh Grade Tumour Budding: Not identified\n\nDistance of Adenocarcinoma from Polyp Resection Margin: Unable to accurately measure distance due to fragmentation of specimen. Cauterized polyp resection margin appears clear but endoscopic correlation needed to ensure complete excision.\n\nAssociated Pathology: absent\n\nTumours with areas of poorly differentiated carcinoma (high-grade adenocarcinomas), lymphovascular invasion or high grade tumour budding are at significant risk for regional lymph node metastasis (depending on number of risk factors involved). Tumours with no associated risk factors may be treated by polypectomy alone as long as complete excision can be confirmed. \n\nReference: Cooper, H. Pathology of the endoscopically removed malignant colorectal polyp. Current Diagnostic Pathology. 13: 4232007.\n\nSNOMED CT: 1701000119104 (SNOMED diagnosis coding for internal use only)\n\n\n\n\nPath report.relevant Hx\n\nAverage risk colonoscopy. Polyp x 3.\n\n\n\n"
+}

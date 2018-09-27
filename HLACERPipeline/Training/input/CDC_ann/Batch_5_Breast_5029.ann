@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1491, 
+        1497
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1498, 
+        1507
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1535, 
+        1558
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2275, 
+        2295
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1404, 
+        1431
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1373, 
+        1378
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1449, 
+        1454
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        517, 
+        546
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1330, 
+        1356
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1482, 
+        1490
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1358, 
+        1364
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1433, 
+        1439
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1389, 
+        1401
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1465, 
+        1477
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 5^9999^MOH|PIMS|CCO|20160503080102|400C02FBF4A7C87FAED742F377B59A3A4C219A6D|ORU^R01|999999999999|P|2.5|||\nPID|1||K999999^^^^CMR^HOSPITAL 5&9999&MOH~K999999^^^^MRN^HOSPITAL 5&9999&MOH~9999999999&XX&ON^^^^JHN||XXXXXXXXXX^XXXXX^^^^^||99999999|F|||99 XXXX XXXX^^XXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||\nOBR|1||16:SJ6367|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160429|||81593^XX-XXXXX^XXXXX^^^^||||||||||||20160503|||F|||||||99999^XXXXX^XXXXXXXX^XXXXXXXXX^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n16:SJ6367 STEPHENSON,MARION OLIVE 82/F\n \nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container. \n \nThe specimen is received in formalin, labelled with the patient's bradma and\ndesignated right breast.\n \nThe specimen is received in two separate tissue cassettes, each labeled with the\npatient's last name, first initial written on one side and the patients date of birth\non the opposite side. \n \nThe first cassette is labeled with #5 and the tissue is submitted for processing in\nthe original cassette as block 1. The second cassette is labeled with #5 and the\ntissue is submitted for processing in the original cassette as block 2. \n \nAt the time of embedding the MLT found 5 cores in block 1 and 5 cores in block 2.\n\n\nPath report.site of origin\n\nBreast, Biopsy right posterior at 6 o'clock\n\n\nPath report.final diagnosis\n\nBREAST - BIOPSY RIGHT POSTERIOR AT 6 O'CLOCK:\n - Invasive ductal carcinoma primary Grade 2.\n \nGG/jw\n\n\nPath report.relevant Hx\n\n*** URGENT ***\nNot available on requisition.\nCase Received From: Dr. B. Heller, Dr. B. Khambalia\nRadiologist: Dr. F. Al-Douri\nClinical Exam: Nonpalpable, screening\nReferral Source: \nFamily History: No\nHormone Replacement: No\nPrevious Biopsy: Yes, right lumpectomy -benign\nImaging Modality: Mammography\nNumber of Cores: 10\nNumber of Cassettes: \nRadiology Findings: Asymmetric density\nLesion(s) Measurements: 2 x 1 x 1.3 cm\nIs Sample Representative: Yes\nCalcifications in Sample: No\nNo. of cores with calcification: \nNo. of cassettes with calcification: \nRadiologic Impression: (V BIRADS) Malignant \nComment: \nPathologic Category: [n/a]\nMultidisciplinary Panel Recommendations: Given by Radiology after correlation\n\n\nPath report.comments\n\nISCHEMIC SPECIMEN TYPE Breast Core Biopsy\nISCHEMIC DATE PROCESSED 02/05/16\nDATE IN FORMALIN 29/04/16\nDATE TISSUE REMOVED 29/04/16\nTOTAL ISCHEMIC TIME MIN 10\nISCHEMIC SIDE Right posterior at 6 o'clock\nISCHEMIC SIGNATURE SMM\nTIME IN FORMALIN 1355\nTOTAL ISCHEMIC TIME 0\nTOTAL FIXATION TIME > 72 hours\nTIME TISSUE REMOVED 1345\n\n\n"
+}

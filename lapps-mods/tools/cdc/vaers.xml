@@ -1,0 +1,11 @@
+<tool id="vaers" name="VAERS Service" version="0.0.1">
+    <description>VAERS Service (CDC)</description>
+    <command>lsd $__tool_directory__/vaers.lsd $input $output
+    </command>
+    <inputs>
+        <param format="lif,txt,uima" label="input" name="input" type="data"></param>
+    </inputs>
+    <outputs>
+        <data format="uima" name="output"></data>
+    </outputs>
+ </tool>

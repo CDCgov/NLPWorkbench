@@ -1,0 +1,143 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2401, 
+        2415
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2253, 
+        2276
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4686, 
+        4706
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2318, 
+        2345
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4672, 
+        4677
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        484, 
+        513
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4567, 
+        4602
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4644, 
+        4670
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2366, 
+        2374
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2375, 
+        2400
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3218, 
+        3219
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4678, 
+        4683
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3159, 
+        3164
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2980, 
+        2997
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Methodist Medical Center (Oak Ridge)^44D0311996^CLIA|eMARCPlus|TN Cancer Registry|20170919125855||ORU^R01^ORU_R01|201709191258550001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-OT-005207^PathSys^44D0311996^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170830000000|||||||20170831000000|&Colon, Segmental Resection for Tumor|1356332126^^^^^^MD^^CMS^D^^^NPI||||||20170901000000|||F||||||C18.0^Malignant neoplasm of cecum^I10|1568471076& & &D.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is labeled \"\" and \"right colon.\" Received in formalin is an intact segment of bowel consistent with terminal ileum, cecum, and right colon having attached mesenteric fat. Terminal ileum measures 6.5 cm in length x 2.7 cm in average diameter. Cecum and right colon measure 18.0 cm in length x 5.5 cm in average diameter at cecum and 5.0 cm in diameter at distal surgical margin of resection. Serosal surface is largely covered by fat and occasional adhesions; however, visible areas are smooth and glistening. Opening the bowel reveals a 100% circumferential non-perforating mass in the right colon measuring 4.8 x 4.5 x 2.0 cm and extending to within 3.5 cm of the distal margin, 18.0 cm of the proximal margin, and 3.5 cm of the radial margin. Mass appears to extend through the bowel wall into the fat. Mucosa of terminal ileum, cecum, and right colon are otherwise unremarkable with no additional masses, nodules, or irregularities. Appendix is absent. Serosal surface overlying mass inked black. Thin sectioning and palpation of attached mesenteric fat reveals 26 pink-tan rubbery firm nodules consistent with lymph nodes ranging from 0.2 to 1.2 cm in greatest dimension. A single gray-white indurated area is also present measuring 0.4 cm in greatest dimension. A portion of omentum is loosely attached to the mesenteric fat and is sectioned revealing no obvious masses, nodules, or irregularities. Slide key: Cassette 1A, sections opposing surgical margin of resection; 1B, radial margin; 1C and 1D, sections mass with adjacent fat; 1E and 1f, sections mass with overlying inked serosal surface; 1G, section terminal ileum and indurated area within fat; 1H, 9 lymph nodes; 1I, 8 lymph nodes; 1J, 9 lymph nodes. (RLF)\n\n\nPath report.relevant Hx\n\nHistory - Apple core mass right colon\n\n\nPath report.final diagnosis\n\n\"Right colon\":     Invasive moderately differentiated adenocarcinoma.   Tumor size: 4.8 cm.   Macroscopic tumor perforation: Not identified.   Microscopic tumor extension: Tumor extends through muscularis propria into     pericolic fat.   Margins: Uninvolved by invasive carcinoma, closest margins 3.5 cm     distance, distal and radial.   Lymphovascular invasion: Positive.   Perineural invasion: Not identified.   Tumor deposits (discontinuous extramural extension): One tumor deposit     identified. PATHOLOGIC STAGING: pT3 pN1c pM not applicable   Number of lymph nodes examined: 26   Number of lymph nodes involved by tumor: 0. CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Right hemicolectomy TUMOR  Tumor Site: Cecum  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 4.8cm  Tumor Deposits: Present  Number of Deposits: Specify number  Specify number: 1 Tumor Extent  Tumor Extension: Tumor invades through the muscularis propria into pericolorectal tissue  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Present  Lymphovascular Invasion Type: Small vessel lymphovascular invasion, Extramural, Intramural  Perineural Invasion: Not identified  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma# LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 26 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (pT): pT3: Tumor invades through the muscularis propria into pericolorectal tissues  Regional Lymph Nodes (pN): pN1c: No regional lymph nodes are positive, but there are tumor deposits in the subserosa, mesentery, nonperitonealized pericolic or perirectal / mesorectal tissues  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nRight colon\n\n\nPath report.comments\n\nComments - Tissue will be submitted for microsatellite instability testing. This case has been reviewed in consultation by Dr.  who concurs with the diagnosis.\n\n\n"
+}

@@ -1,0 +1,267 @@
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+  
+  
+Contents
+ - Introduction
+ - Requirements
+ - Distribution: List of PEAR files 
+ - Distribution: Databases
+ - Installing: PEAR files
+ - Installing: source into Eclipse 
+ - Architecture
+   * Classpath dependencies
+   * Individual annotators
+   * Main Pipelines (Aggregate Analysis Engines)
+   * Other aggregate analysis engines
+   * Using CDA section information - segmenting CDA documents into sections
+   
+ 
+############
+Introduction
+############
+
+This file documents suggestions, background, guidelines, and principles used in creating 
+this distribution of the Clinical Text Analysis and Knowledge Extraction System (cTAKES).
+
+Note: all references to UIMA documentation were written based on version 2.2.2-incubating.
+
+############
+Requirements
+############
+
+Apache UIMA framework 2.2.2 or later
+Java 1.5 or later
+
+You need to have completed the steps to properly install Apache UIMA 2.2.2 or later,
+including setting your UIMA_HOME environment variable.
+
+Other than the above, third-party jar files and resources required to run the pipeline
+examples are included with this distribution of cTAKES.
+
+Note: Some sample databases are included for running the pipeline examples. 
+After successfully installing the pipeline and running an example, you may want to 
+see "Distribution: Databases" below.
+
+Tested on:
+  Windows XP with Java 1.5 and UIMA 2.2.2-incubating
+  Ubuntu 8.10 (Intrepid)
+
+
+######################################
+Distribution: List of PEAR files 
+######################################
+
+This distribution includes 9 PEAR files.
+
+chunker.pear
+ctakes-clinical-pipeline.pear
+context dependent tokenizer.pear
+core.pear
+dictionary lookup.pear
+document preprocessor.pear       
+LVG.pear
+NE contexts.pear
+POS tagger.pear
+
+
+The 'top-level' PEAR file is 'ctakes-clinical-pipeline.pear'.
+
+
+######################################
+Distribution: Databases 
+######################################
+
+A subset of the LVG database (an HSQL database) is included with the LVG annotator.
+See the documentation in the LVG annotator for information on replacing the
+small database with the full LVG database that is available from the Lexical Systems Group.
+
+A sample database (a Lucene index) containing a few drug names is included
+for running the examples.  It can be found in the dictionary lookup project.
+You may want to replace this with a more complete Lucene index or a database
+created from the UMLS Metathesaurus.
+See the documentation for the dictionary lookup project. 
+
+A sample database (2 Lucene indexes) containing a few anatomical sites, procedures, 
+and disorders/diseases is included for running the examples.
+The Lucene indexes can be found in the dictionary lookup project.
+You may want to replace them with more complete Lucene indexes or a database
+created from the UMLS Metathesaurus. 
+See the documentation for the dictionary lookup project. 
+
+
+################################################
+Installing: PEAR files
+################################################
+
+For proper operation, all the PEAR files in this distribution are expected to be 
+installed into the same parent directory.  
+
+Each PEAR file in this distribution was built from a single Eclipse project.
+
+It's not required to import the source of a PEAR file into an Eclipse project
+to run the pipeline.
+
+For proper operation, all the PEAR files in this distribution are expected to be 
+installed into the same parent directory.  
+
+For example, if you choose to install the contents of the PEAR files on Windows XP under 
+D:\InformationExtractionSystem\ then the directory structure you see after installing
+from the PEAR files should be 
+D:\InformationExtractionSystem\chunker
+D:\InformationExtractionSystem\ctakes-clinical-pipeline
+D:\InformationExtractionSystem\core
+... etc.
+
+And each of those directories would have a src subdirectory, such as
+D:\InformationExtractionSystem\chunker\src
+D:\InformationExtractionSystem\ctakes-clinical-pipeline\src
+D:\InformationExtractionSystem\core\src
+... etc.
+
+The pipeline is installed using UIMA's PEAR installer tool (runPearInstaller).
+Using this method, runPearInstaller is used on each PEAR file individually.
+
+See Chapter 8, PEAR Installer User's Guide, in the UIMA Tools Guide and Reference,
+for information about UIMA's PEAR installer (GUI) tool.
+
+If you are unable to install from a PEAR file, verify that the PEAR file was downloaded in its entirety. 
+
+
+################################################
+Installing: source into Eclipse
+################################################
+
+This section assumes the PEAR files you have include source code within them.
+
+If you just want the source code, you might try copying the PEAR file to a file with a .zip extension 
+rather than a .pear extension, and unzipping the .zip file.
+
+If you have installed from the PEAR files as described above, and the PEAR files contained source,
+and you would like to import the source into Eclipse Java projects, you could do the following:
+  
+If the PEAR files did not contain .project and .classpath files, 
+   unzip/extract the files from within eclipse_specific.tar or eclipse_specific.zip into the
+   same directory used as the destination of the installation of the PEAR files,
+   preserving the directory structure. 
+
+Before importing, we will define a user library with the name UIMA within Eclipse as follows:
+   Window -> Preferences -> Java -> Build Path -> User Libraries -> New -> (type in UIMA)
+   User Libraries -> Add JARs 
+   Navigate to UIMA_HOME/lib and select (all) jars from UIMA's lib dir
+
+Then import projects into Eclipse as follows:
+   File -> Import -> General -> Existing Project into Workspace -> (Next)
+   On the Import popup, verify that Select root directory is selected.
+   Click on the Browse button next to Select root directory, and select the directory
+   where you installed the PEAR files' contents.
+   This populates the Projects pane of the popup with all the projects found.
+   Verify they are all selected (checked).
+   Verify that the Copy projects into workspace checkbox is unchecked.
+   Then click Finish.
+
+
+################################################
+Architecture
+################################################
+
+%%%%%%%%%%%%%%%%%%%%%%%
+Classpath dependencies
+%%%%%%%%%%%%%%%%%%%%%%%
+
+Some projects (PEAR files) have dependencies on other projects (PEAR files).
+
+Projects reference resources in classes in other projects using the classpath.
+
+The classpath assumes it can reference other projects through the parent ("..") directory.
+
+If you installed the pipeline from the PEAR files, for proper operation, the target 
+of each install is expected to be the same parent directory.  
+
+If you are running the pipeline from source or building your own PEAR files for your
+environment, each PEAR file from this distribution is expected to be unzipped under the 
+same parent directory as the other PEAR files included in this distribution.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+Individual annotators
+%%%%%%%%%%%%%%%%%%%%%%%
+
+Each PEAR file contains at least one annotator.
+  
+Each annotator has an xml descriptor for the annotator (the analysis engine), 
+as well as at least one aggregate analysis engine that includes the annotator
+in an component engine flow (pipeline).
+  
+For PEAR files that contain multiple annotators, such as 'core', all the annotators 
+within that PEAR file are typically included in a single aggregate analysis engine. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Main Pipelines (Main Aggregate Analysis Engines)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This distribution includes aggregate analysis engine descriptors for the two 
+main pipelines.
+ - one for processing plain text documents. (AggregatePlaintextProcessor.xml)
+ - one for processing Clinical Document Architecture (CDA) documents that conform to 
+   the included DTD. (AggregateCdaProcessor.xml)
+These two are found in 'clinical documents processor'. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Other aggregate analysis engines
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Annotators often build upon each other.  Several of the the annotators rely on annotations created 
+by other annotators.  Therefore many projects/PEAR files contain aggregates to create the annotations 
+needed by the given annotator.  For example, many annotators require Token annotations; therefore, 
+many of the aggregate analysis engines include the tokenizer in the pipeline flow.
+  
+These other aggregates are provided mostly for testing and validation purposes.  They can be used to 
+produce processing by only part of the pipeline.  However, if you have installed the entire pipeline
+and wish to process documents by just part of the pipeline, you can simply duplicate the appropriate 
+AggregateXxxProcessor.xml in 'clinical documents processor' and modify the delegate flow as desired, 
+leaving out whatever steps you don't need.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Using CDA section information - segmenting CDA documents into sections
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+If you have documents in CDA format that conform to the provided DTD, 
+the AggregateCdaProcessor.xml descriptor in clinical documents processor 
+can be used to process the documents through the entire pipeline.
+
+Alternatively, AggregatePlaintextProcessor.xml aggregate analysis engine descriptor
+can be used to run a pipeline for processing plaintext documents.  
+
+However, the pipeline that takes a CDA document as input has the advantage of being able to
+segment the document into sections -- and some annotators can be tuned to ignore certain sections.
+
+Also, each NamedEntity annotation has an attribute indicating which section the NamedEntity
+was found in.
+
+Note however that the CDA document pipeline does not process all CDA documents - it only 
+handles those that conform to the included DTD.
+
+Configuration parameters can be used to limit which sections are annotated by the following 
+annotators when the CDA document pipeline is used
+ * sentence annotator (within core)
+ * tokenizer annotator
+ * LVG annotator 
+
+Limiting which sections a given annotator processes is accomplished by setting parameter value(s) for 
+the annotator, such as the SegmentsToSkip configurationParameter in TokenizerAnnotator.xml
+
+
+ 

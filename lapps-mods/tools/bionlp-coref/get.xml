@@ -1,0 +1,26 @@
+<tool id="bionlp.c0ref.get" name="Get a CoRef document" version="2.0.0">
+ <command>lsd $__tool_directory__/get.lsd $key $type $output</command>
+ <inputs>
+  <param label="Key" name="key" type="text" value="PMC-3589482-6-Experimental_Procedures.lif">
+  </param>
+  <param name="type" type="select">
+  	<option value="lif">Annotated</option>
+  	<option value="txt">Text only</option>
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" label="BioNLP Protein Document" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[  
+
+Retrieves a single document from the BioNLP 2016 Coreference corpus.
+
+**Description** 
+Includes annotations for anaphors bound by protein or event references, produced semi-automatically. 338 anaphora structures are annotated for 218 anaphor expressions, which are bound by 320 antecedents.
+
+
+]]>
+ </help>
+</tool>

@@ -1,0 +1,283 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3358, 
+        3364
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3629, 
+        3635
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4194, 
+        4200
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3365, 
+        3374
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3636, 
+        3645
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3143, 
+        3166
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8133, 
+        8153
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3200, 
+        3227
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3262, 
+        3267
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3328, 
+        3333
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8077, 
+        8082
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8107, 
+        8112
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3268, 
+        3287
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8090, 
+        8103
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        646, 
+        675
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7969, 
+        8004
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8046, 
+        8072
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3376, 
+        3384
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3647, 
+        3654
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3433, 
+        3434
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4629, 
+        4630
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4", 
+      "__extent": [
+        5497, 
+        5498
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3415, 
+        3425
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3334, 
+        3340
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8083, 
+        8089
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8113, 
+        8119
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3259, 
+        3260
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3325, 
+        3327
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8074, 
+        8076
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8104, 
+        8105
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3928, 
+        3945
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170919125821||ORU^R01^ORU_R01|201709191258210001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-007747^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170802000000|||||||20170802000000|&Sentinel Lymph Node, Breast, Exc. of Lesion, requiring micro. margins, PQRS Breast Cancer Resection|1497752489^^^^^^M.D.^^CMS^D^^^NPI||||||20170815000000|||F||||||C50.911^Malignant neoplasm of unspecified site of right female breast^I10~D05.11^Intraductal carcinoma in situ of right breast^I10|1083715031&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen is received fresh labeled \", right breast sentinel node.\" It consists of 2 fragments of yellow to focal red-brown soft tissue, which measure 13 x 10 x 3 mm and 32 x 29 x 4mm in greatest dimensions respectively. Sectioning and palpation demonstrate a defined nodule measuring 7 mm in greatest dimension. Cross sections demonstrate yellow-tan soft tissue. Cytologic scrape preparations are made. The nodule is sequestered in a block and placed into formalin for fixation prior to further evaluation. Post-fixation: The tissue submitted in a block is resubmitted for permanents in cassette 1A, 2/1. Further palpating of the remainder of the tissue within the container reveals a secondary nodule (measuring 7 mm in greatest dimension). Please note, it is unsure if this nodule is part of the original descriptive nodule or an additional nodule, it is entirely submitted in cassette 1B, 1/1. (SB20/prc) 2. Received in formalin labeled \", right breast lumpectomy - sutures, long lateral, short superior\" is an ovoid-shaped portion of fibrofatty breast tissue containing orienting sutures (short is indicated to be superior, long is indicated to be lateral) and has the following measurements: 6.5 cm medial to lateral, 5.4 cm superior to inferior, and 2.7 cm anterior to deep. Protruding from the superolateral area is a localization wire. The anterior surface of the specimen has been previously stained with blue dye. The margins are inked as follows: superior-blue, inferior-green, anterior-orange, deep-black, medial-red, and lateral-yellow. Sectioning medial to lateral reveals a 1.5 x 1.0 x 1.0 cm biopsy cavity with adjacent area of hemorrhage (this is due to the tract of the localization wire). The biopsy cavity is approximately 1.0 mm from the nearest anterior margin, 2.0 cm from the nearest superior and deep margin, approximately 2.3 cm from the nearest inferior margin, and greater than 2.5 cm from the remaining margins. Tightly embedded is a ribbon-shaped metallic biopsy clip. The remainder of the specimen is comprised of lobulated fatty breast tissue. Representative sections are submitted as follows:   2A, biopsy cavity with nearest anterior margin (this section contained the tightly embedded biopsy clip), 1/1   2B, nearest superior margin, 1/1   2C, nearest inferior margin, 1/1   2D, nearest deep margin, 1/1   2E, medial margin, 2/1   2F, lateral margin, 2/1   2G-H, additional sections of biopsy cavity, 1/1 each. (SB20/prc)\n\n\nPath report.relevant Hx\n\nHistory - Right breast cancer\n\n\nPath report.final diagnosis\n\nAMENDED REPORT - SEE COMMENTS 1. Right sentinel lymph node, biopsy:     Two benign lymph nodes. 2. Right breast, lumpectomy:     Ductal carcinoma, invasive, no special type, with:       Nottingham grade: 1 (tubule formation 2, nuclear grade 2, mitotic score 1).       Size: 7 millimeters       Margins: Negative (within 7 millimeters of anterior margin).       Lymphovascular invasion: Not seen.     Ductal carcinoma, in situ (DCIS), with:       Tumor size: 12 millimeters.       Histologic pattern:  Papillary, cribriform, nuclear grade 1.       Margins: Negative (within 1 millimeter of anterior margin).     Other findings: Scarring and inflammation consistent with previous biopsy. See comment. CANCER CHECKLIST: INVASIVE CARCINOMA OF THE BREAST 3.000.001.1000043 SPECIMEN  Procedure: Excision (less than total mastectomy)  Specimen Laterality: Right TUMOR  Tumor Site: Invasive Carcinoma: Not specified  Histologic Type: Invasive carcinoma of no special type (ductal, not otherwise specified)  Glandular (Acinar) / Tubular Differentiation: Score 2 (10 to 75% of tumor area forming glandular / tubular structures)  Nuclear Pleomorphism: Score 2 (Cells larger than normal with open vesicular nuclei, visible nucleoli, and moderate variability in both size and shape)  Mitotic Rate: Score 1 (<=3 mitoses per mm2)  Number of Mitoses per 10 High-Power Fields: 12mitotic figures  Overall Grade: Grade 1 (scores of 3, 4 or 5)  Tumor Size: Greatest dimension of largest invasive focus > 1 mm (specify exact measurement in Millimeters (mm)):  Greatest dimension of largest invasive focus > 1 mm (specify exact measurement in Millimeters (mm)):: 7mm  Additional Dimension in Millimeters (mm): 6mm, 6mm  Tumor Focality: Single focus of invasive carcinoma  Ductal Carcinoma In Situ (DCIS): DCIS is present in specimen, Positive for EIC  Size (Extent) of DCIS: Estimated size (extent) of DCIS (greatest dimension using gross and microscopic evaluation) in Millimeters (mm) is at least  Estimated size (extent) of DCIS (greatest dimension using gross and microscopic evaluation) in Millimeters (mm) is at least: 12mm  Number of Blocks with DCIS: 4  Number of Blocks Examined: 8  Architectural Patterns: Cribriform, Papillary  Nuclear Grade (see Table 2 in CAP Protocol): Grade I (low)  Necrosis: Not identified  Lobular Carcinoma In Situ (LCIS): No LCIS in specimen Tumor Extent  Skin: Skin is not present  Nipple DCIS: Not applicable  Skeletal Muscle: No skeletal muscle is present Accessory Findings  Lymphovascular Invasion: Not identified  Dermal Lymphovascular Invasion: No skin present  Microcalcifications: Present in DCIS, Present in invasive carcinoma  Treatment Effect: No known presurgical therapy MARGINS  Invasive Carcinoma Margins: Uninvolved by invasive carcinoma  Distance from Anterior Margin in Millimeters (mm): 7mm  Distance from Posterior Margin in Millimeters (mm): >20mm  Distance from Superior Margin in Millimeters (mm): >20mm  Distance from Inferior Margin in Millimeters (mm): >20mm  Distance from Medial Margin in Millimeters (mm): >20mm  Distance from Lateral Margin in Millimeters (mm): >20mm  Distance from Closest Margin in Millimeters (mm): Specify distance  Specify distance: 7mm  Closest Margin: Anterior  Distance of DCIS to Anterior Margin in Millimeters (mm): 1mm  Distance of DCIS to Posterior Margin in Millimeters (mm): >20mm  Distance of DCIS to Superior Margin in Millimeters (mm): >20mm  Distance of DCIS to Inferior Margin in Millimeters (mm): >20mm  Distance of DCIS to Medial Margin in Millimeters (mm): >20mm  Distance of DCIS to Lateral Margin in Millimeters (mm): >20mm  Distance of DCIS from Closest Margin in Millimeters (mm): Specify distance  Specify distance: 1mm  Closest Margin: Anterior LYMPH NODES  Number of Lymph Nodes with Macrometastases (> 2 mm): Specify number  Specify number: 0  Number of Lymph Nodes with Micrometastases (> 0.2 mm to 2 mm and / or > 200 cells): Specify number  Specify number: 0  Number of Lymph Nodes with Isolated Tumor Cells (<= 0.2 mm and <= 200 cells)#: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 2  Number of Sentinel Nodes Examined: Specify number  Specify number: 2 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (Invasive Carcinoma) (pT): pT1b: Tumor > 5 mm but <= 10 mm in greatest dimension Regional Lymph Nodes (pN)  Modifier: (sn): Only sentinel node(s) evaluated. If 6 or more nodes (sentinel or nonsentinel) are removed, this modifier should not be used.  Category (pN): pN0: No regional lymph node metastasis identified or ITCs only#  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Right breast sentinel node 2. Right breast lumpectomy\n\n\nPath report.comments\n\nComments - The tumor consists predominantly of in situ papillary carcinoma, which includes intracystic components. An established associated invasive carcinoma is present. The diagnosis is supported with immunohistochemical studies for cytokeratin 5/6, p63, and CD10, which demonstrate confluent loss of myoepithelial cell staining within the invasive focus. Report previously signed on 8/7/17 is amended to change the terminology of the non-invasive carcinoma elements. The report is otherwise unchanged.  ORIGINAL DIAGNOSIS #2 2. Right breast, lumpectomy:     Ductal carcinoma, invasive, no special type, with:       Nottingham grade: 1 (tubule formation 2, nuclear grade 2, mitotic score 1).       Size: 7 millimeters       Margins: Negative (within 7 millimeters of anterior margin).       Lymphovascular invasion: Not seen.     Papillary carcinoma, in situ, with:       Tumor size: 12 millimeters.       Histologic pattern:  Papillary, cribriform, nuclear grade 1.       Margins: Negative (within 1 millimeter of anterior margin).     Other findings: Scarring and inflammation consistent with previous biopsy.\n\n\n"
+}

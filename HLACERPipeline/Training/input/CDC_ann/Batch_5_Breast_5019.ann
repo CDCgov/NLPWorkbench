@@ -1,0 +1,111 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1174, 
+        1180
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1181, 
+        1190
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1257, 
+        1280
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1050, 
+        1077
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1094, 
+        1098
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        579, 
+        608
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        968, 
+        994
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1165, 
+        1173
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1079, 
+        1092
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1099, 
+        1105
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1107, 
+        1117
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH|PIMS|CCO|20160503000313|3D954690D0B41615E21B31B25BACEC86E49E72F8|ORU^R01|1605030003415140|P|2.5|||\nPID|1||9999999^^^^CMR^HOSPITAL 4&9999&MOH~9999999^^^^MRN^HOSPITAL 4&9999&MOH~9999999999&VB&ON^^^^JHN||XXXXX^XXXXXX^^^^||99999999|F|^^^^^||9999  XXXXX XXXXXX XX^^XXXXXXXXX^XX^X9X9X9^999||9999999999||||||||^^|||||||||N|||\nOBR|1||S16-7232|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604291240|||28621^XXXX^XXXXXX^^^^||||201604291428||^^^^^^||||N||201605021116|||F|||^WYMAN^TANYA^||||99999^XXXX^XXXXXX^XXXXX XXX^^^|||||\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in formalin in a container labelled with the patient's demographic details and as \"Left Breast Ultrasound Guided Biopsy\". It consists of 6 cores and fragments of soft white-tan tissue measuring from 0.2 cm to 0.6 cm in length and up to 0.1 cm in diameter.\nSections: A,B - 6/2 EIT\n\n\nCold Ischemic Time:0:00Total Fixation Time:51:20\n\n\nPath report.site of origin\n\nBreast Stereotactic Guided Biopsy, 12:00 Subareolar\n\n\nPath report.final diagnosis\n\nBreast tissue (left breast, 12 o'clock, subareolar), ultrasound guided core biopsy:\n- INVASIVE DUCTAL CARCINOMA\n- Addendum to follow with hormone receptor immunohistochemistry\n\n\nPath report.relevant Hx\n\nLeft breast mass 0.9cm, probable carcinoma\n\n\n"
+}

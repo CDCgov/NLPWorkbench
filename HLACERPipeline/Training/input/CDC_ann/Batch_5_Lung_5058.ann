@@ -1,0 +1,83 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1452, 
+        1465
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1466, 
+        1475
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1515, 
+        1538
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1397, 
+        1424
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        683, 
+        712
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1040, 
+        1075
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1756, 
+        1782
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1443, 
+        1451
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160503145609|3E18C547BF5DED0B84DE9E9D925F997EA5ACD161|ORU^R01|99999999999999999999|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 9&9999&MOH~99999999^^^^^HOSPITAL 9&9999&MOH~99999999^^^^MRN^HOSPITAL 9&9999~9999999999&RD&ON^^^^JHN||XXXXXX^XXXXXXX||99999999|M||E|9 XXXXX XX^^XXXXXXXX^XX^X9X9X9^999||9999999999^RD^OHIN|||M||9681167277^RD^OHIN||||||||||||N|\nOBR|1||SP1617499|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160428111500|||77486^XXXXXXXXXX^XXXXXXX XXXXX^^^^XX||||20160428142022|Carinal biopsy|999999^XXXXXXXXXX^XXXXXXX XXXXX^^^^XX||||N|20082009|20160503145609|||F|||||||99999^XXXXXX^XXXXXX^^^^XX, XXX, XXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in a container labelled with the patient's name, who has the initials \"MR\" and the specimen site \"carinal biopsy\".\nNumber of pieces: One plus multiple small pieces filtered\nDimensions: Less than 0.1-0.8 cm\nOther:  Nil\n1A, 1B (submitted in tissue paper)-in toto\nSED   2016-05-02   TOH General Campus\n\n\nPath report.microscopic observation\n\nSections of carinal biopsy show multiple fragments with atypical squamous cell proliferation, dyskeratotic cells, frequesnt mitosis and abundant necrosis in the background. The morphological features are consistent with invasive squamous cell carcinoma. A prior history of esophageal squamous cell carcinoma is noted.\n\n\nPath report.final diagnosis\n\nCarina, biopsy:\n-Invasive squamous cell carcinoma (please see microscopic description)\n\n\nPath report.relevant Hx\n\nEsophageal cancer 2008. Mediastinal recurrence on CT. Endobronchial tumour on bronchoscopy.\nMass lesion identified\nCancer suspected: Yes\nHistory of cancer (specify): Yes.\nPrevious surgery (specify): Esophagectomy.\n\n\nPath report.site of origin\n\nCarinal biopsy\n\n\n"
+}

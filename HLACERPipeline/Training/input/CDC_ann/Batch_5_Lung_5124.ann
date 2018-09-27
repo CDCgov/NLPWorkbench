@@ -1,0 +1,117 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        966, 
+        980
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        707, 
+        730
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        818, 
+        845
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        853, 
+        858
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1295, 
+        1300
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        599, 
+        628
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1258, 
+        1284
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        847, 
+        851
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1289, 
+        1293
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        859, 
+        869
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1301, 
+        1311
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1286, 
+        1288
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 7^9999^MOH||CCO-OCR|20160504034637|DA1C0DDA7AC27447A74D8BE007BF6E6AD95E9ABE|ORU^R01|99999999999999999999|P|2.5|||\nPID|1||9999999^^^^CMR^&9999&MOH~9999999^^^^RMR^&9999&MOH~9999999^^^^MRN^&9999&MOH~9999999999&DH&ON^^^^JHN|9999^9999999|XXX^XXXXXXX^^^XX.^||99999999|M|^^^^^||99 XXXXXXXXX XXXXX^^XXXXXXX^XX^X9X9X9^999||(999)999-999|||||||||||||||||N||\nOBR|1||TS16-4815|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604271159|||77567^XXXXXXXXXX^XXXXX^^^^||||201604271201||99999^XXXXXXXXXX^XXXXX^^^^||||||201605021543|||F|||||||99999^XXXXX^XX.^XXXXX^^^||\n\n\n\n\n\n\n\nPath report.gross description\n\nNumber of Cores: 8;  Core Length: 0.2-1.2 cm\nSubmitted in toto in 2 blocks\n\n\nPath report.relevant Hx\n\nM,74 Y, previous RUL lobectomy forT1b, NO, MO adenocarcinoma; need tissue diagnosis\n\n\nPath report.final diagnosis\n\nLUNG, RIGHT LOWER LOBE, CT GUIDED CORE NEEDLE BIOPSY:\nMINUTE FRAGMENTS OF LUNG PARENCHYMA WITH FEATURES SUSPICIOUS FOR ADENOCARCINOMA\nCOMMENT: Immunohistochemical stains were attempted, but results are inconclusive due to the scant nature of the tissue.\nThere is insufficient tissue to perform EGFR and ALK study.\nThe case was reviewed at our intradepartmental conference and concurs with the above diagnosis\n\n\nPath report.site of origin\n\nA: Lung, right lower lobe, CT guided core needle biopsy\n\n\n"
+}

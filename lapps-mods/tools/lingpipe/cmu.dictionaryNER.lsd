@@ -1,0 +1,15 @@
+#!/usr/bin/env lsd
+
+String dictionary_file = args[0]
+String version = args[1]
+String input = args[2]
+String output = args[3]
+
+String url = "http://vassar.lappsgrid.org/invoker/anc:lingpipe.dictionary_ner_${version}"
+//ServiceClient service = new ServiceClient("http://miami.lti.cs.cmu.edu:8081/LingpipeServices/1.0.0-SNAPSHOT/services/LingpipeDictionaryBasedNER")
+ServiceClient service = new ServiceClient(url, 'tester', 'tester')
+Data dc = Serializer.parse(new File(input).text, Data)
+dc.setParameter("dictionary", new File(dictionary_file).text);
+//println dc.asPrettyJson()
+String result = service.execute(dc.asJson())
+new File(output).text = result

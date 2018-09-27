@@ -1,0 +1,10 @@
+<tool id='stanfordnlp.dependencyparser_2.0.1' name='Stanford Dependency Parser v2.0.1' version='2.0.1'>
+  <description>Stanford Parser (Brandeis)</description>
+  <command interpreter='lsd'>../lapps_common/invoke_brandeis.lsd stanfordnlp.dependencyparser_2.0.1 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='txt,lif,json' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+</tool>

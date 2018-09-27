@@ -1,0 +1,109 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        883, 
+        897
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        898, 
+        907
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1431, 
+        1454
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        929, 
+        937
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        828, 
+        855
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        808, 
+        812
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        863, 
+        867
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        575, 
+        604
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        774, 
+        800
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        802, 
+        806
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        857, 
+        861
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 7^2038^MOH|PIMS|CCO|20160504131800|90379AD3991735A5A6F133E27F9C3963990CDBDB|ORU^R01|999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 7&9999&MOH~9999999^^^^MRN^HOSPITAL 7&9999&MOH~9999999999&AF&ON^^^^JHN||XXXXXXXX^XXXXX^XXXXXX||99999999|F|||9999 XXXXXXX XX^XX 9^XXXX^XX^X9X 9X9^XXX||(999)999-9999|||||||||||||||||N|\nOBR|1||YS16-6837|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605020000|||33401^XXXXXXX^XXXX||||201605021314|PAT&&Lung, left, core biopsy|99999^XXXXXXX^XXXX||||N||201605041318||SRHCSP|F|||||||99999^XXXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nSpecimen (left lung biopsy) is received in formalin and consists of 5 tan, white cores of tissue ranging from 0.3 cm to 0.7 cm. Entirely submitted in blocks 1-3.\nCN\n\n\n\nPath report.site of origin\n\nLung, left, core biopsy\n\n\nPath report.final diagnosis\n\nLung, left, core biopsy: \nNon-small cell carcinoma, please see comment\n\nComment:\nThe sections show small groups of poorly differentiated non-small cell carcinoma in desmoplastic stroma, and associated chronic inflammation. One core includes a few background benign alveoli.\nThe tumor cells are positive for CK 7 and TTF-1, and negative for p63 and CK 20.\nThe morphology and screening immunohistochemistry are consistent with poorly differentiated adenocarcinoma.\n\nBlock 1 is being referred to HOSPITAL 12 for EGFRALK testing, and a supplementary report will be issue.\n\n \n\n\n\nPath report.relevant Hx\n\n2 cm pleural base lesion LUL new, hx of lung ca ? mets\n\n\n\n"
+}

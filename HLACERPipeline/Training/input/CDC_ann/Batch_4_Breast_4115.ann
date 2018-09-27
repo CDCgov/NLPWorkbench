@@ -1,0 +1,139 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1181, 
+        1187
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1188, 
+        1197
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1026, 
+        1049
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1114, 
+        1141
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1143, 
+        1147
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2770, 
+        2774
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        564, 
+        593
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1988, 
+        2023
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2742, 
+        2768
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1172, 
+        1180
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1199, 
+        1218
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1148, 
+        1154
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2775, 
+        2781
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1772, 
+        1804
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170919125832||ORU^R01^ORU_R01|201709191258320001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-55-004510^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170810000000|||||||20170810000000|&Breast, Stereotactic biopsy|1588658181^^^^^^MD^^CMS^D^^^NPI||||||20170811000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10~Z17.0^Estrogen receptor positive status [ER+]^I10|1285672592&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\" identified by requisition and specimen container label. Received in formalin in a container labeled with the patient's name and \"left breast biopsy\" are multiple, 0.1 to 2 cm long cores of yellow-tan and red tissue each with a diameter varying from less than 0.1 to 0.3 cm. The specimen is submitted in its entirety in cassette 1A. Note: The specimen is in formalin greater than 6 and less than 72 hours. (DSP)\n\n\nPath report.relevant Hx\n\nHistory - Unspecified lump in breast (N63), abnormal imaging\n\n\nPath report.final diagnosis\n\nLeft breast mass (biopsy):   Invasive ductal carcinoma, well-differentiated. Breast Prognostic Panel Immunohistochemical stains for Ki-67, p53, estrogen receptor and progesterone receptor, and HER-2/neu have been performed on formalin fixed paraffin embedded tissue. Positive and negative controls react appropriately. The results are as follows  Estrogen Receptor (SP1): 3+ nuclear staining, 85% of nuclei Progesterone Receptor(1E2): 3+ nuclear staining, 100% of nuclei Ki-67(30-9): <10% of nuclei (Low labeling index) P53(Bp53-11): 1-2+ nuclear staining, <1% of nuclei (negative) Her2: 1+ Please see microscopic description.\n\n\nPath report.supplemental reports\n\nPreliminary Report: Left breast mass (biopsy):   Invasive ductal carcinoma, well-differentiated.   Final diagnosis pending prognostic marker studies. ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nHer2/neu Immunohistochemistry Report  Block:  Specimen Site:  Specimen Tye: needle biopsy  Fixative: Formalin  Time to fixation: Unavailable  Duration of fixation:  Antibody used: Clone 4B5 (Ventana), on Ventana Benchmark.  Controls: high protein expression,  Adequacy of sample for evaluation: Adequate Results:  Percentage of invasive tumor cells exhibiting  complete membrane staining: 0 Uniformity of staining: absent Homogeneous, dark circumferential staining: absent Interpretation:  Negative for HER2 protein overexpression; This quantitative immunohistochemical evaluation of Human Epidermal Growth Factor 2 (HER-2) is performed in accordance with all current guidelines as recommended by the ASCO and CAP.\n\n\nPath report.site of origin\n\nLeft breast\n\n\n"
+}

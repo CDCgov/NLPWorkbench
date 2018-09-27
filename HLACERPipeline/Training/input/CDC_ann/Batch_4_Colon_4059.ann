@@ -1,0 +1,61 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        880, 
+        903
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        726, 
+        753
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        637, 
+        663
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        851, 
+        876
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        671, 
+        684
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        755, 
+        768
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170919125839||ORU^R01^ORU_R01|201709191258390001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-CY-001413^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170810000000|||||||20170810000000|&Body Cav Fluid Cyto, Liquid based preparation tech|1730126574^ ^ ^S^^^MD^^CMS^D^^^NPI||||||20170811000000|||F||||||J90^Pleural effusion, not elsewhere classified^I10~R11.10^Vomiting, unspecified^I10~R06.02^Shortness of breath^I10~C18.9^Malignant neoplasm of colon, unspecified^I10|1487897187& & &L.&&&&&CMS\n\n\n\n\n\n\n\nPath report.site of origin\n\nRight Pleural Fluid   2 mls of yellow clear fluid received\n\n\nPath report.final diagnosis\n\nPleural fluid, right thoracentesis:   Rare reactive mesothelial cells and mixed inflammation.   No evidence of malignancy.\n\n\nPath report.relevant Hx\n\nHistory - Post Op: Shortness of breath; Vomiting; Patient has colon cancer; Pleural effusion\n\n\n"
+}

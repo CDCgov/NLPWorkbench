@@ -1,0 +1,255 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4711, 
+        4734
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4216, 
+        4243
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4133, 
+        4137
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4194, 
+        4199
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4414, 
+        4418
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4081, 
+        4094
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4107, 
+        4120
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4248, 
+        4267
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4290, 
+        4300
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4330, 
+        4343
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4366, 
+        4376
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        647, 
+        676
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4050, 
+        4076
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4302, 
+        4325
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4378, 
+        4401
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4492, 
+        4564
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4635, 
+        4708
+      ]
+    }
+  ], 
+  "Neoplasm Morphology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4635, 
+        4708
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4200, 
+        4206
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4406, 
+        4412
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4569, 
+        4582
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4078, 
+        4080
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4104, 
+        4106
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4130, 
+        4131
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4191, 
+        4192
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4245, 
+        4247
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4327, 
+        4329
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4403, 
+        4405
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4566, 
+        4568
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170919125829||ORU^R01^ORU_R01|201709191258290001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-008589^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170825000000|||||||20170825000000|&Sentinel Lymph Node, Sentinel Lymph Node, Breast, Mastectomy - partial/simple, Breast, Reduction mammoplasty|1457524209^^^^^^MD^^CMS^D^^^NPI||||||20170828000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10~N60.12^Diffuse cystic mastopathy of left breast^I10|1104973080&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received fresh on a surgical towel labeled with the patient's name, date of birth, and \"sentinel node #1 1572) is a fragment of tan-pink lymph node and associated fibroadipose tissue. The lymph node measures 1.1 x 0.9 x 0.5 cm. Excess adipose tissue is cut away, and the specimen is serially sectioned to show normal appearing tan-red lymph node parenchyma with focal fatty replacement. A touch preparation is performed. No frozen sections are submitted the remainder of the tissue is submitted for formalin fixation and permanent processing. Entirely in 1A, 3/1. (TTC/MH7/jh9) 2. Received fresh on a surgical towel labeled with the patient's name, date of birth, and \"sentinel node #1 10448\" is an aggregate of tan-yellow lobulated adipose tissue and tan-pink lymph node measuring 2.0 x 1.7 x 0.7 cm. The specimen is serially sectioned to show a rim of normal appearing tan-pink lymphoid tissue with a large amount of fatty replacement. A touch preparation is performed. The remainder of the tissue is submitted for formalin fixation and permanent processing. Entirely in 2A-2B, 2/1 each. (TTC/MH7/jh9) 3. Received in formalin labeled \", left partial mastectomy\" is a 17.1 x 8.5 x 2.0 cm fragment of yellow-tan lobulated adipose tissue. Orienting sutures are identified which per the requisition are designated as short superior and long lateral. The specimen is partially surfaced by a strip of skin measuring 18.0 x 6.8 cm. The skin surface is tan-white, wrinkled and unremarkable. The deep margin is inked in black, the superior half is inked in blue, and the inferior half is inked in green. Serial sectioning reveals a 1.3 x 0.9 x 0.5 cm ill-defined, tan-white, rubbery possible lesion in the upper inner quadrant. It comes within 0.3 cm of the deep margin, and 0.8 cm of the superior margin. The remaining cut surfaces are tan-yellow, lobular, glistening and interspersed with a scant amount of gray-white fibrous tissue. Also received in the container are 3 tan-yellow to tan-white lobular fragments of fibroadipose tissue ranging from 4.7 to 9.5 cm in greatest dimension. Two of the fragments are surfaced by strips of skin measuring 2.0 and 8.3 cm in greatest dimension. These additional fragments are unoriented. The outer surface of each fragment will be inked in black. Serial sectioning the additional fragments reveals tan-yellow lobular, glistening cut surfaces interspersed with a small amount of gray-white fibrous tissue. Representative sections are submitted as follows: 3A, skin, 1/1; 3B-D, entire possible lesion, B-C are paired sections 1/1 each; 3E, upper inner quadrant, 2/1; 3F, lower inner quadrant, 2/1; 3G, lower outer quadrant, 2/1; 3H, upper outer quadrant, 2/1; 3I-J, representative sections from additional fragments, 2/1 each. (DET/JF6/csb) 4. Received in formalin labeled \", right breast tissue\" is a 19.5 x 14.2 x 2.8 cm irregular fragment of yellow-tan lobular fibroadipose tissue and weighs 310 g. Orientation is not provided. The specimen is partially surfaced by a strip of skin measuring 18.7 cm in greatest dimension. The skin surface is tan-white, wrinkled and unremarkable. Serial sectioning reveals yellow-tan lobulated cut surfaces interspersed with a scant amount of gray-white fibrous tissue. No lesions or masses are identified grossly. Representative sections are submitted in cassettes 4A-B. 2/1 each. (DET/JF6/csb)\n\n\nPath report.site of origin\n\n1. Sentinel node #1 15752 2. Sentinel node #2 10448 3. Left partial mastectomy, 2 short superior, 2 long lateral 4. Right breast tissue\n\n\nPath report.final diagnosis\n\n1. Sentinel lymph node #1, excision:     One lymph node, negative for malignancy. 2. Sentinel node #2, excision:     One lymph node, negative for malignancy. 3. Breast, left, partial mastectomy:     Skin and breast parenchyma with focal fibrosis, no formal patterns of atypical       hyperplasia or carcinoma identified. 4. Breast tissue, right, mastectomy:     Skin and breast parenchyma, no formal patterns of atypical hyperplasia or       carcinoma identified.\n\n\nPath report.relevant Hx\n\nHistory - Left breast cancer\n\n\n"
+}

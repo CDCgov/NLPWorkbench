@@ -1,0 +1,41 @@
+<tool id="kidnap.collection" name="Create a collection of documents concerning kidnapping" version="1.0.0">
+  <command interpreter="lsd">kidnap_collection.lsd $corpus.start $corpus.end $corpus.name $password</command>
+  <inputs>
+      <conditional name="corpus">
+          <param name="name" type="select">
+            <option value="kidnap1">Kidnap 1 (Gigaword)</option>
+            <option value="kidnap2">Kidnap 2 (Gigaword)</option>
+          </param>
+          <when value="kidnap1">
+              <param name="start" type="integer" value="0" min="0"/>
+              <param name="end" type="integer" value="10"/>
+          </when>
+          <when value="kidnap2">
+              <param name="start" type="integer" value="0" min="0"/>
+              <param name="end" type="integer" value="10"/>
+          </when>
+      </conditional>
+      <param name="password" type="text" label="Password" value="password"/>
+  </inputs>
+    <outputs>
+        <!-- <data name="output" format="txt"/> -->
+        <collection name="list_output" type="list" label="Output List" format="lif">
+            <discover_datasets pattern="__designation_and_ext__" directory="outputs" visible="false"/>
+        </collection>
+  </outputs>
+  <tests>
+  </tests>
+  <help>
+  <![CDATA[
+
+To obtain an OAuth token visit the link above and log in with your LDC id and password. Then paste
+the OAuth token into the above field.
+
+**License**
+
+Gigaword corpus is distributed under `LDC Membership Agreement <www.ldc.upenn.edu/members/agreements>`_ or `User Agreement for Non-Members <catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf>`_
+
+]]>
+  
+  </help>
+</tool>

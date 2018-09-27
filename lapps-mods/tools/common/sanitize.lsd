@@ -1,0 +1,20 @@
+#!/usr/bin/env lsd
+
+String input = new File(args[0]).text
+File output = new File(args[1])
+
+Data data = Serializer.parse(input, Data)
+if (data.discriminator == Uri.ERROR) {
+	output.text = input
+	return
+}
+
+Container container = new Container(data.payload)
+container.views.each { View v ->
+	v.annotations.each { a ->
+		if (!a.features) a.features = [:]
+		if (!a.metadata) a.metadata = [:]
+	}
+}
+
+output.text = new Data(Uri.LIF, container).asPrettyJson()

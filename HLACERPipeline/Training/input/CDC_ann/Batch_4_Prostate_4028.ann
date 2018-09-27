@@ -1,0 +1,255 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5696, 
+        5705
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6207, 
+        6221
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5033, 
+        5056
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9098, 
+        9118
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5121, 
+        5148
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8990, 
+        8994
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9066, 
+        9084
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        703, 
+        732
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8882, 
+        8917
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8959, 
+        8985
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6293, 
+        6300
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5900, 
+        5909
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5939, 
+        5948
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6197, 
+        6206
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8995, 
+        9008
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5177, 
+        5178
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5257, 
+        5258
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5336, 
+        5337
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5416, 
+        5417
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5488, 
+        5489
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5598, 
+        5599
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8987, 
+        8988
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9009, 
+        9010
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9030, 
+        9031
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9052, 
+        9053
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9063, 
+        9064
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9085, 
+        9086
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6533, 
+        6550
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|NC Cancer Registry|20170917000048||ORU^R01^ORU_R01|201709170000480001|P|2.5.1|NC||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-011966^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170830000000|||||||20170831000000|&Surg. Path Level IV, Surg. Path Level IV, Surg. Path Level IV, Omentum, Biopsy, Lymph Nodes, Regional Resection, Urinary Bladder, Partial/Total Resection, Prostate, Except Radical Resection|1770650145^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C67.8^Malignant neoplasm of overlapping sites of bladder^I10~C61^Malignant neoplasm of prostate^I10|1285672592&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\", identified by requisition and specimen container labels. 1. Specimen 1 is received fresh for frozen section in a container labeled with the patient's name and \"left distal ureter\" is a 0.4 cm long x 0.5 cm in diameter tan cylindrical structure which contains a small amount of attached fatty tissue. Excluding the fat, the entire cylindrical structure is examined by frozen section and submitted in cassette 1FSA. 2. Specimen 2 is received in formalin in a container labeled with the patient's name and \"final left ureter\" is a 0.5 x 0.4 x 0.3 cm piece of soft tan tissue containing an attached plastic clip and suture. The specimen is submitted whole in cassette 2A. 3. Specimen 3 is received in formalin in a container labeled with the patient's name and \"final right ureter\" is a 0.8 x 0.4 x 0.2 cm flatten piece of tan tissue with an attached large caliber plastic clip and a length of suture. The specimen is submitted whole in cassette 3A. 4. Specimen 4 is received in formalin in a container labeled with the patient's name and \"omentum\" is a 3.5 x 1.5 x 1 cm portion of fatty tissue containing a 0.9 x 0.8 x 0.6 cm circumscribed nodule which has a friable brown parenchyma. The surrounding fat is unremarkable. Sections comprising the entire specimen are submitted. Cassette summary: 4A, sections comprising the entire friable nodule. 4B, remaining specimen. 5. Specimen 5 is received in formalin in a container labeled with the patient's name and \"pelvic lymph nodes\" is a 5 x 3 x 1.5 cm aggregate of fatty tissue containing seven 0.5 x 0.3 x 0.2 to 3 x 1.5 x up to 1 cm yellow-tan and red-brown focally fat replaced candidate nodes. Cassette summary: 5A, 2 candidate lymph nodes submitted whole. 5B-5D, 1 candidate lymph node each bisected. 5E-5F, 1 candidate lymph node bisected. 5G-5H, 1 candidate lymph node bisected. 6. Received in formalin in a container labeled with the patient's name and \"bladder\" is a 5.5 x 4.5 x 4.7 cm bladder. The bladder contains an abundant amount of attached perivesicular fat. The anterior fat is inked blue and the posterior is inked black. The attached right ureter is 1.5 cm in length and 0.5 cm in diameter and the attached left ureter segment is 1 cm in length and 0.3 cm in diameter. The ureteral mucosa is soft and pink-tan. On section, the bladder mucosa has an edematous appearance and is pink-tan to red-brown. Within the area of the anterior and posterior wall, as well as the trigone is a 3 x 1.5 cm area of red and brown granularity with cautery artifacts suggestive of site of previous biopsy. On section, in this area is a 3 x 3 x 2.5 cm probable area of residual tumor which extends beyond the bladder wall encompassing the seminal vesicles. The tumor grossly extends to the inked posterior soft tissue margin. The tumor also extend to the inked right lateral bladder wall margin and is within 0.3 cm of the anterior soft tissue margin. The previously mentioned seminal vesicles are poorly delineated due to extensive tumor involvement. The perivesicular fatty tissue is sectioned and palpated and the lymph nodes are not observed. The attached prostate is 3.2 cm superior to inferior, 4 cm right to left and is up to 3.3 cm anterior to posterior. The prostate is inked as follows: anterior midline blue, posterior midline black, right half green and left half blue. The prostate is sectioned into 4 slices. On section, the prostate appears extensively involved by tumor involving both lobes. The probable tumor also appears to extend very close to the capsule bilaterally. Representative sections are submitted. Cassette summary: 6A, right ureteral vesicular junction and right ureter at margin 6B, left ureteral vesicular junction and left ureter at margin 6C-6E, probable tumor in anterior wall 6F-6H, sections posterior bladder tumor 6I-6J, right lateral bladder wall 6K-6L, left lateral bladder wall 6M, additional section of trigone 6N, section of dome 6O, right apex of bladder 6P, left apex of bladder 6Q, right level 1 of prostate 6R, right level 2 6S, right level 3 6T-6U, right level 4 6V, left level 1 6W-6Y, left level 2 6Z-6AB, left level 3 6AC-6AD, left level 4 6AG-6AH, possible right seminal vesicle 6AE-6AF, sections of possible left seminal vesicle Note: A gross photograph is submitted. (DSP) (blc)\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of bladder, unspecified (C67.9)\n\n\nPath report.final diagnosis\n\nAMENDED REPORT-see comment 1. Left distal ureter (excision):     No in situ invasive carcinoma identified. 2. Final left ureter (excision):     No in situ invasive carcinoma identified. 3. Final right ureter (excision):     No in situ invasive carcinoma identified. 4. Omentum (excision):     Calcified fat necrosis, no tumor identified. 5. Pelvic lymph nodes (pelvic regional lymph node dissection):     Five lymph nodes free of metastasis (0/5). 6. Bladder and prostate (radical cystoprostatectomy):     Bladder: Invasive high-grade urothelial carcinoma, predominantly outside the       bladder.     TUR site seen in the anterior posterior wall and trigone.     Tumor measures at least 3 cm in maximum dimensions and extensively involves       the prostatic stroma extending through the prostatic stroma into the       periprostatic soft tissue and encasing the seminal vesicles.     Both lymphatic and vascular invasion is identified.     Tumor extends to the soft tissue margins of resection.     Stage pT4a pN0.     Prostate:       Recurrent prostatic adenocarcinoma identified in the background and         radiation-associated changes (Gleason score not given).       Tumor is bilateral occupying 50% of the gland.       No extraprostatic extension identified.       Seminal vesicles are negative.       Perineural and lymphovascular invasion are seen.       Stage rypT2 pN0. CANCER CHECKLIST: URINARY BLADDER: Cystectomy, Anterior Exenteration 3.000.001.1000043  Procedure: Radical cystoprostatectomy  Tumor Site: Trigone, Anterior wall, Posterior wall  Histologic Type: Papillary urothelial carcinoma, invasive  Histologic Grade: High-grade  Tumor Size: Cannot be determined (explain)  Cannot be determined (explain): >3  Tumor Extension: Tumor invades adjacent structures#  Location of Adjacent Structures: Prostate (transmural invasion from the bladder tumor), Seminal vesicles  Lymphovascular Invasion: Present  Tumor Configuration: Solid / nodule  Margins: Involved by invasive carcinoma  Margin(s) Involved by Invasive Carcinoma: Soft tissue margin  Status of Non-Invasive Tumor at Margin(s): Uninvolved by carcinoma in situ / non-invasive tumor  Number of Lymph Nodes Involved: None identified  Number of Lymph Nodes Examined: Specify number  Specify number: 5  Primary Tumor (pT): pT4a: Extravesical tumor invades directly into prostatic stroma, seminal vesicles, uterus, vagina  Regional Lymph Nodes (pN): pN0: No lymph node metastasis  Additional Pathologic Findings: Adenocarcinoma of prostate (use checklist for carcinoma of prostate) PROSTATE GLAND: Radical Prostatectomy 3.000.001.1000043 SPECIMEN  Procedure: Other (specify)  Other (specify): Cyroprostatectomy Prostate Size  Prostate Size in Centimeters (cm): 4cm  Additional Dimension in Centimeters (cm): 3.2cm, 3.3cm TUMOR  Histologic Type: Acinar adenocarcinoma Histologic Grade  Gleason Pattern: Not applicable  Not applicable: post treatment Tumor Extent  Tumor Quantitation: Estimated percentage of prostate involved by tumor (specify %)  Estimated percentage of prostate involved by tumor (specify %): 15%  Extraprostatic Extension (EPE): Not identified  Urinary Bladder Neck Invasion: Not identified  Seminal Vesicle Invasion: Not identified Accessory Findings  Treatment Effect: Radiation therapy effect present  Lymphovascular Invasion: Present  Perineural Invasion: Present MARGINS  Margins: Uninvolved by invasive carcinoma LYMPH NODES  Number of Lymph Nodes Involved: None identified  Number of Lymph Nodes Examined: Specify number  Specify number: 5 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: r (recurrent)  Primary Tumor (pT)#: pT2: Organ confined  Regional Lymph Nodes (pN): pN0: No positive regional nodes\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Left distal ureter 2. Final left ureter 3. Final right ureter 4. Omentum 5. Pelvic lymph nodes 6. Bladder\n\n\nPath report.comments\n\nComments - Immunohistochemistry on block 6AA with appropriate controls for GATA3 is positive in the urothelial carcinoma and negative in the prostatic adenocarcinoma. p501s and PSA is positive in the prostatic adenocarcinoma. Additional PSA staining on blocks 6Z is positive in prostatic adenocarcinoma and on 6AA is negative. Report amended to change stage of bladder in report from pT4b to pT4a. The cancer checklist remains the same as stage there was correct\n\n\n"
+}

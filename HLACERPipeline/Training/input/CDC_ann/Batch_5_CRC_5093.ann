@@ -1,0 +1,129 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1510, 
+        1516
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1495, 
+        1504
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1547, 
+        1570
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1408, 
+        1435
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        528, 
+        557
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        870, 
+        905
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        814, 
+        840
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1473, 
+        1494
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        853, 
+        858
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1451, 
+        1456
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        842, 
+        852
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1440, 
+        1450
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1437, 
+        1439
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160506112800|98898CCCE97AC4B6CF7641F56D5E350881532568|ORU^R01|9999999999999|D|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 10&9999&MOH~99999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&GY&ON^^^^JHN||XXXXX^XXX^XXXX||99999999|F|||999 XXXXXXXXX XXXXX^^XXXXXXXX^XX^X9X 9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||S16-9752|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605051329|||^XXXXX||||201605051329||^XXXXX||||N||201605061128||8000|F|||||||99999^XXXX^XXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nA. TRANSVERSE COLON BIOPSIES: \nThe specimen is received in formalin and labeled with the patient's name and transverse colon biopsies. It contains 12 fragments of grey-tan tissue, 0.1-0.3 cm in maximum dimension. It is submitted in toto in A1 and A2.\n\n\n\n\nPath report.site of origin\n\nTransverse colon biopsies\n\n\nPath report.microscopic observation\n\nA. TRANSVERSE COLON BIOPSIES: Sections at multiple levels show multiple superficial pieces of colonic mucosa of which several pieces are diffusely infiltrated by sheets of malignant cells with pleomorphic nuclei, frequent mitosis, moderate to abundant eosinophilic cytoplasm, prominent nucleoli, ulceration with fibrin exudate. No lymphovascular invasion seen. Patchy signet ring malignant cells present. Selected slides have been circulated to Dr Maksymov and he concurs with my interpretation.\n \n\n\n\nPath report.final diagnosis\n\nA. TRANSVERSE COLON BIOPSIES: \n   - POORLY DIFFERENTIATED CARCINOMA WITH SIGNET RING CELL DIFFERENTIATION \n\n\n\nPath report.relevant Hx\n\nA. TRANSVERSE COLON BIOPSIES: ? Colon Ca. \n\n\n\n"
+}

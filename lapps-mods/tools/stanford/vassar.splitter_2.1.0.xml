@@ -1,0 +1,44 @@
+<tool id="stanford.splitter_2.1.0" name="Stanford Sentence Splitter" version="1.0.0">
+ 
+ <command interpreter="lsd">
+  ../common/invoke_vassar.lsd stanford.splitter_2.1.0-SNAPSHOT $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**  
+  
+Adds annotations for sentence boundaries using the `Stanford sentence splitter <https://stanfordnlp.github.io/CoreNLP/ssplit.html>`_.
+
+**Required annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token.html>`_
+
+.. class:: infomark
+
+NOTE: This sentence splitter can also process plain text in a LIF container,
+but performs better if the input also contains  `Token <http://vocab.lappsgrid.org/Token.html>`_ annotations.
+
+.. class:: infomark
+
+**TIP**: If you want to input plain text and it is not not wrapped in a LIF container, use *Convert Formats->Wrap text*
+
+**Generated annotations**
+
+* A new view containing `Sentence <http://vocab.lappsgrid.org/Sentence.html>`_  annotations. (LIF) 
+
+**License**
+
+Stanford NLP tools are licensed under the `GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.
+
+]]>
+ </help>
+</tool>

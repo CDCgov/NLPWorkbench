@@ -1,0 +1,101 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2711, 
+        2725
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4743, 
+        4766
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2645, 
+        2672
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        513, 
+        542
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2583, 
+        2609
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2731, 
+        2738
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2751, 
+        2752
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2701, 
+        2710
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2832, 
+        2840
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3062, 
+        3079
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170919125842||ORU^R01^ORU_R01|201709191258420001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-010700^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170805000000|||||||20170805000000|&Prostate, Radical Resection, Lymph Nodes, Regional Resection|1770650145^^^^^^MD^^CMS^D^^^NPI||||||20170808000000|||F||||||C61^Malignant neoplasm of prostate^I10|1659440741&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is identified by requisition and specimen container label. Received in formalin in a container labeled with the patient's name and \"prostate and pelvic lymph nodes\" is a radical prostatectomy specimen including attached seminal vesicles and vas deferens. Included in the container is a separate 3.5 x 2.5 x 1.2 cm aggregate of fatty tissue. Weight: 27.4 g. Size: 3.6 cm superior to inferior, 2.8 cm right to left and is up to 3.1 cm anterior to posterior. Right seminal vesicle, Attached: 2 x 0.9 x 0.8 cm. Left seminal vesicle, Attached: 1.5 x 1 x 0.7 cm. Right vas deferens, Attached: 1.4 x 0.6 x 0.6 cm. Left vas deferens, Attached: 2 x 0.8 x 0.6 cm. Prostatic surface: Tan to brown, cauterized around the bladder base Inking code: Right half green, left half blue, anterior midline orange, posterior midline black. Sectioning: Apex and bladder base shaved off to be submitted. Remaining gland sectioned into 11 slices, numbered 1-11 sequentially from apex to base. The anterior half of the #7 slice is utilized for bladder base sections. Cut surface: The cut surface is yellow-tan to light brown and focally cystic. Dissected from the previously described accompanying fatty tissue are two 2.5 x 1 x 0.7 and 2.3 x 1 x 0.5 cm yellow-tan candidate nodes. Section code: 1A, right apex 1B, left apex 1C, right bladder base 1D, left bladder base 1E, right seminal vesicle and right vas deferens at margin 1F, left seminal vesicle and left vas deferens at margin 1G, right level 1 1H, right level 2 1I, right level 3 1J, right level 4 1K, right level 5 1L, right level 6 1M-1N, right level 7 1O, right level 8 1P, right level 9 1Q, right level 10 1R, right level 11 1S, left level 1 1T, left level 2 1U, left level 3 1V, left level 4 1W, left level 5 1X, left level 6 1Y-1Z, remainder of left level 7 1AA, left level 8 1AB-1AC, left level 9 1AD, left level 10 1AE, left level 11 1AF-1AG, 1 candidate lymph node bisected 1AH-1AK, sections comprising the entire largest candidate node NOTE: A gross photograph is submitted. (RH)\n\n\nPath report.site of origin\n\nProstate and pelvic lymph nodes\n\n\nPath report.final diagnosis\n\nPROSTATE, PROSTATECTOMY   -Prostatic adenocarcinoma     -Gleason pattern 3+4=7, Grade group 2, Approximately 30% pattern 4     -Tumor involves both halves of prostate     -Perineural invasion identified     -Tumor is present at bladder neck margin and right slice 8 margin without       definitive extracapsular extension     -Pathologic stage: pT3a pN0   -Two negative lymph nodes (0/2) CANCER CHECKLIST: PROSTATE GLAND: Radical Prostatectomy 3.000.001.1000043 SPECIMEN  Procedure: Radical prostatectomy Prostate Size  Prostate Weight (g): 27.4grams TUMOR  Histologic Type: Acinar adenocarcinoma Histologic Grade  Gleason Pattern: Gleason pattern  Primary Gleason Pattern: Pattern 3  Secondary Gleason Pattern: Pattern 4  Total Gleason Score: 7  Grade Group: Grade group 2  Intraductal Carcinoma (IDC): Not identified Tumor Extent  Tumor Quantitation: Estimated percentage of prostate involved by tumor (specify %)  Estimated percentage of prostate involved by tumor (specify %): 15%  Extraprostatic Extension (EPE): Not identified  Urinary Bladder Neck Invasion: Present  Seminal Vesicle Invasion: Not identified Accessory Findings  Treatment Effect: No known presurgical therapy  Lymphovascular Invasion: Not Identified  Perineural Invasion: Present MARGINS  Margins: Involved by invasive carcinoma  Margin Limitations: Non-limited (>= 3 mm)  Focality: Multifocal  Location of Positive Margin(s): Right bladder neck, Other(s) (specify)  Other(s) (specify): Right Slice 8  Gleason Pattern at Positive Margin(s): Pattern 4 LYMPH NODES  Number of Lymph Nodes Involved: None identified  Number of Lymph Nodes Examined: Specify number  Specify number: 2 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT)#: pT3a: Extraprostatic extension or microscopic invasion of bladder neck  Regional Lymph Nodes (pN): pN0: No positive regional nodes  Distant Metastasis (pM)#: Not applicable - pM cannot be determined from the submitted specimen(s) ADDITIONAL FINDINGS  Additional Pathologic Findings: High-grade prostatic intraepithelial neoplasia (PIN)\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of prostate (C61)\n\n\n"
+}

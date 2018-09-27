@@ -1,0 +1,24 @@
+<tool id="test.ner" name="Test NER" version="1.0.0">
+  <description>Test ner component</description>
+  <command>cp $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="xml">
+        <!--
+        <options options_filter_attribute="metadata.pos" >
+            <filter type="add_value" value="True"/>
+        </options>
+        <validator type="expression" message="Please run a tagger first.">value.metadata.pos is not None</validator>
+        -->
+    </param>
+  </inputs>
+  <outputs>
+    <data name="output" format="xml" label="Output"/>
+      <!--
+        <actions>
+            <action type="metadata" name="ner" default="True"/>
+        </actions>
+    </data>
+    -->
+  </outputs>
+  <help>A test component</help>
+</tool>

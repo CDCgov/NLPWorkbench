@@ -1,0 +1,101 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        999, 
+        1008
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1034, 
+        1057
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        909, 
+        936
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        947, 
+        952
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        515, 
+        544
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1122, 
+        1157
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        868, 
+        894
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        982, 
+        990
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        939, 
+        945
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        991, 
+        998
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 1^9999^MOH|PIMS|CCO|20160503131101|38CE6ED8ACDB4C887D219DFDD297C66675DE5485|ORU^R01|Q1907471383T3579269418|P|2.5|\nPID|1||^^^^CMR^Ontario Remainder&9999&MOH~^^^^RMR^Ontario Remainder&9999&MOH~999999999^^^^MRN^HOSPITAL 1&9999&MOH||XXXXXX XXXXX^XXXXXXX^XXXXXX||99999999|F||||||||||||||||||||||N|\nOBR|1|ES-16-0002164|S-16-0018675|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160428|||84106^XXXXX^X.^XXXXXXX XXXXXXX||||||||||Y||20160503|||F|||||||99999^XXXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n\nThe following material is received in consultation from St. Thomas Elgin General HOSPITAL at the request of Dr. Wasty:\nOriginating case number ES-16-0002164 (procedure date 2016/04/20)\nBlocks x 1, labelled as ES16-2164 (A1) [internally labelled A1]\nAlso received: Pathology report, correspondence. /ln 2016/04/28 15:18\n\n\nPath report.site of origin\n\n\nConsult #\n\n\nPath report.final diagnosis\n\n\nBreast, right, needle localization biopsy: invasive mammary carcinoma (see synoptic report).\n\n\nPath report.relevant Hx\n\n\nSee Correspondence. Request for ER/PR and Her2/neu testing.\n\n\nPath report.microscopic observation\n\n\nRepresentative sections from 1 block(s) of the right breast tumour are reviewed \nHistologic Type(s): invasive mammary carcinoma, no special type \nImmunohistochemistry for estrogen receptor protein: Positive: strong nuclear staining in 90 % of invasive carcinoma \nImmunohistochemistry for progesterone receptor protein: Positive: strong nuclear staining in 50 % of invasive carcinoma \nImmunohistochemistry for HER2/neu protein overexpression:  \n   SP3 - Equivocal: complete cytoplasmic membrane staining of weak to moderate intensity in 10-20 % of invasive carcinoma (2+) \n   A0485 - Negative (0) \n   Overall interpretation of HER2/neu protein overexpression: equivocal \n \nImmunohistochemical methodology:  \n   ER/PR method:  \n      EP1 and PgR636 antibodies; EnVision Flex/Flex+ detection. \n      Positive if nuclear staining of any intensity in >1% of invading cells (Harvey et al, JCO 17;5, 1474-81, 1999) \n   HER2 method:  \n      A0485 and SP3 antibodies; EnVision Flex/Flex+ detection. \n      Positive if circumferential membrane staining that is complete, intense in > 10% of the invasive tumor cells (3+). \n      Equivocal if circumferential membrane staining that is incomplete and/or weak/moderate and within > 10% of the invasive tumor cells; OR \n      complete and circumferential membrane staining that is intense and within <= 10% of the invasive tumor cells (2+). (Wolff et al., J. Clin. Oncol. 2013; 31(31): 3997-4013). \n   Control comment: control slides stain appropriately \nFISH for HER2/neu gene amplification: Pending (see cytogenetics report to follow)\n\n\n"
+}

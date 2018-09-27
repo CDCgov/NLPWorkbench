@@ -1,0 +1,44 @@
+<tool id="stanford.tokenizer_2.1.0" name="Stanford Tokenizer" version="1.0.0">
+ <command interpreter="lsd">
+  ../common/invoke_vassar.lsd stanford.tokenizer_2.1.0-SNAPSHOT $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**  
+  
+Splits text into simple tokens such as numbers, punctuation, and words using the `Stanford Tokenizer <https://nlp.stanford.edu/software/tokenizer.shtml>`_.
+
+**Required annotations**
+
+* None
+
+
+
+.. class:: infomark
+
+NOTE: This tokenizer processes plain text in a LIF container. It can also process a LIF document containing  `Sentence <http://vocab.lappsgrid.org/Sentence.html>`_ annotations.
+
+.. class:: infomark
+
+**TIP**: If you want to input plain text and it is not not wrapped in a LIF container, use *Convert Formats->Wrap text*
+
+**Generated Annotations**
+
+* A LIF document with a new view containing `Token <http://vocab.lappsgrid.org/Token.html>`_ annotations 
+
+**License**
+
+The Stanford NLP tools are licensed under the `GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.
+
+]]>
+ </help>
+</tool>

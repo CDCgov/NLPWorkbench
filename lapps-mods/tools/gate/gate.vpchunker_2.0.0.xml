@@ -1,0 +1,17 @@
+<tool id="gate.vpchunker_2.0.0" name="GATE VerbPhraseChunker v2.0.0" version="2.0.0">
+	<description>
+		GATE Verb Phrase Chunker
+	</description>
+	<command interpreter="lsd">
+		invoke.lsd gate.vpchunker_2.0.0 $input $output
+	</command>
+	<inputs>
+		<param name="input" type="data" format="gate" label="input"/>
+	</inputs>
+	<outputs>
+		<data name="output" format="gate" label="Verb Chunks (GATE)"/>
+	</outputs>
+	<help>
+		GATE Verb Phrase Chunker
+	</help>
+</tool>

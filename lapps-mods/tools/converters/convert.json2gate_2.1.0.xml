@@ -1,0 +1,23 @@
+<tool id='local.convert.json2gate_2.1.0' name='LifToGate v2.1.0' version='2.1.0'>
+   <description>Convert LIF  documents to the GATE format.</description>
+    <!--
+  <command interpreter='lsd'>../common/invoke_vassar.lsd convert.json2gate_2.0.0 $input false $output</command>
+  -->
+  <command interpreter='lsd'>./invoke.lsd convert.json2gate_2.1.0 $input false $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='Input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[  
+
+**What it does**
+  
+Converts `LIF <http://wiki.lappsgrid.org/org.lappsgrid.serialization/groovydoc/org/lappsgrid/serialization/lif/Container.html>`_ 
+to the `General Architecture for Text Engineering (GATE) <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_ format.
+
+]]>
+</help>
+
+</tool>

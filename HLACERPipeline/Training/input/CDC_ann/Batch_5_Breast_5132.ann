@@ -1,0 +1,165 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3138, 
+        3144
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3145, 
+        3154
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2872, 
+        2895
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3351, 
+        3371
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3039, 
+        3066
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3183, 
+        3188
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3319, 
+        3324
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3158, 
+        3168
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2192, 
+        2221
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3228, 
+        3254
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3202, 
+        3225
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3129, 
+        3137
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3071, 
+        3077
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3259, 
+        3265
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3068, 
+        3070
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3155, 
+        3156
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3256, 
+        3258
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH|PIMS|CCO|20160602000213|3D954690D0B41615E21B31B25BACEC86E49E72F8|ORU^R01|1606020002423090|P|2.5|||\nPID|1||999999^^^^CMR^HOSPITAL 4&9999&MOH~999999^^^^MRN^HOSPITAL 4&9999&MOH~9999999999&ED&ON^^^^JHN||XXXXXXXXX^XXXXXX^^^^||99999999|F|^^^^^||9999 XXXXXXX XXXXXX^^XXXXXXXXXX^XX^X9X9X9^999||9999999999||||||||^^|||||||||N|||\nOBR|1||S16-8878|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605251100|||69080^XXXXXX^XXXXXXX^XXX^^^||||201605260805||^^^^^^||||N||201605271042|||C|||^DOWN^NANCY^KING||||99999^XXXXX^XXXXXX^X^^^|||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nINTERPRETATION:\nBlock 1A from the tumor in the above patient was examined for estrogen and progesterone receptors with the following results:\n           \tResults \t\t% of Positive\tAverage Intensity\n           \t    \t\tCells\nEstrogen Receptor  \tPositive \t\t80%      \tModerate\nProgesterone Receptor\tNegative\t\t0%      \tNot applicable\nInternal Control Appropriately Immunoreactive:\tNot present\nExternal Control Appropriately Immunoreactive:\tYes\nAppropriate formalin fixation time achieved: \tYes\nAntibody clone 6FII used for estrogen receptor. Antibody clone PR16 used for progesterone receptor.\nA positive result refers to 1% or more of the tumor cell nuclei showing positive staining. Staining intensity is recorded as weak, moderate or strong based on the average staining on the entire tissue section relative to the intensity of positive controls run with the same batch.\nIMMUNOHISTOCHEMISTRY:\nTissue Block:      \t1A\nFixation method: 10% Phosphate Buffered Formalin\nTechnologist:      \tGM\nAntibody Used:   \t4B5 (Rabbit Monoclonal Ventana/Roche)\nRESULT:       \tPositive for Her2neu oncoprotein over-expression\nAutomation platform used:    \tVentana Benchmark Ultra\nControls stained appropriately: \tYes\n% cells with membrane staining: \t100\nIntensity of membrane staining: \tStrong\nScore:              \t3+\nImmunohistochemistry for Her2neu protein over-expression is positive, therefore, testing using in-situ hybridization (FISH) will not be done.\n\nInterpretation criteria for IHC according to ASCO/CAP Her2 Testing Guideline Update. Wolff et al. Arch Pathol Lab Med. 138, Feb 2014, 241-256\n\n\nPath report.gross description\n\n1. The specimen is received in formalin in a container labelled with the patient's demographic details and as \"Right Breast Ultrasound Biopsy at 930 N+5\". It consists of 3 cores and fragments of soft white-tan tissue measuring from 0.6 cm to 1.7 cm in length and up to 0.2 cm in diameter.\nSections: A,B - 3/2 EIT\nCold Ischemic Time:0:00Total Fixation Time:29:00\n2. The specimen is received in formalin in a container labelled with the patient's demographic details and as \"Right Axillary Node\". It consists of 5 cores and fragments of soft white-tan tissue measuring from 0.2 cm to 0.5 cm in length and up to 0.1 cm in diameter.\nSections: 5/1 EIT\n\n\nPath report.relevant Hx\n\nRight breast mass 2.1 cm, malignant. Right axillary node mass 0.5 cm. Probable multifocal carcinoma RUOQ, indeterminate axillary lymph node\n\n\nPath report.final diagnosis\n\n1. Breast, ultrasound guided core biopsy (right 9:30 N+5):\n- INVASIVE DUCTAL CARCINOMA\n2. Lymph node, core biopsy (right axillary):\n- Negative for malignancy\n\n\nPath report.site of origin\n\n1: Breast Ultrasound Guided Biopsy, Right 09:30 N+5\n2: Axilla, Right, Lymph Node Core Biopsy\n\n\nPath report.comments\n\n1. ER, PR and HER2 results will follow in addendum reports.\n\n\n"
+}

@@ -1,0 +1,159 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        925, 
+        931
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        932, 
+        941
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        772, 
+        795
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2754, 
+        2774
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        833, 
+        860
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        862, 
+        866
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2740, 
+        2744
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        560, 
+        589
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2635, 
+        2670
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2712, 
+        2738
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        916, 
+        924
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        943, 
+        950
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        867, 
+        873
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2745, 
+        2751
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        874, 
+        886
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        972, 
+        989
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Tennova Healthcare - Cleveland Laboratory^44D0309307^CLIA|eMARCPlus|TN Cancer Registry|20170916000028||ORU^R01^ORU_R01|201709160000280001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-SB-003355^PathSys^44D0309307^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170901000000|||||||20170901000000|&Breast, Stereotactic biopsy|1801800313^^^^^^MD^^CMS^D^^^NPI||||||20170906000000|||F||||||C50.212^Malignant neoplasm of upper-inner quadrant of left female breast^I10~Z17.0^Estrogen receptor positive status [ER+]^I10|54321&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nSubmitted in formalin and labeled \", left breast 9-o'clock\" are multiple yellow-red fragments of fatty tissue, 4.5 x 2.5 x 0.3 cm in aggregate. Entirely submitted in 2 cassettes.\n\n\nPath report.relevant Hx\n\nHistory - Left mass lesion - 9:00\n\n\nPath report.final diagnosis\n\nLeft breast at 9 o'clock, stereotactic core biopsy:   Invasive ductal carcinoma, grade 3 (Nottingham method)  CANCER CHECKLIST: BREAST: Biomarker Reporting Template 1.001.001.1000043 TEST(S) PERFORMED  Test(s) Performed: Estrogen Receptor (ER) Status, Progesterone Receptor (PgR) Status, HER2 by Immunohistochemistry (IHC), +Ki-67, p53.  ER Results: Positive  Percentage of Cells with Nuclear Positivity#: 91-100%  Average Intensity of Staining: Strong  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Food and Drug Administration (FDA) cleared (specify test / vendor): Ventana  Primary Antibody: SP1  PgR Results: Positive  Percentage of Cells with Nuclear Positivity#: 91-100%  Average Intensity of Staining: Strong  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Food and Drug Administration (FDA) cleared (specify test / vendor): Ventana  Primary Antibody: 1E2  HER2 IHC Results: Positive (Score 3+)  Percentage of Cells with Uniform Intense Complete Membrane Staining: 90%  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Primary Antibody: 4B5  Ki-67:  Percentage of Positive Nuclei: 80%  Primary Antibody: 30-9  Test type: Ventana  p53 Results: Positive  Percentage of Positive Nuclei: 60%, strong nuclear staining.  Primary Antibody: Bp53-11  Test type: Ventana. METHODS  Cold Ischemia and Fixation Times: Meet requirements specified in latest version of the ASCO / CAP Guidelines  Cold Ischemia Time (min): 1-2min  Time of Fixation (hours): 11hours  Testing Performed on Block Number(s) (specify): 1B  Fixative: Formalin  Image Analysis: Not performed\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nLeft breast\n\n\nPath report.comments\n\nComments - The grade is based on a score of 9 of 9 (glandular/acinar/tubular differentiation - 3; nuclear pleomorphism - 3; mitotic rate - 3). Breast prognostic marker panel: see below. Prospective QA review done by Dr. J R Slemmer.\n\n\n"
+}

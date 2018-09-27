@@ -1,0 +1,167 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1912, 
+        1920
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1865, 
+        1879
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1959, 
+        1973
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2003, 
+        2023
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1699, 
+        1726
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        704, 
+        733
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1573, 
+        1599
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1881, 
+        1906
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1975, 
+        2000
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1825, 
+        1830
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1933, 
+        1938
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1731, 
+        1736
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1601, 
+        1602
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1616, 
+        1617
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1640, 
+        1641
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1728, 
+        1730
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1822, 
+        1823
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1930, 
+        1931
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160505103113|3E18C547BF5DED0B84DE9E9D925F997EA5ACD161|ORU^R01|99999999999999999999|P|2.5|\nPID|1||M999999999^^^^CMR^HOSPITAL&9999&MOH~M999999999^^^^^HOSPITAL&9999&MOH~M999999999^^^^MRN^HOSPITAL&9999&MOH~9999999999&EF&ON^^^^JHN||XXXXX^XXXXXX^XXXX||99999999|F|||99 XXXXXXXXXX XXX^^XXXXXXXXXXX^XX^X9X 9X9^999||9999999999^EF^OHIN|||||7482742769^EF^OHIN||||||||||||N|\nOBR|1||QCS1606645|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160503140000|||81955^XXXXXXX^XXXXXX^^^^XX||||20160504072940|Polyp cecum&bx of lesion at 60cm&bx at 30cm|999999^XXXXXXX^XXXXXX^^^^XX||||N|20082009|20160505103114|||F|||||||99999^XXXXXX^XXXXX^^^^XX, XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen is received in a container of formalin labelled with the patient's name, whose initials are \"MI\", and \"polyp cecum-stat\".\nNumber of fragments: 10\nSize (greatest dimensions): 0.1 up to 0.6 cm\nOther: Includes a large amount of fecal material, aggregate to 1.0 cm\n1A- 5 fragments, in toto\n1B-5 fragments, in toto\n2. The specimen is received in a container of formalin labelled with the patient's name, whose initials are \"MI\", and \"biopsy of lesion at 60 cm-stat\".\nNumber of fragments: 3\nSize (greatest dimensions): Each 0.2 cm\nOther: Nil\n2A - in toto.\n3. The specimen is received in a container of formalin labelled with the patient's name, whose initials are \"MI\", and \"biopsy at 30 cm-stat \".\nNumber of fragments: 6\nSize (greatest dimensions): 0.1 up to 0.2 cm\nOther: Nil.\n3A - in toto.\nDP, HOSPITAL, 04/05/2016 1:49 PM\n\n\nPath report.site of origin\n\n1. Polyp cecum\n2. bx of lesion at 60cm\n3. bx at 30cm\nClinical Information: STAT\nSee pink sheet.\n\n\nPath report.final diagnosis\n\n1. Cecum, polypectomy:\n- Fragments of sessile serrated polyp/adenoma with low-grade dysplasia\n2. Colon, biopsy of the lesion at 60 cm:\n- Adenocarcinoma, moderately differentiated with mucinous features\n3. Colon, biopsy at 30 cm:\n- Adenocarcinoma, moderately differentiated\n\n\nPath report.comments\n\nIn accordance with the Quality Assurance Program in the Department of Pathology at the HOSPITAL 10, selected slides have been reviewed by a second pathologist, Dr. X, who agrees with the diagnosis of malignancy in specimens #2 and #3, and with the diagnosis of sessile serrated polyp/adenoma with low-grade dysplasia in specimen #1.\n\n\n"
+}

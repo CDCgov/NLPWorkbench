@@ -1,0 +1,71 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        747, 
+        770
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1105, 
+        1125
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        913, 
+        940
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        954, 
+        964
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        503, 
+        532
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1060, 
+        1078
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        966, 
+        979
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Marin Medical Laboratories^05D0663150^CLIA|eMARCPlus|CA Cancer Registry|20170917020128||ORU^R01^ORU_R01|201709170201280001|P|2.5.1|CA||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-MC-000552^PathSys^05D0663150^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170901000000|||||||20170905000000|&Cytology Fluid, Effusion, ThinPrep|1053412403^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10|1356607121&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nCytology Fluid, Effusion, ThinPrep, Source = ASCITIC FLUID\n Volume:   1200 MLS\n Color:   AMBER\n Character: SLIGHTLY CLOUDY\n Initials:  JA/PD\n 1 TP\n 1 AIR DRY\n 1 CELL BLOCK\n DATE RECEIVED: 9-1-2017\n TIME:  16:47\n\n\nPath report.relevant Hx\n\nClinical - 63 year old female BREAST CANCER History - 08/24/2017  17-MC-000526  SF50008\n Ascitic fluid cytology:\n Negative for malignancy.\n\n\nPath report.final diagnosis\n\nMicroscopic diagnosis:\n Ascitic fluid, cytology:\n - Reactive mesothelial cells and acute and chronic inflammation.\n - No malignant cells seen (see comment).\n /*\n\n\nPath report.comments\n\ncomments - ThinPrep, air dried slide, and cell block show acute and chronic\n inflammation, histiocytes, and epithelial cells with reactive changes,\n consistent with reactive mesothelial cells. Dr. Fred Kretzschmar has\n reviewed these slides and concurs with the diagnosis of\n reactive/negative for malignancy. Calretinin stain and MOC31 confirm\n these diagnostic impressions. EpCam marker BerEP4 highlights a rare\n cluster of immunoreactive cells without a morphologic correlate on H and E.\n No overt cytologic malignant features are noted on cytology and\n appearances of the rare cluster of cells are favored to be artifactual\n in nature.\n\n The immunohistochemistry stain(s) reported above were developed and\n their performance characteristics determined by Marin Medical\n Laboratories. They have not been cleared or approved by the U.S. Food\n and Drug Administration. The FDA has determined that such clearance or\n approval is not necessary. This test is used for clinical purposes. It\n should not be regarded as investigational or for research. This\n laboratory is certified under the Clinical Laboratory Improvement\n Amendments of 1988 (CLIA) as qualified to perform high complexity\n clinical laboratory testing. Control stains are verified and function\n normally.\n\n\n"
+}

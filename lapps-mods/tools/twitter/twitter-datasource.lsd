@@ -1,0 +1,14 @@
+String type = args[0]
+int count = args[1] as int
+String query = args[2]
+File output = new File(args[3])
+
+String url = "http://grid.anc.org:9080/TwitterDataSource/1.0.0-SNAPSHOT/services/TwitterDataSource"
+
+ServiceClient client = new ServiceClient(url, null, null)
+
+Data data = new Data(Uri.GET)
+data.parameters = [ type:type, count:count ]
+data.payload = query
+
+output.text = client.execute(data.asJson())

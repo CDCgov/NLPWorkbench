@@ -1,0 +1,111 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1044, 
+        1050
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1051, 
+        1060
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1247, 
+        1270
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        943, 
+        970
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        564, 
+        593
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1399, 
+        1434
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        871, 
+        897
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1035, 
+        1043
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        915, 
+        921
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        999, 
+        1005
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        929, 
+        940
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 7^9999^MOH|PIMS|CCO|20160503112700|E3B45DDCAB65C0F9A0AFABD677128D6206EE81A8|ORU^R01|999999999999|P|2.5|||||||||||\nPID|1||G9999999^^^^CMR^HOSPITAL 7&9999&MOH~G9999999^^^^MRN^HOSPITAL 7&9999&MOH~9999999999&XX&ON^^^^JHN||XXXXXXX^XXXXXXXXX^^^^^||99999999|F|||9 XXXXXX XXXXXX XX^^XXXXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||||||||||\nOBR|1||SP-16-8752|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605031054|||32902^XXXXXXXX^XX. XXXXX^XXXX||||||||||N||20160504|||F|||||||99999^XXXXXX^XX. X. XXXXXXX^X^^^XXX^99999|\n\n\n\n\n\n\n\nPath report.gross description\n\n\\H\\Gross Description\\N\\:\n The specimen container is labelled with the patient's identification and \"MRI breast (left)\" and contains approximately 2 mL of tan and yellow fibroadipose tissue fragments.\n- 1\ttissue submitted in toto\nGrossed by: B. Chow, Pathologists' Assistant\n\n\nPath report.site of origin\n\n\\H\\Specimen\\N\\:\nBREAST BIOPSY LEFT, LOWER\n\n\nPath report.final diagnosis\n\n\\H\\PATHOLOGY DIAGNOSIS\\N\\:\nBreast (core biopsy left lower):\n - Invasive ductal carcinoma, colloid (mucinous) type\n - Biomarker (ER/PR/HER2) studies pending\n\\H\\Comment:\\N\\\nBiomarker (ER/PR/HER2) studies will be performed and the results reported following their completion.\n\n\nPath report.relevant Hx\n\n\\H\\Clinical History\\N\\:\n left lower breast indeterminate enhancement. Known LABC. Patient started chemotherapy x1 treatment.\n\n\nPath report.microscopic observation\n\n\\H\\Microscopic Description\\N\\:\nSections contain groups of malignant cells present in pools of mucin.\n\n\n"
+}

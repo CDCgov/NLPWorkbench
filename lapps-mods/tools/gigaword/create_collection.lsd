@@ -1,0 +1,24 @@
+include 'Config'
+
+String token = new File(args[0]).text
+int start = args[1] as int
+int end = args[2] as int
+String service = args[3]
+
+dir = new File("outputs")
+
+if (!dir.exists()) {
+    if (!dir.mkdirs()) {
+        throw new IOException("Unable to create directory ${dir.path}")
+    }
+}
+
+DataSourceClient datasource = createService(service, token)
+
+String[] lines = input.readLines()
+lines[start..end].each { line ->
+    String id = line.trim()
+    File file = new File(dir, "${id}.txt")
+    file.text = datasource.get(id)
+}
+

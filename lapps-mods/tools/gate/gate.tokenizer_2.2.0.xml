@@ -1,0 +1,27 @@
+<tool id='anc_gate.tokenizer_2.2.0' name='GATE Tokenizer v2.2.0' version='1.0.0'>
+  <description>GATE Tokenizer</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.tokenizer_2.2.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='txt,xml,gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+
+GATE Tokenizer
+
+Generated Annotations
+---------------------
+* http://vocab.lappsgrid.org/Token
+
+**License**
+
+Gate Developer is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

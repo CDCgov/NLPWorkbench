@@ -1,0 +1,27 @@
+<tool id="stanford.ner_2.0.0" name="Stanford NamedEntityRecognizer v2.0.0" version="2.0.0">
+ <description>
+  Stanford Named Entity Recognizer (Vassar)
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_vassar.lsd stanford.ner_2.0.0 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+Stanford Named Entity Recognizer
+
+**License**
+
+Stanford CoreNLP is licensed under `the GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.
+
+]]>
+ </help>
+</tool>

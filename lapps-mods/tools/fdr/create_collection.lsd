@@ -1,0 +1,24 @@
+include 'Config'
+
+int start = args[0] as int
+int end = args[1] as int
+
+dir = new File("outputs")
+
+if (!dir.exists()) {
+    if (!dir.mkdirs()) {
+        throw new IOException("Unable to create directory ${dir.path}")
+    }
+}
+
+//String url = "${server.url}/${type}"
+String url = server.url
+DataSourceClient datasource = new DataSourceClient(url, server.username, server.password)
+
+String[] lines = datasource.list(start, end)
+lines.each { line ->
+    String id = line.trim()
+    File file = new File(dir, "${id}.txt")
+    file.text = datasource.get(id)
+}
+

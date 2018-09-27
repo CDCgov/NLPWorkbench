@@ -1,0 +1,32 @@
+<tool id="dev.frequency.word" name="Word Frequency" version="1.0.0">
+ <command>lsd $__tool_directory__/WordFrequency.lsd $stopwords $__tool_directory__ $output
+        #for $f in $files
+            ${f}
+        #end for
+ </command>
+ <inputs>
+     <param label="Data" name="files" type="data" multiple="true" min="1"/>
+     <param label="Remove stopwords" name="stopwords" type="boolean" checked="true"/>
+ </inputs>
+ <outputs>
+  <data format="txt" label="Word Frequencies" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**
+
+Calcuates the word counts
+
+.. class:: infomark
+
+**TIPS**
+
+**License**
+
+Apache 2.0
+
+]]>
+ </help>
+</tool>

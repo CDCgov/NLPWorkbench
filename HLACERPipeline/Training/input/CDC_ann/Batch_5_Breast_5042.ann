@@ -1,0 +1,129 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1691, 
+        1697
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1698, 
+        1707
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1481, 
+        1504
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1753, 
+        1773
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1598, 
+        1625
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1635, 
+        1640
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1738, 
+        1743
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        599, 
+        628
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        878, 
+        913
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1710, 
+        1736
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1682, 
+        1690
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1627, 
+        1633
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1744, 
+        1750
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 6^9999^MOH|PIMS|CCO|20160503122300|90379AD3991735A5A6F133E27F9C3963990CDBDB|ORU^R01|999999|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 6&9999&MOH~999999^^^^MRN^HOSPITAL 6&9999&MOH~9999999999&XX&ON^^^^JHN||XXXXXXXXX-XXXXXXXXX^XXXXXXXX||99999999|F|||99 XXXXXX XXX^^XXXXXXXX XXXX^XX^X9X 9X9^XXX||(999)999-9999|||||||||||||||||N|\nOBR|1||SP1617755|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160429133000|||53498^XXXXXX^XXXXX^^^^XX||||20160429165055|Right breast|999999^XXXXXX^XXXXX^^^^XX||||N|20082009|20160503140108|||F|||||||99999^XXX^XXXXXX^^^^XX, XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in a container labelled with the patient's name, who has the initials \"MCE \" and the specimen site \"right breast\".\nNumber of pieces:  5\nDimensions: 1.0-2.0 cm\nOther:  Nil\n1A-1B-in toto\nKHA   2016-05-02   TOH Civic Campus\n\n\nPath report.microscopic observation\n\nSections demonstrate invasive ductal carcinoma, no special type, involving all submitted breast tissue cores. The carcinoma shows limited tubule formation, intermediate grade nuclear features and scattered mitotic activity. In this limited sample, the carcinoma is of estimated intermediate Nottingham histologic grade. There is focal intermediate grade ductal carcinoma in situ (DCIS), without comedonecrosis or calcifications. Definitive tumour grading and subtyping will be performed on the final excision specimen. Lymphovascular space invasion is identified.\n\n\nPath report.relevant Hx\n\nSuspicious BIRADS 5 mass RT breast, RUSH pls\nMass lesion identified\nCancer suspected: Yes\n\n\nPath report.final diagnosis\n\nBreast, right, ultrasound-guided core needle biopsy:\n- INVASIVE DUCTAL CARCINOMA\n\n\nPath report.site of origin\n\nRight breast\n\n\nPath report.comments\n\nER, PR and HER2 testing will be performed on the excision specimen. If required on this biopsy sample, please forward a request with the appropriate clinical information to the anatomical pathology laboratory at The HOSPITAL 12 (FAX: 613-737-8853).\n\n\n"
+}

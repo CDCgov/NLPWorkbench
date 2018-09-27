@@ -1,0 +1,111 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        676, 
+        690
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        691, 
+        700
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        709, 
+        723
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        945, 
+        965
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        560, 
+        587
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        590, 
+        595
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        492, 
+        518
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        843, 
+        859
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        654, 
+        675
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        607, 
+        611
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        596, 
+        606
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160503092700|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||^^^^CMR^HOSPITAL 4&9999&MOH~^^^^RMR^HOSPITAL 4&9999&MOH~^^^^MRN^HOSPITAL 2&9999&MOH||XXXXXX^XXXX||99999999|F||||||||||||||||||||||N|\nOBR|1||S16-27915|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201605020948|||||||201605020948|&Consult slides - stained, SO-15-12945|||||Y||201605030927||PRV|F|||||||99999^XXXX^XXXX-XXXXX|\n\n\n\n\n\n\n\nPath report.site of origin\n\nConsult slides - stained, SO-15-12945\n\n\nPath report.final diagnosis\n\n\nRight upper lobe lung bronchial biopsy (August 20, 2015):\n-     Poorly differentiated non-small cell carcinoma, favour adenocarcinoma. (See comment)\n-     POSITIVE for EGFR exon 19 deletion. (MP15-03752; Jewish General HOSPITAL, Montreal, Quebec)\n-     Negative for ALK by immunohistochemistry. (SC-15-02055; Jewish General HOSPITAL, Montreal, Quebec)\n\n\n\nPath report.comments\n\nThe H\\T\\E sections show fragments of bronchial mucosa with fibrosis in lamina propria and fibrous tissue infiltrated by sheets and nests of malignant epithelial cells. These cells show enlarged hyperchromatic nuclei, and eosinophilic cytoplasm. By immunohistochemistry, the tumor cells show strong and diffuse cytoplasmic staining for CK7 and nuclear staining for TTF1, negative staining for CK20, and focal (\\R\\10%) weak nuclear staining for p63. Overall the immunoprofile is more consistent with a adenocarcinoma of lung primary. \n\nThe original report indicated that the tumor is ALK negative by immunohistochemistry but positive for EGFR exon 19 deletion mutation. These tests were performed at the Jewish General HOSPITAL, Montreal, Quebec.     \n\n\n\n"
+}

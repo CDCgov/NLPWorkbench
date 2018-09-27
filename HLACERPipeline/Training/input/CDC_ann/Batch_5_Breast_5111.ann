@@ -1,0 +1,93 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3761, 
+        3767
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3768, 
+        3777
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3884, 
+        3900
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3262, 
+        3270
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3704, 
+        3719
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3721, 
+        3725
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3336, 
+        3351
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3752, 
+        3760
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3726, 
+        3732
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160503235618|8E5E3F25058D009336038E9DC2218C0B6D3D0671|ORU^R01|9999999999999|P|2.5||||||\nPID|1||E999999999^^^^CMR^HOSPITAL 9&9999&MOH~E999999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&BR&ON^^^^JHN||XXXXX^XXXXXX^ XXX^^^^||99999999|F|||99 XXXXX XXX^^XXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||S16-11015|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160429|||82934^XXXXXXX^XXXX^^^^||||||||||||20160503|||C|||||||99999^XXXXX^XXXX^^^^|||||||\n\n\n\n\n\n\n\nADDENDUMS\n\nESTROGEN AND PROGESTERONE RECEPTOR PROTEIN IMMUNOHISTOCHEMISTRY\nDIAGNOSIS:\nINVASIVE CARCINOMA:\n- POSITIVE FOR ESTROGEN RECEPTORS\n- POSITIVE FOR PROGESTERONE RECEPTORS\nRESULT:\n(Block A1)\n100% of cell nuclei are positive for estrogen receptors\n5% of cell nuclei are positive for progesterone receptors\nAntibody used:\nEstrogen receptor (Rabbit monoclonal, Clone SP1, Ventana)\nProgesterone receptor (Rabbit Monoclonal, Clone 1E2, Ventana)\nPositive and negative external laboratory controls, and internal\ncontrol normal breast tissue stained appropriately.\n\nThreshold for interpretation of Estrogen and Progesterone\nreceptors as per CCO guidelines:\nPOSITIVE: 10% or more of tumor cell nuclei stain positively with any intensity\nLOW POSITIVE: 1-9% of tumor cell nuclei stain positively with any intensity\nNEGATIVE: <1% of tumor cell nuclei stain positively with any intensity\nReference:\nDiaz LK, Sneige N: Estrogen receptor analysis for breast cancer: current\nissues and keys to increasing testing accuracy. Adv Anat Pathol\n2005;12:10-19\nIMMUNOHISTOCHEMICAL STUDIES FOR HER2 ONCOPROTEIN:\nRESULTS:\n   BREAST (LEFT), CORE BIOPSY:\n        INVASIVE MAMMARY CARCINOMA.\n        EQUIVOCAL FOR HER2 ONCOPROTEIN OVEREXPRESSION.\n        SENT FOR ADDITIONAL STUDIES TO HOSPITAL HEALTH CENTRE.\n        ADDENDUM TO FOLLOW.\nNote: Cold ischemia and fixation times meet the requirements specified in the\nlatest version of the ASCO/CAP guidelines: Yes\nStaining intensity: 1-2+\nBlock#: A1\nScoring Criterion and Scoring System:\nIHC 0 (Negative): No staining observed; or membrane staining that is incomplete\nand is faint/barely perceptible and within <=10% of the invasive tumor cells.\nIHC 1+ (Negative): Incomplete membrane staining that is faint/barely\nperceptible and within >10% of the invasive tumor cells.\nIHC 2+ (Equivocal): Circumferential membrane staining that is incomplete and/or\nweak/moderate and within >10% of the invasive tumor cells; or complete and\ncircumferential membrane staining that is intense and within <=10% of the\ninvasive tumor cells.\nIHC 3+ (Positive): Circumferential membrane staining that is complete, intense\nand within >10% of tumor cells.\nINDETERMINATE: Another specimen should be requested for testing to determine\nHER2 status if possible.\nMethodology:\nFixation Type: 10% neutral buffered formalin\nRecommended Length of Fixation: 6 - 72 hours\nRecommended Cold Ischemia time: < 1 hour\nAntibody used: c-erb-2/HER-2/neu (Clone 4B5 Rabbit monoclonal antibody, Ventana\nMedical Systems)\nControl Slides Examined: In-house known Her2 positive control tissue was\nevaluated along with the test tissue and shows appropriate staining.\nReferences:\nWolfe et al. ASCO/CAP HER2 Testing Guideline Update. J Clin Oncol\n2013:31:3997-4013\n\n\nCOMMENTS\n\nSpecimen: A\nExcision time: 1130\nTime placed in Formalin: 1132\n\n\nGROSS PATHOLOGY\n\nThe specimen is received in formalin and labelled with the patient's name and as \"left breast core biopsy\". The specimen consists of two cores of grey-white\nto yellow tissue measuring 1.2 and 1.5 cm in length. Entirely submitted in cassette\nA1.\n                                        /PB\n\n\nTISSUE SUBMITTED\n\nBREAST BIOPSY (LEFT BREAST CORE BIOPSY)\n\n\nFINAL DIAGNOSIS\n\nLEFT BREAST, CORE BIOPSY:\n   - INVASIVE DUCTAL CARCINOMA.\n   - ER, PR AND HER2 RESULTS WILL BE REPORTED AS ADDENDUM.\n                                   (CODE 1)\n\n\nCLINICAL HISTORY\n\nPLEASE SEE ATTACHED FORM\n\n\n"
+}

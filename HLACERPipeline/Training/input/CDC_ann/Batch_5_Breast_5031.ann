@@ -1,0 +1,149 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        823, 
+        829
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        830, 
+        839
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        509, 
+        532
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1096, 
+        1116
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        609, 
+        636
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        641, 
+        646
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        797, 
+        802
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1032, 
+        1037
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        676, 
+        682
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        840, 
+        847
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        647, 
+        653
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        683, 
+        696
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        803, 
+        809
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        638, 
+        640
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        794, 
+        796
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1029, 
+        1031
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 5^9999^MOH|PIMS|CCO|20160503080102|400C02FBF4A7C87FAED742F377B59A3A4C219A6D|ORU^R01|999999999999|P|2.5|||\nPID|1||K999999^^^^CMR^HOSPITAL 5&9999&MOH~K999999^^^^MRN^HOSPITAL 5&9999&MOH~9999999999&XX&ON^^^^JHN||XXXXXXXXXX^XXXXX^^^^^||99999999|F|||99 XXXX XXXX^^XXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||\nOBR|1|S16-2502|16:RR999|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160419|||^^^^^^||||||||||Y||20160503|||F|||||||99999^XXXXXXXXX^XXXXXXXX^XXXXX^^^|\n\n\n\n\n\n\n\nPath report.relevant Hx\n\nJoseph HOSPITAL HOSPITAL\nS16-2502 (17 slides, 1 block, C1)\nDr. J.G. Hart\n\n\nPath report.final diagnosis\n\nA. Right breast, \"fibroadenoma\" \n   - Benign breast tissue with fibrocystic changes (usual ductal hyperplasia) \n   - No evidence of the fibroadenoma \n \n \n \nB. Right breast tissue \n   - Ductal carcinoma in situ changes, nuclear grade 3, with evidence of comedo  \n   necrosis \n   - The estimated extent (size) of DCIS = 8 mm \n   - DCIS extends very close to the inked margin (0.05 mm away) \n \nC. Right nipple biopsy \n   - Paget's disease of nipple \n \nlje/vr\n\n\nPath report.comments\n\nThank you for sending this case for consultation\n \n14 H E slides and 3 immunohistochemistry slides are received for review.\n \nA. RIGHT BREAST, FIBROADENOMA: \nAs per your gross description discription I understand this specimen measured 3.5 cm\nmedial- lateral x2.7 cm superior -inferior x1.5 cm anterior- posterior. On serial\nsectioning no mass was identified. The specimen was submitted in toto , blocks 1-5.\"\n \nI concur with you, that the sections show benign breast tissue with focal\nfibrocystic changes (usual ductal hyperplasia). There's no evidence of a fibroadenoma\nand the sections examined.\n \nB. RIGHT BREAST TISSUE: \nAs per your gross discription I understand the specimen was received with no\norientation of the margins and the specimen measured 3.2 x 2.2 x 1.5 cm. The specimen\nwas serially sectioned and submitted in toto (blocks 1-5).\n \nYour H E sections show ductal carcinoma in situ changes, solid pattern, with focal\ncomedo necrosis, nuclear grade 3.\n \nOn immunohistochemistry workup the ducts showing DCIS are rimmed by myoepithelial\ncells.\nThe DCIS component is seen in 2 consecutive sections, hence the estimated extent of\nDCIS = 8 mm. The DCIS is seen extending very close to the inked margin (0. 05 mm\naway).\n \nC. SKIN, RIGHT NIPPLE BIOPSY:\n \nAs per your gross discription I understand, this specimen consisted of 2 irregular\nportions of skin measuring 0.6 cm in greatest dimension is. The margins were marked\nwith ink and the specimen was submitted in toto.\n \nI concur with your there is an abnormal epithelial proliferation involving the dermis\nof the skin. On immunohistochemistry workup and these abnormal epithelial cells\nstaining HER-2/neu +ve, CAM5.2 +ve, CK 5/6 -ve, CK7 +ve, CK 20 -ve, HMB-45 -ve, P. 63\n-ve, S100 -ve. This result supports the diagnosis of Paget's disease of nipple.\n\n\n"
+}

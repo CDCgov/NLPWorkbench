@@ -1,0 +1,91 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        785, 
+        799
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        800, 
+        809
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        818, 
+        832
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        669, 
+        692
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        718, 
+        745
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        898, 
+        900
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        620, 
+        649
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        867, 
+        893
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        901, 
+        911
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH||CCO-OCR|20160504040025|AD626D2FD38E47915C72568020563E35A60858B1|ORU^R01|99999999999999999999|P|2.5|||\nPID|1||9999999^^^^CMR^HOSPITAL 3&9999&MOH~^^^^^&&~9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&TT&ON^^^^JHN|9999^9999999|XXXXXX^XXXXXX^^^XX.^||99999999|F|XXXXXX^XXXXXX^^^^||999 XXXXXX XXXXXX XXXX^^XXXXXXX^XX^X9X 9X9^999||9999999999|||||||||||||||||N||\nOBR|1||C16-3491|33716-2^Study Report: Cytology.non-gyn^LN^C^Cytology^L|||201604250000|||60408^X'XXXXXXX^XXXXX^X.^^^||||201604260811||99999^X'XXXXXXX^XXXXX^X.^^^||||||201605031223|||F|||||||99999^XXXXXXX^XXXXXX^^^^||\n\n\n\n\n\n\n\nPath report.gross description\n\n5cc red mucoid.\n\n\nPath report.relevant Hx\n\nSPECIMEN TYPE: BWLUL.\n\n\nPath report.final diagnosis\n\nINTERPRETATION:MALIGNANT CELLS FROM A NON-SMALL CELL CARCINOMA, FAVOUR ADENOCARCINOMA.\nOTHER FINDINGS:COLUMNAR CELLS.\n\n\nPath report.site of origin\n\nA: LT UPPER LOBE BRONCHIAL WASH\n\n\n"
+}

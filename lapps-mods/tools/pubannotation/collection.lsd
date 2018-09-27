@@ -1,0 +1,52 @@
+
+String repo = args[0]
+String format = args[1]
+String keywords = args[2].replaceAll(' ', '+')
+
+File output = new File('outputs')
+
+URL url = new URL("http://pubannotation.org/docs/sourcedb/${repo}.json?keywords=${keywords}")
+String json
+try {
+    json = url.text
+}
+catch (Throwable e) {
+    println e.message
+    return
+}
+
+if (!output.exists()) {
+    if (!output.mkdirs()) {
+        println "Unable to create output directory"
+        return
+    }
+}
+
+List list = Serializer.parse(json, ArrayList)
+list.each { record ->
+    try {
+        //println "Fetching ${record.url}.json"
+        String content = new URL(record.url + '.' + format).text
+        Data data = new Data()
+        if (format == 'txt') {
+            Container container = new Container()
+            container.metadata.sourceid = record.sourceid
+            container.metadata.sourcedb = record.sourcedb
+            container.metadata.url = record.url
+            container.text = content
+            data.discriminator = Uri.LIF
+            data.payload = container
+        }
+        else {
+            data.discriminator = Uri.JSON
+            data.payload = content
+        }
+        String filename = "${record.sourcedb}${record.sourceid}.json"
+        File file = new File(output, filename)
+        file.text = data.asPrettyJson()
+    }
+    catch (Throwable e) {
+        println e.message
+    }
+}
+

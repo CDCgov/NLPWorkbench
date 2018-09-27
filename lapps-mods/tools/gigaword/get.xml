@@ -1,0 +1,63 @@
+<tool id="gigaword.get" name="Get a document" version="1.0.0">
+ <command interpreter="lsd">
+  get.lsd $token $key $service $output
+ </command>
+ <inputs>
+  <param format="oauth" label="OAuth Token" name="token" type="data">
+  </param>
+  <param label="Document ID" name="key" type="text" value="AFP_ENG_19940512.0001">
+  </param>
+  <param label="Language" name="service" type="select">
+  <option value="GWENDataSource">
+   English
+  </option>
+  <option value="GWZHDataSource">
+   Chinese
+  </option>
+  <option value="GWESDataSource">
+   Spanish
+  </option>
+  <option value="GWARDataSource">
+   Arabic
+  </option>
+  </param>
+ </inputs>
+ <outputs>
+  <data format="ldc" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+**What it does**
+
+Retrieves a single document from the `English Gigaword corpus <https://catalog.ldc.upenn.edu/ldc2003t05>`_ 
+housed at the `Linguistic Data Consortium <https://ldc.upenn.edu/>`_.
+
+.. class:: warningmark
+
+
+ 
+To obtain Gigaword documents you **must**:
+
+To obtain Gigaword documents you **must**:
+
+1. Be an LDC licensee
+2. Obtain an OAuth Token 
+
+
+You can obtain an OAuth token by visting `THIS LINK <https://grid.anc.org:9443/ldc-authorize/>`_
+and logging in with your LDC id and password. 
+Then paste the OAuth token into the above field and click `execute`.  This will add an item to your
+history that supplies the OAuth token to LDC datasource services that 
+require it.
+
+
+
+**License**
+
+The `English Gigaword corpus <https://catalog.ldc.upenn.edu/ldc2003t05>`_  is distributed under `LDC Membership Agreement <www.ldc.upenn.edu/members/agreements>`_ or `User Agreement for Non-Members <catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf>`_
+
+]]>
+    
+ </help>
+</tool>

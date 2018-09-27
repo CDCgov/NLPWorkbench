@@ -1,0 +1,51 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        477, 
+        500
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        771, 
+        779
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5963, 
+        5983
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        597, 
+        624
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1590, 
+        1622
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170919125822||ORU^R01^ORU_R01|201709191258220001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-11-037695^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170824000000|||||||20170824000000|&MP Outside material|1639179708^ ^ ^D^^^MD^^CMS^D^^^NPI||||||20170831000000|||F||||||C18.4^Malignant neoplasm of transverse colon^I10|&&&O.&&&&&CMS\n\n\n\n\n\n\n\nPath report.relevant Hx\n\nHistory - C18.4 Malignant neoplasm of transverse colon; Involved by mucinous adenocarcinoma.\n\n\nPath report.final diagnosis\n\nResults of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present in both the tumor and adjacent non-neoplastic tissue components). These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome. Cancers with this profile are microsatellite stable (MSS). If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result on the screening test, then consideration could be made for a genetic consult with additional testing. [References available on request].\n\n\nPath report.supplemental reports\n\nAncillary Report: Immunoperoxidase staining was performed and evaluated with appropriate controls. Tumor cells are positive for CDX2. CDX2 expression has important prognostic value in colorectal adenocarcinoma. Loss of CDX2 expression is associated with an aggressive clinical course including infiltrative growth, and advanced T, N, M and overall stage. [N Engl J Med. 2016 Jan 21;374(3):211-22.][ Clin Colorectal Cancer. 2016 Sep 17.][ World J Gastroenterol. 2015 Feb 7;21(5):1457-67.]  ## End of auxiliary report ## Fish Report: FISH - - Unable to perform MET and HER2 FISH testing.   ## End of auxiliary report ## Molecular Diagnostic Rpt: Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: See Comment Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: There was insufficient tissue available for nucleic acid isolation and analysis.  If clinically appropriate, recommend recollection and resubmission or identification of an alternate specimen. Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: Omentum, Excision Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: S16-27287 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 1 ## End of auxiliary report ## Smart Genomics NGS: SGNGS Impression - <p>Review of the accompanying pathology report indicated a history of colorectal cancer. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. <strong>KRAS G12V and TP53 A86fs mutations were detected</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table.</p> <p>In the setting of colon adenocarcinoma, KRAS mutations are present in approximately 40% of cases and are associated with a decreased response to monoclonal antibody therapy targeting EGFR, either as monotherapy or in combination with chemotherapy. A number of therapies are in clinical development that target this KRAS mutation (i.e. RAF/MEK inhibitors). </p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context. </p>  ## End of auxiliary report ## Smart Genomics Summary: SGTS Impression - <p>Review of the accompanying pathology report indicated a history of colorectal cancer. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. <strong>KRAS G12V and TP53 A86fs mutations were detected</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table.</p> <p>In the setting of colon adenocarcinoma, KRAS mutations are present in approximately 40% of cases and are associated with a decreased response to monoclonal antibody therapy targeting EGFR, either as monotherapy or in combination with chemotherapy. A number of therapies are in clinical development that target this KRAS mutation (i.e. RAF/MEK inhibitors). </p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context. </p>  ## End of auxiliary report ##\n\n\nPath report.comments\n\nFISH Comments - Slides were reviewed by an in-house pathologist. There was insufficient tissue to perform Fluorescence in situ hybridization (FISH) studies.\n\n\n"
+}

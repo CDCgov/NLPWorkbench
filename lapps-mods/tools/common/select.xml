@@ -1,0 +1,19 @@
+<tool id='lapps.tools.select' name='Select Annotations' version='1.0.0'>
+  <description>Move select annotations to the last view</description>
+  <command interpreter='lsd'>select.lsd $input $type $output</command>
+  <inputs>
+      <param name="input" type="data" format="lif,json" label="Input"/>
+      <param name="type" type="text" label="Annotations"/>
+      <!--
+          <option value="http://vocab.lappsgrid.org/Token">Tokens</option>
+          <option value="http://vocab.lappsgrid.org/Token#pos">Tokens + pos</option>
+          <option value="http://vocab.lappsgrid.org/NamedEntity">Named Entities</option>
+      </param>
+      -->
+  </inputs>
+  <outputs>
+    <data name='output' format='lif'/>
+  </outputs>
+  <help>Renames the annotations in the last view in the document.
+  </help>
+</tool>

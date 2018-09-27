@@ -1,0 +1,139 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        972, 
+        986
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        987, 
+        996
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1014, 
+        1028
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        842, 
+        865
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1713, 
+        1733
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        889, 
+        916
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        582, 
+        611
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1669, 
+        1695
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        950, 
+        971
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        922, 
+        926
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1697, 
+        1701
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        998, 
+        1003
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        919, 
+        921
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1046, 
+        1078
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160504084000|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 2&9999&MOH~9999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&&ON^^^^JHN||XXXXXX^XXXXXX^XXXX||99999999|F|||9999 XXXXXX XXXXX^^XXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-23171|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604121031|||86819^XXXXXXXXX-XXXXXX^XXXXXXXXX||||201604121213|&Lung: lingual|99999^XXXXXXXXX-XXXXXX^XXXXXXXXX||||||201604151747||SPG|C|||||||99999^XXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen is labeled with the patient's name and as \"Lung: Lingula\" consists of 3 cores of red-tan tissue measuring from 0.3-0.8 cm in length x 0.1 cm in diameter, received in 10% buffered formalin.1A- submitted in toto\n\n\n\nPath report.relevant Hx\n\nlung lesion, hx ca\n\n\n\nPath report.final diagnosis\n\n\n1. Lung, biopsy (lingula):\n  - Poorly differentiated non-small cell carcinoma, favor pulmonary adenocarcinoma (see Comment)\n\n\n\nPath report.supplemental reports\n\n\n- NEGATIVE for EGFR (exons 18-21) mutation (see Molecular Diagnostics report)\n- NEGATIVE for ALK by immunohistochemistry (see Addendum Comment)\n\nEGFR and ALK testing were re-initiated due to failure of testing on the concurrent FNA sample. \n\nBlock 1A was selected for mutation profiling. An area measuring 3x3 mm in aggregate and containing estimated 30% tumor cellularity and no necrosis is marked for macrodissection and DNA isolation.\n\nNOTE: ALK immunohistochemistry is performed at HOSPITAL using the 5A4 antibody with a protocol optimized for detection of ALK gene rearrangement.\n\n\n\nPath report.site of origin\n\nLung: lingual\n\n\nPath report.comments\n\nThe patient's history of a radical maxillectomy and orbitectomy for squamous cell carcinoma is noted (S15-11158). \n\nSections of the present biopsy show cores of lung tissue focally infiltrated by nests of poorly differentiated non-small cell carcinoma. The present lung biopsy shows different cytomorphology from the tumor in the prior maxillectomy. By immunohistochemistry the tumor cells stain positive for TTF-1 and CK7, and negative for CK5 and p63. Overall the findings are consistent with a poorly differentiated non-small cell carcinoma of pulmonary origin, favoring a primary pulmonary adenocarcinoma.\n\nEGFR mutation analysis and ALK immunohistochemistry have been requested on a concurrent FNA sample (C16-7677) and are not performed on the present material. Please refer to the FNA report for results of testing.\n\nMolecular Number:         M16.5430\nTest Method(s) Used:        EGFR-RT52\nEGFR Result:            Negative\n\nDNA was extracted from the paraffin-embedded lung: lingual, and analyzed using the EGFR-RT52 kit from EntroGen. This kit is based on a real-time PCR qualitative genotyping assay that uses fluorescently labeled probes for detection of 30 recurrent mutations in exons 18, 19, 20 and 21 of the EGFR gene, including exon 20 resistance mutations (T790M, S768I, and insertions). Details of the mutations tested are available upon request. \n\nThe lower limit of mutation detection using this assay is 2.5-5%. Minimum tumor cellularity for analysis is 5%. \n\nThis analysis is based on current knowledge of the most common EGFR mutations and their presence in adenocarcinoma of the lung. Somatic mutations in the EGFR tyrosine kinase domain are present in 10-40% of non-small cell lung cancers. The presence of these mutations will predict clinical response or resistance to EGFR inhibitors such as gefitinib (Iressa) and erlotinib (Tarceva). Rarely, T790M occurs in untreated patients and may be present as an underlying germline mutation; this test will not discriminate germline T790M mutations from testing of tumor alone. This test will not identify rare mutations, such as E709K and D770_N771ins and is not appropriate for squamous cell carcinomas of the lung. Only adenocarcinomas of the lung or lung cancers with an adenocarcinoma component should be sent for testing. \n\nThe performance characteristics of this test were determined and verified by the Molecular Diagnostics Laboratory at the HOSPITAL. It has not been cleared or approved by the US FDA. FDA does not require this test to go through premarket FDA review. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments (CLIA) as qualified to perform high complexity clinical laboratory testing.\n\nPan Q, et al. JMD 2005; 7(3): 396-403 \nTsao MS, et al. NEJM 2005; 353(2): 133-144 \nRiely GJ, et al. Clin Cancer Res 2006; 12: 7232-7241\nJohn T, et al. Oncogene 2009; 28: S14-S23\nhttp://www.entrogen.com/web2/egfr-mutation-analysis-kit\nhttp://www.mycancergenome.org/content/disease/lung-cancer/\nLindeman NI, Cagle PT, Beasley MB, et al. Arch Pathol Lab Med. 137:828-860 \n\n\n\n"
+}

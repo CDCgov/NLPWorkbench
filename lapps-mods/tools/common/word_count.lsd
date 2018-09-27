@@ -1,0 +1,73 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+import groovy.json.JsonOutput
+
+File input = new File(args[0])
+File output = new File(args[1])
+
+class DataContainer extends Data<Container> {}
+Data<Container> data = Serializer.parse(input.text, DataContainer)
+Container container = data.payload
+
+List<View> views = container.findViewsThatContain(Uri.TOKEN)
+if (views == null || views.size() == 0) {
+	println "No views with tokens found."
+	return
+}
+
+if (views.size() > 1) {
+	println "More than one view contains tokens."
+	return
+}
+println "Found a view."
+
+def isaWord = { it ->
+	if (it.label == Uri.TOKEN || it.atType == Uri.TOKEN) { //&& (it.features.tokenType == 'word')
+	   	String word = container.text.substring((int)it.start, (int)it.end)
+		for (int i = 0; i < word.length(); ++i) {
+		    if (Character.isLetter(word.charAt(i))) {
+	       	       return true;
+		    }					
+		}	   
+	}
+	return false
+}
+
+List<Annotation> annotations = views[0].annotations.findAll { isaWord(it) }
+println "Found ${annotations.size()} words."
+
+def counts = [:]
+annotations.each { annotation ->
+	String word = annotation?.features.word //?: annotation?.features.lemma
+	if (!word) {
+		int start = annotation.start
+		int end = annotation.end
+		word = container.text.substring(start, end)		
+	}
+	word = word.toLowerCase()
+	Counter counter = counts[word]
+	if (!counter) {
+		counter = new Counter(word)
+		counts[word] = counter
+	}
+	counter.increment()
+}
+
+println "Writing output file ${output.path}"
+output.withWriter { writer ->
+	counts.values().sort { it.count }.reverse().each { row ->
+		writer.println "${row.word}\t${row.count}"
+	}
+}
+println "Done"
+
+class Counter {
+	String word
+	int count
+	
+	Counter(String word) {
+		this.word = word
+		this.count = 0
+	}
+	
+	void increment() { ++count }
+}

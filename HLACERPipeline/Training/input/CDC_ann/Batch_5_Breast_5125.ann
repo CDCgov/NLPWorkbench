@@ -1,0 +1,117 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1762, 
+        1768
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1769, 
+        1778
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        950, 
+        973
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1668, 
+        1695
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1705, 
+        1709
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1830, 
+        1834
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        541, 
+        570
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1802, 
+        1828
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1697, 
+        1703
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1835, 
+        1841
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1710, 
+        1715
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1842, 
+        1847
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL HOSPITAL^3587^MOH|PIMS|CCO|201605042311|154F70583D500CD6001C9EECECCFB49A62EA85FD|ORU^R01|999999999999999|P|2.5|\nPID|1||M99999999^^^^CMR^HOSPITAL 11&9999&MOH~~M99999999^^^^MRN^HOSPITAL HOSPITAL&9999&MOH~9999999999&GH&ON^^^^JHN|9999^M99999999|XXXXX-XXXXXXXX^XXXX^XXXX||99999999|F|||99999 XXX 99^^XXXXXXXXXXX^XX^X9X 9X9^999||999-999-9999|||||||||||||||||N|\nOBR|1||16:S4675|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160429|||68190^XXXXXX^XXXXXX||||||||||||20160504|||F|||||||99999^XX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is labelled \"left breast 12:00\" and consists of two cylindrical\ncores of yellow and white coloured tissue which is fibrofatty in consistency\nmeasuring 0.5 cm and 0.9 cm in greatest length and 0.1 cm in greatest diameter.\nThis is accompanied by three fragments of similar tissue measuring 0.1 cm to 0.2\ncm.\nThe specimen is entirely submitted in Block A1-A2.\nLF/sk\n\n\nPath report.relevant Hx\n\n? DCIS/cancer.\n\n\nPath report.comment\n\nSections show an infiltrative proliferation composed of glands and solid nests\nin dense fibrous stroma. The tumor cells have enlarged, pleomorphic nuclei with\noccasional nucleoli. Mitotic figures are rare. Ductal carcinoma in-situ with\ngrade 3 nuclei and central comedo necrosis is seen. Immunohistochemical stains\nconfirm the lacking of myoepithelial layers (SMM, p63 negative). The findings\nare consistent with an invasive ductal carcinoma. A representative block of the\ntumor has been sent for ER/PR and Her2 studies.\n\n\nPath report.comment\n\nTOTAL FIXATION TIME:   63 HRS 32 MIN\nTime of specimen removal:  0928 HRS\nTime placed into fixative: 0978 HRS\n\n\nPath report.final diagnosis\n\nBREAST, LEFT 12:00, NEEDLE CORE BIOPSIES:\n- INVASIVE AND IN-SITU DUCTAL CARCINOMA, PLEASE SEE COMMENTS\n\n\nPath report.site of origin\n\nLeft breast 12:00\n\n\n"
+}

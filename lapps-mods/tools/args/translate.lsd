@@ -1,0 +1,21 @@
+String from = args[0]
+String to = args[1]
+String nodeset = args[2]
+File output = new File(args[3])
+
+String url = "http://grid.anc.org:9080/args-tech-1.0.0-SNAPSHOT/services/TranslateService"
+
+def service = new ServiceClient(url)
+Data data = new Data()
+data.parameters = [:]
+data.parameters.from = from
+data.parameters.to = to
+data.parameters.id = nodeset
+
+String result = service.execute(data.asJson())
+if (to == 'json') {
+    output.text = groovy.json.JsonOutput.prettyPrint(result)
+}
+else {
+    output.text = result
+}

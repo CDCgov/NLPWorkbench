@@ -1,0 +1,165 @@
+SENTENCE:  Information has been received on 06 Dec 2006 from a  physician concerning a  5 year old female who on 29 Nov 2006 was vaccinated with   MMR    II 0.5ml, IME lot 651429/03/86R.
+               NN      VBZ VBN    VBN    IN    NNP       IN  DT    NN        VBG     DT    NN  JJ    NN   WP  IN    NNP      VBD    VBN      IN     NN    CD    NN  NN  NN            NN  
+                                                                                                                                                 |======|                                 
+                                                                                                                                                   Drug                                   
+                                                                                                                                                 C0065828                                 
+
+SENTENCE:  There was no concomitant medications.
+            EX   VBD DT     JJ          NNS     
+                                    |=========| 
+                                       Drug     
+                                     C0013227   
+
+SENTENCE:  On 04 Dec 2006, the girl complained of whole body discomfort with intolerable   itch  .
+           IN    NN        DT   NN     VBD     IN  JJ    NN      NN      IN      JJ         NN    
+                                                             |========|                  |======| 
+                                                              Finding                    Finding  
+                                                              C2364135                   C0033774 
+
+SENTENCE:  It  appeared   red    swelling in her    neck  ,   face  , oxter and fold  inguen .
+           PRP   VBD       JJ       NN    IN PRP$    NN        NN      NN   CC   JJ     NN    
+                        |======| |======|         |======|  |======|                 |======| 
+                        Finding  Finding          Anatomy   Anatomy                  Anatomy  
+                        C0332575 C0038999         C0027530  C0015450                 C0018246 
+
+SENTENCE:  Also there were some little white pustules which had merged into one piece and spread along.
+            RB   EX   VBD   DT    JJ    JJ     NNS     WDT  VBD  VBN    IN  CD   NN   CC    NN    IN   
+                                             |======|                                                  
+                                             Finding                                                   
+                                             C0241157                                                  
+
+SENTENCE:  The girl was taken to clinic and prescribed with Cetirizine, 5mg, OD, Cefuroxin  sodium , 0.25 BID, antiscorbic acid, 0.1 QD and Mupirocin for external use.
+           DT   NN  VBD  VBN  IN   NN   CC     VBD      IN     NNP      NNS  FW     NNP       NN          FW       JJ       NN       FW CC     NNP    IN     JJ    NN  
+                                                            |========|                     |======|                                         |=======|                  
+                                                               Drug                          Drug                                             Drug                     
+                                                             C0055147                      C0037473                                         C0085259                   
+
+SENTENCE:  On 13 Dec 2006, new information was received from the physician.
+           IN    NNP       JJ      NN      VBD   VBN     IN  DT     NN     
+
+SENTENCE:  It  was confirmed that the girl experienced   rash   on 03 Dec 2006 instead of 04 Dec 2006.
+           PRP VBD    VBN     IN  DT   NN      VBD        NN    IN    NNP        IN    IN    NNP      
+                                                       |======|                                       
+                                                       Finding                                        
+                                                       C0015230                                       
+
+SENTENCE:  Meanwhile, her    face   was flushed  and pustules appeared in her    neck   and oxter.
+              RB      PRP$    NN    VBD    JJ    CC    NNS      VBD    IN PRP$    NN    CC   NN   
+                           |======|     |======|     |======|                  |======|           
+                           Anatomy      Finding      Finding                   Anatomy            
+                           C0015450     C0016382     C0241157                  C0027530           
+
+SENTENCE:  On 05 Dec 2006, the girl developed  fever   (details unknown).
+           IN    NNP       DT   NN     VBD       NN       NNS     JJ     
+                                              |======|                   
+                                              Finding                    
+                                              C0015967                   
+
+SENTENCE:  On 06 Dec 2006, the girl was hospitalized with the diagnosis of   drug   eruption.
+           IN    NNP       DT   NN  VBD     VBN       IN  DT     NN     IN    NN       NN    
+                                                              |=======|    |======| |======| 
+                                                               Finding       Drug   Finding  
+                                                              C0011900     C0013227 C0015230 
+                                                                                    C0302295 
+                                                                           |===============| 
+                                                                               Disorder      
+                                                                               C0011609      
+
+SENTENCE:  Physical examination revealed her  body temperature was 38.5.
+              JJ        NN        VBD    PRP$  NN      NN      VBD      
+
+SENTENCE:  Her    face   was flushed  with pustules in her    neck  ,, fem intern and greater   lip    of pudendum.
+           PRP$    NN    VBD    JJ     IN    NNS    IN PRP$    NN      JJ    NN   CC    JJR      NN    IN    NN    
+                |======|     |======|      |======|         |======|                          |======|             
+                Anatomy      Finding       Finding          Anatomy                           Anatomy              
+                C0015450     C0016382      C0241157         C0027530                          C0023759             
+
+SENTENCE:  Her   throat  was in congestion and there was not enlargement in her  tonsils .
+           PRP$    NN    VBD IN     NN     CC   EX   VBD RB      JJ      IN PRP$   NNS    
+                |======|        |========|                   |=========|         |======| 
+                Anatomy          Finding                      Procedure          Anatomy  
+                C0031354         C0700148                     C1293134           C0040421 
+
+SENTENCE:   Blood   examination showed white  blood     cell   count 21.72 and neutrophil count 81.4.
+              NN        NN       VBD    JJ      NN       NN     NN         CC      NN      NN        
+           |======|                          |======| |======|                 |========|            
+           Anatomy                           Anatomy  Anatomy                   Anatomy              
+           C0005767                          C0005767 C0007634                  C0027950             
+                                                      |============|           |==============|      
+                                                        Procedure                 Procedure          
+                                                         C0007584                  C0200633          
+                                             |===============|                                       
+                                                  Anatomy                                            
+                                                 C0005773                                            
+                                             |=====================|                                 
+                                                    Procedure                                        
+                                                    C0005771                                         
+                                       |=====================|                                       
+                                               Anatomy                                               
+                                              C0023516                                               
+                                       |===========================|                                 
+                                                 Procedure                                           
+                                                 C0023508                                            
+
+SENTENCE:  During hospitalization, she was placed on  therapy  with Rocephin, Clarityne and Calcium  gluconate (Detailed regimen unknown).
+             IN         NN         PRP VBD  VBN   IN    NN      IN    NNP        NNP    CC     NN       NN        VBN      NN      JJ     
+                                                     |=======|      |======|                |======| |=======|                            
+                                                     Procedure        Drug                    Drug     Drug                               
+                                                     C0087111       C0035750                C0006675 C0220836                             
+                                                                                            |================|                            
+                                                                                                   Drug                                   
+                                                                                                 C0006699                                 
+
+SENTENCE:  At the time of reporting,   rash   was disappearing and desquamation.
+           IN DT   NN  IN    VBG        NN    VBD     VBG      CC       NN      
+                                     |======|                      |==========| 
+                                     Finding                         Finding    
+                                     C0015230                        C0237849   
+
+SENTENCE:  White  blood     cell   count decreased to 16 and neutrophil count decreased to 65.
+            JJ      NN       NN     NN      VBN    IN    CC      NN      NN      VBN    IN    
+                 |======| |======|                           |========|                       
+                 Anatomy  Anatomy                             Anatomy                         
+                 C0005767 C0007634                            C0027950                        
+                 |===============|                           |==============|                 
+                      Anatomy                                   Procedure                     
+                     C0005773                                    C0200633                     
+                          |============|                     |========================|       
+                            Procedure                                 Finding                 
+                             C0007584                                 C0853697                
+                 |=====================|                                                      
+                        Procedure                                                             
+                        C0005771                                                              
+           |=====================|                                                            
+                   Anatomy                                                                    
+                  C0023516                                                                    
+           |===========================|                                                      
+                     Procedure                                                                
+                     C0023508                                                                 
+           |=====================================|                                            
+                           Finding                                                            
+                          C0750394                                                            
+
+SENTENCE:  On 13 Dec 2006, the girl was discharged from hospitalization while she was recovering from   drug   eruption.
+           IN    NNP       DT   NN  VBD    VBN      IN        NN         IN   PRP VBD    VBG      IN     NN       NN    
+                                                                                                      |======| |======| 
+                                                                                                        Drug   Finding  
+                                                                                                      C0013227 C0015230 
+                                                                                                               C0302295 
+                                                                                                      |===============| 
+                                                                                                          Disorder      
+                                                                                                          C0011609      
+
+SENTENCE:  The reporter considered   drug   eruption was definitely related  to   MMR    II.
+           DT     NN       VBN        NN       NN    VBD     RB        JJ    IN    NN    CD 
+                                   |======| |======|                |======|    |======|    
+                                     Drug   Finding                 Finding       Drug      
+                                   C0013227 C0015230                C0445223    C0065828    
+                                            C0302295                                        
+                                   |===============|                                        
+                                       Disorder                                             
+                                       C0011609                                             
+
+SENTENCE:  Additional information has been requested.
+               JJ         NN      VBZ VBN     VBN    
+

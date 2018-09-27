@@ -1,0 +1,24 @@
+#!/usr/bin/env lsd
+
+include 'Config'
+
+String key = args[0]
+String type = args[1]
+File output = new File(args[2])
+
+//def url = "${server.url}"
+
+//def service = new DataSourceClient(url, server.username, server.password)
+//def service = new DataSourceClient(url, 'tester', 'tester')
+//new File(output).text = service.get(key)
+
+def service = new ServiceClient(server.url)
+String json = service.execute(new Data(Uri.GET, key).asJson())
+if (type == 'txt') {
+	Data data = Serializer.parse(json, Data)
+	data.payload.views = []
+	json = data.asPrettyJson()
+}
+
+output.text = json
+

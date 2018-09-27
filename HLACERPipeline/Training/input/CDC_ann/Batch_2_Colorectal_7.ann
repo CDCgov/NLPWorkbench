@@ -1,0 +1,191 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        977, 
+        986
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1068, 
+        1082
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4", 
+      "__extent": [
+        1859, 
+        1873
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        707, 
+        730
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        732, 
+        748
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3472, 
+        3492
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3494, 
+        3501
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        784, 
+        811
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        813, 
+        823
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3323, 
+        3349
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3351, 
+        3369
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        962, 
+        986
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1042, 
+        1067
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1826, 
+        1831
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1818, 
+        1825
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3417, 
+        3424
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        823, 
+        825
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        988, 
+        990
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3371, 
+        3378
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3409, 
+        3416
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3912, 
+        3914
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\n\n\nAmended report: Amended: 06/05/2017 by Melody Ray Reason:  Error by pathologist   Adding synoptic and diagnosis for part B Previous Signout Date: 06/04/2017\n\n\nPath report.relevant Hx\n\nClinical history: Colon mass, N/V, abdominal pain\n\n\nPath report.final diagnosis\n\nDiagnosis:A. Desmoplastic reaction versus sigmoid colon cancer invading posterior peritoneum: - Fibrous tissue with small focus of adipose tissue. - No evidence of carcinoma. B. Sigmoid resection en bloc: - Segment of colon with moderately differentiated adenocarcinoma (5.2 cm in greatest diameter) with invasion through the muscularis propria, through the serosa, and into adherent mesentery of the ileum. - Acute and chronic inflammation and fibrosis of the mesentery are also present. - Tumor does not invade the wall of the ileum. - Carcinoma is present 3.2 cm from the closest margin (mesenteric margin of the colon). - No tumor identified in eighteen lymph nodes from the attached adipose tissue. - See comment. ---------------------------------------------------------- SYNOPTIC CANCER STAGING REPORT ----------------------------------------------------------   SPECIMEN Specimen:              Terminal ileum   Sigmoid colon Procedure:              Sigmoidectomy TUMOR Primary Tumor Site:         Sigmoid colon Histologic Type:           Adenocarcinoma Histologic Grade:          Low-grade (well differentiated to moderately differentiated) Tumor Size:             Greatest dimension (cm): 5.2 Tumor Deposits:           Not identified  Tumor Extent  Site(s) of Direct Extent of Tumor:   Other: mesentery of terminal ileum  Microscopic Tumor Extension:   Tumor penetrates to the surface of the visceral peritoneum (serosa) AND directly invades adjacent structures: Tumor invades mesentery of ileum  Macroscopic Tumor Perforation:   Not Identified  Accessory Tumor Findings  Lymph-Vascular Invasion:     Not identified  Perineural Invasion:       Not identified MARGINS All margins uninvolved by invasive carcinoma Distance of Invasive Carcinoma from Closest Margin:    Specify (cm): 3.2 Specify Margin:            Circumferential (Radial) or Mesenteric For Resection Specimens Only Proximal Margin:            Uninvolved by invasive carcinoma Distal Margin:             Uninvolved by invasive carcinoma Circumferential (Radial) Margin:    Not applicable: Mesenteric Margin:           Uninvolved by invasive carcinoma LYMPH NODES Regional Lymph Nodes: Number of Lymph Nodes Examined:    Specify number: 18 Number of Lymph Nodes Involved:    Specify number: 0 STAGE (PTNM) Primary Tumor (pT):         pT4b: Tumor directly invades or is adherent to other organs or structures Regional Lymph Nodes (pN):      pN0: No regional lymph node metastasis --------------------------------------------------------\n\n\nPath report.site of origin\n\nMaterial submitted: Part: A Invading posterior peritomeum Part: B Sigmoid resection en bloc, distal ileum resecton out\n\n\nPath report.comments\n\nComment:6/4/17(Dr.): The remaining specimen will be signed out by another pathologist. 6/5/17 (Dr.): Molecular studies for NRAS and KRAS are pending and will be the topic of separate addendums. Immunohistochemical stains for mismatch repair (MMR) proteins are also pending and will be the topic of a separate addendum. PQRS code: G8721 **This amendment is issued to add a synoptic worksheet and the diagnosis for Part B.  6/5/17\n\n\n"
+}

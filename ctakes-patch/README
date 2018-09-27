@@ -1,0 +1,34 @@
+
+Apache cTAKES
+==================================
+Detail documentation can found at:
+http://ctakes.apache.org
+
+Requirements
+---------------------------------------
+Java 1.8 is required to run cTAKES
+Maven 3.0.0 is required for building it
+
+Running a simple pipeline in the UIMA CAS Visual Debugger
+or in the Collection Processing Engine
+----------------------------------------------------------------
+Run bin/runctakesCVD/CPE.sh.bat
+Load AE (analysis engine)
+Select desc/ctakes-clinical-pipeline/desc/analysis_engine/AggregatePlaintextProcessor
+Enter note or other text
+Run analysis engine
+NOTE: The included example dictionary is very small. Try a sentence such as: 
+Patient took aspirin for knee pain
+
+Using LVG resources
+----------------------------------------------------------------
+Refer to the cTAKES User Install Guide or cTAKES Developer Install Guide 
+for the current release of Apache cTAKES for information about obtaining 
+the full LVG resource.
+
+
+Using UMLS resources
+----------------------------------------------------------------
+Refer to the cTAKES User Install Guide or cTAKES Developer Install Guide 
+for the current release of Apache cTAKES for information about obtaining 
+the UMLS resources used by cTAKES.

@@ -1,0 +1,327 @@
+{
+    "Skin System Location (At)": [], 
+    "Nature of Specimen Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1879, 
+                1897
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2538, 
+                2556
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2852, 
+                2870
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }
+    ], 
+    "Neural System Location (At)": [], 
+    "Final Diagnosis Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1379, 
+                1394
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2365, 
+                2380
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2789, 
+                2804
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }
+    ], 
+    "Organ/Body Structure (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1899, 
+                1904
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2558, 
+                2563
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2872, 
+                2877
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }
+    ], 
+    "Neoplasm Descriptive Grade (At)": [], 
+    "Neoplasm Grade-Score Name (At)": [], 
+    "Neoplasm Morphology (At)": [], 
+    "Positive Findings Phraseology (At)": [], 
+    "Neoplasm Grade Value (At)": [], 
+    "Relative Distance (Ov)": [], 
+    "Laterality (Ov)": [], 
+    "Supplementary Report Heading (At)": [], 
+    "Flow Cytometry Heading (At)": [], 
+    "Cancer Histology Type (Ov)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1479, 
+                1493
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }
+    ], 
+    "Macroscopic/Gross Description Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1153, 
+                1168
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2181, 
+                2196
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2605, 
+                2620
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }
+    ], 
+    "Neoplasm Behaviour (Ov)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1466, 
+                1478
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE NEGATIVE", 
+            "__extent": [
+                1865, 
+                1875
+            ], 
+            "__annotator__": "Gemma"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2524, 
+                2534
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                1865, 
+                1875
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }
+    ], 
+    "Cancer Histology Subtype (At)": [], 
+    "Negative Findings Phraseology (Ov)": [
+        {
+            "visible": "", 
+            "__annotator__": "Gemma", 
+            "__extent": [
+                1839, 
+                1875
+            ], 
+            "__agreement__": "FALSE NEGATIVE"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                1719, 
+                1721
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                1722, 
+                1730
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2405, 
+                2407
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2408, 
+                2419
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2420, 
+                2435
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2436, 
+                2444
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2455, 
+                2457
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2458, 
+                2466
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE POSITIVE", 
+            "__extent": [
+                2467, 
+                2469
+            ], 
+            "__annotator__": "OPENNLP_MODEL"
+        }
+    ], 
+    "Clinical History Heading (At)": [], 
+    "__text": "MSH|^~\\&| Cancer Reporting|BioReference Laboratories, Inc^31D0652945^CLIA|||20170508114344||ORU^R01|201705081143440007|P|2.3.1\n\nPID|1||9328196593089^^^^MR^BioReference Laboratories, Inc&31D0652945&CLIA~999999999^^^^SS^BioReference Laboratories, Inc&31D0652945&CLIA||Test^Test^Test||18991230|M|||475 Market Str^^Elmwood Park^NJ^07407||||||||999999999\n\nORC|RE||||||||||||||||||||Bioreference^^999999999^^^CLIA|475 Market Str^^Elmwood Park^NJ^07407|^^^^^800^29-5227|475 Market Str^^Elmwood Park^NJ^07407\n\nOBR|1||932819659|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\n\n\n\nOBR|2||932819659|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\nOBR|3||932819659|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\n\n\n\n\n\n\nGross Pathology\n\nSpecimen is received in formalin, labeled with the patient's name and consists of 3 pieces and fragments of soft pink tissue measuring from 0.2 X 0.2 X 0.1 up to 0.4 X 0.3 X 0.2 cm. All submitted (1 Block).\n\n\nFinal Diagnosis\n\nRevised Diagnosis: 10/6/2015 Scanty superficial fragments of at least intramucosal adenocarcinoma. Depth of invasion cannot be accurately evaluated. __________________________________________________________________________________________ Original Diagnosis: 10/3/2015 Colonic mucosa showing mild active colitis. There is no evidence of crypt architectural distortion,  Paneth cell metaplasia or basal plasmacytosis. Granulomas not present.  Negative for dysplasia or malignancy.\n\n\nNature of Specimen\n\nColon-Sigmoid Biopsy (Mass) (Sample 1)\n\n\nComments\n\nComment: The changes are not specific and may be seen in changes associated with early inflammatory bowel disease, infection, treatment-induced colitis or self-limited colitis. Clinical follow-up or correlation is recommended.\n\n\n\n\nGross Pathology\n\nSpecimen is received in formalin, labeled with the patient's name and consists of 1 piece of soft pink tissue measuring 0.3 X 0.2 X 0.1 cm. All submitted (1 Block).\n\n\nFinal Diagnosis\n\nColonic mucosa showing no significant histopathologic findings. There is no evidence of acute inflammation, microscopic colitis, dysplasia or malignancy.\n\n\nNature of Specimen\n\nColon-Sigmoid Biopsy (Erythema) (Sample 2)\n\n\n\n\nGross Pathology\n\nSpecimen is received in formalin, labeled with the patient's name and consists of 1 piece of soft pink tissue measuring 0.3 X 0.2 X 0.1 cm. All submitted (1 Block).\n\n\nFinal Diagnosis\n\nHyperplastic polyp, negative for dysplasia.\n\n\nNature of Specimen\n\nColon-Ascending Polypectomy (Polyp) (Sample 3)\n\n\n\n\n", 
+    "Specimen Identifier (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1928, 
+                1936
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2591, 
+                2599
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2909, 
+                2917
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }
+    ], 
+    "Neoplasm Score Value (At)": [], 
+    "Lymphatic System Location (At)": [], 
+    "Specimen Tissue/Substance (At)": [], 
+    "Internal X-reference (At)": [], 
+    "Synoptic Report Heading (At)": [], 
+    "Anatomical Direction (Ov)": [], 
+    "Relative Location (Ov)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1905, 
+                1912
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2564, 
+                2571
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                2878, 
+                2887
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }
+    ], 
+    "Primary Origin of Neoplasm (At)": [], 
+    "Microscopic Heading (At)": [], 
+    "Vascular System Location (At)": [], 
+    "Comments Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1940, 
+                1948
+            ], 
+            "__annotator__": "Gemma, OPENNLP_MODEL"
+        }, 
+        {
+            "__agreement__": "FALSE NEGATIVE", 
+            "__extent": [
+                1950, 
+                1957
+            ], 
+            "__annotator__": "Gemma"
+        }
+    ], 
+    "Bone System Location (At)": []
+}

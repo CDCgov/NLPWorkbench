@@ -1,0 +1,251 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2450, 
+        2463
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2415, 
+        2429
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2464, 
+        2471
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2613, 
+        2622
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2221, 
+        2244
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7122, 
+        7142
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2274, 
+        2301
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2350, 
+        2354
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        517, 
+        546
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6954, 
+        6989
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7031, 
+        7057
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2372, 
+        2380
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2381, 
+        2406
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3146, 
+        3147
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2303, 
+        2308
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3039, 
+        3044
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3057, 
+        3062
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3082, 
+        3087
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7074, 
+        7079
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2314, 
+        2324
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3028, 
+        3038
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3046, 
+        3056
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3071, 
+        3081
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7063, 
+        7073
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4590, 
+        4622
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4624, 
+        4639
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2850, 
+        2867
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^18D1004797^CLIA|eMARCPlus|KY Cancer Registry|20170923034409||ORU^R01^ORU_R01|201709230344090001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-TJ-005141^PathSys^18D1004797^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170909000000|||||||20170911000000|&Colon, Segmental Resection for Tumor, PQRS Colorectal Resection|1407850134^^^^^^^^CMS^D^^^NPI||||||20170913000000|||F||||||C18.4^Malignant neoplasm of transverse colon^I10|&& &R.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled with the patient's name \"\" and \"mid transverse colon with ascending colon and proximal colon\" is a previously opened, unoriented segment of bowel and an additional portion of tan-yellow fatty tissue. The specimen site is subsequently confirmed by the surgeon to be mid transverse and proximal descending colon. The previously opened bowel measures 14.8 cm in length x up to 4.8 cm in diameter. The specimen is received unoriented. Located 9.0 cm from the most distal mucosal margin and up to 1.2 cm from the nearest mucosal margin is a tan-brown mass measuring 4.7 x 4.3 cm. At the outer edge of the mass is a polypoid lesion measuring up to 1.1 cm in greatest dimension and appears to be intimately associated with the mass at its lateral edge. Along the entire length of the specimen is attached tan-yellow fatty tissue. Additional grossly discrete lesion along the mucosal surface is not identified. Sectioning through the mass demonstrates infiltration through the muscularis propria and into the adipose tissue. The attached pericolonic fatty tissue is searched for lymph nodes and multiple lymph node candidates are identified, ranging from 0.1 up to 0.7 cm. The fatty tissue found separately within the container demonstrates no grossly discrete lesion on cut surface. Sections are submitted according the following: Unoriented mucosal margins in cassettes A-B; representative colonic mucosa in cassette C; representative sections of mass in cassettes D-I; polypoid lesion adjacent to mass in cassette J; full thickness section of tumor at deepest penetration in cassette K-L; multiple lymph nodes entirely submitted in cassettes M-R.\n\n\nPath report.relevant Hx\n\nHistory - Left colon mass\n\n\nPath report.final diagnosis\n\nColon, mid transverse and proximal descending, left hemicolectomy:   Invasive moderately differentiated colonic adenocarcinoma, arising from a     tubulovillous adenoma.   Adenocarcinoma invades through the muscular propria into pericolorectal tissues.   AJCC pathologic stage: pT3, pN0.   All margins free of carcinoma.   No evidence of metastatic carcinoma in fifteen pericolonic lymph nodes (0/15).   Please refer to the accompanying cancer checklist.   Colon cancer testing algorithm in process with results to be reported in an     addendum. CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Left hemicolectomy TUMOR  Tumor Site: Transverse colon  Transverse colon: distal transverse colon mass  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 4.7cm  Tumor Deposits: Not identified  Number of Deposits: Specify number  Specify number: 0 Tumor Extent  Tumor Extension: Tumor invades through the muscularis propria into pericolorectal tissue  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Cannot be determined  Perineural Invasion: Not identified  Type of Polyp in Which Invasive Carcinoma Arose: Tubulovillous adenoma  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#  Margins Examined: Proximal, Distal, Radial or Mesenteric  Proximal Margin: Uninvolved by invasive carcinoma  Distal Margin: Uninvolved by invasive carcinoma  Radial or Mesenteric Margin: Uninvolved by invasive carcinoma LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 15 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (pT): pT3: Tumor invades through the muscularis propria into pericolorectal tissues  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.supplemental reports\n\nAddendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment. ## End of auxiliary report ## Molecular Diagnostic Rpt: Microsatellite Instability (MSI) Analysis by PCR/Reviewer: SEE COMMENT Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: Not Detected Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: This specimen showed no evidence of microsatellite instability in the 5 microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27) examined. This result is consistent with a competent mismatch repair function. Cancers with this profile are microsatellite stable (MSS).<BR/><BR/>Microsatellite Instability Analysis has multifaceted clinical utility: as a predictive biomarker for immune checkpoint inhibitor therapy response; as a prognostic and predictive biomarker for colorectal carcinoma; and as a genetic risk biomarker for the presence of a hereditary cancer syndrome such as Lynch Syndrome.<BR/><BR/>As an immune checkpoint inhibitor therapy biomarker, recent literature (Le, et al., <i>N Engl J Med</i> 372:2509-2520; Topolian, et al., <i>Nature Reviews Cancer</i> 16:275-287) indicates that, in general, patients that are Microsatellite Stable (MSS) have a poorer response to immune checkpoint inhibitor therapy.<BR/><BR/>MSS tumors have poorer prognosis than MSI-H tumors, and better response to 5-fluorouracil (5-FU) adjuvant chemotherapy. <BR/><BR/>As a genetic risk biomarker, the result of MSS is inconsistent with Lynch syndrome. However, if the clinical suspicion remains high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result, consideration should be given to a genetic consult to direct additional testing. <BR/><BR/>Interpretation of this result of MSS in the context of other clinical and laboratory findings is strongly recommended. Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: Colon Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: 17-TJ-005141 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 1F Microsatellite Instability (MSI) Analysis by PCR/Tumor Percentage: 21-50% ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nMid transverse colon with ascending colon and proximal colon\n\n\nPath report.comments\n\nComments - After confirmation with Dr. , the site of colon resection is confirmed to be mid transverse to proximal descending colon. Molec Comments - The tissue specimen was reviewed by a pathologist and representative areas of tumor and normal tissue selected. These areas were microdissected from the surrounding tissue, and genomic DNA extracted using standard methods (QIAGEN QIASymphony). The tumor and normal DNA were separately PCR amplified for five microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27; Promega Corp.), and size fractionated via capillary electrophoresis (Life Technologies 3500xl). The tumor and normal profiles were compared to determine the presence of altered microsatellite profiles. The analytic sensitivity of the assay is approximately 10-20% and is dependent on the size and clonality of any instability. The presence of instability in less than 10-20% of the DNA examined will not be detected. This assay uses reagents that may be marked as Research Use Only or Analyte Specific Reagent. This test was developed and its performance characteristics determined by PathGroup. Portions of this test use reagents designated by the manufacturer as for research use, not for clinical use. It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. <BR/><BR/>Klump B,et al. <i>Int J Colorectal Dis</i> Vol 19:23-42, 2004; Grady WM.<i>Cancer Metastasis Rev</i> Vol 23:11-27, 2004; Umar, et al., <i>J Natl Cancer Inst</i> Vol 96:261-268, 2004; Popat S, Hubner R, Houlston RS. <i>Prognosis J Clin Oncol</i> Vol 23(3):609-618, 2005; Ribic CM, et al.,<i> N Engl J Med.</i> Vol 349(3):247-257, 2003; D. J. Sargent, et al.,<i>J Clin Oncol</i> Vol 26 (May 20 suppl; abstr 4008), 2008; P L Barratt, et al., <i>Lancet</i> Vol 360: 1381-91, 2002; Bertagnolli MM, et al., <i>J Clin Oncol</i> Vol 27(11):1814-1812, 2009; Marcus VA, et al., <i>Am J Surg Pathol</i> Vol23:1248-55, 1999; Lindor NM, et al., <i>J Clin Oncol</i> Vol20: 1043-1048, 2002;Boland CR, et al., <i>Cancer Res</i.Vol 58(22):5248-57, 1998; Palomaki GE, et al., <i>Genetics in Medicine</i> Vol 11(1):42-65, 2009 .\n\n\n"
+}

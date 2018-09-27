@@ -1,0 +1,71 @@
+<tool id='anc_gate.vpchunker_2.3.0' name='GATE VerbPhraseChunker v2.3.0' version='1.0.1'>
+  <description>GATE Verb Phrase Chunker</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.vpchunker_2.3.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+
+**What it does**
+
+This tool is a rule-based verb chunker based on a number of grammars of English (see references below) that
+includes 68 rules for the identification of non recursive verb groups. 
+The rules cover finite ('is investigating'), non-finite ('to investigate'), participles ('investigated''), and special verb constructs ('is going to investigate''). 
+All  forms may include adverbials and negatives. Features and values on the VerbGroup annotation provide 
+syntactic information ('type', 'tense', 'voice', 'neg', etc.). 
+
+**Required Annotations**
+
+* Tokens with `Penn part of speech tags <https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>`_ in GATE XML format (will automatically convert from LIF)
+* Sentences in GATE XML format (will automatically convert from LIF)
+
+.. class:: warningmark
+
+**NOTE**: The verb group chunker requires `Penn part of speech tags <https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>`_, 
+which can be generated using *Taggers->Stanford Tagger* or *Taggers->GATE POSTagger*.
+
+**Generated Annotations**
+
+* **VerbChunk** annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_.
+
+
+.. class:: warningmark
+
+The output of all GATE tools is in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_. This output can be input directly into other GATE tools. To input GATE XML format to  tools requiring LIF, 
+use *Convert formats->GateToLif* 
+
+
+**License**
+
+This tool is adapted from the `General Architecture for Text Engineering (GATE) platform <http:gate.ac.uk>`_, which is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+
+</help>
+    <citations>
+    	<citation type="bibtex">
+    	@book{azar1989understanding,
+  title={Understanding and Using: English Grammar},
+  author={Azar, B.S.},
+  isbn={9780139436635},
+  lccn={88037396},
+  series={Azar English Grammar Series},
+  url={https://books.google.com/books?id=CK-gQgAACAAJ},
+  year={1989},
+  publisher={Prentice Hall Regents}
+}
+    	</citation>
+    	<citation type="bibtex">
+    	@book{harpercollins,
+  title={Collins COBUILD English Grammar},
+  author={Collins UK},
+    year={1999},
+  publisher={HarperCollins}
+}
+ 		</citation>
+    </citations>
+</tool>

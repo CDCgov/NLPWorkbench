@@ -1,0 +1,41 @@
+<tool id="stanfordnlp.coref" name="Stanford Coreference Resolver" version="2.0.4">
+ <description>
+   (standalone) Generates coreference information for unannotated text
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd stanfordnlp.coref_2.0.4 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**
+
+Generates coreference annotations for a text in a LIF container using the `Stanford Core NLP tools <https://stanfordnlp.github.io/CoreNLP/>`_.
+  
+**Required Annotations**
+
+
+* None
+
+**Generated Annotations**
+
+A LIF document containing: 
+
+1. `Token <http://vocab.lappsgrid.org/Token>`_ annotations (with part of speech)
+#. `Coreference <http://vocab.lappsgrid.org/Coreference>`_ annotations
+#. `Markable <http://vocab.lappsgrid.org/Markable>`_ annotations
+
+**License**
+
+
+Stanford CoreNLP is licensed under `the GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.]]>
+ </help>
+</tool>

@@ -1,0 +1,63 @@
+<tool id="gigaword.query" name="Retrieve documents based on a Solr query" version="1.0.0">
+ <command interpreter="lsd">
+  query.lsd $token "$query" $size $service
+ </command>
+ <inputs>
+  <param format="oauth" label="OAuth Token" name="token" type="data">
+  </param>
+  <param label="Query" name="query" type="text" value="text:clinton OR title:trump">
+  </param>
+  <param label="Sample Size" max="100" min="0" name="size" type="integer" value="20">
+  </param>
+  <param label="Language" name="service" type="select">
+  <option value="GWENDataSource">
+   English
+  </option>
+  <option value="GWZHDataSource">
+   Chinese
+  </option>
+  <option value="GWESDataSource">
+   Spanish
+  </option>
+  <option value="GWARDataSource">
+   Arabic
+  </option>
+  </param>
+ </inputs>
+ <outputs>
+  <collection format="lif" label="Output List" name="list_output" type="list">
+   <discover_datasets directory="outputs" pattern="__designation_and_ext__" visible="false">
+   </discover_datasets>
+  </collection>
+ </outputs>
+ <help>
+  <![CDATA[
+**What it does**
+
+Retrieves documents from the `English Gigaword corpus <https://catalog.ldc.upenn.edu/ldc2003t05>`_ based on a Solr query.
+
+ 
+.. class:: warningmark
+
+To obtain Gigaword documents you **must**:
+
+1. Be an LDC licensee
+2. Obtain an OAuth Token 
+
+
+You can obtain an OAuth token by visting `THIS LINK <https://grid.anc.org:9443/ldc-authorize/>`_
+and logging in with your LDC id and password. 
+Then paste the OAuth token into the above field and click `execute`.  This will add an item to your
+history that supplies the OAuth token to LDC datasource services that 
+require it.
+
+
+
+    
+**License**
+
+The `English Gigaword corpus <https://catalog.ldc.upenn.edu/ldc2003t05>`_  is distributed under `LDC Membership Agreement <www.ldc.upenn.edu/members/agreements>`_ or `User Agreement for Non-Members <catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf>`_
+
+]]>
+ </help>
+</tool>

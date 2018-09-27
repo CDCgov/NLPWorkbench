@@ -1,0 +1,155 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2635, 
+        2641
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2642, 
+        2651
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1126, 
+        1149
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3049, 
+        3069
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1268, 
+        1295
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1297, 
+        1301
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3008, 
+        3012
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        543, 
+        572
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1574, 
+        1609
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2980, 
+        3006
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1547, 
+        1570
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1302, 
+        1308
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1347, 
+        1360
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3013, 
+        3019
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1310, 
+        1330
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3026, 
+        3046
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170919125831||ORU^R01^ORU_R01|201709191258310001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-55-004443^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170808000000|||||||20170808000000|&Breast, Stereotactic biopsy|1861486797^^^^^^MD^^CMS^D^^^NPI||||||20170809000000|||F||||||N64.2^Atrophy of breast^I10~C50.911^Malignant neoplasm of unspecified site of right female breast^I10|1083668453&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\", identified by requisition and container label. The specimen is labeled \"left breast cores from the upper outer quadrant, microcalcs in chambers 1, 2, 3, 4 and 5\" on the requisition, \"L. breast\" on the container. The specimen is received in formalin, in a device with chambers numbered 1-6, and consists of multiple biopsy cores of fatty tissue, up to 2.0 cm in length. Tissue is present in all chambers. The specimen is totally submitted. Section summary:   1A, tissue received in chambers 1-5.   1B, tissue received in chamber 6.\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of unspecified site of right female breast (C50.911), left breast microcalcifications\n\n\nPath report.final diagnosis\n\nLeft breast, upper outer quadrant, core biopsy:   Breast tissue with atrophic and fibrocystic changes, featuring cystic ducts with     large dystrophic calcifications and with rare epithelial atypia; see microscopic     description for discussion.   Negative for malignancy.\n\n\nPath report.microscopic examination\n\nAll sections examined, including multiple additional deeper levels from both blocks. The breast tissue is relatively atrophic, the most prominent finding being cystic ducts containing prominent calcifications, in which the epithelial lining is generally attenuated and bland, or absent altogether; the lumens filled with large and/or multiple dystrophic calcifications and/or foamy histiocytes; and the surrounding stroma being sclerotic and inflamed. Many of these changes are suggestive of duct ectasia. Some such ducts contain usual ductal hyperplasia. However, a rare duct contains epithelium (of relatively low grade, with reactive changes) that shows partial cribriforming, a feature associated with atypical ductal hyperplasia, but difficult to classify in this setting. High grade nuclear atypia or comedonecrosis are not observed, and there is no evidence of invasion. However, the atypia, albeit focal and of uncertain classification, in the context of this patient's history of contralateral invasive and in-situ ductal carcinoma, is cause for concern. Clinical/ radiographic correlation is needed and, if indicated, excisional biopsy may be considered. Other findings include mild fibrocystic changes (usual ductal hyperplasia, apocrine metaplasia/microcysts, adenosis, fibrosis), focal columnar cell change, and smaller intraluminal microcalcifications.\n\n\nPath report.site of origin\n\nLeft breast cores upper outer quadrant\n\n\nPath report.comments\n\nComments - Clinical/ radiographic correlation is needed.\n\n\n"
+}

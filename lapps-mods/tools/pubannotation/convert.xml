@@ -1,0 +1,25 @@
+<tool id="pubannotation.convert" name="LIF to PubAnnotation JSON" version="1.0.0">
+
+ <command>lsd $__tool_directory__/convert.lsd $input $output</command>
+ <inputs>
+  <param type="data" format="lif" label="LIF Document" name="input"/>
+ </inputs>
+ <outputs>
+  <data format="json" label="Pubannotation JSON Document" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**  
+
+Converts a document wrapped as `LIF Container <http://wiki.lappsgrid.org/org.lappsgrid.serialization/groovydoc/org/lappsgrid/serialization/lif/Container.html>`_ to the `PubAnnotation JSON format <http://www.pubannotation.org/docs/annotation-format/>`_.
+
+.. class:: infomark
+
+**NOTE:** This tool is currently intended for development and testing only.
+
+
+]]>
+ </help>
+</tool>

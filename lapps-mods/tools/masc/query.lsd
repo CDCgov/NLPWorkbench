@@ -1,0 +1,27 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+include 'Config'
+
+String pattern = args[0]
+String type = args[1]
+File output = new File(args[2])
+
+String url = "${server.url}/${type}"
+datasource = new ServiceClient(url, server.username, server.password)
+
+
+List<String> lines = query(pattern)
+
+output.withWriter { writer ->
+    lines.each { writer.println it }
+}
+
+return
+
+List<String> query(String pattern) {
+	Data data = new Data(Uri.QUERY, pattern)
+	String json = datasource.execute(data.asJson())
+	data = Serializer.parse(json, Data)
+	return data.payload
+}
+

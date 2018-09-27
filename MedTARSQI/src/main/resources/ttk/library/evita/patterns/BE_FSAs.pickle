@@ -1,0 +1,247 @@
+(lp1
+(iutilities.FSA
+FSA
+p2
+(dp3
+S'fsaname'
+p4
+S'beGoingTo'
+p5
+sS'finalStates'
+p6
+(lp7
+I5
+asS'_isTrimmed'
+p8
+I1
+sS'alphabet'
+p9
+NsS'label'
+p10
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_g_o_i_n_g_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _'_t_o_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _'_(_'_,_ _{_'_t_e_x_t_'_:_ _'_h_a_v_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_e_n_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_h_a_v_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_e_n_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_t_e_x_t_'_:_ _'_h_a_v_e_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_'_,_ _'_V_B_P_'_]_}_,_ _'_)_'_]"
+p11
+sS'initialState'
+p12
+I0
+sS'states'
+p13
+(lp14
+I0
+aI1
+aI5
+aI4
+aI3
+aI2
+asS'_arcMetadata'
+p15
+(dp16
+sS'_isSorted'
+p17
+I1
+sS'transitions'
+p18
+(lp19
+(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp20
+a(I0
+I1
+S"{'text': 'going', 'nodeType': 'Token'}"
+tp21
+a(I1
+I2
+S"{'text': 'to', 'nodeType': 'Token'}"
+tp22
+a(I2
+I2
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp23
+a(I2
+I3
+S"{'text': 'be', 'nodeType': 'Token', 'pos': ['VB', 'VBP']}"
+tp24
+a(I2
+I4
+S"{'text': 'have', 'nodeType': 'Token', 'pos': ['VB', 'VBP']}"
+tp25
+a(I2
+I5
+S"{'nodeType': 'Token', 'pos': ['VB', 'VBP']}"
+tp26
+a(I3
+I3
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp27
+a(I3
+I5
+S"{'nodeType': 'Token', 'pos': 'VBG'}"
+tp28
+a(I3
+I5
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tp29
+a(I4
+I4
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp30
+a(I4
+I3
+S"{'text': 'been', 'nodeType': 'Token'}"
+tp31
+a(I4
+I5
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tp32
+asS'_isDeterminized'
+p33
+I1
+sS'_isMinimized'
+p34
+I1
+sba(iutilities.FSA
+FSA
+p35
+(dp36
+g4
+S'beAux_RegVerb'
+p37
+sg6
+(lp38
+I2
+asg8
+I1
+sg9
+Nsg10
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _'_(_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_i_n_g_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_)_'_]"
+p39
+sg12
+I0
+sg13
+(lp40
+I0
+aI2
+aI1
+asg15
+(dp41
+sg17
+I1
+sg18
+(lp42
+(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp43
+a(I0
+I1
+S"{'text': 'being', 'nodeType': 'Token'}"
+tp44
+a(I0
+I2
+S"{'nodeType': 'Token', 'pos': 'VBG'}"
+tp45
+a(I0
+I2
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tp46
+a(I1
+I1
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp47
+a(I1
+I2
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tp48
+asg33
+I1
+sg34
+I1
+sba(iutilities.FSA
+FSA
+p49
+(dp50
+g4
+S'beAux_RegVerb_EmbedComment'
+p51
+sg6
+(lp52
+I7
+asg8
+I1
+sg9
+Nsg10
+S"[_{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_t_e_x_t_'_:_ _'_,_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _'_._'_,_ _'_._'_,_ _'_._'_,_ _'_?_'_,_ _{_'_t_e_x_t_'_:_ _'_,_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _'_(_'_,_ _{_'_t_e_x_t_'_:_ _'_b_e_i_n_g_'_,_ _'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_}_,_ _{_'_t_e_x_t_'_:_ _(_'_^_'_,_ _[_'_a_'_,_ _'_a_n_'_,_ _'_t_h_e_'_,_ _'_a_s_'_]_)_,_ _'_n_o_d_e_T_y_p_e_'_:_ _[_'_T_o_k_e_n_'_,_ _'_A_d_j_e_c_t_i_v_e_T_o_k_e_n_'_]_,_ _'_p_o_s_'_:_ _[_'_R_B_'_,_ _'_W_D_T_'_,_ _'_D_T_'_,_ _'_J_J_'_,_ _'_P_R_P_'_]_}_,_ _'_*_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _'_V_B_G_'_}_,_ _'_|_'_,_ _{_'_n_o_d_e_T_y_p_e_'_:_ _'_T_o_k_e_n_'_,_ _'_p_o_s_'_:_ _[_'_V_B_D_'_,_ _'_V_B_N_'_]_}_,_ _'_)_'_]"
+p53
+sg12
+I0
+sg13
+(lp54
+I0
+aI7
+aI1
+aI2
+aI3
+aI4
+aI5
+aI6
+asg15
+(dp55
+sg17
+I1
+sg18
+(lp56
+(I0
+I0
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp57
+a(I0
+I1
+S"{'text': ',', 'nodeType': 'Token'}"
+tp58
+a(I1
+I2
+S'ALL'
+p59
+tp60
+a(I2
+I3
+g59
+tp61
+a(I3
+I4
+g59
+tp62
+a(I3
+I5
+S"{'text': ',', 'nodeType': 'Token'}"
+p63
+tp64
+a(I4
+I5
+g63
+tp65
+a(I5
+I6
+S"{'text': 'being', 'nodeType': 'Token'}"
+tp66
+a(I5
+I7
+S"{'nodeType': 'Token', 'pos': 'VBG'}"
+tp67
+a(I5
+I7
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tp68
+a(I6
+I6
+S"{'text': ('^', ['a', 'an', 'the', 'as']), 'nodeType': ['Token', 'AdjectiveToken'], 'pos': ['RB', 'WDT', 'DT', 'JJ', 'PRP']}"
+tp69
+a(I6
+I7
+S"{'nodeType': 'Token', 'pos': ['VBD', 'VBN']}"
+tp70
+asg33
+I1
+sg34
+I1
+sba.

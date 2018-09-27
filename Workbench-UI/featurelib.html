@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Feature Library</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li class="active">Feature Library</li>
+            </ol>
+            <h1>Feature Library</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+            <p>Use the workbench feature library software to build a language model for any of the available CLEW
+                services that uses machine learning.</p>
+
+            <p>To train a machine learning model you must identify natural characteristics or "features" for each token.
+                These features include, for example, word length, part-of-speech, and relative location in the
+                sentence.</p>
+
+            <p>With the feature library you can readily identify a set of features for each token in a training corpus,
+                a manually annotated set of documents. These identified features and documents are then input into the
+                pipeline. Next, analyze the pipeline output. If the pipeline performed accurately the model is trained
+                and the pipeline is ready for production. Any taggings of the corpus that do not match the manual
+                annotations in the Gold Standard represent a disparity in the process. Go back and adjust the features
+                and repeat the process.</p>
+
+            <h2>How to use the Feature Library</h2>
+
+            <p>The Feature Library can be used inside LAPPS for a single file or as an external service for a folder of
+                files.</p>
+
+            <ul>
+                <li>Use inside LAPPS: The Feature Library is a service in LAPPS that can be inserted at the end of an NLP
+                    pipeline the user has assembled. After inserting the Feature Library in the pipeline, when a file is
+                    submitted for processing the BIO file will be generated at the completion of all the processing. It can
+                    then be downloaded to the users desktop using the LAPPS download function.
+                </li>
+                <li>Use for Bulk File Processing: When a folder of files needs to be processed, the Feature Library can be
+                    accessed via CLEW.
+                </li>
+            </ul>
+
+            <ol>
+                <li>Open the feature library to <a href="http://ec2-18-213-219-240.compute-1.amazonaws.com/clew/feature_library/main" target="_blank" >use the Feature Library for bulk file processing</a>.</li>
+                <li>Select required parameters values.</li>
+                <li>Use the Lapps upload function.</li>
+                <li>CLEW will then access the files and process them through the Feature Library and produce an output BIO
+                    file that will be lodged in the users Downloads folder.
+                </li>
+                <li>The user can then directly input the BIO file into their preferred machine learning algorithm.</li>
+                <li>The output will be a language model that is then available for tagging files.</li>
+            </ol>
+
+            <h2>Example</h2>
+            <ul>
+                <li>To train a machine learning model for the safety surveillance data, the following types of features for each token in the text was identified and implemented.</li>
+
+                <li>Word length: the length of the word</li>
+
+                <li>Part-of-speech (POS): grammatical tagging or word-category disambiguation</li>
+
+                <li>Features extracted from MetaMapLite such as semantic types</li>
+
+                <li>Features extracted from NCBO web service such as preferred terms</li>
+
+                <li>Features extracted from ETHER lexicon (dictionary mapping in the lexicon)</li>
+
+                <li>Features of adjacent tokens: POS/pattern/Stem features of tokens before/after the current token</li>
+
+                <li>Heuristic features extracted based on ETHER rules. As an example, a token of interest next to Dx/Diagnosis is treated as Primary Diagnosis, while a token of interest next to “cause of death” or “COD” is a good indicator of Cause of Death.</li>
+
+                <li>Word stem (the stem of the word)</li>
+
+                <li>Pattern extracted based on the Unicode categories of each of the character in the text <sup>1</sup></li>
+
+                <li>Relative location in the sentence</li>
+            </ul>
+            <small><sup>1</sup> http://www.unicode.org/reports/tr49/tr49-2.html</small>
+
+            <p>Among these features, we selected and evaluated the performance of different combinations of categories.</p>
+        </div>
+        <div class="col-md-4">
+            <div w3-include-html="includes/new-nlp.html"></div>
+
+            <div class="panel panel-default panel-schedule">
+                <div class="panel-heading">
+                    Feature Selection Example
+                </div>
+                <div class="panel-body">
+                    <p>The snippet below shows an example of features selected for a particular token using the feature library software.</p>
+                    <p class="text-center"><img src="images/feature-library-ex.png" alt="Feature Library Example"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+<!-- //footer -->
+<!--//main content start-->
+
+<!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

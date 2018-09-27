@@ -1,0 +1,36 @@
+<tool id='gate.heidel_1.0.0' name='HeidelTime' version='1.0.0'>
+  <description>Generate time annotations</description>
+  <command>lsd $__tool_directory__/time.lsd HeidelTime $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+  
+**What it does**
+
+Adds time annotations to a tokenized document.
+
+**Required annotations**
+
+* Tokens with `Penn part of speech tags <https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>`_ in GATE XML format (will automatically convert from LIF)
+* Sentences in GATE XML format (will automatically convert from LIF)
+
+**Generated annotations**
+
+[to fill in]
+
+**License**
+
+This tool is adapted from the `General Architecture for Text Engineering (GATE) platform <http:gate.ac.uk>`_, which is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+HeidelTime annotator from GATE 8.4
+
+This tool is adapted from the `General Architecture for Text Engineering (GATE) platform <http:gate.ac.uk>`_, which is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+]]>
+</help>
+</tool>

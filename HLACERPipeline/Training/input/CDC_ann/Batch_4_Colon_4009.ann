@@ -1,0 +1,129 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        812, 
+        826
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        688, 
+        711
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5203, 
+        5223
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        740, 
+        767
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        466, 
+        495
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5066, 
+        5101
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5143, 
+        5169
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        828, 
+        831
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        839, 
+        872
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        769, 
+        774
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        776, 
+        781
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        898, 
+        930
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        932, 
+        947
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170916000024||ORU^R01^ORU_R01|201709160000240001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-GI-016913^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170905000000|||||||20170905000000|&Colon, Biopsy|1811084916^^^^^^MD^^CMS^D^^^NPI||||||20170906000000|||F||||||C18.0^Malignant neoplasm of cecum^I10|1942526447&&&S&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \", cecal mass\" is a 1.8 x 0.9 x 0.1 cm aggregate of multiple tan-pink fragments of tissue. The specimen is filtered and entirely submitted in cassette 1A, M/1.\n\n\nPath report.relevant Hx\n\nHistory - Anemia, melena\n\n\nPath report.final diagnosis\n\nColon, cecum, mass, biopsy:   Infiltrating adenocarcinoma, low grade (well to moderately differentiated) in this     material.\n\n\nPath report.supplemental reports\n\nAddendum Report: Results of mismatch repair protein immunohistochemistry:   1. Loss of DNA mismatch repair enzyme MLH-1 with secondary loss of PMS-2.   2. Additional testing for BRAF mutation analysis is PENDING (results will be      reported separately).   3. See comment.  ## End of auxiliary report ## Ancillary Report: Immunoperoxidase staining was performed and evaluated with appropriate controls. Tumor cells show focal loss of CDX2. CDX2 expression has important prognostic value in colorectal adenocarcinoma. Loss of CDX2 expression is associated with an aggressive clinical course including infiltrative growth, and advanced T, N, M and overall stage. [N Engl J Med. 2016 Jan 21;374(3):211-22.][ Clin Colorectal Cancer. 2016 Sep 17.][ World J Gastroenterol. 2015 Feb 7;21(5):1457-67.]  ## End of auxiliary report ## Molecular Diagnostic Rpt: Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: See Comment Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: This assay requires analysis of DNA from both normal and tumor specimens and there is insufficient normal tissue available in this specimen. Clinical consideration can be given to performing MSI on a future specimen if normal tissue is available. Peripheral blood (EDTA, purple top) is also an acceptable source of normal DNA. Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: See Comment Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: 17-GI-016913 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 1A ## End of auxiliary report ## Smart Genomics NGS: SGNGS Impression - <p>Review of the accompanying pathology report indicated colorectal adenocarcinoma. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. <strong>BRAF V600E mutation was DETECTED</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table. <strong> </strong></p> <p>The protein encoded by the BRAF gene is a member of the Raf kinase family of growth signal transduction protein kinases. It is part of a signaling pathway known as the RAS/MAPK pathway, which affects cell division, differentiation and secretion. In the setting of colorectal cancer, BRAF mutations are associated with an aggressive clinical course, sporadic tumor (virtually excludes Lynch Syndrome) and a less likely response to EGFR monoclonal antibody therapy. However, the latter observation requires corroboration by additional prospective studies. Early studies have demonstrated success utilizing BRAF inhibitors in combination with other therapeutics such as those that target MEK, EGFR and/or PIK3CA. </p> <p>Immunohistochemical analysis reveals loss of nuclear expression of DNA mismatch repair enzyme MLH-1 with secondary loss of PMS-2, and intact staining for mismatch repair enzymes MSH-2 and MSH-6. These results indicate defective DNA mismatch repair (dMMR) enzyme function within this tumor. The BRAF V600E mutation rules out a germ line loss of MLH-1 due to Lynch syndrome. Hereditary-associated, as well as sporadic, colorectal carcinomas (CRC) that have defective mismatch repair have been shown to have distinct survival outcome and treatment-associated characteristics (patients with defective MMR function do not benefit from fluorouracil-based adjuvant chemotherapy). KEYTRUDA (pembrolizumab) is approved for the treatment of both adult and pediatric patients who have unresectable or metastatic, microsatellite instability-high (MSI-H) or dMMR solid tumors that have progressed after prior treatment and who have no satisfactory alternative treatment options, as well as for patients with MSI-H or dMMR colorectal cancer following progression on a fluoropyrimidine, oxaliplatin and irinotecan.</p> <p>Loss of CDX2 expression is associated with aggressive clinical behavior and can be used as a prognostic marker in colorectal cancers.</p>  ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nCecal mass rule out carcinoma\n\n\nPath report.comments\n\nComments - Ancillary studies including molecular testing have been ordered and will be reported separately. Case peer reviewed with Dr. with agreement. The diagnosis was discussed with Dr. at 830 on 9/6/2017.\n\n\n"
+}

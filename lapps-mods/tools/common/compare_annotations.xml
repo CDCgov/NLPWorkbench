@@ -1,0 +1,13 @@
+<tool id='compare.annotations' name='Compare annotations' version='2.0.0'>
+  <description>Compares the annotations in two documents</description>
+  <command interpreter='lsd'>compare_annotations.lsd $input1 $input2 $output</command>
+  <inputs>
+    <param name='input1' type='data' format='lif' label='Input #1' />
+    <param name='input2' type='data' format='lif' label='Input #2' />
+  </inputs>
+  <outputs>
+    <data name='output' format='tabular' label='Compare'/>
+  </outputs>
+  <help>Compares the annotations in two input documents.
+  </help>
+</tool>

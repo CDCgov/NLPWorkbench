@@ -1,0 +1,63 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1083, 
+        1097
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1255, 
+        1278
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        896, 
+        923
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        614, 
+        643
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1383, 
+        1418
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        837, 
+        863
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 12^9999^MOH|PIMS|CCO|20160505155506|77E9DB552FBA6F9ED934B00284F7A125A2AF34B3|ORU^R01|99999999999999999999|P|2.5|\nPID|1||H9999999^^^^CMR^HOSPITAL 12&9999&MOH~H9999999^^^^RMR^HOSPITAL 12&9999&MOH~999999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&&ON^^^^JHN||XXXXXX^XXXX^XXXXX||99999999|M|||999 XXXXX XXXXXXXX^^XXXXXX^XX^X9X9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1|SP12649-14|SP-16-8793|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201605031424|||81133^XXXXXXXXXXX^XX. XXXXXXX^XXXX||||||||||Y||20160505|||F|||||||99999^XXXXXXX^XX. XXXXX^XXXXXXXXX^^^XXX^99999|\n\n\n\n\n\n\n\nPath report.gross description\n\n\\H\\Gross Description\\N\\:\n Received from The HOSPITAL- General Site in ON, one paraffin block (B10) labelled SP12649-14\n along with a copy of the pathology report. Procedure date 09/12/2014.\n\n\nPath report.site of origin\n\n\\H\\Specimen\\N\\:\nCONSULTATION\n\n\nPath report.final diagnosis\n\n\\H\\PATHOLOGY DIAGNOSIS\\N\\:\n Material referred for MSI analysis.\n Right hemicolectomy, December 9, 2014; The HOSPITAL - General Campus (SP12649/14)\n\t- Colonic adenocarcinoma\n\tImmunohistochemistry:\tNormal nuclear staining for MLH1, MSH2, MSH6 and PMS2\n\tMolecular Analysis:\tTumour considered microsatellite stable (MSS; see below)\n\n\nPath report.relevant Hx\n\n\\H\\Clinical History\\N\\:\n Material referred for MSI analysis.\n Right hemicolectomy, December 9, 2014;\n\n\nPath report.microscopic observation\n\n\\H\\Microscopic Description\\N\\:\n Histologic examination shows a colonic adenocarcinoma.\n\\H\\Immunohistochemistry:\\N\\\nRepresentative sections have been stained for the hMLH1, hMSH2, hMSH6 and hPMS2 gene products:\n\tMLH1:\t\tNormal nuclear staining.\n\tMSH2:\t\tNormal nuclear staining.\n\tMSH6:\t\tNormal nuclear staining.\n\tPMS2:\t\tNormal nuclear staining.\nThe normal expression of the mismatch repair genes is highly correlated (>96%) with tumours that are microsatellite stable (MSS) with molecular analysis and this tumour should be considered microsatellite stable (MSS).\n\\H\\Molecular Analysis:\n\\N\\Immunohistochemical testing is highly accurate in determining MSI status (sensitivity >96%, specificity >99%). Material has been cut but molecular analysis has not been performed. If formal molecular testing is required clinically, please contact Dr. X and it will be completed.\n\n\n"
+}

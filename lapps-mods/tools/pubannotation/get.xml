@@ -1,0 +1,88 @@
+<tool id="pubannotation.get" name="Get a PubMed document" version="1.0.0">
+    <command>lsd $__tool_directory__/get.lsd "$project" $id $repo $type $outputFormat $output</command>
+
+    <inputs>
+        <!--
+        <param label="ID" name="id" type="select">
+         <option value="10022392">10022392</option>
+         <option value="10025722">10025722</option>
+         <option value="10024663">10024663</option>
+         <option value="10024661">10024661</option>
+         <option value="10024662">10024662</option>
+         <option value="10022882">10022882</option>
+         <option value="10025864">10025864</option>
+         <option value="10022664">10022664</option>
+         <option value="10025862">10025862</option>
+         <option value="10025748">10025748</option>
+         <option value="10025641">10025641</option>
+         <option value="10027455">10027455</option>
+         <option value="1000280">1000280</option>
+         <option value="10025474">10025474</option>
+         <option value="10025785">10025785</option>
+         <option value="10025422">10025422</option>
+         <option value="10024664">10024664</option>
+         <option value="10025429">10025429</option>
+         <option value="10025431">10025431</option>
+         <option value="10027417">10027417</option>
+        </param>
+        -->
+        <param name="project" label="Project" type="text"/>
+        <param name="repo" label="Repository" type="select">
+            <option value="PubMed">PubMed</option>
+            <option value="PMC">PubMed Central</option>
+        </param>
+        <param name="id" label="ID" type="text"/>
+        <param name="type" label="Type" type="select">
+            <option value="json">With annotations</option>
+            <option value="txt">Text only</option>
+        </param>
+        <param name="outputFormat" label="Output Format" type="select">
+            <option value="lif" selected="true">LAPPS/JSON</option>
+            <option value="json">PubAnnotation JSON</option>
+        </param>
+
+    </inputs>
+    <outputs>
+        <data format="lif" label="PubAnnotation Document" name="output">
+        </data>
+    </outputs>
+    <help>
+        <![CDATA[
+
+**What it does**  
+  
+Retrieves a single document from either the PubAnnotation PubMed corpus or
+the PubMed Centrlal corpus.
+
+If the *Project* field is specfied all the annotations from the specified project
+will be retreived and the *Type* field is ignored.  If no *Project* is selected
+
+Use the *Type* field to specify is annotations should be included.  **Note** that
+all annotations from all projects will be included in the output.  Select *Text only*
+to retreive just the text content for the selected document.
+
+When the LIF/JSON output format is selected (the default) the PubAnnotation JSON document
+will be the value of the *payload* field in a LIF container.  Otherwise the plain
+PubAnnotation JSON document will be loaded.
+
+.. class:: infomark
+
+**NOTE:** You can find a list of the PubMed documents available via PubAnnotation `here <http://pubannotation.org/docs/sourcedb/PubMed>`_
+
+The 10 largest PubMed documents are:
+
+* 10022392
+* 0025722
+* 10024663
+* 10024661
+* 10024662
+* 10022882
+* 10025864
+* 10022664
+* 10025862
+* 10025748
+
+]]>
+
+    </help>
+</tool>

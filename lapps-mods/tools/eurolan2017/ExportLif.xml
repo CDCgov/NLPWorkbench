@@ -1,0 +1,18 @@
+<tool id='export.lif_1.0.0' name='LIF Export' version='1.0.0'>
+  <description>export just the text from a LIF Data object</description>
+  <command>lsd $__tool_directory__/export.lsd $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' />
+  </inputs>
+  <outputs>
+    <data name='output' format='lif'/>
+  </outputs>
+  <help><![CDATA[
+  
+**What it does**
+
+Extract just the text content into a new LIF container.
+
+]]>
+</help>
+</tool>

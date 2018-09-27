@@ -1,0 +1,83 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1213, 
+        1228
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2077, 
+        2100
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1024, 
+        1051
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        690, 
+        719
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2167, 
+        2202
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        965, 
+        991
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1091, 
+        1096
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1081, 
+        1090
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 12^9999^MOH|PIMS|CCO|20160504152504|77E9DB552FBA6F9ED934B00284F7A125A2AF34B3|ORU^R01|99999999999999999999|P|2.5|\nPID|1||9999^^^^CMR^HOSPITAL HEALTHCARE SERVICES CORPORATION  SITE&9999&MOH~OTO999999^^^^RMR^HOSPITAL HEALTHCARE SERVICES CORPORATION  SITE&9999&MOH~999999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&PM&ON^^^^JHN||XXXXXXX^XXXXX^XXXXX||99999999|M|||9999 XXXXXX XXXXXX^9^XXXXXXXXXXX^XX^X9X9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1|16-SP7143|SP-16-8879|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201605041332|||79745^XXXXXXXXX^XX. XXXXXX^XXXXXXX||||||||||Y||20160504|||F|||||||99999^XXXXXXX^XX. XXXXX^XXXXXXXXX^^^XXX^99999|\n\n\n\n\n\n\n\nPath report.gross description\n\n\\H\\Gross Description\\N\\:\n Received from HOSPITAL Healthcare Services- Trafalgar Memorial HOSPITAL site in ON, are 12 stained slides\n and 1 block (A1) labelled 16-SP7143 along with a copy of the pathology report. Procedure date April 4, 2016.\n\n\nPath report.site of origin\n\n\\H\\Specimen\\N\\:\nCONSULTATION\n\n\nPath report.final diagnosis\n\n\\H\\PATHOLOGY DIAGNOSIS\\N\\:\n Ascending colon polypectomy, April 26, 2016; HOSPITAL Healthcare Services (16-SP7143):\n\t- Low-grade invasive carcinoma arising in a tubular adenoma (see comment)\n\\H\\Comment:\n\\N\\ Thank you very much for the consultation.\nThe case has been reviewed by the HOSPITAL 12, Pathology \\T\\ Laboratory Medicine Gastrointestinal Pathology Service. This is a difficult case, there are nodules of malignant epithelium in the submucosa which appear to be associated with a lamina propria. The lamina propria raises the possibility of misplaced epithelium, but there is no hemosiderin, or reactive changes typically seen with prolapse and misplaced glands. In addition, focally the stroma appears to have a desmoplastic character associated with infiltrative epithelium. There is no high-grade tumour differentiation, high-grade budding or lymphovascular invasion, but the invasive tumour appears to abut the cauterized margin in block A2 and complete excision of the lesion needs to be confirmed clinically.\n\n\nPath report.relevant Hx\n\n\\H\\Clinical History\\N\\:\n Ascending colon polypectomy, HOSPITAL\n\n\nPath report.microscopic observation\n\n\\H\\Microscopic Description\\N\\:\n See diagnosis and comment.\n\n\n"
+}

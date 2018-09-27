@@ -1,0 +1,181 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2910, 
+        2924
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2937, 
+        2951
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3267, 
+        3276
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5328, 
+        5351
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2813, 
+        2840
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2791, 
+        2796
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2849, 
+        2854
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3532, 
+        3537
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        559, 
+        588
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5251, 
+        5286
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2763, 
+        2789
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3243, 
+        3276
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2928, 
+        2936
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3256, 
+        3266
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2884, 
+        2909
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2842, 
+        2847
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3550, 
+        3555
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3539, 
+        3548
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3353, 
+        3370
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0935207^CLIA|eMARCPlus|TN Cancer Registry|20170918000103||ORU^R01^ORU_R01|201709180001030001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-62-001936^PathSys^44D0935207^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170906000000|||||||20170906000000|&Colon, Segmental Resection for Tumor|1861403065^^^^^^MD^^CMS^D^^^NPI||||||20170908000000|||F||||||C18.8^Malignant neoplasm of overlapping sites of colon^I10~D12.6^Benign neoplasm of colon, unspecified^I10|1639260797&&&K.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in fixative labeled \"\" and \"right hemicolectomy\" is a segment of large bowel (22.5 cm in length x 5.7 cm in diameter) with an attached portion of terminal ileum (4.0 cm in length x 2.5 cm in diameter), and attached yellow lobulated adipose tissue radiating up to 3.0 cm. The appendix is not identified on the cecum or within the specimen container. Both of the resection margins are closed with a staple line. Opening the bowel reveals a pink-tan centrally ulcerated mass (3.2 cm in length x 3.5 cm in diameter). The mass lies 11.5 cm from the distal resection margin and 10.0 cm from the proximal resection margin. The mass lacks approximately 0.5 cm from being circumferential. Serially sectioning this area reveals apparent invasion through the muscularis propria and possibly into the underlying adipose tissue. The mesenteric margin closest to the mass is marked with blue ink. This margin is at least 6.0 cm from the mass. There is a 0.9 x 0.6 x 0.5 cm polypoid lesion lying 1.0 cm distal to the mass. No definite invasion is identified on the cut surface of this polyp. There is an additional multilobulated sessile polypoid lesion (2.5 x 2.0 cm) lying 3.5 cm proximal to the mass and 5.5 cm from the proximal resection margin. No definite invasion is identified on the cut surface of this polyp. Within the cecal pouch is an additional sessile polyp (1.0 x 0.8 cm), lying 6.5 cm from the proximal resection margin. No other gross abnormalities are identified on the mucosal surface. Sectioning the attached adipose tissue reveals 16 possible red-brown lymph nodes (0.2 to 0.6 cm in maximum dimension). Representative sections are submitted as follows: 1A, proximal resection margin, 1/1; 1B, distal resection margin, 1/1; 1C-1E, mass at the point of deepest invasion, 1/1 each; 1F, mass with adjacent uninvolved proximal mucosa, 1/1; 1G, mass with adjacent distal mucosa, 1/1; 1H, mesenteric margin closest to the mass, 1/1; 1I, polypoid lesion distal to the mass, 2/1; 1J-1K, multilobulated polypoid lesion just proximal to the mass, 2/1 each; 1L, polypoid lesion within the cecum, 2/1; 1M-1O, possible lymph nodes, 1M is 6/1; 1N-1O are 5/1 each. (DET)\n\n\nPath report.site of origin\n\nRight hemicolectomy\n\n\nPath report.final diagnosis\n\nColon, right side, right hemicolectomy:   Moderately differentiated adenocarcinoma.   Invasive adenocarcinoma is 3.5 cm in size and is present deep in the pericolonic     adipose tissue.   Positive for perineural invasion.   Foci suspicious for lymphovascular invasion.   Distal and proximal margins and mesenteric margin, negative for dysplasia and     malignancy.   Sixteen pericolonic lymph nodes, negative for metastatic carcinoma (0/16).   Multiple tubular adenomas (x 3, 0.9 cm, 1 cm and 2.5 cm in size). CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Right hemicolectomy TUMOR  Tumor Site: Right (ascending) colon  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 3.5cm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor invades through the muscularis propria into pericolorectal tissue  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: foci suspicious for lymphovascular invasion present.  Perineural Invasion: Present  Type of Polyp in Which Invasive Carcinoma Arose: Tubular adenoma  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma  Margins Examined: Proximal, Distal, Radial or Mesenteric  Distance of Invasive Carcinoma from Closest Margin:  Specify in Centimeters (cm): 6cm  Specify Closest Margin: Radial or Mesenteric  Proximal Margin: Uninvolved by invasive carcinoma  Distance of Tumor from Margin: Specify in Centimeters (cm): 10cm  Distal Margin: Uninvolved by invasive carcinoma  Distance of Tumor from Margin: Specify in Centimeters (cm): 11.5cm LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 16 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT): pT3: Tumor invades through the muscularis propria into pericolorectal tissues  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s) ADDITIONAL FINDINGS  Additional Pathologic Findings: Adenoma(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - Malignant colon mass; incisional hernia with obstruction\n\n\n"
+}

@@ -1,0 +1,15 @@
+<tool id="post_sent_opennlp" name="PostSentenceSplitter_OpenNLP" version="0.1.0">
+  <description>Extended function on OpenNLP Sentence Splitter</description>
+  <command interpreter="python">PostSentenceSplitter_OpenNLP.py $input $output</command>
+  <inputs>
+    <param format="lif" name="input" type="data" label="Input file"/>
+  </inputs>
+  <outputs>
+    <data format="lif" name="output" />
+  </outputs>
+
+  <help>
+    Further split the sentences by newline symbols.
+  </help>
+
+</tool>

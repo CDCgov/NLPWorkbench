@@ -1,0 +1,31 @@
+<tool id="masc.list" name="List document IDs" version="2.0.0">
+
+ <command interpreter="lsd">
+  list.lsd $output
+ </command>
+ <outputs>
+  <data format="txt" name="output">
+  </data>
+ </outputs>
+ <!--
+  <tests>
+    <test>
+      <param name="input" value="/Users/suderman/Projects/Galaxy/text.json"/>
+      <output name="output" file="/Users/suderman/Projects/Galaxy/tokens.json"/>
+    </test>
+  </tests>
+  -->
+ <help>
+  <![CDATA[
+  
+**What it does**  
+  
+Obtains a list of IDs for all documents in MASC.
+
+**License**
+
+MASC data is free to use for any purpose, including commercial use, under
+the Creative Commons `CC-BY <https://creativecommons.org/licenses/by/2.0/>`_ license.
+]]>
+ </help>
+</tool>

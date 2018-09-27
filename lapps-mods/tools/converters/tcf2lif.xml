@@ -1,0 +1,19 @@
+<tool id='local.convert.tcf2lif' name='TCF to LIF' version='1.0.0'>
+  <description>Convert CLARIN's TCF format to LIF.</description>
+  <command>lsd $__tool_directory__/tcf2lif.lsd $input $output $pretty</command>
+  <inputs>
+    <param name='input' type='data' format='tcf' label='TCF Document' />
+    <param name='pretty' type='boolean' value='False' label='Pretty print'/>
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' label="Converted from TCF"/>
+  </outputs>
+  <help><![CDATA[
+  
+**What it does**
+
+
+Converts a `TCF (Text Corpus Format) <https://weblicht.sfs.uni-tuebingen.de/weblichtwiki/index.php/The_TCF_Format>`_  document into `LIF <http://wiki.lappsgrid.org/org.lappsgrid.serialization/groovydoc/org/lappsgrid/serialization/lif/Container.html>`_. Each annotation layer in the TCF document will be converted into a separate view in the LIF document.
+
+  ]]></help>
+</tool>

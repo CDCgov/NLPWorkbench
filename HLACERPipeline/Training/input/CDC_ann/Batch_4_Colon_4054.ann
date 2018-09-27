@@ -1,0 +1,231 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3755, 
+        3768
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3506, 
+        3520
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3769, 
+        3776
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4469, 
+        4483
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5355, 
+        5378
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3413, 
+        3440
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3350, 
+        3355
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3445, 
+        3450
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        664, 
+        693
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5251, 
+        5286
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3319, 
+        3345
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3471, 
+        3479
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3821, 
+        3831
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3480, 
+        3505
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3356, 
+        3361
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3386, 
+        3397
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3451, 
+        3456
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4310, 
+        4315
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3347, 
+        3348
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3362, 
+        3363
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3383, 
+        3384
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3442, 
+        3443
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3932, 
+        3933
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4099, 
+        4100
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4197, 
+        4214
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|ParkRidge Medical Center^44D0705108^CLIA|eMARCPlus|TN Cancer Registry|20170919125835||ORU^R01^ORU_R01|201709191258350001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-70-001740^PathSys^44D0705108^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170824000000|||||||20170825000000|&Colon, Segmental Resection for Tumor, Colon, Segmental Resection, other than for tumor, Gallbladder, PQRS Colorectal Resection|1730335241^^^E^^^MD^^CMS^D^^^NPI||||||20170828000000|||F||||||C18.8^Malignant neoplasm of overlapping sites of colon^I10~K80.10^Calculus of gallbladder with chronic cholecystitis without obstruction^I10|1346216082& & &&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen is received in formalin identified by the requisition and container as \", right colon.\"  Part of bowel received: Terminal ileum, cecum, and colon. The appendix is absent. Specimen length: 36.5 cm. Tumor location: Cecum. Gross appearance of tumor: Tan-pink and red-brown fungating tumor mass filling the entire cecal cavity with focal tan-gold and amber roughening at borders. Tumor dimensions: 8 x 6.5 x 5.2 cm. Circumferential growth: 100%. Gross depth of invasion: Extends into but does not grossly appear to penetrate the  muscle wall. Luminal obstruction: 100%. Bowel circumference at tumor site: 9 cm. Gross distance of tumor from margins:  Proximal=15.5 cm.  Distal=19 cm.  Nearest radial resection margin=3.5 cm.  Nearest serosal surface=0.3 cm. Other remarkable features: Situated 2 cm distal to the primary tumor is a red-gold polypoid mass, 1.2 x 0.8 x 0.4 cm. Tissue submitted for special investigations: None. Block summary: 1A -- proximal resection margin. 1B -- distal resection margin. 1C -- nearest radial resection margin. 1D-1G -- tumor with nearest serosal surface represented in 1D. 1H -- separate adenomatous polyp. 1I -- representative sections from previously biopsied polyp sites. 1J-1N -- 12 candidate lymph nodes. Detached within the container is a portion of pink-gold omentum, 26.5 x 12 x 1.2 cm. Sectioned surfaces display lobular pink-gold fatty tissue joined by strands of pink- gray and red-brown fibrous membrane and vascular structures. Distinct nodularity is not grossly identified. Representative sections are submitted as cassettes 1O and 1P. 2. The specimen is received in formalin identified by the requisition and container as \", new distal margin.\" A segment of tan-gray colon, 4.5 cm in length and up to 1.5 cm in diameter is focally roughened and discolored red-brown over the serosal surface with up to 1.8 cm of attached mesoappendiceal fat. The cut surfaces display tan-pink mucosal folds along with a focus of depression up to 1 cm in diameter grossly consistent with a previous polypectomy site. The previous polypectomy site is trisected and totally submitted as cassette 2A and the resection margins are submitted in cassettes 2B-C respectively. (csb) 3. The specimen is received in formalin identified by the requisition and container as \", gallbladder and contents.\"  Previously opened: No. Measurements: 6.2 x 3.5 x 2.8 cm. External surface: Gray-green with focal red-brown roughening. Wall thickness: 0.3 cm. Mucosa: Dark green coursely granular and glistening. Choleliths: One, black bosselated stone, 0.9 cm in maximum dimension. Block(s): 3A. (csb)\n\n\nPath report.site of origin\n\n1. Right colon 2. New distal margin 3. Gallbladder and contents\n\n\nPath report.final diagnosis\n\n1. Right colon, resection:   Invasive moderately differentiated adenocarcinoma.   Tumor extends into muscularis propria   Invasive tumor associated with extensive inflammatory response.   Proximal, distal, and radial resection margins free of tumor.   Lymph nodes negative for metastatic tumor (0/12).   Separate tubulovillous adenoma (1.2 cm) without high-grade dysplasia or    malignancy.   Focal mucosal zones of acute inflammation and fibrosis consistent with previous    biopsy sites. 2. New distal margin:   Portion of colon with focus of mucosal necrosis and fibrin with acute inflammation;    resection margins free of tumor and acute inflammation. 3. Gallbladder, cholecystectomy:   Cholelithiasis with cholesterolosis and chronic cholecystitis. CANCER CHECKLIST: Tumor profile CAP protocol, January 2016 version COLON AND RECTUM colon, resection   Specimen: Cecum.   Procedure: Right hemicolectomy.   Tumor size: Greatest dimension 8 x 6.5 x 5.2 cm   Macroscopic tumor perforation: Not identified.   Histologic type: Adenocarcinoma.   Histologic grade: Low-grade (well differentiated to moderately differentiated).   Microscopic tumor extension: Tumor invades muscularis propria.   Margins:    Distance of invasive carcinoma from closest margin: 3.5 cm    Specify margin: Radial    Proximal margin: Uninvolved by invasive carcinoma.    Distal margin: Uninvolved by invasive carcinoma.    Radial margin: Uninvolved by invasive carcinoma.   Treatment effect: No prior treatment.   Lymph-vascular invasion: Not identified.   Perineural invasion: Not identified.   Tumor deposits: Not identified.   Pathologic Staging    Primary Tumor: pT2    Regional Lymph Nodes: pN0    Number of lymph nodes examined: 12    Number of lymph nodes involved: 0.   Additional pathologic findings: Tubulovillous adenoma\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed and supports the diagnosis.\n\n\nPath report.relevant Hx\n\nHistory - Colon mass, cholelithiasis\n\n\n"
+}

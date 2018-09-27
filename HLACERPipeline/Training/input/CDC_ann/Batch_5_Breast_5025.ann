@@ -1,0 +1,129 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1765, 
+        1772
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1773, 
+        1782
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1013, 
+        1036
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1700, 
+        1727
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1737, 
+        1742
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2190, 
+        2192
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        526, 
+        555
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1078, 
+        1113
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2162, 
+        2188
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1756, 
+        1764
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1729, 
+        1735
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2193, 
+        2199
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2200, 
+        2206
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 5^9999^MOH|PIMS|CCO|20160503080101|400C02FBF4A7C87FAED742F377B59A3A4C219A6D|ORU^R01|999999999999|P|2.5|||\nPID|1||K999999^^^^CMR^HOSPITAL 5&9999&MOH~K999999^^^^MRN^HOSPITAL 5&9999&MOH~9999999999&GH&ON^^^^JHN||XXXXXXXXX^XXXXXXXXX^ XXX^^^^||99999999|F|||99 XXX XXXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||\nOBR|1||16-S006053|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160428|||76478^XXXXXXX^XXXX^^^^||||||||||||20160502|||F|||||||99999^XXXXX^XXXXX XXXXXXXX^^^^^||||||\n\n\n\n\n\n\n\nPath report.gross description\n\nSpecimen Site Described on Container: Rt breast 10 ocl (sic)\nSpecimen Description\nDate and Time Specimen Taken: 10:15 28 April, 2016\nApproximate Fixation Time: 48-72 hours\nNumber of Core/s: three\nDiameter of Core/s: 0.1 cm\nCore Length/s: ranging from 1.1-1.5 cm\nColour of Core/s: gray-yellow\nOther Abnormalities/Comments: none\nMaterial/Blocks Submitted: all submitted, as is; 1A and 1B\n\n1A,1B   two cores in A, one core in B\n(Dictated by B. Legere, MLT)\n\n\nPath report.relevant Hx\n\nSuspicious multifocal mass Rt breast.\n\n\nPath report.microscopic observation\n\nSpecimen Type: core biopsies\nInvasive Carcinoma: present\nHistologic Type: invasive lobular carcinoma\nHistologic Grade\n(modified Scarff-Bloom-Richardson): grade 1\nTubule Formation:3/3\nNuclear Grade:1/3\nMitotic Rate:1/3\nIn Situ Carcinoma: present lobular type\n\nOther Tissues/ Findings: crush artifact\n(As part of the PRHC's Department of Laboratory Medicine's Quality Assurance\nProgram, part or all of this case has been reviewed by one or more pathologists\nin the Department here at the PRHC. The specifics and the documentation of\nthat review are available in the Department files.)\n\n\nPath report.final diagnosis\n\nBREAST (RIGHT), BIOPSY:\n   INVASIVE LOBULAR CARCINOMA\nReported by: Dr. JASIM RADHI MD, FRCPC - PATHOLOGIST\nNOTE: This information and the pathologic diagnoses here must be correlated\nwith this patient's clinical situation; if there is a disparity, or any other\nconcern with this report, the pathologist responsible for this case should be\ncontacted promptly. (Any diagnoses or observations in parentheses above are\nclinical ones.)\n\n\nPath report.site of origin\n\nRt Breast 10 ocl (sic).\n\n\n"
+}

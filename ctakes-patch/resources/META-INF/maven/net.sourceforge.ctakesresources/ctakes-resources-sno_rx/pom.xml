@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+   <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <groupId>net.sourceforge.ctakesresources</groupId>
+      <artifactId>ctakes-resources</artifactId>
+      <version>4.0.0</version>
+   </parent>
+   <artifactId>ctakes-resources-sno_rx</artifactId>
+   <name>ctakes-resources-sno_rx</name>
+   <description>hsql v2.3.4 rare-word index db with umls snomed_us and rxnorm concepts for cTakes semantic groups</description>
+   <url>http://ctakes.apache.org</url>
+   <inceptionYear>2017</inceptionYear>
+</project>

@@ -1,0 +1,119 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1334, 
+        1340
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1341, 
+        1350
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1176, 
+        1199
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2715, 
+        2735
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2757, 
+        2777
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1271, 
+        1298
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2695, 
+        2700
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1009, 
+        1038
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2667, 
+        2693
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2387, 
+        2395
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1300, 
+        1306
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2701, 
+        2707
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 1^9999^MOH|PIMS|CCO|20160503033304|12E64FC43772AA3153EA9C1C4055DDF1E04E98C2|ORU^R01|999999999999|P|2.5||||||||\nPID|1||9999^^^^CMR^HOSPITAL 1&9999&MOH~9999^^^^RMR^HOSPITAL 1&9999&MOH~TB99999999^^^^MRN^HOSPITAL 1&9999&MOH~9999999999&VN&^^^^JHN|^|XXXXXX^XXXXX^XXXXXXX^^^||99999999|F|||999 XXXXXXXX XX^^XXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||||\nOBR|1|S16-1675|S16-4355|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160323|||58832^XXXXXXXXX^XXXXX^X^^^XX||||||||||Y||20160401|||C|||||||99999^XXXX^XXXXXXXX^^^^XX|||||||||||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nBlock one was sent for Her2/neu over expression examination to HOSPITAL. Their diagnosis is as follows :-\nBreast core biopsy :-\n -Invasive mammary carcinoma.\n -Negative for Her2/neu Oncoprotein or expression.\nPlease see original report for details.\nPlease refer to Consultant's original report for full details in EMR.\nConsultant's Report has been scanned into EMR. Please see \"Pathology Scanned Report\".\n\n\nPath report.gross description\n\nReceived from Lake of the Woods District HOSPITAL, Kenora, Ontario, one paraffin block\nlabeled \"S16-1675\" for ER/PR/HER2/neu consult.\n\n\nPath report.relevant Hx\n\nRule out ca, solid mass on ultrasound, increasing density on mammo.\n\n\nPath report.final diagnosis\n\nBREAST CORE BIOPSY-\n-INFILTRATING DUCTAL CARCINOMA, NOS.\n\nHORMONE RECEPTORS BY IMMUNOHISTOCHEMICAL STAINING\n*  Block Tested: One\n*  Fixative 10% neutral buffered formalin\n*  *Fixation duration 18-48 hours\nEstrogen Receptor     Antibody Used-Estrogen clone ID5 (DAKO)\nER Result ___________________ POSITIVE\n% Of positive tumor cells........................  90%\nER Interpretation\nNegative ER\n0-1%\nnuclear positivity\nWeakly positive ER\n1-9%\nnuclear positivity\nPositive ER\n= or >10%\nnuclear positivity\n\nProgesterone Receptor  Antibody Used-Progesterone clone PgR636 (DAKO)\nPR Result ___________________ WEAK POSITIVE\n% Of positive tumor cells........................   1%\nPR Interpretation\nNegative PR\n0-1%\nnuclear positivity\nWeakly positive PR\n1-9%\nnuclear positivity\nPositive PR\n= or >10%\nnuclear positivity\n\nHER2/neu      Antibody Used- Her2-neu clone c-erbB-2 AO485 (DAKO)\nHER2/neu Result ________________ PENDING\nHER2/neu Interpretation\nPositive\nIntense, Uniform, Circumferential cell membrane staining in >30% of invasive tumour\nEquivocal\nWeak staining OR <30% (but more than 10%) of invasive tumour cells stained, FISH TO FOLLOW\nNegative\nNo staining, or pale incomplete membrane staining in any % of cells, or weak, complete\nstaining in <10% of cells\nReferences\n1.  ASCO-CAP Guidelines (CAP Website)\n2.  *QMP-LS Anatomic Pathology Broadsheet (1 September 2009)\n\n\nPath report.site of origin\n\nRight breast, NOS\n\n\nPath report.comments\n\nADDENDUM APPENDED\n\n\nPath report.comments\n\n\"In accordance with Quality Assurance Guidelines, Thunder Bay Regional Health Sciences\nCentre (TBRHSC) Immunohistochemistry (IHC) methods have been validated using tissues with\nstandardized fixation times. When tissue fixation time is unavailable, the results of IHC\nstained procedures must be interpreted with caution\".\n\n\n"
+}

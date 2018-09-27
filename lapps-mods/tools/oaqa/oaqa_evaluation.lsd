@@ -1,0 +1,83 @@
+ import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File gold = new File(args.gold)
+File test = new File(args.test)
+String annotation = args.annotation
+String testAnnotation = args.testannotation
+String goldFeature = args.gf
+String testFeature = args.tf
+File output = new File(args.output)
+
+String url = "http://grid.anc.org:9080/EvaluationServices/services/AnnotationEvaluator"
+
+annotation = annotation.replaceAll("__pd__", "#")
+testAnnotation = testAnnotation.replaceAll("__pd__", "#")
+
+class DataContainer extends Data<Container> {}
+
+DataContainer goldData = Serializer.parse(gold.text, DataContainer)
+Container goldContainer = goldData.payload
+View goldView = goldContainer.views[-1]
+String goldProducer = goldView.metadata.contains[annotation]?.producer
+
+DataContainer testData = Serializer.parse(test.text, DataContainer)
+Container testContainer = testData.payload
+View testView = testContainer.views[-1]
+String testProducer = testView.metadata.contains[annotation]?.producer
+
+
+println "Assembling container"
+Container container = new Container()
+container.text = goldContainer.text
+container.language = goldContainer.language
+
+goldView.id = 'gold'
+testView.id = 'test'
+
+container.addView(goldView)
+container.addView(testView)
+
+// Setup the evaluation-configuration
+def config = [:]
+config.goldAnnotationType = annotation
+config.goldAnnotationProducer = goldProducer
+config.goldAnnotationFeature = goldFeature
+
+config.testAnnotationType = testAnnotation
+config.testAnnotationProducer = testProducer
+config.testAnnotationFeature = testFeature
+
+container.metadata['evaluation-configuration'] = config
+def eval = new ServiceClient(url, null, null)
+
+DataContainer data = new DataContainer()
+data.discriminator = Uri.LAPPS
+data.payload = container
+
+println "Running evaluation"
+String html = eval.execute(data.asJson())
+
+output.text = html
+return
+
+View findView(Container container, String type) {
+	List<View> views = container.findViewsThatContain(type)
+	if (views == 0 || views.size() == 0) {
+		throw new IOException("No views contain ${type} annotations.")
+	}
+	if (views.size() > 1) {
+		throw new IOException("More than one view contains ${type} annotations.")
+	}
+	return views[0]
+}
+
+View findView(Container container, String type, String producer) {
+	List<View> views = container.findViewsThatContainBy(type, producer)
+	if (views == 0 || views.size() == 0) {
+		throw new IOException("No views contain ${type} produced by ${producer}")
+	}
+	if (views.size() > 1) {
+		throw new IOException("More than one view contains ${type} annotations produced by ${producer}")
+	}
+	return views[0]
+}

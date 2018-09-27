@@ -1,0 +1,13 @@
+<tool id="test.text.entry" name="Test Text Area" version="1.0.0">
+  <description>Test text area component</description>
+  <command>echo "$input" > $output</command>
+  <inputs>
+    <param name="input" type="text" area="true" size="5x25">
+            <sanitizer sanitize="False"/>
+    </param>
+  </inputs>
+  <outputs>
+    <data name="output" format="txt" label="Output"/>
+  </outputs>
+  <help>A test component</help>
+</tool>

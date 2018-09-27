@@ -1,0 +1,135 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1526, 
+        1530
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1531, 
+        1540
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1568, 
+        1591
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1460, 
+        1487
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        922, 
+        926
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        935, 
+        939
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1489, 
+        1493
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        564, 
+        593
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        955, 
+        990
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        894, 
+        920
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1517, 
+        1525
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        927, 
+        933
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        940, 
+        946
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1494, 
+        1500
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 7^9999^MOH|PIMS|CCO|20160503112700|E3B45DDCAB65C0F9A0AFABD677128D6206EE81A8|ORU^R01|999999999999|P|2.5|||||||||||\nPID|1||G9999999^^^^CMR^HOSPITAL 7&9999&MOH~G9999999^^^^MRN^HOSPITAL 7&9999&MOH~9999999999&XX&ON^^^^JHN||XXXXXXX^XXXXXXXXX^^^^^||99999999|F|||9 XXXXXX XXXXXX XX^^XXXXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||||||||||\nOBR|1||SP4515/16|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160428|||52049^XXXX^XXXXX^XXX^^^^||||||||||||20160502|||F|||||||99999^XXXXXXXX^XXXXX^XXXXXXX^^^^|||||||||||||||||||\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen container is labelled with the patient's ID and \"left\" and\nconsists of five cores of yellowish tan tissue ranging in size from 0.7 to\n1.7cm in length x up to 0.2cm in diameter. Submitted in toto in one block.\nCold ischemic time = 30 seconds  Fixation time = 3 days??????????????LP/cm\n\n\nPath report.site of origin\n\nLeft breast (LEFT BREAST MASS)\n\n\nPath report.microscopic observation\n\nSections show an invasive duct carcinoma, not otherwise specified. The tumour\ninvades in cords and nests in a desmoplastic stroma without tubule formation\n(architectural score of 3/3). Nuclear score is 2/3 and mitotic score is 1/3,\nfor an overall grade of II/III in the portion of the tumour biopsied. There is\nan in-situ component, high-grade, with comedo necrosis.\nAn intra-departmental consultation has been obtained on this specimen, as per\ndepartmental policy.\n\n\nPath report.final diagnosis\n\nLeft breast, core biopsy:\n- Invasive duct carcinoma, not otherwise specified\n\n\nPath report.relevant Hx\n\nSTAT. Suspicious.\n\n\n"
+}

@@ -1,0 +1,37 @@
+<tool id='anc_gate.splitter_2.3.0' name='GATE SentenceSplitter v2.3.0' version='1.0.1'>
+  <description>GATE SentenceSplitter</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.splitter_2.3.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+Annotates sentence boundaries in text.
+
+**Required Annotations**
+
+* Tokens in GATE XML format (will automatically convert from LIF) 
+
+**Generated Annotations**
+
+* Sentence annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_.
+
+.. class:: warningmark
+
+The output of all GATE tools is in the `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_. This output can be input directly into other GATE tools. To input GATE XML format to  tools requiring LIF, 
+use *Convert formats->GateToLif* 
+
+
+
+**License**
+
+This tool is adapted from the `General Architecture for Text Engineering (GATE) platform <http:gate.ac.uk>`_, which is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

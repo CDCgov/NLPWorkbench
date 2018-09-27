@@ -1,0 +1,23 @@
+#!/usr/bin/env lsd
+
+include 'Config'
+
+String service = args[0]
+String input = args[1]
+boolean prettyPrint = args[2] as Boolean
+String output = args[3]
+String username = args[4] ?: server.username ?: "tester"
+String password = args[5] ?: server.password ?: "tester"
+
+String url = "${server.url}/anc:${service}"
+ServiceClient client = new ServiceClient(url, username, password)
+String json = new File(input).text
+json = client.execute(json)
+if (prettyPrint) {
+    new File(output).text = groovy.json.JsonOutput.prettyPrint(json)
+}
+else {
+    new File(output).text = json
+}
+
+//new File(output).text = client.execute(json)

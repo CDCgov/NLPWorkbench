@@ -1,0 +1,61 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        700, 
+        723
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1074, 
+        1101
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1115, 
+        1125
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        470, 
+        499
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1155, 
+        1178
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1127, 
+        1143
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Marin Medical Laboratories^05D0663150^CLIA|eMARCPlus|CA Cancer Registry|20170917020129||ORU^R01^ORU_R01|201709170201290001|P|2.5.1|CA||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-MC-000558^PathSys^05D0663150^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170905000000|||||||20170906000000|&Cytology Fluid, Effusion, ThinPrep|1760771901^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C18.0^Malignant neoplasm of cecum^I10|1245348861&&&J.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nCytology Fluid, Effusion, ThinPrep, Source = PERITONEAL FLUID\n Volume:   10 MLS\n Color:   RED\n Character: CLOUDY\n Initials:  JA\n 1 TP\n 1 AIR DRY\n 1 CELL BLOCK\n DATE RECEIVED: 9-6-2017\n TIME:  7:37\n\n\nPath report.relevant Hx\n\nClinical - 64 year old female MALIGNANT NEOPLASM OF CECUM History - 07/25/2017  17-MS-006266  SF50007\n 1. Colon, cecum, mass, biopsies:\n Adenocarcinoma.\n Mismatch repair proteins intact,\n See comment.\n 2. Colon, ascending, polyp, polypectomy:\n No diagnosis, only mucoid material present.\n No colonic tissue, polyp tissue or malignancy identified.\n\n\nPath report.final diagnosis\n\nMICROSCOPIC DIAGNOSIS:\n Peritoneal fluid cytology:\n Negative for malignancy. /*\n\n\n"
+}

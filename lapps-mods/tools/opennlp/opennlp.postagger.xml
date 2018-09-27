@@ -1,0 +1,37 @@
+<tool id="opennlp.postagger" name="OpenNLP Part-of-Speech Tagger" version="2.0.3">
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd opennlp.postagger_2.0.3 $input $output
+ </command>
+ <inputs>
+  <param format="json,lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**
+
+Detects the sentences in a text using Regular Expressions and a set of simple rules,
+using 
+the `OpenNLP <https://opennlp.apache.org>`_ POS tagger 
+(see the `OpenNLP -- Finding Parts of Speech Tutorial <https://www.tutorialspoint.com/opennlp/opennlp_finding_parts_of_speech.htm>`_ for more information). 
+ 
+**Required annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token.html>`_ (LIF)
+
+**Generated annotations**
+
+* A LIF document with a new view containing `Token <http://vocab.lappsgrid.org/Token.html>`_ annotations, to which a "pos" feature has been added indicating the token's part of speech (`Penn tagset <https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>`_). 
+
+**License**
+
+Apache OpenNLP is licensed under the `Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>`_
+
+]]>
+ </help>
+</tool>

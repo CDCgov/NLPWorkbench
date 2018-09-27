@@ -1,0 +1,335 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3086, 
+        3092
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3520, 
+        3526
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3049, 
+        3058
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3093, 
+        3102
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Ben,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3207, 
+        3217
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3238, 
+        3247
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3490, 
+        3499
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2788, 
+        2811
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2906, 
+        2922
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5858, 
+        5878
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5880, 
+        5888
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2942, 
+        2969
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2971, 
+        2981
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2992, 
+        2996
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3412, 
+        3416
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5836, 
+        5840
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3145, 
+        3164
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3182, 
+        3192
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        546, 
+        575
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        577, 
+        594
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5780, 
+        5806
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5808, 
+        5826
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3194, 
+        3217
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3032, 
+        3040
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3103, 
+        3110
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3229, 
+        3237
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3473, 
+        3481
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Ben,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3927, 
+        3928
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2984, 
+        2990
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3041, 
+        3048
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3255, 
+        3261
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3482, 
+        3489
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5828, 
+        5834
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        598, 
+        600
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        906, 
+        908
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        2367, 
+        2369
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2981, 
+        2983
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3142, 
+        3144
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\n\n\n\n\n\n\nPath report.gross observation\n\nGross description: \n A. Intraoperative Consultation:  Received: fresh  Specimen: left breast wide excision  Pathologic Evaluation: immediate gross evaluation margin  Diagnosis: IOC: Clip with mass, margin grossly clear  Communicated to: Dr. Burnett at 1:19 PM on 07/28/2017, Tara Rubinas M.D.  Tissue submitted: not applicable \n A. Labeled: left breast wide excision \n Time in fixative:  1:20 PM \n Cold Ischemic Time: 20 minutes Total formalin fixation 8 hours \n Type of specimen: excision \n Location of specimen: left \n Size of specimen: 6.5 (medial-lateral) by 5.4 (superior-inferior) by 2.5 (anterior-posterior) centimeter \n Skin: not present \n Direction of compression: anterior-posterior \n Needle localization: yes, 1 \n Orientation of specimen: medial and cranial metallic markers Superior = blue Inferior = green Medial = yellow Lateral = orange Posterior = black Anterior/Superficial = red \n \n Plane of sectioning: medial to lateral \n Biopsy site: present with clip \n Presence/absence of discrete mass: present \n Number of discrete masses: 1 \n Size(s) of mass(es): 1.0 x 0.8 x 0.6 cm \n Description of mass(es): ill-defined rubbery pink to hemorrhagic area with metallic clip \n Distance between masses/clips: not applicable \n Distance of mass(es)/ biopsy site/clip to surgical margins: anterior-0.4 cm, superior-0.5 cm, inferior-3.7 cm, medial-0.8 cm, lateral-2.8 cm and the deep-1.4 cm \n Description of remainder of tissue: yellow lobulated fibrofatty \n Other remarkable features: none noted \n Tissue submitted for special investigation: not applicable \n Block summary: 1-5-entire mass with metallic clip from lateral towards medial respectively (cassette 3 containing metallic clip) 6-perpendicular medial 7-perpendicular lateral 8-perpendicular deep 9-perpendicular inferior all \n B. Labeled: Sentinel node \n Tissue fragment(s): 1 \n Size: 1.3 x 0.8 x 0.4 cm \n Description: blue tinged lymph node candidates, bisected \n Entirely submitted in 1 cassette(s). \n \n \n \n /XDB\n\n\nPayment procedure\n\nCPT                            .883071, 883072, 883601, 883602, 883603, 883604\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C50.812\n\n\nPath report.relevant Hx\n\nPre-operative diagnosis: Left breast cancer\nPost-operative diagnosis: Same as pre-op \n \n \n .\nClinical history: None provided .\n\n\nPath report.final diagnosis\n\nDiagnosis:A. BREAST, LEFT; NEEDLE LOCALIZED WIDE EXCISION: - INVASIVE MAMMARY CARCINOMA, NO SPECIAL TYPE. - COMEDO DUCTAL CARCINOMA IN SITU. - SEE CANCER SUMMARY BELOW. \n B. SENTINEL LYMPH NODE; EXCISION: - ONE LYMPH NODE, NEGATIVE FOR MALIGNANCY (0/1). \n \n INVASIVE CARCINOMA OF THE BREAST: Complete Excision SPECIMEN Procedure:   Excision with image-guided localization Lymph Node Sampling:   Sentinel lymph node(s) Specimen Laterality:   Left TUMOR Presence of Invasive Carcinoma:  Histologic Type: Invasive mammary carcinoma of no special type (ductal, not otherwise specified) Histologic Grade:  Glandular (acinar) / tubular differentiation: Score 3 (< 10% of tumor area forming glandular / tubular structures) Nuclear pleomorphism: Score 3 (vesicular nuclei, often with prominent nucleoli, exhibiting marked variation in size and shape, occasionally with very large and bizarre forms) Mitotic rate: Score 2 (4-7 mitoses per mm2) Overall grade: Grade 3 (scores of 8 or 9) Ductal Carcinoma In Situ (DCIS):  DCIS is present Positive for EIC Tumor Size / Focality:  Tumor size: size of largest invasive carcinoma: Greatest dimension of largest focus of invasion > 1 mm: 4.8mm Tumor focality:   Single focus of invasive carcinoma Tumor Extent Macroscopic and Microscopic Extent of Tumor Skin:   Specimen does not contain skin Skeletal muscle:  Specimen does not contain skeletal muscle Accessory Tumor Findings Lymph-Vascular Invasion: Not identified Treatment Effect: Response to Presurgical (Neoadjuvant) Therapy: No known presurgical therapy MARGINS Invasive Carcinoma: Margins negative for invasive carcinoma Distance from closest margin: 4mm Closest Negative Margin(s):  Anterior Ductal Carcinoma In Situ (DCIS):  Margins negative for DCIS (DCIS present in specimen) Distance of DCIS from closest margin:  2.7mm Closest Negative Margin(s):  Anterior LYMPH NODES Regional Lymph Nodes:  Number of Sentinel Nodes Examined: Specify number 1 Number of lymph node(s) examined: Number 1 Lymph node involvement: All lymph nodes are negative STAGE (pTNM) TNM Descriptors:  Not applicable Primary Tumor (Invasive Carcinoma) (pT):   pT1a: tumor > 1 mm but <= 5 mm in greatest dimension Regional lymph nodes (pN) (choose a category based on lymph nodes received with the specimen; immunohistochemistry and / or molecular studies are not required) Modifier: (sn): only sentinel node(s) evaluated. if 6 or more nodes (sentinel or nonsentinel) are removed, this modifier should not be used. Category (pN): pN0: no regional lymph node metastasis identified histologically Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s) Comment(s):  ER, PR, HER2 will be reported in an addendum \n \n XDB/08/02/2017 **********************************************************************\n\n\nPath report.site of origin\n\nMaterial submitted: Breast, left, wide excision\n\n\nPath report.comments\n\nComment:CASE: PATIENT: Final Diagnosis performed by \n Electronically signed 8/1/2017 10:03:48AM \n \n The electronic signature indicates that the named Attending Pathologist has evaluated the specimen \n Technical component performed at LabCorp, 1447 York Court, Burlington, NC 27215 Lab: 800-762-4344 Dir: William F. Hancock, MD \n Professional component performed at LabCorp, Alamance Regional Medical Center, 1240 Huffman Mill Rd, Burlington, NC 27215 Lab: 336-538-7833 Dir: Tara C. Rubinas, MD \n \n \n Breast Biomarker Reporting Template Specimens InvolvedA: Breast, left, wide excision \n Breast, Biomarker Reporting Template BREAST BIOMARKER TESTS Test(s) Performed: Estrogen Receptor (ER) Results: NEGATIVE Internal controls present and ER positive (as expected) Test Type:   FDA cleared (Ventana) Primary Antibody:  SP1 Progesterone Receptor (PgR) Results: NEGATIVE Internal controls present and PgR positive (as expected) Test Type:   FDA cleared (Ventana) Primary Antibody:  1E2 HER2 (ERBB2) by Immunohistochemistry (IHC) Results: Equivocal (Score 2+) Percentage of Cells with Uniform Intense Complete Membrane Staining: 0% Test Type:   Food and Drug Administration (FDA) cleared (DAKO) Primary Antibody:  HercepTest METHODS Cold Ischemia and Fixation Times: Meet requirements specified in the latest version of ASCO / CAP guidelines Cold ischemia time (mins)::  20 Time of fixation (hours)::  8 Testing performed on block number(s) (specify):: A3 Fixative: Formalin Image Analysis:   Not performed \n Note: HER 2 FISH is obtained and results will be issued in an addendum. \n \n \n Addendum #1 performed by \n Electronically signed 8/2/2017 2:43:00PM \n \n \n Technical component performed at LabCorp, 1447 York Court, Burlington, NC 27215 Lab: 800-762-4344 Dir: William F. Hancock, MD \n Professional component performed at LabCorp, Alamance Regional Medical Center, 1240 Huffman Mill Rd, Burlington, NC 27215 Lab: 336-538-7833 Dir: Tara C. Rubinas, MD .\n\n\n"
+}

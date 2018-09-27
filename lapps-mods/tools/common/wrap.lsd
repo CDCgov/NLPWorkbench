@@ -1,0 +1,50 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+String format = args[0]
+File input = new File(args[1])
+File output = new File(args[2])
+
+String type = Uri.TEXT
+Data data = new Data()
+data.payload = input.text
+
+if (format == 'txt') {
+    type = Uri.TEXT
+}
+else if (format == 'lif') {
+	type = Uri.LIF
+	def container = new Container()
+<<<<<<< HEAD
+	container.text = input.text
+	data.payload = container	
+=======
+	container.text = payload
+	payload = container
+>>>>>>> develop
+}
+else if (format == 'xml') {
+    type = Uri.XML
+}
+else if (format == 'gate') {
+    type = Uri.GATE
+}
+else if (format == 'tcf') {
+	type = "http://vocab.lappsgrid.org/ns/media/xml#tcf"
+	payload = """<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+    <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="en">
+        <tc:text xmlns:tc="http://www.dspin.de/data/textcorpus">$payload</tc:text>
+    </TextCorpus>
+</D-Spin>""".toString()
+}
+else {
+	type = Uri.ERROR
+	payload "Invalid format selected ${format}. This is an error in the Galaxy tool wrapper XML file."
+}
+
+data.discriminator = type
+<<<<<<< HEAD
+=======
+data.payload = payload
+>>>>>>> develop
+
+output.text = data.asJson()

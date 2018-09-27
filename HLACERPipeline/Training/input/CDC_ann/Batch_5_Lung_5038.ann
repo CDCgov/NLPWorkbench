@@ -1,0 +1,109 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1500, 
+        1514
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1519, 
+        1542
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1432, 
+        1459
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        909, 
+        913
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1477, 
+        1481
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        593, 
+        622
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        927, 
+        962
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        869, 
+        895
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        914, 
+        924
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1482, 
+        1492
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1462, 
+        1464
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160503144500|98898CCCE97AC4B6CF7641F56D5E350881532568|ORU^R01|9999999999999|D|2.5|\nPID|1||H9999999^^^^CMR^HOSPITAL 10&9999&MOH~^^^^RMR^HOSPITAL 10&9999&MOH~H9999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&NF&ON^^^^JHN||XXXXXXX^XXXXXXX||99999999|M|||9999-999 XXXXX XX X^^XXXXXXXXX^XX^X9X 9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||S16-9196|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604281420|||^XXXXXXXXXX^XXXXXXXXX||||201604281420||^XXXXXXXXXX^XXXXXXXXX||||N||201605031444||8000|F|||||||99999^XXXX^XXXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nA. CORE BIOPSY LEFT UPPER LOBE: The specimen is received in formalin and labeled with the patient's name and biopsy chest left. It contains 3 cores of gray-tan tissue, 0.4-1.2 cm in maximum dimension. It is submitted in toto in A1 and A2.. \n\n\n\n\nPath report.site of origin\n\nCore Biopsy Left Upper Lobe\n\n\nPath report.microscopic observation\n\nA. CORE BIOPSY LEFT UPPER LOBE: Sections show small fragmented cores of fibroelastotic tissue. There is focal involvement by moderately to poorly differentiated adenocarcinoma. The malignant cells are positive for TTF-1 and CK 7, compatible with pulmonary adenocarcinoma.\n\nNote: Only minimal tumor tissue is present in the biopsy, and there is not enough tissue remaining in the paraffin block for EGFR/ALK studies.\n\nThis case was also reviewed by Dr. D. Melega.\n \n\n\n\nPath report.final diagnosis\n\n\nA. CORE BIOPSY LEFT UPPER LOBE: \n   - ADENOCARCINOMA \n\n\n\nPath report.relevant Hx\n\nLeft Upper Lobe Spiculated Cavitary Nodule\n\n\n\n"
+}

@@ -1,0 +1,20 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+include 'Config'
+
+String token = new File(args[0]).text
+int start = args[1] as Integer
+int end = args[2] as Integer
+String service = args[3]
+File output = new File(args[4])
+
+DataSource client = createService(service, token)
+String json = client.execute(new ListRequest(start, end).asJson())
+Data data = Serializer.parse(json, Data)
+if (Uri.ERROR == data.discriminator) {
+    output.text = json
+    return
+}
+List keys = data.payload
+output.text = keys.join("\n")
+
+

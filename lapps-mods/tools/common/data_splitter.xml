@@ -1,0 +1,14 @@
+<tool id='data.splitter' name='Data Splitter' version='2.0.0'>
+  <description>Splits and input stream</description>
+  <command interpreter='bash'>copy.sh $input $output1 $output2</command>
+  <inputs>
+    <param name='input' type='data' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output1' format='input' />
+    <data name='output2' format='input' />
+  </outputs>
+  <help>
+  Splits an input stream into two output streams.
+  </help>
+</tool>

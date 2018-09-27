@@ -1,0 +1,119 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2247, 
+        2257
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2258, 
+        2267
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2340, 
+        2363
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2160, 
+        2187
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2189, 
+        2193
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2416, 
+        2420
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        695, 
+        724
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1011, 
+        1046
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2388, 
+        2414
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2231, 
+        2246
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2194, 
+        2204
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2421, 
+        2431
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160503173611|3E18C547BF5DED0B84DE9E9D925F997EA5ACD161|ORU^R01|99999999999999999999|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 9&9999&MOH~99999999^^^^^HOSPITAL 9&9999&MOH~99999999^^^^MRN^HOSPITAL 9&9999~9999999999&GL&ON^^^^JHN||XXXXXXX^XXXXXXX XXXXXXX||99999999|M||F|999 XXXXXXXX XX^^XXXXXX^XX^X9X9X9^999||9999999999^GL^OHIN|||D||8497404197^GL^OHIN||||||||||||N|\nOBR|1||SP1617600|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160428151000|||73618^XXXXXX^XXXXXX^^^^XX||||20160429095421|Left lower lobe endobronchial biopsies|999999^XXXXXX^XXXXXX^^^^XX||||N|20082009|20160503173611|||F|||||||99999^XXXXXX^XXXXXX^^^^XX, XXX, XXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in a container labelled with the patient's name, who has the initials \"SM\" and the specimen site \"left lower lobe endobronchial biopsies\".\nNumber of pieces: Multiple\nDimensions: Less than 0.1-0.1 cm\nOther:  Nil\n1A-in toto\nDTK   2016-04-29   TOH Civic Campus\n\n\nPath report.microscopic observation\n\nSections of the left lower lobe endobronchial biopsies show multiple fragments of bronchial tissue with aggregates of infiltrating medium size hyperchromatic cells with crush artifact and significant tumor diathesis. There are also a few atypical cells that contain larger nuclei and moderate amounts of cytoplasm. Immunohistochemical stains performed show the following results:\nHyperchromatic cells:\nPositive stains: TTF-1, synaptophysin, chromogranin, CD56\nNegative stains: p40, CK5\nThe immunohistochemical profile is consistent with poorly differentiated neuroendocrine carcinoma favor small cell carcinoma intermediate cell features. The other focus of large cells with moderate cytoplasm are positive for p40 and a few cells are also positive for TTF-1 but are negative for neuroendocrine markers. These cells are no longer present in the section stained with CK5. Considering the morphology and immunoprofile it likely represents overlying squamous cell hyperplasia or dysplasia, however, a combined small cell carcinoma and squamous cell carcinoma although less likely, cannot be completely ruled out.\n\n\nPath report.final diagnosis\n\nLeft lower lobe, endobronchial biopsies:\n-Consistent with small cell carcinoma, favor intermediate cell variant (please see microscopic description)\n\n\nPath report.relevant Hx\n\nLeft lower lobe mass\n\n\nPath report.site of origin\n\nLeft lower lobe endobronchial biopsies\n\n\n"
+}

@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        812, 
+        826
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2042, 
+        2065
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        867, 
+        887
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1816, 
+        1824
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        682, 
+        709
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        711, 
+        716
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        593, 
+        619
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        763, 
+        772
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        801, 
+        811
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        750, 
+        762
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        785, 
+        800
+      ]
+    }
+  ], 
+  "Primary Origin of Neoplasm (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        834, 
+        848
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        621, 
+        634
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1547, 
+        1579
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^18D0326107^CLIA|eMARCPlus|KY Cancer Registry|20170918000103||ORU^R01^ORU_R01|201709180001030001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-JN-000266^PathSys^18D0326107^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170831000000|||||||20170831000000|&Body Cav Fluid Cyto, Liquid based preparation tech|1558596742^^^^^^MD^^CMS^D^^^NPI||||||20170908000000|||F||||||C78.2^Secondary malignant neoplasm of pleura^I10~C50.919^Malignant neoplasm of unspecified site of unspecified female breast^I10|1144411331&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.site of origin\n\nPleural Fluid   60 mls of yellow fluid received in CytoLyt\n\n\nPath report.final diagnosis\n\nRight pleural cavity, thoracentesis:   Positive for malignant cells, most consistent with metastatic adenocarcinoma of     breast primary.   See comment.\n\n\nPath report.comments\n\nComments - Review of Thinprep slide and cell block reveals numerous clusters of malignant cells with increased NC ratio, pleomorphic nuclei with vesicular chromatin and prominent nucleoli. Cytoplasm is vacuolated and gland formation is noted on cell block. GATA3 is weak and focally positive while TTF1 is negative. The patient's previous breast excision (12-56-2827) is reviewed and the cytomorphologic features are similar in both cases. Overall findings are most consistent with metastatic carcinoma of breast primary. Case is reviewed in consultation with Dr. who agrees with the diagnosis. Findings discussed with Dr. Parth Shah on 09.08.17 at 17:07.\n\n\nPath report.supplemental reports\n\nHormone Receptor report: Right pleural cavity, thoracentesis, receptor stains of cell block:   Rare atypical cellular elements persist in cell block, both showing no positivity for     estrogen or progesterone receptor.   See comment. COMMENT: Limited material is present in the cell block. Five to 10 small clusters of atypical cellular elements show no distinct nuclear positivity for either estrogen or progesterone receptor. ## End of auxiliary report ##\n\n\nPath report.relevant Hx\n\nHistory - Right thoracentesis; Urinary tract infection; Edema\n\n\n"
+}

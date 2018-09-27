@@ -1,0 +1,129 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1322, 
+        1326
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1327, 
+        1336
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1340, 
+        1363
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1418, 
+        1438
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1235, 
+        1262
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1196, 
+        1201
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1280, 
+        1285
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        601, 
+        630
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1160, 
+        1186
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1313, 
+        1321
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1188, 
+        1194
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1286, 
+        1292
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1264, 
+        1266
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160504085200|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 2&9999&MOH~9999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&&ON^^^^JHN||XXXXXXX^XXXXX^XXXXXXXX||99999999|F|||9999-99 XXXXXXXXXX XXXX^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-26951|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604271152|||59761^XXXXXXXX^XXXXXX||||201604271224|&Breast: Right Core Biopsy rdc ultrasound 14g|99999^XXXXXXXX^XXXXXX||||||201604281432||SPG|C|||||||99999^XXXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Specimen fixation details are as follows: biopsy taken April 27, 2016, time recorded on lid of specimen container (presumed time in formalin) - 11:50. Tissue block sent for processing April 27, 2016.\n\nThe specimen container, labeled with the patient's name and as \"right breast, core biopsy rdc ultrasound 14g\" contains five core like pieces of fibrofatty tissue, ranging in size from 0.3 x 0.1 cm to 1 x 0.1 cm received in 10% buffered formalin.\n1A submitted in toto (Specimen from RDC for overnight routine processing)\n\n\n\n\nPath report.site of origin\n\nBreast: Right Core Biopsy rdc ultrasound 14g\n\n\nPath report.final diagnosis\n\n1. Core biopsy, Right breast (ultrasound 14g):\n- Invasive duct carcinoma\n\n\n\nPath report.relevant Hx\n\nRight breast mass at 930 6FN, rule out malignancy\n\n\n\nPath report.comments\n\nSections show invasive duct carcinoma. In this material the Nottingham histologic score is estimated II to III/III.\n\nBIOMARKER STUDIES\n\nBlock / Tumor Stained:   Block: 1A\n   -Invasive breast carcinoma\nTEST(S) PERFORMED\nEstrogen Receptor (ER) Status:\n--POSITIVE\n---Tumor cells with Nuclear Positivity:   ----91-100%\n---Average Intensity of Staining:   ----Strong\n-Test Type:   --Laboratory-developed test\n-Primary Antibody:   --SP1\nProgesterone Receptor (PgR) Status:\n--POSITIVE\n---Tumor cells with Nuclear Positivity:   ----31-40%\n---Average Intensity of Staining:   ----Moderate\n-Test Type:   --Laboratory-developed test\n-Primary Antibody:   --16\nHER2 by Immunohistochemistry (IHC):\n--EQUIVOCAL (Score 2+)\n-Uniform Intense Complete Membrane Staining (%): 0\n-Test Type:   --Laboratory-developed test\n-Primary Antibody:   --4B5\nMETHODS\nCold Ischemia and Fixation Times:   Meet requirements specified in latest version of the ASCO / CAP Guidelines\nFixative:   Formalin\n   COMMENT\nHER2 FISH is pending\n\n\n\n\n\n"
+}

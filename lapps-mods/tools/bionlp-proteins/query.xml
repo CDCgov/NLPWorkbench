@@ -1,0 +1,23 @@
+<tool id="bionlp.proteins.query" name="List Protein Corpus keys matching a query" version="1.0.0">
+ <command>lsd $__tool_directory__/query.lsd $query $output
+ </command>
+ <inputs>
+  <param label="Query" name="query" type="text">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="txt" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+ Returns a list of the documents whose key (document ID) contains the given query string. 
+ 
+**Description**
+
+Includes Token, Token+pos, enju dependency parses annotated as Relation (with categories modOf, arg1Of, arg2Of, and arg3Of) in one view; Proteins in another.
+
+  ]]>
+ </help>
+</tool>

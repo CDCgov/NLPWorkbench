@@ -1,0 +1,23 @@
+<tool id="bionlp.reference.query" name="List Reference Corpus keys matching a query" version="1.0.0">
+ <command>lsd $__tool_directory__/query.lsd $query $output
+ </command>
+ <inputs>
+  <param label="Query" name="query" type="text">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="txt" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+ Returns a list of the documents whose key (document ID) contains the given query string. 
+
+**Description**
+
+Includes Token, Token+pos, enju dependency parses annotated as Relation (with categories modOf, arg1Of, arg2Of, and arg3Of) in one view; and event annotations, named entity annotations for Proteins, Relations between events and proteins (themeOf, causeOf, locationOf, equivalentTo), and Modification (Negation, Speculation), for 14 full paper articles about NFκB proteins in another.
+ 
+  ]]>
+ </help>
+</tool>

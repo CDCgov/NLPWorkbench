@@ -1,0 +1,129 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1178, 
+        1187
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        975, 
+        998
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1264, 
+        1284
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1082, 
+        1109
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1111, 
+        1115
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        625, 
+        654
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1215, 
+        1241
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1156, 
+        1177
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1116, 
+        1120
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1250, 
+        1254
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1122, 
+        1132
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1246, 
+        1249
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1243, 
+        1245
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH||CCO-OCR|20160504040051|AD626D2FD38E47915C72568020563E35A60858B1|ORU^R01|99999999999999999999|P|2.5|||\nPID|1||9999999^^^^CMR^HOSPITAL 3&9999&MOH~^^^^^&&~9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&HK&ON^^^^JHN|9999^9999999|XXXXX^XXXXXXXX^XXXXXX^^XX.^||99999999|M|XXXXX^XXXXX^^^^||XX XXX 99, 99 XXXXXXXX XXXXXX^^XXXXXXXXX^XX^X9X 9X9^999||9999999999|||||||||||||||||N||\nOBR|1||S16-8542|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604280000|||^XXXXX^XXXXXXXXX^^^^||||201604281017||^XXXXX^XXXXXXXXX^^^^||||||201605031409|||F|||||||99999^XXXX^XXXXXXXXX^XXXXX^^^||\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in a container labelled with the patient?s name and the designation LUL. It consists of 2 core needle biopsies and 4 fragments, submitted as follows:\nBlock A1 - 2 needle core biopsies measuring 0.6 cm and 0.4 cm in length.\nBlock A2 - 4 fragments, the largest measuring 0.1 cm in length.\n/es.\n\n\nPath report.relevant Hx\n\nLUL NODULE 3 X 20G CORE BIOPSY. B/L UPPER LOBE NODULE. PRE-OP DX: ? METASTASIS.\n\n\nPath report.final diagnosis\n\nLEFT LUNG, UPPER LOBE, CORE NEEDLE BIOPSY\n\t: POORLY DIFFERENTIATED CARCINOMA (SEE DIAGNOSIS COMMENT).\n\n\nPath report.site of origin\n\nA: LUL lung biopsy\n\n\nPath report.comments\n\nOn routine stains the tumour shows some features suggesting it may be a poorly differentiated adenocarcinoma. Immunohistochemistry is positive for pancytokeratin and prostatic acid phosphatase (ACP) but negative for PSA, CK7, CK20, GATA3, TTF1 and p40. This patient has a past history of prostate cancer and based on review of the HOSPITAL CPR is known to be BRCA mutation positive. Although ACP is not completely specific the immunophenotype is suggestive of metastatic prostate cancer as high grade prostatic adenocarcinoma may express low levels of PSA which is not detectable by immunohistochemistry. However close clinical correlation is required particularly with respect to other possible primary carcinomas associated with BRCA mutations.\n\n\n"
+}

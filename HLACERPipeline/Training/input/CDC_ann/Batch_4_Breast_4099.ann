@@ -1,0 +1,109 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1642, 
+        1665
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1295, 
+        1322
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1257, 
+        1262
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1324, 
+        1329
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1263, 
+        1271
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        1330, 
+        1338
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        652, 
+        681
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1527, 
+        1562
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1229, 
+        1255
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1498, 
+        1523
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1351, 
+        1357
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170919125829||ORU^R01^ORU_R01|201709191258290001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-008581^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170825000000|||||||20170825000000|&Lymph Nodes, Regional Resection|1881691780^^^^^^MD^^CMS^D^^^NPI||||||20170828000000|||F||||||C50.911^Malignant neoplasm of unspecified site of right female breast^I10~T81.89XA^Other complications of procedures, not elsewhere classified, initial encounter^I10~R59.0^Localized enlarged lymph nodes^I10|1073610754&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \", right axillary contents\" is an unoriented 6.8 x 4.3 x 4.0 cm aggregate of tan-yellow, lobulated fatty tissue. There are multiple pink-tan candidate lymph nodes measuring to 1.2 cm. There is a 2.0 cm focus of white-bright yellow possible scar tissue. The specimen is otherwise unremarkable. Representative sections are submitted, including each entire lymph node: 1A, possible scar tissue, 1/1; 1B, 2 candidate lymph nodes, 2/1; 1C-E, each contain 2 lymph nodes differentially inked and bisected, 4/1 each. (TTC)\n\n\nPath report.site of origin\n\nRight axillary contents (permanent)\n\n\nPath report.final diagnosis\n\nRight axillary contents:   Benign segment of fat with scarring, fat necrosis, and suture granuloma.   Seven regional lymph nodes with focal reactive dermatopathic changes.   No evidence of malignancy.\n\n\nPath report.microscopic examination\n\nStep sections stained with hematoxylin/eosin are microscopically evaluated.\n\n\nPath report.relevant Hx\n\nHistory - Right breast cancer\n\n\n"
+}

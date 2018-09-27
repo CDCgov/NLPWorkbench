@@ -1,0 +1,165 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2413, 
+        2419
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2420, 
+        2429
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2215, 
+        2238
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2532, 
+        2552
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2731, 
+        2751
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2343, 
+        2370
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2372, 
+        2377
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2480, 
+        2485
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1848, 
+        1877
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2452, 
+        2478
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2404, 
+        2412
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2431, 
+        2443
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2378, 
+        2384
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2486, 
+        2492
+      ]
+    }
+  ], 
+  "Relative Distance (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2513, 
+        2529
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2395, 
+        2399
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2500, 
+        2511
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3^9999^MOH|PIMS|CCO|20160504053110|E609C68649120188376C23A02EAA766E35BC2571|ORU^R01|99999999999|P|2.5|||||||||||\nPID|1||Y9999999^^^^CMR^HOSPITAL 3&9999&MOH~Y9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&VK&ON^^^^JHN||XXXXXX^XXXXXX^^^^^||99999999|F|||99 XXXXX XXX^^XXXXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||||||||||\nOBR|1||SC3403-16|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160323|||81372^XXXXXX^XXXX^XXXXXX^^^^||||||||||||20160503|||C|||||||99999^XX-XXXXXXX^XXXX^XXXXXXX XXXXX^^^^|||||||||||||||||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nRight breast, core biopsy (SC3403-16):\n- INVASIVE DUCTAL CARCINOMA, intermediate grade.\n- No lymphovascular invasion seen.\n- Biomarkers to follow in a separate report.\nFor details, please see consultation report S16-8092 (dated 4/6/2016) by Dr. Elzbieta\nSlodkowska at HOSPITAL 2.\nDIAGNOSIS\nRight breast biopsy - SC3403-16 ():\nSEE SYNOPTIC REPORT\nSpecimen\nSpecimen #:          SC3403-16 / S16-8092\nSpecimen Type:        Breast core\nTumour 1\nBlock #:           A1\nTumour Type:         See Surgical Pathology report of the specimen above\nER\n   ER Results:       POSITIVE\n   % Positive:       100%\n   Average Intensity:    Strong\n  \nPgR\n   PgR Results:       POSITIVE\n   % Positive:       20%\n   Average Intensity:    Strong\nHER2 by IHC\n   HER2 IHC Results:    NEGATIVE (SCORE 0)\nMethods\nCold Ischemia and Fixation Times Meet the requirements Specified in the Latest\nVersion of the ASCO/CAP Guidelines: No\n   Specify:          Fixation time over 72 hours\n   Fixative:          Formalin\n   Primary Antibody - ER:   SP1 (Health Canada approved)\n   Primary Antibody - PgR:   1E2 (Health Canada approved)\n   Primary Antibody - Her2:  4B5 (Health Canada approved)\nFor details, please see consultation report B16-854 (dated 4/11/2016) by Dr. Fang-I\nLu at HOSPITAL 2.\n\n\nPath report.gross description\n\nA: The specimen is labeled with the patient`s identification, submitted as \"right\nbreast core biopsy\" and consists of 3 cores of beige yellowish soft tissue measuring\nup to 1.0 cm in length and 0.1 cm in diameter. The specimen is submitted in toto, one\ncore to a block in blocks A1-A3.\nIschemic time: 00\nTissue fixation time: 4 days.\n\n\nPath report.relevant Hx\n\n60 YEAR OLD FEMALE WITH NEW INNER LOWER RIGHT BREAST NODULE 9.5 MM ON ULTRASOUND;\nLOBULATED BORDERS.\n\n\nPath report.final diagnosis\n\nRIGHT BREAST NODULE, 4-5:00:\n - INVASIVE DUCTAL CARCINOMA, INTERMEDIATE GRADE\n\n\nPath report.site of origin\n\nRIGHT BREAST NODULE 4-5 O'CLOCK, 6 CM FROM NIPPLE\n\n\nPath report.comments\n\nThis case has been reviewed; the above diagnosis is a consensus.\nBlock A1 will be sent for hormonal biomarkers to HOSPITAL hospital and results will\nbe issued as an addendum.\n\n\nPath report.comments\n\n1\n\n\n"
+}

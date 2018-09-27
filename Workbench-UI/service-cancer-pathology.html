@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cancer Pathology Service</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li class="active">Cancer Pathology Service</li>
+            </ol>
+            <h1>Cancer Pathology Service</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+			<p><a href="services.html"><span class="fa fa-arrow-alt-circle-left"></span> Back to Services</a></p>
+            <div><a href="#use">Use Case</a></div>
+            <div><a href="#approach">Approach to Address the Use Case</a></div>
+            <div><a href="#documentation">Documentation on How to Use the Service</a></div>
+            <div><a href="#demo">Demo</a></div>
+
+            <h2 id="use">Use Case</h2>
+            <p>There are four pathology services Stanford, OpenNLP, Gate and cTAKES.</p>
+
+            <ul>
+                <li>The services address the needs of cancer registries and other epidemiology organisations to convert
+                    text into categorical data or codes so they can more effectively identify what is the same although
+                    expressed in different language. Using the Pathology Coding Service will enable organisations to
+                    more readily complete this conversion from text to codes.
+                </li>
+
+                <li>The four services can be used to demonstrate differences between different pathology datasets using
+                    different pipelines.
+                </li>
+            </ul>
+
+            <h2>Identified Semantics</h2>
+
+            <p>The pathology services are designed to supply codes for 5 pieces of information:</p>
+            <ul>
+                <li>Body site of the cancer</li>
+                <li>Histology</li>
+                <li>Grade of disease</li>
+                <li>Behavior of the cancer</li>
+                <li>Laterality or side of the body where it is situated</li>
+            </ul>
+            <p>The Clinical Entity Recognition (CER) service supplies 22 different entities of information including structural information about the document, which is necessary for the finding the best location to extract the desired content.</p>
+            <p>The different clinical entities identified in the CER service need to be culled down to those that are most useful for deriving the wanted codes.</p>
+
+            <h2 id="approach">Approach to Address the Use Case</h2>
+            <p>This use case applies to organisations that want to extract content from pathology reports and code that content. The service is split into two services so that the Clinical Entity Recognition can be assessed independently from the coding process.</p>
+
+            <h2 id="documentation">Documentation on How to Use the Service</h2>
+            <ul>
+                <li><a href="clinical-entity-recognizer.html">See documentation on how to use the Clinical Entity Recognizer.</a></li>
+                <li><a href="coding-service.html">Documentation on how to use the Coding Service</a></li>
+            </ul>
+            <h2>Demo</h2>
+            <p>Four cancer pathology demos illustrate how NLP rule based and machine learning solutions work. View how the input of unstructured data is analyzed along with the output produced.</p>
+            <p><a class="btn btn-primary" href="demo_cancer.html">View Demo</a><span><a class="pull-right" href="#home">Top of Page ^</a></span></p>
+        </div>
+        <div class="col-md-4">
+
+			<div class="panel panel-default panel-amber-stripe" >
+				<div class="panel-body">
+					<h4 class="h4">Service Documentation</h4>
+					<p>See documentation on how to use the cancer pathology service.</p>
+					<ol>
+						<li><a href="clinical-entity-recognizer.html">See documentation on how to use the Clinical Entity Recognizer.</a></li>
+						<li><a href="coding-service.html">Documentation on how to use the Coding Service</a></li>
+					</ol>
+				</div>
+			</div>
+            <div w3-include-html="includes/workbench-support.html"></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+<!-- //footer -->
+<!--//main content start-->
+
+<!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+File input = new File(args[0])
+String template = args[1]
+File output = new File(args[2])
+
+//println template
+//template = desanitize(template)
+//println template
+//JsonTransformer transformer = new JsonTransformer(template)
+//output.text = transformer.transform(input.text)
+output.text = template
+return
+
+String desanitize(String template) {
+    def replacements = [["__gt__", ">"],
+    ["__lt__", "<"],
+    ["__sq__", "'"],
+    ["__dq__", '"'],
+    ["__ob__", "["],
+    ["__cb__", "]"],
+    ["__oc__", "{"],
+    ["__cc__", "}"],
+    ["__at__", "@"],
+    ["__cn__", "\n"],
+    ["__cr__", "\r"],
+    ["__tc__", "\t"],
+    ["__pd__", "#"]]
+
+    replacements.each { pair ->
+        template = template.replaceAll(pair[0], pair[1])
+    }
+
+    return template
+}
+
+

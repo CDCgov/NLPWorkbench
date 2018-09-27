@@ -1,0 +1,33 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2421, 
+        2444
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1882, 
+        1909
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1828, 
+        1854
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|AR Cancer Registry|20170918000102||ORU^R01^ORU_R01|201709180001020001|P|2.5.1|AR||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-11-039879^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170906000000|||||||20170907000000|&MP Peripheral blood|1851320691^^^^^^MD^^CMS^D^^^NPI||||||20170908000000|||F||||||C18.3^Malignant neoplasm of hepatic flexure^I10~C18.7^Malignant neoplasm of sigmoid colon^I10|1417124793&&&H.&&&&&CMS\nOBX|2|TX|22638-1^Path report.comments^LN||Molec Comments - Total RNA was isolated from approximately 1 X 10\\^7 WBC supplied in the  patient specimen. RNA was reverse transcribed and subjected to quantitative PCR  amplification of <I>BCR/ABL1</I> and <I>ABL1</I> genes (Ipsogen) and the  <I>BCR/ABL1:ABL1</I> ratio was calculated. This assay has a sensitivity of  approximately 2 copies of BCR/ABL1 mRNA and a linear reference  range of  approximately 250% to 0.025% <I>BCR/ABL1:ABL1</I>. This test was developed and  its performance characteristics determined by Associated Pathologists d/b/a  PathGroup.  Portions of this test use reagents designated by the manufacturer  as for research use, not for clinical use. It has not been approved by the US  Food and Drug Administration (FDA). The FDA has determined that such clearance  or approval is not necessary. This test is used for clinical purposes. It  should not be regarded as investigational or for research. The laboratory is  regulated under the Clinical Laboratory Improvement Act of 1988 as qualified to  perform high complexity clinical testing. <BR/><BR/>Hughes, et al., <i>Blood</i> 108:28-37,2006; Brandford, et al.,  <i>Blood</i> 112:3330-3338,2008.||||||F|||201709070000|44D0934312^Associated Pathologists, LLC d/b/a PathGroup^CLIA\n\n\n\n\n\n\n\nPath report.site of origin\n\nPeripheral Blood, 2-lav\n\n\nPath report.final diagnosis\n\nBCR/ABL Quant for Non-CML/Reviewer: SEE COMMENT BCR/ABL Quant for Non-CML/BCR/ABL Fusion Gene: DETECTED BCR/ABL Quant for Non-CML/Breakpoint: Major and Minor BCR/ABL Quant for Non-CML/BCR/ABL:ABL Ratio: 58.68 BCR/ABL Quant for Non-CML/Interpretation: Both the <I>BCR/ABL</I> major breakpoint (e13a2 and/or e14a2) and minor breakpoint (e1a2) were detected in this specimen. The <I>BCR/ABL</I> ratio listed above is from the higher of the two ratios.  BCR/ABL Quant for Non-CML/Specimen Type: Peripheral Blood\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of hepatic flexure (C18.3), Malignant neoplasm of sigmoid colon (C18.7)\n\n\n"
+}

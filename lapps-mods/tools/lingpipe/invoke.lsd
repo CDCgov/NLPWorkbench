@@ -1,0 +1,29 @@
+String service = args[0]
+String version = args[1]
+File input = new File(args[2])
+File output = new File(args[3])
+
+String url = "http://vassar.lappsgrid.org/invoker/anc:lingpipe.${service}_${version}"
+
+WebService client = new ServiceClient(url, 'tester', 'tester')
+output.text = client.execute(input.text)
+
+/*
+Data data = Serializer.parse(input.text, Data)
+String json = input.text
+if (data.discriminator == Uri.LIF) {
+	Container container = new Container(data.payload)
+	container.views.each { v ->
+		v.annotations.each { a ->
+			if (!a.features) a.features = [:]
+			if (!a.metadata) a.metadata = [:]
+		}
+	}
+	data.payload = container
+	json = data.asJson()
+}
+
+output.text = client.execute(json)
+*/
+
+

@@ -1,0 +1,149 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3763, 
+        3777
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5016, 
+        5039
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3672, 
+        3699
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3658, 
+        3663
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3708, 
+        3713
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        491, 
+        520
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4939, 
+        4974
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3630, 
+        3656
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3744, 
+        3752
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3753, 
+        3762
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4176, 
+        4177
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3664, 
+        3669
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3701, 
+        3706
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4117, 
+        4122
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4039, 
+        4056
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1018102^CLIA|eMARCPlus|TN Cancer Registry|20170929000224||ORU^R01^ORU_R01|201709290002240001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-CH-003220^PathSys^44D1018102^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170915000000|||||||20170916000000|&Colon, Segmental Resection for Tumor|1114164787^^^T^^^MD^^CMS^D^^^NPI||||||20170919000000|||F||||||C18.0^Malignant neoplasm of cecum^I10|1609968957&&&W.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe container is labeled as \", right colon.\" Received without fixative is a segment of colon with a small amount of distal ileum. The ileum measures 2.5 cm in length and 2.6 cm in diameter and the colon measures 19.0 cm in length and ranges from 3.5-6.0 cm in diameter. Up to 4.5 cm of attached mesenteric fat is present. Both margins are stapled closed. Attached to the cecum is a vermiform appendix measuring 3.0 cm in length and 0.6 cm in diameter. Serially sectioning the appendix reveals no dilation of the lumen, masses or areas of perforation. Opening the colon segment reveals the cecum to be filled with a red-tan exophytic mass measuring 6.0 x 5.8 cm. The mass involves the entire ileocecal valve, extending slightly into the distal ileum. The mass measures 2.0 cm from the proximal margin and 13.0 cm from the distal margin. The mass does not involve the appendiceal orifice. Serially sectioning the mass reveals it to invade up to 1.0 cm deep, focally extending through the muscularis propria and into the underlying fatty tissue. The mass focally approaches the free serosal surface with no identifiable involvement. The mass measures 3.5 cm from the closest area of the mesenteric margins. Located distal to the mass are 2 areas of mucosal red-brown discoloration and corresponding muscularis propria defects. One area is located 7.5 cm from the distal margin and measures 1.5 x 1.5 cm with no corresponding lesions. The 2nd area is located 3.5 cm from the distal margin and measures 1.1 x 0.9 cm with no corresponding lesions. No additional mucosal abnormalities are identified. Representative sections are submitted as follows: 1A, proximal margin, shaved off and entirely submitted; 1B, distal margin, shaved off and entirely submitted; 1C, appendix, 1D-1E, mass at the ileocecal valve including most likely areas of extension into the distal ileum with both sections full thickness and the free serosal surfaces inked blue; 1F-1H, mass at the deep areas of invasion with each section full thickness and the serosal surfaces inked blue; 1I, closet portion of the mesenteric margin to the mass; 1J-1K, entire more proximal area of mucosal discoloration and muscularis propria defect; 1L, entire more distal area of mucosal discoloration and corresponding muscularis propria defect. Serially sectioning and palpating the mesenteric fat reveals multiple possible lymph nodes ranging from 0.1-2.0 cm in greatest dimension. The larger sectioned lymph nodes reveal tan homogenous tissue throughout. The possible lymph nodes are each entirely submitted as follows: 1M-1N, 1 possible lymph node, serially sectioned; 1O, 1 possible lymph node serially sectioned; 1P, 1 possible lymph node serially sectioned; 1Q, 2 possible lymph nodes, each trisected and inked for differentiation; 1R-1T, 2 possible lymph nodes per cassette, each bisected and inked for differentiation; 1U-1W, 3 possible lymph nodes per cassette, each bisected and inked for differentiation; 1X, 6 possible lymph nodes each intact; 1Y, 5 possible lymph nodes, each intact; 1Z, remaining 7 possible lymph nodes each intact. (JOK)\n\n\nPath report.site of origin\n\nRight colon\n\n\nPath report.final diagnosis\n\nColon, right, robotic partial colectomy:   Invasive low-grade adenocarcinoma involving the cecum, 6.0 cm in greatest     dimension.   Tumor invades through muscularis propria into subserosal adipose tissue.   All margins free of tumor (2 cm from proximal margin).   Multiple (40) regional lymph nodes identified, all negative for tumor.  CANCER CHECKLIST: SPECIMEN  Procedure: Right hemicolectomy TUMOR  Tumor Site: Cecum  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: 6.0cm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor invades through the muscularis propria into pericolorectal tissue  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved  Distance of Invasive Carcinoma from Closest Margin: 2.0 cm from proximal margin LYMPH NODES  Number of Lymph Nodes Involved:  Zero  Number of Lymph Nodes Examined: 40 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor: pT3  Regional Lymph Nodes: pN0  Distant Metastasis: Not applicable\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm ascending colon\n\n\n"
+}

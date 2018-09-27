@@ -1,0 +1,37 @@
+<tool id="feat_extractor_gate" name="FeatureExtractor_GATE" version="0.1.0">
+  <description>Extract relevant from LIF files and generate BIO file as output</description>
+  <command interpreter="python">FeatureExtractor_GATECopy.py $input $output $pos $orth $type $chunk $code $left $right</command>
+  <inputs>
+    <param format="lif" name="input" type="data" label="Input file"/>
+    <param name="pos" type="select" label="Include POS tag information as feature">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>\
+    </param>
+    <param name="orth" type="select" label="Include Orthography information as feature">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>\
+    </param>
+    <param name="type" type="select" label="Include token type information as feature">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>\
+    </param>
+    <param name="chunk" type="select" label="Include NounChunker information as feature">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>\
+    </param>
+      <param name="code" type="select" label="Include SNOMEDCT-US code as feature">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>\
+    </param>
+    <param name="left" type="text" size="15" label="Number of tokens on the left to be included"/>
+    <param name="right" type="text" size="15" label="Number of tokens on the right to be included"/>
+  </inputs>
+  <outputs>
+    <data format="bio" name="output" />
+  </outputs>
+
+  <help>
+    Feature extraction process.
+  </help>
+
+</tool>

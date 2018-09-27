@@ -1,0 +1,193 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9508, 
+        9522
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9300, 
+        9323
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9913, 
+        9933
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9396, 
+        9423
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9734, 
+        9769
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8832, 
+        8861
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9811, 
+        9837
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9473, 
+        9481
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9482, 
+        9507
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9428, 
+        9433
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9544, 
+        9549
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9853, 
+        9858
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9887, 
+        9892
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        9444, 
+        9454
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9842, 
+        9852
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9876, 
+        9886
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9894, 
+        9910
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9425, 
+        9426
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9541, 
+        9542
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9839, 
+        9840
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9873, 
+        9874
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170919125849||ORU^R01^ORU_R01|201709191258490001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-GI-016233^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170824141600|||||||20170825000000|&Colon, Biopsy, Polyp, Colorectal|1225091564^ ^ ^J^^^MD^^CMS^D^^^NPI||||||20170825000000|||F||||||C18.6^Malignant neoplasm of descending colon^I10~K51.40^Inflammatory polyps of colon without complications^I10~R19.4^Change in bowel habit^I10|1679534671&&&&&&&&CMS\nOBX|6|TX|22639-9^Path report.supplemental reports^LN||Addendum Report: Results of mismatch repair protein immunohistochemistry:       - DNA mismatch repair enzymes intact (normal protein expression).       - See comment.   COMMENT: Immunohistochemical analysis (performed on representative tumor tissue) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present in both the tumor and adjacent non-neoplastic tissue components).  These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome.  Cancers with this profile are microsatellite stable (MSS).  If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result on the screening test, then consideration could be made for a genetic consult with additional testing.  [References available on request].   ## End of auxiliary report ## Ancillary Report: Immunoperoxidase staining was performed and evaluated with appropriate controls. Tumor cells are positive for CDX2.  CDX2 expression has important prognostic value in colorectal adenocarcinoma. Loss of CDX2 expression is associated with an aggressive clinical course including infiltrative growth, and advanced T, N, M and overall stage.  [N Engl J Med. 2016 Jan 21;374(3):211-22.][ Clin Colorectal Cancer. 2016 Sep 17.][ World J Gastroenterol. 2015 Feb 7;21(5):1457-67.]   ## End of auxiliary report ## Molecular Diagnostic Rpt:  Microsatellite Instability (MSI) Analysis by PCR/Reviewer: SEE COMMENT Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: Not Detected Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: This specimen showed no evidence of microsatellite instability in the 5  microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27) examined.  This result is consistent with a competent mismatch repair function.  Cancers  with this profile are microsatellite stable (MSS).<BR/><BR/>Microsatellite  Instability Analysis has multifaceted clinical utility: as a predictive  biomarker for immune checkpoint inhibitor therapy response; as a prognostic and  predictive biomarker for colorectal carcinoma; and as a genetic risk biomarker  for the presence of a hereditary cancer syndrome such as Lynch  Syndrome.<BR/><BR/>As an immune checkpoint inhibitor therapy biomarker, recent  literature (Le, et al., <i>N Engl J Med</i> 372:2509-2520; Topolian, et al.,  <i>Nature Reviews Cancer</i> 16:275-287) indicates that, in general, patients  that are Microsatellite Stable (MSS) have a poorer response to immune  checkpoint inhibitor therapy.<BR/><BR/>MSS tumors have poorer prognosis than  MSI-H tumors, and better response to 5-fluorouracil (5-FU) adjuvant  chemotherapy. <BR/><BR/>As a genetic risk biomarker, the result of MSS is  inconsistent with Lynch syndrome. However, if the clinical suspicion remains  high for Lynch syndrome (or other hereditary cancer syndromes, such as  attenuated familial adenomatous polyposis) despite this negative result,  consideration should be given to a genetic consult to direct additional  testing. <BR/><BR/>Interpretation of this result of MSS in the context of other  clinical and laboratory findings is strongly recommended.  Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: See Below Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: 17-GI-016233 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 1A Microsatellite Instability (MSI) Analysis by PCR/Tumor Percentage: 21-50%  ## End of auxiliary report ## Smart Genomics NGS:  SGNGS Impression - <p>Review of the accompanying pathology report indicated colorectal adenocarcinoma. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. <strong>PIK3CA E545K and TP53 G244V mutations were DETECTED</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table. </p>  <p>Approximately 15% 20% of colorectal cancers harbor activating mutations in PIK3CA, which<em> </em>may be a potential biomarker in identifying colorectal cancer patients with an increased risk for local recurrences. Limited studies support the use of aspirin in patients with PIK3CA mutated colorectal cancers as this has been associated with prolonged survival.  PIK3CA mutations may be associated with clinical resistance to EGFR-targeted monoclonal antibodies, but there have been conflicting results. PIK3CA inhibitors are being actively investigated in Phase I and II clinical trials in patients with tumors that harbor PIK3CA mutations.  A large population-based study has reported that the presence of an activating PIK3CA mutation is independently associated with shorter survival in patients with stage I to III operable colorectal cancers, but only in the absence of a concurrent KRAS mutation. </p>  <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context.  </p>   ## End of auxiliary report ## Fish Report:  FISH - - Negative for MET gene amplification. Positive for polysomy of chromosome 7.   - Negative for HER2 gene amplification. Positive for polysomy of chromosome 17.     ## End of auxiliary report ## Smart Genomics Summary:  SGTS Impression - <p>Review of the accompanying pathology report indicated colorectal adenocarcinoma. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. <strong>PIK3CA E545K and TP53 G244V mutations were DETECTED</strong> by targeted next generation sequencing. No other mutations were detected in the genomic regions summarized in the NGS Gene Table. </p>  <p>Approximately 15% 20% of colorectal cancers harbor activating mutations in PIK3CA, which<em> </em>may be a potential biomarker in identifying colorectal cancer patients with an increased risk for local recurrences. Limited studies support the use of aspirin in patients with PIK3CA mutated colorectal cancers as this has been associated with prolonged survival.  PIK3CA mutations may be associated with clinical resistance to EGFR-targeted monoclonal antibodies, but there have been conflicting results. PIK3CA inhibitors are being actively investigated in Phase I and II clinical trials in patients with tumors that harbor PIK3CA mutations.  A large population-based study has reported that the presence of an activating PIK3CA mutation is independently associated with shorter survival in patients with stage I to III operable colorectal cancers, but only in the absence of a concurrent KRAS mutation. </p>  <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context.  </p>   ## End of auxiliary report ##||||||F|||201708290000|44D0934312^Associated Pathologists, LLC d/b/a PathGroup^CLIA\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received in formalin labeled \", descending colon proximal mid\" are multiple tan tissues ranging from 0.2 to 0.6 cm in greatest dimension. The specimens are entirely submitted in cassette 1A, M/1. 2. Received in formalin labeled \", sigmoid proximal mid, distal, descending colon\" are multiple tan tissues with fecal material ranging from 0.1 to 0.4 cm in greatest dimension. The specimens are entirely submitted in cassette 2A, M/1.\n\n\nPath report.relevant Hx\n\nHistory - Abnormal CT of the splenic flexure, change in bowel habits\n\n\nPath report.final diagnosis\n\n1. Colon, proximal descending mass, biopsy:     Invasive moderately differentiated adenocarcinoma.     See comment. 2. Colon, distal descending and proximal sigmoid, polypectomy x 2:     Fragments of colonic mucosa with high-grade dysplasia.     Separate fragment of inflammatory polyp with melanosis coli.\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Descending colon, proximal mid 2. Descending colon, sigmoid proximal\n\n\nPath report.comments\n\nComments - 1. Michelle in Dr. 's office was notified of the diagnosis at 2:57 p.m. CST on 08/25/2017. SmartGenomics colon profile is pending, results to be reported separately. FISH Comments - Fluorescence in situ hybridization (FISH) revealed no evidence of MET (7q31.2) gene amplification. The MET/CEP7 ratio was 1.01. However, 1-2 additional copies of MET and CEP7 (centromere 7) were detected in 41% of cells analyzed, indicating polysomy of chromosome 7. Gain of MET and/or chromosome 7 is an independent prognostic factor associated with a poor prognosis in many neoplasms, including colorectal cancer.   FISH revealed no evidence of HER2 (17q12) gene amplification. The HER2/CEP17 ratio was 1.37. However, 1-3 additional copies of HER2 and CEP17 (centromere 17) were detected in 34% of cells analyzed, indicating polysomy of chromosome 17. The clinical significance of this finding is unknown.    Monitoring for these anomalies may be useful in assessing the patient`s remission/relapse status.   It should be noted that the FISH probes utilized in this analysis cannot entirely exclude the presence of other chromosomal abnormalities. Correlation with classic cytogenetics, clinical, flow cytometric, and morphological data is recommended, if available.   FISH analysis was performed on interphase cells using the following multiplex probes:  CEP7/MET (Centromere 7/7q31) (Abbott Molecular, Inc., Des Plaines, IL)  CEP17/HER2 (Centromere 17/17q12) (Abbott Molecular, Inc., Des Plaines, IL)   References:  Nat Med. 2012 Feb 12;18(3):382-4; Oncol Rep. 2012 Oct;28(4):1187-92; J Clin Oncol. 2009 Apr 1;27(10):1667-74; J Thorac Oncol. 2010 Mar;5(3):305-13; J Clin Oncol. 2012, 30(35):4352-9; Am Soc Clin Oncol Educ Book. 2014;34:e353-65; Cancers (Basel). 2015 May 26;7(2):930-49; Tumour Biol. 2015 Dec;36(12):9813-21. Molec Comments - The tissue specimen was reviewed by a pathologist and representative areas of tumor and normal tissue selected. These areas were microdissected from the surrounding tissue, and genomic DNA extracted using standard methods (QIAGEN QIASymphony). The tumor and normal DNA were separately PCR amplified for five microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27; Promega Corp.), and size fractionated via capillary electrophoresis (Life Technologies 3500xl). The tumor and normal profiles were compared to determine the presence of altered microsatellite profiles. The analytic sensitivity of the assay is approximately 10-20% and is dependent on the size and clonality of any instability. The presence of instability in less than 10-20% of the DNA examined will not be detected. This assay uses reagents that may be marked as Research Use Only or Analyte Specific Reagent. This test was developed and its performance characteristics determined by PathGroup. Portions of this test use reagents designated by the manufacturer as for research use, not for clinical use. It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. <BR/><BR/>Klump B,et al. <i>Int J Colorectal Dis</i> Vol 19:23-42, 2004; Grady WM.<i>Cancer Metastasis Rev</i> Vol 23:11-27, 2004; Umar, et al., <i>J Natl Cancer Inst</i> Vol 96:261-268, 2004; Popat S, Hubner R, Houlston RS. <i>Prognosis J Clin Oncol</i> Vol 23(3):609-618, 2005; Ribic CM, et al.,<i> N Engl J Med.</i> Vol 349(3):247-257, 2003; D. J. Sargent, et al.,<i>J Clin Oncol</i> Vol 26 (May 20 suppl; abstr 4008), 2008; P L Barratt, et al., <i>Lancet</i> Vol 360: 1381-91, 2002; Bertagnolli MM, et al., <i>J Clin Oncol</i> Vol 27(11):1814-1812, 2009; Marcus VA, et al., <i>Am J Surg Pathol</i> Vol23:1248-55, 1999; Lindor NM, et al., <i>J Clin Oncol</i> Vol20: 1043-1048, 2002;Boland CR, et al., <i>Cancer Res</i.Vol 58(22):5248-57, 1998; Palomaki GE, et al., <i>Genetics in Medicine</i> Vol 11(1):42-65, 2009 .\n\n\n"
+}

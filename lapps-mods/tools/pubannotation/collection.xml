@@ -1,0 +1,36 @@
+<tool id="pubannotation.collection" name="Create collection" version="1.0.0">
+ <command>lsd $__tool_directory__/collection.lsd $repo $type "$keywords"</command>
+ <inputs>
+  <param name="repo" label="Repository" type="select">
+   <option value="PubMed" selected="true">PubMed</option>
+   <option value="PMC">PubMed Central</option>
+  </param>
+  <param name="type" label="Format" type="select">
+   <option value="json" selected="true">JSON (with annotations)</option>
+   <option value="txt">LIF (text only)</option>
+  </param>
+  <param name="keywords" label="Keywords" type="text"/>
+ </inputs>
+ <outputs>
+  <collection format="lif" label="PubAnnotation Corpus" name="list_output" type="list">
+   <discover_datasets directory="outputs" pattern="__designation_and_ext__" visible="false">
+   </discover_datasets>
+  </collection>
+ </outputs>
+ <tests>
+ </tests>
+ <help>
+  <![CDATA[
+
+**What it Does**
+
+Creates a Data Collection with a selection of documents from the `PubAnnotation Corpus <http://pubannotation.org>`_.
+
+.. class:: infomark
+
+
+**License**
+
+]]>
+ </help>
+</tool>

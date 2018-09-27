@@ -1,0 +1,93 @@
+
+/****************************************************************************/
+/* How to install the Windows version of the TreeTagger                     */
+/*                                                                          */
+/* Author: Helmut Schmid, CIS, Ludwig-Maximilians-Universität, Germany      */
+/****************************************************************************/
+
+This is the Windows distribution of the TreeTagger.
+
+It contains the following files:
+
+- tree-tagger.exe: the tagger program
+
+- train-tree-tagger.exe: the training program
+
+- utf8-tokenize.perl: A Perl script which transforms the tagger input
+                    into one-word-perl-line format
+
+- *-abbreviations:  abbreviation lists required by the tokenizer
+
+- tag-*.bat:        batch files for different languages which call 
+                    the tokeniser and the tagger 
+
+- chunk-*.bat	    batch files for POS tagging and chunking
+
+
+Installation
+------------
+
+1. Install a Perl interpreter (if you have not already installed one).
+   You can download a Perl interpreter for Windows for free at
+   http://www.activestate.com/activeperl/
+
+2. Extract the zip file (if it was not extracted yet) and move the
+   TreeTagger directory to the root directory of drive C:\.
+
+3. Download the parameter files for the languages you need, decompress
+   them (e.g. using Winzip or 7zip) and move them to the subdirectory TreeTagger/lib.
+   Rename the parameter files to <language>-utf8.par
+   Example: Rename french-par-linux-3.2-utf8.bin to french-utf8.par
+
+   Non-UTF8 parameter files are not supported anymore.
+
+4. Add the path C:\TreeTagger\bin to the PATH environment
+   variable. The necessary steps differ from one Windows version to the other.
+
+5. Open a command prompt window and type the command
+   set PATH=C:\TreeTagger\bin;%PATH%
+
+6. Go to the directory C:\TreeTagger
+   cd c:\TreeTagger
+
+7. Now you can test the tagger, e.g. by analyzing this file with the command
+   tag-english INSTALL.txt
+
+If you install the TreeTagger in a different directory, you have to
+modify the first path in the batch files tag-*.bat using an editor
+such as Wordpad.
+
+
+Michaela Atterer told me that she had difficulties to install the
+TreeTagger on a Windows XP system. She recommends the following
+work-around.
+
+4. Windows XP:
+-Right click on "My Computer"
+-Select the "Advanced" tab
+-Click on "Environment Variables"
+-click on New: enter PATH and C:\TreeTagger\bin\;%PATH%
+
+If the files have been unpacked into a single directory, you should
+restore the following directory structure:
+
+TreeTagger:
+INSTALL.txt  README.txt  bin  cmd  lib
+
+TreeTagger/bin:
+tag-english.bat  tag-german.bat   tag-spanish.bat        tree-tagger.exe
+tag-french.bat   tag-italian.bat  train-tree-tagger.exe
+
+TreeTagger/cmd:
+mwl-lookup.perl  tokenize.pl
+
+TreeTagger/lib:
+english-abbreviations  german-abbreviations   spanish-abbreviations
+french-abbreviations   italian-abbreviations  spanish-mwls
+
+
+Note that the TreeTagger comes without a graphical interface. You have
+to run it by entering a command in a command line window. If you prefer 
+a graphical interface, try the one provided by Ciarán Ó Duibhín at
+http://www.smo.uhi.ac.uk/~oduibhin/oideasra/interfaces/winttinterface.htm
+

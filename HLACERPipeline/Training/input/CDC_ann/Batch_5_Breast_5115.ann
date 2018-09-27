@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1635, 
+        1641
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1642, 
+        1651
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1489, 
+        1512
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1697, 
+        1717
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1785, 
+        1805
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1547, 
+        1574
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1579, 
+        1584
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1682, 
+        1687
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1208, 
+        1237
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1654, 
+        1680
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1626, 
+        1634
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1585, 
+        1591
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1688, 
+        1694
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1576, 
+        1578
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 10^9999^MOH|PIMS|CCO|20160504031516|3D88CBD6ACF6BA476C0B2601C26C781ADD3E8002|ORU^R01|99999999999|P|2.5||||||\nPID|1||K9999999^^^^CMR^HOSPITAL 10&9999&MOH~K9999999^^^^MRN^HOSPITAL 10&9999&MOH~9999999999&EE&ON^^^^JHN||XXXXXXXX^XXXXX^ XXX^^^^||99999999|F|||9 XXXXXXXXX XXXXXX^^XX. XXXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||16S:5556|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160315|||21197^XXXX^XXXX X. X.^^^^||||||||||||20160503|||C|||||||^^^^^^|||||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nAs stated in the ER/PR/HER2neu report from St. Joseph's Healthcare in\nHOSPITAL dated 29/04/16, results are as follows:\n16S:5556, Block # A (selected block of tumour) Right Breast: Using DAKO\nHerceptest detection system, the infiltrating carcinoma cells are negative for\nHER2 (1).\nER Positive\nPGR Positive\nRefer to the ER/PR/HER2neu report from Dr.G.Gohla at St. Joseph's Healthcare,\n50 Charlton Avenue East, HOSPITAL, ON L8N 4A6, their reference/accession #\n16:RR1063 received at the St. Catharines Pathology Office, on 29/04/16.\nHard copies have been forwarded to Health Records, physicians named on the\nsurgical pathology report and pathologist as applicable.\n\n\nPath report.gross description\n\nContainer labeled matches patient requisition. Specimen received in formalin\nlabeled right breast biopsy contains 3 fragments of tan-yellow cylindrical\nfibrofatty tissue 1.0-1.5 cm in length by 0.2 cm in diameter; submitted in\ntoto in 2 cassettes.\n\n\nPath report.relevant Hx\n\nRIGHT BREAST RETROAREOLAR LUMP\n\n\nPath report.final diagnosis\n\n1. Right Breast Needle Biopsy ,retroareolar lump- Invasive Ductal Carcinoma\n\n\nPath report.site of origin\n\nRight breast\n\n\nPath report.comments\n\nCold Ischemic Time: 4 MINUTES\nTotal Fixation Time: 6 - 48 HOURS\n\n\nPath report.comments\n\nUS GUIDED CORE BX\n\n\n"
+}

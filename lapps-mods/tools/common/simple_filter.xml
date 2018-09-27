@@ -1,0 +1,22 @@
+<tool id='lapps.tools.simple_filter' name='Filter Annotations by type' version='1.0.0'>
+    <description>Select views with the specified annotation type.</description>
+    <command interpreter='lsd'>simple_filter.lsd $input $output $type $pretty</command>
+    <inputs>
+        <param name='input' type='data' format='json,lif' label='Input'/>
+        <param name="type" type="select" label="Annotations">
+           <option value="tok">Tokens</option>
+           <option value="pos">Tokens+POS</option>
+           <option value="s">Sentences</option>
+           <option value="ne">Named Entities</option>
+           <option value="nc">Noun Chunks</option>
+           <option value="vc">Verb Chunks</option>
+           <option value="none">None</option>
+        </param>
+        <param name="pretty" type="boolean" label="Pretty print result"/>
+    </inputs>
+    <outputs>
+        <data name='output' format='lif'/>
+    </outputs>
+    <help>Copies the view(s) with the selected annotation types to the end of the list of views.
+    </help>
+</tool>

@@ -1,0 +1,177 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1210, 
+        1223
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1298, 
+        1311
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1197, 
+        1207
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1224, 
+        1233
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1285, 
+        1295
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1312, 
+        1321
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        969, 
+        992
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1110, 
+        1137
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1462, 
+        1466
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        575, 
+        604
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1512, 
+        1547
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1405, 
+        1431
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1184, 
+        1196
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1272, 
+        1284
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1467, 
+        1474
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1139, 
+        1140
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1234, 
+        1235
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1433, 
+        1434
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1475, 
+        1476
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3^9999^MOH|PIMS|CCO|201605021612|73B75D2762D5D3EE59B31DEFA6A574F3EA564874|ORU^R01|WRH20160502041241004|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 3&9999&MOH~999999^^^^MRN^WRH-O HOSPITAL&9999&MOH~9999999999&&ON^^^^JHN||XXXXX^XXXXXXX||99999999|M|||9999 XXXXXXX XXX^^XXXXXXX^XX^X9X9X9^999||9999999999^^ON|||||5285175252^^ON||||||||||||N|\nOBR|1||WC16-50471|33716-2^Study Report: Cytology.non-gyn^LN^C^Cytology^L|||201604281924|||56152^XXXXXXXX^XXXXXXX||NURSE^^^^^^^L||201604281924||||||||201605021612||CW^WRH|F||^^201604281924|||||99999^XXXX^XXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nPatient identification verified\nA) Specimen: Bronchial Alveolar Lavage left lingula\nSpecimen consists of 20 ml of red fluid that is prepared into one cell\nblock and one Thinprep slide for evaluation.\nB) Specimen: Bronchial Brushing left lingula\nSpecimen is received in Cytolyt Fixative and prepared into one cell\nblock and one Thinprep slide for evaluation.\nlc\n\n\nPath report.relevant Hx\n\nCLINICAL Impression as provided - Mass lingula ? NSCLC. Please correlate\nwith surgical pathology case WS 16 55086\n\n\nPath report.final diagnosis\n\nA) Bronchial Alveolar Lavage left lingula:\n- Positive for malignancy\n- Squamous cell carcinoma\nB) Bronchial Brushing left lingula:\n- Positive for malignancy\n- Squamous cell carcinoma\nPlease correlate with surgical pathology WS16-55086\nCONSULTATION: Not Indicated.\n\n\nPath report.site of origin\n\nA) Bronchial Alveolar Lavage left lingula\nB) Bronchial Brushing left lingula\n\n\nPath report.microscopic observation\n\nPatient identification verified\nA) Bronchial Alveolar Lavage left lingula: Slides contain abundant\nsingle malignant squamous cells with hyperchromatic nuclei and\nkeratinized cytoplasm. Abundant neutrophils, macrophages and bronchial\ncells are also seen. Findings are positive for squamous cell carcinoma.\nB) Bronchial Brushing left lingula: Slide contains occasional single\nmalignant squamous cells with hyperchromatic nuclei and keratinized\ncytoplasm. Abundant neutrophils are seen in the background. Findings are\npositive for squamous cell carcinoma.\nDictation Number: CR\n\n\n"
+}

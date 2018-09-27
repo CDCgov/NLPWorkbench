@@ -1,0 +1,29 @@
+<tool id="simple_oaqa_evaluation" name="Simple OAQA Evaluation" version="2.2.0">
+    <description>Run the OAQA evaluation service at CMU</description>
+    <command interpreter="lsd">simple_oaqa.lsd $gold $test $type $format $output $version</command>
+    <inputs>
+        <param name="gold" type="data" format="lif" label="Gold Data"/>
+        <param name="test" type="data" format="lif" label="Test Data"/>
+        <param name="type" type="select" label="Annotations">
+            <option value="tok">Tokens</option>
+            <option value="pos">Tokens + pos</option>
+            <option value="ne">Named Entities</option>
+        </param>
+        <param name="format" type="select" label="Output Format">
+        	<option value="html" selected="true">HTML</option>
+        	<option value="json">JSON</option>
+        </param>
+        <param name="version" type="select" label="Version">
+            <option value="1.0.0-SNAPSHOT" selected="True">1.0.0</option>
+            <option value="0">0.0.1</option>
+        </param>
+    </inputs>
+    <outputs>
+        <data name="output" format="html" label="Evaluation"/>
+    </outputs>
+    <help>
+        Performs evaluation comparing the test data to gold standard data.
+
+        The evaluation will be performed on the annotations in the last view in each document.
+    </help>
+</tool>

@@ -1,0 +1,36 @@
+
+String terms = args[0]
+File output = new File(args[1])
+
+def replacements = [["__gt__", ">"],
+    ["__lt__", "<"],
+    ["__sq__", "'"],
+    ["__dq__", '"'],
+    ["__ob__", "["],
+    ["__cb__", "]"],
+    ["__oc__", "{"],
+    ["__cc__", "}"],
+    ["__at__", "@"],
+    ["__cn__", "\n"],
+    ["__cr__", "\r"],
+    ["__tc__", "\t"],
+    ["__pd__", "#"]
+]
+
+replacements.each { pair ->
+    terms = terms.replaceAll(pair[0], pair[1])
+}
+
+println output.path
+output.text = terms
+/*
+def algorithms = args[0].tokenize(',')
+
+Map scores = [:]
+scores.brevity = args[1] as double
+scores.offset  = args[2] as double
+scores.term = args[3] as double
+scores.match = args[4] as double
+File output = new File(args[5])
+*/
+

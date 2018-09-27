@@ -1,0 +1,31 @@
+<tool id="gigaword.load" name="Get a document" version="1.0.0">
+  <command interpreter="lsd">load.lsd $token $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="txt"/>
+      <param name="token" type="data" format="oauth" label="OAuth Token"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="lif" label="Output"/>
+  </outputs>
+  <!--
+  <tests>
+    <test>
+      <param name="input" value="/Users/suderman/Projects/Galaxy/text.json"/>
+      <output name="output" file="/Users/suderman/Projects/Galaxy/tokens.json"/>
+    </test>
+  </tests>
+  -->
+  <help><![CDATA[
+  
+Retrieves a single document from English Gigaword 5th Ed.
+  
+Unlike the *get* tool, this tool expects the document key to be
+stored in the input file.
+       
+**License**
+
+The `English Gigaword corpus <https://catalog.ldc.upenn.edu/ldc2003t05>`_  is distributed under `LDC Membership Agreement <www.ldc.upenn.edu/members/agreements>`_ or `User Agreement for Non-Members <catalog.ldc.upenn.edu/license/ldc-non-members-agreement.pdf>`_
+
+]]>
+  </help>
+</tool>

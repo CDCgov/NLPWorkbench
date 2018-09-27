@@ -1,0 +1,6 @@
+
+File input = new File(args[0])
+File output = new File(args[1])
+
+def service = new ServiceClient("http://grid.anc.org:9080/GateAbner/1.0.0-SNAPSHOT/services/AbnerTagger")
+output.text = service.execute(input.text)

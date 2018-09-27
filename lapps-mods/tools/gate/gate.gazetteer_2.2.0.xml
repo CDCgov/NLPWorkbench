@@ -1,0 +1,31 @@
+<tool id='anc_gate.gazetteer_2.2.0' name='GATE Gazetteer v2.2.0' version='1.0.0'>
+  <description>GATE Gazetteer</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.gazetteer_2.2.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+
+GATE Gazetteer
+
+Required Annotations
+--------------------
+* http://vocab.lappsgrid.org/Token
+
+Generated Annotations
+---------------------
+* http://vocab.lappsgrid.org/Lookup
+
+**License**
+
+Gate Developer is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

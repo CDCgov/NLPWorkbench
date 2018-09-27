@@ -1,0 +1,227 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4582, 
+        4596
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5555, 
+        5569
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4184, 
+        4207
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10125, 
+        10145
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4280, 
+        4307
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        646, 
+        675
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        9966, 
+        10001
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10043, 
+        10069
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4429, 
+        4452
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4547, 
+        4555
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4556, 
+        4581
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5593, 
+        5618
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5590, 
+        5591
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5531, 
+        5536
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10097, 
+        10102
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5520, 
+        5530
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10074, 
+        10082
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10086, 
+        10096
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4339, 
+        4341
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4454, 
+        4456
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10071, 
+        10072
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        10083, 
+        10084
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7077, 
+        7109
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5282, 
+        5299
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^18D0326107^CLIA|eMARCPlus|KY Cancer Registry|20170917000047||ORU^R01^ORU_R01|201709170000470001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-56-002269^PathSys^18D0326107^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170830000000|||||||20170831000000|&Appendix,  other than incidental, Colon, Segmental Resection for Tumor|1851436646^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C18.4^Malignant neoplasm of transverse colon^I10~C16.9^Malignant neoplasm of stomach, unspecified^I10~K29.50^Unspecified chronic gastritis without bleeding^I10|1568573293&&&S.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received in formalin labeled \", appendix\" is an appendix with attached mesoappendix. The appendix is 6.2 cm in length and has a diameter ranging from 0.7 to 1.0 cm. The serosa is tan-gray blotchy with areas of adhesions and tan-white exudate. The wall averages 0.1 cm. The lumen is filled with soft brown fecal material. The proximal margin is inked blue. Representative sections are submitted in cassette 3A to include the proximal margin, 3/1. 2. Received in formalin labeled \"\" and \"transverse colon and partial stomach\" is a portion of bilateral stapled colon, firmly adherent on the opposing side is a portion of stomach also containing staples. Also adherent to the colon is a part of omentum. The segment measures 15.6 cm in length and has an average circumference of 10.1 cm in exception to the middle of the segment where it is strictured and contains a circumferential mass. The opposing side of the colon displays a firmly adhered portion of stomach, 10.8 x 5.1 cm that displays a Y-shaped staple line. The adherent omentum radiates up to 19.0 cm. (SB20/mlm) Upon opening the segment of colon, there is a 5.6 x 5.0 cm pink-tan circumferential lesion found within the mid portion of the segment. The lesion extends up to 4.5 cm from 1 margin and 6.5 cm from the opposing margin. Sectioning of the lesion reveals an underlying thickness of 3.6 cm with direct gross invasion into the adherent portion of stomach. The lesion extends up to 1.5 cm from the nearest resected margin, serosal invasion is not grossly evident. (SB20/mlm) The remainder of the colon displays pink-tan mucosa with folds arranged in the usual manner. The wall averages 0.2 cm in thickness. The surrounding serosa and subserosal adipose tissue is mostly grossly unremarkable in exception to an area of puckering that is adjacent to extension of the lesion. (SB20/mlm) The direct extent of the colon lesion into the stomach displays a pink-tan mass, 2.5 cm in greatest dimension. The lesion is approximately 1.0 cm from the nearest stapled Y-shaped margin. The remainder of the gastric mucosa is pink-tan with normal rugae folds. The wall averages 0.3 cm in thickness. (SB20/mlm) Please note there is scant surrounding subserosal adipose tissue. Sectioning of the surrounding adipose tissue reveals a few lymph nodes ranging in size from 0.7 cm up to 0.8 cm. Please note the remainder of the fatty tissue is trimmed away and placed in O-Fixative for further lymph node candidate dissection if needed. SB20/mlm) Summary of sections: 2A, colon margins, 2/1; 2B-2C, full thickness bisected section of lesion with invasion into adherent stomach, junction of the 2 sections inked green (2B contains colon half and 2C contains stomach half), 1/1 each; 2D, lesion with black inked nearest resected margin and blue inked serosal puckering, 1/1; 2E, lesion with adjacent serosa, 1/1; 2F, lesion with adjacent normal mucosa, 1/1; 2G, section of lesion within stomach, 1/1; 2H, 2 sections of Y-shaped margin from stomach, 2/1; 2I, additional section of lesion with adjacent serosa, 1/1. 2I, 1 lymph node bisected, 2/1; 2K, 3 lymph nodes, 3/1; 2L, sections of fatty tissue with adjacent vessels, multiple/1; 2M, area of fat necrosis nodule found underlying colon, 1/1; 2N, possible intact nodes, 3/1; 2O, 1 bisected node, 2/1; 2P-2Q, each contain 1 section of lymph node, 3/1 each. (SB20/mlm) Additional sections are submitted of fatty tissue with adjacent vessels and possible lymph node candidates in cassettes 2R-V, M/1 each. (csb)\n\n\nPath report.relevant Hx\n\nHistory - Malignant tumor of transverse colon, need for chemo access\n\n\nPath report.final diagnosis\n\nAMENDED REPORT -- SEE COMMENT 1. Appendix, appendectomy:     Appendix with no significant histopathological change.     Negative for malignancy. 2. Transverse colon and partial stomach, transverse colectomy and partial   gastrectomy:     Invasive moderately differentiated adenocarcinoma of colon directly invading       into stomach (see comment).     Both colonic margins of resection are free of malignancy.     Gastric margins of resection are free of malignancy.     Negative for angiolymphatic invasion.     Lymph node with sinus histiocytosis, no evidence of metastasis, total of       fifteen lymph nodes examined (0/15).     Focal area of chronic serositis, numerous foamy histiocytes, foreign body giant       cells suggestive of perforation.     Chronic inactive gastritis with prominent lymphoid aggregates.       Immunohistochemical stain and H and E stain are negative for Helicobacter         pylori like organisms.     Pathological TNM stage: pT4b, N0, MX. CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Other (specify)  Other (specify): Transverse colectomy and partial gastrectomy TUMOR  Tumor Site: Transverse colon  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 5.6cm  Additional Dimension in Centimeters (cm): 5cm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor directly invades adjacent structures (specify)  Tumor directly invades adjacent structures (specify): stomach  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified  Type of Polyp in Which Invasive Carcinoma Arose: Tubular adenoma  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#  Margins Examined: Proximal, Distal  Distance of Invasive Carcinoma from Closest Margin: Specify in Centimeters (cm)  Specify in Centimeters (cm): 4.5cm  Specify Closest Margin: Cannot be determined (explain) LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 15 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT): pT4b: Tumor directly invades or adheres to adjacent organs or structures  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s) ADDITIONAL FINDINGS  Additional Pathologic Findings: None identified\n\n\nPath report.supplemental reports\n\nAncillary Report: Immunoperoxidase staining was performed and evaluated with appropriate controls. Tumor cells show focal loss of CDX2. CDX2 expression has important prognostic value in colorectal adenocarcinoma. Loss of CDX2 expression is associated with an aggressive clinical course including infiltrative growth, and advanced T, N, M and overall stage. [N Engl J Med. 2016 Jan 21;374(3):211-22.][ Clin Colorectal Cancer. 2016 Sep 17.][ World J Gastroenterol. 2015 Feb 7;21(5):1457-67.]  ## End of auxiliary report ## Addendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment. ## End of auxiliary report ## Molecular Diagnostic Rpt: Microsatellite Instability (MSI) Analysis by PCR/Reviewer: SEE COMMENT Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: Not Detected Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: This specimen showed no evidence of microsatellite instability in the 5 microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27) examined. This result is consistent with a competent mismatch repair function. Cancers with this profile are microsatellite stable (MSS).<BR/><BR/>Microsatellite Instability Analysis has multifaceted clinical utility: as a predictive biomarker for immune checkpoint inhibitor therapy response; as a prognostic and predictive biomarker for colorectal carcinoma; and as a genetic risk biomarker for the presence of a hereditary cancer syndrome such as Lynch Syndrome.<BR/><BR/>As an immune checkpoint inhibitor therapy biomarker, recent literature (Le, et al., <i>N Engl J Med</i> 372:2509-2520; Topolian, et al., <i>Nature Reviews Cancer</i> 16:275-287) indicates that, in general, patients that are Microsatellite Stable (MSS) have a poorer response to immune checkpoint inhibitor therapy.<BR/><BR/>MSS tumors have poorer prognosis than MSI-H tumors, and better response to 5-fluorouracil (5-FU) adjuvant chemotherapy. <BR/><BR/>As a genetic risk biomarker, the result of MSS is inconsistent with Lynch syndrome. However, if the clinical suspicion remains high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result, consideration should be given to a genetic consult to direct additional testing. <BR/><BR/>Interpretation of this result of MSS in the context of other clinical and laboratory findings is strongly recommended. Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: See Below Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: 17-56-002269 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 2B Microsatellite Instability (MSI) Analysis by PCR/Tumor Percentage: 21-50% ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Appendix 2. Transverse colon and partial stomach\n\n\nPath report.comments\n\nComments - There is a 5.6 cm circumferential tumor present in the colon which is adherent and directly extends into attached stomach. The tumor in the stomach is 2.5 cm in greatest dimension and has infiltrated the entire thickness of stomach wall and is protruding into the lumen. Immunohistochemical stains for VIII are used for evaluation of the case and angiolymphatic invasion is not noted. The case is reviewed in consultation with Dr. Melissa Patton, who concurs with the above-rendered diagnosis. Report previously signed on 09/06/2017 is amended to change the diagnosis previously reported as: 1. Appendix, appendectomy:     Appendix with no significant histopathological change.     Negative for malignancy. 2. Transverse colon and partial stomach, transverse colectomy and partial   gastrectomy:     Invasive moderately differentiated adenocarcinoma of colon directly invading       into stomach (see comment).     Both colonic margins of resection are free of malignancy.     Gastric margins of resection are free of malignancy.     Negative for angiolymphatic invasion.     Lymph node with sinus histiocytosis, no evidence of metastasis, total of       ten lymph nodes examined (0/15).     Focal area of chronic serositis, numerous foamy histiocytes, foreign body giant       cells suggestive of perforation.     Chronic inactive gastritis with prominent lymphoid aggregates.       Immunohistochemical stain and H and E stain are negative for Helicobacter         pylori like organisms.     Pathological TNM stage: pT4b, N0, MX. Report is amended to change the lymph nodes examined in specimen 2 from ten to fifteen. Molec Comments - The tissue specimen was reviewed by a pathologist and representative areas of tumor and normal tissue selected. These areas were microdissected from the surrounding tissue, and genomic DNA extracted using standard methods (QIAGEN QIASymphony). The tumor and normal DNA were separately PCR amplified for five microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27; Promega Corp.), and size fractionated via capillary electrophoresis (Life Technologies 3500xl). The tumor and normal profiles were compared to determine the presence of altered microsatellite profiles. The analytic sensitivity of the assay is approximately 10-20% and is dependent on the size and clonality of any instability. The presence of instability in less than 10-20% of the DNA examined will not be detected. This assay uses reagents that may be marked as Research Use Only or Analyte Specific Reagent. This test was developed and its performance characteristics determined by PathGroup. Portions of this test use reagents designated by the manufacturer as for research use, not for clinical use. It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. <BR/><BR/>Klump B,et al. <i>Int J Colorectal Dis</i> Vol 19:23-42, 2004; Grady WM.<i>Cancer Metastasis Rev</i> Vol 23:11-27, 2004; Umar, et al., <i>J Natl Cancer Inst</i> Vol 96:261-268, 2004; Popat S, Hubner R, Houlston RS. <i>Prognosis J Clin Oncol</i> Vol 23(3):609-618, 2005; Ribic CM, et al.,<i> N Engl J Med.</i> Vol 349(3):247-257, 2003; D. J. Sargent, et al.,<i>J Clin Oncol</i> Vol 26 (May 20 suppl; abstr 4008), 2008; P L Barratt, et al., <i>Lancet</i> Vol 360: 1381-91, 2002; Bertagnolli MM, et al., <i>J Clin Oncol</i> Vol 27(11):1814-1812, 2009; Marcus VA, et al., <i>Am J Surg Pathol</i> Vol23:1248-55, 1999; Lindor NM, et al., <i>J Clin Oncol</i> Vol20: 1043-1048, 2002;Boland CR, et al., <i>Cancer Res</i.Vol 58(22):5248-57, 1998; Palomaki GE, et al., <i>Genetics in Medicine</i> Vol 11(1):42-65, 2009 .\n\n\n"
+}

@@ -1,0 +1,15 @@
+<tool id="learn.classifier" name="Logistic Regression Classifier" version="1.0.0">
+  <command>python classifier.py $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="txt"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="txt" label="Output"/>
+  </outputs>
+  <help>
+  <![CDATA[
+
+
+]]>
+  </help>
+</tool>

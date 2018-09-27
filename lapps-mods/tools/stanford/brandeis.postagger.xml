@@ -1,0 +1,39 @@
+<tool id="stanfordnlp.postagger" name="Stanford Standalone Part-of-Speech Tagger" version="2.0.4">
+ <description>
+  (standalone) Tokenize and add POS tags to unannotated text
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd stanfordnlp.postagger_2.0.4 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**
+
+Adds Tokens with Penn part-of-speech tags to a text in a LIF container using the `Stanford Core NLP tools <https://stanfordnlp.github.io/CoreNLP/>`_.
+
+**Required annotations**
+
+* None
+
+**Generated Annotations**
+
+* A LIF document with a single view containing `Token <http://vocab.lappsgrid.org/Token.html>`_ annotations to which a "pos" feature has been added indicating the token's part of speech (`Penn tagset <https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html>`_) 
+
+
+
+  
+  
+**License**
+
+Stanford CoreNLP is licensed under `the GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.]]>
+ </help>
+</tool>

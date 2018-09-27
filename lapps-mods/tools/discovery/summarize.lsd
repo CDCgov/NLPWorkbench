@@ -1,0 +1,35 @@
+File input = new File(args[0])
+File output = new File(args[1])
+
+String json = input.text
+Data data = Serializer.parse(json, Data)
+if (data.discriminator == Uri.ERROR) {
+	throw new Exception(data.payload)
+}
+
+Container container = new Container(data.payload)
+List<View> windows = container.findViewsThatContain('Window')
+if (windows.size() == 0) {
+	println "No extracted passages found."
+	return
+}
+View window = windows[-1]
+
+List<View> scores = container.findViewsThatContain('Scores')
+if (scores.size() == 0) {
+	println "No scores found in document."
+	return
+}
+
+View view = scores[-1]
+output.withWriter { writer ->
+	view.annotations.each { Annotation a ->
+		if (a.atType == 'Score') {
+			Annotation passage = window.annotations.find { it.id == a.features.window }
+			String terms = passage.features.matches.collect { it.term }.join(', ')
+			String text = container.text.substring((int)a.start, (int)a.end)
+			text = text.replaceAll('\n', ' ')
+			writer.println "${a.features.score}\t${terms}\t${text}"					
+		}
+	}
+}

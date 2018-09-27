@@ -1,0 +1,22 @@
+<tool id='lapps.tools.filter' name='Filter Annotations' version='2.0.0'>
+  <description>copy annotations to a new view</description>
+  <command>lsd $__tool_directory__/filter.lsd $input $type $first $pretty $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='Input' />
+    <param name="type" label="Type" type="text" value="http://vocab.lappsgrid.org/Token"/>
+    <param name="first" label="First View" type="boolean"/>
+    <param name="pretty" type="boolean" label="Pretty print"/>
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' label="Filtered Document"/>
+  </outputs>
+  <help>
+  
+Copies the selected annotation types to a new view.
+
+If more that one view contains the selected annotation type then the view to use can be specified with the *First* toggle button.  If *First* is set to true then annotations from the first view found will be copied.  Otherwise annotations from the last view found will be copied.
+
+If no view contains the selected annotation type then no changes are made to the input document.
+
+  </help>
+</tool>

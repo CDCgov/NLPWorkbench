@@ -1,0 +1,40 @@
+int start = args[0] as Integer
+int end = args[1] as Integer
+String corpusName = args[2]
+String password = args[3]
+//File logfile = new File(args[4])
+//args.each { println it }
+//throw new IOException("Loading files from $corpusName")
+
+File corpus = new File("/corpora/${corpusName}")
+File index = new File(corpus, "index.txt")
+if (!index.exists()) {
+    throw new IOException("Index not found: ${index.path}")
+}
+
+File destination = new File("outputs")
+if (!destination.exists()) {
+    if (!destination.mkdirs()) {
+        throw new IOException("Unable to create output directory")
+    }
+}
+
+def keys = index.readLines().collect { it.tokenize()[1] }
+if (end > keys.size()) {
+    end = keys.size()
+}
+if (start > end) {
+    start = end
+}
+
+keys[start..end].each {
+    File input = new File(it)
+    File output = new File(destination, input.name)
+    output.text = input.text
+    //log << "Wrote ${output.path}"
+}
+
+//logfile.text = log.join '\n'
+//new File("/tmp/kidnap.log").withWriter {
+//    it.println log.join("\n")
+//}

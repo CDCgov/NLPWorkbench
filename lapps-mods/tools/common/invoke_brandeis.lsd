@@ -1,0 +1,31 @@
+#!/usr/bin/env lsd
+
+//include 'Servers'
+//String base = 'http://manager:8080/service_manager/invoker/vassar'
+
+String service = args[0]
+File input = new File(args[1])
+File output = new File(args[2])
+String username = args[3] ?: 'tester'
+String password = args[4] ?: 'tester'
+
+String url = "http://eldrad.cs-i.brandeis.edu:8080/service_manager/invoker/brandeis_eldrad_grid_1:${service}"
+//String url = "${base}:${service}"
+ServiceClient client = new ServiceClient(url, username, password)
+String json = input.text
+Data data = Serializer.parse(json, Data)
+if (data.discriminator == Uri.LIF) {
+	Container container = new Container(data.payload)
+	container.views.each { v ->
+		v.annotations.each { a ->
+			if (!a.features) a.features = [:]
+			if (!a.metadata) a.metadata = [:]
+		}
+	}
+	data.payload = container
+	json = data.asJson()
+}
+
+output.text = client.execute(json)
+
+

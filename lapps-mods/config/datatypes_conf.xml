@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<datatypes>
+    <registration converters_path="lib/lappsgrid/datatypes/converters" display_path="display_applications">
+        <datatype extension="tabular" type="galaxy.datatypes.tabular:Tabular" display_in_upload="true"
+                  description="Any data in tab delimited format (tabular)."
+                  description_url="https://wiki.galaxyproject.org/Learn/Datatypes#Tabular_.28tab_delimited.29"/>
+        <datatype extension="liftxt" type="lappsgrid.datatypes.lapps:LifText" display_in_upload="true"
+                  description="Any text file."
+                  description_url="https://wiki.galaxyproject.org/Learn/Datatypes#Plain_text"/>
+        <datatype extension="oauth" type="galaxy.datatypes.data:Text" display_in_upload="true"
+                  description="An OAuth2 token" subclass="True"/>
+        <datatype extension="gate" type="lappsgrid.datatypes.lapps:Gate" display_in_upload="true"
+                  description="GATE/XML payload inside a LAPPS Data object.">
+            <converter file="gate_to_lif_converter.xml" target_datatype="lif"/>
+        </datatype>
+        <datatype extension="ldc" type="lappsgrid.datatypes.lapps:LDC" display_in_upload="True">
+            <converter file="ldc_to_lif_converter.xml" target_datatype="lif"/>
+        </datatype>
+        <datatype extension="lif" type="lappsgrid.datatypes.lapps:Lif" display_in_upload="True">
+            <converter file="lif_to_gate_converter.xml" target_datatype="gate"/>
+        </datatype>
+        <datatype extension="uima" type="lappsgrid.datatypes.lapps:Uima" display_in_upload="True"/>
+        <datatype extension="pubann" type="lappsgrid.datatypes.lapps.PubAnn" display_in_upload="True"/>
+        <datatype extension="tcf" type="lappsgrid.datatypes.lapps:TCF" display_in_upload="True"/>
+        <datatype extension="lapps" type="lappsgrid.datatypes.lapps:Lapps" display_in_upload="True"/>
+        <datatype extension="json" type="galaxy.datatypes.text:Json" display_in_upload="true"/>
+
+        <!-- <datatype extension="json" type="lappsgrid.datatypes.lapps:LappsJson" display_in_upload="True"/> -->
+        <datatype extension="csv" type="galaxy.datatypes.tabular:Tabular" subclass="True"
+                  display_in_upload="true"/> <!-- FIXME: csv is 'tabular'ized data, but not 'tab-delimited'; the class used here is intended for 'tab-delimited' -->
+        <datatype extension="tsv" type="galaxy.datatypes.tabular:Tabular" subclass="True" display_in_upload="true"/>
+        <datatype extension="data" type="galaxy.datatypes.data:Data" mimetype="application/octet-stream"
+                  max_optional_metadata_filesize="1048576"/>
+        <datatype extension="data_manager_json" type="galaxy.datatypes.data:Text" mimetype="application/json"
+                  subclass="True" display_in_upload="False"/>
+        <datatype extension="gif" type="galaxy.datatypes.images:Gif" mimetype="image/gif"/>
+        <datatype extension="toolshed.gz" type="galaxy.datatypes.binary:Binary" mimetype="multipart/x-gzip"
+                  subclass="True"/>
+        <datatype extension="html" type="galaxy.datatypes.images:Html" mimetype="text/html"/>
+        <datatype extension="jpg" type="galaxy.datatypes.images:Jpg" mimetype="image/jpeg"/>
+        <datatype extension="tiff" type="galaxy.datatypes.images:Tiff" mimetype="image/tiff"/>
+        <datatype extension="bmp" type="galaxy.datatypes.images:Bmp" mimetype="image/bmp"/>
+        <datatype extension="pdf" type="galaxy.datatypes.images:Pdf" mimetype="application/pdf"/>
+        <datatype extension="owl" type="galaxy.datatypes.xml:Owl" mimetype="text/html" display_in_upload="True"/>
+        <datatype extension="png" type="galaxy.datatypes.images:Png" mimetype="image/png"/>
+        <datatype extension="svg" type="galaxy.datatypes.images:Image" mimetype="image/svg+xml"/>
+        <datatype extension="taxonomy" type="galaxy.datatypes.tabular:Taxonomy" display_in_upload="true"/>
+        <datatype extension="sqlite" type="galaxy.datatypes.binary:SQlite" mimetype="application/octet-stream"
+                  display_in_upload="true"/>
+        <datatype extension="linecount" type="galaxy.datatypes.data:LineCount" display_in_upload="false"/>
+        <datatype extension="bgzip" type="galaxy.datatypes.binary:Binary" subclass="True"/>
+        <datatype extension="xls" type="galaxy.datatypes.tabular:Tabular"/>
+        <datatype extension="xml" type="galaxy.datatypes.xml:GenericXml" mimetype="application/xml"
+                  display_in_upload="true"/>
+        <datatype extension="txt" type="galaxy.datatypes.data:Text" display_in_upload="true"
+                  description="Any text file."
+                  description_url="https://wiki.galaxyproject.org/Learn/Datatypes#Plain_text"/>
+        <datatype extension="rdf" type="galaxy.datatypes.triples:Rdf" display_in_upload="true"/>
+        <datatype extension="xlsx" type="galaxy.datatypes.binary:Xlsx" display_in_upload="true"/>
+    </registration>
+    <sniffers>
+        <!--
+        The order in which Galaxy attempts to determine data types is
+        important because some formats are much more loosely defined
+        than others.  The following list should be the most rigidly
+        defined format first, followed by next-most rigidly defined,
+        and so on.
+        -->
+        <sniffer type="lappsgrid.datatypes.lapps:TCF"/>
+        <sniffer type="lappsgrid.datatypes.lapps:LDC"/>
+        <sniffer type="lappsgrid.datatypes.lapps:Gate"/>
+        <sniffer type="lappsgrid.datatypes.lapps:Lif"/>
+        <sniffer type="lappsgrid.datatypes.lapps:LifText"/>
+        <sniffer type="lappsgrid.datatypes.lapps:Lapps"/>
+        <sniffer type="lappsgrid.datatypes.lapps:LappsJson"/>
+        <sniffer type="lappsgrid.datatypes.lapps:Uima"/>
+        <sniffer type="galaxy.datatypes.binary:SQlite"/>
+        <sniffer type="galaxy.datatypes.xml:Phyloxml"/>
+        <sniffer type="galaxy.datatypes.xml:Owl"/>
+        <sniffer type="galaxy.datatypes.xml:GenericXml"/>
+        <sniffer type="galaxy.datatypes.images:Html"/>
+        <sniffer type="galaxy.datatypes.images:Pdf"/>
+        <sniffer type="galaxy.datatypes.interval:Interval"/>
+        <sniffer type="galaxy.datatypes.images:Jpg"/>
+        <sniffer type="galaxy.datatypes.images:Png"/>
+        <sniffer type="galaxy.datatypes.images:Tiff"/>
+        <sniffer type="galaxy.datatypes.images:Bmp"/>
+        <sniffer type="galaxy.datatypes.images:Gif"/>
+    </sniffers>
+    <build_sites>
+        <!--
+        Build sites define the builds (dbkeys) available at sites used by display
+        applications and the URL to those sites.
+
+        The `display` attributes on the `ucsc` and `gbrowse` sites replace the
+        `ucsc_display_sites` and `gbrowse_display_sites` options in galaxy.ini.
+        Because these are used by "old-style" display applications, their types
+        cannot change if you want the old-style display links for these sites to
+        work.
+        -->
+        <site type="ucsc" file="tool-data/shared/ucsc/ucsc_build_sites.txt" display="main,test,archaea,ucla"/>
+        <site type="gbrowse" file="tool-data/shared/gbrowse/gbrowse_build_sites.txt"
+              display="modencode,sgd_yeast,tair,wormbase,wormbase_ws120,wormbase_ws140,wormbase_ws170,wormbase_ws180,wormbase_ws190,wormbase_ws200,wormbase_ws204,wormbase_ws210,wormbase_ws220,wormbase_ws225"/>
+        <site type="ensembl" file="tool-data/shared/ensembl/ensembl_sites.txt"/>
+        <site type="ensembl_data_url" file="tool-data/shared/ensembl/ensembl_sites_data_URL.txt"/>
+        <site type="igv" file="tool-data/shared/igv/igv_build_sites.txt"/>
+        <site type="rviewer" file="tool-data/shared/rviewer/rviewer_build_sites.txt"/>
+    </build_sites>
+</datatypes>

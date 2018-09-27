@@ -1,0 +1,127 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3137, 
+        3151
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3005, 
+        3028
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3036, 
+        3063
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1688, 
+        1717
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2207, 
+        2242
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3732, 
+        3758
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3115, 
+        3136
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3069, 
+        3074
+      ]
+    }
+  ], 
+  "Relative Distance (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3782, 
+        3790
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3822, 
+        3830
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3065, 
+        3067
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3760, 
+        3762
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3791, 
+        3793
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH|PIMS|CCO|201605100404|B22C20480958556CE48E66758EEB5AF6CD57AFAB|ORU^R01|999999999999|P|2.5|||||||\nPID|||G999999^^^^CMR^HOSPITAL 4&9999&MOH~M999999^^^^MRN^HOSPITAL 4&9999&MOH~9999999999&NM&ON^^^^JHN||XXXXXXXXX^XXXXXX^XXXXXXXX||99999999|F|||X.X.#9, X.X. XXX 999^9^XXXXXXXX^XX^X9X 9X9^999|ON|9999999999^NM^ON||E|W|DTS|4421154552^NM^ON||||||||||||N||\nOBR|1||S16:4361^LIS|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604071100|||92798^XXXXXXXXX^XXXXX^^^^||||201604080842||999999^XXXXXXXXX^XXXXX^^^^||||N||201604080842|||F|||||||99999^XXXXX^XXXXXX^^^^|||||||||||||\nOBX|1|FT|22638-1^Path report.comments^LN||||||||C|||||||\n\n\n\n\n\n\n\nPath report.addendum spec\n\n***********************************************************\n         This is an addended report       \n***********************************************************\nPart \"A\" of this case has been reviewed by Dr. XXXXXX and the Departmental G.I. Pathology\nTeam. It is reviewed at the request of Dr. X. The\ngroup concurs with the diagnosis of poorly-differentiated adenocarcinoma with signet ring\ncell features. No background precursor dysplastic lesion is seen.\nGiven the patient's previous cecal adenocarcinoma with signet ring cell features, the\nfindings in the current biopsies from the colon at 40 cm seem most consistent with a\nmetastases from the patient's previous proximal colon cancer. There is no change in\ndiagnosis.\nFINAL DIAGNOSIS AFTER EXTERNAL CONSULTATION:\nColon (40 cm), biopsies\n   - poorly differentiated adenocarcinoma with signet ring cell features (see above).\nFull external consult report available upon request through the Pathology office (ext.\n2518/2880).\n\n\nPath report.gross description\n\nIt is our practice that all surgical specimens undergo a minimum fixation period of 24\nhours.\nA.  The specimen container is labelled `biopsy at 40 cm'. The specimen consists of two\n   fragments of pale tan tissue, the larger measuring 0.3 cm in greatest dimension. All\n   tissue is submitted.\nB.  The specimen container is labelled `biopsy of polyp at 20 cm'. The specimen consists\n   of a fragment of pale tan tissue measuring 0.3 cm in greatest dimension. All tissue\n   is submitted.\n\n\nPath report.microscopic observation\n\nA.  There are two biopsies of colonic mucosa. One of them shows dilated lymphatic\n   channels in the deeper portion of the biopsy, with a few aggregates of neoplastic\n   appearing cells, some showing acinar formation and others with signet ring morphology.\n   This focus measures up to 1 mm in maximum size and disappears with deeper levels. A\n   few similar signet ring type cells appear to be present focally in the lamina propria\n   more superficially. The remainder of the mucosa shows no evidence of adenomatous\n   change. No serrated polyp is identified. See Comment.\nB.  Sections show colonic mucosa with features suggestive of a hyperplastic polyp. There\n   is no evidence of dysplasia or malignancy. Original and deeper levels have been\n   examined.\n\n\nPath report.relevant Hx\n\nNIL\n\n\nPath report.final diagnosis\n\nA.  Colon (40 cm), biopsies\n     - small focus of poorly differentiated adenocarcinoma (with signet ring features)\n     - see Comment below.\nComment: No clinical history has been provided with this specimen.\nThis patient has a history of poorly differentiated (signet ring cell) colonic\nadenocarcinoma of the cecum, pT4a N2b M1b, as diagnosed at HOSPITAL Health Centre in\n, 15/06/2015. Resection/right hemicolectomy was performed.\nThe finding of poorly diffferentiated adenocarcinoma with signet ring cells in this current\nbiopsy at 40 cm - although very focal - is consistent with a metastatic lesion.\nB.  Colon (polyp at 20 cm), biopsy\n     - hyperplastic polyp.\n\n\nPath report.site of origin\n\nA. TISSUE, NOS BIOPSY AT 40 CM\nB. TISSUE, NOS BIOPSY OF POLYP AT 20 CM\n\n\n"
+}

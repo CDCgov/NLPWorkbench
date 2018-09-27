@@ -1,0 +1,135 @@
+[{
+	"annotatedClass": {
+		"@id": "http://purl.bioontology.org/ontology/MEDDRA/10033371",
+		"@type": "http://www.w3.org/2002/07/owl#Class",
+		"links": {
+			"self": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371",
+			"ontology": "http://data.bioontology.org/ontologies/MEDDRA",
+			"children": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/children",
+			"parents": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/parents",
+			"descendants": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/descendants",
+			"ancestors": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/ancestors",
+			"instances": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/instances",
+			"tree": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/tree",
+			"notes": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/notes",
+			"mappings": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371/mappings",
+			"ui": "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10033371",
+			"@context": {
+				"self": "http://www.w3.org/2002/07/owl#Class",
+				"ontology": "http://data.bioontology.org/metadata/Ontology",
+				"children": "http://www.w3.org/2002/07/owl#Class",
+				"parents": "http://www.w3.org/2002/07/owl#Class",
+				"descendants": "http://www.w3.org/2002/07/owl#Class",
+				"ancestors": "http://www.w3.org/2002/07/owl#Class",
+				"instances": "http://data.bioontology.org/metadata/Instance",
+				"tree": "http://www.w3.org/2002/07/owl#Class",
+				"notes": "http://data.bioontology.org/metadata/Note",
+				"mappings": "http://data.bioontology.org/metadata/Mapping",
+				"ui": "http://www.w3.org/2002/07/owl#Class"
+			}
+		},
+		"@context": {
+			"@vocab": "http://data.bioontology.org/metadata/"
+		}
+	},
+	"hierarchy": [],
+	"annotations": [{
+		"from": 1,
+		"to": 4,
+		"matchType": "PREF",
+		"text": "PAIN"
+	},
+	{
+		"from": 85,
+		"to": 88,
+		"matchType": "PREF",
+		"text": "PAIN"
+	}],
+	"mappings": []
+},
+{
+	"annotatedClass": {
+		"@id": "http://purl.bioontology.org/ontology/MEDDRA/10046859",
+		"@type": "http://www.w3.org/2002/07/owl#Class",
+		"links": {
+			"self": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859",
+			"ontology": "http://data.bioontology.org/ontologies/MEDDRA",
+			"children": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/children",
+			"parents": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/parents",
+			"descendants": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/descendants",
+			"ancestors": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/ancestors",
+			"instances": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/instances",
+			"tree": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/tree",
+			"notes": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/notes",
+			"mappings": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859/mappings",
+			"ui": "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10046859",
+			"@context": {
+				"self": "http://www.w3.org/2002/07/owl#Class",
+				"ontology": "http://data.bioontology.org/metadata/Ontology",
+				"children": "http://www.w3.org/2002/07/owl#Class",
+				"parents": "http://www.w3.org/2002/07/owl#Class",
+				"descendants": "http://www.w3.org/2002/07/owl#Class",
+				"ancestors": "http://www.w3.org/2002/07/owl#Class",
+				"instances": "http://data.bioontology.org/metadata/Instance",
+				"tree": "http://www.w3.org/2002/07/owl#Class",
+				"notes": "http://data.bioontology.org/metadata/Note",
+				"mappings": "http://data.bioontology.org/metadata/Mapping",
+				"ui": "http://www.w3.org/2002/07/owl#Class"
+			}
+		},
+		"@context": {
+			"@vocab": "http://data.bioontology.org/metadata/"
+		}
+	},
+	"hierarchy": [],
+	"annotations": [{
+		"from": 9,
+		"to": 19,
+		"matchType": "PREF",
+		"text": "VACCINATION"
+	}],
+	"mappings": []
+},
+{
+	"annotatedClass": {
+		"@id": "http://purl.bioontology.org/ontology/MEDDRA/10000424",
+		"@type": "http://www.w3.org/2002/07/owl#Class",
+		"links": {
+			"self": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424",
+			"ontology": "http://data.bioontology.org/ontologies/MEDDRA",
+			"children": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/children",
+			"parents": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/parents",
+			"descendants": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/descendants",
+			"ancestors": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/ancestors",
+			"instances": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/instances",
+			"tree": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/tree",
+			"notes": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/notes",
+			"mappings": "http://data.bioontology.org/ontologies/MEDDRA/classes/http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424/mappings",
+			"ui": "http://bioportal.bioontology.org/ontologies/MEDDRA?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FMEDDRA%2F10000424",
+			"@context": {
+				"self": "http://www.w3.org/2002/07/owl#Class",
+				"ontology": "http://data.bioontology.org/metadata/Ontology",
+				"children": "http://www.w3.org/2002/07/owl#Class",
+				"parents": "http://www.w3.org/2002/07/owl#Class",
+				"descendants": "http://www.w3.org/2002/07/owl#Class",
+				"ancestors": "http://www.w3.org/2002/07/owl#Class",
+				"instances": "http://data.bioontology.org/metadata/Instance",
+				"tree": "http://www.w3.org/2002/07/owl#Class",
+				"notes": "http://data.bioontology.org/metadata/Note",
+				"mappings": "http://data.bioontology.org/metadata/Mapping",
+				"ui": "http://www.w3.org/2002/07/owl#Class"
+			}
+		},
+		"@context": {
+			"@vocab": "http://data.bioontology.org/metadata/"
+		}
+	},
+	"hierarchy": [],
+	"annotations": [{
+		"from": 79,
+		"to": 82,
+		"matchType": "PREF",
+		"text": "ACHE"
+	}],
+	"mappings": []
+}]

@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1549, 
+        1556
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1504, 
+        1518
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1557, 
+        1564
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1660, 
+        1683
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1360, 
+        1387
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        546, 
+        575
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1247, 
+        1273
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1495, 
+        1503
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1404, 
+        1409
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1525, 
+        1531
+      ]
+    }
+  ], 
+  "Relative Distance (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1417, 
+        1425
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1396, 
+        1403
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1389, 
+        1391
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1520, 
+        1522
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160503130200|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||HD99999999^^^^CMR^HOSPITAL 2&9999&MOH~HD99999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&DH&ON^^^^JHN||XXXXXX^XXXXXXXXX||99999999|F||||||||||||||||||||||N|\nOBR|1||S16-27209|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604270000|||59401^XXXXXXXX^XXXXX||||201604280956|&Intestine Lg Bx:Sigmoid colon @ 20cm|99999^XXXXXXXX^XXXXX||||||201605031302||AS|F|||||||99999^XXXXXX^XXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen labeled with the patient's name and as \"Biopsy Sigmoid Colon@20 cm\" consists of two biopsy cassettes containing a total of six pieces of curvilinear gray beige and gray tissue measuring from 0.1 by less than 0.1 by less than 0.1 cm to 0.4 x 0.25 x 0.15 cm, received in 10% buffered formalin. The specimens are submitted in toto.\n1A five pieces\n1B one piece\n   \n2. The specimen labeled with the patient's name and as \"Polyp Rectum@10 cm\" consists of one piece of polypoid tan-gray tissue measuring 0.7 x 0.6 x 0.5 cm, received in 10% buffered formalin. The specimen is trisected perpendicular to the resection margin.\n2A three pieces submitted in toto\n\n\n\nPath report.site of origin\n\nIntestine Lg Bx:Sigmoid colon @ 20cm\nIntestine Lg Bx:Hot snare polyp rectum @ 10cm\n\n\nPath report.final diagnosis\n\n1.     Sigmoid colon biopsy at 20 cm: dysplastic glands set within a desmoplastic stroma, in keeping with invasive adenocarcinoma.\n2.   Rectum biopsy at 10 cm: tubular adenoma, negative for high-grade dysplasia, the nature of the biopsy precludes comment on excision.\n\n\n\nPath report.relevant Hx\n\n1. Stricture ? Ca vs. inflammatory\n2. ? adenoma\n\n\n\n"
+}

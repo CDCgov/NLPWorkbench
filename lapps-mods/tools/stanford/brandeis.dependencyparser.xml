@@ -1,0 +1,40 @@
+<tool id="stanfordnlp.dependencyparser" name="Stanford Dependency Parser" version="2.0.4">
+ <description>
+   (standalone) Generate a dependency parse of unannotated text
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd stanfordnlp.dependencyparser_2.0.4 $input $output
+ </command>
+ <inputs>
+  <param format="txt,lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**
+
+Generates a dependency parse of text in a LIF container using the `Stanford Core NLP tools <https://stanfordnlp.github.io/CoreNLP/>`_.
+  
+**Required Annotations**
+
+
+* None
+
+**Generated Annotations**
+
+A LIF document containing: 
+
+1. `Token <http://vocab.lappsgrid.org/Token>`_ annotations (with part of speech)
+#. `DependencyStructure <http://vocab.lappsgrid.org/DependencyStructure>`_ annotations
+#. `Dependency <http://vocab.lappsgrid.org/Dependency>`_ annotations
+
+**License**
+
+Stanford CoreNLP is licensed under `the GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.]]>
+ </help>
+</tool>

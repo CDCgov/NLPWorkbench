@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Workbench Services</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li class="active">Services</li>
+            </ol>
+            <h1>Services</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+            <p>The clinical pipelines developed on the CLEW workbench are available as services. All use open-source NLP
+                tools from the CLEW Instance of the LAPPS grid. They are customized to solve a particular use case.
+                These services can be run in real-time by an external application calling the service to process a block
+                of clinical text from a pathology report. Other clinical documents will need services tailored for the
+                processing objectives of the user.</p>
+
+            <p>All available services in the list below include the following information:</p>
+
+            <ul>
+                <li>Discussion of the use case the service was built to solve including a discussion of identified semantics</li>
+
+                <li>The approach of the service usage to address the use case</li>
+
+                <li>Documentation so you can make adjustments as needed based on your use case</li>
+
+                <li>A demo with discussion</li>
+            </ul>
+
+            <h2>Performance</h2>
+
+            <p>For maximum performance and accuracy of results, semantic definitions must match the semantics of how
+                they are identified for a particular service. For example, the lexicons for the Cancer Pathology and
+                Safety Surveillance services below apply for each to their particular use cases. However, while there
+                would be a sacrifice in the accuracy of results, these pipelines should be applied cautiously to other
+                use cases.</p>
+
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default panel-slate-stripe featurette" >
+                <div class="panel-body">
+                    <p>Have a clinical service you'd like to make available to the clinical NLP community?</p>
+                    <p>Let us know... we will work with you to add it to the list</p>
+                    <p class="text-right"><a href="mailto:nlpworkbench@cdc.gov">Contact Us</a></p>
+                </div>
+            </div>
+            <div w3-include-html="includes/workbench-support.html"></div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Available Services</h2>
+
+            <p>Services developed by the CLEW project can be leveraged to extend the functionality of existing and new
+                tools. This would be a benefit for the information extraction services provided by those services.</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <th>Author</th>
+                    <th>Service</th>
+                    <th>Use Case</th>
+                    <th>Comments</th>
+                </tr>
+                <tr>
+                    <td>CDC</td>
+                    <td><a href="service-cancer-pathology.html">Cancer Pathology</a></td>
+                    <td><p><strong>Use Case1: Clinical Entity Recognition.</strong> Identify specimens and 22 different clinical entities in a pathology reports.</p>
+
+                        <p><strong>Use Case 2: Clinical Coding to ICD-O-3.</strong> Use the output of the CER pipeline to compute the codes for Site, Histology, Grade, Behavior and Laterality for a pathology specimen.</p></td>
+                    <td>Four different pipelines are available so the user can experiment to discover the best pipeline for their source materials.</td>
+                </tr>
+                <tr>
+                    <td>FDA</td>
+                    <td><a href="service-safety.html">Safety Surveillance</a></td>
+                    <td>
+                        <p><strong>Use Case 1:</strong> Identification of clinical information in text</p>
+
+                        <p><strong>Use Case 2:</strong> Normalization/coding to medical terminologies</p>
+
+                        <p><strong>Use Case 3:</strong> Identification of temporal relations</p>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+<!-- //footer -->
+<!--//main content start-->
+
+<!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

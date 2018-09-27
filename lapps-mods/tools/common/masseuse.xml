@@ -1,0 +1,92 @@
+<tool id='lapps.tools.masseuse' name='Data Masseuse' version='1.0.0'>
+  <description>manipulate annotations</description>
+  <command>lsd $__tool_directory__/masseuse.lsd $input $script $type $view $first $pretty $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='Input' />
+    <param name='script' type='data' format='txt' label='Script'/>
+    <param name="type" type="text" size="50" value="http://vocab.lappsgrid.org/" label="Type"/>
+    <param name='first' type='boolean' value='False' label="Use the first view found"/>
+    <param name="view" type="boolean" value='True' label="Create a new view"/>
+    <param name="pretty" type="boolean" value='True' label="Pretty print the output"/>
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+  <help><![CDATA[
+
+Help
+====
+
+Creates a new annotation for each annotation of the specified type and calls a user defined script on each new annotation.
+
+Knowledge of the Lappsgrid Services DSL (LSD) and the LIF data structures is required to make effective use of this tool.
+
+**Options**
+
+- **Input**  
+    the input dataset to be processed.  This must be a LIF document.
+- **Script**
+
+    a dataset containing a LSD script snippet.  Use the "Local Data" upload tool to paste a script in to Galaxy.  This file be a .txt file (txt datatype).
+- **Type**
+
+    the annotation type to process.
+- **Use first view found** 
+    Use the first view that contains the specified annotation type. Otherwise uses the last view found.
+- **Create new view**
+
+    Creates a new view that will contains the new annotations.  If this is set to ``False`` then the new annotations will be added to the existing view
+
+**Scripts**
+
+The script input to the *Data Masseuse* tool is a text file with two methods ::  
+  
+    void annotate(Annotation source, Annotation target) {
+        // modify the target annotation here.
+
+    }
+
+    void update(View source, View target) {
+        // Update the target view. Typically used to update the metadata.
+    }
+  
+The *annotate* method will be called for every annotation in the *source view* and the *update* method will be called exactly once.  The *update* method is typically used to update the metadata of the *target* view.
+
+=====
+Notes
+=====
+
+
+1. If *Create a new view* is set to ``False`` then the *source* view and *target* view will point to the same ``View`` object.
+
+#. The *target* annotation will have the ``start`` and ``end`` offsets set although the user is free to change this in the ``annotate`` method.
+
+#. The *target* annotation **WILL NOT** have its ``id`` set.  **BE SURE TO SET THE ID.**
+
+
+#. The *target* view WILL have an ID set, but this can be changed in the ``update`` method if desired.  It is not recommended to change the ID of an existing view.
+
+#. Variables defined outside of either method will be "global" variables and retain their values between invocations of the ``annotate`` method.  Use global variables to generate unique ID values for instance.
+
+**Example**
+
+::
+  
+  count = 0
+  void annotation(Annotation source, Annotation target) {
+      target.id = "ID-" + (++count)
+      target.atType = Uri.NE
+      target.features.category = source.label
+  }
+  void update(View source, View target) {
+      target.metadata.contains[Uri.NE] = [
+          producer: 'Data Masseuse',
+          type: 'custom'
+      ]
+  }
+
+  
+]]>  
+
+  </help>
+</tool>

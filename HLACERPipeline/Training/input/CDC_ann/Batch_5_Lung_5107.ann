@@ -1,0 +1,135 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1094, 
+        1103
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1134, 
+        1148
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1988, 
+        2011
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1152, 
+        1160
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        988, 
+        1015
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        944, 
+        949
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1023, 
+        1028
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        529, 
+        558
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        910, 
+        936
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1072, 
+        1093
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        938, 
+        942
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1017, 
+        1021
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        950, 
+        960
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1029, 
+        1039
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605032207|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360578|P|2.5|\nPID|1||W999999999^^^^CMR^HOSPITAL 9&9999&MOH~W999999999^^^^MRN^HOSPITAL 8^9999^MOH~9999999999&HE&ON^^^^JHN||XXXXXXX^XXXXXXX^XXXXXX^^^||99999999|M|||99 XXXXXXXX XXXXXX^^XXXXXX XXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:SM3552|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160414|||^XXX^XXXX^XXX XXXXXX^^^||||||||||||20160503|||C|||||||99999^XXXXXX^XXXXXXX^XXX^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n\nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container. \n \nThe specimen is received in formalin, labelled with the patient's bradma and\ndesignated biopsy of bronchial Mass right upper lobe.\n \nThe specimen consists of three tan tissue fragments, 0.1-0.3 cm, All submitted In one\nblock.\n\n\nPath report.site of origin\n\nLung, right upper lobe biopsy of bronchial mass\n\n\nPath report.final diagnosis\n\nLung, right upper lobe, bronchial mass-Biopsies: \n   - Poorly differentiated carcinoma, in keeping with primary lung adenocarcinoma \n \nComment: Immunohistochemistry performed on this lesion shows strong diffuse staining\nwith CK7 and TTF-1 (nuclear) with moderate Napsin A staining. Neuroendocrine markers\nChromogranin and Synaptophysin are negative. This staining pattern supports the\ndiagnosis of primary lung adenocarcinoma. Please note, testing for ALK and EGFR has\nbeen ordered on this specimen, with supplementary reports to follow.\n\n\nPath Report.addendum spec\n\nBIOMARKER SUMMARY\n \nAdequacy of Sample for Testing: Adequate\nEstimated % Tumor Cellularity: 25\n \nEGFR Mutation: No mutation detected, wild-type EGFR allele\nMethod: Real-time PCR, EntroGen EGFR Mutation Analysis Kit Exons 18, 19, 20, 21\nRefer to Molecular Oncology Report 16:MO2072\n \nALK Rearrangement: No rearrangement detected\nMethod: Immunohistochemistry (IHC) Leica Bond Refine detection, 5A4 clone\n\n\nPath report.relevant Hx\n\nLung Ca.\n\n\n"
+}

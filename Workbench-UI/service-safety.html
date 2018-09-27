@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Safety Service</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li class="active">Service Safety Service</li>
+            </ol>
+            <h1>Service Safety Service</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+            <p><a href="services.html"><span class="fa fa-arrow-alt-circle-left"></span> Back to Services</a></p>
+
+            <!--<div><a href="#use">Use Case</a></div>-->
+            <!--<div><a href="#approach">Approach to Address the Use Case</a></div>-->
+            <!--<div><a href="#documentation">Documentation on How to Use the Service</a></div>-->
+            <!--<div><a href="#demo">Demo</a></div>-->
+
+            <h2 id="use">Use Case</h2>
+            <p>Three use cases exist in the safety surveillance service:</p>
+
+            <h3>1. Identification of clinical information in text</h3>
+            <p>One of the first steps in the review of safety surveillance reports is the identification of the outcome of interest (e.g. diagnosis or cause of death), the time to onset, and other alternative explanations (e.g. drug, medical and family history) from the free-text narratives in the post-market reports. Symptom and rule out diagnosis information is also evaluated in this process.</p>
+            <p>Example: Free-text narrative from a vaccine report that was submitted to the FDA’s Vaccine Adverse Event Reporting System (VAERS). Features of interest include the vaccine name, the primary diagnoses , symptoms, medical history, and cause of death. Safety surveillance reports contain an abundance of clinical features, the extraction of which is essential for clinical NLP tasks. Obviously, the identification of clinical information in medical texts is a major milestone in all biomedical domains.</p>
+
+            <h3>2. Normalization/coding to medical terminologies</h3>
+            <p>Comparisons of clinical information across different patients, different institutions, or even different notes for the same patient are substantially easier to interpret when using a common, standardized terminology. Many such terminologies exist, and the encoding of clinical information into these formats is an important task in developing the NLP pipelines, since these normalizations facilitate many forms of automated processing.</p>
+
+            <h3>3. Identification of temporal relations</h3>
+            <p>Temporal information in clinical texts is mainly in the form of temporal expressions, which consist of time modifiers (e.g. “before” or “after”), units (e.g. days, weeks, or years), and numerical tokens. Although temporal expression can be easily recognized in the text, the assignment of these expressions to clinical features and the identification of overarching temporal relations can be a very complex and challenging process – even for humans.</p>
+
+            <h3>Approach to Address the Use Case</h3>
+            <p>A wide range of NLP tools and approaches will be needed to satisfy clinical NLP tasks across the full set of domains mentioned in these use cases. An Environmental Scan effort identified and classified a large number of NLP tools that were applicable for these types of problems. Among them, we have selected and prepared a number of these tools to run as part of the CLEW prototype, either on their own or as part of a combination pipeline that integrates multiple tools.</p>
+
+            <h2 id="documentation">Documentation on How to Use the Service</h2>
+            <p>More about this service, read the full description:<br>
+                <a href="assets/NLP%20Workbench%20Safety%20Sruveillance%20Service.pdf">NLP Workbench Safety Surveillance Service. <span class="fa fa-file-pdf"></span></a></p>
+
+            <h2>Demo</h2>
+            <p>The safety surveillance demo illustrates... View how the input of unstructured data is analyzed along with the output produced.</p>
+            <p><a class="btn btn-primary btn-large" href="demo_safety.html">Demo</a></p>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default panel-amber-stripe" >
+                <div class="panel-body">
+                    <h4 class="h4">Service Documentation</h4>
+                    <p>See documentation on how to use the safety surveillance service.</p>
+                    <p><a href="assets/NLP%20Workbench%20Safety%20Sruveillance%20Service.pdf">NLP Workbench Safety Surveillance Service. <span class="fa fa-file-pdf"></span></a></p>
+                </div>
+            </div>
+            <div w3-include-html="includes/workbench-support.html"></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+<!-- //footer -->
+<!--//main content start-->
+
+<!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

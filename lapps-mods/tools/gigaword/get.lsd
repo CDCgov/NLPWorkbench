@@ -1,0 +1,9 @@
+include 'Config'
+
+String token = new File(args[0]).text
+String key = args[1]
+String service = args[2]
+File output = new File(args[3])
+
+DataSource client = createService(service, token)
+output.text = client.get(key)

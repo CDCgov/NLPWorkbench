@@ -1,0 +1,131 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1753, 
+        1767
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1768, 
+        1777
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1785, 
+        1799
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1581, 
+        1604
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2649, 
+        2669
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1650, 
+        1677
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        578, 
+        607
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2505, 
+        2531
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1933, 
+        1956
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1731, 
+        1752
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2533, 
+        2537
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1680, 
+        1682
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1965, 
+        1997
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160502080300|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 2&9999&MOH~99999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&DG&ON^^^^JHN||XXXXXX^XXXXXX^XXX||99999999|F|||99 XXXX XXXX^^XXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-22982|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||201604110000|||33540^XXXXXX^XXXXXXX||||201604111454|&LUNG: BIOPSY FOR RIGHT MAINSTEM BRONCH|99999^XXXXXX^XXXXXXX||||||201604131515||LS|C|||||||99999^XXXXX^XXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen labeled with the patient's name and as \"biopsy right mainstem bronchus\" consists of a tan tissue measuring 0.2 and 0.4 cm, received in 10% buffered formalin.\n1A submitted in toto\n\n2. The specimen labeled with the patient's name and as \"4L LN\" consists of 4 red black tissue measuring 0.2-0.5 cm, received in 10% buffered formalin.\n2A submitted in toto\n\n3. The specimen labeled with the patient's name and as \"4R LN\" consists of low gray-black tissue measuring 2.5 x 2 x 0.5 cm in aggregate received in 10% buffered formalin.\n3A-3B submitted in toto\n\n4. The specimen labeled with the patient's name and as \"station 7 LN\" consists of 3 gray-black tissue measuring 0.6 and 0.8 x 0.5 x 0.5 cm, received in 10% buffered formalin.\n4A submitted in toto\n\n5. The specimen labeled with the patient's name and as \"2R LN\" consists of 5 gray-black and fatty tissue measuring from 0.5 up to 0.9 x 0.8 x 0.5 cm, received in 10% buffered formalin.\n5A submitted in toto\n\n\n\nPath report.relevant Hx\n\nBronch Med\nRt main stem bronchial tumour\n\n\n\nPath report.final diagnosis\n\n\n1. Bronchial biopsy (right mainstem bronchus):\n  - Poorly differentiated non-small cell carcinoma, favor adenocarcinoma (see Comment)\n\n2-5. Lymph nodes, biopsies (station 4L, station 4R, station 7, station 2R):\n  - Lymph nodes and lymph node fragments, negative for malignancy (x4)\n\n\n\nPath report.supplemental reports\n\n\n1. Bronchial biopsy (right mainstem bronchus):\n  - Poorly differentiated non-small cell carcinoma, favor adenocarcinoma\n    - POSITIVE for ALK by immunohistochemistry (see Addendum Comment)\n\nNOTE: ALK immunohistochemistry is performed at HOSPITAL using the 5A4 antibody with a protocol optimized for detection of ALK gene rearrangement, and is strongly positive in the tumor cells within the bronchial biopsy. FISH testing to confirm ALK gene rearrangement will be performed and reported subsequently.\n\n\n\nPath report.site of origin\n\nLUNG: BIOPSY FOR RIGHT MAINSTEM BRONCH\nLymph Node: 4L LN\nLymph Node: 4R LN\nLymph Node: STN 7 LN\nLymph Node: 2R LN\n\n\nPath report.comments\n\n1. Sections of the right mainstem bronchial biopsy show fragments of bronchial tissue infiltrated by small nests and sheets of positive for non-small cell carcinoma. By immunohistochemistry, the tumor cells stain positive for CK7 and TTF-1, and negative for CK5 and P63, favoring adenocarcinoma of lung origin. EGFR and ALK testing have been initiated and will be reported in an addendum.\n\nMolecular Number:         M16.4927\nTest Method(s) Used:        EGFR-RT52\nEGFR Result:            Negative\n\nDNA was extracted from the paraffin-embedded lung: biopsy for right mainstem bronchus, part 1, block A, and analyzed using the EGFR-RT52 kit from EntroGen. This kit is based on a real-time PCR qualitative genotyping assay that uses fluorescently labeled probes for detection of 30 recurrent mutations in exons 18, 19, 20 and 21 of the EGFR gene, including exon 20 resistance mutations (T790M, S768I, and insertions). Details of the mutations tested are available upon request. \n\nThe lower limit of mutation detection using this assay is 2.5-5%. Minimum tumor cellularity for analysis is 5%. \n\nThis analysis is based on current knowledge of the most common EGFR mutations and their presence in adenocarcinoma of the lung. Somatic mutations in the EGFR tyrosine kinase domain are present in 10-40% of non-small cell lung cancers. The presence of these mutations will predict clinical response or resistance to EGFR inhibitors such as gefitinib (Iressa) and erlotinib (Tarceva). Rarely, T790M occurs in untreated patients and may be present as an underlying germline mutation; this test will not discriminate germline T790M mutations from testing of tumor alone. This test will not identify rare mutations, such as E709K and D770_N771ins and is not appropriate for squamous cell carcinomas of the lung. Only adenocarcinomas of the lung or lung cancers with an adenocarcinoma component should be sent for testing. \n\nThe performance characteristics of this test were determined and verified by the Molecular Diagnostics Laboratory at the HOSPITAL. It has not been cleared or approved by the US FDA. FDA does not require this test to go through premarket FDA review. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments (CLIA) as qualified to perform high complexity clinical laboratory testing.\n\nPan Q, et al. JMD 2005; 7(3): 396-403 \nTsao MS, et al. NEJM 2005; 353(2): 133-144 \nRiely GJ, et al. Clin Cancer Res 2006; 12: 7232-7241\nJohn T, et al. Oncogene 2009; 28: S14-S23\nhttp://www.entrogen.com/web2/egfr-mutation-analysis-kit\nhttp://www.mycancergenome.org/content/disease/lung-cancer/\nLindeman NI, Cagle PT, Beasley MB, et al. Arch Pathol Lab Med. 137:828-860 \n\nResult by interphase FISH: positive for ALK rearrangement.\n\nISCN: nuc ish(5'ALKx1,3'ALKx2)(5'ALK con 3'ALKx1)[19/200]/(5'ALKx2,3'ALKx4)(5'ALK con 3'ALKx2)[122/200]\n\n\nThe signal pattern observed was consistent with presence of an ALK rearrangement in 70.5 % of nuclei. These abnormal nuclei show on average two intact ALK signals, and two 3' ALK signals, indicating the presence of a rearrangement, with loss of the 5' portion of the rearranged gene.\n\nALK gene rearrangement is a finding in a small subset (\\R\\5%) of lung adenocarcinomas, which have been demonstrated to respond to molecularly-targeted therapy. Xalkori (Pfizer) has been approved in Canada for treatment of these lung cancers in specific clinical situations. Loss of the 5' probed region of ALK gene is a common observation by FISH in ALK-rearranged lung cancers. The oncogenic portion of the rearranged ALK gene is found within the 3' probed region.\n\nThis FISH test has not been cleared/approved by the US FDA. The result should be used as an adjunct to existing clinical and pathological information. Information regarding the reference range of this probe set is available upon request.\n\n   Cytogenetics Lab Number:   B161425\nSpecimen Type:   Formalin-fixed, paraffin-embedded sections (3)\nSpecimen Quality:   Satisfactory\nSpecimen Processing in Lab:   Paraffin: in situ FISH preprocessing\nTest Performed:   FISH\nDetails for FISH Probeset:   ALK (breakapart) (Abbott)\n    Preparation quality - satisfactory\n    Slide / block probed: 1A\n    Number of observers: 2\n    Number of nuclei examined in interphase: 200\n\n\n\n\n"
+}

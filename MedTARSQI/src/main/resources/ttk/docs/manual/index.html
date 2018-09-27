@@ -1,0 +1,519 @@
+<html>
+<head>
+<title>TTK Manual</title>
+<link href="manual.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+<h1>The TARSQI Toolkit Manual</h1>
+
+<p class="subtitle">Release Notes and Manual for TTK Version 2.1.0. June 2017.
+
+<p class="navigation">
+[ <a href="#intro">introduction</a>
+| <a href="#prereq">installation</a>
+| <a href="#using">getting started</a>
+| <a href="#docs">documentation</a>
+| <a href="#contrib">contributors</a>
+| <a href="#contact">contact</a>
+| <a href="#future">future</a>
+| <a href="#license">license</a>
+]
+</p>
+
+
+<a name="intro"></a>
+
+<h2>1. Introduction</h2>
+
+<p>The Tarsqi Toolkit (also referred to here as TTK or the Toolkit) is a set of
+components for extracting temporal information from news wire texts. TTK
+extracts time expressions, events, subordination links and temporal links; in
+addition, it can ensure consistency of temporal information.</p>
+
+<p>The first version of the toolkit, version 1.0, was released in 2007,
+accompanied by many promises and threats that there would be a new version soon,
+but the release of the next version happened to take a decade. Version 2.0.0 was
+finally released in March 2017 and it differed from version 1.0 in many
+respects: code was simplified and debugged, documentation was updated, the
+Mallet toolkit was used, stand-off annotation was adopted, libraries were
+redesigned, and test and evaluation code was added. However, version 2.0.0 did
+not significantly change the toolkit's performance in terms of speed or
+precision and recall. After version 2.0.0 there have been more regular
+updates. A list of changes is maintained in
+the <a href="https://github.com/tarsqi/ttk/blob/master/CHANGELOG.md">changelog</a>
+on GitHub.</p>
+
+
+<a name="prereq"></a>
+
+<h2>2. Requirements and Installation</h2>
+
+<p>The toolkit runs on recent versions of Linux and Mac OSX (and should run on
+Windows, but see below). The code requires Python version 2.7, Perl version 5.8
+or newer and the Java Development Kit (JDK) version 8 (version 7 will probably
+work as well). Java is needed for running the third party software used by the
+toolkit.</p>
+
+<p>Installation is a four step process:</p>
+
+<ol>
+
+  <li>
+    <p>Install the toolkit code. This is simply a matter of unpacking the
+    downloaded archive or cloning the TTK Git repository
+    at <a href="https://github.com/tarsqi/ttk.git">https://github.com/tarsqi/ttk.git</a>. Due
+    to a <a href="https://github.com/tarsqi/ttk/issues/42">bug</a> on Windows,
+    you should aim to install the toolkit on a path without spaces.</p>
+  </li>
+
+  <li>
+    <p>Install the part-of-speech tagger. The Tarsqi toolkit is designed to work
+      seamlessly with the IMS TreeTagger. Download the packages needed for your
+      platform from
+      the <a href="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/">TreeTagger
+      website</a> and follow the directions. You can install the TreeTagger
+      wherever you like, but you may need to tell the Toolkit where it can find
+      the tagger (see below). There is an
+      <a href="../../build/install-treetagger-osx.sh">example script</a> in the
+      <code>build</code> directory which shows how to install the TreeTagger on
+      Mac OSX. (Note: all directory and file names printed in this manual are
+      relative to the path where TTK is installed).</p>
+  </li>
+
+  <li>
+    <p>Install MALLET. The classifiers in the Toolkit use the MAchine Learning
+      for LanguagE Toolkit (McCallum, Andrew Kachites. "MALLET: A Machine
+      Learning for Language Toolkit."
+      <a href="http://mallet.cs.umass.edu">http://mallet.cs.umass.edu</a>. 2002). Download
+      version 2.0.8
+      from <a href="http://mallet.cs.umass.edu/download.php">http://mallet.cs.umass.edu/download.php</a>. Version
+      2.0.7 will work as well. You can put MALLET wherever you want, but as with
+      the TreeTagger you may need to tell the Toolkit where to find it. There is
+      an <a href="../../build/install-mallet-osx.sh"> example script</a> in the
+      <code>build</code> directory which shows how to install MALLET on Mac
+      OSX. For Windows, you need to set the MALLET_HOME environment variable in
+      addition to editing the configuration file.</p>
+  </li>
+
+  <li>
+    <p>Create the configuration file. The toolkit comes with an example configuration file
+      in <code>config.sample.txt</code>. Copy that file into
+      <code>config.txt</code> and edit as needed. In most cases, the only
+      settings in the configuration file that you will need to change are
+      the <code>treetagger</code> and <code>mallet</code> options, with the
+      values depending on where you installed the TreeTagger and MALLET. If you
+      use the same installation directories as the two example scripts mentioned
+      above then you will not have to make any changes to the configuration
+      file.</p>
+  </li>
+
+</ol>
+
+<p>To test the toolkit open a terminal window and make sure your working
+directory is in the top-level directory of the distribution, then type
+the following at the prompt (we use the dollar sign as the prompt in all
+examples):</p>
+
+<pre class="example">
+$ python tarsqi.py data/in/simple-xml/tiny.xml out.xml
+</pre>
+
+<p>If all is well you will now have a file named <code>out.xml</code> with
+  content similar to the output printed below.</p>
+
+<pre class="example">
+&lt;ttk>
+&lt;text>
+
+Fido sleeps today.
+
+&lt;/text>
+&lt;metadata>
+  &lt;dct value="20170113"/>
+&lt;/metadata>
+&lt;source_tags>
+  &lt;text id="1" begin="1" end="21" />
+&lt;/source_tags>
+&lt;tarsqi_tags>
+  &lt;docelement id="d1" begin="2" end="20" origin="DOCSTRUCTURE" type="paragraph" />
+  &lt;s id="s1" begin="2" end="20" origin="PREPROCESSOR" />
+  &lt;lex id="l1" begin="2" end="6" lemma="Fido" origin="PREPROCESSOR" pos="NNP" text="Fido" />
+  &lt;ng id="c1" begin="2" end="6" origin="PREPROCESSOR" />
+  &lt;lex id="l2" begin="7" end="13" lemma="sleep" origin="PREPROCESSOR" pos="VBZ" text="sleeps" />
+  &lt;vg id="c2" begin="7" end="13" origin="PREPROCESSOR" />
+  &lt;EVENT begin="7" end="13" aspect="NONE" class="OCCURRENCE" eid="e1" eiid="ei1"
+         epos="VERB" form="sleeps" origin="EVITA" pos="VBZ" tense="PRESENT" />
+  &lt;lex id="l3" begin="14" end="19" lemma="today" origin="PREPROCESSOR" pos="NN" text="today" />
+  &lt;ng id="c3" begin="14" end="19" origin="PREPROCESSOR" />
+  &lt;TIMEX3 begin="14" end="19" origin="GUTIME" tid="t1" type="DATE" value="20170113" />
+  &lt;lex id="l4" begin="19" end="20" lemma="." origin="PREPROCESSOR" pos="." text="." />
+  &lt;TLINK eventInstanceID="ei1" origin="BLINKER-Type-1a"
+         relType="IS_INCLUDED" relatedToTime="t1" />
+  &lt;TLINK origin="LINK_MERGER"
+         relType="INCLUDES" relatedToEventInstance="ei1" timeID="t1" />
+&lt;/tarsqi_tags>
+&lt;/ttk>
+</pre>
+
+<p>Your output file will be slightly different in that the value in
+the <code>dct</code> tag will be the date you ran the test, there will also be
+minor format changes because some tags were put on two lines above for display
+purposes (TTK output has each tag on one line).</p>
+
+<p><u>A note for Windows users</u>. TTK 1.0 depended on some software that did
+not run on Windows. The current version does not have that problem and the code
+should run on Windows and we know it does actually run on Windows. However, we
+have not done extensive testing on Windows and some of the above instructions
+may not be entirely correct for Windows.</p>
+
+
+<a name="using"></a>
+
+<h2>3. Using the TARSQI Toolkit</h2>
+
+<p>To run the TARSQI Toolkit, open a terminal and change the working directory
+to the top-level directory of the distribution. You can run Tarsqi on a file or
+a directory and the general format of the command is as follows:</p>
+
+<pre class="example">
+$ python tarsqi.py [OPTIONS] INFILE OUTFILE
+$ python tarsqi.py [OPTIONS] INDIR OUTDIR
+</pre>
+
+<p>In the first invocation INFILE needs to exist but OUTFILE should not. In the
+second invocation INDIR has to be a directory and OUTDIR either should not
+exist, in which case it is created, or it should be a directory. In the latter
+case you will be asked to confirm whether it is okay to overwrite files in
+OUTDIR, if not, the program will exit. All files in INDIR will be processed
+except for hidden files (starting with '.') and backup files (ending in '~').</p>
+
+<p>There are several options you can use, none of them are mandatory. Options
+can be set in the configuration file (<code>config.txt</code>) or overruled on
+the command line. For a full list see the configuration file and the module
+documentation string in <code>tarsqi</code> (which can be browsed
+at <a href="../code/modules/tarsqi.html">docs/code/modules/tarsqi.html</a>). Here
+we just present the three options you are most likely to use.</p>
+
+<p><code>--source xml|text|ttk|timebank|...</code></p>
+
+<div class="indent">
+
+<p>The source type of the document allows components, especially the source
+parser and the metadata parser, to be sensitive to idiosyncratic properties of
+the text. There are three main types: <code>xml</code>, <code>text</code>
+and <code>ttk</code>. With the <code>xml</code> type the toolkit will assume
+that the input is well-formed XML and it will separate the text and the
+tags. The text is input for Tarsqi processing and the XML tags will be put in a
+separate tag repository. This input type can be used for the files
+in <code>data/in/simple-xml</code>. The <code>text</code> type makes the toolkit
+assume that the entire content of the file is to be parsed. Since the toolkit
+does not try to recognize any tags this type should only be used for real raw
+text. The <code>ttk</code> source type tells the toolkit that the input is in
+the TTK format. Typically the input here would be a file previously processed
+but the toolkit or a file that was converted into the TTK format.</p>
+
+<p>The toolkit will usually run just fine without the <code>--source</code>
+option. In that case the toolkit will make an educated guess as to whether the
+input is <code>xml</code>, <code>text</code> or <code>ttk</code>. The system can
+be tricked, for example by giving it a file where the beginning really lookes
+like XML, but in those cases an error will usually follow and only then it would
+be prudent to use the <code>--source</code> option after all.</p>
+
+<p>The option should always be used when one of the special formats are
+used. When the input is vanilla text or XML then the toolkit has no good way to
+determine properties that are expressed in a very idiosyncratic way like the
+document creation time (DCT) and it will simply default to today's
+date. The <code>timebank</code> source type is an example of a specific source
+type. When using this for one of the files in <code>data/in/TimeBank</code> the
+toolkit will know where to find the DCT, which in the TimeBank case is in the
+file name or in some tag in the input.</p>
+
+<p>The output of the processing is always in the TTK format, an example of which
+was given above when we processed <code>data/in/simple-xml/tiny.xml</code>. The
+TTK format is a standoff format which contains both the original unaltered text
+as well as the tags added and it contains four main elements:</p>
+
+<ol>
+
+<li><p>The <code>text</code> tag with in it the primary data of the input. In the
+case of the <code>text</code> type this is simply the entire document, for
+the <code>xml</code> type it is the document with all tags stripped (note that
+this implies that for the <code>xml</code> type we consider the primary source
+the document without the XML tags).</p></li>
+
+<li><p>The <code>metadata</code> tag which has a dictionary with meta data, which
+at this point only contains the value of the DCT.</p></li>
+
+<li><p>The <code>source_tags</code> tag which has all tags that were available in
+the input, this is by definition empty for the <code>text</code> type.</p></li>
+
+<li><p>The <code>tarsqi_tags</code> tag which contains a flat list of all tags added by the
+toolkit.</p></li>
+
+</ol>
+
+</div>
+
+<!--
+<code>timebank</code>
+<blockquote>
+This input type is very similar to <code>simple-xml</code>, the main
+difference is that it activates a component that parses document
+creation times for the various TimeBank formats. This input type can
+be used for the files in <code>data/in/TimeBank</code>, which
+consists of all TimeBank files with all tags (except some document
+level tags) stripped out.  
+</blockquote>
+
+<code>rte3</code>
+<blockquote>
+Use this input type when processing pre-processed data from
+<code>data/in/RTE3</code>, which contains data from the <a
+href="http://www.pascal-network.org/Challenges/RTE3/">Third Pascal
+Textual Entailment Challenge</a>. 
+</blockquote>
+-->
+
+
+<p><code>--dct TIMEX_VALUE</code></p>
+
+<div class="indent">
+
+<p>This can be used to hand in a DCT so that you are not faced with a situation
+where all DCTs are set to today's date. You may have a series of documents that
+you want to parse and that have their own particular format where the DCT is
+expressed in some way. You could extend the toolkit and define new data types
+and write metadata parsers for that data type. Or you could do that processing
+off-line and simply feed it into the toolkit with this option. The value needs
+to be a normalized time value like 20170412 (for April 12th 2017).</p>
+
+</div>
+
+
+<p><code>--pipeline STRING</code></p>
+
+<div class="indent">
+
+<p>Can be used to overrule the default pipeline specified in
+the <code>config.txt</code> settings file. A pipeline is a comma-separated
+string of component names. Allowed component names are <code>PREPROCESSOR,
+TOKENIZER, TAGGER, CHUNKER, GUTIME, EVITA, SLINKET, S2T, BLINKER,
+CLASSIFIER</code> and
+<code>LINK_MERGER</code>. The order of the components in the pipeline
+specification is significant. Some examples are:</p>
+
+<pre class="example">
+--pipeline PREPROCESSOR,GUTIME,EVITA
+--pipeline TOKENIZER,TAGGER,CHUNKER,GUTIME,EVITA
+--pipeline SLINKET,S2T,BLINKER,CLASSIFIER,LINK_MERGER
+--pipeline PREPROCESSOR,GUTIME,EVITA,SLINKET,S2T,BLINKER,CLASSIFIER
+</pre>
+
+<p>The first example instructs TTK to take a file, preprocess it and add time
+expressions and events. The second example is identical except that individual
+preprocessing modules are used instead of the PREPROCESSOR shorthand. It is
+worth noting that you should not combine PREPROCESSOR and TOKENIZER in one
+pipeline since you would then run the tokenizer twice and this will cause errors
+later in the processing chain. For the third example, preprocessing, times and
+events are taken for granted and only links are added. In this case the input
+needs to be a ttk file which has the needed information. The fourth example is
+th efull pipeline except that the link merger component is left out, this
+is useful for large files since the merger component slows down on large
+file. This is in fact the default pipeline.</p>
+
+</div>
+
+
+<p>To end this section here is an example to illustrate the interaction of
+the <code>--source</code> and <code>--pipeline</code> options:</p>
+
+<pre class="example">
+$ python tarsqi.py --source xml --pipeline TOKENIZER test.xml test.tokenized.xml
+$ python tarsqi.py --source ttk --pipeline TAGGER test.tokenized.xml test.tagged.xml
+</pre>
+
+<p>Note how the second line uses the ttk source type because output is always in
+the TTK format. You couldof course leave out the <code>--source</code> and let
+the toolkit determine the source from the input files.</p>
+
+
+<a name="docs"></a>
+
+<h2>4. Documentation</h2>
+
+<p>There is more documentation apart from the installation notes and minimal
+manual in this document. All documentation is in the <code>docs</code>
+directory. Some of it is quite useful, but some documents are there merely for
+historical reasons. Here is a short description for each subdirectory
+in <code>docs</code>:</p>
+
+<table cellspacing="0" cellpadding="5" border="1">
+
+<tr valign=top>
+<td>docs/code</td>
+<td>The Python code's documentation can be browsed
+at <a href="../code/index.html">docs/code/index.html</a>, which has a list of
+links to all modules. For each module the documentation strings for classes and
+functions are printed. Documentation of the code is uneven: some modules are
+well-documented, other have spotty and underwhelming documentation or are not
+documented at all. The pages are generated with the
+<code>utilities/make_documentation.py</code> script, which was created
+because the <code>pydoc</code> command used to crash on many of the toolkit
+modules.</td>
+</tr>
+
+<tr valign=top>
+<td>docs/design</td>
+<td>Notes on the overall design of the toolkit and the algorithms used in many
+components are
+in <a href="../design/index.html">docs/design/index.html</a>. These notes are a
+work in progress and many sections are unfinished. There is a list of tags
+generated by the toolkit
+in <a href="../design/1-toplevel.html#tags">docs/design/1-toplevel.html#tags</a>.</td>
+</tr>
+
+<tr valign=top>
+<td>docs/manual</td>
+<td>Contains the document you are reading now.</td>
+</tr>
+
+<tr valign=top>
+<td>docs/notes</td>
+<td>Various random notes on the Tarsqi toolkit including descriptions of parts
+of the system and how-to guides. Many are fairly recent, but some are very much
+out-of-date. The recent ones tend to be written in Github flavoured markdown and
+can best be viewed on Github
+at <a href="https://github.com/tarsqi/ttk/tree/master/docs/notes"
+>https://github.com/tarsqi/ttk/tree/master/docs/notes</a>.</td>
+</tr>
+
+<tr valign=top>
+<td>docs/specifications</td>
+<td>Contains a document written a decade ago, for historical interest only.</td>
+</tr>
+
+</table>
+
+<p>In addition to the documentation there is a list
+of <a href="../papers/index.html">published papers</a> on Tarsqi.</p>
+
+
+<!--
+<a name="issues"></a>
+
+<h2>7. Known Issues</h2>
+
+<li>Bad CPU type in executable
+
+<p>This error may be thrown by the bin/tree-tagger executable in the treetagger
+directory. You have the wrong executable. Install the correct version for your
+operating system.</p>
+
+<li>TreeTagger parameter file invalid: english.par
+
+<p>This is thrown by components.preprocessing.treetaggerwrapper.TreeTaggerError
+and it can occur when your versions of the treetagger and the treetaggerwrapper
+script are out of sync. Find the line
+
+<blockquote>
+"tagparfile": "english.par",
+</blockquote>
+
+and replace it with
+
+<blockquote>
+"tagparfile": "english-utf8.par",
+</blockquote>
+
+Note that this should really be fixed by using the new treetaggerwrapper.</p>
+-->
+
+
+<a name=contrib><h2>5. Contributors</h2></a>
+
+<p>Many people have contributed to the Tarsqi project, they are listed here in
+alphabetical order: Alex Baron, John Frank, Swini Garimella, Linda van Guilder,
+Josh Gieringer, Catherine Havasi, Jerry Hobbs, Seokbae Jang, Bob Knippen,
+Congmin Lee, Inderjeet Mani, Emin Mimaroglu, Jessica Moszkowicz, Feng Pan, John
+Phillips, Alex Plotnick, James Pustejovsky, Hongyuan Qiu, Ruth Reeves, Anna
+Rumshisky, Sanjib Kumar Saha, Roser Saur&iacute;, Barry Schiffman, Andrew See,
+Amber Stubbs, Kevin Thomas, Marc Verhagen and Ben Wellner.</p>
+
+<p>From 2001-2008, work on Tarsqi was performed in the context of the IARPA
+AQUAINT Program. We are in particular thankful for the early support of John
+Prange and Heather McCallum-Bayliss.</p>
+
+<!--
+<p>
+The Tango annotation tool was developed by Linda van Guilder, Andrew
+See, Bob Knippen and Alex Baron.
+-->
+
+
+<a name="contact"></a>
+
+<h2>6. Contact</h2>
+
+<p>Please send an email to ttk-bugs@timeml.org with any issue, question or
+comment you may have. When reporting a bug, please be as specific as you
+can. Give us the version of the code you are running, your platform specifics,
+the input that gives you grief, and any other particulars that seem
+relevant.</p>
+
+
+<a name="future"></a>
+
+<h2>7. Future Releases</h2>
+
+<p>To get an idea of what will be in the next release of the Tarsqi Toolkit it
+is best to start with the list of issues
+at <a href="https://github.com/tarsqi/ttk/issues">https://github.com/tarsqi/ttk/issues</a>. Some
+bigger items at the back of our minds include the following:</p>
+
+<ul>
+
+<li>Add reference intervals to the temporal closure code, which should reduce
+time complexity. Consider implementing parts in C or Java.</li>
+
+<li>Finish implementation of BTime, the new Tarsqi component for recognizing
+temporal expressions (not included in this repository). BTime use an Early
+algorith for recognizing time expressions. Currently its recall is too low due
+to having a small grammar. It will not replace GUTime untill it outperforms
+GUTime.</li>
+
+<li>Revisit the rules in Blinker. May include revisiting old GutenLink rules.</li>
+
+<li>Hook up the toolkit to other processing components (most notably
+HeidelTime).</li>
+
+<li>Add browsers and editors for the dictionaries and pattern sets.</li>
+
+</ul>
+
+
+<a name="license"></a>
+
+<h2>8. Copyright and License</h2>
+
+<p>The Tarsqi Toolkit is copyright &copy;2017 of Brandeis University and is
+distributed under the <a rel="license"
+href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2 License</a>.</p>
+
+<p>The Tempex module is copyright of The MITRE corporation and is distributed
+under the license in <a href="tempex-license.pdf">tempex-license.pdf</a>.</p>
+
+<p>The Toolkit contains two Python Wordnet modules in utilities/wordnet.py and
+utilities/wntools.py, which were developed by Oliver Steele. Use of that code is
+permitted under the Artistic License. See the PyWordNet project page
+at <a href="http://sourceforge.net/projects/pywordnet">http://sourceforge.net/projects/pywordnet</a>
+and the license
+at <a href="http://www.opensource.org/licenses/artistic-license.html">http://www.opensource.org/licenses/artistic-license.html</a>.</p>
+
+<p>The data in <code>data/in/TimeBank</code> are copyrighted by the
+various content providers and can be used for academic purposes only.</p>
+
+</body>
+</html>

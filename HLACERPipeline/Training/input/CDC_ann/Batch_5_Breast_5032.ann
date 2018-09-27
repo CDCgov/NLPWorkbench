@@ -1,0 +1,143 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1315, 
+        1321
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1097, 
+        1106
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1322, 
+        1331
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1335, 
+        1358
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1015, 
+        1042
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1186, 
+        1211
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        968, 
+        972
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1044, 
+        1048
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        524, 
+        553
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        914, 
+        940
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1080, 
+        1088
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        942, 
+        948
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1049, 
+        1055
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1089, 
+        1096
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        973, 
+        981
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 5^9999^MOH|PIMS|CCO|20160503080102|400C02FBF4A7C87FAED742F377B59A3A4C219A6D|ORU^R01|999999999999|P|2.5|||\nPID|1||K999999^^^^CMR^HOSPITAL 5&9999&MOH~K999999^^^^MRN^HOSPITAL 5&9999&MOH~9999999999&XX&ON^^^^JHN||XXXXXXXXXX^XXXXX^^^^^||99999999|F|||99 XXXX XXXX^^XXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||\nOBR|1||16:SJ6294|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160429|||63820^XXXXXX^XXXXXXX^XXXXX^^^||||||||||||20160503|||C|||||||99999^XXXXXXX^XXXXX^XXXX XXXXX^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container.\n \nThe specimen is received in formalin, labelled \"incisional biopsy L axilla skin mass at\nscar\". The specimen consists of a punch biopsy of brown pigmented skin, 0.5 x 0.4 x\n1.3 cm. The specimen is submitted in total in a single cassette.\n\n\nPath report.site of origin\n\nBreast, Incisional biopsy left axillary mass/cut.thickening 6 mm punch\n\n\nPath report.final diagnosis\n\nLeft breast, incisional biopsy\n   - Invasive mammary carcinoma favored ductal\n   - Please await immunohistochemical stains for confirmation\n\n\nPath Report.addendum spec\n\nThe tumor cells are positively reacted with CK7,ER, PR, E-cad, BRST2,and mamoglobulin\nin keeping with ductal carcinoma.\n\n\nPath report.relevant Hx\n\nHistory of left breast cancer, 1996 treated at HOSPITAL with radiologic guided left\npartial mastectomy and axillary dissection, received post op radiation, now left\naxillary mass, ? scar tissue, vs tumor recurrence on mammo mass increasesd in size 2015\n\n\n"
+}

@@ -1,0 +1,133 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1859, 
+        1873
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1927, 
+        1941
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1736, 
+        1759
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2206, 
+        2226
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1802, 
+        1829
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1845, 
+        1850
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2193, 
+        2198
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        998, 
+        1027
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1308, 
+        1343
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2116, 
+        2142
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2158, 
+        2184
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1851, 
+        1855
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1917, 
+        1926
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2199, 
+        2203
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 11^9999^MOH|PIMS|CCO|20160503080125|26CBEEF199AD47B0772CFB3EBD11CA773C098FB3|ORU^R01|99999999999|P|2.5|||||||\nPID|1||G99999999^^^^CMR^HOSPITAL 11&9999&MOH~G99999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&RW&^^^^JHN||XXXXXXX^XXXXXX^ XXXXXXXX^^^^||99999999|F|||999-999 XXXXXXX XXX XXXXX^^XXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||||\nOBR|1||16:S3650|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160419|||68736^XXXXXX^ XXXXXX^^^^||||||||||||20160502|||C|||||||99999^XXXXXXXX^ XXXXXXXX^^^^^|||||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nALK IHC performed at:\n Pathology No: S16-999999\nReviewed and electronically signed by:\nDate: Time: 1\nDIAGNOSIS:   CORE BIOPSIES RIGHT LUNG: adenocarcinoma\n        - there was insufficient tissue remaining in the block following\n        sampling for EGFR analysis - the ALK-stained slide does not\n        contain any residual tumor.\n        - EGFR report to follow from Molecular Genetics\nSee attached HOSPITAL Addendum. /tr\n\n\nPath report.gross description\n\nThe specimen is received in a container with 10% formalin, labeled with the\npatient's name and 'right lung'. The specimen consists of 3 core(s) of tan to brown\ntissue measuring 0.6-1.0 cm. All tissue embedded in 1 block.\nThe total fixation time is greater than 13 hours.\n(tlj)\n\n\nPath report.microscopic observation\n\nLevels show core biopsies of lung containing adenocarcinoma forming acini and\npapillae. The morphology is consistent with pulmonary adenocarcinoma. No\nangiolymphatic invasion is seen. Peripheral to the adenocarcinoma there is\nfibrosis and chronic inflammation.\nImmunohistochemistry:\nPositive-CK7, TTF-1\nNegative-CK 20\nThe immunophenotype is consistent with pulmonary adenocarcinoma.\n(ral)\n\n\nPath report.relevant Hx\n\nRight upper lobe mass rule out lung ca\n\n\nPath report.final diagnosis\n\nCORE BIOPSIES RIGHT LUNG:\n- ADENOCARCINOMA WITH THE MORPHOLOGY AND IMMUNOPHENOTYPE OF PULMONARY\nADENOCARCINOMA\nCOMMENT #1: A REPRESENTATIVE SLIDE IS BEING REFERRED TO HOSPITAL FOR EGFR\nAND ALK TESTING\nCOMMENT #2:INTERNAL CONSULTATION WITH DR.KURIAN WHO AGREES WITH THE DIAGNOSIS.\nRL\n\n\nPath report.site of origin\n\nLUNG BIOPSY\n\n\nPath report.site of origin\n\n3 X 18 RIGHT LUNG\n\n\nPath report.comments\n\n@TICKET # 158890 ,HANDLED BY - DR. PIEKOS\nSENT: April 25/16 - 5 sl., 1 bl. to Dr. - EGFR-ALK testing - pur 330717109632\n\n\n"
+}

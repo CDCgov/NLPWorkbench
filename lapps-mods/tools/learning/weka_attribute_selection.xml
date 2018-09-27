@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tool id="weka.attribute.selection" name="Atttribute Selection" version="0.1.0">
+    <description>WEKA'S Attribute Selection class.</description>
+    <command>
+        <![CDATA[
+             java -cp '$__tool_directory__/weka.jar' weka.filters.supervised.attribute.AttributeSelection
+                -i '$input_file'
+                #if int( $decimal ) != 6
+                    -decimal $decimal
+                #end if
+                #if str( $class.class_selection ) == "index_option"
+                    -c $class.class_index
+                #end if
+                #if str( $search.search_selection ) == "BestFirst"
+                    -S weka.attributeSelection.BestFirst -P $'search.starting_set' -D $search.direction -N $search.nodes -S $search.cache
+                #end if
+                #if str( $search.search_selection ) == "GreedyStepwise"
+                    -S weka.attributeSelection.GreedyStepwise $search.conservative_forward $search.backward -P $search.starting_set
+                    #if str( $search.ranked.ranked_selection ) == "yes_ranked"
+                        -R -T $search.ranked.threshold
+                    #end if
+                    -N $search.num_attributes $search.debug
+                #end if
+                #if str( $search.search_selection ) == "Ranker"
+                    -S weka.attributeSelection.Ranker -P $search.starting_set -T $search.threshold -N $search.num_attributes
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "CfsSubsetEval"
+                    -E weka.attributeSelection.CfsSubsetEval $evaluator.missing $evaluator.local
+                    #if int( $evaluator.thread ) != 1
+                        -P $evaluator.thread
+                    #end if
+                    #if int( $evaluator.thread_use ) != 1
+                        -E $evaluator.thread_use
+                    #end if
+                    #if int( $evaluator.thread ) != 1
+                        -P $evaluator.thread
+                    #end if
+                    $evaluator.precompute $evaluator.debug
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "ClassifierAttributeEval"
+                    -E weka.attributeSelection.ClassifierAttributeEval
+                    $evaluator.impact
+                    #if int( $evaluator.cv_folds ) != 5
+                        -F $evaluator.cv_folds
+                    #end if
+                    #if int( $evaluator.seed ) != 1
+                        -R $evaluator.seed
+                    #end if
+                    #if str( $evaluator.threshold ) != "0.01"
+                        -T $evaluator.threshold
+                    #end if
+                    -E $evaluator.evaluation.metric
+                    #if $evaluator.evaluation.ir_class
+                        -IRclass $evaluator.evaluation.ir_class
+                    #end if
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "CorrelationAttributeEval"
+                    -E weka.attributeSelection.CorrelationAttributeEval $evaluator.detail
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "GainRatioAttributeEval"
+                    -E weka.attributeSelection.GainRatioAttributeEval $evaluator.missing
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "InfoGainAttributeEval"
+                    -E weka.attributeSelection.InfoGainAttributeEval $evaluator.missing $evaluator.binarize
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "OneRAttributeEval"
+                    -E weka.attributeSelection.OneRAttributeEval
+                    #if int( $evaluator.seed ) != 1
+                        -S $evaluator.seed
+                    #end if
+                    #if int( $evaluator.folds ) != 10
+                        -F $evaluator.folds
+                    #end if
+                    $evaluator.for_evaluation
+                     #if int( $evaluator.bucket ) != 6
+                        -B $evaluator.bucket
+                    #end if
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "ReliefFAttributeEval"
+                    -E weka.attributeSelection.ReliefFAttributeEval
+                    #if $evaluator.instances
+                        -M $evaluator.instances
+                    #end if
+                    #if int ( $evaluator.seed ) != 1
+                        -D $evaluator.seed
+                    #end if
+                    #if int ( $evaluator.neighbours ) != 10
+                        -K $evaluator.neighbours
+                    #end if
+                    #if str( $evaluator.distance.distance_selection ) != "yes_weight"
+                        -W -A $evaluator.distance.sigma
+                    #end if
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "SymmetricalUncertAttributeEval"
+                    -E weka.attributeSelection.SymmetricalUncertAttributeEval $evaluator.missing
+                #end if
+
+                #if str( $evaluator.evaluator_selection ) == "WrapperSubsetEval"
+                    -E weka.attributeSelection.WrapperSubsetEval
+                    #if int( $evaluator.cv_folds ) != 5
+                        -F $evaluator.cv_folds
+                    #end if
+                    #if int( $evaluator.seed ) != 1
+                        -R $evaluator.seed
+                    #end if
+                    #if str( $evaluator.threshold ) != "0.01"
+                        -T $evaluator.threshold
+                    #end if
+                    -E $evaluator.evaluation.metric
+                    #if $evaluator.evaluation.ir_class
+                        -IRclass $evaluator.evaluation.ir_class
+                    #end if
+                #end if
+
+        ]]>
+    </command>
+    <inputs>
+        <param format="arff" name="input_file" type="data" label="Input file" />
+
+        <conditional name="class">
+            <param label="Class Index" name="class_selection" type="select">
+                <option selected="true" value="default_option">Use the default class index (last)</option>
+                <option value="index_option">Specify a different class index</option>
+            </param>
+            <when value="default_option"></when>
+            <when value="index_option">
+                <param name="class_index" type="text" value='last' label="Class Index ('first', 'last', or integer)" />
+            </when>
+        </conditional>
+
+        <param name="decimal" type="integer" value="6" label="Number of decimal places for the output in the model" />
+
+        <conditional name="search">
+            <param label="Search class" name="search_selection" type="select">
+                <option selected="true" value="BestFirst">BestFirst</option>
+                <option value="GreedyStepwise">GreedyStepwise</option>
+                <option value="Ranker">Ranker</option>
+            </param>
+            <when value="BestFirst">
+                <param name="starting_set" type="text" value='' label="Specify a starting set of attributes (eg: 2,5-7)" />
+                <param label="Direction of search" name="direction" type="select">
+                    <option selected="true" value="1">Forward (default)</option>
+                    <option value="0">Backward</option>
+                    <option value="2">Bi-Directional</option>
+                </param>
+                <param name="nodes" type="integer" value="" label="Number of non-improving nodes to consider before terminating search" />
+                <param name="cache" type="integer" value="1" label="Size of lookup cache for evaluated (expressed as a multiple of the number of attributes in the data set)" />
+            </when>
+
+            <when value="GreedyStepwise">
+                <param name="conservative_forward" type="boolean" checked="false" label="Use conservative forward search" truevalue="-C" falsevalue="" />
+                <param name="backward" type="boolean" checked="false" label="Use backward search instead of forward search" truevalue="-B" falsevalue="" />
+                <param name="starting_set" type="text" value='' label="Specify a starting set of attributes (eg: 2,5-7)" />
+
+                <conditional name="ranked">
+                    <param label="Ranked List" name="ranked_selection" type="select">
+                        <option selected="true" value="no_ranked">Do not produce a ranked list of attributes</option>
+                        <option value="yes_ranked">Produce a ranked list of attributes</option>
+                    </param>
+                    <when value="no_ranked"></when>
+                    <when value="yes_ranked">
+                        <param name="threshold" label="Specify a threshold by which attributes may be discarded from the ranking" type="text" value="" />
+                    </when>
+                </conditional>
+                <param name="num_attributes" type="integer" value='' label="Specify a number of attributes to select" />
+                <param name="debug" type="boolean" checked="false" label="Print debugging output" truevalue="-D" falsevalue="" />
+            </when>
+
+            <when value="Ranker">
+                 <param name="starting_set" type="text" value='' label="Specify a starting set of attributes (eg: 2,5-7). Any starting attributes specified are ignored during the ranking" />
+                 <param name="threshold" label="Specify a threshold by which attributes may be discarded from the ranking" type="text" value="" />
+                 <param name="num_attributes" type="integer" value='' label="Specify a number of attributes to select" />
+            </when>
+        </conditional>
+
+        <conditional name="evaluator">
+            <param label="Evaluator class" name="evaluator_selection" type="select">
+                <option selected="true" value="CfsSubsetEval">Correlation-based Feature Subset Selection (CfsSubsetEval)</option>
+                <option value="ClassifierAttributeEval">User-specified Classifier (ClassifierAttributeEval)</option>
+                <option value="CorrelationAttributeEval">Pearson's Correlation (CorrelationAttributeEval)</option>
+                <option value="GainRatioAttributeEval">Gain Ratio (GainRatioAttributeEval)</option>
+                <option value="InfoGainAttributeEval">Information Gain (InfoGainAttributeEval)</option>
+                <option value="OneRAttributeEval">OneR Classifier (OneRAttributeEval)</option>
+                <option value="ReliefFAttributeEval">Relief Feature Selection (ReliefFAttributeEval)</option>
+                <option value="SymmetricalUncertAttributeEval">Symmetrical Uncertainty (SymmetricalUncertAttributeEval)</option>
+                <option value="WrapperSubsetEval">Cross Validation Learning Scheme (WrapperSubsetEval)</option>
+            </param>
+
+            <when value="CfsSubsetEval">
+                <param name="missing" type="boolean" checked="false" label="Treat missing values as a separate value" truevalue="-M" falsevalue="" /> 
+                <param name="local" type="boolean" checked="true" label="Include locally predictive attributes" truevalue="" falsevalue="-L" /> 
+                <param name="thread" type="integer" value="1" label="The size of the thread pool, for example, the number of cores in the CPU" />
+                <param name="thread_use" type="integer" value="1" label="The number of threads to use, which should be >= size of thread pool" />
+                <param name="precompute" type="boolean" checked="false" label="Precompute the full correlation matrix at the outset, rather than compute correlations lazily (as needed) during the search (use this in conjuction with parallel processing in order to speed up a backward search)" truevalue="-Z" falsevalue="" /> 
+                <param name="debug" type="boolean" checked="false" label="Output debugging info" truevalue="-D" falsevalue="" /> 
+            </when>
+
+            <when value="ClassifierAttributeEval">
+                <param name="impact" type="boolean" checked="false" label="Evaluate an attribute by measuring the impact of leaving it out from the full set instead of considering its worth in isolation" truevalue="-L" falsevalue="" />
+                <param name="cv_folds" type="integer" value="5" label="Number of cross validation folds to use for estimating accuracy" />
+                <param name="seed" type="integer" value="1" label="Seed for cross validation accuracy testimation" />
+                <param name="threshold" type="float" value="0.01" label="Threshold by which to execute another cross validation (standard deviation expressed as a percentage of the mean. eg for 1%: 0.01)" />
+                <conditional name="evaluation">
+                    <param label="Performance evaluation measure to use for selecting attributes (Default should be Accuracy for a discrete class and Root Mean Squared Error for a numeric class)" name="metric" type="select">
+                        <option value="acc">Accuracy</option>
+                        <option value="rmse">Root mean squared error</option>
+                        <option value="mae">Mean absolute error</option>
+                        <option value="f_meas">F-Measure</option>
+                        <option value="auc">Area under the curve</option>
+                        <option value="auprc">Area under precision-recall curve</option>
+                    </param>
+                    <when value="acc"></when>
+                    <when value="rmse"></when>
+                    <when value="mae"></when>
+                    <when value="f_meas">
+                        <param name="ir_class" label="Optional class value (label or 1-based index) for IR statistics (omitting this option will use the class-weighted average)" type="text" value="" optional="true" />
+                    </when>
+                    <when value="auc">
+                        <param name="ir_class" label="Optional class value (label or 1-based index) for IR statistics (omitting this option will use the class-weighted average)" type="text" value="" optional="true" />
+                    </when>
+                    <when value="auprc">
+                        <param name="ir_class" label="Optional class value (label or 1-based index) for IR statistics (omitting this option will use the class-weighted average)" type="text" value="" optional="true" />
+                    </when>
+                </conditional>
+
+                <param name="learner" label="Class name of base learner to use for accuracy estimation, followed by any classifier options following a "--" (eg: weka.classifiers.bayes.NaiveBayes -- -K" type="text" value="weka.classifiers.rules.ZeroR" />
+            </when>
+
+            <when value="CorrelationAttributeEval">
+                <param name="detail" type="boolean" checked="false" label="Output detailed info for nominal attributes" truevalue="-D" falsevalue="" /> 
+            </when>
+
+            <when value="GainRatioAttributeEval">
+                <param name="missing" type="boolean" checked="false" label="Treat missing values as a seperate value" truevalue="-M" falsevalue="" />
+            </when>
+
+            <when value="InfoGainAttributeEval">
+                <param name="missing" type="boolean" checked="false" label="Treat missing values as a seperate value" truevalue="-M" falsevalue="" /> 
+                <param name="binarize" type="boolean" checked="false" label="Just binarize numeric attributes instead of properly discretizing them" truevalue="-B" falsevalue="" /> 
+            </when>
+
+            <when value="OneRAttributeEval">
+                <param name="seed" type="integer" value="1" label="Random number seed for cross validation" />
+                <param name="folds" type="integer" value="10" label="Number of folds for cross validation" />
+                <param name="for_evaluation" type="boolean" checked="false" label="Use training data for evaluation rather than cross validaton" truevalue="-D" falsevalue="" />
+                <param name="bucket" type="integer" value="6" label="Minimum number of objects in a bucket (passed on to OneR)" />
+            </when>
+
+            <when value="ReliefFAttributeEval">
+                <param name="instances" type="integer" value="" label="Specify the number of instances to sample when estimating attributes (if not specified, then all instances will be used" optional="true" />
+                <param name="seed" type="integer" value="1" label="Seed for randomly sampling instances" />
+                <param name="neighbours" type="integer" value="10" label="Number of nearest neighbours used to estimate attribute relevances" />
+                <conditional name="distance">
+                    <param label="Distance weighing" name="distance_selection" type="select">
+                        <option selected="true" value="no_weight">Do not weigh nearest neighbours by distance</option>
+                        <option value="yes_weight">Weigh nearest neighbours by distance</option>
+                    </param>
+                    <when value="no_weight"></when>
+                    <when value="yes_weight">
+                        <param name="sigma" type="float" value="2" label="Specify sigma value (used in an exp function to control how quickly weights for more distant instances decrease. Sensible value is 1/5 to 1/10 of the number of nearest neighbours)" />
+                    </when>
+                </conditional>
+            </when>
+
+            <when value="SymmetricalUncertAttributeEval">
+                <param name="missing" type="boolean" checked="false" label="Treat missing values as a seperate value" truevalue="-M" falsevalue="" /> 
+            </when>
+
+            <when value="WrapperSubsetEval">
+                <param name="cv_folds" type="integer" value="5" label="Number of cross validation folds to use for estimating accuracy" />
+                <param name="seed" type="integer" value="1" label="Seed for cross validation accuracy testimation" />
+                <param name="threshold" type="float" value="0.01" label="Threshold by which to execute another cross validation (standard deviation expressed as a percentage of the mean. eg for 1%: 0.01)" />
+                <conditional name="evaluation">
+                    <param label="Performance evaluation measure to use for selecting attributes (Default should be Accuracy for a discrete class and Root Mean Squared Error for a numeric class)" name="metric" type="select">
+                        <option value="acc">Accuracy</option>
+                        <option value="rmse">Root mean squared error</option>
+                        <option value="mae">Mean absolute error</option>
+                        <option value="f_meas">F-Measure</option>
+                        <option value="auc">Area under the curve</option>
+                        <option value="auprc">Area under precision-recall curve</option>
+                    </param>
+                    <when value="acc"></when>
+                    <when value="rmse"></when>
+                    <when value="mae"></when>
+                    <when value="f_meas">
+                        <param name="ir_class" label="Optional class value (label or 1-based index) for IR statistics (omitting this option will use the class-weighted average)" type="text" value="" optional="true" />
+                    </when>
+                    <when value="auc">
+                        <param name="ir_class" label="Optional class value (label or 1-based index) for IR statistics (omitting this option will use the class-weighted average)" type="text" value="" optional="true" />
+                    </when>
+                    <when value="auprc">
+                        <param name="ir_class" label="Optional class value (label or 1-based index) for IR statistics (omitting this option will use the class-weighted average)" type="text" value="" optional="true" />
+                    </when>
+                </conditional>
+
+                <param name="learner" label="Class name of base learner to use for accuracy estimation, followed by any classifier options following a "--" (eg: weka.classifiers.bayes.NaiveBayes -- -K" type="text" value="weka.classifiers.rules.ZeroR" />
+            </when>
+        </conditional>
+    </inputs>
+</tool>

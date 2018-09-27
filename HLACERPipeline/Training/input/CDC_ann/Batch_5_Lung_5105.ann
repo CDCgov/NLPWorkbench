@@ -1,0 +1,117 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1759, 
+        1773
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1578, 
+        1601
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1684, 
+        1711
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1725, 
+        1730
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1839, 
+        1844
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        965, 
+        994
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1327, 
+        1362
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1805, 
+        1831
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1742, 
+        1746
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1833, 
+        1837
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1731, 
+        1741
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1845, 
+        1855
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605032207|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360571|P|2.5|\nPID|1||J999999999^^^^CMR^HOSPITAL 8&9999&MOH~J999999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&WE&ON^^^^JHN||XXXXX^XXXXX^XXXXXXX XXXXX^^^||99999999|M|||99 XXXXXXXXX XXXXXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:SJ4655|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160401|||74024^XXXX^XXXXXXX^XXXXX^^^||||||||||||20160503|||C|||||||99999^XXXX^XXXXX^XXX-XXXX^^^|\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nBIOMARKER SUMMARY\n \nAdequacy of Sample for Testing: Adequate\nEstimated % Tumor Cellularity: 10\n \nEGFR Mutation: No mutation detected, wild-type EGFR allele\nMethod: Real-time PCR, EntroGen EGFR Mutation Analysis Kit Exons 18, 19, 20, 21\nRefer to Molecular Oncology Report 16:MO1995\n \nALK Rearrangement: No rearrangement detected\nMethod: Immunohistochemistry (IHC) Leica Bond Refine detection, 5A4 clone\n\n\nPath report.gross description\n\nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container.\n \nThe specimen is received in formalin within a container labelled \"right upper lobe\",\nand consists of six thin gray/black needle core biopsies, ranging from 0.2 to 0.4 cm in\nlength. All submitted in one block.\n\n\nPath report.microscopic observation\n\nThe core biopsy has yielded an invasive carcinoma with gland formation. Large\nareas of tumour necrosis are seen. The tumour cells are positive for TTF1 and Napsin\nA supporting a primary pulmonary adenocarcinoma.\n\n\nPath report.relevant Hx\n\nHistory of testicular carcinoma, right upper lobe 3.2 cm. lung mass spiculated\n\n\nPath report.final diagnosis\n\nCore biopsy right upper lobe lung mass: \n   - Adenocarcinoma, see microscopic description\n\n\nPath report.site of origin\n\nLung, Right upper lobe mass\n\n\n"
+}

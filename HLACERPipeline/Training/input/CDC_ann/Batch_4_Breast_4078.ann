@@ -1,0 +1,61 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2668, 
+        2691
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1070, 
+        1078
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1276, 
+        1296
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        680, 
+        707
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        561, 
+        587
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2464, 
+        2496
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170919125822||ORU^R01^ORU_R01|201709191258220001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-11-037689^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170824000000|||||||20170824000000|&MP Previous Material|1598973273^^^^^^MD^^CMS^D^^^NPI||||||20170830000000|||F||||||C50.412^Malignant neoplasm of upper-outer quadrant of left female breast^I10~Z17.0^Estrogen receptor positive status [ER+]^I10|1689993529&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.site of origin\n\nBreast, left, biopsy - original accession # 17-11-36993 (1D) - procedure date 08/21/2017\n\n\nPath report.final diagnosis\n\nAMENDED REPORT-- SEE COMMENT Neoplastic cells are POSITIVE for nuclear estrogen receptor. Neoplastic cells are NEGATIVE for nuclear progesterone receptor. Neoplastic cells show NO IMMUNOHISTOCHEMICAL EVIDENCE (Score 0) of HER-2 overexpression, HER-2 status will be confirmed by FISH. The proliferation rate is high (80%) on the Ki-67 immunohistochemical stain. COMMENT: This report is amended to correct the diagnosis field which previously stated the neoplastic cells to be \"positive\" for nuclear progesterone receptor. The tabulated data below remains unchanged.\n\n\nPath report.comments\n\nFISH Comments - The HER2 FISH assay (Abbott Molecular/Vysis, Inc.) did not reveal amplification of the HER2 oncogene. A ratio of HER-2 gene signals to the centromeric control probe of chromosome 17 (CEP 17) signals was 1.12 and a Her2 copy number of 2.24, (ratio less than 2.0 and Her2 copy number <4), indicating absence of amplification. There was no evidence of polysomy/polyploidy or genetic heterogeneity. Clinical correlation is recommended.    A ratio less than 2.0 and Her2 copy number less than 4 indicates absence of amplification.  A ratio less than 2.0 and Her2 copy number greater or equal to 4 and less than 6 indicates an equivocal value and per ASCO/CAP guidelines, requires reflex to another (IHC for Her2) test.  A ratio greater than or equal to 2.0 or average Her2 copy number greater or equal to 6 indicates gene amplification.    Regions of invasive tumor were defined by a pathologist. The tumor was fixed in formalin (recommended 6-72hrs). Tumor fixed outside the recommended fixation time should be interpreted with caution. Controls were performed and provided the anticipated results. This case has been reviewed by at least 2 observers.\n\n\nPath report.supplemental reports\n\nFish Report: FISH - NEGATIVE for HER2 oncogene amplification by FISH analysis  NEGATIVE for chromosome 17 polysomy by FISH analysis       ## End of auxiliary report ##\n\n\nPath report.relevant Hx\n\nHistory - Invasive high-grade carcinoma with squamous features, C50.412 Malig neoplasm of upper-outer quadrant of left female breast\n\n\n"
+}

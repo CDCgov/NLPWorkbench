@@ -1,0 +1,127 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2075, 
+        2081
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2082, 
+        2091
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1904, 
+        1927
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2164, 
+        2184
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4096, 
+        4104
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1998, 
+        2025
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2035, 
+        2039
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2150, 
+        2154
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1522, 
+        1551
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2110, 
+        2136
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2066, 
+        2074
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2027, 
+        2033
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2155, 
+        2161
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3^9999^MOH|PIMS|CCO|20160503053112|E609C68649120188376C23A02EAA766E35BC2571|ORU^R01|99999999999|P|2.5|||||||||||\nPID|1||Y9999999^^^^CMR^HOSPITAL 3&9999&MOH~Y9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&AY&ON^^^^JHN||XXXXXXXXX^XXXXXXXXXXXXXXX^^^^^||99999999|F|||99 XXXXXXXXX XXXXXXXX^^XXXXXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||||||||||\nOBR|1||SC3975-16|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160406|||65227^XXXXX^XXXXXX^XXX^^^^||||||||||||20160502|||C|||||||99999^XXXX^XXXXXXX^XXXXX XXXXXXX^^^^|||||||||||||||||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nDIAGNOSIS\nLeft breast core biopsy, SC3975-16/A2: (): SEE SYNOPTIC REPORT\nSpecimen\nSpecimen #:          SC3975-16\nSpecimen Type:        Breast Core\nTumour 1\nBlock #:           A2\nTumour Type:         Invasive ductal carcinoma\nER\n   ER Results:       POSITIVE\n   % Positive:       100%\n   Average Intensity:    Strong\n  \nPgR\n   PgR Results:       POSITIVE\n   % Positive:       80-90%\n   Average Intensity:    Moderate\nHER2 by IHC\n   HER2 IHC Results:    NEGATIVE (SCORE 0)\nMethods\nCold Ischemia and Fixation Times Meet the requirements Specified in the Latest\nVersion of the ASCO/CAP Guidelines: Yes\n   Fixative:          Formalin\n   Primary Antibody - ER:   SP1 (Health Canada approved)\n   Primary Antibody - PgR:   1E2 (Health Canada approved)\n   Primary Antibody - Her2:  4B5 (Health Canada approved)\nFor details, please see consultation report B16-946 (dated 18/04/2016) by Dr. Sharon\nNofech-Mozes at HOSPITAL 2.\n\n\nPath report.gross description\n\nA: The specimen is labeled with the patient`s identification, submitted as \"left\nbreast core biopsy\" and consists of 4 cores of beige yellowish soft tissue measuring\nup to 0.9 cm in length and 0.1 cm in diameter. The specimen is submitted in toto, one\ncore to a block in blocks A1-A4.\nIschemic time: Not available\nTissue fixation time: 24-48 hours.\n\n\nPath report.relevant Hx\n\nLEFT BREAST 1.4 CM NODULE AT 1:00, 6 CM FROM THE NIPPLE. BIRADS 5.\n\n\nPath report.final diagnosis\n\nBREAST; LEFT; CORE NEEDLE BIOPSY:\n   - INVASIVE DUCTAL CARCINOMA.\n   - SEE NOTE.\n\n\nPath report.site of origin\n\nCORE BIOPSY LEFT BREAST\n\n\nPath report.comments\n\nThe following attributes are noted (tumor summary):\nSIDE: Right.\nQUADRANT: Not specified (in the supplied clinical information specified as \"1\no'clock\").\nNUMBER OF CORES: 4.\nNUMBER OF CORES CONTAINING TUMOR: 4\nTYPE: Core needle biopsies.\nCALCIFICATION ON X-RAY?: Unknown, not specified on requisition; x-ray not seen.\nHISTOLOGICAL OPINION: Malignant.\nMALIGNANT LESION:\n   In situ carcinoma: Absent\n            \n   Invasive carcinoma: Present\n     Size: 0.8 cm.\n     Type: No special type/not otherwise specified (NOS).\n   Nottingham grade: II/III\n     Tubule formation 3/3, mitotic count 1/3, nuclear grade 2/3\n     Overall score 6/9.\n   Microcalcification: Not identified.\nNON-NEOPLASTIC TISSUE: Unremarkable.\nHORMONE RECEPTORS AND HER-2/NEU STATUS (Biomarkers):\nBiomarkers are being performed at HOSPITAL 2 on the core\nneedle biopsy (CNB) on block #A2 unless otherwise indicated (416 284 8131 x 4020).\nPlease note the following conditions for retesting of the Biomarkers on specimens\nobtained on subsequent surgical procedures (mastectomies, excisional biopsies, etc)\naccording to Cancer Care Ontario (CC0) /HOSPITAL 2 and\nadopted unchanged by RVHS.\nWhen to test BIOMARKERS ON CNB?\n   1.   All invasive carcinomas.\nWhen to repeat testing on excision when previously tested on the core?\n1. ER-ve, regardless of the other markers.\n2. Neoadjuvant treatment.\n3. A comment recommending retesting was placed on initial report.\n4. Tumor characteristics are different from the core (different type or grade).\n5. Multifocal tumor when only one focus was previously biopsied if appropriate.\n6. High nuclear grade and HER2-ve\n7. Core biopsy result is equivocal for HER2 after testing by both ISH and IHC.\n Note:\nRetesting always involves testing for the 3 markers to avoid confusion.\nPlease correlate the pathological findings to ensure your patient receives\nretesting of her specimen if this is subsequently required.\nCOMMENT: Because of the specimen's small size, the mitotic count may be an\nunderestimate; this may lower the overall Nottingham grade.\nThe above diagnostic interpretation has been peer reviewed - intradepartmental\ncollegial/consensus rounds on 8 April 2016; the diagnosis is a consensus opinion\nbased on review of representative slides.\n\n\n"
+}

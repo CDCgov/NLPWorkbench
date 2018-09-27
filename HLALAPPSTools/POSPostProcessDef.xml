@@ -1,0 +1,15 @@
+<tool id="pos_post" name="POSPostProcess" version="0.1.0">
+  <description>Fix the wrong NNP POS Tags</description>
+  <command interpreter="python">POSPostProcess.py $input $output</command>
+  <inputs>
+    <param format="lif" name="input" type="data" label="Source file"/>
+  </inputs>
+  <outputs>
+    <data format="lif" name="output" />
+  </outputs>
+
+  <help>
+Fix wrong NNP to NN for POS Tagging.
+  </help>
+
+</tool>

@@ -1,0 +1,131 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5143, 
+        5158
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4", 
+      "__extent": [
+        5601, 
+        5615
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7310, 
+        7333
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5056, 
+        5083
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        603, 
+        632
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7236, 
+        7271
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5011, 
+        5037
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4", 
+      "__extent": [
+        5590, 
+        5600
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5331, 
+        5352
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5875, 
+        5877
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5135, 
+        5142
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5817, 
+        5822
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5638, 
+        5655
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0658987^CLIA|eMARCPlus|TN Cancer Registry|20170921024732||ORU^R01^ORU_R01|201709210247320001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-51-003633^PathSys^44D0658987^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170907000000|||||||20170908000000|&Colon, Segmental Resection for Tumor, PQRS Colorectal Resection|1174622500^^^^^^MD^^CMS^D^^^NPI||||||20170911000000|||F||||||C18.0^Malignant neoplasm of cecum^I10~C77.2^Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes^I10|1326149907&&&J.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \"\" and \"terminal ileum, right and transverse colon\" (requisition further indicates suture marks distal margin) is a specimen comprised of terminal ileum, cecum with right colon containing a suture along 1 end indicated to be distal margin with bilateral stapled margins. The terminal ileum is 3.5 cm in length with an average circumference of 4.0 cm, the cecum with colon is 17.0 cm in length with a varying circumference ranging from 6.2 cm along the distal margin, up to 11.5 cm near the ileocecal valve. The segment of colon is slightly adherent to itself from closer to the ileocecal valve to the mid portion of the segment along 1 side. There are a total of 3 lesions found within the cecum and right colon. The first lesion found within the cecum is exophytic, pink-tan to yellow polypoid and measures 6.5 x 4.6 cm. The lesion is adjacent to the ileocecal valve and extends up to 3.0 cm from the proximal margin and 9.4 cm from the distal margin. Upon sectioning, the lesion varies in thickness ranging from 0.7 cm up to 2.2 cm. There are focal areas of gross invasion into the underlying wall. This first lesion is approximately 7.0 cm from the resected margin. Please note further sectioning within the area of the appendiceal orifice reveals no attached appendix. Further sectioning reveals puckering along the adjacent serosal surface within the area of the first lesion. Approximately 1.5 cm distal to the first lesion is a second pink-tan polypoid exophytic lesion, 5.0 x 3.1 cm found to be 12.5 cm from the distal margin. Upon sectioning, the second lesion varies in thickness from 0.7 cm up to 1.2 cm with focal areas of gross invasion into the underlying wall. Found 2.5 cm from the second lesion is a third pink-tan centrally ulcerated lesion with heaped up borders that appears to be circumferential and measures 8.2 x 4.4 cm, this lesion is found to be 7.0 cm from the distal margin. Upon sectioning, the third lesion varies in thickness from 0.7 cm up to 2.2 cm with gross invasion into the underlying fatty tissue. The third lesion is approximately 6.0 cm from the resected radial margin. Further sectioning reveals the area of underlying fatty tissue gross invasion is adjacent to where this area of colon is adherent to itself along the opposing side. Please note, however gross invasion into the underlying site (this area is adjacent to the first lesion) is not evident. Sectioning of the surrounding subserosal adipose tissue reveals multiple lymph nodes ranging in size from 0.4 cm up to 2.4 cm in greatest dimension. One area displays possible lymph node matting, this area measures 1.5 cm in greatest dimension. Summary of sections: 1A, margins, 2/1; 1B, first lesion with blue inked puckered serosa, 1/1; 1C, first lesion with adjacent normal mucosa extending to the second lesion, 1/1; 1D, additional section of lesion with blue inked serosa, 1/1; 1E, section of first lesion with underlying fatty tissue, 1/1; 1F, nearest resected radial margin from first lesion, 1/1; 1G, additional section of first lesion with underlying fatty tissue, 1/1; 1H, second lesion with gross invasion into the underlying fatty tissue, 1/1; 1I, section of second lesion with normal mucosa extending to the third lesion, 1/1; 1J, additional section of second lesion with gross invasion into the underlying wall, 1/1; 1K, section of fibrous area approaching resected radial margin underlying the second lesion, 1/1; 1L-1N, trisected section of third lesion with gross invasion into surrounding fatty tissue (junction between 1L and 1M is inked orange, junction between 1M and 1N is inked red, and blue ink indicates subserosal surface), 1/1 each; 1O, nearest resected blue inked radial margin from third lesion, 1/1; 1P, third lesion with adjacent normal mucosa, 1/1; 1Q, section of third lesion with adjacent underlying adherent colon, 1/1; 1R, section of underlying fatty tissue with adherent portion of uninvolved colon from opposing side of adherent third lesion, 1/1; 1S, additional section of third lesion underlying fatty tissue and a lymph node, 1/1; 1T, 4 lymph nodes, 4/1; 1U, 1 lymph node bisected, 2/1; 1V, 4 lymph nodes, 4/1; 1W, 5 lymph nodes, 5/1; 1X, 1 lymph node, 1/1; 1Y, 2 lymph nodes bisected, 1 bisected lymph node inked blue, the other bisected lymph node inked red, 4/1; 1Z, possible lymph node matting, 3/1. (KKN)\n\n\nPath report.site of origin\n\nTerminal Ileum\n\n\nPath report.final diagnosis\n\nLarge bowel right hemicolectomy:   Three separate colonic adenocarcinomas all invasive through muscle, largest is     8.2 cm in greatest dimension.   Smaller 2 tumors show at least portions which have a mucinous component.   Larger tumor is more poorly differentiated and higher grade.   Minimal satellitosis and no lymphovascular or perineural invasion identified.   Surgical margins of resection are negative for tumor.   Closest margin is serosal at 1.5 mm.   One of thirty-one lymph nodes involved by metastatic adenocarcinoma.   (See 17-GI-15572). CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Right hemicolectomy TUMOR  Tumor Site: Cecum  Histologic Type: Adenocarcinoma  Histologic Grade: G3: Poorly differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 8.2cm  Tumor Deposits: Present  Number of Deposits: Specify number  Specify number: 1 Tumor Extent  Tumor Extension: Tumor invades through the muscularis propria into pericolorectal tissue  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified  Type of Polyp in Which Invasive Carcinoma Arose: Tubulovillous adenoma  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#  Distance of Invasive Carcinoma from Closest Margin: Specify in Millimeters (mm)  Specify in Millimeters (mm): 1.5mm  Specify Closest Margin: Other (specify)  Other (specify): serosal LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 1  Number of Lymph Nodes Examined: Specify number  Specify number: 31 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT): pT3: Tumor invades through the muscularis propria into pericolorectal tissues  Regional Lymph Nodes (pN): pN1a: One regional lymph node is positive  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination performed.\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of colon/ Benign neoplasm of colon\n\n\n"
+}

@@ -1,0 +1,34 @@
+<tool id='anc_gate.ner_2.2.0' name='GATE NamedEntityRecognizer v2.2.0' version='1.0.0'>
+  <description>GATE Named Entity Recognizer</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.ner_2.2.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+
+GATE Named Entity Recognizer
+
+Required Annotations
+--------------------
+* http://vocab.lappsgrid.org/Token
+
+Generated Annotations
+---------------------
+* http://vocab.lappsgrid.org/Date
+* http://vocab.lappsgrid.org/Person
+* http://vocab.lappsgrid.org/Location
+* http://vocab.lappsgrid.org/Organization
+
+**License**
+
+Gate Developer is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

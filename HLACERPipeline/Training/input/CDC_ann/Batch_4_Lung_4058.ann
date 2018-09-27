@@ -1,0 +1,355 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3888, 
+        3901
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3902, 
+        3911
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3726, 
+        3749
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6113, 
+        6133
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3780, 
+        3807
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3818, 
+        3823
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5952, 
+        5957
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4225, 
+        4235
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4264, 
+        4274
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4305, 
+        4315
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4389, 
+        4399
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6056, 
+        6063
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6072, 
+        6082
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6095, 
+        6105
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        676, 
+        705
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5844, 
+        5879
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5921, 
+        5947
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3852, 
+        3860
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3862, 
+        3887
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3812, 
+        3816
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3824, 
+        3835
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4593, 
+        4603
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5958, 
+        5969
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3809, 
+        3811
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4004, 
+        4005
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4056, 
+        4057
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4110, 
+        4112
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4167, 
+        4168
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4222, 
+        4223
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4302, 
+        4303
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4386, 
+        4388
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5949, 
+        5950
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5975, 
+        5976
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5992, 
+        5993
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6011, 
+        6012
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6033, 
+        6034
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6053, 
+        6054
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6069, 
+        6070
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6088, 
+        6089
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4474, 
+        4491
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170919125826||ORU^R01^ORU_R01|201709191258260001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-008549^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170824000000|||||||20170824000000|&Lung, Total/Lobe/Segment Resection, Soft Tissue, other than tumor,mass,lipoma,debride, Soft Tissue, other than tumor,mass,lipoma,debride, Soft Tissue, other than tumor,mass,lipoma,debride, Soft Tissu|1205834777^^^^^^MD^^CMS^D^^^NPI||||||20170828000000|||F||||||C34.2^Malignant neoplasm of middle lobe, bronchus or lung^I10|1790075505&&&K&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n1. Received fresh for intraoperative consultation in a container labeled with the patient's name and \"right middle lobe mass\" is a 120 g wedge resection specimen measuring 15 x 7 x 3.5 cm. A stitch marks a subpleural brown-tan, relatively firm lesion. Blue ink is applied to the pleural surface, although the pleural surface is somewhat disrupted previously. Cut sections show a friable mass measuring 2.0 cm in greatest dimension. A portion of the mass is taken for culture and a representative section is submitted for frozen in 1FSA, 1/1. Post fixation: The mass lies approximately 3.0 cm from the bronchial and vascular margins. The remainder of the cut surface is composed of red-brown, crepitant parenchyma with little to no anthracosis. No other gross abnormalities are identified. Representative sections are submitted as follows: 1A, bronchial margins, 3/1; 1B, vascular margins, 3/1; 1C-1E, additional sections of the mass, 1/1 each; 1F, apparently uninvolved parenchyma, 1/1. (MLL/MD3/sc1) 2. Received fresh for intraoperative consultation in a container labeled with the patient's name and \"venous margin\" is a single white-tan soft tissue vascular segment measuring 0.6 x 0.5 x 0.4 cm. Blue ink is applied to the surface. The specimen is entirely submitted. 3. Received fresh for intraoperative consultation in a container labeled with the patient's name and \"arterial margin\" is a single red-tan soft tissue fragment measuring 0.9 x 0.6 x 0.4 cm. The specimen is entirely submitted. 4. Received fresh for intraoperative consultation in a container labeled with the patient's name and \"parenchymal margin\" and consists of a portion of soft lung parenchyma measuring 3.6 x 1.2 x 0.6 cm. No gross lesions are palpable. The specimen is entirely frozen. 5. Received fresh for intraoperative consultation in a container labeled with the patient's name and \"bronchial margin\" is a white-tan soft tissue tubular fragment measuring 0.6 x 0.8 x 0.5 cm. A small amount of black ink is applied to the side of the specimen. Specimens 2, 3 and 5 are submitted in 1 block. 2FSA, 3/1. 6. Received fresh for intraoperative consultation in a container labeled with the patient's name and \"level 8 lymph node\" and consists of 1 candidate lymph node measuring 0.9 cm in greatest dimension. Blue ink is applied to the specimen and it is entirely submitted. 7. Received fresh for intraoperative consultation in a container labeled with the patient's name and \"subcarinal node\" are 2 fragments of black-tan tissue which likely represent 2 lymph nodes and range in greatest dimension from 0.6 to 1.1 cm. The specimen is entirely submitted with specimens 4 and 6. 4FSA, specimens 6, 4 and 7, entirely submitted. 8. Received fresh \", 2nd subcarinal node\" is an unoriented 2.5 x 1.4 x 1.3 cm aggregate of red-pink, fatty tissue. There are multiple anthracotic candidate nodes measuring up to 1.5 cm. The candidate lymph nodes are entirely submitted as: 8A, 1 candidate lymph node, 4/1; 8B, 3 candidate lymph nodes, 3/1. (MH7/csb)\n\n\nPath report.relevant Hx\n\nHistory - Pulmonary nodule\n\n\nPath report.final diagnosis\n\n1. Lung, right middle lobe, lobectomy:     Invasive, moderately differentiated squamous cell carcinoma, 1.9 cm,     No definitive lymphovascular or pleural invasion identified.     See comments. 2. Venous margin, excision:     Negative for tumor. 3. Arterial margin, excision:     Negative for tumor. 4. Parenchymal margin, excision:     Negative for tumor. 5. Bronchial margin, excision:     Negative for tumor. 6. Lymph node, level 8, excision:     One lymph node, negative for tumor (0/1). 7. Lymph node, subcarinal, excision:     Two lymph nodes, negative for tumor (0/2). 8. Lymph node, subcarinal #2, excision:     Four lymph nodes, negative for tumor (0/4). CANCER CHECKLIST: LUNG 3.000.001.1000043 SPECIMEN  Procedure: Lobectomy  Specimen Laterality: Right TUMOR  Tumor Site: Upper lobe  Histologic Type: Squamous cell carcinoma in situ (SCIS)  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 1.9cm  Tumor Focality: Single tumor Tumor Extent  Visceral Pleura Invasion: Not identified  Direct Invasion of Adjacent Structures: No adjacent structures present Accessory Findings  Treatment Effect: No known presurgical therapy  Lymphovascular Invasion: Not identified MARGINS  Margins: All margins are uninvolved by carcinoma#  Margins Examined: Bronchial, Vascular, Parenchymal  Distance of Invasive Carcinoma from Closest Margin in Centimeters (cm): Not applicable (no invasive carcinoma in specimen) LYMPH NODES  Number of Lymph Nodes Involved: None identified  Nodal Stations Involved: 8R: Para-esophageal (below carina), 7: Subcarinal  Number of Lymph Nodes Examined: Specify number  Specify number: 7 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: Not applicable  Primary Tumor (pT): pT1b: Tumor > 1 cm but <= 2 cm in greatest dimension  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastases (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\n1. Right middle lobe mass 2. Venous margin 3. Arterial margin 4. Parynchemal margin 5. Bronchial margin 6. Level 8 node 7. Subcarinal node 8. 2nd subcarinal node\n\n\nPath report.comments\n\nComments - The specimen was received somewhat disrupted and, per clinician request, a sample was submitted for microbiologic cultures. As such, assessment of the pleural surface is somehwat cenging. However, elastin stains performed on select slides, fail to demonstrate visceral pleura invasion. Several foci are suspicious, but not definitive, for lymphovascular invasion.\n\n\n"
+}

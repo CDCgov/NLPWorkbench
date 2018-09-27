@@ -1,0 +1,15 @@
+String type = args[0]
+File input = new File(args[1])
+File output = new File(args[2])
+
+String base = 'http://149.165.157.51:8088/uima-converter-1.0.0-SNAPSHOT/services'
+String url = null
+if (type == 'xcas') {
+    url = base + '/XcasConverterService'
+}
+else {
+    url = base + '/LifConverterService'
+}
+
+ServiceClient service = new ServiceClient(url)
+output.text = service.execute(input.text)

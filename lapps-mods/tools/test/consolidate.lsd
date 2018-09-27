@@ -1,0 +1,32 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File input = new File(args[0])
+File output = new File(args[1])
+
+String json = input.text
+Data data = Serializer.parse(json, Data)
+if (data.discriminator == Uri.ERROR) {
+    output.text = json
+    return
+}
+
+Container inputContainer = new Container(data.payload)
+Container outputContainer = new Container()
+outputContainer.text = inputContainer.text
+outputContainer.language = inputContainer.text
+outputContainer.metadata = inputContainer.metadata
+
+View outputView = outputContainer.newView()
+inputContainer.views.each { View view ->
+    if (outputView.metadata.contains == null) {
+        outputView.metadata.contains = [:]
+    }
+    view.metadata.contains.each { key,value ->
+        outputView.metadata.contains[key] = value
+    }
+    view.annotations.each { Annotation a ->
+        outputView.addAnnotation(a)
+    }
+}
+
+output.text = new DataContainer(outputContainer).asPrettyJson()

@@ -1,0 +1,109 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        986, 
+        999
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1000, 
+        1009
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1013, 
+        1036
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1050, 
+        1070
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        927, 
+        954
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        908, 
+        912
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        956, 
+        960
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        543, 
+        572
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        880, 
+        906
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        913, 
+        917
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        961, 
+        965
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 7^2038^MOH|PIMS|CCO|20160503143000|90379AD3991735A5A6F133E27F9C3963990CDBDB|ORU^R01|999999|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 7&9999&MOH~999999^^^^MRN^HOSPITAL 7&9999&MOH~9999999999&&ON^^^^JHN||XXXX^XXXX||99999999|M|||99 XXXX XXXX^^XXXXXXXXX^XX^X9X 9X9^XXX||(999)999-9999|||||||||||||||||N|\nOBR|1||CS16-5067|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604290000|||87415^XXXX^XXXXX||||201604291345|PAT&&Left Lung Biopsy|99999^XXXX^XXXXX||||N||201605031430||YCHH|F|||||||99999^XXXXXX^XXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nLeft Lung Biopsy: \nThe specimen is labeled left lung biopsy\n\nReceived in formalin are multiple grey white core biopsies of tissue ranging in measurement from 0.4-1.5 cm in length to less than 0.1 cm in diameter. The entire specimen is submitted for microscopy in one block following weekend fixation.\n \n\n\n\nPath report.site of origin\n\nLeft Lung Biopsy\n\n\nPath report.final diagnosis\n\nLeft Lung, core biopsies:\n\n   Squamous cell carcinoma\n\n\n\nPath report.relevant Hx\n\nQuery CA\n\n\n\nPath report.comments\n\nCore biopsies of lung mass are effaced by nests and cords of large malignant epithelial cells with squamous differentiation characterized by intercellular bridges and cytoplasmic keratinization. Prominent geographic tumor cell necrosis is seen. Immunohistochemical analysis shows the tumor cell population to stain positively for p63 and negative for TTF-1.\n\n\n\n"
+}

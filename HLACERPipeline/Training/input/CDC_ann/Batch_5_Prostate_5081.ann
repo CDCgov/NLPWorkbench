@@ -1,0 +1,161 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2420, 
+        2434
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2291, 
+        2314
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2804, 
+        2824
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2344, 
+        2371
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        537, 
+        566
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1010, 
+        1045
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1205, 
+        1240
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2655, 
+        2681
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2738, 
+        2764
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2401, 
+        2409
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2440, 
+        2447
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2376, 
+        2391
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2410, 
+        2419
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2769, 
+        2784
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2373, 
+        2375
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2766, 
+        2768
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2785, 
+        2787
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 11^9999^MOH|PIMS|CCO|20160507080123|26CBEEF199AD47B0772CFB3EBD11CA773C098FB3|ORU^R01|999999999999|P|2.5|||||||\nPID|1||G99999999^^^^CMR^HOSPITAL 11&9999&MOH~G99999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&BB&^^^^JHN||XXXXXX^XXXXXX^ XXXXX^^^^||99999999|M|||999 XXXXXXXX XXXXXX^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||||\nOBR|1||16:S4272|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160504|||56649^XXXXX^XXXXXX^^^^||||||||||||20160506|||F|||||||99999^XXXXXXXX^ XXXXXXXX^^^^^|||||||\n\n\n\n\n\n\n\nPath report.gross description\n\nA. The specimen is received in a container with 10% formalin, labeled with the\npatient's name and 'prostate tissue'. The specimen consists of 17 g of prostatic\nchips. Representative, 7 Blocks.\nB. The specimen is received fresh in a container labeled with the patient's name and\n'bladder stones' and consists of multiple fragments of tan-brown calculi, ranging in\nsize from 0.1-0.7 cm. the specimen is submitted for chemical analysis.\n(tlj)\n\n\nPath report.microscopic observation\n\nSections show multiple prostatic chips with extensive adenocarcinoma of the\nprostate NOS, Gleason grade 3+4 = 7.\nPlease also see the synoptic report below.\n\n\nPath report.microscopic observation\n\n* EXAM: Prostate - TUR; Enucleation Specimen: 1 *\nClinical             \n Specimen Site:          Prostatic structure\n Tumour Site:           Prostatic structure\nSpecimen             \n Procedure:            Transurethral prostatic resection\n Specimen Size          \n  Weight:             17 g\nTumour              \n Histologic Type:         Adenocarcinoma (acinar, not otherwise\n                  specified)\n Histologic Grade:         Gleason Pattern\n  Primary (Predominant) Pattern: Grade 3\n  Secondary (Worst Remaining) Pattern: Grade 4\n  Total Gleason Score:      7\nExtent              \n Tumour Quantitation:       TUR Specimens\n Tumour Quantitation: TUR Specimens\n  Proportion of Prostatic Tissue Involved by Tumour: 10%\nAccessory Findings        \n Lymph-Vascular Invasion:     Not identified\n Perineural Invasion:       Present\nAdditional Non-Tumour       \n Additional Pathologic Findings:  High-grade prostatic intraepithelial\n                  neoplasia (PIN) and Inflammation - acute\n* END SECTION: Prostate - TUR; Enucleation Specimen: 1 *\n\n\nPath report.relevant Hx\n\nChronic Urinary Retention\n\n\nPath report.final diagnosis\n\nA. PROSTATE TISSUE, TURP:\n- INVASIVE PROSTATIC ADENOCARCINOMA NOS, GLEASON GRADE 3+4 =7\n- PLEASE ALSO SEE THE SYNOPTIC REPORT BELOW.\nB. BLADDER CALCULUS:\n- CALCULUS SUBMITTED FOR CHEMICAL ANALYSIS\nCOMMENT #1:INTERNAL CONSULTATION WITH DR. KURIAN WHO AGREES WITH THE\nDIAGNOSIS.\nRL\n\n\nPath report.site of origin\n\nPROSTATE CHIPS, CUTTINGS, TISSUE\nIDENTIFICATION ONLY\n\n\nPath report.site of origin\n\nA. PROSTATE TISSUE\nB. BLADDER STONE\n\n\nPath report.comments\n\n@TICKET # 231297 ,HANDLED BY - EM/HD\n\n\n"
+}

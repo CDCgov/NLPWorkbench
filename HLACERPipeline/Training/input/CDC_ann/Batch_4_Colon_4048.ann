@@ -1,0 +1,163 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3680, 
+        3694
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4473, 
+        4487
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5708, 
+        5731
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3575, 
+        3602
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        655, 
+        684
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5634, 
+        5669
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3505, 
+        3531
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3723, 
+        3731
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3696, 
+        3721
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4508, 
+        4509
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3567, 
+        3572
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4449, 
+        4454
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3533, 
+        3543
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3544, 
+        3554
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3559, 
+        3566
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4437, 
+        4447
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4251, 
+        4268
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0658987^CLIA|eMARCPlus|TN Cancer Registry|20170919125831||ORU^R01^ORU_R01|201709191258310001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-51-003284^PathSys^44D0658987^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170814000000|||||||20170815000000|&Colon, Segmental Resection for Tumor|1174622500^^ ^^^^MD^^CMS^D^^^NPI||||||20170817000000|||F||||||C18.8^Malignant neoplasm of overlapping sites of colon^I10~D12.6^Benign neoplasm of colon, unspecified^I10~K57.32^Diverticulitis of large intestine without perforation or abscess without bleeding^I10|1326149907& & &J.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \", transverse, descending and sigmoid colon\" is a colectomy specimen measuring 79.0 cm in length and 3.5 cm in average diameter. A stitch marks \"proximal.\" The specimen is received with a marked amount of attached adipose tissue, predominantly consistent with omentum. There is a 4.5 x 3.5 x 2.0 cm exophytic mass measuring 4.5 cm from the proximal margin, 71.5 cm from the distal margin, and 4.0 cm from the mesenteric resection margin. The overlying serosa is puckered; this area is inked blue. Sectioning reveals gross involvement of the bowel wall. There is no gross evidence into overlying adipose tissue or through the serosa. There are multiple additional polypoid lesions measuring 0.5 cm to 1.7 x 1.2 x 1.0 cm. The stalks measure 0.2-2.5 cm. No involvement of the bowel wall is identified with these additional polypoid lesions. The polypoid lesions measure 2.8 cm from the distal margin, 50.5 cm from the mass, and 59.0 cm from the proximal margin. The polypoid lesions are 9.5 cm from the mesenteric resection margin. The remaining mucosa is pink-tan and glistening, with no additional masses or lesions identified. The bowel wall averages 0.1 cm and is thickened up to 1.0 cm at the distal aspects. There are multiple diverticula, up to 2.0 cm associated with the thickened bowel wall. There is a 4.0 cm possible abscess cavity associated with the diverticula. No definitive perforation is appreciated. The thickened wall coincides with a high density of polypoid lesions (approximately 5 polypoid lesions in 8 cm). The serosa is intact, smooth and pink-tan. No defects or exudate are identified. No tattoo ink is identified in the mucosa or serosa. Multiple candidate lymph nodes are identified. Representative sections are submitted. 1A, proximal margin, 1/1; 1B, distal margin, 1/1; 1C, mesenteric resection margin of mass, 1/1; 1D-1E, mass to inked serosa, 1/1 each; 1F, mass and overlying adipose tissue, 1/1; 1G-1H, mass and adjacent colon, 1/1 each; 1I, mesenteric resection margin nearest polypoid lesions, 1/1; 1J-1K, 1 polypoid lesion, base in 1K, 2/1 each; 1L-1M, 1 polypoid lesion, base in 1M, 2/1 each; 1N-1O, 1 polypoid lesion, 1/1 each; 1P, 1 polypoid lesion, 2/1; 1Q, 2 polypoid lesions, 1/1; 1R, 1 polypoid lesion, 1/1; 1S, 1 polypoid lesion, 1/1; 1T-1U, full-thickness sections with thickened wall and associated inflammation, 1/1 each; 1V-1W, possible abscess associated with diverticula, 1/1 each; 1X, 1 lymph node, 3/1; 1Y, 1 lymph node, 3/1; 1Z, 1 lymph node, 2/1; 1AA, 7 lymph nodes, 7/1; 1AB, 3 lymph nodes, 3/1; 1AC-1AE, 2 lymph nodes in each, differentially inked and bisected, 4/1 each; 1AF, 3 lymph nodes, differentially inked and bisected, 6/1; 1AG, 1 lymph node, sectioned, 4/1. NOTE: The polypoid lesions are submitted proximal to distal. (KSA)\n\n\nPath report.site of origin\n\nTransverse descending and sigmoid colon\n\n\nPath report.final diagnosis\n\nLarge bowel, transverse, descending and sigmoid colon, resection:   Colonic adenocarcinoma, moderately differentiated, invasive focally through     muscle into pericolonic adipose tissue.   No lymphovascular invasion identified.   Tumor is 4.5 cm in greatest dimension.   Multiple additional tubular and tubulovillous adenomas, negative for high-grade     dysplasia and malignancy.   Surgical margins of resection are negative.   Multiple diverticula with chronic diverticulitis, peridiverticular scarring and     inflammation with abscess formation and acute serositis.   Twenty-two regional lymph nodes negative for tumor.   (See 17-51-2906).   CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Transverse colectomy TUMOR  Tumor Site: Left (descending) colon  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 4.5 cmcm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor invades through the muscularis propria into pericolorectal tissue  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified  Type of Polyp in Which Invasive Carcinoma Arose: None identified  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma# LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 22 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT): pT3: Tumor invades through the muscularis propria into pericolorectal tissues  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination performed.\n\n\nPath report.relevant Hx\n\nHistory - Multifocal colon cancer, C18.3 Malignant neoplasm of hepatic flexure, C18.7 Malignant neoplasm of sigmoid colon, E66.3 Overweight, E78.5 Hyperlipidemia, unspecified\n\n\n"
+}

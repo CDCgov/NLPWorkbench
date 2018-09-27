@@ -1,0 +1,131 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1283, 
+        1289
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1290, 
+        1299
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1330, 
+        1353
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1399, 
+        1419
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1181, 
+        1208
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1160, 
+        1165
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1235, 
+        1240
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        575, 
+        604
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1124, 
+        1150
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1274, 
+        1282
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1264, 
+        1273
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1152, 
+        1158
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1241, 
+        1261
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 7^2038^MOH|PIMS|CCO|20160602111500|90379AD3991735A5A6F133E27F9C3963990CDBDB|ORU^R01|999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 7&9999&MOH~9999999^^^^MRN^HOSPITAL 7&9999&MOH~9999999999&JF&ON^^^^JHN||XXXXXX^XXXX^XXXXXXXXX||99999999|F|||999 XXXXXXXX XXXX^^XXXXXXXX XXXX^XX^X9X 9X9^XXX||(999)999-9999|||||||||||||||||N|\nOBR|1||YS16-8539|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605310000|||63998^XX^XXXX||||201605311316|PAT&&Breast, right, core biopsy|99999^XX^XXXX||||N||201606021115||SRHCSP|F|||||||99999^XXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen (right breast) is received in formalin and consists of four cores of tan/white tissue, which vary from 0.6 cm to 1.0 cm in length. They are entirely submitted in blocks 1 to 3.\n\nFormalin fixation:\nProcedure room:   \n Tissue removed from body:     Date: May 31, 2015     Time: 09:30\n Tissue placed in fixative:        Date: May 31, 2015     Time: 09:31\nGrossing room:     \n Tissue fixation end time:        Date: May 31, 2015     Time: 23:30\nTotal formalin fixation time:      13 hours, 59 minutes.\n\nCN\n\n\n\nPath report.site of origin\n\nBreast, right, core biopsy\n\n\nPath report.final diagnosis\n\nCore biopsies of breast (right upper outer quadrant):\nLow-grade invasive ductal carcinoma (please see comment below)\n\n\n\nPath report.relevant Hx\n\nMass abnormality of upper outer quadrant\n\n\n\nPath report.comments\n\nObviously invasive ductal carcinoma is tentatively assigned a histologic grade of 1/3 (nuclear pleomorphism 2/3; tubule formation 2/3; mitotic count 1/3). This assessment may change when the entire lesion becomes available for review.\n\nIn addition to the obviously invasive tumoural component noted above, there are also several, large, solid, densely packed, atypical, epithelial cell groups that are devoid of any surrounding stroma. Myoepithelial cells appear to be absent, since immunohistochemical staining for both MSM and p63 is negative. It is unclear whether this particular tissue originates from the central portion of solid ductal carcinoma in-situ or is simply additional invasive carcinoma. Resolution of this uncertainty awaits complete pathologic examination of the resected tumour. \n\nReferral will be made for determination of ER/PR/HER2 status. A supplementary report will be issued when results are available.\n\nR/I: JS\nR/O: SHSC\n\n\n\n"
+}

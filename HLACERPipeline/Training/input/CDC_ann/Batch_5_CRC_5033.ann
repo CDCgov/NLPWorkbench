@@ -1,0 +1,139 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1443, 
+        1457
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1505, 
+        1528
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        958, 
+        985
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        523, 
+        552
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        833, 
+        859
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1434, 
+        1442
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        937, 
+        942
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        861, 
+        863
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        881, 
+        883
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        907, 
+        909
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        934, 
+        936
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1059, 
+        1061
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1141, 
+        1143
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1186, 
+        1188
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1275, 
+        1277
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605031151|BEE6570F10A8FA5D65356349093BC86C3F651E0A|ORU^R01|PIMS-OUT.1.360306|P|2.5|\nPID|1||M999999999^^^^CMR^HOSPITAL 8^9999^MOH~M999999999^^^^MRN^HOSPITAL 8^9999^MOH~9999999999&NR&ON^^^^JHN||XXXXXX^XXX^^^^||99999999|M|||99 XXXX 99XX XX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:SM4035|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160428|||98972^XXXXXXXX^XXXXX^XXXXX^^^||||||||||||20160503|||F|||||||99999^XXXXXXXX-XXXXXXX^XXXXXX^^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient demographics and specimen identification on the requisition correspond to\nthat on the specimen container. The specimen is received in formalin, labelled \"A- duo\nx2, B- ant x2, C- body x2 and D- cec mass x8\". All submitted in separate cassettes A\nto D respectively.\n\n\nPath report.site of origin\n\nA: Duodenum, biopsy\nB: Gastric antrum, biopsy\nC: Body of Stomach, biopsy\nD: Cecum, biopsy mass\n\n\nPath report.final diagnosis\n\nA. Biopsy, Duodenum:\n  - Without significant pathological abnormality\n \nB. Biopsy, Gastric Antrum:\n  - Moderate chronic gastritis with focal activity\n  - H. pylori-like organisms easily identified\n \nC. Biopsy, Gastric Body:\n  - Oxyntic mucosa with PPI effect and mild chronic gastritis\n \nD. Biopsy Polyp, Cecum:\n  - Fragmented material with features of at least high grade dysplasia on sessile\n   serrated adenoma \n  - Focal regions suspicious of invasive adenocarcinoma \n  - Please assure complete removal of polyp\n\n\nPath report.relevant Hx\n\n? malignancy in cecum, R/O adenocarcinoma, celiac and H.pylori.\n\n\n"
+}

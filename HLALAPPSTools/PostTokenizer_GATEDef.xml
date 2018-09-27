@@ -1,0 +1,16 @@
+<tool id="post_token_gate" name="PostTokenizer_GATE" version="0.1.0">
+  <description>Merge the ann file into the LIF Tokenization file from GATE Tokenizer</description>
+  <command interpreter="python">PostTokenizer_GATE.py $input $ann $output</command>
+  <inputs>
+    <param format="lif" name="input" type="data" label="Input file"/>
+    <param format="ann" name="ann" type="data" label="Ann file"/>
+  </inputs>
+  <outputs>
+    <data format="lif" name="output" />
+  </outputs>
+
+  <help>
+    Add another feature called 'semanticTag' for annotated tags.
+  </help>
+
+</tool>

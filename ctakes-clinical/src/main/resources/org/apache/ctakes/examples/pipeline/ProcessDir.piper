@@ -1,0 +1,23 @@
+// This file contains commands and parameters to run the ctakes-examples "Hello World" pipeline
+// with Entity Property output
+
+readFiles org/apache/ctakes/examples/notes
+
+// Load a simple token processing pipeline from another pipeline file
+load DefaultTokenizerPipeline.piper
+
+// Add non-core annotators
+add ContextDependentTokenizerAnnotator
+// The POSTagger has a -complex- startup, but it can create its own description to handle it
+addDescription POSTagger
+
+//addDescription LvgAnnotator
+addDescription ThreadSafeLvg
+
+add DefaultJCasTermAnnotator
+
+// Add Named Entity Context Entity Attribute annotators
+load NeContextsSubPipe.piper
+
+// Collect discovered Entity information for post-run access
+collectEntities

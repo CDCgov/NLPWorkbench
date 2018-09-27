@@ -1,0 +1,10 @@
+<tool id='json.prettyprinter' name='Pretty Print JSON' version='2.0.0'>
+  <description>Pretty prints the JSON input</description>
+  <command interpreter='lsd'>../common/pretty_print.lsd $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='json,lif' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+</tool>

@@ -1,0 +1,37 @@
+<tool id='anc_gate.ortho_2.3.0' name='GATE OrthoMatcher v2.3.0' version='1.0.1'>
+  <description>GATE OrthoMatcher</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.ortho_2.3.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+Adds identity relations between previously identified named entities in order to perform coreference.
+
+.. class:: infomark
+
+**NOTE**: If input is from to this tools is the output of a pipeline of GATE tools including *GATE->GATE Gazetteer* and *GATE->GATE: NamedEntityRecognizer*, the 
+Orthomatcher may assign an entity type to an unclassiﬁed proper name (an "Unknown"" annotation), using the type of a matching name. 
+
+**Required Annotations**
+
+* Named Entities in GATE XML format (will automatically convert from LIF) 
+
+**Generated Annotations**
+
+A list of annotation IDs for annotations referring to the same entity as the value of the *matches* feature of any named entity annotation.
+If converted to LIF using *Convert Formats->GateToLif*, the output will include `NamedEntity <http://vocab.lappsgrid.org/NamedEntity>`_ 
+annotations with a list of annotation IDs for annotations referring to the same entity as the value of the *matches* feature.
+
+**License**
+
+This tool is adapted from the `General Architecture for Text Engineering (GATE) platform <http:gate.ac.uk>`_, which is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

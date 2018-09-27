@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+
+<tool name="Upload" id="upload1" version="1.1.4" workflow_compatible="false">
+  <description>
+or paste local data    	
+  </description>
+  <action module="galaxy.tools.actions.upload" class="UploadToolAction"/>
+  <requirements>
+      <requirement type="package">samtools</requirement>
+  </requirements>
+  <command interpreter="python">
+      upload.py $GALAXY_ROOT_DIR $GALAXY_DATATYPES_CONF_FILE $paramfile
+    #set $outnum = 0
+    #while $varExists('output%i' % $outnum):
+        #set $output = $getVar('output%i' % $outnum)
+        #set $outnum += 1
+        #set $file_name = $output.file_name
+        ## FIXME: This is not future-proof for other uses of external_filename (other than for use by the library upload's "link data" feature)
+        #if $output.dataset.dataset.external_filename:
+            #set $file_name = "None"
+        #end if
+        ${output.dataset.dataset.id}:${output.files_path}:${file_name}
+    #end while
+  </command>
+  <inputs nginx_upload="true">
+    <param name="file_type" type="select" label="File Format" help="Which format? See help below">
+      <options from_parameter="tool.app.datatypes_registry.upload_file_formats" transform_lines="[ &quot;%s%s%s&quot; % ( line, self.separator, line ) for line in obj ]">
+        <column name="value" index="1"/>
+        <column name="name" index="0"/>
+        <filter type="sort_by" column="0"/>
+        <filter type="add_value" name="Auto-detect" value="auto" index="0"/>
+      </options>
+    </param>
+    <param name="async_datasets" type="hidden" value="None"/>
+    <upload_dataset name="files" title="Specify Files for Dataset" file_type_name="file_type" metadata_ref="files_metadata">
+      <param name="file_data" type="file" size="30" label="File" ajax-upload="true" help="TIP: Due to browser limitations, uploading files larger than 2GB is guaranteed to fail.  To upload large files, use the URL method (below) or FTP (if enabled by the site administrator).">
+      </param>
+      <param name="url_paste" type="text" area="true" size="5x35" label="URL/Text" help="Here you may specify a list of URLs (one per line) or paste the contents of a file."/> 
+      <param name="ftp_files" type="ftpfile" label="Files uploaded via FTP"/>
+      <!-- Swap the following parameter for the select one that follows to
+           enable the to_posix_lines option in the Web GUI. See Bitbucket
+           Pull Request 171 for more information. -->
+      <param name="uuid" type="hidden" required="False" />
+      <param name="to_posix_lines" type="hidden" value="Yes" />
+      <!--
+      <param name="to_posix_lines" type="select" display="checkboxes" multiple="True" label="Convert universal line endings to Posix line endings" help="Turn this option off if you upload a gzip, bz2 or zip archive which contains a binary file." value="Yes"> 
+        <option value="Yes" selected="true">Yes</option>
+      </param>
+      -->
+      <param name="space_to_tab" type="select" display="checkboxes" multiple="True" label="Convert spaces to tabs" help="Use this option if you are entering intervals by hand."> 
+        <option value="Yes">Yes</option>
+      </param>
+      <param name="NAME" type="hidden" help="Name for dataset in upload"></param>
+    </upload_dataset>
+    <param name="dbkey" type="genomebuild" label="Genome" />
+    <conditional name="files_metadata" title="Specify metadata" value_from="self:app.datatypes_registry.get_upload_metadata_params" value_ref="file_type" value_ref_in_group="False" />
+    <!-- <param name="other_dbkey" type="text" label="Or user-defined Genome" /> -->
+  </inputs>
+  <help>
+  
+**What it does**
+
+Enables upload of a local file or pasted data.
+  
+**Auto-detect**
+
+This option applies to plain text as well as various formats used for genomic data.  
+
+**Other formats**
+
+The drop-down menu enables recognition of the following formats:
+
+1. **csv**: Tab delimited format (tabular)
+2. **gate**: GATE XML (output from GATE)
+3. **json**: Data in JSON format (e.g., data from PubAnnotation)
+4. **lapps**: Data in a JSON-LD container including a ``discriminator`` with an undefined ``payload`` type 
+5. **lif**: Data in a JSON-LD container including a ``discriminator`` with ``payload`` type LIF (payload contains data in LIF format)
+6. **liftxt**: Data in a JSON-LD container including a ``discriminator`` with ``payload`` type 'text' (payload contains plain text)
+ 
+
+  </help>
+</tool>

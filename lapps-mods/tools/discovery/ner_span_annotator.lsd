@@ -1,0 +1,44 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File annotations = new File(args[0])
+File input = new File(args[1])
+File output = new File(args[2])
+
+DataContainer data = Serializer.parse(input.text, DataContainer)
+if (data.discriminator == Uri.ERROR) {
+    output.text = input.text
+    return
+}
+Container container = data.payload
+View view = container.newView()
+view.addContains(Uri.NE, "discovery.ner_span_annotator", "")
+int id = 0
+
+annotations.text.tokenize('\n').each { line ->
+    def tuple = line.tokenize(',')*.trim()
+    if (tuple.size < 3) {
+		return new Data(Uri.ERROR, "Invalid dictionary format").asPrettyJson();
+	}
+    int start = tuple[0] as Integer
+    int end = tuple[1] as Integer
+    view.newAnnotation("id-${++id}", mapNE(tuple[2].trim()), start, end)
+}
+output.text = new Data(Uri.LIF, container).asPrettyJson()
+return
+
+String mapNE(String type) {
+    switch (type.toLowerCase()) {
+	case "per":
+	case "person":
+	    return Uri.PERSON;
+	case "loc":
+	case "location":
+	    return Uri.LOCATION;
+	case "org":
+	case "organization":
+	    return Uri.ORGANIZATION;
+	case "date":
+	    return Uri.DATE;
+    }
+    return type;
+}

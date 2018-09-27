@@ -1,0 +1,81 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        944, 
+        967
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        872, 
+        892
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        705, 
+        732
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        599, 
+        625
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        817, 
+        853
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        734, 
+        738
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        627, 
+        640
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        740, 
+        754
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0935207^CLIA|eMARCPlus|TN Cancer Registry|20170919125853||ORU^R01^ORU_R01|201709191258530001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-NG-000105^PathSys^44D0935207^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170821000000|||||||20170821000000|&Body Cav Fluid Cyto, Liquid based preparation tech|1174501027^^^^^^MD^^CMS^D^^^NPI||||||20170822000000|||F||||||C34.90^Malignant neoplasm of unspecified part of unspecified bronchus or lung^I10~J90^Pleural effusion, not elsewhere classified^I10|1639260797&&&K.&&&&&CMS\n\n\n\n\n\n\n\nPath report.site of origin\n\nPleural Fluid   600 mls of red cloudy fluid received in evacuated container\n\n\nPath report.final diagnosis\n\nLung, pleural; fluid:   Reactive mesothelial cells and mixed inflammatory cells.   No definitive evidence of malignancy.   See comment.\n\n\nPath report.comments\n\nComments - Clinical correlation is recommended.\n\n\nPath report.relevant Hx\n\nHistory - Pleural effusion; Lung cancer\n\n\n"
+}

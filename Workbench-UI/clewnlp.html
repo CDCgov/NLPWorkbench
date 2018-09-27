@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> CLEW and NLP</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+
+</head>
+<body>
+    <!-- main content start-->
+    <!--start-home-->
+    <div id="home" class="header" w3-include-html="includes/header.html"></div>
+    <!--//end-banner-->
+    <!-- app-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nlp-overview.html">NLP Basics</a></li>
+                    <li class="active">4. CLEW &amp; NLP</li>
+                </ol>
+                <h1>NLP Basics</h1>
+                <h2 class="h2 boxed-headline">4. CLEW &amp; NLP</h2>
+            </div>
+            <div class="col-md-8">
+                <div><a href="#overview">CLEW Overview</a></div>
+                <div><a href="#concepts">Key CLEW Concepts</a></div>
+                <div><a href="#grid">CLEW Instance of the LAPPS Grid</a></div>
+                <div><a href="#library">Feature Library</a></div>
+
+
+                <h2 id="overview">CLEW Overview</h2>
+
+                <p>CLEW is an effort to introduce Language Engineering into the broader public health and PCORI
+                    communities. The CLEW efforts follow on from the earlier research community’s efforts best
+                    represented by the various participants in the AMIA NLP User Group and the precedence established by
+                    GATE.</p>
+
+                <p>CLEW provides technology and a framework to better and more easily design and plan a targeted and
+                    sophisticated clinical language-processing objective.</p>
+
+                <p>With the emergence of computational linguistics into a widespread discipline of interest,
+                    particularly in the European Union, there is an effort to move beyond just research, and to create a
+                    systematic approach to the development of NLP applications. This work is now identifiable as Natural
+                    Language Engineering and is best represented by the GATE project.</p>
+
+                <p>CLEW is founded in the principles of Computational Linguistics because the crude methods of text
+                    mining are not normally sufficient to achieve an accuracy that is productive and sufficiently safe
+                    for carrying out the critical research and analytics of the Public Health and PCORI communities. The
+                    clinical language space requires a sophisticated language processing approach as offered with
+                    methods grounded in computational linguistics.</p>
+
+                <h2 id="concepts">Key CLEW Concepts</h2>
+                <h3>Interoperability</h3>
+                <p>CLEW is underpinned by the LAPPS technology which is built to enable cross-linking of NLP modules
+                    from different computational linguistics open source contributors.</p>
+
+                <p>One of the aims of the LAPPS environment is its capacity to make modules from different open source
+                    NLP development projects interoperable. LAPPS is an interface where many modules from various NLP
+                    projects can be linked into a single pipeline to assess their processing effects. So a tokenizer
+                    from one system can be paired with a POS-tagger from another system. This interoperability is
+                    achieved by the creation of the LIF* standardized data sharing format so that outputs from one
+                    module are converted into a LIF format ready for use in any other module. On involving another
+                    module the LIF format is converted into the input format needed for that module. Hence LIF
+                    represents a lingua franca for the transfer of data from one module to another without needing
+                    special translation tools.</p>
+
+                <p><small>*LIF = LAPPS Interchange Format<br>
+                    (a format used to transport data between LAPPS services, see CLEW Instance of the LAPPS Grid below)</small></p>
+
+                <h3>Community sharing</h3>
+                <p>The CLEW is engineered to be an environment for members of the clinical NLP community to share their
+                    experience and assist others to achieve successful language processing goals. The LAPPS assists in
+                    designing and testing pipelines and gives starter systems to the community to quickly learn the
+                    complexities of the NLP task.</p>
+
+                <p>It then provides a platform for using solutions as a service so that projects can start up
+                    immediately using an already established CLEW service or identify users for their own services
+                    knowing a community of practice is available to assist them at will.</p>
+
+                <h3>Experimentation and refinement of clinical models</h3>
+                <p>Firstly CLEW supports a project team to build a clinical processing language model. Subsequently,
+                    CLEW supports experimentation with the model to identify its weaknesses and improve its performance
+                    with the ability to mix and match processing modules from different NLP paradigms and a ready
+                    mechanism to select and trial various feature combinations.</p>
+
+                <p>The real work of building an NLP service lies in the experimentation to make it work at maximum
+                    accuracy. It is always easy to get something working to a moderate standard but it requires serious
+                    attention to detail to achieve an accuracy that represents a significant efficiency benefit to a
+                    working process.</p>
+
+                <h3>Services</h3>
+                <p>A service is a computer program that can be called from a program running on another computer. The
+                    machine wanting to use the service sends it a message along with the texts it wants processed. The
+                    Service computer analyses the message and sends back the requested information. The first CDC
+                    service accepts a pathology report and returns a list of all the clinical entities it has found in
+                    the report. The second CDC service accepts the list of clinical entities and codes them ICD O3.</p>
+
+                <p>The first services to be provided in the CLEW are a pathology text coding service to convert text to
+                    ICD O3 codes. This consists of two sub-services that firstly extract relevant clinical concepts from
+                    a pathology report and then codify those extractions.</p>
+
+                <h2 id="grid">CLEW Instance of the LAPPS Grid</h2>
+                <p>The LAPPS grid is a development environment created by a team at Vassar University to enable a
+                    process of experimentation with different open source NLP pipelines. LAPPS is built using the Galaxy
+                    Platform <sup>1</sup></p>
+
+                <p>The user interface in LAPPS makes it easy for an NLP experimenter to plug and play with different
+                    components from different NLP open source projects and therefore encourages development and
+                    experimentation by project teams wanting to engage in engineering NLP production lines. The service
+                    model created in the CLEW encourages the sharing of the production lines with other user communities.</p>
+
+                <p style="border-top:solid 1px gray"><small>
+                    1 Galaxy is an open, web-based platform for data intensive biomedical research. The Galaxy team is a part of BX at Penn State, and the Biology and Mathematics and Computer Science departments at Emory University. The Galaxy Project is supported in part by NHGRI, NSF, The Huck Institutes of the Life Sciences, The Institute for CyberScience at Penn State, and Emory University.</small></p>
+
+                <h2 id="library">Feature Library</h2>
+                <p>The Feature Library is the mechanism by which features can be invoked to be used in the development of a Language Model. It is initially primed with a range of features commonly used in SNLP applications. So expect over time it will be enhanced by new users who develop applications that require specialized feature sets. Having a single place to accumulate these feature generating applications will contribute to the whole Language Engineering community having greater resources at their disposal.</p>
+
+
+                <nav class="text-center" aria-label="">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="buildingnlp.html">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="nlp.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="nlppipeline.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="buildingnlp.html">3</a></li>
+                        <li class="page-item active disabled">
+                            <span class="page-link">4</span>
+                        </li>
+
+                    </ul>
+                </nav>
+                </div>
+
+
+            <div class="col-md-4">
+                <div class="panel panel-default panel-glossary">
+                    <div class="panel-body">
+                        <h4 class="h4 strong">In The Glossary</h4>
+                        <h5 class="h5">TERMS ON THIS PAGE</h5>
+                        <a href="glossary.html">
+                            <ul>
+                                <li>AMIA NLP User Group</li>
+                                <li>Computational Linguistics</li>
+                                <li>GATE Project</li>
+                                <li>LAPPS Environment</li>
+                                <li>LIF Format</li>
+                                <li>Natural Language Engineering</li>
+                                <li>PCORI Communities</li>
+                                <li>POS-tagger</li>
+                                <li>Soa Tokenizer</li>
+                                <li>Text Mining</li>
+                                <li>Tokenizer</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+
+                <div w3-include-html="includes/resources.html"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--//bottom-->
+    <!-- footer -->
+    <div class="footer" w3-include-html="includes/footer.html"></div>
+    <!-- //footer -->
+    <!--//main content start-->
+
+    <!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+    <!-- //for bootstrap working -->
+    <!-- js -->
+    <script src="js/include.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- //for bootstrap working -->
+
+
+</body>
+</html>

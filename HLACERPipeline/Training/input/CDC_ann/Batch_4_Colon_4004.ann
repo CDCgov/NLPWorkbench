@@ -1,0 +1,145 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3703, 
+        3717
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3840, 
+        3850
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3935, 
+        3949
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Steven", 
+      "__extent": [
+        4527, 
+        4541
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3561, 
+        3584
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6350, 
+        6370
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3617, 
+        3644
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        596, 
+        625
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6237, 
+        6272
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6314, 
+        6340
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3677, 
+        3702
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3915, 
+        3934
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        4562, 
+        4563
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6342, 
+        6347
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4248, 
+        4265
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|IL Cancer Registry|20170915000108||ORU^R01^ORU_R01|201709150001080001|P|2.5.1|IL||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-11-039277^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170831000000|||||||20170902000000|&Colon, Segmental Resection for Tumor|1457573354^^^^^^MD^^CMS^D^^^NPI||||||20170905000000|||F||||||C18.8^Malignant neoplasm of overlapping sites of colon^I10~C77.2^Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes^I10|1104973080&&&H.&&&&&CMS\n\n\n\n\n\n\nPath report.gross description\n\nThe container is labeled as \", colon.\" Received in formalin is a colon segment measuring 24.0 cm in length and 2.8 cm in diameter with up to 5.5 cm of attached mesenteric fat. The specimen cannot grossly be oriented as to proximal and distal. The serosal surfaces are smooth, tan and glistening. Located 5.0 cm from one margin is a 2.5 x 1.3 cm transmural defect with surrounding red-brown hemorrhagic-appearing discoloration. The surfaces of this area are inked blue. The specimen is received partially opened. Completely opening the specimen reveals tan mucosa with irregular transverse folds. Corresponding to the transmural defect site is a white-tan to red rough irregular partially ulcerated mass measuring 4.8 x 4.5 cm. The mass measures 4.0 cm from the closest margin and 12.0 cm from the opposite margin. Serially sectioning through the mass reveals it to measure up to 2.5 cm deep, focally extending to the surface at the previously described transmural defect site. The mass measures 2.0 cm from the closest portion of the mesenteric margin. Located 9.5 cm from the large mass is a separate smaller tan exophytic lesion measuring 2.9 x 2.0 cm. This lesion is located 3.5 cm from the closest lesion. The mucosa between the mass and smaller lesion is unremarkable with no additional suspicious tissue. Serially sectioning through the smaller lesion reveals it to measure up to 0.5 cm deep, extending into the muscularis propria with a small area of possible extension into the underlying fat. The lesion does not approach the free serosal surfaces and it measures 3.5 cm from the closest portion of the mesenteric margin. No additional suspicious areas are identified. Representative sections are submitted as follows: 1A, the margin closest to the large mass, shaved off and entirely submitted; 1B, the margin closest to the smaller lesion, shaved off and entirely submitted; 1C-1G, the larger mass with each section full-thickness and the surface inked blue, including the apparent area of surface involvement; 1H, the closest portion of the mesenteric margin to the large mass; 1I, grossly uninvolved colon wall between the large mass and smaller lesion; 1J-1L, full- thickness sections of the smaller lesion at the deepest area of invasion, including the serosal surface inked blue; 1M, the portion of the mesenteric margin closest to the smaller lesion. Serially sectioning and palpating the attached mesenteric fat reveals multiple possible lymph nodes ranging from 0.2 to 1.0 cm in greatest dimension. The possible lymph nodes are each entirely submitted as follows: 1N, 1 possible lymph node, trisected; 1O, 1 possible lymph node, serially sectioned; 1P, 2 possible lymph nodes, each bisected and inked for differentiation; 1Q-1R, 3 possible lymph nodes per cassette, each bisected and inked for differentiation; 1S, 4 possible lymph nodes, each intact; 1T, the remaining 2 possible lymph nodes, each intact. (AC2)\n\n\nPath report.relevant Hx\n\nHistory - Carcinoma of colon\n\n\nPath report.final diagnosis\n\nPortion of colon, resection:   Moderately differentiated adenocarcinoma, 4.8 cm in greatest dimension, invasive     through the serosa, lymphovascular invasion present, margins negative for     malignancy (nearest margin is radial, 2.0 cm).   Separate mass consists of well-differentiated adenocarcinoma, 2.9 cm in greatest     dimension, invasive into but not through the muscularis propria, margins     negative (nearest margin is radial, 3.5 cm).   Metastatic adenocarcinoma involves one of fifteen lymph nodes, 4.0 mm in     greatest extent with no extranodal extension identified.   See comment.  CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Not specified TUMOR  Tumor Site: Cannot be determined (explain)  Cannot be determined (explain): no orientation provided  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 4.8cm  Tumor Deposits: Not identified  Multiple Primary Sites (e.g., hepatic flexure and transverse colon): Additional primary site(s) present  Additional primary site(s) present: unknown location due to lack of orientation Tumor Extent  Tumor Extension: Tumor invades the visceral peritoneum (including tumor continuous with serosal surface through area of inflammation)  Macroscopic Tumor Perforation: Present Accessory Findings  Lymphovascular Invasion: Present  Perineural Invasion: Not identified  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#  Margins Examined: Proximal, Distal, Radial or Mesenteric  Radial or Mesenteric Margin: Uninvolved by invasive carcinoma  Distance of Tumor from Margin#: Specify in Millimeters (mm)  Specify in Millimeters (mm): 4mm LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 1  Number of Lymph Nodes Examined: Specify number  Specify number: 15 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  TNM Descriptors: m (multiple primary tumors)  Primary Tumor (pT): pT4a: Tumor invades through the visceral peritoneum (including gross perforation of the bowel through tumor and continuous invasion of tumor through areas of inflammation to the surface of the visceral peritoneum)  Regional Lymph Nodes (pN): pN1a: One regional lymph node is positive  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nColon\n\n\nPath report.comments\n\nComments - Molecular profiling is available upon request, please contact Client Services at 888- 474-5227.\n\n\n"
+}

@@ -1,0 +1,71 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        831, 
+        845
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        849, 
+        872
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        780, 
+        807
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        508, 
+        537
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        725, 
+        751
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        753, 
+        758
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        772, 
+        777
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO|201605031347|2AA4D9E70FB64FE2A527C1CCFCD9DD4DFAB1138F|ORU^R01|PIMS-OUT.1.125848|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 3&9999&MOH~9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&&ON^^^^JHN||XXXXXXX^XXXXX^XXXXX^^^||99999999|M|||9 XXXXXXXXXX XXX^^XXXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:S7214|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160429|||70493^XX-XXXXX^XXXXX^^^^||||||||||||20160503|||F|||||||99999^XXXXXX^XXXX^X.^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\nFrank Raymond - U# 0535333 - specimen labelled \"biopsy mass cecum\" consists of\n10 pieces of tan tissue, 0.2 to 0.3 cm in maximum dimension. Submitted in toto in\nthree cassettes.\nLM/dl\n\n\nPath report.site of origin\n\nCECUM BIOPSY, MASS CECUM\n\n\nPath report.final diagnosis\n\nBIOPSY MASS CECUM:\n-  ADENOCARCINOMA.\n\n\nPath report.relevant Hx\n\nABNORMAL CT\n\n\n"
+}

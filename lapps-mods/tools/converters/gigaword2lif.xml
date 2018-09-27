@@ -1,0 +1,11 @@
+<tool id='local.convert.gigaword2xml' name='Gigaword/XML to LIF' version='2.0.0'>
+  <description>Convert the Gigaword/XML format to LIF</description>
+  <command interpreter='lsd'>../converters/gigaword2lif.lsd $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='xml,ldc' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+  <help>Converts the Gigaword/XML format to the LAPPS Interchange Format.</help>
+</tool>

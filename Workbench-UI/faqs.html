@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQs</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+
+</head>
+<body>
+    <!-- main content start-->
+    <!--start-home-->
+    <div id="home" class="header" w3-include-html="includes/header.html"></div>
+    <!--//end-banner-->
+    <!-- app-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resource.html">Resources</a></li>
+                    <li class="active">FAQs</li>
+                </ol>
+                <h1>FAQs</h1>
+            </div>
+            <div class="col-md-8">
+                <h2>Questions</h2>
+                <ol>
+                    <li><a href="#faq1">Will the workbench be deployed as a service for everyone to use, or can it be deployed at the local level to protect personal health information?</a></li>
+                    <li><a href="#faq2">Will the workbench allow users to plug in their own customized NLP components?</a></li>
+                    <li><a href="#faq3">Is open source licensing being considered for the workbench?</a></li>
+                    <li><a href="#faq4">Are you planning to have only one temporal analyzer or will you allow the user to choose from multiple analyzers?</a></li>
+                    <li><a href="#faq5">Will the workbench allow the user to plug in particular lexicons and ontologies?</a></li>
+                    <li><a href="#faq6">Will there be any evaluation capabilities so that performance of alternative modules can be compared?</a></li>
+                    <li><a href="#faq7">We have a platform that uses the Galaxy workflow engine that enables users to create pipeline NLP web services (the LAPPS Grid). Are you familiar with Galaxy (originally developed for genomics)?</a></li>
+                    <li><a href="#faq8">Who are the targeted users for this workbench?</a></li>
+                    <li><a href="#faq9">Are registrars in the National Cancer Institute’s program the target users?</a></li>
+                    <li><a href="#faq10">Will the workbench have a plugin style of architecture or be easily extendable?</a></li>
+                    <li><a href="#faq11">Is there a plan to develop a specification and/or API for the interface between the health system data which will allow sites downloading the workbench to know what web services they must implement to get the application to work?</a></li>
+                    <li><a href="#faq12">Is the workbench going to pull data?</a></li>
+                    <li><a href="#faq13">So, will this fit into the regular cancer registrar workflow or is it more for model testing?</a></li>
+                    <li><a href="#faq14">Is it fair to say that the workbench will create NLP web services (including a default web service) rather than a workbench that registrars would interact with?</a></li>
+                    <li><a href="#faq15">Why did you opt for a rule-based system?</a></li>
+                    <li><a href="#faq16">Will there be opportunities for universities to donate machine learning-based systems?</a></li>
+                    <li><a href="#faq17">What’s the right way for the machine learning community to contribute?</a></li>
+                    <li><a href="#faq18">Which tool do you use to de-identify clinical text?</a></li>
+                    <li><a href="#faq19">How will you address interoperability between services and tools?</a></li>
+                    <li><a href="#faq20">How will pipelines of web services be created if the services use different protocols (SOAP, REST, JSON-RPC)?</a></li>
+                    <li><a href="#faq21">Where will the services run?</a></li>
+                </ol>
+
+                <h2>Answers</h2>
+
+                <div id="faq1">
+                    <div class="h6 strong">1. Will the workbench be deployed as a service for everyone to use, or can it be deployed at the local level to protect personal health information?</div>
+                    <p>The workbench will provide two deployment options: unsecured services to process publicly available data, and locally run services to protect confidential data.</p>
+                </div>
+                <div id="faq2">
+                    <div class="h6 strong">2. Will the workbench allow users to plug in their own customized NLP components?</div>
+                    <p>Yes.</p>
+                </div>
+                <div id="faq3">
+                    <div class="h6 strong">3. Is open source licensing being considered for the workbench?</div>
+                    <p>Yes</p>
+                </div>
+                <div id="faq4">
+                    <div class="h6 strong">4. Are you planning to have only one temporal analyzer or will you allow the user to choose from multiple analyzers?</div>
+                    <p>We will include multiple analyzers from which users may select the preferred tool for their use case.</p>
+                </div>
+                <div id="faq5">
+                    <div class="h6 strong">5. Will the workbench allow the user to plug in particular lexicons and ontologies?</div>
+                    <p>Yes.</p>
+                </div>
+                <div id="faq6">
+                    <div class="h6 strong">6. Will there be any evaluation capabilities so that performance of alternative modules can be compared?</div>
+                    <p>No, unless they come with the components we adopt.</p>
+                </div>
+                <div id="faq7">
+                    <div class="h6 strong">7. We have a platform that uses the Galaxy workflow engine that enables users to create pipeline NLP web services (the LAPPS Grid). Are you familiar with Galaxy (originally developed for genomics)?</div>
+                    <p>Information about the LAPPS Grid was found through the literature review and environmental scan. We plan to explore its applicability for use in the clinical domain and our specific use cases.</p>
+                </div>
+                <div id="faq8">
+                    <div class="h6 strong">8. Who are the targeted users for this workbench?</div>
+                    <p>There will be different levels of functionality based on the user’s familiarity with NLP pipeline and model development.</p>
+                </div>
+                <div id="faq9">
+                    <div class="h6 strong">9. Are registrars in the National Cancer Institute’s program the target users?</div>
+                    <p>What about general cancer registrars? The NLP Workbench Web Services apply to any cancer registry program (hospital, region, state, and national). It will be available to other health domains and researchers also.</p>
+                </div>
+                <div id="faq10">
+                    <div class="h6 strong">10. Will the workbench have a plugin style of architecture or be easily extendable?</div>
+                    <p>Yes, the workbench will be easily expandable and detailed instructions will be provided.</p>
+                </div>
+                <div id="faq11">
+                    <div class="h6 strong">11. Is there a plan to develop a specification and/or API for the interface between the health system data which will allow sites downloading the workbench to know what web services they must implement to get the application to work?</div>
+                    <p>Yes.</p>
+                </div>
+                <div id="faq12">
+                    <div class="h6 strong">12. Is the workbench going to pull data?</div>
+                    <p>No. Users will have to send their own data to the service(s).</p>
+                </div>
+                <div id="faq13">
+                    <div class="h6 strong">13. So, will this fit into the regular cancer registrar workflow or is it more for model testing?</div>
+                    <p>The plan is for this to be integrated into eMaRC Plus to process cancer pathology and biomarker reports. It will also be made available to any other software that needs to process text-based health data.</p>
+                </div>
+                <div id="faq14">
+                    <div class="h6 strong">14. Is it fair to say that the workbench will create NLP web services (including a default web service) rather than a workbench that registrars would interact with?</div>
+                    <p>For the cancer use case, the workbench will be used to develop the NLP model and provide web services for eMaRC Plus to process cancer pathology and biomarker data and return coded cancer data. Cancer registrars will interact with the web services through eMaRC Plus to validate the model.</p>
+                </div>
+                <div id="faq15">
+                    <div class="h6 strong">15. Why did you opt for a rule-based system?</div>
+                    <p>Initially, we will support the safety surveillance use cases using rule-based algorithms previously built and evaluated by the FDA or other groups. We will also examine the development of other machine learning or hybrid approaches.</p>
+                </div>
+                <div id="faq16">
+                    <div class="h6 strong">16. Will there be opportunities for universities to donate machine learning-based systems?</div>
+                    <p>Yes, instructions on how contributions can be shared will be provided.</p>
+                </div>
+                <div id="faq17">
+                    <div class="h6 strong">17. What’s the right way for the machine learning community to contribute?</div>
+                    <p>The machine learning community is encouraged to provide contributions on business and functional requirements for the NLP Workbench Web Service development at any time by sending e-mail to NLPWorkbench@cdc.gov or by participating in our quarterly calls. At the end of this project, steps will be clearly documented on how users can contribute their own models and data for inclusion in the workbench.</p>
+                </div>
+                <div id="faq18">
+                    <div class="h6 strong">18. Which tool do you use to de-identify clinical text?</div>
+                    <p>The workbench will provide a list of de-identification tools and a compatible format output from the pipeline that can go into the chosen de-identification tool. De-identification of the data will be the user’s responsibility.</p>
+                </div>
+                <div id="faq19">
+                    <div class="h6 strong">19. How will you address interoperability between services and tools?</div>
+                    <p>The GATE, UIMA, Stanford, OpenLP, LingPipe, and others use different formats. The workbench will use a common standard between the services and tools. We are exploring different options.</p>
+                </div>
+                <div id="faq20">
+                    <div class="h6 strong">20. How will pipelines of web services be created if the services use different protocols (SOAP, REST, JSON-RPC)?</div>
+                    <p>The users will develop their own solutions.</p>
+                </div>
+                <div id="faq21">
+                    <div class="h6 strong">21. Where will the services run?</div>
+                    <p>Sharing clinical data is always a problem, so would you plan on a way to build an application in the workbench, and then allow users to download it to run locally. They will run on our site, and also have the option to run locally.</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div w3-include-html="includes/resources.html"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--//bottom-->
+    <!-- footer -->
+    <div class="footer" w3-include-html="includes/footer.html"></div>
+
+    <!-- //footer -->
+    <!--//main content start-->
+
+    <!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+    <!-- //for bootstrap working -->
+    <!-- js -->
+    <script src="js/include.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- //for bootstrap working -->
+
+
+</body>
+</html>

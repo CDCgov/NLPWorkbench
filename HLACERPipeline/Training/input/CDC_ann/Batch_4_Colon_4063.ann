@@ -1,0 +1,199 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2734, 
+        2741
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2582, 
+        2596
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2742, 
+        2750
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2388, 
+        2411
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4815, 
+        4835
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5495, 
+        5503
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2472, 
+        2499
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2501, 
+        2506
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3187, 
+        3192
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4801, 
+        4806
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        530, 
+        559
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4547, 
+        4582
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4773, 
+        4799
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2565, 
+        2573
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2598, 
+        2623
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2507, 
+        2512
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2574, 
+        2581
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3205, 
+        3210
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4807, 
+        4812
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3194, 
+        3203
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3008, 
+        3025
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170919125847||ORU^R01^ORU_R01|201709191258470001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-011353^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170817000000|||||||20170818000000|&Colon, Segmental Resection for Tumor, PQRS Colorectal Resection|1881688521^^^^^MD^^CMS^D^^^NPI||||||20170822000000|||F||||||C18.2^Malignant neoplasm of ascending colon^I10|1083668453& &&P.&Jr.&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\" identified by requisition and container label. The specimen is labeled \"right colon\" on both the requisition and the container. Received in formalin is a 47 cm segment of colon, contiguous with an 8.5 cm segment of terminal ileum. There is up to 7 cm of attached fatty tissue noted over the serosa. Appendix is not present. The resected margin is closed with surgical staples. Perforation is not grossly identified. 12 cm from the distal margin, there is a lobular tan-red tumor, 2.7 x 2.3 x 0.6 cm. There is tattooing of the serosa in the area of the lesion. The lesion does not grossly involve the serosa. The lesion grossly involves 2.7 cm of the mucosal circumference. The mucosal circumference is 9.2 cm. The lesion is grossly 9.5 cm from the mesenteric cut surface. The lesion is on the antimesenteric surface of the bowel. The lesion grossly appears to involve the full- thickness of the mucosa and submucosa and to extend into the muscularis propria. There are occasional additional polyps, up to 0.6 cm in maximum dimension, which grossly extends to within 9.8 cm of the distal margin. The ileocecal valve is grossly unremarkable. The small bowel mucosa is tan and velvety and is grossly free of lesions. Sectioning through the attached fatty tissue reveals 6 candidate lymph nodes, up to 1.5 cm in maximum dimension. Each is totally submitted. Section summary:   1A, proximal margin.   1B, distal margin.   1C, mesenteric cut surface.   1D-E, tumor.   1F, polyp closest to distal margin.   1G, additional polyps.   1H, ileocecal valve.   1I, 1 bisected candidate lymph node.   1J-K, 5 candidate lymph nodes, each submitted whole.   1L-U, additional representative fatty tissue. After review of the initial sections, additional representative fatty tissue is processed in cassettes 1V-AE. (HB4/eh)\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of transverse colon (C18.4)\n\n\nPath report.final diagnosis\n\nRight colon (with terminal ileal stump), segmental resection:   Invasive colonic adenocarcinoma, moderately differentiated, measuring 2.7 cm in     greatest dimension, invading the muscularis propria; see comment.   A few background tubular adenomas.   Negative for angiolymphatic invasion.   Surgical margins widely free of malignancy and adenomas.   Five pericolic nodes identified, all negative for metastatic tumor (0/5); see     comment.   Stage pT2, N0. See comment for results of prognostic markers. CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043 SPECIMEN  Procedure: Right hemicolectomy TUMOR  Tumor Site: Right (ascending) colon  Histologic Type: Adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size: Greatest dimension in Centimeters (cm)  Greatest dimension in Centimeters (cm): 2.7 x 2.3 x 0.6cm  Tumor Deposits: Not identified Tumor Extent  Tumor Extension: Tumor invades muscularis propria  Macroscopic Tumor Perforation: Not identified Accessory Findings  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified  Tumor Budding Score: Low score (0-4)  Type of Polyp in Which Invasive Carcinoma Arose: None identified  Treatment Effect: No known presurgical therapy MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#  Margins Examined: Proximal, Distal, Radial or Mesenteric  Distance of Invasive Carcinoma from Closest Margin: Specify in Millimeters (mm)  Specify in Millimeters (mm): 95mm  Specify Closest Margin: Radial or Mesenteric LYMPH NODES  Number of Lymph Nodes Involved: Specify number  Specify number: 0  Number of Lymph Nodes Examined: Specify number  Specify number: 5 PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition)  Primary Tumor (pT): pT2: Tumor invades the muscularis propria  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis ADDITIONAL FINDINGS  Additional Pathologic Findings: Adenoma(s)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed. Additionally, elastic stain is applied (block 1E), with satisfactory positive and negative controls, which fails to demonstrate intravascular tumor.\n\n\nPath report.site of origin\n\nRight colon\n\n\nPath report.comments\n\nComments - The tumor invades muscularis propria and is not definitively seen invading beyond it. In one slide (1E), the tumor is in contact with adipose tissue where the muscularis is disrupted, though still within the contour of the muscularis, and tangential sectioning or tissue disruption cannot be entirely excluded to explain the finding. The tumor is conservatively staged at pT2. Multiple attempts at lymph node dissection were attempted, with only five ultimately recovered, all negative for tumor (pN0). Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment. COMMENT: Immunohistochemical analysis (performed on representative tumor tissue, block 1E, controls react appropriately) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present). These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome. Cancers with this profile are microsatellite stable (MSS). If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes) despite this negative result on the screening test, then consideration could be given to a genetic consult with additional testing.\n\n\n"
+}

@@ -1,0 +1,19 @@
+<tool id="bionlp.proteins.list" name="List Protein document keys" version="1.0.0">
+ <command>lsd $__tool_directory__/list.lsd $output
+ </command>
+ <outputs>
+  <data format="txt" name="output" label="Protein Document List">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+Obtains a list of ID values for all documents in the BioNLP protein corpus.
+
+**Description**
+
+Includes Token, Token+pos, enju dependency parses annotated as Relation (with categories modOf, arg1Of, arg2Of, and arg3Of) in one view; Proteins in another.
+
+]]>
+ </help>
+</tool>

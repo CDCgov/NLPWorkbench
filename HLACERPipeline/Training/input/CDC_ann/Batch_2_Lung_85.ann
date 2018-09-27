@@ -1,0 +1,183 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5780, 
+        5794
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5577, 
+        5600
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5602, 
+        5618
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6036, 
+        6056
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6058, 
+        6066
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5724, 
+        5751
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5753, 
+        5763
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5766, 
+        5767
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "", 
+      "__extent": [
+        631, 
+        660
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5944, 
+        5970
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5972, 
+        5990
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5796, 
+        5821
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5766, 
+        5769
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        700, 
+        702
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        941, 
+        943
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5763, 
+        5765
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5837, 
+        5839
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5992, 
+        5999
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20171102_22ABC_CDC_H3,Model - 20171123_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6013, 
+        6020
+      ]
+    }, 
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        6066, 
+        6068
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|LABCORP-CORP|LABCORP^34D0655059^CLIA|Cancer Registry|State|201706010938|State006|ORU^R01|2017060107093839521000|P|2.3.1\nPID|1||^^^^SS^~11111111^^^^PI^|ALTERNATE ID|TEST^PATIENT^A||19500601|M||2054-5^Black or African American^CDC^^^|1234 Test Road^^ALBANY^NY^12201||^^^^^222^1234567|||||||\nNTE|1|L|A duplicate report has been generated due to demographic updates.\nORC|RE||111A1111111||||||||||||||||||Ordering Facility Name^^L|2222 W. Test Road^^Test^TX^77025|^^^^^111^1234567||\nOBR|1||111A1111111|^^^111111^Pathology Report^L|||201705301335|||||||20090115||Ordering Provider Name||||||20170530|||F|||||||\nOBX|6|TX|22634-0^Path report.gross observation^LN^500930^GROSSD^L||Gross description: A.  The specimen is received in formalin, labeled \"Modrcin, LUL biopsy\", and consists of several tan tissue fragments of small hemorrhagic material measuring 0.4 0.3 0.1 cm in aggregate which is wrapped and entirely submitted designated A1. B.  The specimen is received in formalin, labeled \"Modrcin, RML biopsy \", and consists of several fragments of red-brown tissue measuring 3 2 1 mm in aggregate which are wrapped and entirely submitted designated B1. (CWM; 6/2/2017)||||||F|||20170614230249|26D0652233^LabCorp Overland Park^CLIA|||\n\n\n\n\n\n\n\n\nSpecial studies report received from Integrated Oncology, 5005 S. 40th Street, Suite 1100, Phoenix, AZ, 85040, on case, labeled with their number, dated 06/08/2017. Fluorescence in situ Hybridization (FISH) Report ALK Analysis RESULT:   No Evidence of ALK Gene Rearrangement Detected by FISH Special studies report received from Integrated Oncology, 5005 S. 40th Street, Suite 1100, Phoenix, AZ, 85040, on case, labeled with their number , dated 06/10/2017. EGFR Gene Mutation Analysis INTERPRETATION:   Positive in exon 19 for a deletion mutation. Indication for Study:   Adenocarcinoma Specimen Site and Type:   Paraffin-Embedded Tissue-Left Lung Nucleotide Change:   Exon 19 Partial Deletion Mutation Amino Acid Change:   Amino Acid Deletion Comments: A deletion mutation was detected within exon 19 of the EGFR gene. This mutation is correlated with responsiveness to EGFR tyrosine kinase inhibitor therapies. Results should be interpreted in conjunction with clinical and other laboratory findings for the most accurate interpretation. This assay does not distinguish between the 18bp insertion and deletions at nucleotide position 2235 and 2237. A subgroup of non-small cell lung cancer (NSCLC) patients has shown clinical responsiveness to the epidermal growth factor receptor (EGFR) inhibitors gefitinib (IRESSA) and erlotinib (Tarceva), including never smokers, individuals of Asian ethnicity, and those with adenocarcinoma histology. In the majority of patients with highly responsive tumors, the tumor contains a somatic mutation within the EGFR tyrosine kinase domain. The presence of a somatic EGFR mutation is significantly associated with response to gefitinib and erlotinib, and is strongly predictive of prolonged survival in NSCLC patients. See report for further information. See report for further information. Electronically Signed by on 6/10/2017 at Accupath Diagnostic Laboratories, Inc. Perry Chan, Ph.D., MBA DABMG, DABCC, DLMcm, M(ASCP)cm, MB(ASCP)cm Methodology: Genomic DNA was isolated from the provided tumor specimen. Exons 18 through 21 of the EGFR gene were subjected to SNaPShot multiplex PCR and primer extension for mutation detection. This assay is able to detect 2-20% mutation in a background of wild-type DNA. EGFR Exon    EGFR Codon   Mutation Approximate % of all EGFR Mutations 18     E709     E709K,E709Q        1%     G719     G719S,G719C,G719A,G719D   2-5% 19     Insertions   18bp ins          1%     Deletions   9,12,15,18,24 bp del     45% 20     Insertions   3,6,8,12 bp ins 5-10%     S768     S768I          1-2%     R776     R776C          <1%     T790     T790M          2% 21     L858     L858R          40%     A859     A859T          <1%     L861     L861Q,L861R        2-5% * This Assay does not distinguish between the 18bp insertion and deletions at nucleotide position 2235 and 2237 References: 1. Janne PA, Engelman JA, Johnson BE. Epidermal Growth Factor Receptor Mutations in Non-Small-Cell Lung Cancer: Implications for Treatment and Tumor Biology. J. Clin. Oncol. 2005; 23:3227-3234. 2. Su ZL et al. A Platform for Rapid Detection of Multiple Oncogenic Mutations with Relevance to Targeted Therapy in Non-Small-Cell Lung Cancer. J. Mol. Diagn. 2011;13(1):74-84. Disclaimer This Test was performed by Accupath Diagnostic Laboratories, Inc. at 5005 S 40th Street, Ste 1100, Phoenix, AZ, 85040. Integrated Oncology is a business unit of Accupath Diagnostic Laboratories, Inc., a wholly-owned subsidiary of Laboratory Corporation of America Holdings. Any image(s) that accompany this report is/are a representative image(s) only and should not be used to render a diagnosis. This test was developed and its performance characteristics determined by Accupath Diagnostic Laboratories, Inc.  It has not been cleared or approved by the Food and Drug Administration. A complete copy of the report is on file. Professional services performed by Accupath Diagnostics Inc. at 5005 S. 40th St., Ste 1100, Phoenix, AZ 85040. Technical services performed by Accupath Diagnostics, Inc. at 5005 S. 40th St., Ste 1100, Phoenix, AZ 85040.\n\n\nPayment procedure\n\nCPT                            .88305 88305 81235 88271 88274 88342 88341 88341 88341\n\n\nPATHOLOGIST NAME\n\nElectronically signed: Pathologist name, Pathologist\n\n\nDiagnosis ICD code\n\nPathologist provided ICD-10:C34.12 J98.11\n\n\nPath report.relevant Hx\n\nClinical history: Preop diagnosis: Right lung mass, left lung infiltrate Postop diagnosis: Same Clinical history: Saint\n\n\nPath report.final diagnosis\n\nDiagnosis:A. LUL biopsy: - Adenocarcinoma, moderately differentiated - See comment. B. RML biopsy: - Lung parenchyma with focal atelectasis - No dysplastic or malignant process identified.\n\n\nPath report.site of origin\n\nMaterial submitted: Part: A LUL Biopsies Part: B RML Biopsies\n\n\nPath report.comments\n\nComment:A. Case shown to another pathologist with agreement. Immunostains pending on block A1 with addendum to follow. EGFR and ALK studies ordered (A1). Dr. notified 6/3/17.\n\n\n"
+}

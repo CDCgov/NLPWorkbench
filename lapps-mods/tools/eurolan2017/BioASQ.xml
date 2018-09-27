@@ -1,0 +1,41 @@
+<tool id="deiis.khyathi.bioasq" name="BioASQ" version="1.0.0">
+    <description>Khyathi Chandu's pipeline as a single service </description>
+    <command>curl -s -H "Accept: application/json" -o $output http://129.114.17.237?expansion=$expand</command>
+    <inputs>
+        <param name="expand" type="select" label="Expansion">
+        	<option value="NONE">NONE</option>
+        	<option value="UMLS">UMLS</option>
+        	<option value="SNOMEDCT">SNOMEDCT</option>
+        </param>
+        <param name="sim" type="select" label="Similarity">
+        	<option value="">Jaccard</option>
+        	<option value="">Positional Constraints</option>
+        </param>
+        <param name="feat" type="select" label="Features">
+        	<option value="">Words</option>
+        	<option value="">Embeddings</option>
+        </param>
+        <param name="alg" type="select" label="Algorithm">
+        	<option value="">MMR</option>
+        	<option value="">Clustering</option>
+        </param>
+        <!-- for Tiling when it becomes available
+        <param name="" type="select" label="">
+        	<option value=""></option>
+        </param>
+        -->
+        <param name="gran" type="select" label="Granularity">
+        	<option value="">Abstracts</option>
+        	<option value="">Snippets</option>
+        </param>
+    </inputs>
+    <outputs>
+        <data name="output" format="json" label="BioASQ Answer"/>
+    </outputs>
+    <help><![CDATA[
+
+Khyathi Chandu's BioASQ pipeline that answers one question selected at random.
+
+]]>
+    </help>
+</tool>

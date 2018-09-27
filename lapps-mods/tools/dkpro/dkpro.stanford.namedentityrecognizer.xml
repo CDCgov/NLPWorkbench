@@ -1,0 +1,22 @@
+<tool id="dkpro.stanford.namedentityrecognizer" name="DKPro Core Stanford NamedEntityRecognizer v1.7.0" version="0.0.1">
+ <description>
+  DKPro Core Stanford NamedEntityRecognizer
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd uima.dkpro.stanfordnlp.namedentityrecognizer_0.0.1 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+**License**
+
+All components in DKPro Core are licensed under `the Apache Software License (ASL) version 2 <https://www.apache.org/licenses/LICENSE-2.0>`_ or where necessary under GPL - but their dependencies may not be: Find more details `here <https://dkpro.github.io/dkpro-core/#license>`_]]>
+ </help>
+</tool>

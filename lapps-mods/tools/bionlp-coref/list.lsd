@@ -1,0 +1,17 @@
+#!/usr/bin/env lsd
+
+include 'Config'
+
+File output = new File(args[0])
+
+// Call the service to get a list of document ID values.
+//def service = new DataSourceClient(server.url, server.username, server.password)
+//list = service.list()
+def service = new ServiceClient(server.url)
+String json = service.execute(new Data(Uri.LIST).asJson())
+Data data = Serializer.parse(json, Data)
+// Write the ID values to the output file.
+output.withWriter { out ->
+    data.payload.each { out.println it }
+}
+

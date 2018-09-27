@@ -1,0 +1,121 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        942, 
+        956
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        775, 
+        798
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1365, 
+        1373
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        834, 
+        861
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        545, 
+        574
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2558, 
+        2593
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3189, 
+        3215
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        916, 
+        941
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        884, 
+        889
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        876, 
+        883
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1061, 
+        1093
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1095, 
+        1110
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^18D0327028^CLIA|eMARCPlus|KY Cancer Registry|20170922031609||ORU^R01^ORU_R01|201709220316090001|P|2.5.1|KY||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-TC-004540^PathSys^18D0327028^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170907000000|||||||20170907000000|&Colon, Biopsy|1467438945^^^^^^MD^^CMS^D^^^NPI||||||20170912000000|||F||||||C18.7^Malignant neoplasm of sigmoid colon^I10~Z12.11^Encounter for screening for malignant neoplasm of colon^I10|1366543423&&&E.&Jr.&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled with the patient's name \"\" as \"biopsy distal sigmoid cancer\" and consists of 2 tan fragments of tissue measuring up to 0.3 cm. Entirely submitted in a single cassette.\n\n\nPath report.relevant Hx\n\nHistory - Screening colonoscopy\n\n\nPath report.final diagnosis\n\nMass, distal sigmoid colon; biopsies:   Infiltrating moderately differentiated adenocarcinoma of colon with partial     mucinous differentiation.   IHC for microsatellite instability: In process.\n\n\nPath report.supplemental reports\n\nAddendum Report: Results of mismatch repair protein immunohistochemistry:   1. Loss of DNA mismatch repair enzyme MLH-1 with secondary loss of PMS-2.   2. Additional testing for BRAF mutation analysis is PENDING (results will be reported separately).   3. See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue, controls react appropriately) per EGAPP recommendations reveals loss of nuclear expression of DNA mismatch repair enzyme MLH-1 with secondary loss of PMS-2, and intact staining for mismatch repair enzymes MSH-2 and MSH-6. These results indicate DEFECTIVE DNA MISMATCH REPAIR (MMR) ENZYME FUNCTION within this tumor. Hereditary-associated, as well as sporadic, colorectal carcinomas (CRC) that have defective mismatch repair have been shown to have distinct survival outcome and treatment-associated characteristics (patients with defective MMR function do not benefit from fluorouracil-based adjuvant chemotherapy). In order to determine whether this reflects a germ line loss of MLH-1 due to Lynch syndrome, or acquired hypermethylation-related loss of MLH-1, BRAF mutation analysis is required and is in process. The results of the BRAF mutation analysis will be reported separately, and a comprehensive final report addressing all testing methods will be issued when those results are available. Please contact the signout pathologist if you have any questions in the interim. ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMultiple biopsies of mass, distal sigmoid colon confirm the clinical suspicion of malignancy. This is an infiltrating and ulcerated adenocarcinoma which for the most part forms a low grade cribriform pattern, grade 2. However, a minority component in these biopsies is mucinous differentiation in which lakes of pale basophilic mucinous material dissect between the fibrocollagenous connective tissue and are associated with a few adenocarcinoma cells floating within. Immunohistochemistry for microsatellite instability is in process and will be reported separately. Call to Dr. 09/12/2017.\n\n\nPath report.site of origin\n\nBiopsy distal sigmoid cancer\n\n\n"
+}

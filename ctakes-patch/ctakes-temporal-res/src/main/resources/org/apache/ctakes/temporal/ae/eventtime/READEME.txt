@@ -1,0 +1,10 @@
+Models are trained on THYME patient sets: 28-127
+Training data: Mode 8, residue 0-3
+Testing data: Mode 8, residue 4 and 5
+
+UMLS entities, whose spans overlap with gold Events, were extracted to boost training data
+UMLS entities were not extracted for testing data. For testing data, only gold events were used for evaluation.
+
+Both arguments of event-event relations are required to be valid medical terms (i.e. be one of the UMLS semantic types).
+We show test results for event-time relations, in which events were not required to be valid medical terms.
+Results for event-time relations, in which event arguments are requried to be valid medical terms, were also shown here. Final event-time model is UMLS-filtered. 

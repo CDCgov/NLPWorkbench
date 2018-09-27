@@ -1,0 +1,11 @@
+<tool id='stanford.tagger_2.0.0' name='Stanford Tagger v2.0.0' version='2.0.0'>
+  <description>Stanford Tagger (Vassar)</description>
+  <command interpreter='lsd'>../lapps_common/invoke_vassar.lsd stanford.tagger_2.0.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+  <help>Stanford Part of Speech Tagger</help>
+</tool>

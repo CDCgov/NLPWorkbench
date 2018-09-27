@@ -1,0 +1,143 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        752, 
+        766
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        493, 
+        508
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        720, 
+        724
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        977, 
+        992
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        580, 
+        603
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        676, 
+        699
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        822, 
+        845
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        880, 
+        903
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        743, 
+        751
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        768, 
+        793
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        703, 
+        707
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        725, 
+        735
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        510, 
+        512
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        604, 
+        606
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        700, 
+        702
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160502235509|8E5E3F25058D009336038E9DC2218C0B6D3D0671|ORU^R01|99999999999|P|2.5||||||\nPID|1||N999999999^^^^CMR^HOSPITAL 9&9999&MOH~N999999999^^^^MRN^HOSPITAL 9&9999&MOH~&&^^^^JHN||XXXXXXXX^XXXXX^ XXXXX^^^^||99999999|M|||^^^^^999|||||||||||||||||||N|||\nOBR|1||S08-25195|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20081117|||79876^XXXXXX^XXXXXX^^^^||||||||||||20160502|||C|||||||99999^XXXXXX-XXXXXXXX^XXXXXXX^^^^|||||||\n\n\n\n\n\n\n\nFINAL DIAGNOSIS\n\nA. LYMPH NODE, BIOPSY (STATION 5, SUBAORTIC):\n   - LYMPH NODE TISSUE; NEGATIVE FOR MALIGNANCY\nB. LYMPH NODE, BIOPSY (STATION 11, INTERLOBAR):\n   - LYMPH NODE TISSUE; NEGATIVE FOR MALIGNANCY\nC. LUNG, LOBECTOMY (LEFT UPPER LOBE):\n   - INVASIVE ADENOCARCINOMA, MODERATELY DIFFERENTIATED (pT1)\n   - SURGICAL MARGINS NEGATIVE FOR MALIGNANCY\n   - FIVE OUT OF FIVE LYMPH NODES NEGATIVE FOR MALIGNANCY\n   - PLEASE SEE SYNOPTIC REPORT\n                              (CODE 1)\n\n\nGROSS PATHOLOGY\n\nA.  The specimen is received in formalin, labeled with the patient's name and as\n   station 5, subaortic. The specimen consists of three brown-black lymph nodes\n   ranging in size from 1.2 cm to 1.6 cm in greatest dimension. The lymph nodes\n   are submitted in toto as follows:\n   A1 - A3  - one bisected lymph node each.\nB.  The specimen is received in formalin, labeled with the patient's name and as\n   station 11, interlobar. The specimen consists of a piece of brown-black soft\n   tissue measuring 0.5 x 0.3 x 0.3 cm. The specimen is submitted in toto in\n   cassette B.\nC.  The specimen is received in formalin, labeled with the patient's name and as\n   left upper lobe, consists of a left upper lobectomy specimen weighing 170 grams\n   before inflation and measuring 3.5 cm ML and the other axis cannot be defined\n   and measures 19.0 cm x 12.5 cm. The bronchial resection margin measures 2.5 cm\n   in circumference and 0.5 cm in length. The stapled parenchymal resection margin\n   measures 10.0 cm in length. The pleural surface is smooth, glistening and shows\n   multiple bullae. On sectioning, a whitish firm irregular tumor with\n   anthracotic areas is identified which measures 2.2 cm x 1.8 cm x 1.7 cm.\n   Towards one periphery the tumor is bilobed and apears to be two different\n   adjacent nodules and the smaller nodule measures 0.8 cm in greatest dimension.\n   The tumor is seen 2.5 cm from the stapled bronchial resection margin, and 2.3\n   cm from the stapled parenchymal resection margin. The surrounding lung\n   parenchyma shows increasing emphysematous changes and the tumor is seen 0.7 cm\n   from the closest pleural surface. No postpneumonic changes are identified in\n   the surrounding lung parenchyma. No further nodules are identified. Four\n   potential lymph nodes are identified in the hilum ranging in size from 0.4 cm\n   to 1.5 cm in greatest dimension. Representative sections are submitted as\n   follows:\n   C1    - bronchial and the rest of the resection margin en face.\n   C2    - stapled parenchyma resection margin en face.\n   C3    - full thickness section of the tumor with closest pleural surface.\n   C4 - C5  - full thickness section of the tumor with surrounding lung\n         parenchyma with emphysematous changes.\n   C6    - tumor at periphery showing bilobed nature.\n   Please note that the tumor is submitted in toto with surrounding lung\n   parenchyma.\n   C7    - uninvolved lung parenchyma.\n   C8    - one lymph node.\n   C9    - two lymph nodes.\n   C10    - one bisected lymph node.\n\n\nADDENDUMS\n\nSURGICAL PATHOLOGY CONSULTATION REPORT\nNote:\nThis report was originally sent to Dr. Reingold and was not received in the\nDepartment of Pathology. However, despite the delay, an addendum report is issued\nfor completeness.\nDIAGNOSIS\nLEFT UPPER LOBE LUNG LOBECTOMY (November 17, 2008):\n   - ADENOCARCINOMA (SEE COMMENT)\n   - NEGATIVE FOR EGFR (EXON 19 DELETION OR EXON 21L858R) MUTATION.\n    (SEE MOLECULAR DIAGNOSTIC REPORT)\n   - ALK NEGATIVE BY IMMUNOHISTOCHEMISTRY\nComment\nThis review is part of the EGFR mutation testing protocol.\nSpecimen type:                     lobectomy\nNumber of tissue fragments:              1\nSize of tissue fragments:               2 x 2 cm\nOriginal diagnosis:                  invasive adenocarcinoma;\n                            moderately differentiated\nTumor type and pattern/differentiation:        adenocarcinoma, predominantly\n                            acinar pattern\nImmunohistochemistry results:\n   - From original pathology report:         TTF1+, thyroglobulin-\n   - Performed at HOSPITAL:                ALK-\nNumber of area(s) marked for\nmacro-dissection and DNA isolation:          1\nEstimated size of areas marked:            1 cm diameter\nEstimated tumor cellularity (%) in marked area(s):   40%\nEstimated necrosis (%) in marked area(s):       0\nNOTE:\nALK immunohistochemistry is performed at HOSPITAL using the 5A4 antibody with a protocol\noptimized for detection of ALK gene rearrangement. However, there is a possibility\nthat it may not detect all forms of ALK gene rearrangement.\nMolecular Diagnostics\nSuzanne Kamel-Reid, PhD., FACMG\nInterpretation\n   Molecular Number:       M13.9564\n   EGFR RFLP Exon 19 Result:   Undetectable\n   EGFR RFLP Exon 21 Result:   Undetectable\n   RFLP Overall Result:     Undetectable\nDNA was extracted from the paraffin-embedded lung, LUL, S08-25195-C06, and analyzed\nusing fragment analysis. The EGFR exon 19 deletion assay was based on assessing\nsize differences of fluorescently labelled PCR products. The presence/absence of an\nexon 21 L858R point mutation was assessed by performing PCR followed by Sau96I\nrestriction enzyme digestion.\nThere was no evidence for the presence of a deletion in exon 19 or a L858R\nsubstitution in exon 21 of the EGFR gene.\nThe lower limit of mutation detection using this assay is 1-5%.\nThis analysis is based on current knowledge of the most common EGFR mutations and\ntheir presence in non-small cell lung cancer. Deletions in exon 19 and the L858R\nsubstitution observed in exon 21 account for 85-90% of EGFR mutations in non-small\ncell lung cancers that respond to EGFR inhibitors. Analytical validity and\nsensitivity of this test was determined and verified by the Molecular Diagnostics\nLaboratory at the HOSPITAL. It has not been cleared or approved by\nthe US FDA.\nPan Q, et al. JMD 2005; 7(3):396-403\nTsao MS, et al. NEJM 2005; 353(2): 133-144\nRiely GJ, et al. Clin Cancer Res 2006; 12:7232-7241\nJohn T, et al. Oncogene 2009; 28: S14-S23\n\nDavid M. Hwang, MD                     Accession #: S13-53512\nHOSPITAL, Department of Pathology\n200 Elizabeth Street\nHOSPITAL, Ontario M5G 2C4\n416-340-3325\n\n\nTISSUE SUBMITTED\n\nLYMPH NODE OF MEDIASTINUM (STATION 5/ SUBAORTIC)\nLYMPH NODE OF MEDIASTINUM (STATION 11 \"INTERLOBAR\")\nLUNG, NOS (LFT UPPER LOBE LUNG)\n\n\nMICROSCOPIC DESCRIPTION\n\nMACROSCOPY\nSpecimen Type         Lobectomy\nLaterality           Left\nTumour Site          Upper lobe\nTumour Size          2.2 x 1.8 x 1.7 cm\nMICROSCOPY\nHistologic Type        Adenocarcinoma, NOS\nHistologic Grade       Moderately differentiated\nMargins            Margins uninvolved by invasive carcinoma\nIf margins are negative    Closest margin from tumor: parenchymal margin\n               Specify distance: 23.0 mm\nDistance from bronchial    25.0 mm\nmargin\nDirect Extension of Tumour  None identified\nVenous (Large Vessel)     Absent\nInvasion (V)         Present\n               Indeterminate\nArterial (Large Vessel)    Absent\nInvasion\nLymphatic (Small Vessel)   Absent\nInvasion (L)        \nLymph Nodes          Number examined: 7\n               Number involved: 0\nAdditional Pathologic     Emphysematous changes\nFindings\nComment            By immunohistochemistry, the tumoral cells are\n               strongly positive for TTF-1 (nuclear staining), and\n               negative for thyroglobulin\n___________________________________________\nPathologic Staging (pTNM)\nPrimary Tumour (pT)\n     pT1:   Tumour 3 cm or less in greatest dimension, surrounded by lung\n          or visceral pleura, without bronchoscopic evidence of invasion\n          more proximal than the lobar bronchus (ie, not in the main\n          bronchus)\nRegional Lymph Nodes (pN)\n     pNO    No regional lymph node metastasis\n     Specify  Number examined: 7\n          Number involved: 0\nDistant Metastasis (pM)\n     pMX    Cannot be assessed\n\n\n"
+}

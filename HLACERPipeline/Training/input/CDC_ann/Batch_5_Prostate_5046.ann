@@ -1,0 +1,135 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1476, 
+        1490
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1660, 
+        1683
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1700, 
+        1720
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1333, 
+        1360
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        511, 
+        540
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1188, 
+        1214
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1251, 
+        1277
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1467, 
+        1475
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1492, 
+        1499
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1240, 
+        1248
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1314, 
+        1329
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1237, 
+        1239
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1311, 
+        1313
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1430, 
+        1432
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 8^9999^MOH|PIMS|CCO|201605051348|76952CCF1B18CE806172EBBAE995DF34B0E45073|ORU^R01|PIMS-OUT.1.183757|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 8&9999&MOH~999999^^^^MRN^HOSPITAL 8&9999&MOH~9999999999&LK&ON^^^^JHN||XXXXXX^XXXXXX^XXXXXXX^^^||99999999|M|||99-9 XXXXXXXX XX^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||16:S6116|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160427|||69128^XXXXX^XXXXX^^^^||||||||||||20160505|||F|||||||99999^XXXXXXX^XXXXXXXX^^^^|\n\n\n\n\n\n\n\nPath report.gross description\n\n\nA. The specimen container is labeled 'Weston, Laurie, unit #221626, bladder\nstones for analysis'. The specimen is received fresh and consists of\nmultiple irregular calculi measuring 5 ml in aggregate, submitted to\nBiochemistry for further analysis. No sections are taken for histology.\n \nB. The specimen is received in 10% buffered formalin. The container is labeled\n'Weston, Laurie, unit #221626, prostate tissue'. The specimen consists of 14\ngrams of pink/tan rubbery tissue fragments, submitted in toto in cassettes B1\nto B8. Also in the container are multiple fragments of tan calculi/fragmented\nstones ranging in size from 0.1 to 0.8 cm.\n\n\nPath report.site of origin\n\nA: Calculus, bladder\nB: Prostate\n\n\nPath report.site of origin\n\n\nA. Bladder stones for analysis\nB. Prostate tissue.\n\n\nPath report.final diagnosis\n\nA. CALCULI (URINARY BLADDDER), SENT TO BIOCHEMISTRY FOR ANALYSIS.\n \nB. PROSTATE GLAND, CURETTINGS:\n \n  - INVASIVE ADENOCARCINOMA, GLEASON SCORE 7/10 (PRIMARY PATTERN - 3,\n   SECONDARY PATTERN - 4), INVOLVING LESS THAN 5% TISSUE INVOLVEMENT,\n   FOCAL PERINEURAL INVASION IS PRESENT (SEE COMMENT).\n\n\nPath report.relevant Hx\n\n\nProstatism.\n\n\nPath report.comments\n\nThe prostate curettings have been examined in toto and atypical glands,\nconsistent with adenocarcinoma, are found in 2 out of 8 blocks (B2, B3). The\ntumor involves less than 5% of the overall tissue. Deeper levels are examined\nand focal perineural invasion is identified in block B2.\n \nThe 34BE12 and p63 stains show an absence of basal cells and weak cytoplasmic\noverexpression of racemase (P504S) in the atypical glands (best seen in B2)\nwhich provides support for a diagnosis of adenocarcinoma.\n \nThe case has been reviewed with another pathologist and there is agreement on\nthe diagnostic interpretation. The case was discussed (via email) with Dr.\nJamal on 05/May/16.\n\n\n"
+}

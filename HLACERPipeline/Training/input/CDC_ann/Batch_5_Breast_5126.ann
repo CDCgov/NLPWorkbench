@@ -1,0 +1,153 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1142, 
+        1148
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1095, 
+        1104
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1129, 
+        1138
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1173, 
+        1196
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1244, 
+        1264
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1009, 
+        1036
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        956, 
+        960
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1046, 
+        1050
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        613, 
+        642
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        920, 
+        946
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1086, 
+        1094
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1112, 
+        1120
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        948, 
+        954
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1038, 
+        1044
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1121, 
+        1128
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1106, 
+        1111
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 2^9999^MOH|PIMS|CCO-OCR|20160504191700|0042DFD04504A8D0141205796D4D206EFD293C51|ORU^R01|9999999999999999|P|2.5|\nPID|1||9999999^^^^CMR^HOSPITAL 2&9999&MOH~9999999^^^^MRN^HOSPITAL 2&9999&MOH~9999999999&&ON^^^^JHN||XXXXXXXXX^XXX^XXX-XXXXX||99999999|F|||9 XXXXXXX XXXX  XXXXX #99^^XXXX^XX^X9X 9X9^999|||||||||||||||||||N|\nOBR|1||S16-27191|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604271439|||59761^XXXXXXXX^XXXXXX||||201604280943|&Breast: Left Core Biopsy left core bx under ultrasound 14G|99999^XXXXXXXX^XXXXXX||||||201605041917||SPG|F|||||||99999^XXXXXX^XXX|\n\n\n\n\n\n\n\nPath report.gross description\n\n1. The specimen is labeled with the patient's name and as \"Breast: Left core biopsy left core bx under ultrasound 14G\" consists of 3 cores of yellow-tan tissue measuring from 0.8-1.3 cm in length x 0.1 cm in diameter received in 10% buffered formalin.1A -submitted in toto\n\n\n\nPath report.site of origin\n\nBreast: Left Core Biopsy left core bx under ultrasound 14G\n\n\nPath report.final diagnosis\n\nBreast (left), ultrasound-guided core biopsy:\n- Invasive carcinoma, favor invasive mammary carcinoma of ductal type - \nsee comment.\n\n\n\nPath report.relevant Hx\n\nleft MRI enhancing nodule. Rule out cancer\n\n\n\nPath report.comments\n\nSections show invasive carcinoma of estimated Nottingham histologic grade III, situated within fibroadipose tissue without preserved normal breast parenchyma. No component of in situ carcinoma is identified. Previous pathology was reviewed, the invasive carcinoma in this core biopsy shows morphologic features similar to the adenocarcinoma within the previous left axillary biopsy (S16-14879) and distinct from the previously resected endometrial carcinoma (S12-8101). \n\nWith immunohistochemistry, the invasive carcinoma in this core biopsy shows patchy GATA3 nuclear expression of variable intensity (weak, moderate and strong) and an absence of expression of PAX-8, ER and PR. HER2 appears to be negative for protein overexpression by IHC, but there is some aberrant weak cytoplasmic immunoreactivity for HER2 and therefore final HER2 status will await HER2 FISH.\n\nWhile features fully specific to mammary carcinoma are not present, and therefore the possibility of metastatic carcinoma cannot be entirely excluded, the overall findings favor this being an invasive mammary carcinoma of ductal type.\n\n\n\n"
+}

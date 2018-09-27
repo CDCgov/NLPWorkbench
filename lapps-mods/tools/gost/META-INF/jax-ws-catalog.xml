@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/ucrel/semtagger/UcrelSemChiTaggerSoapService?WSDL" uri="xml-resources/web-service-references/UcrelSemChiTaggerSoapService/wsdl/localhost_8080/ucrel/semtagger/UcrelSemChiTaggerSoapService.wsdl"/>
+    <system systemId="http://localhost:8080/ucrel/semtagger/UcrelSemChiTaggerSoapService?xsd=1" uri="xml-resources/web-service-references/UcrelSemChiTaggerSoapService/wsdl/localhost_8080/ucrel/semtagger/UcrelSemChiTaggerSoapService.xsd_1.xsd"/>
+    <system systemId="http://phlox:8080/ucrel/semtagger/UcrelSemChiTaggerSoapService?wsdl" uri="xml-resources/web-service-references/UcrelSemChiTaggerSoapService/wsdl/phlox_8080/ucrel/semtagger/UcrelSemChiTaggerSoapService.wsdl"/>
+    <system systemId="http://phlox:8080/ucrel/semtagger/UcrelSemChiTaggerSoapService?xsd=1" uri="xml-resources/web-service-references/UcrelSemChiTaggerSoapService/wsdl/phlox_8080/ucrel/semtagger/UcrelSemChiTaggerSoapService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ucrel/semtagger/UcrelSemTaggerSoapService?WSDL" uri="wsdl/localhost_8080/ucrel/semtagger/UcrelSemTaggerSoapService.wsdl"/>
+    <system systemId="http://localhost:8080/ucrel/semtagger/UcrelSemTaggerSoapService?xsd=1" uri="wsdl/localhost_8080/ucrel/semtagger/UcrelSemTaggerSoapService.xsd_1.xsd"/>
+    <system systemId="http://phlox.lancs.ac.uk:8080/ucrel/semtagger/UcrelSemTaggerSoapService?wsdl" uri="wsdl/phlox.lancs.ac.uk_8080/ucrel/semtagger/UcrelSemTaggerSoapService.wsdl"/>
+    <system systemId="http://phlox.lancs.ac.uk:8080/ucrel/semtagger/UcrelSemTaggerSoapService?xsd=1" uri="wsdl/phlox.lancs.ac.uk_8080/ucrel/semtagger/UcrelSemTaggerSoapService.xsd_1.xsd"/>
+    <system systemId="http://phlox.lancs.ac.uk/ucrel/semtagger/UcrelSemTaggerSoapService?wsdl" uri="wsdl/phlox.lancs.ac.uk/ucrel/semtagger/UcrelSemTaggerSoapService.wsdl"/>
+    <system systemId="http://phlox.lancs.ac.uk:80/ucrel/semtagger/UcrelSemTaggerSoapService?xsd=1" uri="wsdl/phlox.lancs.ac.uk_80/ucrel/semtagger/UcrelSemTaggerSoapService.xsd_1.xsd"/>
+</catalog>

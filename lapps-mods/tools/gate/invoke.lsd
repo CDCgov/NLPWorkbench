@@ -1,0 +1,15 @@
+#!/usr/bin/env lsd
+
+include "Config"
+
+String service = args[0]
+String input = args[1]
+String output = args[2]
+String username = args[3] ?: server.username ?: "tester"
+String password = args[4] ?: server.password ?: "tester"
+
+String url = "${server.url}/anc:${service}" 
+
+ServiceClient client = new ServiceClient(url, username, password)
+String json = new File(input).text
+new File(output).text = client.execute(json)

@@ -1,0 +1,163 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7447, 
+        7460
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7461, 
+        7470
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7958, 
+        7967
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3055, 
+        3078
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7976, 
+        7996
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7265, 
+        7292
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7306, 
+        7316
+      ]
+    }
+  ], 
+  "Lymphatic System Location (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7321, 
+        7340
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        575, 
+        604
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5", 
+      "__extent": [
+        7371, 
+        7377
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7438, 
+        7446
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7941, 
+        7949
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7772, 
+        7797
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7401, 
+        7407
+      ]
+    }
+  ], 
+  "Primary Origin of Neoplasm (At)": [
+    {
+      "__agreement__": "", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        8378, 
+        8395
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7318, 
+        7320
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7398, 
+        7400
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Marin Medical Laboratories^05D0604317^CLIA|eMARCPlus|CA Cancer Registry|20170917020132||ORU^R01^ORU_R01|201709170201320001|P|2.5.1|CA||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-MS-007481^PathSys^05D0604317^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170901000000|||||||20170901000000|&Lymph Node/Sentinel, Biopsy, Breast, Exc. of Lesion, requiring micro. margins, PQRS Breast Cancer Resection|1013043314^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C50.012^Malignant neoplasm of nipple and areola, left female breast^I10|1356607121&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nTwo specimens are received labeled with the patient's name and date of\n birth.\n Part 1. Received fresh for intraoperative consultation, additionally\n labeled \"left sentinel lymph node #1\" is a 3 cm in greatest dimension\n portion of yellow, soft lobulated adipose tissue containing 2 palpable\n lymph node candidates (0.7 cm in greatest dimension each). One of the\n nodes is inked blue, both are bisected, a touch prep made and both nodes\n submitted in A.\n Frozen section diagnosis: Benign\n Part 2. Received in formalin, additionally labeled \"left central\n lumpectomy\" is a 41 g, 5.0 cm (superior-inferior) x 7.5 cm\n (medial-lateral) x 4.5 cm (superficial-deep) ovoid portion of\n yellow-white fibrofatty soft tissue surfaced by a tan, rubbery wrinkled\n ellipse of skin (7.1 x 4.2 cm). There is a short suture designating\n superior and a long suture designating lateral. The specimen is inked\n as follows: anterior- superior = blue; anterior-inferior = green and\n deep = black. The skin displays a 1 cm in greatest dimension everted\n nipple which is partially hypo-pigmented with irregularly thickened skin\n and hypopigmentation extending from the nipple approximately 2.5 x 2 cm\n medial and superior. The lesion is 0.7 cm from the closest peripheral\n skin edge at approximately 12:00 and 2 cm from the closest medial tip.\n The specimen is serially sectioned from medial to lateral into 17\n slices. On cut section, no discrete mass lesions identified.\n Representative sections, to include the entire nipple and lesional\n tissue, are submitted as labeled:\n B: Medial tip, en face, slice 1\n C: Tissue flanking lesional tissue and medial tip, slice 3 (superficial\n aspect)\n D: Most medial extent of lesional tissue, slice 4 (superficial aspect)\n E: Lesional tissue, slice 5 (superficial aspect)\n F: Lesional tissue, slice 6 (superficial aspect)\n G: Lesional tissue and most medial aspect of nipple, slice 7\n (superficial aspect)\n H-J: Full cross section of lesional tissue of central nipple, slice 8\n (superficial-superior, superficial-inferior and deep, respectively)\n K: Lesional tissue and most lateral aspect of nipple, slice 9\n (superficial-superior aspect)\n L: Most lateral aspect of lesional tissue, slice 10\n (superficial-superior)\n M: Tissue flanking lesional tissue and lateral tip, slice 13\n (superficial aspect)\n N: Additional tissue flanking lesional tissue and lateral tip (slice 15)\n and lateral tip (slice 17)\n Fixation Time: Not given.\n\n\nPath report.relevant Hx\n\nClinical - 73 year old female, left breast squamous cell carcinoma. History - 07/31/2017  17-MS-006434  SFLK5\n Left nipple lesion, punch biopsy:\n Squamous cell carcinoma, moderately to poorly differentiated,\n Invasive into lower dermis and smooth muscle,\n Present at peripheral biopsy margins, not involving deep margin,\n See comment.\n 09/15/2016  16-MS-007857  SF50008\n Breast, left, outer central, stereotactic biopsy:\n -- Benign breast parenchyma with fat necrosis and surgical site changes\n including foreign body giant cell reaction and suture granuloma.\n -- Very rare stromal microcalcifications (calcium oxalate) present.\n -- Multiple step level sections have been examined.\n\n 07/25/2016  16-MS-006300  SF50008\n Left breast, 4:00, wire localized segmental mastectomy:\n A. Invasive tumor: None identified.\n B. Lymphatic/vascular invasion: None identified.\n C. Carcinoma in situ:\n Type and grade: Ductal carcinoma in situ, with high grade nuclei,\n solid pattern, comedonecrosis and associated microcalcifications.\n Size: Estimated approximately 1.5 cm, slides P-T.\n D. Surgical margins: For CIS: Clear, closest margins in this specimen\n are inked green inferior margins which are each clear by 0.4 cm, slides\n Q and T.\n E. ER/PR studies: See 16-MS-004144: ER Negative. PR Negative.\n F. Lymph nodes: None submitted.\n G. Nontumor breast tissue: Reactive changes consistent with previous\n stereotactic biopsies. Skin/dermis unremarkable.\n H. pTN class: Tis (DCIS) NX, see comment.\n 3. Left breast, 4:00, segmental mastectomy, new margin:\n Ductal carcinoma in situ, with high grade nuclei, solid pattern,\n necrosis, without associated microcalcifications, slide X.\n Involving one single duct, less than 0.1 cm in diameter.\n New inked black margin clear by 0.2 cm, see comment.\n 05/16/2016  16-MS-004144  SF50008\n 1. Left breast, #1 posterior inferior outer, stereotactic biopsy:\n - Ductal carcinoma in situ.\n - Carcinoma in situ nuclear grade: High grade.\n - Carcinoma in situ pattern: Solid.\n - Associated microcalcifications: Present.\n - Associated comedonecrosis: Present.\n - Greatest extent on a single core: 0.2 cm.\n - Prognostic/predictive immunohistochemical studies:\n ER: Negative.\n PR: Negative.\n - Additional findings: Special IHC stain for E-cadherin is positive and\n supports ductal differentiation.\n 2. Left breast, #2, anterior inferior outer, stereotactic biopsy:\n Benign breast tissue with nonproliferative fibrocystic change, with\n associated microcalcification present.\n No proliferative change, atypia or malignancy identified,\n See comment.\n 09/10/2009  09-MS-009286  SF50008\n RIGHT BREAST, NEW INFERIOR, ANTERIOR, POSTERIOR, MEDIAL, LATERAL MARGIN,\n REEXCISION PARTIAL MASTECTOMY:\n RESIDUAL DUCTAL CARCINOMA IN SITU, HIGH GRADE\n (SOLID AND CLINGING PATTERNS WITH HIGH GRADE NUCLEI\n AND WITHOUT MICROCALCIFICATIONS),\n 0.6 CM FOCUS WITHIN 0.4 CM OF MID NEW TRUE MARGIN.\n NO EVIDENCE OF INVASIVE CARCINOMA.\n NO EVIDENCE OF LYMPHATIC INVASION.\n NIPPLE/SKIN N/A\n PROLIFERATIVE FIBROCYSTIC CHANGES.\n CHANGES CONSISTENT WITH PRIOR SURGICAL SITE.\n pTNM: Tis NX MX\n 07/22/2009  09-MS-007462  SF50008\n RIGHT BREAST, NEEDLE LOCALIZATION BIOPSY, AND SEPARATE REEXCISION OF\n MEDIAL/SUPERIOR/INFERIOR/ANTERIOR/POSTERIOR MARGIN:\n A. INVASIVE TUMOR: NONE\n B. LYMPHATIC/VASCULAR INVASION: ABSENT\n C. CARCINOMA IN SITU:\n TYPE AND GRADE: DUCTAL CARCINOMA IN SITU, HIGH GRADE WITH\n FEW MICROCALCIFICATIONS.\n SIZE: 1.0 CM IN INITIAL NEEDLE LOCALIZATION LUMPECTOMY,\n AND 0.5 CM IN SUBSEQUENT REEXCISION OF MARGINS.\n D. SURGICAL MARGINS:\n FOR INVASIVE TUMOR: N/A\n FOR CIS: FOCALLY INVOLVING ANTERIOR/INFERIOR MARGIN IN THE INITIAL\n NEEDLE LOCALIZATION BIOPSY, AND WITHIN LESS THAN 1 MM OF FINAL\n MARGIN IN REEXCISION OF MARGINS.\n E. ER/PR/HER-2/NEU STUDIES: REPORTED PREVIOUSLY ON BIOPSY 09MS-6814\n F. LYMPH NODES: N/A\n G. NONTUMOR BREAST TISSUE: CHRONIC INFLAMMATION AND FIBROSIS.\n H. pTNM CLASS: Tis NX MX\n 07/07/2009  09-MS-006814  SF50008\n RIGHT BREAST, STEREOTACTIC BIOPSY:\n DUCTAL CARCINOMA IN SITU, HIGH GRADE,\n WITH ASSOCIATED MICROCALCIFICATIONS, SEE COMMENT.\n PROGNOSTIC-THERAPEUTIC MARKERS ANALYSIS OF BREAST CARCINOMA\n IN SITU BY IMMUNOPEROXIDASE METHOD ON PARAFFIN BLOCK\n\n\nPath report.final diagnosis\n\nMicroscopic diagnosis:\n 1. Sentinel lymph node, 1695, left, excision:\n - Two benign lymph nodes (0/2).\n 2. Breast, skin, central lumpectomy:\n - Invasive squamous cell carcinoma (see comment).\n - Surgical margins widely clear-- closest margin 6.5 mm to blue ink\n (anterior-superior).\n - Tumor size: 2.0 cm in greatest dimension.\n - Depth of invasion: 0.8 cm.\n - Extent of involvement: Squamous cell carcinoma invades nipple-areolar\n complex and deep dermis.\n - Histologic grade: Moderately-differentiated.\n - Perineural invasion: Not seen.\n - Lymphovascular invasion: Not seen.\n - Breast tissue: Prior procedure site changes; negative for DCIS or\n invasive mammary carcinoma.\n\n /*\n\n\nPath report.comments\n\ncomments - Sections of the central lumpectomy show an infiltrative squamous cell\n carcinoma. While this is a very unusual presentation, the superficial\n location and connection to epidermis clearly indicate that the tumor\n represents a cutaneous tumor rather than a pure squamous \"metaplastic\n carcinoma\" of primary breast/mammary epithelial origin. As the tumor is\n considered a cutaneous primary, pTNM pathologic staging for breast\n primary is deferred for this lesion. Results discussed with Dr.\n on 9/7/2017.\n\n\n"
+}

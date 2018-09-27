@@ -1,0 +1,155 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2111, 
+        2118
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2091, 
+        2105
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1674, 
+        1697
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2259, 
+        2279
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1963, 
+        1990
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1992, 
+        1996
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2204, 
+        2208
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        542, 
+        571
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        812, 
+        847
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2174, 
+        2200
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2074, 
+        2082
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1997, 
+        2003
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2083, 
+        2090
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2209, 
+        2215
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2005, 
+        2012
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2229, 
+        2233
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 9^9999^MOH|PIMS|CCO|20160504162552|C05BDE1D4D0D85F7B2CCF5DBD80547DBCCF37778|ORU^R01|Q245530530|P|2.5|\nPID|1||999999^^^^CMR^HOSPITAL 9&9999&MOH~~999999^^^^MRN^HOSPITAL 9&9999&MOH~9999999999&XY&ON^^^^JHN||XXXXXX^XXXX^XXXXXXX||99999999|F|||XXXXXXX XXXXX^999 XXXXXX XX^XXXXXXXXXX^XX^X9X9X9^999||(999)999-9999|||||||||||||||||N|\nOBR|1||S-16-003361|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160427|||19960^XXXXXX^XXXX||||||99999^XXXXXX^XXXX||||N||20160504|||F|||||||99999^XXXX^XXXXXXXXXXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen container is labelled with the patient?s demographics and \"left breast core biopsy\". The specimen consists of six tan-yellow core fragments ranging in size from 0.2 cm up to 1.0 cm. The specimen is submitted in toto.nE\nE\\VS\n\n\nPath report.microscopic observation\n\n1: Breast Core Biopsy AJCC7nE\\Laterality: Left nE\\Ductal Carcinoma In Situ: Absent nE\\Invasive Carcinoma: Present nE\\Histologic Type:  nE\\   Other(s): Invasive mammary adenocarcinoma with lobular features nE\\Estimated Tubule Formation: Minimal less than 10% (score = 3) nE\\Estimated Nuclear Pleomorphism: Small regular nuclei (score = 1) nE\\Estimated Mitotic Count  For a 40x objective with a field area of 0.238 mm2: 9 to 17 mitoses per 10 HPF (score = 2) nE\\Estimated Nottingham Score: Grade II: 6-7 points nE\\Venous/Lymphatic (Large/Small Vessel) Invasion: Absent nE\\Perineural Invasion: Absent nE\\Microcalcifications: Not identified nE\\Additional Pathologic Findings: CK 8/18 is positive in the invasive carcinoma. However, E-cadherin is negative. P63/myosin does not show presence of myoepithelial layer in the tumor.\n\n\nPath report.relevant Hx\n\nBiopsy: YesnE\\Ischemic Time: < 1 minnE\\Time in Fixative/Formalin: 27-Apr-2016 13:30nE\\Total Fixation Time: 99.5 hoursnE\\Clinical History: Large spiculated mass with skin retraction. Very suspicious. Type and grade tumor for treatment planning. 3 cores 14 gauge.\n\n\nPath report.final diagnosis\n\nLeft breast, at 1:00 ? 6 cm from the nipple, ultrasound-guided core biopsies:nE\\- Invasive mammary adenocarcinoma with lobular features.nE\\- See synoptic report and comment above.\n\n\nPath report.site of origin\n\n1 Left breast core biopsy. 1:00 - 6cm from the nipple.\n\n\nPath report.comments\n\nImaging report indicates the presence of a large spiculated mass in left breast with high probability of being malignant. The sections show breast parenchyma infiltrated by a frankly malignant process. E-cadherin is negative in the malignant cells. Overall, the pathologic findings are consistent with an invasive mammary adenocarcinoma with lobular features. Note should be made that definitive classification of the tumor requires pathologic assessment of the entire lesion. Clinical correlation is required nE\nE\\Internal consultation has been completed.\n\n\n"
+}

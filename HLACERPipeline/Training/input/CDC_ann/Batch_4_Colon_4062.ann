@@ -1,0 +1,195 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2513, 
+        2527
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4428, 
+        4451
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2337, 
+        2364
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        574, 
+        603
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2267, 
+        2293
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2403, 
+        2409
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2504, 
+        2512
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2704, 
+        2714
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2529, 
+        2548
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        3010, 
+        3011
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2298, 
+        2309
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2329, 
+        2334
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2369, 
+        2380
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2457, 
+        2462
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2313, 
+        2328
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2464, 
+        2479
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2295, 
+        2296
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2310, 
+        2311
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2366, 
+        2368
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2454, 
+        2455
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2778, 
+        2795
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|TN Cancer Registry|20170919125845||ORU^R01^ORU_R01|201709191258450001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-011571^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170822000000|||||||20170822000000|&Gallbladder, Colon, Segmental Resection for Tumor, PQRS Colorectal Resection|1982698627^ ^ ^^^^MD^^CMS^D^^^NPI||||||20170828000000|||F||||||C18.5^Malignant neoplasm of splenic flexure^I10~K81.1^Chronic cholecystitis^I10|1750607313&&&M.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\" identified by requisition and container labels. 1. Specimen 1 is labeled \"gallbladder\" on both the requisition and the container. Received in formalin is a collapsed gallbladder.  Dimensions: 7.1 x 3.3 cm, flattened. Serosa: Predominantly smooth and glistening. Mucosa: Dark green and velvety, no identifiable lesions. Wall Thickness: Up to 0.3 cm. Stones: None seen.  Representative sections are processed in cassette 1A. 2. Specimen 2 is labeled \"splenic flexure colon, silk suture at distal margin\" on the requisition, \"splenic flexure colon, black silk suture at distal margin\" on the container. Received fresh, at intraoperative consultation, is a 20 cm segment of colon which displays up to 3.5 cm of attached fatty tissue over the serosa. There is resected margins are closed with surgical staples. A silk suture marks the distal margin. When opened, the specimen reveals a tan velvety mucosa arranged in transverse folds. 5 cm from the distal margin, there is a polyp, 1.0 x 0.9 x 0.4 cm, with adjacent tattooing of the mucosa. The lesion grossly appears to remain confined to the mucosa and submucosa with no identifiable extension into the muscularis propria. The remaining mucosa is tan and velvety and is grossly free of lesions. Sectioning through the attached fatty tissues reveals 11 candidate lymph nodes, up to 0.6 cm in maximum dimension. Each is totally submitted. Section summary:   2A, proximal margin.   2B, distal margin.   2C, mesenteric cut surface.   2D-F, lesion, totally submitted, with adjacent fatty tissue.   2G-H, 11 candidate lymph nodes, each submitted whole.   2I-P, additional representative fatty tissue.\n\n\nPath report.site of origin\n\n1. Gallbladder 2. Splenic flexure colon\n\n\nPath report.final diagnosis\n\n1. Gallbladder, cholecystectomy:     Benign gallbladder with mild chronic inflammation. 2. Colon, splenic flexure, partial colectomy:     Invasive adenocarcinoma, well-differentiated.     -Size: 0.5 cm.     -Extent: Invades submucosa only.     -Lymphovascular invasion: Not identified.     -Lymph nodes: Sixteen lymph nodes, negative for metastasis (0/16).     -Margins: Negative.     -Pathologic stage: pT1 N0. CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043  Procedure: Left hemicolectomy  Tumor Site: Splenic flexure  Histologic Type: Adenocarcinoma  Histologic Grade: G1: Well differentiated  Tumor Size: Greatest dimension 0.5 cm  Tumor Deposits: Not identified  Tumor Extension: Tumor invades submucosa  Macroscopic Tumor Perforation: Not identified  Lymphovascular Invasion: Not identified  Perineural Invasion: Not identified  Tumor Budding: Number of tumor buds in one hotspot field (specify total number in area = 0.785 mm2)  Tumor Budding Score: Low score (0-4)  Type of Polyp in Which Invasive Carcinoma Arose: Tubulovillous adenoma  Treatment Effect: No known presurgical therapy  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma  Number of Lymph Nodes Involved: 0  Number of Lymph Nodes Examined: 16  Primary Tumor (pT): pT1: Tumor invades the submucosa (through the muscularis mucosa but not into the muscularis propria)  Regional Lymph Nodes (pN): pN0: No regional lymph node metastasis COLON AND RECTUM: Biomarker Reporting Template 1.001.001.1000043 Mismatch Repair  Immunohistochemistry (IHC) Testing for Mismatch Repair (MMR) Proteins: MLH1, MSH2, MSH6, PMS2, Background nonneoplastic tissue / internal control with intact nuclear expression  MLH1 Result: Intact nuclear expression  MSH2 Result: Intact nuclear expression  MSH6 Result: Intact nuclear expression  PMS2 Result: Intact nuclear expression  IHC Interpretation#: No loss of nuclear expression of MMR proteins: low probability of MSI-H\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of colon, unspecified (C18.9)\n\n\n"
+}

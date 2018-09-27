@@ -1,0 +1,15 @@
+<tool id='lapps.tools.rename.features' name='Rename Features' version='1.0.0'>
+  <description>Renames features</description>
+  <command interpreter='lsd'>rename_features.lsd  $annotation $old $new $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='Input' />
+    <param name="annotation" size="40" type="text" value="http://vocab.lappsgrid.org/" label="Annotation"/>
+    <param name="old" type="text" label="Old Name"/>
+    <param name="new" type="text" label="New Name"/>
+  </inputs>
+  <outputs>
+    <data name='output' format='lif' />
+  </outputs>
+  <help>Renames features on the given annotation type in the last view in the document.
+  </help>
+</tool>

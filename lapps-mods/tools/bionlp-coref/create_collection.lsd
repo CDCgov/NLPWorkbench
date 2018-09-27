@@ -1,0 +1,30 @@
+include 'Config'
+
+int start = args[0] as int
+int end = args[1] as int
+
+dir = new File("outputs")
+
+if (!dir.exists()) {
+    if (!dir.mkdirs()) {
+        throw new IOException("Unable to create directory ${dir.path}")
+    }
+}
+
+//DataSourceClient datasource = new DataSourceClient(server.url, server.username, server.password)
+def datasource = new ServiceClient(server.url)
+
+int size = end - start
+if (size > 100) {
+	end = start + 100
+}
+
+//String[] lines = datasource.list(start, end)
+String json = datasource.execute(new Data(Uri.LIST, [start:0,end:100]).asJson())
+Data data = Serializer.parse(json, Data)
+data.payload.each { line ->
+    String id = line.trim()
+    File file = new File(dir, "${id}.txt")
+    file.text = datasource.get(id)
+}
+

@@ -1,0 +1,25 @@
+<tool id="pubannotation.extract" name="Extract JSON" version="1.0.0">
+ <description>payload from a LIF Data object</description>
+ <command>lsd $__tool_directory__/extract.lsd $input $output</command>
+ <inputs>
+  <param type="data" format="lif,pubann" label="Input Document" name="input"/>
+ </inputs>
+ <outputs>
+  <data format="json" label="Pubannotation JSON Document" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**
+
+Extracts the payload to a new document. It is assumed that the payload is a JSON document.
+
+.. class:: infomark
+
+**NOTE:** This tool is currently intended for development and testing only.
+
+
+]]>
+ </help>
+</tool>

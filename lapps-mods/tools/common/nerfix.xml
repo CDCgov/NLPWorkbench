@@ -1,0 +1,12 @@
+<tool id="test.nerfix" name="Named Entity Normalizer" version="1.0.0">
+  <description>Maps NE annotations for use with the OAQA Evaluation Service</description>
+  <command interpreter="lsd">nerfix.lsd $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="lif"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="lif" label="Normalized named entities"/>
+  </outputs>
+  <help>Maps Person, Location, Organization, and Date annotations from the LAPP vocabulary to NamedEntity annotations
+      to simplify analysis with the OAQA component.</help>
+</tool>

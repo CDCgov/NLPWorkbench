@@ -1,0 +1,17 @@
+<tool id="gate.tagger_2.1.0" name="GATE POSTagger v2.1.0" version="2.1.0">
+	<description>
+		GATE Part of Speech Tagger
+	</description>
+	<command interpreter="lsd">
+		invoke.lsd gate.tagger_2.1.0 $input $output
+	</command>
+	<inputs>
+		<param name="input" type="data" format="gate" label="input"/>
+	</inputs>
+	<outputs>
+		<data name="output" format="gate" label="Tagged (GATE)"/>
+	</outputs>
+	<help>
+		GATE Part of Speech Tagger
+	</help>
+</tool>

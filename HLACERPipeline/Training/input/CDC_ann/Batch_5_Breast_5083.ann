@@ -1,0 +1,137 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2183, 
+        2189
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2190, 
+        2199
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2032, 
+        2055
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1159, 
+        1167
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3142, 
+        3162
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2095, 
+        2122
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3124, 
+        3129
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1644, 
+        1673
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3063, 
+        3089
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2174, 
+        2182
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2124, 
+        2130
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3091, 
+        3097
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2157, 
+        2168
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3130, 
+        3135
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH|PIMS|CCO|20160504000247|3D954690D0B41615E21B31B25BACEC86E49E72F8|ORU^R01|1605040002415325|P|2.5|||\nPID|1||999999^^^^CMR^HOSPITAL 4&9999&MOH~999999^^^^MRN^HOSPITAL 4&9999&MOH~9999999999&KM&^^^^JHN||XXXXX^XXXXX X^^^^||99999999|F|XXXXX^XXXXX^^^^||999 XXXXXX XXXX XXXXXXXXX, XXXXXXXXX, X^^^^X9X9X9^999||9999999999||||||||^^|||||||||N|||\nOBR|1||S16-6972|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201604261135|||74720^XXXXXXXXX^XXXXX^ ^^^||||201604270808||^^^^^^||||N||201604291536|||C|||^KATZ^SHIRLEY^||||99999^XXXXXXX^XXXXX^XXXXXXXX^^^|||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nIMMUNOHISTOCHEMISTRY:\nTissue Block:      \tB\nFixation method: 10% Phosphate Buffered Formalin\nTechnologist:      \tGM\nAntibody Used:   \t4B5 (Rabbit Monoclonal Ventana/Roche)\nRESULT:       \tEquivocal for Her2neu oncoprotein over-expression\nAutomation platform used:    \tVentana Benchmark Ultra\nControls stained appropriately: \tYes\n% cells with membrane staining: \t30\nIntensity of membrane staining: \tWeak\nScore:              \t2+\nFISH (FLUORESCENT IN SITU HYBRIDIZATION):\nTissue Block:\tB\nRESULT:\tNegative for Her2neu gene amplification\nComment:\tIn-situ hybridization using Vysis Path Vysion Her-2 DNA probe kit was used. Positive and negative laboratory controls stained appropriately. Thirty cells were counted. The average number of Her2neu signals per nucleus was 2.36. The average number of CEP17 signals per nucleus was 1.96. The ratio of Her2neu/CEP17 was 1.20.\nInterpretation criteria for IHC and FISH according to ASCO/CAP Her2 Testing Guideline Update. Wolff et al. Arch Pathol Lab Med. 138, Feb 2014, 241-256\n\n\nPath report.gross description\n\nThe specimen is received in formalin in a container labelled with the patient's demographic details and as \"Ultrasound Core Biopsy Right Breast 12 O'clock N4\". It consists of 4 cores of soft white-tan tissue measuring from 0.9 cm to 1.5 cm in length and up to 0.2 cm in diameter.\nSections: A,B - 4/2 EIT\n\n\nCold Ischemic Time:0:00Total Fixation Time:28:25\n\n\nPath report.relevant Hx\n\nMass right breast 0.6 cm, malignant\n\n\nPath report.final diagnosis\n\nBreast Ultrasound Guided Biopsy, Right 12:00 N+4: INVASIVE DUCTAL CARCINOMA. HER 2 TO FOLLOW AS ADDENDUM.\nBlock B from the tumor in the above patient was examined for estrogen and progesterone receptors with the following results:\n           \tResults \t\t% of Positive\tAverage Intensity\n           \t    \t\tCells\nEstrogen Receptor  \tPOSITIVE\t\t100      \tSTRONG\nProgesterone Receptor\tPOSITIVE\t\t30      \tSTRONG\nInternal Control Appropriately Immunoreactive:\tYes\nExternal Control Appropriately Immunoreactive:\tYes\nAppropriate formalin fixation time achieved: \tYes\nAntibody clone 6FII used for estrogen receptor. Antibody clone PR16 used for progesterone receptor.\nA positive result refers to 1% or more of the tumor cell nuclei showing positive staining. Staining intensity is recorded as weak, moderate or strong based on the average staining on the entire tissue section relative to the intensity of positive controls run with the same batch.\n\n\nPath report.site of origin\n\nBreast Ultrasound Guided Biopsy, Right 12:00 N+4\n\n\nPath report.comments\n\nOne section was examined to confirm the absence of the myoepithelial layer.\n\n\n"
+}

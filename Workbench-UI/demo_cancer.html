@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Cancer Pathology Demo</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+
+</head>
+<body>
+    <!-- main content start-->
+    <!--start-home-->
+    <div id="home" class="header" w3-include-html="includes/header.html"></div>
+    <!--//end-banner-->
+    <!-- app-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                    <li><a href="demo.html">Demos</a></li>
+                    <li class="active">Cancer Pathology Demo</li>
+                </ol>
+                <h1>Cancer Pathology Demo</h1>
+            </div>
+
+            <div class="col-md-8">
+
+                <p>There are four cancer pathology pipeline demos. They illustrate how NLP rule based and machine learning solutions work. View how the input of unstructured data is analyzed along with the output produced.</p>
+
+                <ul>
+                    <li>If you are new to NLP before viewing the demos, consider first familiarizing yourself with <a href="nlp.html">NLP Basics</a>.</li>
+
+                    <li>Cancer Pathology is an available service with four pipeline solutions. Learn about the use case it addresses,
+                        how the service is built and how to use any of the three available solutions. Go to <a href="service-cancer-pathology.html">cancer pathology service</a>.
+                    </li>
+
+                </ul>
+
+                <p class="text-center">
+                    <img src="images/pathology_stage.png" class="img-responsive" /><br>
+                    <strong>Figure: Stages of each of the pathology demos</strong>
+                </p>
+
+                <p><span style="font-weight:bold;">1. HL7 Input: </span> Convert the HL7 input file into a standardized format (LIF format)</p>
+                <p><span style="font-weight:bold;">2. CLEW/LAPPS Workflow: </span> Use CLEW/LAPPS workbench tools below to generate a standardized file (BIO file) with post-processing tools to modify the output of some of the pipeline steps for the clinical domain.</p>
+                <ul>
+                    <li>Tokenizer</li>
+                    <li>Sentence splitter</li>
+                    <li>POS tagger</li>
+                    <li>Chunker</li>
+                    <li>HLA feature extractor</li>
+                </ul>
+
+                <p><span style="font-weight:bold;">3. Output: </span> Use CRF and the previously trained model and output the standardized annotated content TXT file with:</p>
+                <ul>
+                    <li>Semantic tag name</li>
+                    <li>Entity text, start</li>
+                    <li>End position of entity text</li>
+                </ul>
+
+            </div>
+            <div class="col-md-4">
+                    <div class="panel panel-default panel-slate-stripe">
+                        <div class="panel-body">
+                            <a href="demo.html">All Demos ></a>
+                        </div>
+                    </div>
+                <div w3-include-html="includes/new-nlp.html"></div>
+
+                <div class="panel panel-default panel-glossary">
+                    <div class="panel-body">
+                        <h4 class="h4">In The Glossary</h4>
+                        <h5 class="h5">TERMS ON THIS PAGE</h5>
+                        <a href="glossary.html">
+                            <ul>
+                                <li>HL7 Input</li>
+                                <li>LIF format</li>
+                                <li>CLEW/LAPPS workflow</li>
+                                <li>BIO file</li>
+                                <li>Tokenizer</li>
+                                <li>Sentence splitter</li>
+                                <li>POS tagger</li>
+                                <li>Chunker</li>
+                                <li>HLA feature extractor</li>
+                                <li>CRF test</li>
+                                <li>Trained model</li>
+                                <li>Chunker</li>
+                                <li>Annotated content file</li>
+                                <li>Semantic tag name</li>
+                                <li>Entity text, start</li>
+                                <li>End position of entity text</li>
+                                <li>MetaMap</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Select Demo Input and Workflow</h2>
+                <h3>1. Select the Input</h3>
+                <div class="demo-indent">
+                    <p>Select from a sample cancer report that contains important clinical and temporal cancer patient information -OR - select "My data input" to type in your own input data.</p>
+                    <p style="font-weight:bold;">Input</p>
+                    <select class="input-select">
+                        <option>Select One</option>
+                        <option value="1"> HL7 Sample File</option>
+                        <option value="2"> My input file </option>
+                    </select>
+
+                    <div class="file-input-1"  style="display: none;" >
+                        <h3>HL7 data for selected input</h3>
+                        <p>Note that "Metadata" is at the top of the file. Metadata is not processed through the pipeline, however, it is important. It is used by the pathology laboratory to supply information about the content needed for the management of the pathology that does not refer to the clinical content itself. It contains identification of the patient, the pathology service, time and date stamps for different actions taken in completing the report plus a brief summary. Different laboratories will insert different information in the metadata so it has a variable structure.</p>
+                        <pre id="my-input1">
+    MSH|^~\&| Cancer Reporting|BioReference Laboratories, Inc^31D0652945^CLIA|||20170508114344||ORU^R01|201705081143440001|P|2.3.1
+
+    PID|1||316636092025^^^^MR^BioReference Laboratories, Inc&31D0652945&CLIA~999999999^^^^SS^BioReference Laboratories, Inc&31D0652945&CLIA||Test^Test^Test||18991230|M|||475 Market Str^^Elmwood Park^NJ^07407||||||||999999999
+
+    ORC|RE||||||||||||||||||||Bioreference^^999999999^^^CLIA|475 Market Str^^Elmwood Park^NJ^07407|^^^^^800^29-5227|475 Market Str^^Elmwood Park^NJ^07407
+
+    OBR|1||316636092|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN
+
+    OBX|1|TX|22638-1^Comments^LN||Comment||||||F|||20150901172804
+
+    OBX|2|TX|22636-5^Clinical History^LN||ClinicalInformation||||||F|||20150901172804
+
+    OBX|3|TX|22633-2^Nature of Specimen^LN|1|Colon- Random biopsy (Sample 2)||||||F|||20150901172804
+
+    OBX|4|TX|22634-0^Gross Pathology^LN|1|Specimen is received in formalin, labeled as "Random Colon" with the patient's name and consists of 26 pieces of soft pink tissue measuring from 0.1 x 0.1 x 0.1 up to 0.6 x 0.2 x 0.1 cm. All submitted (6 Blocks).    Blocks #1-3- 5 pieces each  Blocks #4-5- 4 pieces each  Block #6- 3 pieces.||||||F|||20150901172804
+
+    OBX|5|TX|22637-3^Final Diagnosis^LN|1|Colonic mucosa showing a few lymphoid aggregate. No cryptitis, no crypt abscesses, no glandular distortion and no dysplasia seen.||||||F|||20150901172804
+
+    OBR|2||316636092|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN
+
+    OBX|6|TX|22633-2^Nature of Specimen^LN|2|Colon-Sigmoid biopsy (Sample 3)||||||F|||20150901172804
+
+    OBX|7|TX|22634-0^Gross Pathology^LN|2|Specimen is received in formalin, labeled as "Sigmoid Polyp" with the patient's name and consists of 1 piece of soft pink tissue measuring 1.4 x 1.0 x 0.9 cm. Also received   a stalk measuring 0.4 x 0.4 cm. Sectioned and entirely submitted (5 Blocks).||||||F|||20150901172804
+
+    OBX|8|TX|22637-3^Final Diagnosis^LN|2|Fragments of tubulovillous adenoma with intramucosal adenocarcinoma/high grade dysplasia. The stalk margin is free of  high grade dysplasia and intramucosal carcinoma.||||||F|||20150901172804
+
+                        </pre>
+
+                    </div>
+
+
+                    <div class="my-input" style="display: none;" >
+                        <span>Type in your own example pipeline input data</span>
+                        <textarea id = "my-input2" cols="13" rows="10" type="text" name="input-content" style="border:1px solid"></textarea>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <h3>2. Select the Pipeline</h3>
+                <div class="demo-indent">
+                    <p>After choosing the input to process, select a NLP pipeline of interest to perform various clinical NLP tasks on the input.</p>
+                    <p><span style="font-weight:bold;">Pipeline </span></p>
+
+                    <div>
+                        <div style="padding-bottom: 10px;">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="pipeline" value="stanford" checked>
+                                    Stanford
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="pipeline" value="opennlp">
+                                    OpenNLP
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="pipeline" value="gate">
+                                    Gate
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="pipeline" value="ctakes">
+                                    cTAKES
+                                </label>
+                            </div>
+                        </div>
+                        <div class="margin-bottom-10">
+                            <button class="btn btn-primary hs-pipeline-description">Show Pipeline Description</button>
+                        </div>
+                    </div>
+
+
+                    <div class="stanford-pipeline" style="display: none">
+                        <p style="font-weight:bold">Stanford Pipeline Description</p>
+
+                        <div class="col-md-4">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Step</th>
+                                    <th scope="col">Tool</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Convert the HL7 file into an extracted TXT file.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Convert the TXT file into LIF format</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">3</th>
+                                    <td>Run Stanford Tokenizer in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">4</th>
+                                    <td>Run HLA Post Tokenizer Corrector for Stanford </td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">5</th>
+                                    <td>Run Stanford Sentence Splitter in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">6</th>
+                                    <td>Run HLA Post Sentence Splitter Corrector for Stanford </td>
+                                </tr>
+                                <tr class="bg-slate-light">
+                                    <th scope="row">7</th>
+                                    <td>Run the Stanford POS Tagger in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">8</th>
+                                    <td>Run the GATE Chunker in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">9</th>
+                                    <td>Send GATE chunks to MetaMap for initial concept recognition.</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">10</th>
+                                    <td>Run the HLA Feature Extractor for Stanford</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td>Generate the BIO file</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td>Send the BIO file to the service.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">13</th>
+                                    <td>Service returns the extracted Clinical Entities with: Semantic Tag Name, Entity text, Start and End position of Entity text in the TXT file.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-8">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Summary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>CLEW/LAPPS Workflow (steps 3 - 10)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3.</th>
+                                    <td>The Tokenizer identifies each individual word and non-word string. It can be confused by various punctuation and numeric content and unusual orthography.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4.</th>
+                                    <td>The corrector step modifies some of the output to correct for certain known
+                                        gross errors that it makes on clinical texts.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5.</th>
+                                    <td>The sentence splitter separates the text into sentences. It can be mislead by various format layouts, unusual use of punctuation and lack of punctuation.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">6.</th>
+                                    <td>The corrector unit corrects some of the known gross mistakes the splitter makes on clinical texts.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">7.</th>
+                                    <td>The POS tagger assigns a part of speech to each token. Any word it doesn't recognize its signs as a noun. The POS tagging enables recognition of the relationships between words to some extent. The POS tagging has some uncertainty due to the ability words to be used as different POS roles without changing their morphology, e.g. verb particles that can be used as an adjective e.g. weeping sore.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8.</th>
+                                    <td>The chunker performs the task of aggregating multiple tokens into a single phrase. This assists in recognizing clinical descriptions.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">9.</th>
+                                    <td>MetaMap is a system for recognizing clinical concepts and assigning them code values from a range of clinical classification systems. These codes are attached as features to the tokens in the text chunk created in step 8.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">10.</th>
+                                    <td>Once all the NLP processing is completed the computed values for each token are assembled as a set of features. These are used to generate a file with one token per line where each token has all its attributes/features assigned. The last step is attached the semantic class of the token iterated in the annotation step and assign whether it is the beginning of the annotation(B-class) or an intermediate position (I-class) or not tagged at all (O class). This file is called the BIO file and is input directly into the machine learning algorithm.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="opennlp-pipeline" style="display:none;">
+                        <p style="font-weight:bold">
+                            OpenNLP Pipeline Description
+                        </p>
+                        <div class="col-md-4">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Step</th>
+                                    <th scope="col">Tool</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Convert the HL7 file into an extracted TXT file.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Convert the TXT file into LIF format</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">3</th>
+                                    <td>Run OpenNLP Tokenizer in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">4</th>
+                                    <td>Run HLA Post Tokenizer Corrector for OpenNLP </td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">5</th>
+                                    <td>Run OpenNLP Sentence Splitter in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">6</th>
+                                    <td>Run HLA Post Sentence Splitter Corrector for OpenNLP </td>
+                                </tr>
+                                <tr class="bg-slate-light">
+                                    <th scope="row">7</th>
+                                    <td>Run the OpenNLP POS Tagger in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">8</th>
+                                    <td>Run the GATE Chunker in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">9</th>
+                                    <td>Send GATE chunks to MetaMap for initial concept recognition.</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">10</th>
+                                    <td>Run the HLA Feature Extractor for OpenNLP</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">11</th>
+                                    <td>Generate the BIO file</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">12</th>
+                                    <td>Send the BIO file to the service.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">13</th>
+                                    <td>Service returns the extracted Clinical Entities with: Semantic Tag Name, Entity text, Start and End position of Entity text in the TXT file.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-8">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Summary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>CLEW/LAPPS Workflow (steps 3 - 10)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3.</th>
+                                    <td>The Tokenizer identifies each individual word and non-word string. It can be confused by various punctuation and numeric content and unusual orthography.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">4.</th>
+                                    <td>The corrector step modifies some of the output to correct for certain known
+                                        gross errors that it makes on clinical texts.
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">5.</th>
+                                    <td>The sentence splitter separates the text into sentences. It can be mislead by various format layouts, unusual use of punctuation and lack of punctuation.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">6.</th>
+                                    <td>The corrector unit corrects some of the known gross mistakes the splitter makes on clinical texts.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">7.</th>
+                                    <td>The POS tagger assigns a part of speech to each token. Any word it doesn't recognize its signs as a noun. The POS tagging enables recognition of the relationships between words to some extent. The POS tagging has some uncertainty due to the ability words to be used as different POS roles without changing their morphology, e.g. verb particles that can be used as an adjective e.g. weeping sore.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8.</th>
+                                    <td>The chunker performs the task of aggregating multiple tokens into a single phrase. This assists in recognizing clinical descriptions.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">9.</th>
+                                    <td>MetaMap is a system for recognizing clinical concepts and assigning them code values from a range of clinical classification systems. These codes are attached as features to the tokens in the text chunk created in step 8.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">10.</th>
+                                    <td>Once all the NLP processing is completed the computed values for each token are assembled as a set of features. These are used to generate a file with one token per line where each token has all its attributes/features assigned. The last step is attached the semantic class of the token iterated in the annotation step and assign whether it is the beginning of the annotation(B-class) or an intermediate position (I-class) or not tagged at all (O class). This file is called the BIO file and is input directly into the machine learning algorithm.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="gate-pipeline" style="display:none;">
+                        <p style="font-weight: bold;">Gate Pipeline Description</p>
+                        <div class="col-md-4">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Step</th>
+                                    <th scope="col">Tool</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Convert the HL7 file into an extracted TXT file.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Convert the TXT file into LIF format</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">3</th>
+                                    <td>Run Gate Tokenizer in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">4</th>
+                                    <td>Convert GATE output format into LIF format. </td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">5</th>
+                                    <td>Run HLA Post Tokenizer Corrector for GATE</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">6</th>
+                                    <td>Run GATE Sentence Splitter in LAPPS </td>
+                                </tr>
+                                <tr class="bg-slate-light">
+                                    <th scope="row">7</th>
+                                    <td>Convert GATE output format into LIF format.</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">8</th>
+                                    <td>Run HLA Post Sentence Splitter Corrector for GATE</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">9</th>
+                                    <td>Run the GATE POS Tagger in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">10</th>
+                                    <td>Run the GATE Chunker in LAPPS</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">11</th>
+                                    <td>Convert GATE output format into LIF format.</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">12</th>
+                                    <td>Send GATE chunks to MetaMap for initial concept recognition.</td>
+                                </tr>
+
+                                <tr class="bg-slate-light">
+                                    <th scope="row">13</th>
+                                    <td>Run the HLA Feature Extractor for GATE</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">14</th>
+                                    <td>Generate the BIO file</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">15</th>
+                                    <td>Send the BIO file to the service.</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">16</th>
+                                    <td>Service returns the extracted Clinical Entities with: Semantic Tag Name, Entity text, Start and End position of Entity text in the TXT file.</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-8">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Summary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <th scope="row"></th>
+                                <td>CLEW/LAPPS Workflow (steps 3 - 13)</td>
+                                <tr><th scope="row">3</th><td>The Tokenizer identifies each individual word and non-word string. It can be confused by various punctuation and numeric content and unusual orthography.</td></tr>
+                                <tr><th scope="row">4</th><td>The GATE returns results in its own format which needs to be converted to a LIF format to be usable with OpenNLP and Standard pipelines.</td></tr>
+                                <tr><th scope="row">5</th><td>The corrector step modifies some of the output to correct for certain known gross errors that it makes on clinical texts.</td></tr>
+                                <tr><th scope="row">6</th><td>The sentence splitter separates the text into sentences. It can be mislead by various format layouts, unusual use of punctuation and lack of punctuation.</td></tr>
+                                <tr><th scope="row">7</th><td>The GATE returns results in its own format which needs to be converted to a LIF format to be usable with OpenNLP and Standard pipelines.</td></tr>
+                                <tr><th scope="row">8</th><td>The corrector unit corrects some of the known gross mistakes the splitter makes on clinical texts.</td></tr>
+                                <tr><th scope="row">9</th><td>The POS tagger assigns a part of speech to each token. Any word it doesn't recognize its signs as a noun. The POS tagging enables recognition of the relationships between words to some extent. The POS tagging has some uncertainty due to the ability words to be used as different POS roles without changing their morphology, e.g. verb particles that can be used as an adjective e.g. weeping sore.</td></tr>
+                                <tr><th scope="row">10</th><td>The chunker performs the task of aggregating multiple tokens into a single phrase. This assists in recognizing clinical descriptions.</td></tr>
+                                <tr><th scope="row">11</th><td>The GATE returns results in its own format which needs to be converted to a LIF format to be usable with OpenNLP and Standard pipelines.</td></tr>
+                                <tr><th scope="row">12</th><td>MetaMap is a system for recognizing clinical concepts and assigning them code values from a range of clinical classification systems. These codes are attached as features to the tokens in the text chunk created in step 8.</td></tr>
+                                <tr><th scope="row">13</th><td>Once all the NLP processing is completed the computed values for each token are assembled as a set of features. These are used to generate a file with one token per line where each token has all its attributes/features assigned. The last step is attached the semantic class of the token iterated in the annotation step and assign whether it is the beginning of the annotation(B-class) or an intermediate position (I-class) or not tagged at all (O class). This file is called the BIO file and is input directly into the machine learning algorithm.</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="ctakes-pipeline" style="display:none;">
+                        <p style="font-weight: bold;">Gate Pipeline Description</p>
+                        <div class="col-md-4">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Step</th>
+                                    <th scope="col">Tool</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-slate-light">
+                                        <th scope="row">1</th>
+                                        <td>cTAKES is a closed pipeline, there is no capacity to break into it and use components.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-8">
+                            <table class="table table-border-none">
+                                <thead>
+                                <tr>
+
+                                    <th scope="col">Summary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><p>CLEW/LAPPS Workflow</p>
+
+                                    cTAKES is a closed pipeline so it is not possible to get access to its individual components. It does follow the conventional processing architecture to produce a CER output. This includes tokenization, sentence splitter, dependency parsing and MetMap phrasal mapping.</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <h3>3. Run the Demo</h3>
+                <div class="demo-indent">
+                    <p><span style="font-weight:bold;">Selected Input: </span> <span class="selected-file-name">Descriptive name of the file goes here</span></p>
+                    <p><span style="font-weight:bold;">Selected Workflow: </span> <span class="selected-workflow">Stanford</span></p>
+                    <p><button class="btn btn-primary btn-large run-demo">Run Demo</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--//bottom-->
+    <!-- footer -->
+    <div class="footer" w3-include-html="includes/footer.html"></div>
+
+    <!-- //footer -->
+    <!--//main content start-->
+    <!-- //for bootstrap working -->
+    <!-- js -->
+    <script src="js/include.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/demo.js"></script>
+
+
+    <!-- //for bootstrap working -->
+
+
+</body>
+</html>

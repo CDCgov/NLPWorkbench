@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Workbench Overview</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+
+</head>
+<body>
+    <!-- main content start-->
+    <!--start-home-->
+    <div id="home" class="header" w3-include-html="includes/header.html"></div>
+    <!--//end-banner-->
+    <!-- app-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Overview of the Workbench</li>
+                </ol>
+                <h1>Overview of the Workbench</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+                <div><a href="#services">Services</a></div>
+                <div><a href="#lapps">CLEW Instance of the LAPPS Grid</a></div>
+                <div><a href="#investigations">Investigations of LAPPS Tools</a></div>
+
+                <h2 id="services">Services</h2>
+
+                <p>Services are provided for clinical NLP and machine-learning pipelines developed to analyze
+                    unstructured cancer pathology reports and safety surveillance data.</p>
+
+                <p>These services were developed by NLP experts to address your specific needs. The services can be run
+                    in real-time mode or called from an external application to process a block of clinical text from
+                    the designated clinical documents. As new services are developed, they will be added to this list of
+                    available shared services for use. More ></p>
+
+                <h2 id="lapps">CLEW Instance of the LAPPS Grid</h2>
+
+                <p>The CLEW/LAPPS environment provides open source NLP and machine learning tools for developing new NLP
+                    pipelines. It includes all the tools on LAPPS plus additional clinical processing tools to make
+                    adjustments to LAPPS pipeline tools for clinical processing. More ></p>
+
+                <h2 id="investigations">Investigations of LAPPS Tools</h2>
+
+                <p>Read about some of the workflow investigations conducted in the CLEW project</p>
+
+                <p><a href="assets/Behaviour%20of%20Chunker%20and%20Metmap%20in%20LAPPS.pdf">Behaviour of GATE Chunker and Metamap Concept Mapping in LAPPS <span class="fa fa-file-pdf"></span></a><br>
+                    Summarizes results from testing the GATE Chunker. It also summarizes the performance of NLM’s Metathesaurus (aka Metamap) using the chunker results.</p>
+
+                <p><a href="assets/Behaviour%20of%20POS%20Tagging%20in%20LAPPS.pdf">Behaviour of POS Tagging in LAPPS - Results Report <span class="fa fa-file-pdf"></span></a><br>
+                    Investigates the difference between different existing POS Tagger tools in LAPPS of Stanford POS Tagger and OpenNLP POS Tagger. The assessment is performed on the Final Diagnosis section of pathology reports.</p>
+
+                <p><a href="assets/Behaviour%20of%20Tokenizer%20in%20LAPPS.pdf">Behaviour of Tokenizers in LAPPS <span class="fa fa-file-pdf"></span></a><br>
+                    Assesses three different tokenizers in LAPPS, Stanford Tokenizer, OpenNLP Tokenizer and GATE Tokenizer. Limitations for each tokenizer and the ways to correct their weaknesses are described in this report.</p>
+
+                <p><a href="assets/Operating%20NLP%20Pipelines%20on%20the%20CLEW%20plus%20LIF%20Output%20formats-v3.pdf">Operating NLP Pipelines on the CLEW <span class="fa fa-file-pdf"></span></a><br>
+                    Investigates three different workflows in LAPPS: Stanford, OpenNLP and GATE with a comparison of the performance of these three workflows.</p>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div w3-include-html="includes/workbench-support.html"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--//bottom-->
+    <!-- footer -->
+    <div class="footer" w3-include-html="includes/footer.html"></div>
+    <!-- //footer -->
+    <!--//main content start-->
+
+    <!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+    <!-- //for bootstrap working -->
+    <!-- js -->
+    <script src="js/include.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- //for bootstrap working -->
+
+
+</body>
+</html>

@@ -1,0 +1,333 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4304, 
+        4312
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4366, 
+        4374
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4507, 
+        4515
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4541, 
+        4548
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5361, 
+        5369
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4313, 
+        4327
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4375, 
+        4389
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4491, 
+        4505
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4549, 
+        4556
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5370, 
+        5384
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4185, 
+        4208
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6634, 
+        6642
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7831, 
+        7851
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4233, 
+        4260
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4409, 
+        4414
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7802, 
+        7807
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        733, 
+        762
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7553, 
+        7588
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7744, 
+        7770
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4293, 
+        4303
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4355, 
+        4365
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4456, 
+        4464
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4465, 
+        4490
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        5405, 
+        5406
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4415, 
+        4420
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7808, 
+        7813
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4593, 
+        4598
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5337, 
+        5342
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4262, 
+        4263
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4329, 
+        4330
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4406, 
+        4407
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7772, 
+        7773
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7788, 
+        7789
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7799, 
+        7800
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6438, 
+        6470
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6472, 
+        6487
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5154, 
+        5171
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1084007^CLIA|eMARCPlus|AL Cancer Registry|20170924070912||ORU^R01^ORU_R01|201709240709120001|P|2.5.1|AL||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-ES-012502^PathSys^44D1084007^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170911000000|||||||20170911000000|&Omentum, Biopsy, Omentum, Biopsy, Colon, Segmental Resection for Tumor, PQRS Colorectal Resection|1134113707^ ^ ^^^^MD^^CMS^D^^^NPI||||||20170914000000|||F||||||C18.8^Malignant neoplasm of overlapping sites of colon^I10~C78.6^Secondary malignant neoplasm of retroperitoneum and peritoneum^I10~C77.2^Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes^I10|1750607313&&&M.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nThe patient is \"\" identified by requisition and container labels. 1. Specimen 1 is labeled \"omental mass\" on both the requisition and the container. Received freshly is a piece of lobular fatty tissue, 14.5 x 6.8 x up to 3.2 cm. Sectioning and palpation revealed 1 firm, tan-gray mass, 5.3 x 3.2 x 2.4 cm. Portions of the mass are examined as frozen section. The remainder of the specimen displays no grossly identifiable lesions. Representative sections are processed. Section summary: 1FSA. frozen section control 1A-B. addtional representative sections 2. Specimen 2 is labeled \"omentum\" on both the requisition and the container. Received in formalin is a piece of lobular fatty tissue, 23.6 x 9.3 x up to 3.4 cm. Sectioning and palpation reveals multiple firm, tan-gray to yellow masses, up to 3.7 cm in maximum dimension. Representative sections are processed in cassettes 2A-B. 3. Specimen 3 is labeled \"right colon and peritoneum\" on both the requisition and the container. Received in formalin is a 22 cm segment of colon, contiguous with a 10 cm segment of terminal ileum. There is an attached appendix, 8.8 x up to 2.3 cm. The appendix displays no gross perforation. Adherent to the mesoappendix is a portion of fibrofatty tissue, 11.5 x 6.8 x up to 3.3 cm, including peritoneum. The appendix displays no gross perforation. The colon displays up to 5.5 cm of attached mesentery. There is up to 12 cm of attached omentum at the distal aspect of the colon. The proximal and distal margins are closed with surgical staples. When opened, the colon displays a tan, velvety mucosa arranged in transverse folds. There are occasional thickened folds with no discrete masses. The mucosal circumference ranges up to 11 cm. There is 1 diverticula noted. The ileocecal valve is grossly unremarkable. The small bowel mucosa is tan-yellow and velvety and is grossly free of lesions. Sectioning through the appendix reveals mucinous and purulent material. Sectioning through the peritoneum revealed no discrete nodularity. Sectoring through the attached mesentery reveals 13 candidate lymph nodes, up to 1.7 cm in maximum dimension. Each is totally submitted. Sectioning through the omentum reveals 3 firm foci of white discoloration, up to 1.3 cm in maximum dimension. Also present loose within the specimen container is 1 additional piece of palpably firm fatty tissue, 3.2 x 1.7 x 1.2 cm. Sectioning reveals a firm focus of white discoloration, 1.7 cm in maximum dimension. Section summary: 3A. proximal margin 3B. distal margin 3C. mesenteric margin 3D. peritoneal margin 3E-F. colon at mucosal thickening 3G. diverticula 3H. ileocecal valve 3I-J. appendiceal orifice 3K-Q. representative appendix (alternate slices), sequentially from proximal to distal 3R-T. representative peritoneum 3U. 1 trisected candidate lymph node 3V. 1 serially sectioned candidate lymph node 3W. 1 trisected candidate lymph node 3X-Z 4 bisected candidate lymph nodes, 2 per cassette, differentiated by inks 3AA, 3 candidate lymph nodes, each submitted whole 3AB-3AD. masses in omentum 3AE-AF. separate mass loose within specimen container. After review of the initial sections, the mucosa adjacent to the appendiceal orifice is re-examined revealing an area of granularity, 2.6 x 1.4 cm. Sectioning at this area reveals firm pale tan tissue, up to 1.4 cm thick. Additional representative sections are processed in cassette 3AG-AK. (DSP/cc6)\n\n\nPath report.relevant Hx\n\nHistory - Colon mass\n\n\nPath report.final diagnosis\n\n1. Omental mass, excision:     Metastatic mucinous adenocarcinoma. 2. Omentum, excision:     Metastatic mucinous adenocarcinoma, multiple foci. 3. Right colon and peritoneum, hemicolectomy:     Invasive moderately differentiated adenocarcinoma, mucinous type, arising from     a villous adenoma.       -Size: >8 cm.       -Extent: Cecum (appendiceal orifice) and outer appendiceal wall (proximal and        mid appendix), extends to the serosal surface of the cecum.       -Lymphovascular invasion: Present.       -Perineural invasion: Not identified.       -Margins: Negative for tumor (including adherent periappendiceal soft tissue        margin).       -Lymph nodes: Ten of fourteen lymph nodes positive for metastasis (10/14).       -Pathologic stage: pT4a N2b M1b.     Incidental colonic diverticulum and sessile serrated adenoma.     Segment of benign terminal ileum.     See comment. CANCER CHECKLIST: COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms 3.000.001.1000043   SPECIMEN  Procedure: Right hemicolectomy   TUMOR  Tumor Site: Cecum  Histologic Type: Mucinous adenocarcinoma  Histologic Grade: G2: Moderately differentiated  Tumor Size (greatest dimension): >8 cm  Tumor Deposits: Not identified   Tumor Extent  Tumor Extension: Tumor invades the visceral peritoneum  Macroscopic Tumor Perforation: Not identified   Accessory Findings  Lymphovascular Invasion: Present  Perineural Invasion: Not identified  Type of Polyp in Which Invasive Carcinoma Arose: Villous adenoma  Treatment Effect: No known presurgical therapy   MARGINS  Margins: All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#   LYMPH NODES  Number of Lymph Nodes Involved: 10  Number of Lymph Nodes Examined: 14   PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 7th Edition)  Primary Tumor (pT): pT4a: Tumor invades through the visceral peritoneum  Regional Lymph Nodes (pN): pN2b: Seven or more regional lymph nodes are positive  Distant Metastasis (pM): pM1b: Metastasis to more than 1 organ/site or to the peritoneum   ADDITIONAL FINDINGS  Additional Pathologic Findings: Adenoma(s), Diverticulosis\n\n\nPath report.supplemental reports\n\nAddendum Report: Results of mismatch repair protein immunohistochemistry:    - DNA mismatch repair enzymes intact (normal protein expression).    - See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue, block 3AJ from the right colon (cecum), controls react appropriately) per EGAPP recommendations reveals intact nuclear staining for DNA mismatch repair enzymes (MLH-1, MSH-2, MSH-6 and PMS-2 protein expression is present in both the tumor and adjacent non-neoplastic tissue components). These results fail to show evidence for defective mismatch repair function or Lynch syndrome and are approximately 95% sensitive for Lynch syndrome. Cancers with this profile are microsatellite stable (MSS). If clinical suspicion is very high for Lynch syndrome (or other hereditary cancer syndromes, such as attenuated familial adenomatous polyposis) despite this negative result on the screening test, then consideration could be made for a genetic consult with additional testing. [References available on request]. ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nTumor size is estimated based on the gross measurement of the appendix (8.8 cm), and the fact that tumor does not extend all the way to the distal tip.\n\n\nPath report.site of origin\n\n1. Omental mass 2. Omentum 3. Right colon and peritoneum\n\n\nPath report.comments\n\nComments - The mesoappendix and adherent peritoneal soft tissue are involved by a dense inflammatory reaction but do not appear to contain adenocarcinoma or mucin, and therefore the tumor is designated stage T4a (instead of T4b). Metastasis to the peritoneum is documented in the operative report, and is the basis for the designation of stage M1b (omental metastasis alone would be stage M1a). Immunohistochemical stains for mismatch repair proteins and other ancillary studies (KRAS, BRAF, and NRAS) are pending, and results will be issued separately.\n\n\n"
+}

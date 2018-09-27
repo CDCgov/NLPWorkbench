@@ -1,0 +1,171 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1303, 
+        1312
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1010, 
+        1033
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1194, 
+        1221
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1231, 
+        1235
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1366, 
+        1370
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1383, 
+        1385
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        621, 
+        650
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1434, 
+        1469
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1335, 
+        1361
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1286, 
+        1294
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1223, 
+        1229
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1295, 
+        1302
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1371, 
+        1377
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1386, 
+        1392
+      ]
+    }
+  ], 
+  "Relative Distance (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1248, 
+        1264
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1237, 
+        1246
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1393, 
+        1397
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1363, 
+        1365
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH|PIMS|CCO|201605030408|B22C20480958556CE48E66758EEB5AF6CD57AFAB|ORU^R01|999999999999|P|2.5|||||||\nPID|||H999999^^^^CMR^HOSPITAL 4&9999&MOH~H999999^^^^MRN^HOSPITAL 4&9999&MOH~9999999999&&ON^^^^JHN||XXXXXX^XXXXXX^XXXXXXX||99999999|F|XXXXXXXX^XXXXXX^XXXXXXX||9999 XXXXXXX XXXXX^^XXXXXXXXX^XX^X9X 9X9^999|ON|9999999999^^ON||E|W|UNI|6245487530^^ON||||||||||||N||\nOBR|1||S16:5362^LIS|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160428|||24591^XXXX^XXX^^^^||||201604290817||99999999^XXXX^XXX^^^^||||N||201604290819|||F|||||||99999^XXXX-XXXXX^XXXXXX^^^^|||||||||||||\n\n\n\n\n\n\n\nPath report.gross description\n\nIt is our practice that all surgical specimens undergo a minimum fixation period of 24\nhours.\nThe specimen container is labelled `left breast 3 o'clock, 8 cm from nipple'. The specimen\nconsists of three filamentous fragments of cream and yellow tissue. These fragments range\nin size from 0.9 cm up to 1.0 cm in greatest dimension. All tissue is submitted.\n\n\nPath report.relevant Hx\n\nTYPICAL CANCER 8 MM\n   (DR. LYNDA HARKER, RADIOLOGIST)\n(Cross reference: NG16:17 NG15:926 NG15:375 NG14:1797 S14:13405 NG14:1272 S14:4999\nNG14:425 S05:1389)\n\n\nPath report.final diagnosis\n\nBreast (left, 3 o'clock, 8 cm from nipple), core biopsies\n   - invasive mammary carcinoma of no special type.\n\n\nPath report.site of origin\n\nA. LEFT BREAST, NOS LT BREAST 3:00 8 CMFN 0.9 X 0.7 X 1.0 CM 14G X 3\n\n\nPath report.microscopic observation\n\nEach of three cores shows invasive mammary carcinoma of no special type. There is no\ndistinct tubule formation. The nuclei are of intermediate grade and mitotic activity is\nlow. The estimated histologic grade is II/III. Solid DCIS is also present.\n\n\n"
+}

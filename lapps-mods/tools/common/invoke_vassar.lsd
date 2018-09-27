@@ -1,0 +1,15 @@
+#!/usr/bin/env lsd
+
+String base = "http://vassar.lappsgrid.org/invoker/anc"
+
+String username = "tester"
+String password = "tester"
+
+String service = args[0]
+String input = args[1]
+String output = args[2]
+
+String url = "${base}:${service}"
+ServiceClient client = new ServiceClient(url, username, password)
+String json = new File(input).text
+new File(output).text = client.execute(json)

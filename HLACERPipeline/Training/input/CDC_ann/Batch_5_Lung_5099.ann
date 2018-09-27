@@ -1,0 +1,101 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1704, 
+        1714
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1715, 
+        1724
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        989, 
+        1012
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1645, 
+        1672
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1680, 
+        1685
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2146, 
+        2148
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        512, 
+        541
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1046, 
+        1081
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2118, 
+        2144
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2149, 
+        2153
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 5^9999^MOH|PIMS|CCO|20160504080057|400C02FBF4A7C87FAED742F377B59A3A4C219A6D|ORU^R01|999999999999|P|2.5|||\nPID|1||K999999^^^^CMR^HOSPITAL 5&9999&MOH~K999999^^^^MRN^HOSPITAL 5&9999&MOH~9999999999&RJ&ON^^^^JHN||XXXXXXXX^XXXXXX^^^^^||99999999|F|||99 XXXXXX XX X^^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N||\nOBR|1||16-S005973|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160427|||90845^XX^XXXXXX X.X.^^^^||||||||||||20160503|||F|||||||99999^XXXXXX^XXXXX^^^^^||||||\n\n\n\n\n\n\n\nPath report.gross description\n\nSpecimen Site Described on Container: RT lung Bx\nSpecimen Description\nDate and Time Specimen Taken: 10:50; 27 April, 2016\nApproximate Fixation Time: 24-48 hours\nNumber of Core/s: three and fragments\nDiameter of Core/s: less than 0.1 cm\nCore Length/s: from 0.5-0.7 cm\nColour of Core/s: tan and focally hemorrhagic\nOther Abnormalities/Comments: none\nMaterial/Blocks Submitted: all submitted, as is - 1A only\n(Dictated by M.L. Northey, MLT, HBSc)\n\n\nPath report.relevant Hx\n\n1.3 cm RLL spic nodule\nsmoker\n\n\nPath report.microscopic observation\n\nSections show cores of lung parenchyma demonstrating features of small cell\ncarcinoma.\nImmunohistochemistry stains are reviewed while controls are adequately\nstaining. Malignant cells show strong positive staining for TTF-1 and\nsynaptophysin and are negative for CK7 and p63.\n(As part of the PRHC's Department of Laboratory Medicine's Quality Assurance\nProgram, part or all of this case has been reviewed by one or more\npathologists in the Department here at the PRHC. The specifics and the\ndocumentation of that review are available in the Department files.)\n\n\nPath report.final diagnosis\n\nLUNG (RIGHT), CORE BIOPSY:\n   SMALL CELL CARCINOMA\n     - SEE BELOW\nReported by: Hetal Talati MD, FRCPC - PATHOLOGIST\nNOTE: This information and the pathologic diagnosis here must be correlated\nwith this patient's clinical situation; if there is a disparity, or any other\nconcern with this report, the pathologist responsible for this case should be\ncontacted promptly. (Any diagnoses or observations in parentheses above are\nclinical ones.)\n\n\nPath report.site of origin\n\nRT lung Bx.\n\n\n"
+}

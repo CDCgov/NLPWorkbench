@@ -1,0 +1,7 @@
+
+String name = args[0]
+File input = new File(args[1])
+File output = new File(args[2])
+
+def service = new ServiceClient("http://grid.anc.org:9080/GatePennBio/1.0.0-SNAPSHOT/services/$name")
+output.text = service.execute(input.text)

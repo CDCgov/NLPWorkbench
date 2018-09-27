@@ -1,0 +1,19 @@
+<tool id="test.tagger" name="Test Tagger" version="1.0.0">
+  <description>Test tagger component</description>
+  <command>cp $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="xml">
+        <options options_filter_attribute="metadata.tokens">
+            <filter type="add_value" value="True"/>
+        </options>
+        <validator type="expression" message="Please run a tokenizer first">value.metadata.tokens is not None</validator>
+        <!--
+        <validator type="metadata_value" message="Please run a tokenizer first." key="tokens" value="True"/>
+        -->
+    </param>
+  </inputs>
+  <outputs>
+    <data name="output" format="xml" label="Output"/>
+  </outputs>
+  <help>A test component</help>
+</tool>

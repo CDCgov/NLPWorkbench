@@ -1,0 +1,13 @@
+String key = args.remove(0)
+File output = new File(args.remove(0))
+
+StringWriter writer = new StringWriter()
+PrintWriter out = new PrintWriter(writer)
+out.println "Key: $key"
+out.println "File: ${output.path}"
+
+out.println "FILES"
+out.println "-----"
+args.each { out.println it.value }
+
+output.text = writer.toString()

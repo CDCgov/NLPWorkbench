@@ -1,0 +1,54 @@
+
+File input = new File(args[0])
+File output = new File(args[1])
+
+Map map = Serializer.parse(input.text, Map)
+
+container = new Container()
+container.text = map.text
+Map metadata = container.metadata
+['target', 'sourceid', 'sourcedb', 'divid', 'section', 'source_url', 'project'].each { name ->
+    if (map[name]) {
+        metadata[name] = map[name]
+    }
+}
+
+if (map.denotations) {
+	addDenotations(map.denotations)
+	if (map.relations) {
+	    addRelations(map.relations)
+	}
+}
+else if (map.tracks) {
+	map.tracks.eachWithIndex { track, i ->
+		if (track.denotations) {
+			addDenotations(track.denotations)
+		}
+		if (track.relations) {
+			addRelations(track.relations)
+		}
+	}
+}
+
+Data data = new Data(Uri.LIF, container)
+output.text = data.asPrettyJson()
+return
+
+void addDenotations(List denotations) {
+	View view = container.newView()
+	denotations.each { d ->
+		Annotation a = view.newAnnotation(d.id, d.obj)
+		a.start = d.span.begin
+		a.end = d.span.end
+	}
+}
+
+void addRelations(List relations) {
+	View view = container.newView()
+	relations.each { r ->
+		Annotation a = view.newAnnotation(r.id, Uri.RELATION)
+		a.features.pred = r.pred
+		a.features.subj = r.subj
+		a.features.obj = r.obj
+	}
+}

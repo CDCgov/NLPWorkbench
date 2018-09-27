@@ -1,0 +1,100 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+File tokenFile = new File(args[0])
+String query = args[1]
+String size = args[2]
+String service = args[3]
+//File output = new File(args[4])
+
+try {
+	size = size as Integer
+	if (size > 100) size = 100
+}
+catch (Exception e) {
+	size = 10
+}
+
+query = 'q=' + query.replaceAll('  *', '+') + "&wt=json&indent=on&start=1&rows=$size"
+
+String token = tokenFile.text
+
+println "Token: $token"
+println "Query: $query"
+println "Size: $size"
+println "Service: $service"
+
+/*
+println "File: ${tokenFile.path}"
+println "Token: $token"
+println "Query: $query"
+println "Size: $size"
+println "Service: $service"
+*/
+
+dir = new File("outputs")
+if (!dir.exists()) {
+    if (!dir.mkdirs()) {
+        throw new IOException("Unable to create directory ${dir.path}")
+    }
+}
+
+parser = new XmlParser()
+
+String url = "http://grid.ldc.upenn.edu:8080/doc_service/services/$service"
+DataSource source = new DataSourceClient(url)
+source.setToken(token)
+Data data = new Data(Uri.SOLR, query)
+String json = source.execute(data.asJson())
+data = Serializer.parse(json, Data)
+Map map = Serializer.parse(data.payload, HashMap)
+map.response.docs.each { Map doc ->
+	json = source.get(doc.docid)
+	Data gigaword = Serializer.parse(json, Data)
+	data = convert(gigaword)
+	def md = data.payload.metadata
+	['docid', 'type', 'headline', 'source', 'date', 'updated'].each { field ->
+		md[field] = doc[field]
+	}
+	File outfile = new File(dir, "${doc.docid}.lif")
+	outfile.text = data.asPrettyJson()
+	println "Wrote ${outfile.path}"
+}
+
+Data convert(Data gigaword)
+{
+	if (gigaword.discriminator == Uri.ERROR) {
+		return gigaword
+	}
+	def doc = parser.parseText(gigaword.payload)
+
+	Container container = new Container()
+	buffer = new StringBuilder()
+	id = -1
+	view = container.newView()
+	view.addContains(Uri.PARAGRAPH, "gigaword2lif.lsd", "paragraph")
+	if (doc.TEXT.P) {
+		doc.TEXT.P.each { p ->
+			Annotation a = view.newAnnotation()
+			a.id = "p${++id}"
+			a.start = buffer.length()
+			buffer.append(p.value()[0])
+			a.end = buffer.length()
+			buffer.append("\n")
+			a.atType = "http://vocab.lappsgrid.org/Paragraph"
+			a.label = "Paragraph"
+		}
+	}
+	else {
+		Annotation a = view.newAnnotation()
+		a.id = "p${++id}"
+		a.start = buffer.length()
+		buffer.append(doc.TEXT.text())
+		a.end = buffer.length()
+		buffer.append("\n")
+		a.atType = "http://vocab.lappsgrid.org/Paragraph"
+		a.label = "Paragraph"
+	}
+	container.text = buffer.toString()
+	container.language = "en"
+	return new Data(Uri.LAPPS, container)	
+}

@@ -1,0 +1,102 @@
+import org.codehaus.groovy.control.CompilerConfiguration
+import org.codehaus.groovy.control.customizers.ImportCustomizer
+
+File input = new File(args[0])
+String scriptText = new File(args[1]).text
+String type = args[2]
+boolean useNewView = args[3] as Boolean
+boolean first = args[4] as Boolean
+boolean pretty = args[5] as Boolean
+File output = new File(args[6])
+
+DataContainer data = Serializer.parse(input.text, DataContainer)
+Container container = data.payload
+List<View> views = container.findViewsThatContain(type)
+if (views == null || views.size() == 0) {
+	if (pretty) {
+		output.text = data.asPrettyJson()
+	}
+	else {
+		output.text = data.asJson()
+	}
+	return
+}
+
+// Get the first/last view.
+View source
+if (first) {
+	source = views[0]
+}
+else {
+	source = views[-1]
+}
+
+// Create a new target view if required.  Otherwise point target to point
+// to the source view.
+View target
+if (useNewView) {
+	target = container.newView()
+	if (target.metadata == null) {
+		target.metadata = [:]
+	}
+	if (target.metadata.contains == null) {
+		target.metadata.contains = [:]
+	}
+
+}
+else {
+	target = source
+}
+
+CompilerConfiguration configuration = getConfiguration()
+Binding binding = new Binding()
+GroovyShell shell = new GroovyShell(this.class.classLoader, binding, configuration)
+Script script = shell.parse(scriptText)
+script.run()
+source.findByAtType(type).each { Annotation ann ->
+	Annotation newAnn = target.newAnnotation()
+	newAnn.start = ann.start
+	newAnn.end = ann.end
+	script.invokeMethod('annotate', [ann, newAnn] as Object)
+}
+script.invokeMethod('update', [source, target] as Object[])
+
+if (pretty) {
+	output.text = data.asPrettyJson()
+}
+else {
+	output.text = data.asJson()
+}
+return
+
+/******************************************/
+
+CompilerConfiguration getConfiguration() {
+	ImportCustomizer customizer = new ImportCustomizer()
+	def packages = [
+			'org.lappsgrid.api',
+			'org.lappsgrid.core',
+			'org.lappsgrid.client',
+			'org.lappsgrid.discriminator',
+			'org.lappsgrid.serialization',
+			'org.lappsgrid.serialization.lif',
+			'org.lappsgrid.serialization.datasource',
+			'org.lappsgrid.metadata',
+
+			'org.anc.lapps.pipeline',
+			'org.anc.io',
+			'org.anc.util',
+			'org.anc.json.validator',
+			'org.anc.json.transform'
+	]
+	packages.each {
+		customizer.addStarImports(it)
+	}
+	customizer.addStaticImport('org.lappsgrid.discriminator.Discriminators', 'Uri')
+	//customizer.addStaticImport('org.lappsgrid.discriminator.Distriminators', 'Alias')
+
+	CompilerConfiguration configuration = new CompilerConfiguration()
+	configuration.addCompilationCustomizers(customizer)
+	return configuration
+}
+

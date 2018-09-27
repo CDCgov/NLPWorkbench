@@ -1,0 +1,32 @@
+<tool id='anc_gate.tagger_2.2.0' name='GATE POSTagger v2.2.0' version='1.0.0'>
+  <description>GATE POS Tagger</description>
+  <command>lsd $__tool_directory__/invoke.lsd gate.tagger_2.2.0 $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate' />
+  </outputs>
+  <help><![CDATA[
+**What it does**
+
+
+GATE POS Tagger
+
+Required Annotations
+--------------------
+* http://vocab.lappsgrid.org/Token
+* http://vocab.lappsgrid.org/Sentence
+
+Generated Annotations
+---------------------
+* http://vocab.lappsgrid.org/Token#pos
+
+**License**
+
+Gate Developer is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+
+]]>
+</help>
+</tool>

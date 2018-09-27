@@ -1,0 +1,9 @@
+include 'Config'
+
+String key = args[0]
+String output = args[1]
+
+def url = server.url
+
+def service = new DataSourceClient(url, server.username, server.password)
+new File(output).text = service.get(key)

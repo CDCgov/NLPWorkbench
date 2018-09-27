@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Building a NLP Solution</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+    <!--web-fonts-->
+    <link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+
+</head>
+<body>
+    <!-- main content start-->
+    <!--start-home-->
+    <div id="home" class="header" w3-include-html="includes/header.html"></div>
+    <!--//end-banner-->
+    <!-- app-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">NLP Basics</a></li>
+                    <li class="active">3. Building a NLP Solution</li>
+                </ol>
+                <h1>NLP Basics</h1>
+                <h2 class="h2 boxed-headline">3. Building a NLP Solution</h2>
+            </div>
+            <div class="col-md-8">
+                <p>As discussed in sections 1 and 2 of NLP Basics, there are a number of NLP methods and approaches. There are a combination of different NLP strategies are typically used to meet requirements and resolve a client’s needs.  This section discusses how to build a NLP solution using some of these methods. It focuses on methods used for the some of the clinical solutions found in the available CLEW Services available on the CLEW workbench.</p>
+                <div><a href="#statistical">Build a Statistical NLP (SNLP) Solution</a></div>
+                <div><a href="#modelmachinelearning">Build a Language Model with Machine Learning</a></div>
+                <div><a href="#languagerules">Build a Language Model with Rules</a></div>
+                <div><a href="#trainingdata">Create a Training Data Set</a></div>
+                <div><a href="#modelpipeline">Build a Language Model Pipeline</a></div>
+                <h2 id="statistical">Build a Statistical NLP (SNLP) Solution)</h2>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Step</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>
+                            <p style="font-weight: bold">Compile a corpus of documents</p>
+                            <p>Gather a collection of documents - referred to as a corpus of documents - that are
+                                representative of the range of content the SNLP system is intended to analyze,</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>
+                            <p style="font-weight: bold">Design a set of semantic tags</p>
+                            <p>This is the tag* schema that will represent the conceptual entities you want the Language Model to  automatically identify ( aka “classify”).</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>
+                            <p style="font-weight: bold">Annotate the corpus</p>
+                            <p>Using an annotation tool like the Visual Annotator, manually assign these tags to each token in each document in the corpus.</p>
+                            <p>
+                                <strong>Notes:</strong>
+                            <ul>
+                                <li>Natural Language datasets are called a corpora. A single set of data annotated with the same set of tags are call an annotated corpus.</li>
+                                <li>Manual annotation is a preprocessing step to facilitate the next, advanced processing steps.</li>
+                            </ul>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>
+                            <p style="font-weight: bold">Design an NLP pipeline and  feature set for the Language Model (LM)</p>
+                            <p>An NLP pipeline of processing functions is designed so that it will compute the features of every token in the documents to represent their context.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>
+                            <p style="font-weight: bold">Compute a Language Model (LM)</p>
+                            <p>The LM is a statistical model of the contexts of each semantic tag* as annotated* across the corpus.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>
+                            <p style="font-weight: bold">Test the Language Model (LM)</p>
+                            <p>The LM is tested by having it tag the training corpus and compare the tagging against the manual annotations.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>
+                            <p style="font-weight: bold">Correct Annotations and Features</p>
+                            <p>Corrections are made to the annotations and features used to compute the LM and the training and testing (Steps 2-6) are repeated until satisfactory accuracy is achieved.</p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p><strong>Note:</strong>The NLP community uses the convention of manual annotation as “annotations”, and the output of machine annotation as “tagging”, i.e., the human annotates, and the machine tags.</p>
+
+                <h2 id="modelmachinelearning">Build a Language Model with Machine Learning</h2>
+                <p>Machine Learning requires annotating the text with semantic tags which are the targets to be computed
+                    for the application. These annotations are applied manually to the documents using an annotation
+                    tool to create a training corpus.</p>
+
+                <p>Manual annotation is a straightforward process. It entails reading each report and applying
+                    annotations to the text using annotation software. There are many such tools available but you need
+                    to select a tool that stores the annotations in a format that the NLP pipeline can use. The LAPPS
+                    platform used by CLEW has endeavored to overcome this problem by producing conversion programs that
+                    convert output and input formats to be compatible across a range of open source NLP tools.</p>
+
+                <p>Once the corpus is annotated the documents are input into the pipeline so that natural language
+                    characteristics for each token are defined. These natural language characteristics are known as
+                    features. The features of each token along with its semantic category are passed to the Machine
+                    Learner which builds a statistical model of the contexts of each semantic tag. This statistical
+                    model is the Language Model (LM). Once it is computed it can be applied back over the training
+                    materials to identify inconsistencies between the Language Model and the Gold Standard.</p>
+
+                <p>Any taggings of the corpus that do not match the manual annotations in the Gold Standard represent a
+                    disparity in the process.</p>
+
+                <ul>
+                    <li>
+                        <p>False Positives (FPs) are entities identified by the LM which it thinks should have been annotated:</p>
+                        <ul>
+                            <li>If the LM identified false positive is correct then the text can be annotated</li>
+                            <li>If the LM false positive in incorrect then it points to a context that is not
+                                sufficiently well represented in the training data so that it is misconstrued as
+                                representing an entity that it is not.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>False Negatives (FNs) are annotations that the LM has failed to recognize.</p>
+                        <ul>
+                            <li>False negative can occur as an incorrectly annotated length of text in which case it can
+                                be unannotated, or it represents content that the LM has failed to learn, usually due to
+                                a lack of representative training examples.
+                            </li>
+                            <li>This is solved by checking for unannotated content of the same semantic type or getting
+                                more documents that contain the target contexts.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Some problems with tagging can be traced back to processing in the pipeline. In these cases it is
+                    necessary to analyze the features being produced in the pipeline and change the pipeline's behavior
+                    based on the analysis. We would advise that agreement between annotators beyond understanding the
+                    meanings encompassed by the tags does not need to be of particular focus. What is crucial is
+                    agreement between the annotations and the model.</p>
+
+                <h2 id="languagerules">Build a Language Model with Rules</h2>
+                <p>Rule-based NLP uses human experience to formulate rules to be used in the identification of features in unstructured text. These rules are developed to overcome the limitations of simple string matching.</p>
+
+                <p>Rule-based language models are like expert systems. For example, rule-based NLP systems have the
+                    ability, when programmed, to detect negation of certain features. When searching for a secondary
+                    diagnosis or symptom, these systems can detect the term not, or rule out, or ruled out, or R/O
+                    before the secondary diagnosis or symptom. For this example, the negated secondary diagnosis or
+                    symptom would not be extracted as a feature in the narrative. Many other rules can successfully
+                    extract features when properly programmed.</p>
+
+
+                <h2 id="trainingdata">Create a Training Data Set</h2>
+                <h3>Semantic Schema (Tag) Selection</h3>
+                <p>Preparing a training corpus for the Machine Learning component of the pipeline is a lengthy task and
+                    needs careful planning. Firstly it is important to think through the set of semantic entities, which
+                    become your annotation tags that you want the Language Model to represent. One of the most
+                    frustrating tasks can be needing to add a new semantic class after most of the annotations are
+                    completed due to an oversight in the design of the Tag Schema.</p>
+
+
+                <h3>Developing a Training Corpus</h3>
+                <p>The documents placed in the training corpus must be carefully chosen to represent as wide a variety
+                    of the target content as possible. This involves careful sampling across all the variables that are
+                    important to the final processing tasks.</p>
+                <p>Determining the optimal size of the training corpus has no clear guidelines. We recommend from
+                    experience that there should be a minimum of 1000 documents per final variable. So for the pathology
+                    task of identifying the 5 variables {Site, Histology, Behavior, Grade and Laterality} we would
+                    compile a corpus of 5000 reports. Unfortunately there is no guarantee that this number will give the
+                    required coverage to produce highly accurate results. The other variables that would have an effect
+                    on this distribution is the number of pathology laboratories supplying reports, the number of
+                    authors in those laboratories, and the variety of values for each of the variables that need to be
+                    computed for the project objective.</p>
+
+                <h3>Annotating the Corpus</h3>
+                <p>Annotation is a lengthy process and stretches throughout the length of the development process in the
+                    search for improved accuracy.</p>
+                <p>We would advise that agreement between annotators beyond understanding the meanings encompassed by
+                    the semantic tags does not need to be of particular focus. What is crucial is agreement between the
+                    annotations and the model. It is possible to compute inter-annotator agreement and this might be
+                    useful in the early stages of training annotators to identify interpretations of particular problem
+                    tags or weak spots amongst annotators, however as the project progresses most attention should be on
+                    the consistency of the annotations between the tagging by the Language Model and the manual
+                    annotations.</p>
+
+
+                <h2 id="modelpipeline">Build a Language Model Pipeline</h2>
+                <p>The Language Model is defined by two cores components:</p>
+                <ol>
+                    <li>The Semantic Schema tag set and its example application to the training corpus, and,</li>
+                    <li>The features computed in the NLP pipeline that are used to define the context of each token in a report.</li>
+                </ol>
+
+                <p>The schema is defined at the beginning of the project but may evolve as the annotation process
+                    proceeds. Annotators discover distinctions in the text that they had not thought of initially so
+                    that new tags need to be added. Occasionally a distinction that was thought to be important
+                    initially is found to be inconsequential so two tags are combined into one.</p>
+
+                <p>The NLP pipeline is also developed as a matter of judgments as to what will be important in creating
+                    distinctions between semantic tags and a background of irrelevant content, or more problematically
+                    between different semantic tags for the same content. For example, in the case of skin cancer on the
+                    breast then the topographical location of the cancer is the breast and the primary organ is the
+                    skin, but in the case of breast cancer that has penetrated the skin the primary organ is the breast.
+                    In these two cases the same textual content is annotated with two different tags potentially
+                    creating conflict for the Language Model. It is resolved by including features computed by the NLP
+                    pipeline that represent different contexts for these two scenarios. Selecting features to solve
+                    these problems on the scale of a large corpus requires a great deal of skill and experience.</p>
+
+                <h3>Training a Machine Learner</h3>
+                <p>The Machine Learner computes the statistical distribution of feature values for each semantic tag
+                    across the whole training corpus. Hence the context of semantic tags is defined by the bias in the
+                    feature set values for each semantic tag. If the annotation of a particular phrase is consistent
+                    across many reports then the feature set values will be constant and the model will have a strong
+                    representation of that context for that tag. If the feature set values are highly variable across
+                    the same tag in different contexts then the model will not be so strong and invariably make mistakes
+                    either by applying a tag when it is not wanted, or by failing to apply a tag where it is wanted.</p>
+
+                <p>The feature selection process can be seen in the <a href="featurelib.html">Feature Library</a>.
+                    In using this process the NLP developer can choose features for the target token and then for tokens
+                    each side of the target. Also the span of relevant context can be experimented with by choosing the
+                    number of tokens to the left and right of the target token that should be included in the feature
+                    set as well as which features for these neighboring tokens should be used. This enables a rich
+                    variation in defining the context for the Machine Learner to utilize. The task of this webpage is to
+                    produce a data file suitable for input into the Machine Learner which represents each token in the
+                    text by a feature vector followed by its semantic tag. This is file is known as the BIO file.</p>
+
+                <p>The Machine Learner is trained in an iterative process, where firstly the complete corpus of words
+                    with their features ( as found in the BIO file) are passed to the Machine Learner for it to build
+                    its statistical representation of the feature set values that match each semantic tag (sometimes
+                    called a class). That representation is the Language Model, and can now be used to tag (or classify)
+                    texts. In a production line process those texts are unseen by the user as they are computed and then
+                    discarded. In the development phase by applying the Language Model to the training data the
+                    discrepancies represent weaknesses in the whole process such as overgeneralizing, under
+                    generalizing, errors in the NLP pipeline as deep as the tokenization process or missed contexts due
+                    to inadequate features in the training pipeline.</p>
+
+                <p>Any error generated by the Language Model requires time and effort in investigating their source and
+                    rectifying them. This can be a tedious process as the complexity of the LM camouflages a lot of the
+                    error sources.</p>
+
+                <h3>The Production Line</h3>
+                <p>Once the Language Model is built and tested to the user satisfaction then a production line process
+                    needs to be put in place. The production line requires these processes:</p>
+
+                <ol>
+                    <li>A feed-in mechanism - a method by which the texts are delivered to the Clinical Entity Recogniser (CER).</li>
+                    <li>An installation of the Clinical Entity Recognizer which includes the NLP pipeline and trained Language Model.</li>
+                    <li>An output mechanism to deliver the results of the Clinical Entity Recognizer to the client’s application.</li>
+                </ol>
+
+                <p>The architecture of service oriented application (SOA) or software as a service (SaaS) is ideally
+                    suited to this type of production line, and the CLEW has implemented this approach. Sample services
+                    are available for four SNLP pipelines.</p>
+                <nav class="text-center" aria-label="">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="nlppipeline.html">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="nlp.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="nlppipeline.html">2</a></li>
+                        <li class="page-item active disabled">
+                            <span class="page-link">3</span>
+                        </li>
+
+                        <li class="page-item"><a class="page-link" href="clewnlp.html">4</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="clewnlp.html">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default panel-glossary">
+                    <div class="panel-body">
+                        <h4 class="h4 strong">In The Glossary</h4>
+                        <h5 class="h5">TERMS ON THIS PAGE</h5>
+                        <a href="glossary.html">
+                            <ul>
+                                <li>Annotating the Corpus</li>
+                                <li>BIO File</li>
+                                <li>CLEW Service</li>
+                                <li>Context in NLP</li>
+                                <li>Corpus</li>
+                                <li>Feature</li>
+                                <li>Gold Standard</li>
+                                <li>Language Model</li>
+                                <li>Machine Learning</li>
+                                <li>Semantic Tag</li>
+                                <li>Schema</li>
+                                <li>Statistical NLP (SNLP)</li>
+                                <li>Token</li>
+                                <li>Tagging</li>
+                                <li>Training Dataset</li>
+                                <li>Visual Annotator</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+
+                <div w3-include-html="includes/resources.html"></div>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+    
+
+
+    <!--//bottom-->
+    <!-- footer -->
+    <div class="footer" w3-include-html="includes/footer.html"></div>
+    <!-- //footer -->
+    <!--//main content start-->
+
+    <!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+    <!-- //for bootstrap working -->
+    <!-- js -->
+    <script src="js/include.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- //for bootstrap working -->
+
+
+</body>
+</html>

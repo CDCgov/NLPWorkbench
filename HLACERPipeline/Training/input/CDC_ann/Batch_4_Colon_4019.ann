@@ -1,0 +1,97 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1332, 
+        1355
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1144, 
+        1171
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        473, 
+        502
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1024, 
+        1050
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1291, 
+        1329
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1056, 
+        1061
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1101, 
+        1106
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1173, 
+        1178
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1052, 
+        1054
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1097, 
+        1099
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170918000102||ORU^R01^ORU_R01|201709180001020001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-15-000353^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170907000000|||||||20170907000000|&Liver, biopsy - needle bx|1205996014^^^M^III^^MD^^CMS^D^^^NPI||||||20170908000000|||F||||||C18.0^Malignant neoplasm of cecum^I10|&&&E.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nContainer 1A is labeled as \", hepatic lobe jar 1.\" Received in formalin are 2 yellow-tan cylindrical core biopsies, each measuring 0.9 cm in length and 0.1 cm in diameter. Both cores are submitted intact in cassette 1A. Container 1B is labeled as \", hepatic lobe jar 2.\" Received in formalin are 2 yellow-tan cylindrical core biopsies ranging from 0.8 to 1.0 cm in length and each measuring 0.1 cm in diameter. Both cores are submitted intact in cassette 1B. This is a research case for paraffin embedding only. (TTC)\n\n\nPath report.site of origin\n\n1A. Liver biopsy, embed only, Study MULTI 23 1B. Liver biopsy, embed only, Study MULTI 23\n\n\nPath report.final diagnosis\n\nLiver, biopsy (tissue for SCRI reasearch protocol Multi 23):  Tissue for pariffin embedding (research purposes only); microscopic evaluation not  performed.\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of the cecum\n\n\n"
+}

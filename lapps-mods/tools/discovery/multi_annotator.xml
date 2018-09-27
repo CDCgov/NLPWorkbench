@@ -1,0 +1,16 @@
+<tool id='discovery.multi_annotator' name='Collection Span Annotator (History)' version='1.0.0'>
+    <description>Span-based annotator</description>
+    <command interpreter="lsd">multi_annotator.lsd $annotations $input $output</command>
+    <inputs>
+        <param name='annotations' type='data' format='txt' label='annotations' />
+        <param name='input' type='data' format='lif' label='input' />
+    </inputs>
+    <outputs>
+        <data name='output' format='lif'/>
+    </outputs>
+    <help><![CDATA[
+Reads in an annotations file containing begin,end,Type tuples per line and
+adds the annotations to a new view.
+]]>
+    </help>
+</tool>

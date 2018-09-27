@@ -1,0 +1,93 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        742, 
+        756
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        525, 
+        548
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1168, 
+        1188
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        639, 
+        666
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        467, 
+        496
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        960, 
+        995
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1096, 
+        1122
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        716, 
+        741
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        684, 
+        699
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|ParkRidge Medical Center^44D0705108^CLIA|eMARCPlus|TN Cancer Registry|20170919125837||ORU^R01^ORU_R01|201709191258370001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-70-001782^PathSys^44D0705108^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170830000000|||||||20170830000000|&Generic Specimen No CPT|1487603817^ ^ ^^^^MD^^CMS^D^^^NPI||||||20170831000000|||F||||||C18.3^Malignant neoplasm of hepatic flexure^I10|1083680706&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n15-PK-1698; 1A - for MSI\n\n\nPath report.relevant Hx\n\nHistory - Hepatic flexure mass - infiltrating moderately differentiated adenocarcinoma\n\n\nPath report.final diagnosis\n\nBiopsies, mass, hepatic flexure:   Infiltrating moderately differentiated adenocarcinoma.   Malignant tumor MLH-1: Intact nuclear staining.   Malignant tumor MSH-2: Intact nuclear staining.   Malignant tumor MSH-6: Intact nuclear staining.   Malignant tumor PMS-2: Intact nuclear staining.\n\n\nPath report.microscopic examination\n\nMicroscopic examination supports the diagnosis as above. All control slides stain appropriately.\n\n\nPath report.site of origin\n\nPrevious material - additional evaluation\n\n\nPath report.comments\n\nComments - Immunohistochemistry was performed to determine eligibility for pembrolizumab treatment for advanced solid malignancies. The results are as above. The patient is not MMR-D by IHC and thus does not meet eligibility to criteria at this time.\n\n\n"
+}

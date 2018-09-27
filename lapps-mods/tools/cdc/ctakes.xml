@@ -1,0 +1,10 @@
+<tool id="ctakes" name="cTakes Service (FDA)" version="1.0.0">
+    <command>lsd $__tool_directory__/ctakes.lsd $input $output
+    </command>
+    <inputs>
+        <param format="lif,uima,txt" label="input" name="input" type="data"></param>
+    </inputs>
+    <outputs>
+        <data format="uima" name="output"></data>
+    </outputs>
+ </tool>

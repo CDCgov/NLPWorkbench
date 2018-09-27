@@ -1,0 +1,93 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1115, 
+        1129
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        989, 
+        1012
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1049, 
+        1076
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        615, 
+        644
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1337, 
+        1363
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1147, 
+        1154
+      ]
+    }
+  ], 
+  "Neoplasm Score Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1165, 
+        1166
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1368, 
+        1383
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1365, 
+        1367
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 4^9999^MOH||CCO-OCR|20160507040025|AD626D2FD38E47915C72568020563E35A60858B1|ORU^R01|99999999999999999999|P|2.5|||\nPID|1||9999999^^^^CMR^HOSPITAL 3&9999&MOH~^^^^^&&~9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&NX&ON^^^^JHN|9999^9999999|XXXXXXX^XXXXXXXX^XXXXXXX^^XX.^||99999999|M|XXXXXXX^XXXXXXXX XXXXXXX^^^^||999 XXXXXXX XXXX XXXXX^^XXXXX^XX^X9X 9X9^999||9999999999|||||||||||||||||N||\nOBR|1||S16-8779|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605020000|||^XXXXX^XXXXX^^^^||||201605021242||^XXXXX^XXXXX^^^^||||||201605061718|||F|||||||99999^XXXXXX^XXXXX^^^^||\n\n\n\n\n\n\n\nPath report.gross description\n\nThe specimen is received in a container labelled with the patient?s name and the designation prostate tissue.  It consists of approximately 7 g of prostatic curettings.  Representative sections of the specimen are submitted in blocks A1-A5.\n/sv\nThe remainder of the specimen is submitted in block A6 as per the request of Dr. Berman.\nsv/el.\n\n\nPath report.relevant Hx\n\nPRE-OP DX: BPH. PROCEDURE: TURP.\n\n\nPath report.final diagnosis\n\nPROSTATE, TRANSURETHRAL RESECTION\n\t: ADENOCARCINOMA OF THE PROSTATE, GLEASON GRADE 3+4=7/10 (ISUP 2014 GRADE GROUP 2\n        OF 5)\n\t: GLEASON PATTERN 4 MAKES UP BETWEEN 5-10% OF THE CARCINOMA\n\t: THE CARCINOMA INVOLVES APPROXIMATELY 40% OF SUBMITTED TISSUE.\n\n\nPath report.site of origin\n\nA: Prostate tissue\n\n\n"
+}

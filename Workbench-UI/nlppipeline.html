@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>The NLP Pipeline</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+
+</head>
+<body>
+    <!-- main content start-->
+    <!--start-home-->
+    <div id="home" class="header" w3-include-html="includes/header.html"></div>
+    <!--//end-banner-->
+    <!-- app-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nlp-overview.html">NLP Basics</a></li>
+                    <li class="active">2. The NLP Pipeline</li>
+                </ol>
+                <h1>NLP Basics</h1>
+                <h2 class="h2 boxed-headline">2. The NLP Pipeline</h2>
+            </div>
+            <div class="col-md-8">
+                <p>NLP relies on a linear processing stream of modules each serving a particular function. This sequence
+                    forms a pipeline where the output of one module becomes the input to another. In this section, learn
+                    about some of the key NLP modules and why a linear pipeline approach is used in NLP.</p>                <div><a href="#softwarepipeline">What is a Software Pipeline?</a></div>
+                <div><a href="#typical">A Typical NLP Pipeline</a></div>
+                <div><a href="#performance">Pipeline Performance & Accuracy</a></div>
+                <div id="softwarepipeline">
+                    <h2>What is a Software Pipeline?</h2>
+                    <p>In software engineering, a pipeline consists of a chain of processing elements where the output
+                        of each element is the input of the next - this process is similar to an assembly line.</p>
+                    <p>NLP is a complex task, however, NLP solutions can be broken into a number of steps where each
+                        step can be addressed independently and solved separately by different specialists. In addition,
+                        this separation of function is important for maintaining software that has different functions
+                        but also because experimental work is needed on each of these functions independently of each
+                        other. This makes a pipeline a natural solution where the output of one step in the chain is the
+                        input of the next step in the chain.</p>
+                    <h2>A Typical NLP Pipeline</h2>
+
+                    <h3>Overview</h3>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+
+                            <div class="item active">
+                                <img src="images/Screen Shot 1b.png" alt="Los Angeles" class="img-responsive">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/Screen Shot 2b.png" alt="Chicago" class="img-responsive">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/Screen Shot 3b.png" alt="New York" class="img-responsive">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/Screen Shot 4b.png" alt="New York" class="img-responsive">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/Screen Shot 5b.png" alt="New York" class="img-responsive">
+                            </div>
+
+                            <div class="item">
+                                <img src="images/Screen Shot 6b.png" alt="New York" class="img-responsive">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div id="typical">
+                    <h2>A Typical NLP Pipeline</h2>
+                    <h3>Overview</h3>
+
+                    <h3>Tokeniser</h3>
+                    <p>A typical NLP pipeline needs to begin with identifying the basic building blocks of language,
+                        usually understood as words. In written text there are items besides words that carry
+                        information such as numbers, punctuation, abbreviations and acronyms. The total collection of
+                        words and other items in written text are called tokens.</p>
+                    <p>A token is typically defined as any collection of characters between whitespace. This is not
+                        strictly true as separate tokens can be connected across certain characters such as the digits
+                        either side of a decimal point or words joined by a hyphen. The process of identifying the basic
+                        elements of a text is called tokenisation and developers can differ in their determination of
+                        tokens based on the domain and text being analyzed.</p>
+
+                    <h3>Sentence Boundary Detector (SBD)</h3>
+                    <h4>(also known as Sentence Splitter)</h4>
+                    <p>Once the Tokenizer has done its work it is essential to separate the text into sentences. This
+                        step of the pipeline is known as a sentence boundary detector (SBD) or a sentence splitter. It
+                        is common to understand the end of a sentence is defined by a full stop followed by a whitespace
+                        followed by a Capital letter. However, this is not always the case especially in clinical text
+                        where fullstops are often omitted, new sentences can be defined by a newline indented in from
+                        the left margin with or without a bullet point marker. As with the Tokenizer the SBD may need to
+                        be tailored to match the nature of the text being analyzed.</p>
+
+                    <h3>Part of Speech Tagger (POS)</h3>
+                    <p>Once the sentences are defined it is often helpful to identify the Part of Speech (POS) each
+                        token is serving in a sentence. This process can be achieved by looking up words in a dictionary
+                        or applying a grammatical parser. Either way the processor has to deal with unknown tokens, that
+                        is tokens which are not present in the processing system lexicon. It is typical of POS taggers
+                        to assign Noun to any unknown words but that may not be adequate for some applications.</p>
+
+                    <h3>Chunker</h3>
+                    <p>After the POS Tagger, pipelines can diverge in many directions depending on the need. Typically
+                        if the task is to identify entities or concepts in the text then a simple parsing process called
+                        chunking can be applied. This is a process that divides a sentence of words into groupings
+                        typically representative of clauses and phrases. This is not a full grammatical parser but a
+                        simpler approximation.</p>
+
+                    <h3>Application Specific Processing</h3>
+                    <p>After the Chunking step, the pipeline will diverge into application specific processing. In
+                        clinical entity recognition, the chunks could be passed to a semantic recognition module, which
+                        can identify clinical phrases such as names of diseases, procedures and body sites, or into a
+                        machine learning induced language model designed to recognize specific types of entities.</p>
+                    <p><strong>Important Note:</strong> Rules for recognizing particular chunks of text can be inserted at different
+                        points throughout the pipeline depending on other dependencies in the solution design.</p>
+
+                </div>
+
+                <div id="performance">
+                    <h2>Pipeline Performance & Accuracy</h2>
+                    <p>Building a pipeline for practical use in the workplace requires understanding how accurately it
+                        performs. If it is not sufficiently accurate it may be a hindrance rather than a help in the
+                        workplace. Many simple NLP tasks can be built quickly but usually such solutions have limited
+                        accuracy and only perform at 70-80% accuracy. The effort of increasing the accuracy above 80% is
+                        normally substantial where the effort increases logarithmically the higher the performance. This
+                        means the effort to get from 80% to 90% accuracy will be substantial then twice that again to
+                        get to 95% and twice that again to get to 97.5%. It is unheard of for applications to reach
+                        above the 97.5% level if they are performing a complicated task.</p>
+
+                </div>
+                <h3>Accuracy is Measured in Three Major Ways</h3>
+                <p>The design and implementation of performance evaluation mechanisms is a key component in the NLP Web
+                    Service platform and workbench. Three common methods to measure accuracy are listed below.</p>
+                <p>1. Ten-fold cross validation (10CV)<br>
+                    Ten-fold cross validation involves dividing the training corpus into 10 sections, training the system
+                    on nine-tenths and then testing it on the tenth. This is repeated 10 time each time holding out a
+                    different one-tenth. The final accuracy is the average of the ten determinations.</p>
+
+                <p>2. Held out data set (HODS)<br>
+                    Held out data set requires developing a separate corpus of records by the client which the developer
+                    never sees. When the pipeline development has reached a suitable stage the client tests it against
+                    their held out data set and reports back to the development team the accuracy of the results.</p>
+
+                <p>3. Self test (ST)<br>
+                    Self test is the simplest method where the texts used to build the pipeline are assessed for how
+                    accurately they match they computed outputs. Although this method is not considered acceptable by
+                    researchers its value is that it gives a first approximation on the accuracy of the system and so
+                    has great practical value in identifying weaknesses in the processing stream.</p>
+
+                <p>Each method has its strengths and weaknesses although the Held out data set gives the client more
+                    confidence in the quality of the product they are receiving as they are the ones conducting the
+                    independent tests.</p>
+
+                <h4>Gold Standard</h4>
+                <p>All three accuracy methods, Ten-fold cross validation, Held out data set and Self test, require the
+                    preparation of a Gold Standard (GS) where the correct results are known.</p>
+
+                <p>Preparing a Gold Standard is a time consuming task. Most applications are only tested on a small
+                    subset of the content they potentially have to process. This incomplete testing can quickly lead to
+                    disappointment in a NLP application if client expectations are not well managed. As needed an
+                    iterative revision process must be carefully planned and executed.</p>
+
+                <h4>Machine Rules Fusion</h4>
+                <p><strong>Machine</strong> learning methods and <strong>Rule</strong>-based methods have strengths and weaknesses. For the safety
+                    surveillance data processing, a method was adopted to <strong>combine</strong> the outputs from ETHER (a rule-based
+                    system) and the machine learning model (CRF/LibSVM).</p>
+                <p>As an example of the strength of this approach, the machine learning models missed many VACCINE or
+                    DRUG annotations, while ETHER, the rule-based system, performed much better since its lexicon covers
+                    most of the vaccines and drugs. A method was adopted to use VACCINE/DRUG outputs with ETHER outputs
+                    in place of machine learning outputs, and the performance was significantly improved.</p>
+
+                <nav class="text-center" aria-label="">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="nlp.html">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="nlp.html">1</a></li>
+                        <li class="page-item active disabled">
+                            <span class="page-link">2</span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="buildingnlp.html">3</a></li>
+                        <li class="page-item"><a class="page-link" href="clewnlp.html">4</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="buildingnlp.html">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default panel-glossary">
+                    <div class="panel-body">
+                        <h4 class="h4 strong">In The Glossary</h4>
+                        <h5 class="h5">TERMS ON THIS PAGE</h5>
+                        <a href="glossary.html">
+                            <ul>
+                                <li>Chunker</li>
+                                <li>CRF/LIBSVM</li>
+                                <li>Machine Rules Fusion</li>
+                                <li>ETHER</li>
+                                <li>Gold Standard</li>
+                                <li>NLP Pipeline</li>
+                                <li>Part of Speech Tagger</li>
+                                <li>Sentence Boundary Detector</li>
+                                <li>Sentence Splitter</li>
+                                <li>Structured Output</li>
+                                <li>Token</li>
+                                <li>Tokenizer</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+
+                <div w3-include-html="includes/resources.html"></div>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--//bottom-->
+    <!-- footer -->
+    <div class="footer" w3-include-html="includes/footer.html"></div>
+
+    <!-- //footer -->
+    <!--//main content start-->
+
+    <!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+    <!-- //for bootstrap working -->
+    <!-- js -->
+    <script src="js/include.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+
+    <!-- for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+
+
+    <!-- //for bootstrap working -->
+
+
+</body>
+</html>

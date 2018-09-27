@@ -1,0 +1,183 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2758, 
+        2765
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3004, 
+        3011
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2766, 
+        2775
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3012, 
+        3021
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2625, 
+        2648
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6292, 
+        6312
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2676, 
+        2703
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2705, 
+        2709
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6213, 
+        6217
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        702, 
+        731
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6108, 
+        6143
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6185, 
+        6211
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2749, 
+        2757
+      ]
+    }, 
+    {
+      "__agreement__": "FALSE POSITIVE", 
+      "__annotator__": "Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3022, 
+        3029
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2848, 
+        2849
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        5139, 
+        5140
+      ]
+    }
+  ], 
+  "Neoplasm Grade-Score Name (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2830, 
+        2840
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2710, 
+        2716
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3181, 
+        3198
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D1053014^CLIA|eMARCPlus|TN Cancer Registry|20170919125829||ORU^R01^ORU_R01|201709191258290001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-21-008591^PathSys^44D1053014^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170825000000|||||||20170825000000|&Breast, Mastectomy - with regional lymph nodes, PQRS Breast Cancer Resection|1881691780^^^^^^MD^^CMS^D^^^NPI||||||20170830000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10~D05.02^Lobular carcinoma in situ of left breast^I10~L90.5^Scar conditions and fibrosis of skin^I10~L82.0^Inflamed seborrheic keratosis^I10|1083715031&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in formalin labeled \", left modified radical mastectomy\" is a 762 g, 19.5 x 18.0 x 5.0 cm left modified radical mastectomy specimen. There is a suture marking the axillary contents. Laterally there is a 10.5 x 3.0 x 1.0 cm portion of axillary tail. Anteriorly, there is a 17.0 x 11.0 cm tan mottled skin ellipse. The everted pink nipple areolar complex which is 1.2 x 1.0 cm. There are 2 scars, the 1st scar is located lateral and is 1.5 cm in length. The 2nd scar is located superior and is 1.5 cm in length. There is a flat gray irregular lesion on the lateral skin which is 1.0 x 0.5 cm. The specimen is inked as follows: Anterior-blue, posterior-black. The specimen is sectioned from medial to lateral. Sectioning reveals a pearly circumscribed hard pink-white tumor. This tumor has central hemorrhage and scarring. It is in the center of the specimen at the junction of the upper outer and upper inner quadrants. The tumor is 6.0 x 4.0 x 2.2 cm. It is 1.5 cm from the inked deep margin, 1.0 cm from the overlying skin surface and 2.0 cm from the nearest inked anterior margin. The remaining breast is composed of yellow glistening fat. Sectioning laterally reveals several tan-pink lymph nodes. Summary of sections: 1A, anterior nipple, 4/1; 1B, representative sections of each of the skin scars and a section through the papule, 3/1; 1C, skin closest to the tumor, 1/1 (includes underlying tumor); 1D-H, sections of the tumor submitted from lateral to medial (D and E are adjacent sections of the tumor), 1/1 each; 1I, uninvolved parenchyma from the lower outer quadrant, 2/1; 1J, uninvolved parenchyma from the lower inner quadrant, 2/1; 1K, 1 bisected lymph node, 2/1; 1L, multiple intact lymph nodes, M/1; 1M, 1 bisected lymph node, 2/1; 1N, 1 possible bisected lymph node, 2/1. (DET) New blocks O,P,Q submitted of perpendicular deep margin sections closest to mass (GSH)\n\n\nPath report.relevant Hx\n\nHistory - Breast cancer\n\n\nPath report.final diagnosis\n\nLeft breast, modified radical mastectomy:   Invasive lobular carcinoma, pleomorphic type, with:     Size: 7 centimeters.     Nottingham grade: 3 (tubule formation 3, nuclear grade 3, mitotic score 2).     Margins: Negative.     Lymphovascular invasion: Not seen.   In situ carcinoma: Present, focal lobular carcinoma in situ.   Skin: Invasive carcinoma involves dermis of nipple. Benign scar and seborrheic     keratosis.   Lymph nodes: Eight benign lymph nodes. See comment. CANCER CHECKLIST: INVASIVE CARCINOMA OF THE BREAST: Complete Excision (Less Than Total Mastectomy, Including Specimens Designated Biopsy, Lumpectomy, Quadrantectomy, and Partial Mastectomy With or Without Axillary Contents) and Mastectomy (Total, Modified Radical, Radical With or Without Axillary Contents)Radical, Radical With or Without Axillary Contents) 2.006.001.1000043  Lobular Carcinoma In Situ (LCIS): Present  Tumor Size: Size of Largest Invasive Carcinoma: Greatest dimension of largest focus of invasion > 1 mm  Greatest Dimension (mm): 70mm  Additional Dimension (mm): 40mm, 22mm  Tumor Focality: Single focus of invasive carcinoma  Skin Invasion: Invasive carcinoma directly invades into the dermis or epidermis without skin ulceration (this does not change the T stage)  Skin Satellite Foci: Satellite foci not identified  Nipple DCIS: Not applicable  Skeletal Muscle: No skeletal muscle is present  Lymph-Vascular Invasion: Not identified  Dermal Lymph-Vascular Invasion: Not identified  Microcalcifications: Not identified  Treatment Effect: Response to Presurgical (Neoadjuvant) Therapy: No known presurgical therapy  Invasive Carcinoma: Margins uninvolved by invasive carcinoma  Anterior: >10mm  Posterior: 8mm  Superior: >10mm  Inferior: >10mm  Medial: >10mm  Lateral: >10mm  Distance from Closest Margin: Distance (specify in mm)  Distance (specify in mm): 8mm  Closest Uninvolved Margin: Posterior  Ductal Carcinoma In Situ (DCIS): DCIS not present in specimen  Number of Lymph Node(s) Examined (sentinel and nonsentinel): Specify number  Specify number: 8  Lymph Node Involvement: None identified  Primary Tumor (Invasive Carcinoma) (pT): pT3: Tumor > 50 mm in greatest dimension  Category (pN): pN0: No regional lymph node metastasis identified histologically  Distant Metastasis (pM): Not applicable - pM cannot be determined from the submitted specimen(s)  Ductal Carcinoma In Situ (DCIS): No DCIS is present  Overall Grade: Grade 3 (scores of 8 or 9)  Mitotic Rate: Score 2 (4-7 mitoses per mm2)  Nuclear Pleomorphism: Score 3 (Vesicular nuclei, often with prominent nucleoli, exhibiting marked variation in size and shape, occasionally with very large and bizarre forms)  Glandular (Acinar) / Tubular Differentiation: Score 3 (< 10% of tumor area forming glandular / tubular structures)  Histologic Type: Invasive lobular carcinoma with pleomorphic features  Primary Tumor Site: Invasive Carcinoma: Central  Specimen Laterality: Left  Lymph Node Sampling: Axillary dissection (partial or complete dissection)  Procedure: Total mastectomy (including nipple and skin)  BREAST: Biomarker Reporting Template 1.001.001.1000043 Performed on previous needle biopsy (Saint Thomas West SS-17-3743) ER Results: Positive  Percentage of Cells with Nuclear Positivity#: Specify %  Specify %: >95%  Average Intensity of Staining: Strong PgR Results: Negative HER2 (ERBB2) ISH Results: Negative (not amplified)\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nLeft modified radical mastectomy, suture marks axillary contents (permanent)\n\n\nPath report.comments\n\nComments - The carcinoma exhibits morphology and immunophenotype consistent with the pleomorphic variant of invasive lobular carcinoma. The neoplasm exhibits absence membrane staining with antibody to E-cadherin. In addition to H and E stained sections, selected axillary lymph nodes were also assessed with antibodies to pancytokeratin. No metastatic carcinoma is identified.\n\n\n"
+}

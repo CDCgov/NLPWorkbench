@@ -1,0 +1,65 @@
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+include 'Config'
+
+String pattern = args[0]
+String type = args[1]
+int start = args[2] as int
+int end = args[3] as int
+if (end < start) {
+	int tmp = start
+	start = end
+	end = tmp
+}
+
+dir = new File("outputs")
+
+if (!dir.exists()) {
+    if (!dir.mkdirs()) {
+        throw new IOException("Unable to create directory ${dir.path}")
+    }
+}
+
+//String url = "${server.url}/${type}"
+datasource = new ServiceClient(server.url, server.username, server.password)
+
+int size = end - start
+if (size > 100) {
+	end = start + 100
+}
+
+List<String> lines = query(pattern)
+if (end > lines.size()) {
+	end = lines.size() - 1
+	if (end > start) {
+		start = 0
+	}
+}
+
+int count = 0
+lines[start..end].each { line ->
+    String id = line.trim()
+    File file = new File(dir, id)
+    file.text = get(id, type)
+    ++count
+}
+println "Wrote $count files to ${dir.path}"
+return
+
+List<String> query(String pattern) {
+	Data data = new Data(Uri.QUERY, pattern)
+	String json = datasource.execute(data.asJson())
+	data = Serializer.parse(json, Data)
+	return data.payload
+}
+
+String get(String id, String type) {
+	Data data = new Data(Uri.GET, id)
+	String json = datasource.execute(data.asJson())
+	if (type == 'lif') {
+		return json
+	}
+	data = Serializer.parse(json, Data)
+	data.payload.views = []
+	return data.asPrettyJson()
+}

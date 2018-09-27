@@ -1,0 +1,133 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3424, 
+        3432
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3528, 
+        3536
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3290, 
+        3313
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3332, 
+        3359
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        710, 
+        739
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2567, 
+        2602
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3539, 
+        3565
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3414, 
+        3423
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3518, 
+        3527
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3392, 
+        3413
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3496, 
+        3517
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3361, 
+        3363
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3470, 
+        3472
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3567, 
+        3569
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 11^9999^MOH|PIMS|CCO|20160509210044|A7D9DECB51CFB10B852EA0E30792CADFE921CD30|ORU^R01|99999999999|P|2.5||||||\nPID|1||H999999999^^^^CMR^HOSPITAL 11&9999&MOH~H999999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&M&^^^^JHN||XXXXXXX^XXXXXXX^^^^||99999999|M|||9999 XXXXXXXX XXXXXX^XXX 999^XXXXXXX^XX^X9X 9X9^999|||||||||||||||||||N|||\nOBR|1||S6789-16|11529-5^Surgical Pathology Study Report^LN^P^Pathology^L|||20160413|||57651^XXXXXXXXX^XXXX XX^^^^||||||||||||20160506|||C|||||||99999^X. XXXXXXXX^X.X.^^^^|||||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nThe case has been reviewed at the HOSPITAL 12. The original report has\nbeen scanned in EMR under Reports/Pathology > LAB EXTERNAL PATHOLOGY.\n\n\nPath Report.gross description\n\nThe patient's name and identifiers are reviewed and verified.\nSpecimen A is received labelled \"right colon and small bowel\" and consists of a\nsegment of gray-tan a colectomy measuring 59 cm in length. The segment of small\nbowel measures 24 cm in length and is unremarkable. No appendix is identified.\nThere is a large, soft, necrotic mass present in the soft tissue adjacent to the\ncecum. The mass measures 18 x 11 x 8 cm. The surface of the mass has a ragged\nappearance. Adherent to the outer surface of the mass is a second segment of small\nbowel measuring 19 cm in length. The bowel is dilated up to 5 cm in circumference.\nThe mucosa has a smooth appearance with loss of normal folds. There is a small,\ngrayish white nodule noted which measures 0.5 cm in diameter.\nCut surface of the mass reveals soft, gray to white necrotic tissue with areas of\nhemorrhage noted. The mass is well-circumscribed and does not appear to invade\nthrough the wall of the bowel.\nThe right colon is dilated up to 15 cm in circumference but is otherwise\nunremarkable. Sections are submitted as follows:\nA1-A4   Mass with attached bowel\nA5-A6   Mass with adherent small bowel (nodule in block A5)\nA7-A8   Mass\nA9    Representative section of small bowel\nA10-A11  Representative sections of right colon\nThe surrounding pericolic adipose tissue is serially sectioned to reveal 15\npossible lymph nodes ranging in size from 0.5-3.8 cm in diameter. Sections are\nsubmitted as follows:\nA12-A14  Representative sections of 3 largest lymph nodes (1 lymph node/cassette)\nA15-A17  Twelve lymph nodes (4 lymph nodes in each cassette)\nSpecimen B is received labelled \"mesenteric lymph node\" and consists of a portion\nof nodular tan hemorrhagic tissue measuring 2.6 x 2.5 x 1.2 cm. The tissue is\nserially sectioned and totally submitted in blocks B1 to B3.\njm\n\n\nPath Report.microscopic observation\n\nMultiple sections of this tumor are examined. Tumor is composed of large\npolyclonal cells with abundant eosinophilic cytoplasm. The large atypical nuclei\nwith frequent mitotic activity is noted Definite glands are not identified.\nImmunohistochemistry on this tumor reveals tumor is strongly positive for\nvimentin, CD10 and focally positive for cam 5.2. Tumor is negative for desmin,\nsmooth muscle actin, CD34, S100, Mart-1, CD 117, pankeratin, CD7, CK 20, k903,\nCD45, CD20, CD30, CD3,Pax 8, and PSA. Differential diagnosis includes\nundifferentiated carcinoma and undifferentiated sarcoma.\nCase is sent to HOSPITAL 12 for second opinion and that report will be\nforwarded when received\n\n\nPath report.relevant Hx\n\nABDOMINAL MASS\n\n\nPath Report.final diagnosis\n\nA.RIGHT COLON AND SMALL BOWEL\n-Poorly Differentiated malignant neoplasm, please. see microscopic description\nB.MESENTERIC LYMPH NODE - poorly differentiated malignant neoplasm\n\n\nPath Report.site of origin\n\nA.RIGHT COLON AND SMALL BOWEL\nB.MESENTERIC LYMPH NODE\n\n\n"
+}

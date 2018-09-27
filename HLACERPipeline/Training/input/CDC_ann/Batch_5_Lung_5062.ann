@@ -1,0 +1,143 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1407, 
+        1421
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1439, 
+        1452
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1422, 
+        1431
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1453, 
+        1462
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1307, 
+        1330
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1463, 
+        1471
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1639, 
+        1659
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1354, 
+        1381
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1383, 
+        1388
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1598, 
+        1603
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        807, 
+        836
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1570, 
+        1596
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1389, 
+        1393
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1604, 
+        1608
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1433, 
+        1438
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 1^9999^MOH|PIMS|CCO|20160504033307|12E64FC43772AA3153EA9C1C4055DDF1E04E98C2|ORU^R01|999999999999|P|2.5||||||||\nPID|1||TB99999999^^^^CMR^HOSPITAL 1&9999&MOH~TB99999999^^^^MRN^HOSPITAL 1&9999&MOH~9999999999&AH&ON^^^^JHN|^|XXXXXX^XXXXXXX^XXXXXXX^^^||99999999|M|||XX XXX 99^999 XXXXX XXXXXX^XXX^XX^X9X 9X9^999|||||||||||||||||||N||||\nOBR|1||S16-5704|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160425|||85982^XXXXXXXXXXX^XXXXX^^^^XX||||||||||||20160428|||C|||||||99999^XXXXX^XXXXXX^^^^XX|||||||||||||\n\n\n\n\n\n\n\nPath Report.addendum spec\n\nImmunohistochemical stains show the tumor is positive for CK 7. P63 is positive within more\n30% of tumor cell nuclei. CEA shows patchy positivity. TTF-1 is negative. Overall, findings\nare consistent with adenosquamous carcinoma.\n\n\nPath report.gross description\n\nThe specimen jar is labeled with the patient's demographics, \"right lung core biopsy\" and it\nconsists of multiple core biopsies intermixed with blood. Sections are submitted as\nfollows: 3 tan core biopsies ranging in size from 0.1 x 0.1-0.5 x 0.1 cm are wrapped and\nsubmitted in cassette #1 and multiple dark brown core biopsies which grossly appear as blood\nand measure up to 0.5 x 0.2 x 0.1 cm in aggregate are wrapped and submitted in cassette #2.(\n04/26/2016 VP)\n\n\nPath report.relevant Hx\n\nRule out malignancy\n\n\nPath report.final diagnosis\n\nRight lung, core biopsy\nNon-small cell carcinoma, favor adenosquamous carcinoma\nComment: Immunohistochemical stains are pending and additional findings will be reported in\nan addendum.\n\n\nPath report.site of origin\n\nRight lung, NOS (CORE BIOPSY 20 GUAGE)\n\n\nPath report.comments\n\nAddendum appended\n\n\n"
+}

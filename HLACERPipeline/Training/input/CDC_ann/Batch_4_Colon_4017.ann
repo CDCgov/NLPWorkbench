@@ -1,0 +1,61 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        719, 
+        742
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4037, 
+        4064
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4078, 
+        4088
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        482, 
+        511
+      ]
+    }
+  ], 
+  "Negative Findings Phraseology (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4120, 
+        4143
+      ]
+    }
+  ], 
+  "Specimen Tissue/Substance (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4090, 
+        4108
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Marin Medical Laboratories^05D0663150^CLIA|eMARCPlus|CA Cancer Registry|20170917020131||ORU^R01^ORU_R01|201709170201310001|P|2.5.1|CA||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-MC-000560^PathSys^05D0663150^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170906000000|||||||20170907000000|&Cytology Fluid, Effusion, ThinPrep|1205937646^^^D^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C18.4^Malignant neoplasm of transverse colon^I10|1245348861&&&J.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nCytology Fluid, Effusion, ThinPrep, Source = PARACENTESIS FLUID\n\n Volume:   1200 MLS\n Color:   RED\n Character: CLOUDY\n Initials:  JA\n\n 1 TP\n 1 AIR DRY\n 1 CELL BLOCK\n DATE RECEIVED: 9-6-2017\n TIME:  14:27\n\n\nPath report.relevant Hx\n\nClinical - 69 year old male PERIUMBILICAL MASS, HX COLON CANCER WITH\n ASCITES History - 08/28/2017  17-MC-000536  SF50008\n Paracentesis fluid, cytology:\n Rare atypical cells, favor reactive process; see comment.\n 02/03/2017  17-SV-000079  SFSVH\n 1. Ileocolonic anastomosis, surveillance biopsy:\n - No histopathologic abnormality.\n - Negative for dysplasia and malignancy.\n 2. Colon, descending at 65 cm near splenic flexure, polyp:\n - Tubular adenoma.\n 3. Colon, sigmoid at 20 cm, polyp:\n - Hyperplastic polyp\n 4. Colon, rectosigmoid at 15 cm, polyp:\n - Serrated polyp with focal features consistent with sessile serrated\n adenoma/polyp.\n 5. Colon, rectosigmoid at 14 cm, polyp:\n - Serrated polyp most consistent with hyperplastic polyp.\n\n 09/16/2016  16-PV-000093  SFSVH\n INTERPRETATION:\n Direct evaluation of a peripheral blood smear reveals that circulating\n leukocytes are accurately reflected in the numerical differential, with\n increased numbers of monocytes corresponding to the CBC results of 23%\n monocytes, a nonspecific finding. Lymphocytes are heterogeneous without\n evidence of monomorphic population. No circulating blasts are\n identified.\n Circulating platelet estimate is within normal limits.\n Red blood cells are normocytic without abnormal red cell morphology\n present.\n 06/21/2016  16-PV-000068  SFSVH\n Peripheral blood smear:\n -- Leukopenia with absolute neutropenia and relative increase in\n monocytes, see comment.\n -- Normochromic, normocytic anemia.\n\n 02/04/2016  16-SV-000075  SFSVH\n Right colon and mass, laparoscopic right hemicolectomy:\n A. Tumor type: Mucinous adenocarcinoma.\n B. Tumor grade: Moderately differentiated.\n C. Tumor site, size and configuration: Involving the right colon,\n splenic flexure, 7.5 cm, circumferential and exophytic.\n D. Extent of invasion: Tumor invades through the muscularis propria into\n the pericolic tissues and tumor directly invades the omentum.\n E. Lymphatic/vascular invasion: None identified.\n F. Perineural invasion: None identified.\n G. Peritumoral lymphocytic host response: Mild.\n H. Tumor growth at periphery: Infiltrative.\n I. Margins: Clear, closest margin is the mesocolonic mesenteric\n resection margin which is clear by 3.5 cm.\n J. Regional lymph nodes: Metastatic adenocarcinoma involves 1 of 20\n mesenteric lymph nodes.\n K. Additional findings: Separate omental surface nodule of\n adenocarcinoma is present consistent with a local metastasis.\n Tubulovillous adenoma is associated with the primary adenocarcinoma.\n Appendix is present without significant pathologic abnormality.\n L. pTN Class: T4b N1a, see comment.\n ALL PROTEINS INTACT\n Immunohistochemical stains for DNA mismatch repair proteins MLH1, MSH2,\n MSH6, and PMS2 were performed with adequate controls on block E and show\n RETAINED expression of all four proteins in the adenocarcinoma and\n non-neoplastic colonic mucosa. These results fail to show evidence for\n DNA mismatch repair function and indicate that this tumor is\n microsatellite stable (MSS). These findings make Lynch Syndrome\n unlikely. The sensitivity of this test is approximately 95%. Further\n genetic consultation may be considered if there is clinical suspicion\n for a hereditary disease process. Dr. DiMaio reviewed the slides E and\n agreed with the diagnostic impressions.(IDC)\n\n\nPath report.final diagnosis\n\nMICROSCOPIC DIAGNOSIS:\n Paracentesis fluid cytology:\n Negative for malignancy. /*\n\n\n"
+}

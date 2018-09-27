@@ -1,0 +1,101 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        987, 
+        1001
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2407, 
+        2430
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        884, 
+        911
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        553, 
+        582
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2520, 
+        2555
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        825, 
+        851
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        965, 
+        986
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        940, 
+        945
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        869, 
+        874
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        947, 
+        952
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 12^9999^MOH|PIMS|CCO|20160509142507|77E9DB552FBA6F9ED934B00284F7A125A2AF34B3|ORU^R01|99999999999999999999|P|2.5|\nPID|1||999999999^^^^CMR^HOSPITAL 11&9999&MOH~999999999^^^^MRN^HOSPITAL 11&9999&MOH~9999999999&KK&ON^^^^JHN||XXXX^XXXX^XXX||99999999|F|||99 XXXXXXX XXXXXX X^9999^XXXXXXX^XX^X9X9X9||(999)999-9999|||M||||||||||||||N|\nOBR|1||SP-16-5097|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201603111409|||79415^XXXXXXXXXXXX^XX. XXXXX||||||||||N||20160509|||C|||||||99999^XXXXXX^XX. XXXXXXX^^^^XXX^99999|\n\n\n\n\n\n\n\nPath report.gross description\n\n\\H\\Gross Description\\N\\:\n The specimen container is labelled with the patient's identification and contains 6 pieces of grayish white tissue measuring up to 0.2 cm.\n- 1\ttissue submitted in toto\nGrossed by: B. Chow, Pathologists' Assistant\n\n\nPath report.site of origin\n\n\\H\\Specimen\\N\\:\nCECUM BIOPSY\n\n\nPath report.final diagnosis\n\n\\H\\PATHOLOGY DIAGNOSIS\\N\\:\nColon, cecum, biopsy:\n\t- Poorly differentiated adenocarcinoma (see Comment and Addendum)\n\\H\\COMMENT:\n\\N\\Sections show a poorly differentiated adenocarcinoma arranged in solid nests and poorly formed glands. Some of the cells contain cytoplasmic mucin. No precursor lesion is seen. The history of previous breast cancer is noted. Overall, the morphologic features favour primary colonic origin, but immunohistochemical stains will be performed to confirm this. In addition, given the patients age <60 yrs, immunohistochemistry for mismatch repair proteins will also be performed.\n\\H\\ADDENDUM:\n\\N\\15/03/2016: Immunohistochemical stains show the tumor to be immunoreactive for CK20, CDX2 (strong, diffuse) and CK7 (focal). There is also patchy immunoreactive for ER. The tumor cells are negative for PR and GATA3. Stains for MMR protein expression shows loss of MLH1 and PMS2 expression.\n\\H\\The immunohistochemical profile confirms the morphologic impression of a colorectal primary.\\N\\ The tumor shows loss of MLH1 and PMS2 expression which is highly correlated with \\H\\high frequency microsatellite instability (MSI-H).\n\\N\\\nReason for revised report: To include the findings of immunohistochemistry - see Addendum above\n\\H\\ADDENDUM 2 (May 9, 2016):\\N\\\n\\H\\Molecular Analysis:\\N\\\nRepresentative material from the tumour has been examined by targeted sequencing for the V600E mutation of the BRAF gene.\nBRAF: No mutation identified at codon 600 or 601 (wild-type BRAF)\n\n\nPath report.relevant Hx\n\n\\H\\Clinical History\\N\\:\n cecal mass, history of breast cancer. Peritoneal metastasis?\n\n\nPath report.microscopic observation\n\n\\H\\Microscopic Description\\N\\:\nIncorporated into the diagnosis and comment.\n\n\n"
+}

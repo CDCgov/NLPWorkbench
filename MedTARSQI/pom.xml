@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gov.hhs.aspe.nlp.SafetySurveillance.CoreNLP</groupId>
+	<artifactId>MedTARSQI</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>medTarsqi</name>
+		<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	
+	<!--
+	<build>
+    <testResources>
+
+      <testResource>
+        <directory>${project.basedir}/src/test/resources</directory>
+      </testResource>
+
+      <testResource>
+        <directory>${project.basedir}/src/main/resources</directory>
+      </testResource>
+    </testResources>
+	</build> 
+	-->
+	
+</project>

@@ -1,0 +1,45 @@
+<tool id="opennlp.splitter" name="OpenNLP Sentence Splitter" version="2.0.3">
+ 
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd opennlp.splitter_2.0.3 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+  
+**What it does**
+
+Detects the sentences in a text using Regular Expressions and a set of simple rules,
+using 
+the `OpenNLP <https://opennlp.apache.org>`_ sentence splitter 
+(see the `OpenNLP -- Sentence Detection Tutorial <https://www.tutorialspoint.com/opennlp/opennlp_sentence_detection.htm>`_ for more information). 
+ 
+**Required annotations**
+
+* None
+
+.. class:: infomark
+
+This sentence splitter processes plain text in a LIF container.
+It can also process 
+a LIF document containing `Token <http://vocab.lappsgrid.org/Token.html>`_ annotations.
+
+**Generated annotations**
+
+* A new view containing `Sentence <http://vocab.lappsgrid.org/Sentence.html>`_  annotations. (LIF) 
+ 
+  
+**License**
+
+Apache OpenNLP is licensed under the `Apache License, Version 2.0 <https://www.apache.org/licenses/LICENSE-2.0>`_
+
+]]>
+ </help>
+</tool>

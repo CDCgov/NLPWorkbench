@@ -1,0 +1,25 @@
+<tool id="deiis.prepare.data" name="Parse Question/Answer Data" version="1.0.0">
+    <description>, create Answer annotations</description>
+    <command>lsd $__tool_directory__/invoke.lsd PrepareData $input $output</command>
+    <inputs>
+        <param name="input" type="data" format="txt,liftxt"/>
+    </inputs>
+    <outputs>
+        <data name="output" format="lif" label="Data"/>
+    </outputs>
+    <help><![CDATA[
+
+Reads a Question/Answer file and generates *Question* and *Answer* annotations inside a `LIF Container <http://wiki.lappsgrid.org/org.lappsgrid.serialization/groovydoc/org/lappsgrid/serialization/lif/Container.html>`_. This implementation expects only one question and a set of candidate answers for the question.
+
+The question should appear on the first line of the file with the candidate answers on subsequent lines::
+
+    Q Booth shot Lincoln?
+    A 1 Booth shot Lincoln.
+    A 0 Lincoln shot Booth.
+    ...
+
+The question line start with the uppercase letter 'Q' followed by a single space followed by the question.  Each answer line starts with the uppercase letter 'A' followed but a 1 (one) or a 0 (zero) followed by the candidate answer.  The one is used to indicate that the candidate answers the question while a zero indicates that the candidate does not answer the question.
+
+]]>
+    </help>
+</tool>

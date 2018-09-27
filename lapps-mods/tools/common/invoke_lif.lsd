@@ -1,0 +1,37 @@
+#!/usr/bin/env lsd
+
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+String base = "http://manager:8080/invoker/anc"
+
+String username = "tester"
+String password = "tester"
+
+String service = args[0]
+String input = args[1]
+String output = args[2]
+
+String json = new File(input).text
+Data data = Serializer.parse(json, Data)
+if (Uri.GATE == data.discriminator) {
+    // Convert the GATE document to LIF
+    String url = "${base}:convert.gate2json_2.0.0"
+    ServiceClient converter = new ServiceClient(url, username, password)
+    json = converter.execute(json)
+}
+
+String url = "${base}:${service}"
+ServiceClient client = new ServiceClient(url, username, password)
+new File(output).text = client.execute(json)
+
+boolean isLif(Data data) {
+    switch (data.discriminator) {
+        case Uri.LAPPS:
+        case Uri.LIF:
+        case Uri.JSON_LD:
+            return true;
+            break;
+    }
+    println "Not a LIF document"
+    return false
+}

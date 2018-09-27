@@ -1,0 +1,3 @@
+String token = args[0]
+File file = new File(args[1])
+file.text = token

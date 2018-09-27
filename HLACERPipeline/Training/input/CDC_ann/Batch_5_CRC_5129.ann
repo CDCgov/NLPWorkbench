@@ -1,0 +1,127 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1423, 
+        1437
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1016, 
+        1039
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1200, 
+        1227
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        599, 
+        628
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1597, 
+        1632
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1491, 
+        1517
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1414, 
+        1422
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1584, 
+        1589
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1574, 
+        1583
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1229, 
+        1230
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1376, 
+        1377
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1558, 
+        1559
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1571, 
+        1572
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3^9999^MOH|PIMS|CCO|201605101031|73B75D2762D5D3EE59B31DEFA6A574F3EA564874|ORU^R01|WRH20160510103119478|P|2.5|\nPID|1||9999999^^^^CMR^LDMH HOSPITAL&9999&MOH~9999999^^^^MRN^ HOSPITAL&9999&MOH~9999999999&&ON^^^^JHN||XXXXXXX^XXXXX^^^0536||99999999|F|||999-999 XXXX XX. XXXXX^^XXXXXXXXXX^XX^X9X9X9^999||9999999999^^ON|||||7155092740^^ON||||||||||||N|\nOBR|1||LS16-5227|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||201605041235|||61652^XXXXXX^XXXXXXX||NURSE^^^^^^^L||201605041236||||||||201605101031||HI^HDH|F||^^201605041235|||||99999^XX-XXXXXXXXX^XXXXXXX|\n\n\n\n\n\n\n\nPath report.gross description\n\nPatient identification verified\nA) Specimen: antrum bx\nSpecimen is designated as antrum biopsy and consists of a 0.3 cm tan\nsoft tissue.\nCassette Summary - All tissue embedded in one cassette.\nB) Specimen: ascending colon mass\nSpecimen is designated as ascending colon mass and consists of a 0.3 cm\n pale tan soft tissue.\nCassette Summary - All tissue embedded in one cassette.\nDB/lc\n\n\nPath report.relevant Hx\n\nCLINICAL Impression as provided - Gastroscopy with biopsy, Colonoscopy\nwith biopsy: Hemorrhagic ulcer, erosive gastritis, ascending colon\nmass; R/O H-pylori\n\n\nPath report.final diagnosis\n\nA) Gastric antrum, biopsy:\n-   Inactive chronic gastritis.\n-   Warthin-Starry special stain is negative for Helicobacter pylori\n   microorganisms.\nB) Mass, ascending colon, biopsy:\n-   Invasive adenocarcinoma.\nCONSULTATION: Internal IHL Pathology Team Review.\n\n\nPath report.site of origin\n\nTime specimen placed in formalin: 1235\nA) antrum bx\nB) ascending colon mass\n\n\nPath report.microscopic observation\n\nPatient Identification Verified\nA-B) Slides reviewed.ME/mn\n\nDictation Number: 613276\n\n\n"
+}

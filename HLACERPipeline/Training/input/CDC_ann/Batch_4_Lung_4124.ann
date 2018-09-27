@@ -1,0 +1,103 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        989, 
+        1002
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1003, 
+        1012
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        755, 
+        778
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1179, 
+        1199
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        938, 
+        965
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        981, 
+        982
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        494, 
+        523
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1055, 
+        1090
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1132, 
+        1158
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "FALSE NEGATIVE", 
+      "__annotator__": "Gemma", 
+      "__extent": [
+        981, 
+        984
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Methodist Medical Center (Oak Ridge)^44D0311996^CLIA|eMARCPlus|TN Cancer Registry|20170919125907||ORU^R01^ORU_R01|201709191259070001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-OT-004733^PathSys^44D0311996^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170808000000|||||||20170808000000|&Surg. Path Level IV|1245324938^^^^^^MD^^CMS^D^^^NPI||||||20170809000000|||F||||||C34.12^Malignant neoplasm of upper lobe, left bronchus or lung^I10|1568471076&&&D.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\n\", LUL lung biopsy\": Received fresh in CT are multiple gray-white needle biopsies ranging from 0.1 to 0.7 cm in length. A touch prep slide is prepared, the specimen is filtered, and is submitted completely in cassette 1A. (JDA)\n\n\nPath report.relevant Hx\n\nHistory - Left lung biopsy possible lung cancer, LUL 6.1 cm mass invading into the T6-T7 vertebra and encasing the aorta and invading the hilum mediastinum\n\n\nPath report.final diagnosis\n\nCore biopsy, \"LUL\":   Squamous cell carcinoma with extensive necrosis.   See comment.\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nCore biopsy, LUL\n\n\nPath report.comments\n\nComments - The majority of the tissue submitted consists of necrotic material; however, focal areas of viable tissue are present and contain a malignant proliferation of CK5/6 and p63 positive cells. A TTF1 is negative. Findings are consistent with squamous cell carcinoma. Tissue will be submitted for additional PDL1 testing. Due to the limited amount of viable material, ALK1, EGFR, and ROS1 are not performed at this time. This case has been reviewed in consultation by Dr.  who concurs with the diagnosis.\n\n\n"
+}

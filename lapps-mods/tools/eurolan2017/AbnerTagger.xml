@@ -1,0 +1,40 @@
+<tool id='gate.tagger.abner_1.0.0' name='Biomedical Named Entity Recognizer' version='1.0.0'>
+  <description>(standalone) Identify bio-medical named entities in unannotated text</description>
+  <command>lsd $__tool_directory__/abner.lsd $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='gate' />
+  </inputs>
+  <outputs>
+    <data name='output' format='gate'/>
+  </outputs>
+  <help><![CDATA[
+  
+**What it does**
+
+
+Required Annotations
+--------------------
+
+* None
+
+Generated Annotations
+---------------------
+
+* **Protein** annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_ 
+* **DNA** annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_ 
+* **RNA** annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_ 
+* **CellLine** annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_ 
+* **CellType** annotations in `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_ 
+
+.. class:: warningmark
+
+The output of all GATE tools is in the `GATE XML format <https://gate.ac.uk/sale/tao/splitch5.html#x8-1000005.5.2>`_. This output can be input directly into other GATE tools. To input GATE XML format to  tools requiring LIF, 
+use *Convert formats->GateToLif*
+
+**License**
+
+This tool is adapted from the `General Architecture for Text Engineering (GATE) platform <http:gate.ac.uk>`_, which is released under the `GNU Lesser General Public License 3.0 <https://www.gnu.org/licenses/lgpl-3.0.html>`_
+
+]]>
+</help>
+</tool>

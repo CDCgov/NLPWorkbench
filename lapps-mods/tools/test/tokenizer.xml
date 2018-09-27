@@ -1,0 +1,15 @@
+<tool id="test.tokenizer" name="Test Tokenizer" version="1.0.0">
+  <description>Test tokenizer component</description>
+  <command>cp $input $output</command>
+  <inputs>
+    <param name="input" type="data" format="txt,json,xml"/>
+  </inputs>
+  <outputs>
+    <data name="output" format="xml" label="Output">
+        <actions>
+            <action type="metadata" name="tokens" default="True"/>
+        </actions>
+    </data>
+  </outputs>
+  <help>A test component</help>
+</tool>

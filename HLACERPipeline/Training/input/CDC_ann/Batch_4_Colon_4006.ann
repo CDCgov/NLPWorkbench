@@ -1,0 +1,43 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6544, 
+        6567
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        2345, 
+        2365
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        636, 
+        663
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        500, 
+        526
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|CA Cancer Registry|20170915000103||ORU^R01^ORU_R01|201709150001030001|P|2.5.1|CA||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-11-038146^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170828000000|||||||20170828000000|&MP Outside material|1518055573^^^^^^MD^^CMS^D^^^NPI|^^^^^707^5281050|||||20170905000000|||F||||||C18.6^Malignant neoplasm of descending colon^I10|1417124793&&&H.&&&&&CMS\n\n\n\n\n\n\n\nPath report.site of origin\n\nLeft Colon, Submental Resection: Procedure Date: 06/01/2017, Original Accession\n Number: 17S-3736 Block 4\n\n\nPath report.final diagnosis\n\nNRAS Mutation Analysis/Reviewer: SEE COMMENT\n NRAS Mutation Analysis/NRAS Mutation: NOT DETECTED\n NRAS Mutation Analysis/NRAS Mutation Interpretation: This specimen showed no evidence of a mutation in the <i>NRAS</i> gene. If\n clinically appropriate, consideration may be given to broader genomic\n profiling.\n <BR/><BR/>\n This assay sequenced the following areas of the gene: exons 2, 3 and 4\n consisting of codons 10-35, 55-76, 109-131 and 138-150 (specifically including\n codons G12, G13, Q61, K117, A146).\n NRAS Mutation Analysis/Reference Sequence: NRAS NM-002524: NM_002524\n NRAS Mutation Analysis/Genome Reference: GRCh 37 (hg19)\n NRAS Mutation Analysis/Specimen Source: See Below\n NRAS Mutation Analysis/Original Accession Number: 17S-3736\n NRAS Mutation Analysis/Original Block: 4\n NRAS Mutation Analysis/Tumor Percentage: 21-50%\n KRAS Mutation Analysis/Reviewer: SEE COMMENT\n KRAS Mutation Analysis/KRAS Mutation: NOT DETECTED\n KRAS Mutation Analysis/KRAS Mutation Interpretation: This specimen showed no evidence of a mutation in the <i>KRAS</i> gene. If\n clinically appropriate, consideration may be given to broader genomic\n profiling.\n <BR/><BR/>\n This assay sequenced the following areas of the gene: portions of exons 2, 3\n and 4 consisting of codons 1-37, 40-83 and 97-150 (specifically including\n codons G12, G13, Q61, K117, A146).\n KRAS Mutation Analysis/Reference Sequence: KRAS NM-004985: NM_004985\n KRAS Mutation Analysis/Genome Reference: GRCh 37 (hg19)\n KRAS Mutation Analysis/Specimen Source: See Below\n KRAS Mutation Analysis/Original Accession Number: 17S-3736\n KRAS Mutation Analysis/Original Block: 4\n KRAS Mutation Analysis/Tumor Percentage: 21-50%\n\n\nPath report.comments\n\nMolec Comments - The tissue specimen was reviewed by a pathologist, areas of tumor were\n microdissected from surrounding tissue, and genomic DNA isolated using standard\n methods. The isolated DNA was subjected to PCR using primers specific for the\n gene of interest. The PCR products were prepared and sequenced using Illumina\n NextSeq v2 chemistry. Sequence data was analyzed using standard software (MiSeq\n Reporter v 2.5.1 and GATK v2.3-9 ). This assay requires a minimum coverage of\n 200X, and has an analytic sensitivity of approximately 5%. The analytic\n sensitivity is dependent on the specific mutation and sequence context. All\n sequences are relative to the GRCh37 (hg19) genome. This assay sequenced the\n following areas of the gene: This assay is highly sensitive and accurate, but\n rare false positive and false negative results may occur. Correlation with\n other clinical and laboratory findings is required. This assay may use reagents\n that are marked as ASR or RUO by the manufacturer. This test was developed and\n its performance characteristics determined by PathGroup. It has not been\n cleared or approved by the U.S. Food and Drug Administration. The FDA has\n determined that such clearance or approval is not necessary. This test is used\n for clinical purposes. It should not be regarded as investigational or for\n research. This laboratory is certified under the Clinical Laboratory\n Improvement Amendments of 1988 (CLIA-88) as qualified to perform high\n complexity clinical laboratory testing.\n This assay sequenced the following areas of the gene: portions of exons 2, 3\n and 4 consisting of codons 1-37, 40-83 and 97-150 (specifically including\n codons G12, G13, Q61, K117, A146).\n <BR/><BR/>Ding, Li, et al. <i>Nature</i> 455.7216 (2008): 1069-1075. Riely,\n Gregory J., et al. <i>Clinical Cancer Research</i> 14.18 (2008): 5731-5734.\n Lievre, Astrid, et al.<i>Cancer research</i> 66.8 (2006): 3992-3995. Singer,\n Gad, et al.<i>Journal of the National Cancer Institute</i> 95.6 (2003):\n 484-486. Di Fiore, F., et al. <i>British journal of cancer</i> 96.8 (2007):\n 1166-1169.\n Molec Comments - The tissue specimen was reviewed by a pathologist, areas of tumor were\n microdissected from surrounding tissue, and genomic DNA isolated using standard\n methods. The isolated DNA was subjected to PCR using primers specific for the\n gene of interest. The PCR products were prepared and sequenced using Illumina\n NextSeq v2 chemistry. Sequence data was analyzed using standard software (MiSeq\n Reporter v 2.5.1 and GATK v2.3-9 ). This assay requires a minimum coverage of\n 200X, and has an analytic sensitivity of approximately 5%. The analytic\n sensitivity is dependent on the specific mutation and sequence context. All\n sequences are relative to the GRCh37 (hg19) genome. This assay sequenced the\n following areas of the gene: This assay is highly sensitive and accurate, but\n rare false positive and false negative results may occur. Correlation with\n other clinical and laboratory findings is required. This assay may use reagents\n that are marked as ASR or RUO by the manufacturer. This test was developed and\n its performance characteristics determined by PathGroup. It has not been\n cleared or approved by the U.S. Food and Drug Administration. The FDA has\n determined that such clearance or approval is not necessary. This test is used\n for clinical purposes. It should not be regarded as investigational or for\n research. This laboratory is certified under the Clinical Laboratory\n Improvement Amendments of 1988 (CLIA-88) as qualified to perform high\n complexity clinical laboratory testing.\n This assay sequenced the following areas of the gene: exons 2, 3 and 4\n consisting of codons 10-35, 55-76, 109-131 and 138-150 (specifically including\n codons G12, G13, Q61, K117, A146).\n <BR/><BR/>Colombino, , et al. <i>Journal of Clinical Oncology</i> 30.20\n (2012): 2522-2529. 2. Goel, Vikas K., et al. <i>Journal of Investigative\n Dermatology</i> 126.1 (2006): 154-160. Ding, Li, et al. <i>Nature</i> 455.7216\n (2008): 1069-1075. Knobbe, Christiane B., Julia Reifenberger, and Guido\n Reifenberger. <i>Acta neuropathologica</i> 108.6 (2004): 467-470.\n\n\nPath report.relevant Hx\n\nHistory - Malignant neoplasm of descending colon (C18.6); 1.9cm obstructing grade II/III\n colonic adenocarcinoma infiltrating through muscularis propria and into pericolonic\n soft tissue.\n\n\n"
+}

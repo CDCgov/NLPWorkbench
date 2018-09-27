@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Steps to Develop a Machine Learning Solution</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li><a href="workbench-overview.html">Steps to Develop a Clinical NLP Solution</a></li>
+                <li class="active">Steps to Develop a Machine Learning Solution</li>
+            </ol>
+            <h1>Steps to Develop a Machine Learning Solution</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+            
+            <div><a href="#step1">Step 1. Compose a training set of data</a></div>
+            <div><a href="#step2">Step 2. Build a processing pipeline</a></div>
+            <div><a href="#step3">Step 3. Build a language model from the training set</a></div>
+            <div><a href="#step4">Step 4. Put the solution into production</a></div>
+            <div><a href="#example">CLEW Example</a></div>
+
+            <h2 id="step1">Step 1. Compose a training set of data</h2>
+
+            <p>The training set must be selected and prepared meticulously.</p>
+
+            <ul>
+                <li>Choose a set of documents that precisely represents the use case under development, with all of the
+                    linguistic variety a real data set will have.</li>
+
+                <li>Define the annotations, also called tags, that will be applied to the documents to extract the data.</li>
+
+                <li>Use <a href="annotationsoft.html">annotation software</a> from CLEW to apply the annotations to the documents manually. Revise the
+                    annotations until the extracted data are accurate and complete.</li>
+            </ul>
+
+            <h2 id="step2">Step 2. Build a processing pipeline</h2>
+
+            <p>A processing pipeline is a group of processes that operates sequentially, with each process passing its
+                results to the next process.</p>
+
+            <h3>Common Clinical NLP Pipeline Tools</h3>
+
+            <p>The pipeline tools are commonly used in NLP applications. These and other tools are available on the CLEW
+                workbench.</p>
+            <ul>
+                <li>Tokenization
+
+                    <p>This process identifies objects, known as tokens. Tokens can be words, numbers, abbreviations,
+                        acronyms, or names.</p>
+                </li>
+                <li>Word recognition
+
+                    <p>This process identifies an alphanumeric string as a known word by comparing it to a predefined
+                        lexicon. This process also collects attributes, also called features, of that word for later use in
+                        semantic entity recognition. For example, the string “all” would have the common English meaning,
+                        but the string “ALL” would mean “acute lymphocytic leukemia” in a cancer context. Spelling
+                        correction can be included in the word recognition process, or a separate process following word
+                        recognition.</p>
+                </li>
+                <li>Sentence boundary detection
+
+                    <p>Also called sentence splitting, this process identifies the beginning and end of each sentence.</p>
+
+                    <p>Semantic entity recognition (SER). This process identifies the entities of interest to your use case.
+                        It is the largest computational function and can be implemented in many ways. SER begins with a
+                        gazetteer, or list of words and phrases relevant to the professional community of practice for your
+                        use case. In clinical texts, some of the classes of most interest are diseases, body sites,
+                        medications, procedures, social history, and clinical events. The U.S. National Library of
+                        Medicine’s Metathesaurus is a common gazetteer source. MESH terms, SNOMED CT categories, and time
+                        categories also are used.</p>
+
+                    <p>Statistical NLP is the most advanced method for SER. In Statistical NLP, machine-learning algorithms
+                        of the type known as supervised classifiers use the tokens and attributes identified earlier to
+                        train a classifier to predict the classes of tokens in unseen texts. Many classifiers are available.
+                        Support Vector Machines and Conditional Random Fields are most commonly used in NLP. CLEW does not
+                        incorporate any machine learning functions and requires service developers to use their own
+                        resources to build their training sets and language models.</p>
+                </li>
+                <li>Post Processing Tools
+
+                    <p>Post processing tools can be used to modify output of a pipeline tool to meet the requirements of a
+                        particular domain such as the clinical domain. Examples of postprocessing tools are available for
+                        use on the CLEW Workbench.</p>
+                </li>
+            </ul>
+            <p class="text-center"><img src="images/lapps.png" alt="CLEW/LAPPS Pipeline postprocessing tools"><br>
+            <strong>Figure: Example CLEW/LAPPS Pipeline postprocessing tools</strong></p>
+
+
+
+            <h2 id="step3">Step 3. Build a language model from the training set</h2>
+
+            <p>Select a machine- learning algorithm, input the training set of data, and evaluate the accuracy of the
+                results. Return to the annotation process and correct missing or incorrect annotations, and repeat until
+                the results are sufficiently accurate and complete. The pipeline is complete when the language modelling
+                operates at high enough accuracy to warrant installation of the service.</p>
+
+            <p>If you are using one of the available CLEW services where one of the steps is to create a language model,
+                you can use the <a href="featurelib.html">Feature Library</a> software included on the workbench to build your language model.</p>
+
+            <h2>Step 4. Put the solution into production</h2>
+
+            <p>The executable service must be compiled together as a pipeline sequence of processing that identifies all
+                of the tokens in a text and their features, submits the tokens with features for classification, and
+                receives the outputs. The format of the submitted text and the outputs depend on the use case.</p>
+
+            <h2 id="example">CLEW Example</h2>
+
+            <p>Machine learning methods are commonly used to build NLP models. In the environmental scan, ClearTK
+                (<a target="_blank" href="https://cleartk.github.io/cleartk/">https://cleartk.github.io/cleartk/</a>) has been identified as one of the most popular machine learning
+                applications based on the UIMA framework. It provides a common interface and wrappers for popular
+                machine learning libraries (such as LibSVM, CRF and Mallet) and NLP tools (OpenNLP, Stanford CoreNLP,
+                etc.). As such, ClearTK has been utilized in CLEW to train NLP models and perform various of
+                classification tasks, such as clinical semantic entity recognition.</p>
+
+            <p>Two machine learning methods were selected from ClearTK to train a classifier/language model for safety
+                surveillance data (FDA’s VAERS data): Conditional Random Field (CRF) and Support Vector Machines (SVM).
+                Classifiers have been built using the ClearTK interface to identify VAERS outcomes of interest (such as
+                diagnosis and second level diagnosis).</p>
+
+
+        </div>
+        <div class="col-md-4">
+
+            <div w3-include-html="includes/workbench-support.html"></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+<!-- //footer -->
+<!--//main content start-->
+
+<!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

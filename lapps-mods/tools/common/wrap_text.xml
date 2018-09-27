@@ -1,0 +1,40 @@
+<tool id="wrap.text.service" name="Wrap data" version="1.0.0">
+    <description>as a LIF Data object.</description>
+    <command>lsd $__tool_directory__/wrap_text.lsd $format $input $output</command>
+    <inputs>
+        <param name="input" type="data" format="txt"/>
+        <param name="format" type="select" label="New Format">
+            <option value="wrap.lif_1.0.0" selected="True">Lapps Interchange Format (LIF)</option>
+            <option value="wrap.tcf_1.0.0">Text Corpus Format (TCF)</option>
+            <option value="wrap.text_1.0.0">Plain Text (UTF-8)</option>
+        </param>
+    </inputs>
+    <outputs>
+        <data name="output" format="lif" label="Output">
+			<change_format>
+				<when input="format" value="wrap.tcf_1.0.0" format="tcf" />
+				<when input="format" value="wrap.text_1.0.0" format="txt" />
+			</change_format>
+        </data>
+    </outputs>
+    <help><![CDATA[
+**What it does** 
+  
+Wraps uploaded files or pasted data in a LAPPS Grid Interchange Format (LIF) container and specifies the datatype of the payload as LIF, TCF, or plain text.  
+
+**Formats**
+
+* **Lapps Interchange Format (LIF)**: The ``discriminator`` will be set to `LIF <http://vocab.lappsgrid.org/ns/media/jsonld#lif>`_ and the ``payload`` will contain the JSON serialization of the a `Container <http://wiki.lappsgrid.org/org.lappsgrid.serialization/groovydoc/org/lappsgrid/serialization/lif/Container.html>`_ object.
+
+* **Text Corpus Format (TCF)**: The ``discriminator`` will be set to `TCF <http://vocab.lappsgrid.org/ns/media/xml#tcf>`_ and the ``payload`` will contain  TCF/XML with the text. This format is used with CLARIN tools.
+
+* **Plain Text**: The ``discriminator`` will be set to `Text <http://vocab.lappsgrid.org/ns/media/text>`_. and the ``payload`` will contain the text string.
+
+     
+**License**
+  
+The Text Wrapping Service is released under the `Apache 2.0 License <https://www.apache.org/licenses/LICENSE-2.0>`_.
+
+]]>        
+        </help>
+</tool>

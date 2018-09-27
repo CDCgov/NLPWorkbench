@@ -1,0 +1,17 @@
+<tool id="gate.gazetteer_2.1.0" name="GATE Gazetteer v2.1.0" version="2.1.0">
+	<description>
+		GATE Gazetteer
+	</description>
+	<command interpreter="lsd">
+		invoke.lsd gate.gazetteer_2.1.0 $input $output
+	</command>
+	<inputs>
+		<param name="input" type="data" format="gate" label="input"/>
+	</inputs>
+	<outputs>
+		<data name="output" format="gate"/>
+	</outputs>
+	<help>
+		GATE Gazetteer
+	</help>
+</tool>

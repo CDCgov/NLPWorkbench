@@ -1,0 +1,119 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        998, 
+        1012
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        986, 
+        996
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1013, 
+        1022
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1025, 
+        1048
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        854, 
+        874
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        944, 
+        971
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1133, 
+        1138
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        521, 
+        556
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1074, 
+        1100
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1152, 
+        1178
+      ]
+    }
+  ], 
+  "Positive Findings Phraseology (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        973, 
+        985
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1139, 
+        1149
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 1^9999^MOH|PIMS|CCO|20160504155153|38CE6ED8ACDB4C887D219DFDD297C66675DE5485|ORU^R01|Q1908688356T3582133308|P|2.5|\nPID|1||99999999^^^^CMR^HOSPITAL 1&9999&MOH~99999999^^^^MRN^HOSPITAL 1&9999&MOH~9999999999&TP&ON^^^^JHN||XXXXXXXXXX^XXXXX^XXXXXXX||99999999|M|||999 XXXXXX XX^^XXXXXX^XXX^X9X9X9^999||||||||||||||||Retired|||N|\nOBR|1||NG-16-0004124|33716-2^Study Report: Cytology.non-gyn^LN^C^Cytology^L|||20160429|||104115^XXXXXXXXX^XXX||||||||||N||20160504|||F|||||||99999^XXXXXXXX^XXXX|\n\n\n\n\n\n\n\nPath report.microscopic observation\n\nMalignant epithelial cells arranged in groups with nuclear enlargement, irregular nuclear membranes, hyperchromasia, clumped chromatin and prominent nucleoli. The features are those of a non-small cell carcinoma; overall, the morphology favours a poorly differentiated squamous cell carcinoma.\n\n\nPath Report.comments\n\nPlease also see concurrently acquired biopsy specimen, S16-18911.\n\n\nPath report.final diagnosis\n\nPositive for Malignancy, Non-Small Cell Carcinoma\n\n\nPath report.relevant Hx\n\nRight upper lobe mass\n\n\nPath report.site of origin\n\nBronchioalveolar Lavage (BAL), right upper lobe\n\n\nPath report.site of origin\n\nSatisfactory for evaluation\n\n\n"
+}

@@ -1,0 +1,27 @@
+<tool id="dev.filter.stopwords" name="Filter stopwords" version="1.0.0">
+    <command>lsd $__tool_directory__/FilterStopwords.lsd $input $stopwords $output</command>
+ <inputs>
+     <param type="data" format="txt" label="Input file" name="input"/>
+     <param type="data" format="txt" label="Stop words" name="stopwords"/>
+ </inputs>
+ <outputs>
+  <data format="txt" label="Filtered (stopwords)" name="output"/>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**
+
+Removes stopwords from a word frequency list.
+
+.. class:: infomark
+
+**TIPS**
+
+**License**
+
+Apache 2.0
+
+]]>
+ </help>
+</tool>

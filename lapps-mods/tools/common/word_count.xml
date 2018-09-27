@@ -1,0 +1,32 @@
+<tool id='example.word.count' name='Word Count' version='2.0.0'>
+  <description>Counts the words in the input</description>
+  <command>lsd $__tool_directory__/word_count.lsd $input $output</command>
+  <inputs>
+    <param name='input' type='data' format='lif' label='input' />
+  </inputs>
+  <outputs>
+    <data name='output' format='tsv' />
+  </outputs>
+  <help><![CDATA[
+  
+  
+**What it does**
+  
+Produces a chart with the word counts for a document
+  
+**Required annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token.html>`_  (LIF) 
+
+**Generated Annotations**
+
+* None
+
+.. class:: infomark
+
+**NOTE**: This tool produces a list of words and their counts from the input document. Can be saved as a file by clicking the file (download) icon in the tool's history window.'
+
+
+
+    ]]></help>
+</tool>

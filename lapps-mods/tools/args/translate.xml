@@ -1,0 +1,31 @@
+<tool id='arg.tech.translate' name='AIF Translate' version='1.0.0'>
+    <description>Translate Argument Interchange Format to other formats.</description>
+    <command interpreter="lsd">translate.lsd $from $to $nodeset $output</command>
+    <inputs>
+        <param name="from" type="select">
+            <option value="aifdb">AIFdb</option>
+        </param>
+        <param name="to" type="select">
+            <option value="aspic">Aspic+</option>
+            <option value="json">JSON</option>
+            <option value="rdf">RDF</option>
+            <option value="lkif">Carneades (LKIF)</option>
+            <option value="dot">Dot</option>
+            <option value="svg">SVG</option>
+            <option value="rtnl">Rationale</option>
+            <option value="pl">Prolog</option>
+            <option value="tweety">Tweety (DeLP)</option>
+        </param>
+        <param name="nodeset" type="integer" min="0" value="7252"/>
+    </inputs>
+    <outputs>
+        <data name='output' auto_format='true'/>
+    </outputs>
+    <help><![CDATA[
+    **What it does**
+    
+Translates from the Argument Interchange Format (AIF) to another format.  Currently only
+translating from the AIFdb format is supported.
+]]>
+    </help>
+</tool>

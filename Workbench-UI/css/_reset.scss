@@ -1,0 +1,47 @@
+/*-- reset code --*/
+html, body{
+  padding:0;
+  margin:0;
+  background:#FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+
+  a{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+  }
+}
+
+input[type="button"],input[type="submit"]{
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+p{
+
+  margin:0;
+}
+
+label{
+  margin:0;
+}
+button{
+  transition:0.5s all;
+  -webkit-transition:0.5s all;
+  -moz-transition:0.5s all;
+  -o-transition:0.5s all;
+  -ms-transition:0.5s all;
+}
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

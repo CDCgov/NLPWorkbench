@@ -1,0 +1,121 @@
+{
+    "Macroscopic/Gross Description Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                724, 
+                739
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Clinical History Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1156, 
+                1172
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Cancer Histology Subtype (At)": [
+        {
+            "__agreement__": "FALSE NEGATIVE", 
+            "__extent": [
+                1017, 
+                1033
+            ], 
+            "__annotator__": "Gemma"
+        }, 
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1054, 
+                1072
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Nature of Specimen Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1076, 
+                1094
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Relative Location (Ov)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1102, 
+                1108
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "__text": "MSH|^~\\&| Cancer Reporting|BioReference Laboratories, Inc^31D0652945^CLIA|||20170508114344||ORU^R01|201705081143440002|P|2.3.1\n\nPID|1||3370089698884^^^^MR^BioReference Laboratories, Inc&31D0652945&CLIA~999999999^^^^SS^BioReference Laboratories, Inc&31D0652945&CLIA||Test^Test^Test||18991230|M|||475 Market Str^^Elmwood Park^NJ^07407||||||||999999999\n\nORC|RE||||||||||||||||||||Bioreference^^999999999^^^CLIA|475 Market Str^^Elmwood Park^NJ^07407|^^^^^800^29-5227|475 Market Str^^Elmwood Park^NJ^07407\n\nOBR|1||337008969|10^GI Pathology Report^L|||18991230010101|||||||||999999999^PHYSICIANNAME^UNKNOWN^UNKNOWN|^^^^^800^29-5227||||||||F|||||||999999999&PathologistLastName&PathologistFirstName&UNKNOWN&&&&&UNKNOWN\n\n\n\n\n\n\n\n\n\n\n\n\nGross Pathology\n\nSpecimen is received in formalin, labeled as \"Rectum\" with the patient's name and consists of 4 pieces and fragments of soft pink tissue measuring from 0.1 x 0.1 x 0.1 up to 0.2 x 0.2 x 0.1 cm. All submitted (1 Block).\n\n\nFinal Diagnosis\n\nPoorly differentiated adenocarcinoma (Signet ring type) in a background of villotubar adenoma.\n\n\nNature of Specimen\n\nColon-Rectum biopsy (Mass) (Sample 1)\n\n\nComments\n\nComment\n\n\nClinical History\n\nClinicalInformation\n\n\n", 
+    "Cancer Histology Type (Ov)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1001, 
+                1015
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Comments Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1136, 
+                1144
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Final Diagnosis Heading (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                962, 
+                977
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Specimen Identifier (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1124, 
+                1132
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Organ/Body Structure (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                1096, 
+                1101
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ], 
+    "Neoplasm Descriptive Grade (At)": [
+        {
+            "__agreement__": "TRUE POSITIVE", 
+            "__extent": [
+                979, 
+                1000
+            ], 
+            "__annotator__": "Gemma, STANFORD_MODEL"
+        }
+    ]
+}

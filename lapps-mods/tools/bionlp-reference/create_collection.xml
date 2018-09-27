@@ -1,0 +1,29 @@
+<tool id="bionlp.reference.create.collection" name="Create data collection of select Reference Corpus documents" version="1.0.0">
+ <command>lsd $__tool_directory__/create_collection.lsd $start $end
+ </command>
+ <inputs>
+  <param min="0" name="start" type="integer" value="0">
+  </param>
+  <param max="800" name="end" type="integer" value="800">
+  </param>
+ </inputs>
+ <outputs>
+  <collection format="lif" label="Output List" name="list_output" type="list">
+   <discover_datasets directory="outputs" pattern="__designation_and_ext__" visible="false">
+   </discover_datasets>
+  </collection>
+ </outputs>
+ <tests>
+ </tests>
+ <help>
+  <![CDATA[
+  
+Creates a Data Collection with the selected range of documents.  Use the *Query Data Collection* to create a Data Collection with documents of a specific genre.
+
+**Description**
+
+Includes Token, Token+pos, enju dependency parses annotated as Relation (with categories modOf, arg1Of, arg2Of, and arg3Of) in one view; and event annotations, named entity annotations for Proteins, Relations between events and proteins (themeOf, causeOf, locationOf, equivalentTo), and Modification (Negation, Speculation), for 14 full paper articles about NFκB proteins in another.
+
+]]>
+ </help>
+</tool>

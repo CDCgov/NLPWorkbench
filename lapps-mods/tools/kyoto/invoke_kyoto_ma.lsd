@@ -1,0 +1,106 @@
+#!/usr/bin/env lsd
+
+/*
+ * Galaxy script to invoke MorphologicalAnalyzerServices on the Kyoto Language Grid.
+ */
+import jp.go.nict.langrid.client.soap.SoapClientFactory;
+import jp.go.nict.langrid.service_1_2.*
+import jp.go.nict.langrid.service_1_2.morphologicalanalysis.MorphologicalAnalysisService
+import jp.go.nict.langrid.service_1_2.morphologicalanalysis.Morpheme
+import static org.lappsgrid.discriminator.Discriminators.Uri
+
+include '../lapps_common/Servers'
+
+class DataContainer extends Data<Container> { }
+
+String service = args[0]
+String input = args[1]
+String output = args[2]
+String username = args[3] ?: servers.kyoto.username
+String password = args[4] ?: servers.kyoto.password
+
+// [ url:":OpenNLPPOSTagger", username:'vassar', password:'' ]
+String serviceUrl = "${servers.kyoto.url}:${service}"
+URL url = new URL(serviceUrl)
+String type = 'unknown:tokenization'
+if (service == 'OpenNLPPOSTagger') {
+	type = 'opennlp:tokenization'
+}
+String text
+String lang = 'en'
+Container container;
+DataContainer data;
+
+println "Input $input"
+if (input.endsWith('.txt')) {
+	text = new File(input).text
+}
+else {
+	String json = new File(input).text
+	data = Serializer.parse(json, Map)
+	println "Discriminator: ${data.discriminator}"
+	if (data.discriminator == Uri.ERROR) {
+		new File(output).text = json
+		return
+	}
+	else if (data.discriminator == Uri.LAPPS) {
+		container = data.payload
+		lang = container.language ?: 'en'
+		text = container.text
+	}
+	else if (data.discriminator == Uri.TEXT) {
+		text = data.payload
+	}
+	else {
+		data.payload = "Unrecognized discriminator: ${data.discriminator}"
+		data.discriminator = Uri.ERROR
+		new File(output).text = Serializer.toPrettyJson(data)
+		return
+	}
+}
+
+
+MorphologicalAnalysisService kyoto = new SoapClientFactory().create(MorphologicalAnalysisService, url, username, password)
+Morpheme[] morphemes = kyoto.analyze(lang, text)
+Container processed = createContainer(text, lang, serviceUrl, type, morphemes)
+if (!container) {
+	data = new DataContainer()
+	data.discriminator = Uri.LAPPS
+	data.payload = processed
+}
+else {
+	// Get the last view from the processed container and append it to the original
+	// container.
+	View view = processed.views[-1]
+	container.addView(view)
+}
+
+new File(output).text = Serializer.toPrettyJson(data)
+return
+
+Container createContainer(String text, String language, String creator, String type, Morpheme[] morphemes) {
+	Container container = new Container()
+	container.language = language
+	container.text = text
+	View view = container.newView()
+	view.addContains(Discriminators.Uri.TOKEN, creator, type)
+	int n = -1
+	int offset = 0
+	morphemes.each { m ->
+		String id = "tok${++n}"
+		offset = text.indexOf(m.word, offset)
+		if (offset < 0) {
+			throw new RuntimeException("Unable to match $m.word")
+		}
+		Annotation a = view.newAnnotation()
+		a.id = id
+		a.label = Uri.TOKEN
+		a.start = offset
+		a.end = offset + m.word.length()
+		++offset
+		a.addFeature("pos", m.partOfSpeech)
+		a.addFeature("word", m.word)
+		a.addFeature("lemma", m.lemma)
+	}
+	return container
+}

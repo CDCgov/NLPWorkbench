@@ -1,0 +1,127 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        918, 
+        925
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        926, 
+        933
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        983, 
+        992
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1633, 
+        1656
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        839, 
+        866
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        516, 
+        545
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        783, 
+        809
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        970, 
+        982
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        823, 
+        828
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        879, 
+        884
+      ]
+    }
+  ], 
+  "Relative Location (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        813, 
+        822
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        869, 
+        878
+      ]
+    }
+  ], 
+  "Specimen Identifier (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        811, 
+        813
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PATHLAB_LIS|HOSPITAL 3^9999^MOH|||201605031556|67D5993CCBA5F9C38C9E8DE99AD32AA7AA010A00|ORU^R01|2298293.1|P|2.5||\nPID|1||OT9999999^^^^CMR^HOSPITAL 3&9999&MOH~OT9999999^^^^MRN^HOSPITAL 3&9999&MOH~9999999999&PM&ON^^^^JHN||XXXXXXX^XXXXX||99999999|M|||9-9999 XXXXXX XXXXXXX^^XXXXXXXXXXX^XX^X9X 9X9|||||||||||||||||||N||\nOBR|1||16-SP7143|11529-5^Surgical Pathology Study Report^LN^BX^Biopsy^L|||20160426|||72239^XXXX^XXXXXX^- XXXXXXXXXXXX^^XX.||||||||||||20160503|||F|||||||99999^XXXXXXXXX^XXXXXX^^^XX.||\n\n\n\n\n\n\n\nPath report.gross description\n\n\nSpecimen container 'A' is confirmed for patient \nidentification and is labelled 'ascending colon polyp'. \nPieces: 2. \nDimensions: 0.9 and 1.1 cm. \nBlock A1 and A2 one fragment in each, each bisected, margins \nmarked blue. \n \nMC/mc \n\n\n\nPath report.site of origin\n\nA:Ascending colon, POLYP\n\n\n\nPath report.final diagnosis\n\n\nAscending colon (polyp), endoscopic biopsy: \n  - Tubular adenoma with at least high grade \ndysplasia/intramucosal carcinoma \n  - see comment  \n \nComment \n \nSections show tubular adenoma in which expansile glands with \ncomplex architecture are seen to splay and disrupt the \nmuscularis mucosae with possible involvement of the \nsubmucosa. \n \nHowever, due to suboptimal orientation and cross sectioning, \nit is difficult to ascertain if the expansile glands are \ncontained within or have breached the muscularis mucosae to \ninvolve the submucosa. \n \nThis case will be consulted to the GI pathology group at HOSPITAL for expert opinion. Further management \ndecisions should be delayed until the result of the \nconsultation is received. \n \nAn addendum will follow \n\n\n\nPath report.relevant Hx\n\n\nAscending colon polyp HS \n3.5 cm polyp ascending colon excised \n\n\n\n"
+}

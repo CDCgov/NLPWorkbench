@@ -1,0 +1,15 @@
+#!/usr/bin/env lsd
+
+File input = new File(args[0])
+File output = new File(args[1])
+Boolean pretty = args[2] as Boolean
+
+String url = "http://vassar.lappsgrid.org/invoker/anc:tcf-converter_1.0.0"
+ServiceClient service = new ServiceClient(url, "tester", "tester")
+String json = service.execute(input.text)
+
+if (pretty) {
+	Data data = Serializer.parse(json, Data)
+	json = data.asPrettyJson()
+}
+output.text = json

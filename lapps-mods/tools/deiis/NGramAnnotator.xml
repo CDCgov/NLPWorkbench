@@ -1,0 +1,34 @@
+<tool id="deiis.annotator.ngram" name="NGram Annotator" version="1.0.0">
+    <description>Genererates NGrams from sequences of Tokens.</description>
+    <command>lsd $__tool_directory__/ngram.lsd $size $input $output</command>
+    <inputs>
+        <param name="input" type="data" format="lif"/>
+        <param name="size" type="select">
+            <option value="UNIGRAM">Unigrams</option>
+            <option value="BIGRAM">Bigrams</option>
+            <option value="TRIGRAM">Trigrams</option>
+        </param>
+    </inputs>
+    <outputs>
+        <data name="output" format="lif" label="NGrams"/>
+    </outputs>
+    <help><![CDATA[
+**What it does**
+
+Generates ngrams (unigrams, bigrams, or trigrams) from a text.
+
+**Required Annotations**
+
+* `Token <http://vocab.lappsgrid.org/Token>`_ (LIF)
+
+
+**Generated Annotations**
+
+
+* http://deiis.lti.cs.cmu.edu/Unigram
+* http://deiis.lti.cs.cmu.edu/Bigram
+* http://deiis.lti.cs.cmu.edu/Trigram
+
+]]>
+    </help>
+</tool>

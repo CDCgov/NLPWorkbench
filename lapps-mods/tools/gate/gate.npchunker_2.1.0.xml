@@ -1,0 +1,17 @@
+<tool id="gate.npchunker_2.1.0" name="GATE NounPhraseChunker v2.1.0" version="2.1.0">
+	<description>
+		GATE Noun Phrase Chunker
+	</description>
+	<command interpreter="lsd">
+		invoke.lsd gate.npchunker_2.1.0 $input $output
+	</command>
+	<inputs>
+		<param name="input" type="data" format="gate" label="input"/>
+	</inputs>
+	<outputs>
+		<data name="output" format="gate" label="Noun Chunks (GATE)"/>
+	</outputs>
+	<help>
+		GATE Noun Phrase Chunker
+	</help>
+</tool>

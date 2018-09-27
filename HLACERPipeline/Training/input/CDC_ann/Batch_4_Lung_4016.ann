@@ -1,0 +1,81 @@
+{
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        770, 
+        784
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        13094, 
+        13117
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3369, 
+        3389
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        661, 
+        688
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        512, 
+        538
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Gemma,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        765, 
+        769
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7174, 
+        7206
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        7208, 
+        7223
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|MO Cancer Registry|20170916000026||ORU^R01^ORU_R01|201709160000260001|P|2.5.1|MO||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-11-034821^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170808000000|||||||20170808000000|&MP Outside material|1952380107^^^H^^^MD^^CMS^D^^^NPI||||||20170906000000|||F||||||c34.91^Malignant neoplasm of unspecified part of right bronchus or lung^I10|1093955338&&&K.&&&&&CMS\n\n\n\n\n\n\n\nPath report.site of origin\n\nLung, Right, CT-Guided Core Biopsy: procedure date 08/03/17, original accession number S17-2702, Block number S17-2702\n\n\nPath report.final diagnosis\n\nSGTS Impression - <p>Review of the accompanying pathology report indicates lung adenocarcinoma. Microscopic examination confirms tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. </p> <p>PD-L1 expression was assessed with the FDA-approved 22C3pharmDx qualitative immunohistochemical assay. PD-L1 is an immune checkpoint modulator expressed by tumor cells and tumor infiltrating immune cells. Inhibition of PD-L1/PD-1 interactions by monoclonal antibodies may prevent T-cell suppression throughout the tumor microenvironment and restore host immunity against tumors. This patient may be eligible for second-line treatment with KEYTRUDA (pembrolizumab), approved in patients with metastatic NSCLC whose tumors express PD-L1 as determined by an FDA-approved test and who have disease progression on or after platinum-containing chemotherapy. However,positive PD-L1 status may not consistently predict patient benefit across cancer types, with a less than 50% response rate in high PD-L1 expressing tumors, and some PD-L1 negative patients also deriving benefit.</p>  <p>MET protein over-expression is associated with an aggressive clinical course in NSCLC. MET inhibitors are in various stages of clinical development.</p> <p>KRAS mutations occur in 15-25% of NSCLC and are generally associated with an adverse prognosis and lack of response to EGFR TKIs such as Gefitinib and Erlotinib. In the vast majority of cases, KRAS mutations are found in tumors wild type for EGFR or ALK and are non-overlapping with other oncogenic mutations found in NSCLC. Therefore, KRAS mutation defines a distinct molecular subset of the disease, and is associated with an aggressive clinical course. Recent studies have suggested that targeted therapies with any combination of PI3K, MEK, or CDK inhibitors may be an effective strategy in NSCLC tumors that harbor KRAS mutation. A number of therapies are available in an investigational setting that target this genomic aberration.</p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context.</p>\n\n\nPath report.comments\n\nFISH Comments - Fluorescence in situ hybridization (FISH) analysis detected no evidence of an ALK (2p23) gene rearrangement. However, 6-13 additional copies of ALK were observed in 32% of the cells, consistent with amplification of the 2p23 chromosome region. Amplification of ALK has been suggested in some studies to be associated with a better clinical outcome in patients treated with ALK tyrosine kinase inhibitors such as crizotinib.   FISH analysis detected a MET (7q31.2) gene amplification. While the MET/CEP7 ratio was 1.52, 29% of cells had 6 or more copies of MET with an average copy number of 7.14. Amplification of MET is associated with poor prognosis in a variety of neoplasms. Amplification of MET also plays a role in acquired resistance to EGFR inhibitors of patients with EGFR-mutant tumors. Limited studies suggest that MET-amplified tumors may respond to crizotinib, an inhibitor of MET and ALK.   FISH analysis revealed no break-apart signal pattern specific for ROS1 (6q22.1) gene rearrangement. However, 1-6 additional copies of ROS1 were observed in 82% of the cells. According to a study by Jin, Y et al. (see references below) ROS1 gene copy number gain (CNG) was found in 4.8 % of cases. ROS1 gene CNG was significantly associated with shorter disease-free survival (DFS, 12 vs. 58 months; p=0.003) and shorter overall survival (OS, 40 vs. 67 months; p <0.001) than the group without CNG. Additional copies of ROS1 gene is an independent poor prognostic factor.   FISH analysis revealed no evidence of a RET (10q11.21) gene rearrangement. However, 1-8 additional copies of RET were detected in 62% of cells analyzed.   FISH revealed no evidence of HER2 (17q12) gene amplification. The HER2/CEP17 ratio was 1.50. However, 1-4 additional copies of HER2 and CEP17 (centromere 17) were detected in 59% of cells analyzed, indicating polysomy of chromosome 17.   Overall, these results are indicative of a complex abnormal karyotype (3 or more abnormalities) likely predicting for a rapid disease progression and a poor treatment outcome.   Monitoring for these abnormalities may be useful in assessing the patient`s remission/relapse status.   It should be noted that the FISH probes utilized in this analysis cannot entirely exclude the presence of other chromosomal abnormalities. Correlation with classic cytogenetics, clinical, flow cytometric, and morphological data is recommended, if available.   FISH analysis was performed in interphase cells using the ALK (2p23; FDA-approved), ROS1 (6q22.1), and the RET (10q11.21) dual color, break apart rearrangement DNA probes and the MET (7q31.2)/CEP7(centromere 7) and CEP17(centromere 17)/HER2 (17q12) dual color DNA amplification probes (Abbott Molecular, Inc., Des Plaines, IL).   References:  Nat Med. 2012 Feb 12;18(3):382-4; Oncol Rep. 2012 Oct;28(4):1187-92; J Clin Oncol. 2009 Apr 1;27(10):1667-74. J Thorac Oncol. 2010 Mar;5(3):305-13. J Clin Oncol. 2012, 30(35):4352-9; Am Soc Clin Oncol Educ Book. 2014;34:e353-65. J Mol Diagn. 2013 Apr 4. pii: S1525-1578(13)00041-X. J Natl Cancer Inst 2005, 97:643-655. Mol Cancer Ther. 2008 Apr;7(4):944-51. Cancer Genet Cytogenet. 2010 Dec;203(2):222-9. Mol Cancer Ther.2007 Apr;6(4):1223-9. J Mol Diagn. 2008 March; 10(2): 160-168. Stewart DJ. Targeted therapy in non-small cell lung cancer. in \"Targeted Cancer Therapy\" (Kurzrock R and Markmen M, eds.) pg 135. Humana press, 2008. Nat Med. 2012 Feb 12;18(3):382-4; Oncol Rep. 2012 Oct;28(4):1187-92; J Clin Oncol. 2009 Apr 1;27(10):1667-74. J Thorac Oncol. 2010 Mar;5(3):305-13.; Expert Opin Ther Pat. 2014 Apr;24(4):417-42. Jin Y et al. Virchows Arch. 2015 Jan;466(1):45-52. doi: 10.1007/s00428-014-1679-2. Epub 2014 Nov 6. (J Neurooncol. 2014 Jun;118(2):425-6.) Cancers (Basel). 2015 May 26;7(2):930-49.\n\n\nPath report.supplemental reports\n\nAddendum Report: Lung, Right, CT-Guided Core Biopsy, S17-2702, Block number S17-2702:   - PD-L1 - KEYTRUDA (R): High Expression   - Tumor Proportion Score: 90% Reference Range: TPS - Tumor Proportion Score: % of at least 100 viable tumor cells showing complete or partial membrane staining >= 1+. TPS: < 1% = No Expression. TPS: 1 - 49% = Low Expression - Eligible for second-line treatment with KEYTRUDA (R) (pembrolizumab). TPS: >= 50% = High Expression - Eligible for first or second-line treatment with KEYTRUDA (R) (pembrolizumab). Electronically signed by Bruce C. Horten, M.D., on 8/14/2017 at Esoterix Genetic Laboratories, LLC. PD-L1, 22C3 pharmDx (TM) is FDA approved for use in the detection of PD-L1 in formalin fixed paraffin-embedded non-small cell lung carcinoma using the Dako Automated Link 48 platform. The assays is indicated as an aid in identifying NSCLC patients for treatment with KEYTRUDA (R) (Pembrolizumab). PD-L1, 22C3 pharmDx (TM) is a trademark of Dako, an Agilent Technologies company. Reference ranges for this test in other cancer types are not approved at this time. References: 1. Herbst RS, Baas P, Kim D-W, et al: Pembrolizumab versus decetaxel for previously treated, PD-L1 positive, advanced non-small-cell lung cancer (KEYNOTE - 010): a randomized control trial. Lancet 2015 Dec 19; Online(15) 1281-7. 2. Garon EB, Rizvi NA, Hui R, et al: Pembrolizumab for the Treatment of Non-Small-Cell Lung Cancer. N Engl J Med 2015 May 21; 372:2018-2028. Known positive cells or tissues are employed with each test and examined to ensure positivity. Positive and negative internal controls, if present, react appropriately Disclaimer: This interpretation or diagnosis is contingent on the specimen and the clinical information received. This analysis is an adjunct to the evaluation of the referring physician and does not represent a final diagnosis. Integrated Oncology is a business unit of Esoterix Genetic Laboratories, LLC a wholly-owned subsidiary of Laboratory Corporation of America Holdings. Testing performed at Esoterix Genetic Laboratories, LLC 521 W 57th Street, 6th Floor, New York, NY 10019 800-447-8881.  ## End of auxiliary report ## Ancillary Report: Immunoperoxidase staining was performed and evaluated with appropriate controls. Greater than 50% of tumor cells are positive for CMET (2+). ## End of auxiliary report ## Smart Genomics NGS: SGNGS Impression - <p>Review of the accompanying pathology report indicates lung adenocarcinoma. Microscopic examination confirms tumor corresponding to the above referenced accession number. Sufficient tissue is present for molecular analysis. Excellent gene coverage was achieved, which passed our internal quality checks. <strong>KRAS Q61H and TP53 G105S mutations were DETECTED</strong> by targeted next generation sequencing. No other mutations were detected by targeted next generation sequencing interrogating the hot-spot regions of the genes summarized in the NGS gene table. This testing is in accordance with the most recent NCCN guidelines.</p> <p>KRAS mutations occur in 15-25% of NSCLC and are generally associated with an adverse prognosis and lack of response to EGFR TKIs such as Gefitinib and Erlotinib. In the vast majority of cases, KRAS mutations are found in tumors wild type for EGFR or ALK and are non-overlapping with other oncogenic mutations found in NSCLC. Therefore, KRAS mutation defines a distinct molecular subset of the disease, and is associated with an aggressive clinical course. Recent studies have suggested that targeted therapies with any combination of PI3K, MEK, or CDK inhibitors may be an effective strategy in NSCLC tumors that harbor KRAS mutation. A number of therapies are available in an investigational setting that target this genomic aberration.</p> <p>The TP53 gene encodes a tumor suppressor protein containing transcriptional activation, DNA binding, and oligomerization domains. The encoded protein responds to diverse cellular stresses to regulate expression of target genes, thereby inducing cell cycle arrest, apoptosis, senescence, DNA repair, or changes in metabolism. Mutations in TP53 are associated with a variety of human cancers, including hereditary cancers such as Li-Fraumeni syndrome, and are generally associated with a poor prognosis. Therapies directly or indirectly targeting TP53 may be available in an investigational context. </p> <p>PD-L1 expression was assessed with the FDA-approved 22C3 pharmDx qualitative immunohistochemical assay. PD-L1 is an immune checkpoint modulator expressed by tumor cells and tumor infiltrating immune cells. Inhibition of PD-L1/PD-1 interactions by monoclonal antibodies may prevent T-cell suppression throughout the tumor microenvironment and restore host immunity against tumors. This patient may be eligible for second-line treatment with KEYTRUDA (pembrolizumab), approved in patients with metastatic NSCLC whose tumors express PD-L1 as determined by an FDA-approved test and who have disease progression on or after platinum-containing chemotherapy. However, positive PD-L1 status may not consistently predict patient benefit across cancer types, with a less than 50% response rate in high PD-L1 expressing tumors, and some PD-L1 negative patients also deriving benefit. </p> <p>MET protein over-expression is associated with an aggressive clinical course in NSCLC. MET inhibitors are in various stages of clinical development.</p>  ## End of auxiliary report ## Fish Report: FISH - - Negative for ALK gene rearrangement. Positive for ALK gene amplification.  - Positive for MET gene amplification.  - Negative for ROS1 gene rearrangement. Positive for additional copies of ROS1 gene.  - Negative for RET gene rearrangement. Positive for additional copies of RET gene.  - Negative for HER2 gene amplification. Positive for polysomy of chromosome 17.   ## End of auxiliary report ##\n\n\nPath report.relevant Hx\n\nHistory - Invasive Adenocarcinoma\n\n\n"
+}

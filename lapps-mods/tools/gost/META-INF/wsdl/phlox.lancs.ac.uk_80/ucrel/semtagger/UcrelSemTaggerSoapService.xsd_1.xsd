@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://soap.semantictagger.ucrel.lancs.ac.uk/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://soap.semantictagger.ucrel.lancs.ac.uk/">
+
+<xs:element name="setUpperFilterYear" type="tns:setUpperFilterYear"/>
+
+<xs:element name="setUpperFilterYearResponse" type="tns:setUpperFilterYearResponse"/>
+
+<xs:element name="tagChiText" type="tns:tagChiText"/>
+
+<xs:element name="tagChiTextFmt" type="tns:tagChiTextFmt"/>
+
+<xs:element name="tagChiTextFmtResponse" type="tns:tagChiTextFmtResponse"/>
+
+<xs:element name="tagChiTextResponse" type="tns:tagChiTextResponse"/>
+
+<xs:element name="tagDutText" type="tns:tagDutText"/>
+
+<xs:element name="tagDutTextFmt" type="tns:tagDutTextFmt"/>
+
+<xs:element name="tagDutTextFmtResponse" type="tns:tagDutTextFmtResponse"/>
+
+<xs:element name="tagDutTextResponse" type="tns:tagDutTextResponse"/>
+
+<xs:element name="tagEngText" type="tns:tagEngText"/>
+
+<xs:element name="tagEngTextFmt" type="tns:tagEngTextFmt"/>
+
+<xs:element name="tagEngTextFmtResponse" type="tns:tagEngTextFmtResponse"/>
+
+<xs:element name="tagEngTextResponse" type="tns:tagEngTextResponse"/>
+
+<xs:element name="tagFrenText" type="tns:tagFrenText"/>
+
+<xs:element name="tagFrenTextFmt" type="tns:tagFrenTextFmt"/>
+
+<xs:element name="tagFrenTextFmtResponse" type="tns:tagFrenTextFmtResponse"/>
+
+<xs:element name="tagFrenTextResponse" type="tns:tagFrenTextResponse"/>
+
+<xs:element name="tagItaText" type="tns:tagItaText"/>
+
+<xs:element name="tagItaTextFmt" type="tns:tagItaTextFmt"/>
+
+<xs:element name="tagItaTextFmtResponse" type="tns:tagItaTextFmtResponse"/>
+
+<xs:element name="tagItaTextResponse" type="tns:tagItaTextResponse"/>
+
+<xs:element name="tagPortText" type="tns:tagPortText"/>
+
+<xs:element name="tagPortTextFmt" type="tns:tagPortTextFmt"/>
+
+<xs:element name="tagPortTextFmtResponse" type="tns:tagPortTextFmtResponse"/>
+
+<xs:element name="tagPortTextResponse" type="tns:tagPortTextResponse"/>
+
+<xs:element name="tagSpanText" type="tns:tagSpanText"/>
+
+<xs:element name="tagSpanTextFmt" type="tns:tagSpanTextFmt"/>
+
+<xs:element name="tagSpanTextFmtResponse" type="tns:tagSpanTextFmtResponse"/>
+
+<xs:element name="tagSpanTextResponse" type="tns:tagSpanTextResponse"/>
+
+<xs:element name="userCheck" type="tns:userCheck"/>
+
+<xs:element name="userCheckResponse" type="tns:userCheckResponse"/>
+
+<xs:complexType name="tagChiTextFmt">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+<xs:element name="formatFlag" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagChiTextFmtResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setUpperFilterYear">
+<xs:sequence>
+<xs:element name="year" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setUpperFilterYearResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagFrenText">
+<xs:sequence>
+<xs:element name="inText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagFrenTextResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagSpanTextFmt">
+<xs:sequence>
+<xs:element name="inText" type="xs:string" minOccurs="0"/>
+<xs:element name="fmtFlag" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagSpanTextFmtResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagEngText">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagEngTextResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="userCheck">
+<xs:sequence>
+<xs:element name="userID" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="userCheckResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagDutText">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagDutTextResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagItaText">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagItaTextResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagDutTextFmt">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+<xs:element name="formatFlag" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagDutTextFmtResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagPortText">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagPortTextResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagItaTextFmt">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+<xs:element name="formatFlag" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagItaTextFmtResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagEngTextFmt">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+<xs:element name="formatFlag" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagEngTextFmtResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagSpanText">
+<xs:sequence>
+<xs:element name="inText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagSpanTextResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagFrenTextFmt">
+<xs:sequence>
+<xs:element name="inText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagFrenTextFmtResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagChiText">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagChiTextResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagPortTextFmt">
+<xs:sequence>
+<xs:element name="inputText" type="xs:string" minOccurs="0"/>
+<xs:element name="formatFlag" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tagPortTextFmtResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

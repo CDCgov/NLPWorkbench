@@ -1,0 +1,51 @@
+{
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        8438, 
+        8461
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4871, 
+        4879
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        6069, 
+        6089
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4589, 
+        4616
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        4459, 
+        4485
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0934312^CLIA|eMARCPlus|TN Cancer Registry|20170919125817||ORU^R01^ORU_R01|201709191258170001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-11-037184^PathSys^44D0934312^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170822000000|||||||20170822000000|&MP Previous Material, MP Previous Material|1821145624^ ^ ^W^^^MD^^CMS^D^^^NPI||||||20170823000000|||F||||||C18.9^Malignant neoplasm of colon, unspecified^I10|&&&O.&&&&&CMS\nOBX|4|TX|22639-9^Path report.supplemental reports^LN||Molecular Diagnostic Rpt:  Microsatellite Instability (MSI) Analysis by PCR/Reviewer: SEE COMMENT Microsatellite Instability (MSI) Analysis by PCR/Microsatellite Instability: See Below Microsatellite Instability (MSI) Analysis by PCR/MSI Interpretation: This specimen showed High Microsatellite Instability (MSI-H). This is defined  as the presence of instability in 2 or more of the 5 microsatellite markers  (NR-21, BAT-26, BAT-25, NR-24 and MONO-27) examined. These results indicate  defective DNA mismatch repair (MMR) enzyme function within this  tumor.<BR/><BR/>Microsatellite Instability Analysis has multifaceted clinical  utility: as a predictive biomarker for immune checkpoint inhibitor therapy  response; as a prognostic and predictive biomarker for colorectal carcinoma;  and as a genetic risk biomarker for the presence of a hereditary cancer  syndrome such as Lynch Syndrome.<BR/><BR/>As an immune checkpoint inhibitor  therapy biomarker, recent literature (Le, et al., <i>N Engl J Med</i>  372:2509-2520; Topolian, et al., <i>Nature Reviews Cancer</i> 16:275-287)  indicates that, in general, patients that show a high level of microsatellite  instability (MSI-H) have a better response to immune checkpoint inhibitor  therapy.<BR/><BR/>Hereditary as well as sporadic colorectal carcinomas (CRC)  that have defective mismatch repair have been shown to have distinct survival  outcome and treatment-associated characteristics. Patients with defective MMR  function do not appear to benefit from fluorouracil-based adjuvant chemotherapy  (J Clin Onc 2010; 28:3219-322).<BR/><BR/>As a genetic risk biomarker, the  result of High Microsatellite Instability may indicate the need for genetic  counseling to direct further testing for possible Lynch syndrome. Correlation  with other testing results such as BRAF mutational status is recommended to aid  in the diagnosis of an inherited cancer syndrome versus a sprodaic  tumor.<BR/><BR/>Interpretation of this result of MSI-H in the context of other  clinical and laboratory findings is strongly recommended.  Microsatellite Instability (MSI) Analysis by PCR/Specimen Source: Right Colon Microsatellite Instability (MSI) Analysis by PCR/Original Accession Number: 12-41-001611 Microsatellite Instability (MSI) Analysis by PCR/Original Block: 1D Microsatellite Instability (MSI) Analysis by PCR/Tumor Percentage: 21-50%  ## End of auxiliary report ## Smart Genomics NGS:  SGNGS Impression - <p>Review of the accompanying pathology report indicated a history of colorectal cancer. Microscopic examination confirmed the presence of tumor corresponding to the above referenced accession number. Sufficient tissue was present for molecular analysis and all quality control metrics were met. A <strong>CTNNB1 S45F mutation was detected</strong> by targeted next generation sequencing. No other mutations were detected by targeted next generation sequencing interrogating the hot-spot regions of 7 genes summarized in the NGS gene table.</p>  <p>CTNNB1 is the gene which encodes the  -catenin protein, which is part of a complex of proteins that form adherens junctions that are important for the establishment and maintenance of epithelial cell layers by regulating cell growth and adhesion between adjacent cells.  -catenin is also part of the canonical Wnt signaling pathway, which has been implicated in a number of malignancies.  CTNNB1 mutations have been described in a variety of solid tumors, and investigational therapeutic regimens targeting the  -catenin/Wnt signalling pathway may be available. In the setting of colorectal cancer, mutations in CTNNB1 are associated with tumors exhibiting microsatellite instability, and are frequently found in both familial (Lynch Syndrome) and non-familial colorectal carcinomas.</p>   ## End of auxiliary report ##||||||F|||201708230000|44D0934312^Associated Pathologists, LLC d/b/a PathGroup^CLIA\n\n\n\n\n\n\n\nPath report.site of origin\n\nRight colon, right hemicolectomy - original accession # 12-41-1611 (1D) - procedure date 06/05/2012\n\n\nPath report.final diagnosis\n\nResults of mismatch repair protein immunohistochemistry:   1. Loss of DNA mismatch repair enzyme MLH-1 with secondary loss of PMS-2.   2. Additional testing for BRAF mutation analysis is PENDING (results will be reported separately).   3. See comment.  COMMENT: Immunohistochemical analysis (performed on representative tumor tissue, controls react appropriately) per EGAPP recommendations reveals loss of nuclear expression of DNA mismatch repair enzyme MLH-1 with secondary loss of PMS-2, and intact staining for mismatch repair enzymes MSH-2 and MSH-6. These results indicate DEFECTIVE DNA MISMATCH REPAIR (MMR) ENZYME FUNCTION within this tumor. Hereditary-associated, as well as sporadic, colorectal carcinomas (CRC) that have defective mismatch repair have been shown to have distinct survival outcome and treatment-associated characteristics (patients with defective MMR function do not benefit from fluorouracil-based adjuvant chemotherapy). In order to determine whether this reflects a germ line loss of MLH-1 due to Lynch syndrome, or acquired hypermethylation-related loss of MLH-1, BRAF mutation analysis is required and is in process. The results of the BRAF mutation analysis will be reported separately, and a comprehensive final report addressing all testing methods will be issued when those results are available. Please contact the signout pathologist if you have any questions in the interim. [References available on request].\n\n\nPath report.comments\n\nMolec Comments - The tissue specimen was reviewed by a pathologist and representative areas of tumor and normal tissue selected. These areas were microdissected from the surrounding tissue, and genomic DNA extracted using standard methods (QIAGEN QIASymphony). The tumor and normal DNA were separately PCR amplified for five microsatellite markers (NR-21, BAT-26, BAT-25, NR-24 and MONO-27; Promega Corp.), and size fractionated via capillary electrophoresis (Life Technologies 3500xl). The tumor and normal profiles were compared to determine the presence of altered microsatellite profiles. The analytic sensitivity of the assay is approximately 10-20% and is dependent on the size and clonality of any instability. The presence of instability in less than 10-20% of the DNA examined will not be detected. This assay uses reagents that may be marked as Research Use Only or Analyte Specific Reagent. This test was developed and its performance characteristics determined by PathGroup. Portions of this test use reagents designated by the manufacturer as for research use, not for clinical use. It has not been cleared or approved by the U.S. Food and Drug Administration (FDA). The FDA has determined that such clearance or approval is not necessary. This test is used for clinical purposes. It should not be regarded as investigational or for research. This laboratory is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA-88) as qualified to perform high complexity clinical laboratory testing. <BR/><BR/>Klump B,et al. <i>Int J Colorectal Dis</i> Vol 19:23-42, 2004; Grady WM.<i>Cancer Metastasis Rev</i> Vol 23:11-27, 2004; Umar, et al., <i>J Natl Cancer Inst</i> Vol 96:261-268, 2004; Popat S, Hubner R, Houlston RS. <i>Prognosis J Clin Oncol</i> Vol 23(3):609-618, 2005; Ribic CM, et al.,<i> N Engl J Med.</i> Vol 349(3):247-257, 2003; D. J. Sargent, et al.,<i>J Clin Oncol</i> Vol 26 (May 20 suppl; abstr 4008), 2008; P L Barratt, et al., <i>Lancet</i> Vol 360: 1381-91, 2002; Bertagnolli MM, et al., <i>J Clin Oncol</i> Vol 27(11):1814-1812, 2009; Marcus VA, et al., <i>Am J Surg Pathol</i> Vol23:1248-55, 1999; Lindor NM, et al., <i>J Clin Oncol</i> Vol20: 1043-1048, 2002;Boland CR, et al., <i>Cancer Res</i.Vol 58(22):5248-57, 1998; Palomaki GE, et al., <i>Genetics in Medicine</i> Vol 11(1):42-65, 2009 .\n\n\nPath report.relevant Hx\n\nHistory - Mucinous adenoarcinoma of ascending colon, C61 Malignant neoplasm of prostate\n\n\n"
+}

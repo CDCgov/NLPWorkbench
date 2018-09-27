@@ -1,0 +1,43 @@
+<tool id="stanfordnlp.parser" name="Stanford Parser" version="2.0.4">
+ <description>
+   (standalone) Generate a constituency parse of unannotated text
+ </description>
+ <command interpreter="lsd">
+  ../common/invoke_brandeis.lsd stanfordnlp.parser_2.0.4 $input $output
+ </command>
+ <inputs>
+  <param format="lif" label="input" name="input" type="data">
+  </param>
+ </inputs>
+ <outputs>
+  <data format="lif" name="output">
+  </data>
+ </outputs>
+ <help>
+  <![CDATA[
+
+**What it does**
+
+Performs a constituency parse of a text in a LIF container using the `Stanford Core NLP tools <https://stanfordnlp.github.io/CoreNLP/>`_.
+
+**Required annotations**
+
+* None
+
+**Generated Annotations**
+
+A LIF document containing:  
+  
+1. `Token <http://vocab.lappsgrid.org/Token.html>`_ annotations (with part of speech)
+#. `PhraseStructure <http://vocab.lappsgrid.org/PhraseStructure.html>`_ annotations
+#. `Constituent <http://vocab.lappsgrid.org/Constituent.html>`_ annotations)
+
+.. class:: infomark
+
+The parse tree can be visualized with the Brat visualizer tool.
+
+**License**
+
+Stanford CoreNLP is licensed under `the GNU General Public License <https://stanfordnlp.github.io/CoreNLP/#license>`_.]]>
+ </help>
+</tool>

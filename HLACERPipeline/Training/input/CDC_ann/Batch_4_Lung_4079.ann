@@ -1,0 +1,145 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        955, 
+        969
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        970, 
+        979
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        991, 
+        1005
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        773, 
+        796
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1661, 
+        1681
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        888, 
+        915
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        923, 
+        927
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1642, 
+        1646
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        518, 
+        547
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1540, 
+        1575
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1614, 
+        1640
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        917, 
+        921
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Steven,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        981, 
+        990
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1647, 
+        1651
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1042, 
+        1074
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Associated Pathologists, LLC d/b/a PathGroup^44D0658987^CLIA|eMARCPlus|TN Cancer Registry|20170919125833||ORU^R01^ORU_R01|201709191258330001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-51-003197^PathSys^44D0658987^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170809000000|||||||20170809000000|&Lung, Transbronchial Biopsy|1740235415^^^^^^MD^^CMS^D^^^NPI||||||20170810000000|||F||||||C34.92^Malignant neoplasm of unspecified part of left bronchus or lung^I10|1326149907&&&J.&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nReceived in CytoLyt solution labeled with the patient's name, are 3 fragments of red-white soft tissue measuring 0.5, 0.6, and 0.8 cm. The tissue cores are placed between sponges and entirely submitted in cassette A. 3/1.\n\n\nPath report.relevant Hx\n\nHistory - Lung nodules, C34.90 Malignant neoplasm of unsp part of unsp bronchus or lung\n\n\nPath report.final diagnosis\n\nLung, left CT guided needle biopsy:   Non-small cell carcinoma, pulmonary adenocarcinoma. See Comment.   (See 17-51-2216).\n\n\nPath report.supplemental reports\n\nAncillary Report: Insufficient tissue is present for CMET IHC studies. ## End of auxiliary report ## Fish Report: FISH - - Unable to perform ALK, ROS1, RET, MET and HER2 FISH testing.   ## End of auxiliary report ## Smart Geno NGS Cancel: There was insufficient tissue available for nucleic acid isolation and analysis.  If clinically appropriate, recommend recollection and resubmission or identification of an alternate specimen. ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination performed.\n\n\nPath report.site of origin\n\nLeft lung biopsy\n\n\nPath report.comments\n\nComments - Neoplastic cells are keratin 7 and TTF-1 positive, keratin 20 and P 63 negative. Molecular studies will be ordered. FISH Comments - Slides were reviewed by an in-house pathologist. There was insufficient tissue to perform Fluorescence in situ hybridization (FISH) studies.   Of note, a previous FISH study from 7/17/2015 (see 15-51-002751) was positive for amplification of EGFR and ALK, and additional copies of ROS1. Continuing monitoring for these anomalies may be useful in assessing the patient's remission/relapse status.\n\n\n"
+}

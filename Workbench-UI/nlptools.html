@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>NLP Tools</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- //Custom Theme files -->
+
+</head>
+<body>
+<!-- main content start-->
+<!--start-home-->
+<div id="home" class="header" w3-include-html="includes/header.html"></div>
+<!--//end-banner-->
+<!-- app-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workbench-overview.html">Overview of the Workbench</a></li>
+                <li class="active">NLP Tools</li>
+            </ol>
+            <h1>NLP Tools</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="boxed-headline text-right margin-top-0">This information is geared towards the expert user</div>
+            <h2>General NLP Tools</h2>
+
+            <p>To support the development of a NLP workbench, we performed an environmental scan to identify open source NLP and machine learning tools that can analyze and code unstructured clinical text.</p>
+
+            <ul>
+                <li>First, we combined the results from a systematic Literature Review and a comprehensive Multi-Channel Review covering researchers and institutions, NLP challenges, and government activities.</li>
+                <li>Next, we selected eligible tools on the basis of availability and relevance.
+                    <ul>
+                        <li>Availability - The tool is open-source, downloadable, and source code exists.</li>
+                        <li>Relevance - The tool supports the processing of adverse event or pathology reports, it generates standardized and/or coded output, or is it equipped with advanced capabilities, such as the extraction of temporal information and the de-identification of personally identifiable information.</li>
+                    </ul>
+                </li>
+                <li>Lastly, these tools were evaluated on three aspects representing the importance and applicability of the tools: (1) development activity, (2) popularity, and (3) framework used.</li>
+            </ul>
+
+
+
+        </div>
+        <div class="col-md-4">
+
+            <div w3-include-html="includes/workbench-support.html"></div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>As a result of our identification process above, fifty-four tools were selected for further consideration. A partial list is given below. For the full list of tools, see
+                <a href="https://www.sciencedirect.com/science/article/pii/S1532046417301685" target="_blank">“Natural Language Processing Systems for Capturing and Standardizing Unstructured Clinical
+                    Information: a systematic review.”</a></p>
+            <table class="table-bordered table">
+                <tr>
+                    <th style="width:30%">General NLP Tool</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>GATE - General Architecture for Text Engineering</td>
+                    <td>A Java suite of tools originally developed at the University of Sheffield beginning in 1995 for natural
+                        language processing tasks.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Stanford Core NLP</td>
+                    <td>Stanford CoreNLP provides a set of human language technology tools. It can give the base forms of words,
+                        their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and
+                        numeric quantities, mark up the structure of sentences in terms of phrases and syntactic dependencies,
+                        indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or
+                        open-class relations between entity mentions, get the quotes people said, etc.
+                    </td>
+                </tr>
+                <tr>
+                    <td>NLTK - The Natural Language Toolkit</td>
+                    <td>A leading platform for building Python programs to work with human language data</td>
+                </tr>
+                <tr>
+                    <td>KNIME - Konstanz Information Miner</td>
+                    <td>A collection of machine learning algorithms for data mining tasks.</td>
+                </tr>
+                <tr>
+                    <td>WEKA - Waikato Environment for Knowledge Analysis</td>
+                    <td>A collection of machine learning algorithms for data mining tasks.</td>
+                </tr>
+                <tr>
+                    <td>ClearTK - Center for Computational Language and Education Research (CLEAR) ToolKit</td>
+                    <td>A framework for developing machine learning and natural language processing components within the Apache
+                        Unstructured Information Management Architecture.
+                    </td>
+                </tr>
+                <tr>
+                    <td>cTAKES - Clinical Text Analysis and Knowledge Extraction System</td>
+                    <td>A natural language processing system for extraction of information from electronic medical record
+                        clinical free-text.
+                    </td>
+                </tr>
+                <tr>
+                    <td>OpenNLP</td>
+                    <td>The Apache OpenNLP library is a machine learning based toolkit for the processing of natural language
+                        text.
+                    </td>
+                </tr>
+                <tr>
+                    <td>caTIES - cancer Text Information Extraction System</td>
+                    <td>A grid based system for coding and retrieval of surgical pathology reports and tissue specimens in
+                        support of translational research
+                    </td>
+                </tr>
+                <tr>
+                    <td>MedTagger</td>
+                    <td>A NLP tool under the under the umbrella of the Open Health Natural Language Processing (ohnlp
+                        )project.
+                    </td>
+                </tr>
+                <tr>
+                    <td>medKAT/P - Medical Knowledge Analysis Tool</td>
+                    <td>A tool tailored to the medical/pathology domain, containing components for extracting cancer-specific
+                        characteristics from unstructured text.
+                    </td>
+                </tr>
+                <tr>
+                    <td>MedXN - Medication Extraction and Normalization</td>
+                    <td>An open source medication extraction and normalization tool for clinical text.</td>
+                </tr>
+                <tr>
+                    <td>PEP - Pathology Extraction Pipeline</td>
+                    <td>A new Open Health Natural Language Processing pipeline for information extraction from pathology
+                        reports, with the goal of populating the extracted data into a research data warehouse.
+                    </td>
+                </tr>
+                <tr>
+                    <td>brat - brat rapid annotation tool</td>
+                    <td>Brat is based on the stav visualizer which was originally made in order to visualize BioNLP'11 Shared
+                        Task data. Brat aims to provide an intuitive and fast way to create text-bound and relational
+                        annotations.
+                    </td>
+                </tr>
+                <tr>
+                    <td>MedTime</td>
+                    <td>A temporal information extraction system for clinical narratives</td>
+                </tr>
+                <tr>
+                    <td>TreeTagger</td>
+                    <td>A language independent part-of-speech tagger</td>
+                </tr>
+                <tr>
+                    <td>eHost - Extensible Human Oracle Suite of Tools)</td>
+                    <td>A prototype annotation system that provides an open-source stand-alone client for manual annotation of
+                        clinical texts.
+                    </td>
+                </tr>
+                <tr>
+                    <td>HeidelTime</td>
+                    <td>A multilingual, cross-domain temporal tagger developed at the Database Systems Research Group at
+                        Heidelberg University.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Knowtator</td>
+                    <td>A general-purpose text annotation tool that is integrated with the Protégé knowledge representation
+                        system.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<!--//bottom-->
+<!-- footer -->
+<div class="footer" w3-include-html="includes/footer.html"></div>
+<!-- //footer -->
+<!--//main content start-->
+
+<!-- <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+<!-- //for bootstrap working -->
+<!-- js -->
+<script src="js/include.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+<!-- for bootstrap working -->
+<script src="js/bootstrap.js"></script>
+
+
+<!-- //for bootstrap working -->
+
+
+</body>
+</html>

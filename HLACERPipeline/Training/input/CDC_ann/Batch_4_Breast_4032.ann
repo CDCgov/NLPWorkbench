@@ -1,0 +1,169 @@
+{
+  "Cancer Histology Subtype (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1168, 
+        1174
+      ]
+    }
+  ], 
+  "Cancer Histology Type (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1175, 
+        1184
+      ]
+    }
+  ], 
+  "Clinical History Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1044, 
+        1067
+      ]
+    }
+  ], 
+  "Comments Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3575, 
+        3595
+      ]
+    }
+  ], 
+  "Final Diagnosis Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1098, 
+        1125
+      ]
+    }
+  ], 
+  "Laterality (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1127, 
+        1131
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3556, 
+        3560
+      ]
+    }
+  ], 
+  "Macroscopic/Gross Description Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        528, 
+        557
+      ]
+    }
+  ], 
+  "Microscopic Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3451, 
+        3486
+      ]
+    }
+  ], 
+  "Nature of Specimen Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3528, 
+        3554
+      ]
+    }
+  ], 
+  "Neoplasm Behaviour (Ov)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1159, 
+        1167
+      ]
+    }
+  ], 
+  "Neoplasm Descriptive Grade (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1186, 
+        1207
+      ]
+    }
+  ], 
+  "Neoplasm Grade Value (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1209, 
+        1216
+      ]
+    }
+  ], 
+  "Organ/Body Structure (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1132, 
+        1138
+      ]
+    }, 
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3561, 
+        3567
+      ]
+    }
+  ], 
+  "Supplementary Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": "Model - 20171128_CDC_B1B2_4,Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        3248, 
+        3280
+      ]
+    }
+  ], 
+  "Synoptic Report Heading (At)": [
+    {
+      "__agreement__": "TRUE POSITIVE", 
+      "__annotator__": ",Model - 20180202_CDC_B1B2B4_5,Model - 20180209_CDC_B1B2B4B5_6", 
+      "__extent": [
+        1531, 
+        1548
+      ]
+    }
+  ], 
+  "__text": "MSH|^~\\&|PathSys|Tennova Healthcare - Cleveland Laboratory^44D0309307^CLIA|eMARCPlus|TN Cancer Registry|20170917000049||ORU^R01^ORU_R01|201709170000490001|P|2.5.1|TN||||||||VOL_V_40_ORU_R01-CCR1^NAACCR_CP\nOBR|1||17-SC-001728^PathSys^44D0309307^CLIA|11529-5^SURGICAL PATH REPORT^LN|||20170901000000|||||||20170901000000|&Breast, Biopsy, not requiring microscopic margins|1871659359^^^^^^MD^^CMS^D^^^NPI||||||20170907000000|||F||||||C50.912^Malignant neoplasm of unspecified site of left female breast^I10|54321&&&&&&&&CMS\n\n\n\n\n\n\n\nPath report.gross description\n\nSubmitted in formalin and labeled \" left breast mass\" are 2 irregular pink-yellow fragments of fibrofatty tissue, one fragment 6.5 x 3.0 x 2.0 cm and a second fragment 4.2 x 2.8 x 1.7 cm. Both fragments are inked. Serial transverse sectioning through the larger fragment reveals a mixed white-pink and yellow fibrofatty cut surface. No discrete masses are identified. 1A-1E- sections from larger fragment; 1F-1I- sections from smaller nodule. Representative sections in 9 cassettes.\n\n\nPath report.relevant Hx\n\nHistory - Left breast cyst\n\n\nPath report.final diagnosis\n\nLeft breast mass, lumpectomy:   Invasive ductal carcinoma, poorly differentiated, grade 3 (Nottingham method) with    necrosis and tumor giant cells.   Approximately 6.5 cm greatest dimension. (see comment)   Neoplasm present at inked surgical margins.   Scant skeletal muscle identified; neoplasm does not appear to invade skeletal     muscle fragments.   Lymph-vascular invasion present.   See comment CANCER CHECKLIST: BREAST: Biomarker Reporting Template 1.001.001.1000043 TEST(S) PERFORMED  Test(s) Performed: Estrogen Receptor (ER) Status, Progesterone Receptor (PgR) Status, HER2 by Immunohistochemistry (IHC), +Ki-67, p53.  ER Results: Positive  Percentage of Cells with Nuclear Positivity#: Specify %  Specify %: 1-2%  Average Intensity of Staining: Weak  Food and Drug Administration (FDA) cleared (specify test / vendor): Ventana  Primary Antibody: SP1  PgR Results: Negative  PgR Test Control Status: Other (specify)  Other (specify): external control present and stain as expected.  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Food and Drug Administration (FDA) cleared (specify test / vendor): Ventana  Primary Antibody: 1E2  HER2 IHC Results: Equivocal (Score 2+); Sent for FISH analysis. Results to    follow.  Percentage of Cells with Uniform Intense Complete Membrane Staining: <5%  Test Type (required for U.S.-based laboratories): Food and Drug Administration (FDA) cleared (specify test / vendor)  Food and Drug Administration (FDA) cleared (specify test / vendor): Ventana  Primary Antibody: 4B5  Ki-67 Results:  Percentage of Positive Nuclei: 80-90%  Primary Antibody: 30-9  Test type: Ventana  p53 Results: Positive  Percentage of Positive Nuclei: 91-100%, strong nuclear staining.  Primary Antibody: Bp53-11  Test type: Ventana. METHODS  Cold Ischemia and Fixation Times: Meet requirements specified in latest version of the ASCO / CAP Guidelines  Cold Ischemia Time (min): 1-2min  Time of Fixation (hours): 78 hours  Testing Performed on Block Number(s) (specify): 1E  Fixative: Formalin  Image Analysis: Not performed\n\n\nPath report.supplemental reports\n\nFish Report: FISH - POSITIVE for HER-2 oncogene amplification by FISH analysis  POSITIVE for chromosome 17 polysomy by FISH analysis     ## End of auxiliary report ##\n\n\nPath report.microscopic examination\n\nMicroscopic examination is performed.\n\n\nPath report.site of origin\n\nLeft breast mass\n\n\nPath report.comments\n\nComments - The neoplasm is diffusely present in the larger fragment and focally present in the smaller fragment. The larger fragment measures 6.5 cm greatest dimension, thus, the neoplasm is estimated to be at least 6.5 cm in greatest dimension. In some areas features suggestive of squamous differentiation are noted, however, no definitive keratin or intercellular bridges are identified. Sarcomatous features are not seen. The neoplasm demonstrates poorly differentiated features and marked nuclear pleomorphism with scattered tumor giant cells. The grade is based on a score of 9 of 9 (glandular/tubular/acinar differentiation - 3, nuclear pleomorphism - 3, mitotic rate -3). See below for prognostic markers results. Prospective QA review done by Dr. J R Slemmer. FISH Comments - The HER-2 FISH assay (Abbott Molecular/Vysis, Inc.) revealed amplification of the HER-2 oncogene. A ratio of HER-2 gene signals to the centromeric control probe of chromosome 17 (CEP 17) signals was 2.20 and a Her2 copy number of 7.32, (ratio greater or equal to 2.0 or average Her2 copy number >6), indicating amplification. In addition, 84% of cells showed 3 or more copies of both the chromosome 17 centromere (D17Z1) and HER2 probes, suggesting that polysomy or polyploidy may be present in this specimen. Clinical correlation is recommended.    A ratio less than 2.0 and Her2 copy number less than 4 indicates absence of amplification.  A ratio less than 2.0 and Her2 copy number greater or equal to 4 and less than 6 indicates an equivocal value and per ASCO/CAP guidelines, requires reflex to another (IHC for Her2) test.  A ratio greater than or equal to 2.0 or average Her2 copy number greater or equal to 6 indicates gene amplification.    Regions of invasive tumor were defined by a pathologist. The tumor was fixed in formalin (recommended 6-72hrs). Tumor fixed outside the recommended fixation time should be interpreted with caution. Controls were performed and provided the anticipated results. This case has been reviewed by at least 2 observers.\n\n\n"
+}
