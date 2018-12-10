@@ -1,0 +1,20 @@
+<tool id="cdc.ctakes.temporal" name="cTakes Temporal Pipeline" version="1.0.0">
+    <command>lsd $__tool_directory__/invoke.lsd $input $output
+    </command>
+    <inputs>
+        <param format="uima,lif,txt" label="Input" name="input" type="data"/>
+    </inputs>
+    <outputs>
+        <data format="uima" label="Output" name="output">
+        </data>
+    </outputs>
+    <tests>
+    </tests>
+    <help>
+        <![CDATA[
+
+**TBD**
+
+]]>
+    </help>
+</tool>

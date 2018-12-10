@@ -1,1 +1,23 @@
-/target/
+# Eclipse project files.
+.settings
+.project
+.classpath
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Maven
+target/
+
+# Version Plugin
+VERSION
+src/main/java/**/Version.java
+
+# Docker
+src/main/docker/*.war
+
+# Python compiled files
+src/main/resources/**/*.pyc

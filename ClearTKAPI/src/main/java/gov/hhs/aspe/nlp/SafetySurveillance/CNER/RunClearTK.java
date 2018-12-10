@@ -49,11 +49,14 @@ public class RunClearTK {
 		
 		Properties props = new Properties();
 
-		
-		File f = new File("ClearTKAPI.Properties");
+		String propertyFileName = System.getenv("CLEARTK_PROPERTIES");
+		if (propertyFileName == null) {
+			propertyFileName = "ClearTKAPI.properties";
+		}
+		File f = new File(propertyFileName);
 		try (InputStream fis = new FileInputStream(f);) {
 			if (fis==null) {
-				throw new FileNotFoundException("ClearTKAPI.Property cannot be found.");
+				throw new FileNotFoundException("ClearTKAPI.property cannot be found.");
 			} else { 
 				props.load(fis);
 				metaMapRootDir = props.getProperty("MetaMapLiteDirectory");

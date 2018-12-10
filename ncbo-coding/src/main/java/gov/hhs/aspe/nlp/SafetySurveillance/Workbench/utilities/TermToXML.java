@@ -101,7 +101,7 @@ public class TermToXML {
 
 			Element e2 = doc.createElement("tcas:DocumentAnnotation");
 			e2.setAttribute("xmi:id", "1");
-			e2.setAttribute("sofa", "6");
+			e2.setAttribute("sofa", "1");
 			e2.setAttribute("begin", "0");
 			e2.setAttribute("end", (new Integer(rawText.length() - 1)).toString());
 
@@ -123,7 +123,7 @@ public class TermToXML {
 					extractedTermIDString.append(" " + idString);
 					
 					// sofa
-					tmpElement.setAttribute("sofa", "6");
+					tmpElement.setAttribute("sofa", "1");
 
 					int from = term.from-1;
 					tmpElement.setAttribute("begin", new Integer(from).toString());
@@ -152,7 +152,7 @@ public class TermToXML {
 			rootElement.appendChild(e3);
 
 			Element e4 = doc.createElement("cas:View");
-			e4.setAttribute("sofa", "6");
+			e4.setAttribute("sofa", "1");
 			e4.setAttribute("members", extractedTermIDString.toString());
 			rootElement.appendChild(e4);
 
@@ -213,7 +213,7 @@ public class TermToXML {
 
 			Element e2 = doc.createElement("tcas:DocumentAnnotation");
 			e2.setAttribute("xmi:id", "1");
-			e2.setAttribute("sofa", "6");
+			e2.setAttribute("sofa", "1");
 			e2.setAttribute("begin", "0");
 			e2.setAttribute("end", (new Integer(rawText.length() - 1)).toString());
 
@@ -235,7 +235,7 @@ public class TermToXML {
 					extractedTermIDString.append(" " + idString);
 					
 					// sofa
-					tmpElement.setAttribute("sofa", "6");
+					tmpElement.setAttribute("sofa", "1");
 
 					int from = term.from-1;
 					tmpElement.setAttribute("begin", new Integer(from).toString());
@@ -264,7 +264,7 @@ public class TermToXML {
 			rootElement.appendChild(e3);
 
 			Element e4 = doc.createElement("cas:View");
-			e4.setAttribute("sofa", "6");
+			e4.setAttribute("sofa", "1");
 			e4.setAttribute("members", extractedTermIDString.toString());
 			rootElement.appendChild(e4);
 

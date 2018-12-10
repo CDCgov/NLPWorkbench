@@ -13,8 +13,8 @@
 # yet available. If you want you can edit utf8-tokenize.perl and replace
 # \p{XPosixCntrl} with \p{Cntrl}.
 
-download=false
-install=false
+download=true
+install=true
 test=true
 
 data_dir=http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data

@@ -5,8 +5,8 @@
 # defaults the only thing that happens is that bin/mallet is run to print a list
 # of commands. See http://mallet.cs.umass.edu/quick-start.php.
 
-download=false
-install=false
+download=true
+install=true
 test=true
 
 archive=http://mallet.cs.umass.edu/dist/mallet-2.0.8.tar.gz

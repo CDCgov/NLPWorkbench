@@ -1,6 +1,7 @@
 package gov.hhs.aspe.nlp.SafetySurveillance.CoreNLP;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 
 import org.apache.ctakes.constituency.parser.ae.ConstituencyParser;
 import org.apache.ctakes.contexttokenizer.ae.ContextDependentTokenizerAnnotator;
@@ -39,29 +40,24 @@ public class CTakesClinical {
 	/**
 	 * This constructor accepts an input string - the raw text.
 	 * 
-	 * @param narrative
-	 *            The raw text.
 	 */
-	public CTakesClinical() {
+	public CTakesClinical() throws ResourceInitializationException, MalformedURLException
+	{
 
 		aggregateBuilder = new AggregateBuilder();
 
-		try {
-			aggregateBuilder.add(SimpleSegmentAnnotator.createAnnotatorDescription());
-			aggregateBuilder.add(SentenceDetector.createAnnotatorDescription());
-			aggregateBuilder.add(TokenizerAnnotatorPTB.createAnnotatorDescription());
-			aggregateBuilder.add(LvgAnnotator.createAnnotatorDescription());
-			aggregateBuilder.add(ContextDependentTokenizerAnnotator.createAnnotatorDescription());
-			aggregateBuilder.add(POSTagger.createAnnotatorDescription());
-			aggregateBuilder.add(DefaultJCasTermAnnotator.createAnnotatorDescription());
-			aggregateBuilder.add(ClearNLPDependencyParserAE.createAnnotatorDescription());
-			aggregateBuilder.add(AnalysisEngineFactory.createEngineDescription(ClearNLPSemanticRoleLabelerAE.class));
-			aggregateBuilder.add(AnalysisEngineFactory.createEngineDescription(ConstituencyParser.class));
-			multipleAE = aggregateBuilder.createAggregate();
+		aggregateBuilder.add(SimpleSegmentAnnotator.createAnnotatorDescription());
+		aggregateBuilder.add(SentenceDetector.createAnnotatorDescription());
+		aggregateBuilder.add(TokenizerAnnotatorPTB.createAnnotatorDescription());
+		aggregateBuilder.add(LvgAnnotator.createAnnotatorDescription());
+		aggregateBuilder.add(ContextDependentTokenizerAnnotator.createAnnotatorDescription());
+		aggregateBuilder.add(POSTagger.createAnnotatorDescription());
+		aggregateBuilder.add(DefaultJCasTermAnnotator.createAnnotatorDescription());
+		aggregateBuilder.add(ClearNLPDependencyParserAE.createAnnotatorDescription());
+		aggregateBuilder.add(AnalysisEngineFactory.createEngineDescription(ClearNLPSemanticRoleLabelerAE.class));
+		aggregateBuilder.add(AnalysisEngineFactory.createEngineDescription(ConstituencyParser.class));
+		multipleAE = aggregateBuilder.createAggregate();
 
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 
 	/**

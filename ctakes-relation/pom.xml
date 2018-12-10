@@ -1,18 +1,85 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.lappsgrid.maven</groupId>
+		<artifactId>war-parent-pom</artifactId>
+		<version>2.1.0</version>
+	</parent>
 	<groupId>gov.hhs.aspe.nlp.SafetySurveillance.CoreNLP</groupId>
 	<artifactId>ctakes-relation</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>ctakes-relation</name>
+	<packaging>war</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<ctakes.version>4.0.0</ctakes.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
+	<repositories>
+		<repository>
+			<id>cdc-releases</id>
+			<url>http://149.165.157.51:8100/repository/cdc-releases/</url>
+			<releases><enabled>true</enabled></releases>
+			<snapshots><enabled>false</enabled></snapshots>
+		</repository>
+		<repository>
+			<id>cdc-snapshots</id>
+			<url>http://149.165.157.51:8100/repository/cdc-snapshots/</url>
+			<releases><enabled>false</enabled></releases>
+			<snapshots><enabled>true</enabled></snapshots>
+		</repository>
+	</repositories>
 
 	<dependencies>
-
+		<!-- LAPPS Grid Dependencies -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>1.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lappsgrid</groupId>
+			<artifactId>serialization</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lappsgrid</groupId>
+			<artifactId>api</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lappsgrid</groupId>
+			<artifactId>discriminator</artifactId>
+			<version>2.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lappsgrid</groupId>
+			<artifactId>metadata</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>gov.cdc.lappsgrid.uima</groupId>
+			<artifactId>uima-utils</artifactId>
+			<version>1.1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gov.cdc.lappsgrid.uima</groupId>
+			<artifactId>parser</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -35,12 +102,6 @@
 			<groupId>com.lexicalscope.jewelcli</groupId>
 			<artifactId>jewelcli</artifactId>
 			<version>0.8.9</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.ctakes</groupId>
-			<artifactId>ctakes-core</artifactId>
-			<version>4.0.0</version>
 		</dependency>
 
 		<!-- cTAKES module versions -->
@@ -99,10 +160,17 @@
 			<artifactId>ctakes-chunker-res</artifactId>
 			<version>${ctakes.version}</version>
 		</dependency>
+		<!--
 		<dependency>
 			<groupId>org.apache.ctakes</groupId>
 			<artifactId>ctakes-lvg</artifactId>
 			<version>${ctakes.version}</version>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>gov.cdc.lappsgrid.uima.ctakes</groupId>
+			<artifactId>ctakes-lvg-file</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.ctakes</groupId>
@@ -263,12 +331,19 @@
 				</artifactId>
 			<version>${ctakes.version}</version>
 		</dependency>
+		<!--
 		<dependency>
 			<groupId>org.apache.ctakes</groupId>
 			<artifactId>
                                         ctakes-temporal
                                 </artifactId>
 			<version>${ctakes.version}</version>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>gov.cdc.lappsgrid.uima.ctakes</groupId>
+			<artifactId>ctakes-temporal</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.ctakes</groupId>
@@ -282,14 +357,8 @@
 
 	<build>
 
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-			</resource>
-		</resources>
-
 		<plugins>
-
+			<!--
 			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>2.7</version>
@@ -332,6 +401,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			-->
 
 			<!-- <plugin> <artifactId>maven-resources-plugin</artifactId> <version>2.7</version> 
 				<executions> <execution> <id>copy-resource-one</id> <phase>install</phase> 
@@ -340,6 +410,7 @@
 				<includes> <include>sno_rx_16ab.xml</include> </includes> </resource> </resources> 
 				</configuration> </execution> </executions> </plugin> -->
 
+			<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -359,7 +430,7 @@
 					</execution>
 				</executions>
 			</plugin>
-
+			-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -374,6 +445,31 @@
 					</archive>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.anc.maven.plugins</groupId>
+				<artifactId>anc-maven-plugin</artifactId>
+				<version>1.0.7</version>
+				<executions>
+					<execution>
+						<id>version-file</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>version</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>version-class</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>version-class</goal>
+						</goals>
+						<configuration>
+							<package>gov.hhs.aspe.nlp.SafetySurveillance.CoreNLP</package>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 
 

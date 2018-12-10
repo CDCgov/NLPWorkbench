@@ -83,11 +83,6 @@ $ mvn install
 	
 	(b) 	TermToXML ttx = new TermToXML(codedResults, sampleText);
 			String resultXMLStr = ttx.generateXMLString(codedResults);
-			
+
 	As an additional convenience, the results can be stored in a String form that contains the XML content being VAERS Data Type System compliant. In order to get the String result, a utility class of "TermToXML" needs to be instantiated. And the function of "generateXMLString()" can be executed to return the expected XML content in a String.
-
-	(c) 	CAS cas1 = metaMap.writeVaersResultStrIntoCas(cas1, resultXMLStr);
-
-	As one more way of returning the result, a CAS structure can be generated with the writeVaersResultStrIntoCas() function. The 'resultXMLStr' can be obtained by the api in (2).
-	Please note that it's the user/developer's responsibility to generate a valid CAS structure based on the 'vaers.xml' file located in the root of the project.
 	

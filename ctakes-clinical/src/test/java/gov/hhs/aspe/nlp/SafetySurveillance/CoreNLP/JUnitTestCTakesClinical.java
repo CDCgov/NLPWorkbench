@@ -1,7 +1,10 @@
 package gov.hhs.aspe.nlp.SafetySurveillance.CoreNLP;
 
+import org.apache.uima.resource.ResourceInitializationException;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.net.MalformedURLException;
 
 public class JUnitTestCTakesClinical {
 
@@ -9,7 +12,8 @@ public class JUnitTestCTakesClinical {
 	String s2 = "Vaccine given to left arm per client on 11/2/15. She began having itching on 11/3 to left arm and chest. Developed rash on 11/8 to (L) arm, (L) breast and chest, 2-3 spots to center of back. Most spots on breast. Itching/burning worse today. No blisters.";
 
 	@Test
-	public void test() {
+	public void test() throws MalformedURLException, ResourceInitializationException
+	{
 
 		CTakesClinical ct = new CTakesClinical();
 		
@@ -25,6 +29,10 @@ public class JUnitTestCTakesClinical {
 		Assert.assertTrue(result.contains("Drug"));
 		Assert.assertTrue(result.contains("Anatomy"));
 		
+	}
+
+	public void classTest() {
+		org.apache.ctakes.dictionary.lookup2.dictionary.UmlsJdbcRareWordDictionary d;
 	}
 
 }

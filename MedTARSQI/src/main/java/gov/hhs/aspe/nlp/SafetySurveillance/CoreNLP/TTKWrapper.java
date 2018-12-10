@@ -11,9 +11,15 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicLong;
 
 import javax.xml.parsers.ParserConfigurationException;
 
+import gov.cdc.lappsgrid.utils.Utils;
+import gov.cdc.lappsgrid.utils.error.UtilsException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
 
 import gov.hhs.aspe.nlp.SafetySurveillance.Workbench.Temporal.MedTARSQIResultFileReader;
@@ -26,11 +32,14 @@ import gov.hhs.aspe.nlp.SafetySurveillance.Workbench.Temporal.MedTARSQIResultFil
  */
 public class TTKWrapper {
 
-	// a static ID to be associated with the temporary files
-	static long id = 0;
+	private static final Logger logger = LoggerFactory.getLogger(TTKWrapper.class);
 
+	// a static ID to be associated with the temporary files
+	static AtomicLong ID = new AtomicLong();
+
+	private String id;
 	public TTKWrapper() {
-		this.id++;
+		this.id = Long.toString(ID.incrementAndGet());
 	}
 
 	/**
@@ -45,18 +54,59 @@ public class TTKWrapper {
 	 */
 	public String extract(String rawText) throws IOException, InterruptedException {
 
+		String root = System.getenv("TTK_ROOT");
+		if (root == null) {
+			throw new IOException("TTK_ROOT not set.");
+		}
+		File home = new File(root);
+		if (!home.exists()) {
+			throw new FileNotFoundException("TTK_ROOT directory does not exist.");
+		}
+
+		File directory = new File("/tmp/medtarsqi");
+		if (!directory.exists()) {
+			logger.debug("Creating temporary directory.");
+			directory.mkdirs();
+		}
+
 		String xmlInput = "<?xml version=\"1.0\"?><xml><TEXT>" + rawText + "</TEXT></xml>";
-		String xmlInputFile = "MedTARSQI_Input" + new Long(this.id).toString() + ".xml";
+		File xmlInputFile = new File(directory, String.format("input_%s.txt", id));
 		generateMedTARSQIInputFile(xmlInput, xmlInputFile);
 
-		String xmlOutputFile = new String("MedTARSQI_output" + new Long(this.id).toString() + ".xml");
-		Path outputXMLPath = Paths.get(xmlOutputFile);
-		Files.deleteIfExists(outputXMLPath);
+		File xmlOutputFile = new File(directory, String.format("output_%s.txt", id));
+		xmlOutputFile.delete();
+//		String xmlOutputFile = new String("MedTARSQI_output" + new Long(this.id).toString() + ".xml");
+//		Path outputXMLPath = Paths.get(xmlOutputFile);
+//		Files.deleteIfExists(outputXMLPath);
 
-		URL url = this.getClass().getResource("/ttk/tarsqi.py");
-		
-		ProcessBuilder pb = new ProcessBuilder("python", url.getPath().toString().substring(1), xmlInputFile, xmlOutputFile);
+//		URL url = this.getClass().getResource("/ttk/tarsqi.py");
+		String ttk = root + "/tarsqi.py";
+		if (! new File(ttk).exists()) {
+			throw new IOException(" not found.");
+		}
 
+		File mallet = new File(home, "build/mallet-2.0.8");
+		File treetagger = new File(home, "build/TreeTagger");
+		if (!mallet.exists()) {
+			throw new IOException("Mallet not found.");
+		}
+		if (!treetagger.exists()) {
+			throw new IOException("Treetagger not found");
+		}
+		logger.trace("Command {}", ttk);
+		logger.trace("Input: {}", xmlInputFile.getPath());
+		logger.trace("Output: {}", xmlOutputFile.getPath());
+		logger.trace("Root: {}", System.getenv("TTK_ROOT"));
+		String[] args = {
+			"python",
+			ttk,
+			"--treetagger", treetagger.getPath(),
+			"--mallet", mallet.getPath(),
+			xmlInputFile.getPath(),
+			xmlOutputFile.getPath()
+		};
+//		ProcessBuilder pb = new ProcessBuilder("python", ttk, xmlInputFile.getPath(), xmlOutputFile.getPath());
+		ProcessBuilder pb = new ProcessBuilder(args);
 		pb.redirectErrorStream(true);
 		Process p = pb.start();
 		
@@ -67,13 +117,31 @@ public class TTKWrapper {
 		
 		p.waitFor();
 
-		String result = new String(Files.readAllBytes(outputXMLPath));
-
-		Files.deleteIfExists(outputXMLPath);
-		Path p2 = Paths.get(xmlInputFile);
-		Files.deleteIfExists(p2);
-		
-		return result;
+//		try
+//		{
+			if (!p.waitFor(30, TimeUnit.SECONDS))
+			{
+				p.destroyForcibly();
+				logger.error("Process hung");
+				throw new IOException("Processing did not terminate.");
+			}
+			return new String(Files.readAllBytes(xmlOutputFile.toPath()));
+//		}
+		/*
+		finally
+		{
+			if (xmlOutputFile.exists()) {
+				if (!xmlOutputFile.delete()) {
+					xmlOutputFile.deleteOnExit();
+				}
+			}
+			if (xmlInputFile.exists()) {
+				if (!xmlInputFile.delete()) {
+					xmlInputFile.deleteOnExit();
+				}
+			}
+		}
+		*/
 	}
 
 	/**
@@ -84,10 +152,12 @@ public class TTKWrapper {
 	 * @param xmlInputFile
 	 * @throws FileNotFoundException
 	 */
-	public void generateMedTARSQIInputFile(String xmlInput, String xmlInputFile) throws FileNotFoundException {
+	public void generateMedTARSQIInputFile(String xmlInput, File xmlInputFile) throws FileNotFoundException {
+		xmlInputFile.delete();
 		PrintWriter fileOut = null;
 		fileOut = new PrintWriter(xmlInputFile);
 		fileOut.println(xmlInput);
+		fileOut.flush();
 		fileOut.close();
 	}
 

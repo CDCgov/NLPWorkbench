@@ -1,0 +1,1 @@
+export TTK_ROOT=/usr/local/tomcat/webapps/medtarsqi-1.0.0/WEB-INF/classes/ttk

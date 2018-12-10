@@ -45,10 +45,3 @@ https://bioportal.bioontology.org/annotator
 	
 		TermToXML ttx = new TermToXML(codedResults, sampleText);
 		String resultXMLStr = ttx.generateXMLString(codedResults);
-
-	Based on the CDC team's request, a new function has been generated to inject VAERS data into a VAERS-conforming CAS data structure, which is the returned result of the function. 
-	 
-		 	TermToCAS ttc = new TermToCAS(codedResults, cas1, sampleText);
-			cas1 = ttc.generateCASFromTerm();
-			
-	

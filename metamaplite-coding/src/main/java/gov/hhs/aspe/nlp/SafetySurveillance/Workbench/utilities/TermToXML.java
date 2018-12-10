@@ -2,10 +2,6 @@ package gov.hhs.aspe.nlp.SafetySurveillance.Workbench.utilities;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
@@ -14,20 +10,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import org.apache.uima.UIMAFramework;
-import org.apache.uima.cas.CAS;
-import org.apache.uima.resource.ResourceInitializationException;
-import org.apache.uima.resource.metadata.TypeSystemDescription;
-import org.apache.uima.util.CasCreationUtils;
-import org.apache.uima.util.InvalidXMLException;
-import org.apache.uima.util.XMLInputSource;
-import org.apache.uima.util.XMLParser;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -42,6 +29,8 @@ import gov.hhs.aspe.nlp.SafetySurveillance.Workbench.Coding.Term;
  *
  */
 public class TermToXML {
+
+	private String sofaNum = "1";
 
 	HashMap<String, ArrayList<Term>> codedResults = null;
 	String rawText = null;
@@ -118,7 +107,7 @@ public class TermToXML {
 
 			Element e2 = doc.createElement("tcas:DocumentAnnotation");
 			e2.setAttribute("xmi:id", "1");
-			e2.setAttribute("sofa", "6");
+			e2.setAttribute("sofa", sofaNum);
 			e2.setAttribute("begin", "0");
 			e2.setAttribute("end", (new Integer(rawText.length() - 1)).toString());
 
@@ -140,7 +129,7 @@ public class TermToXML {
 					extractedTermIDString.append(" " + idString);
 					
 					// sofa
-					tmpElement.setAttribute("sofa", "6");
+					tmpElement.setAttribute("sofa", sofaNum);
 
 					int from = term.from-1;
 					tmpElement.setAttribute("begin", new Integer(from).toString());
@@ -169,7 +158,7 @@ public class TermToXML {
 			rootElement.appendChild(e3);
 
 			Element e4 = doc.createElement("cas:View");
-			e4.setAttribute("sofa", "6");
+			e4.setAttribute("sofa", sofaNum);
 			e4.setAttribute("members", extractedTermIDString.toString());
 			rootElement.appendChild(e4);
 
@@ -232,7 +221,7 @@ public class TermToXML {
 
 			Element e2 = doc.createElement("tcas:DocumentAnnotation");
 			e2.setAttribute("xmi:id", "1");
-			e2.setAttribute("sofa", "6");
+			e2.setAttribute("sofa", sofaNum);
 			e2.setAttribute("begin", "0");
 			e2.setAttribute("end", (new Integer(rawText.length() - 1)).toString());
 
@@ -254,7 +243,7 @@ public class TermToXML {
 					extractedTermIDString.append(" " + idString);
 					
 					// sofa
-					tmpElement.setAttribute("sofa", "6");
+					tmpElement.setAttribute("sofa", sofaNum);
 
 					int from = term.from-1;
 					tmpElement.setAttribute("begin", new Integer(from).toString());
@@ -283,7 +272,7 @@ public class TermToXML {
 			rootElement.appendChild(e3);
 
 			Element e4 = doc.createElement("cas:View");
-			e4.setAttribute("sofa", "6");
+			e4.setAttribute("sofa", sofaNum);
 			e4.setAttribute("members", extractedTermIDString.toString());
 			rootElement.appendChild(e4);
 
@@ -304,6 +293,7 @@ public class TermToXML {
 //		}
 	}
 
+	
 	
 	/**
 	 * The main class to initiate the class.

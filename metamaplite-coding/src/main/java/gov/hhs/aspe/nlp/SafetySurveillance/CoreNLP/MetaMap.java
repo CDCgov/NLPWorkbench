@@ -5,38 +5,16 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.StringReader;
 import java.lang.reflect.InvocationTargetException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 import java.util.Set;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-
 import java.util.Map.Entry;
-
-import org.apache.uima.UIMAFramework;
-import org.apache.uima.cas.CAS;
-import org.apache.uima.cas.CASException;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.resource.ResourceInitializationException;
-import org.apache.uima.resource.metadata.TypeSystemDescription;
-import org.apache.uima.util.CasCreationUtils;
-import org.apache.uima.util.InvalidXMLException;
-import org.apache.uima.util.XMLInputSource;
-import org.apache.uima.util.XMLParser;
-import org.w3c.dom.*;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 
 import bioc.BioCDocument;
 import gov.hhs.aspe.nlp.SafetySurveillance.Workbench.Coding.Term;
-import gov.hhs.fda.srs.annotation.vaers.ClinicalFeature;
 import gov.nih.nlm.nls.metamap.document.FreeText;
 import gov.nih.nlm.nls.metamap.lite.types.Entity;
 import gov.nih.nlm.nls.metamap.lite.types.Ev;
@@ -50,26 +28,26 @@ public class MetaMap {
 	public MetaMap() throws ClassNotFoundException, InstantiationException, NoSuchMethodException, IllegalAccessException, IOException{
 		this("");
 	}
-	public MetaMap(String metaMapRootDir) throws ClassNotFoundException, InstantiationException, NoSuchMethodException, IllegalAccessException, IOException
+	public MetaMap(final String metaMapRootDir) throws ClassNotFoundException, InstantiationException, NoSuchMethodException, IllegalAccessException, IOException
 	{
 		Properties props = new Properties();
 		if (metaMapRootDir=="") {
-			File f = new File("MetaMapLiteAPI.Properties");
-			InputStream fis = null;
-//            try {
-				fis = new FileInputStream( f );
+			this.metaMapRootDir = System.getenv("PUBLIC_MM_LITE");
+			if (this.metaMapRootDir == null) {
+				InputStream fis = new FileInputStream( "MetaMapLiteAPI.Properties" );
 				if (fis==null) {
 					fis = getClass().getResourceAsStream("MetaMapLiteAPI.Properties");
 				}
 				props.load(fis);
 				this.metaMapRootDir = props.getProperty("MetaMapLiteDirectory");
 				fis.close();
-//			} catch (IOException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
+			}
+
 		} else {
 			this.metaMapRootDir = metaMapRootDir;
+		}
+		if (! this.metaMapRootDir.endsWith("/")) {
+			this.metaMapRootDir = this.metaMapRootDir + "/";
 		}
 		Properties myProperties = new Properties();
 		MetaMapLite.expandModelsDir(myProperties,
@@ -207,55 +185,6 @@ public class MetaMap {
 		}
 	}
 
-
-	public CAS writeVaersResultStrIntoCas(CAS cas, String resultXMLStr) throws IOException, InvalidXMLException, ResourceInitializationException, ParserConfigurationException, SAXException, CASException {
-		CAS modifiedCas = cas;
-		if (modifiedCas == null) {
-			URL url = this.getClass().getClassLoader().getResource("vaers.xml");
-			if (url == null) {
-				throw new IOException("Could not find type system");
-			} 
-				XMLInputSource inputSource = new XMLInputSource(url);
-				XMLParser parser = UIMAFramework.getXMLParser();
-				TypeSystemDescription tsd = parser.parseTypeSystemDescription(inputSource);
-				modifiedCas = CasCreationUtils.createCas(tsd, null, null, null);
-		} 
-
-		JCas jcas = modifiedCas.getJCas();
-		
-		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-		factory.setIgnoringElementContentWhitespace(true);
-		DocumentBuilder builder = factory.newDocumentBuilder();
-		InputSource is = new InputSource(new StringReader(resultXMLStr));
-		Document doc = builder.parse(is);
-		
-		NodeList nodes = doc.getDocumentElement().getChildNodes();
-		for (int i = 0; i < nodes.getLength(); i++) {
-			Node n = nodes.item(i);
-			String nodeName = n.getNodeName();
-			if (nodeName != null) {
-				if (nodeName.contains("vaers")) {
-//					System.out.println("the NodeName contains vaers");
-					NamedNodeMap nnp1 = n.getAttributes();
-					int begin = Integer.parseInt(nnp1.getNamedItem("begin").getNodeValue());
-					int end = Integer.parseInt(nnp1.getNamedItem("end").getNodeValue());
-					// notably, 'text' is not stored in cTAKES event elements.
-					String text = nnp1.getNamedItem("text").getNodeValue();
-					String preferred_term = nnp1.getNamedItem("preferred_term").getNodeValue();
-
-					ClinicalFeature cf = new ClinicalFeature(jcas);
-					cf.setBegin(begin);
-					cf.setEnd(end);
-					cf.setText(text);
-					cf.setPreferred_term(preferred_term);
-					jcas.addFsToIndexes(cf);
-				}
-			}
-		}
-
-		return jcas.getCas();
-	}
-	
     /*
     
 	public static void main(String[] args) throws InvocationTargetException, Exception{

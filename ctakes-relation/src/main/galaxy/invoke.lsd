@@ -1,0 +1,10 @@
+
+//TODO This needs to be changed to the URL for the service that is actually deployed.
+String url = "http://localhost:8080/ctakes-relation-1.0.0/services/CTakesTemporalService"
+
+File input = new File(args[0])
+File output = new File(args[1])
+
+ServiceClient service = new ServiceClient(url)
+
+output.text = service.execute(input.text)

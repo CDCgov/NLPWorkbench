@@ -1,1 +1,19 @@
-/target/
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.settings
+.project
+.classpath
+
+VERSION
+src/main/java/**/Version.java
+
+src/main/docker/*.war
+

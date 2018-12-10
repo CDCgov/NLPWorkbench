@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+target/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.settings
+.classpath
+
+src/main/docker/*.war
+
+VERSION
+src/main/java/**/Version.java

@@ -82,12 +82,12 @@ public class NCBO_REST {
 	 */
 	public NCBO_REST(boolean reload){
 		
-		String ontologyFileName = "classes\\\\ontology\\\\OntologyList.txt";
+//		String ontologyFileName = "classes\\\\ontology\\\\OntologyList.txt";
         ontologyList = new OntologyList();
 		if(reload){
 	        // Iterate looking for ontologies
 			JsonNode ontologies = null;
-			OntologyWriter oWriter = new OntologyWriter(ontologyFileName);
+//			OntologyWriter oWriter = new OntologyWriter(ontologyFileName);
 	        String ontologies_string = get(API_URL + "ontologies");
 	        ontologies = jsonToNode(ontologies_string);
 	        for (JsonNode o: ontologies) {
@@ -108,8 +108,8 @@ public class NCBO_REST {
 	        	ontologyList.acronymToName.put(strAcry, strName );
 	        	ontologyList.ontologyMapping.put(strAcry, curOnt);
 	        }
-	        Collections.sort(ontologyList.name);	
-	        oWriter.exec(ontologyList);
+//	        Collections.sort(ontologyList.name);
+//	        oWriter.exec(ontologyList);
 		}
 		else{
 			OntologyWriter oWriter = new OntologyWriter();
@@ -327,10 +327,12 @@ public class NCBO_REST {
 	 * @param range
 	 * @return
 	 */
-	public HashMap<String, ArrayList<Term>> processText(String rawText, 
+	public HashMap<String, ArrayList<Term>> processText(String rawText,
 			ArrayList<String> selectedOntologies,
 			ArrayList<String> selectedUMLS, int range){
-		
+
+		HashMap<String, ArrayList<Term>> termMapping = new HashMap<String, ArrayList<Term>> ();
+
 		boolean isETHER = false, isMetaMap = false; 
 		if(selectedOntologies != null)
 		{
@@ -349,7 +351,7 @@ public class NCBO_REST {
 					selectedOntologies.add("ETHER");
 				if(isMetaMap)
 					selectedOntologies.add("MetaMapLite");
-				return null;
+				return termMapping;
 			}
 		}
 //		JsonNode results = null;
@@ -366,13 +368,12 @@ public class NCBO_REST {
 				selectedOntologies.add("ETHER");
 			if(isMetaMap)
 				selectedOntologies.add("MetaMapLite");			
-			return null;
+			return termMapping;
 		}
 
 		String context = "";
 		String strSep = ". ";
-		HashMap<String, ArrayList<Term>> termMapping = new HashMap<String, ArrayList<Term>> ();
-		int shift = 0; 
+		int shift = 0;
 		for (JsonNode res : results) {
 			JsonNode ant1 = res.get("annotations");
 			for (JsonNode annotated : ant1) {

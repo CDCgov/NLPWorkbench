@@ -1,1 +1,15 @@
-/target/
+.settings
+.project
+.classpath
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+target/
+
+VERSION
+src/main/java/**/Version.java
+
+src/main/docker/*.war
