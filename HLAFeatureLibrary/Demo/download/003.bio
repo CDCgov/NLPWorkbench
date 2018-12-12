@@ -1,0 +1,170 @@
+Gross Word False NNP True 5 UpperInitial start start Pathology NNP B-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+Pathology Word False NNP True 9 UpperInitial Gross NNP Specimen NNP I-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+
+Specimen Word False NNP True 8 UpperInitial Pathology NNP is VBZ O
+is Word False VBZ False 2 Lowercase Specimen NNP received VBN O
+received Word False VBN False 8 Lowercase is VBZ in IN O
+in Word False IN False 2 Lowercase received VBN formalin NN O
+formalin Word False NN True 8 Lowercase in IN , , O
+, Punctuation False , False 1 Punctuation formalin NN labeled VBN O
+labeled Word False VBN False 7 Lowercase , , as IN O
+as Word False IN False 2 Lowercase labeled VBN " '' O
+" Punctuation False '' False 1 Punctuation as IN Rectum NNP O
+Rectum Word False NNP True 6 UpperInitial " '' Polyp NNP O
+Polyp Word False NNP True 5 UpperInitial Rectum NNP " '' O
+" Punctuation False '' False 1 Punctuation Polyp NNP with IN O
+with Word False IN False 4 Lowercase " '' the DT O
+the Word False DT True 3 Lowercase with IN patient NN O
+patient Word False NN True 7 Lowercase the DT s VBZ O
+s Word False VBZ True 1 Lowercase patient NN ' POS O
+' Punctuation False POS True 1 Punctuation s VBZ name NN O
+name Word False NN True 4 Lowercase ' POS and CC O
+and Word False CC False 3 Lowercase name NN consists VBZ O
+consists Word False VBZ False 8 Lowercase and CC of IN O
+of Word False IN False 2 Lowercase consists VBZ 1 CD O
+1 Digit False CD True 1 Number of IN piece NN O
+piece Word False NN True 5 Lowercase 1 CD of IN O
+of Word False IN False 2 Lowercase piece NN soft JJ O
+soft Word False JJ True 4 Lowercase of IN pink JJ O
+pink Word False JJ True 4 Lowercase soft JJ tissue NN O
+tissue Word False NN True 6 Lowercase pink JJ measuring VBG O
+measuring Word False VBG False 9 Lowercase tissue NN 0.2 CD O
+0.2 Punctuation False CD True 3 Punctuation measuring VBG x SYM O
+x Word False SYM False 1 Lowercase 0.2 CD 0.2 CD O
+0.2 Punctuation False CD True 3 Punctuation x SYM x SYM O
+x Word False SYM False 1 Lowercase 0.2 CD 0.1 CD O
+0.1 Punctuation False CD True 3 Punctuation x SYM cm NN O
+cm Word False NN True 2 Lowercase 0.1 CD . . O
+. Punctuation False . False 1 Punctuation cm NN All DT O
+
+All Word False DT True 3 UpperInitial . . submitted VBN O
+submitted Word False VBN False 9 Lowercase All DT ( ( O
+( Punctuation False ( False 1 Punctuation submitted VBN 1 CD O
+1 Digit False CD True 1 Number ( ( Block NNP O
+Block Word False NNP True 5 UpperInitial 1 CD ) ) O
+) Punctuation False ) False 1 Punctuation Block NNP . . O
+. Punctuation False . False 1 Punctuation ) ) Final NNP O
+
+Final Word False NNP True 5 UpperInitial . . Diagnosis NNP B-FINALDIAGNOSISHEADING
+Diagnosis Word False NNP True 9 UpperInitial Final NNP Mantle NNP I-FINALDIAGNOSISHEADING
+
+Mantle Word False NNP True 6 UpperInitial Diagnosis NNP cell NN B-CANCERHISTOLOGYTYPE
+cell Word False NN True 4 Lowercase Mantle NNP lymphoma NN I-CANCERHISTOLOGYTYPE
+lymphoma Word False NN True 8 Lowercase cell NN ( ( I-CANCERHISTOLOGYTYPE
+( Punctuation False ( False 1 Punctuation lymphoma NN MCL NNP O
+MCL Word False NNP True 3 Uppercase ( ( ) ) O
+) Punctuation False ) False 1 Punctuation MCL NNP . . O
+. Punctuation False . False 1 Punctuation ) ) ( ( O
+
+( Punctuation False ( False 1 Punctuation . . See VB O
+See Word False VB False 3 UpperInitial ( ( comment VB O
+comment Word False VB False 7 Lowercase See VB ) ) B-COMMENTSHEADING
+) Punctuation False ) False 1 Punctuation comment VB . . O
+. Punctuation False . False 1 Punctuation ) ) Nature NNP O
+
+Nature Word False NNP True 6 UpperInitial . . of IN B-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+of Word False IN False 2 Lowercase Nature NNP Specimen NNP I-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+Specimen Word False NNP True 8 UpperInitial of IN Colon NN I-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+
+Colon Word False NN True 5 UpperInitial Specimen NNP - : B-ORGAN/BODYSTRUCTURE
+- Punctuation False : False 1 Punctuation Colon NN Rectum NNP O
+Rectum Word False NNP True 6 UpperInitial - : Polyp NNP B-PRIMARYORIGINOFNEOPLASM
+Polyp Word False NNP True 5 UpperInitial Rectum NNP Cold NNP O
+Cold Word False NNP True 4 UpperInitial Polyp NNP Biopsy NNP O
+Biopsy Word False NNP True 6 UpperInitial Cold NNP ( ( O
+( Punctuation False ( False 1 Punctuation Biopsy NNP R NN O
+R Word False NN True 1 Uppercase ( ( / NN O
+/ Punctuation False NN True 1 Punctuation R NN O NNP O
+O Word False NNP True 1 Uppercase / NN adenoma NN O
+adenoma Word False NN True 7 Lowercase O NNP ) ) O
+) Punctuation False ) False 1 Punctuation adenoma NN ( ( O
+( Punctuation False ( False 1 Punctuation ) ) Sample NNP O
+Sample Word False NNP True 6 UpperInitial ( ( 1 LS B-SPECIMENIDENTIFIER
+1 Digit False LS True 1 Number Sample NNP ) ) I-SPECIMENIDENTIFIER
+) Punctuation False ) False 1 Punctuation 1 LS Gross NNP O
+
+Gross Word False NNP True 5 UpperInitial ) ) Pathology NNP B-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+Pathology Word False NNP True 9 UpperInitial Gross NNP Specimen NNP I-MACROSCOPIC/GROSSDESCRIPTIONHEADING
+
+Specimen Word False NNP True 8 UpperInitial Pathology NNP is VBZ O
+is Word False VBZ False 2 Lowercase Specimen NNP received VBN O
+received Word False VBN False 8 Lowercase is VBZ in IN O
+in Word False IN False 2 Lowercase received VBN formalin NN O
+formalin Word False NN True 8 Lowercase in IN , , O
+, Punctuation False , False 1 Punctuation formalin NN labeled VBN O
+labeled Word False VBN False 7 Lowercase , , as IN O
+as Word False IN False 2 Lowercase labeled VBN " '' O
+" Punctuation False '' False 1 Punctuation as IN Rectum NNP O
+Rectum Word False NNP True 6 UpperInitial " '' Polyp NNP O
+Polyp Word False NNP True 5 UpperInitial Rectum NNP " '' O
+" Punctuation False '' False 1 Punctuation Polyp NNP with IN O
+with Word False IN False 4 Lowercase " '' the DT O
+the Word False DT True 3 Lowercase with IN patient NN O
+patient Word False NN True 7 Lowercase the DT s VBZ O
+s Word False VBZ True 1 Lowercase patient NN ' POS O
+' Punctuation False POS True 1 Punctuation s VBZ name NN O
+name Word False NN True 4 Lowercase ' POS and CC O
+and Word False CC False 3 Lowercase name NN consists VBZ O
+consists Word False VBZ False 8 Lowercase and CC of IN O
+of Word False IN False 2 Lowercase consists VBZ 1 CD O
+1 Digit False CD True 1 Number of IN piece NN O
+piece Word False NN True 5 Lowercase 1 CD of IN O
+of Word False IN False 2 Lowercase piece NN soft JJ O
+soft Word False JJ True 4 Lowercase of IN pink JJ O
+pink Word False JJ True 4 Lowercase soft JJ tissue NN O
+tissue Word False NN True 6 Lowercase pink JJ measuring VBG O
+measuring Word False VBG False 9 Lowercase tissue NN 0.3 CD O
+0.3 Punctuation False CD True 3 Punctuation measuring VBG x SYM O
+x Word False SYM False 1 Lowercase 0.3 CD 0.2 CD O
+0.2 Punctuation False CD True 3 Punctuation x SYM x SYM O
+x Word False SYM False 1 Lowercase 0.2 CD 0.1 CD O
+0.1 Punctuation False CD True 3 Punctuation x SYM cm NN O
+cm Word False NN True 2 Lowercase 0.1 CD . . O
+. Punctuation False . False 1 Punctuation cm NN All DT O
+
+All Word False DT True 3 UpperInitial . . submitted VBN O
+submitted Word False VBN False 9 Lowercase All DT ( ( O
+( Punctuation False ( False 1 Punctuation submitted VBN 1 CD O
+1 Digit False CD True 1 Number ( ( Block NNP O
+Block Word False NNP True 5 UpperInitial 1 CD ) ) O
+) Punctuation False ) False 1 Punctuation Block NNP . . O
+. Punctuation False . False 1 Punctuation ) ) Final NNP O
+
+Final Word False NNP True 5 UpperInitial . . Diagnosis NNP B-FINALDIAGNOSISHEADING
+Diagnosis Word False NNP True 9 UpperInitial Final NNP Mantle NNP I-FINALDIAGNOSISHEADING
+
+Mantle Word False NNP True 6 UpperInitial Diagnosis NNP cell NN B-CANCERHISTOLOGYTYPE
+cell Word False NN True 4 Lowercase Mantle NNP lymphoma NN I-CANCERHISTOLOGYTYPE
+lymphoma Word False NN True 8 Lowercase cell NN ( ( I-CANCERHISTOLOGYTYPE
+( Punctuation False ( False 1 Punctuation lymphoma NN MCL NNP O
+MCL Word False NNP True 3 Uppercase ( ( ) ) O
+) Punctuation False ) False 1 Punctuation MCL NNP . . O
+. Punctuation False . False 1 Punctuation ) ) ( ( O
+
+( Punctuation False ( False 1 Punctuation . . See VB O
+See Word False VB False 3 UpperInitial ( ( comment VB O
+comment Word False VB False 7 Lowercase See VB ) ) B-COMMENTSHEADING
+) Punctuation False ) False 1 Punctuation comment VB . . O
+. Punctuation False . False 1 Punctuation ) ) Nature NNP O
+
+Nature Word False NNP True 6 UpperInitial . . of IN B-NATUREOFSPECIMENHEADING
+of Word False IN False 2 Lowercase Nature NNP Specimen NNP I-NATUREOFSPECIMENHEADING
+Specimen Word False NNP True 8 UpperInitial of IN Colon NN I-NATUREOFSPECIMENHEADING
+
+Colon Word False NN True 5 UpperInitial Specimen NNP - : B-ORGAN/BODYSTRUCTURE
+- Punctuation False : False 1 Punctuation Colon NN Rectum NNP O
+Rectum Word False NNP True 6 UpperInitial - : Polyp NNP B-PRIMARYORIGINOFNEOPLASM
+Polyp Word False NNP True 5 UpperInitial Rectum NNP Cold NNP O
+Cold Word False NNP True 4 UpperInitial Polyp NNP Biopsy NNP O
+Biopsy Word False NNP True 6 UpperInitial Cold NNP ( ( O
+( Punctuation False ( False 1 Punctuation Biopsy NNP R NN O
+R Word False NN True 1 Uppercase ( ( / NN O
+/ Punctuation False NN True 1 Punctuation R NN O NNP O
+O Word False NNP True 1 Uppercase / NN adenoma NN O
+adenoma Word False NN True 7 Lowercase O NNP ) ) O
+) Punctuation False ) False 1 Punctuation adenoma NN ( ( O
+( Punctuation False ( False 1 Punctuation ) ) Sample NNP O
+Sample Word False NNP True 6 UpperInitial ( ( 2 LS B-SPECIMENIDENTIFIER
+2 Digit False LS True 1 Number Sample NNP ) ) I-SPECIMENIDENTIFIER
+) Punctuation False ) False 1 Punctuation 2 LS end end O
+
